@@ -1,0 +1,22 @@
+government = theocracy
+add_government_reform = tribute_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = novgorodian
+add_accepted_culture = lithuanian
+add_accepted_culture = hungarian
+religion = norse_pagan_reformed
+historical_friend = TEU
+historical_rival = CRI
+capital = 280
+add_army_professionalism = 0.1
+
+1444.5.1 = {
+	monarch = {
+		name = "Kraynor"
+		culture = novgorodian
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}

@@ -1,0 +1,18 @@
+government = native
+add_government_reform = native_clan_council_reform
+primary_culture = aleutian
+religion = totemism
+technology_group = north_american
+unit_type = north_american
+capital = 2611
+historical_rival = Q01
+
+1444.11.11 = {
+	monarch = {
+		name = "Tayagum"
+		dynasty = "Aliga"
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}

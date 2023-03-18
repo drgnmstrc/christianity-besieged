@@ -1,0 +1,21 @@
+# No previous file for Ulva
+
+owner = M52
+controller = M52
+add_core = M52
+is_city = yes
+culture = miskito 
+religion = quetzacoatl 
+capital = "Ulva"
+trade_goods = cocoa
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+
+
+discovered_by = mesoamerican

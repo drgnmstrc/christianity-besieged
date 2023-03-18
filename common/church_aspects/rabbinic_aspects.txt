@@ -1,0 +1,75 @@
+third_temple_aspect = {
+	cost = 100
+	modifier = {
+		global_unrest = -1
+		tolerance_own = 2
+	}
+}
+
+embrace_orthodoxy_aspect = {
+	cost = 100
+	modifier = {
+		church_influence_modifier = 0.05
+		global_missionary_strength = 0.025
+	}
+}
+
+arabian_cavalry_aspect = {
+	cost = 100
+	modifier = {
+		cavalry_power = 0.1
+	}
+}
+
+noahide_laws_aspect = {
+	cost = 100
+	modifier = {
+		culture_conversion_cost = -0.1
+		tolerance_heathen = 2
+	}
+}
+
+mehlella_aspect = {
+	cost = 100
+	modifier = {
+		warscore_cost_vs_other_religion = -0.1
+	}
+}
+
+rememberance_aspect = {
+	cost = 100
+	modifier = {
+		enemy_core_creation = 0.2
+	}
+}
+
+embracing_reformism_aspect = {
+	cost = 100
+	modifier = {
+		idea_cost = -0.05
+		innovativeness_gain = 0.1
+	}
+}
+
+envisioning_yahwehs_creations_aspect = {
+	cost = 100
+	modifier = {
+		build_cost = -0.1
+		great_project_upgrade_cost = -0.2
+	}
+}
+
+rallying_against_canaan_aspect = {
+	cost = 100
+	modifier = {
+		global_manpower_modifier = 0.2
+	}
+}
+
+abrahamic_relationships_aspect = {
+	cost = 100
+	modifier = {
+		diplomatic_reputation = 2
+		improve_relation_modifier = 0.1
+	}
+}

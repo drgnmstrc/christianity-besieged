@@ -1,0 +1,17 @@
+#4042 - Makonde
+
+owner = MKU
+controller = MKU
+add_core = MKU
+culture = makua
+religion = mwari #Fetishism
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Makonde"
+discovered_by = east_african
+discovered_by = central_african
+
+discovered_by = south_african

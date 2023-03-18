@@ -1,0 +1,23 @@
+#1952 - Máramaros
+
+owner = V11
+controller = V11
+add_core = V11
+culture = transylvanian
+religion = slavic
+capital = "Sighet"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+
+
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

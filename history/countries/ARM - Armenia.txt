@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = armenian
+religion = manichaeism
+technology_group = near_east
+capital = 419
+historical_friend = PER
+
+1444.1.1 = {
+	monarch = {
+		name = "Mehdi"
+		dynasty = "Arascid"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

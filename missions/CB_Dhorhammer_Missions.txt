@@ -1,0 +1,56 @@
+dhorhammer_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = A03
+			was_tag = A03
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	dhor_rodhaenger_recruitment = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			owns = 2410
+			2410 = {
+				base_tax = 6
+				base_manpower = 6
+			}
+			calc_true_if = {
+				all_ally = {
+					religion = rodoptr
+				}
+				amount = 3
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			2410 = {
+				change_culture = novgorodian
+				change_religion = rodoptr
+				add_base_tax = 1
+				add_base_production = 2
+				add_base_manpower = 1
+			}
+		}
+	}
+
+	dhor_standardized_government = {
+		icon = mission_conquer_50_development
+		required_missions = { dhor_rodhaenger_recruitment }
+		position = 2
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 2
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			remove_country_modifier = dhorhammer_apathy
+			#event to get an actual government
+		}	
+	}
+}

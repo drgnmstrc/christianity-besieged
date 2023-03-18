@@ -1,0 +1,21 @@
+#103 - Piedmont
+
+owner = G19
+controller = G19
+add_core = G19
+culture = torino
+religion = ashabi
+hre = no
+base_tax = 5 
+base_production = 7
+trade_goods = wine
+base_manpower = 3
+capital = "Torino"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = east_african

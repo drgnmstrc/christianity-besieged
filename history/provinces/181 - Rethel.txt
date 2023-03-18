@@ -1,0 +1,23 @@
+# 181 Rethel
+
+owner = B01
+controller = B01
+add_core = B01
+capital = "Rethel"
+is_city = yes
+culture = wallonian
+religion = anglican
+hre = no
+base_tax = 6 
+base_production = 6
+trade_goods = cloth
+base_manpower = 2
+add_core = NEV 
+add_claim = PRO
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

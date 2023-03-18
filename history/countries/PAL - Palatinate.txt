@@ -1,0 +1,50 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = alemanni
+religion = germanic
+elector = yes
+technology_group = eastern
+capital = 77	# Pfalz
+
+1428.8.7 = {
+	monarch = {
+		name = "Erwan III"
+		dynasty = "Raimund"
+		birth_date = 1427.8.7
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}
+
+1438.10.18 = {
+	queen = {
+		country_of_origin = ULM
+		name = "Margeria"
+		dynasty = "Amalung"
+		culture = ostrogothic
+		birth_date = 1428.8.7
+		death_date = 1479.9.30
+		female = yes
+		adm = 4
+		dip = 6
+		mil = 1
+	}
+}
+
+1443.8.2 = {
+	heir = {
+		name = "Ewould"
+		monarch_name = "Ewould II"
+		dynasty = "Raimund"
+		birth_date = 1443.8.1
+		death_date = 1496.12.12
+		claim = 95
+		adm = 3
+		dip = 6
+		mil = 0
+	}
+}

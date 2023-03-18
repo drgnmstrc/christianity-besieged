@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = swedish
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 27
+government_rank = 1
+
+1440.4.9 = {
+	monarch = {
+		name = "Egil"
+		dynasty = "Jedvardr"
+		birth_date = 1412.6.11
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

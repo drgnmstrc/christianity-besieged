@@ -1,0 +1,15 @@
+government = republic
+add_government_reform = mudarian_slavers
+primary_culture = duala
+religion = mudarian
+technology_group = sub_saharan
+capital = 5029
+unit_type = sub_saharan
+1442.1.1 = {
+	monarch = {
+		name = "Abdullah"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

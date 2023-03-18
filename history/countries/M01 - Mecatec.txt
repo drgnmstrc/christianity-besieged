@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = guamares
+religion = quetzacoatl
+technology_group = mesoamerican
+capital = 2615
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Konxawl"
+		dynasty = "Mecatlahto"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

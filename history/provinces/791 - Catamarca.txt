@@ -1,0 +1,16 @@
+#791 - Catamarca
+
+culture = diaguita
+owner = CCQ
+controller = CCQ
+add_core = CCQ
+is_city = yes
+discovered_by = south_american
+discovered_by = andean
+religion = inti
+capital = "Catamarca"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2

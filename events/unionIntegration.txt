@@ -1,0 +1,439 @@
+namespace = unionIntegration
+country_event = {
+	id = unionIntegration.0
+	title = unionIntegration.t
+	desc = {
+		trigger = { has_country_flag = north_iberian_union }
+		desc = unionIntegration.d1
+	}
+	desc = {
+		trigger = { has_country_flag = central_iberian_union }
+		desc = unionIntegration.d2
+	}
+	desc = {
+		trigger = { has_country_flag = south_iberian_union}
+		desc = unionIntegration.d3
+	}
+	desc = {
+		trigger = { has_country_flag = intercacia_iberian_union }
+		desc = unionIntegration.d4
+	}
+	desc = {
+		trigger = { has_country_flag = callaeci_iberian_union }
+		desc = unionIntegration.d5
+	}
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						J01 = { is_subject_of = ROOT }
+						J01 = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = central_iberian_union }
+				}
+				J01 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = J01
+			}
+			if = {
+				limit = {
+					OR = {
+						LON = { is_subject_of = ROOT }
+						LON = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = callaeci_iberian_union }
+				}
+				LON = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = LON
+			}
+			if = {
+				limit = {
+					OR = {
+						J02 = { is_subject_of = ROOT }
+						J02 = { alliance_with = ROOT }
+					}
+				}
+				J02 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				inherit = J02
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						J03 = { is_subject_of = ROOT }
+						J03 = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = callaeci_iberian_union }
+				}
+				J03 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = J03
+			}
+			if = {
+				limit = {
+					OR = {
+						J04 = { is_subject_of = ROOT }
+						J04 = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = north_iberian_union }
+				}
+				J04 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = J04
+			}
+			if = {
+				limit = {
+					OR = {
+						J05 = { is_subject_of = ROOT }
+						J05 = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = north_iberian_union }
+					NOT = { has_country_flag = central_iberian_union }
+				}
+				J05 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = J05
+			}
+			if = {
+				limit = {
+					OR = {
+						J08 = { is_subject_of = ROOT }
+						J08 = { alliance_with = ROOT }
+					}
+				}
+				J08 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+				}
+				inherit = J08
+			}
+			if = {
+				limit = {
+					OR = {
+						J12 = { is_subject_of = ROOT }
+						J12 = { alliance_with = ROOT }
+					}
+				}
+				J12 = {
+					every_owned_province = {
+						set_local_autonomy = 95
+					}
+					inherit = J12
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						GAL = { is_subject_of = ROOT }
+						GAL = { alliance_with = ROOT }
+					}
+					NOT = { has_country_flag = south_iberian_union }
+				}
+				GAL = {
+					every_owned_province = {
+						limit = {
+							NOT = { local_autonomy = 95 }
+						}
+						set_local_autonomy = 95
+					}
+				}
+				inherit = GAL
+			}
+		}
+	}
+	option = { #We will give them the autonomy they desire
+		name = unionIntegration.a
+		custom_tooltip = iberian_union_liked_that
+		add_stability = 1
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = north_iberian_union
+				}
+				release = J04
+				create_march = J04
+				release = J05
+				reverse_add_opinion = {
+					who = J05
+					modifier = appreciate_iberian_autonomy
+				}
+				reverse_add_opinion = {
+					who = J04
+					modifier = appreciate_iberian_autonomy
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = central_iberian_union
+				}
+				release = J05
+				create_march = J05
+				release = J01
+				reverse_add_opinion = {
+					who = J05
+					modifier = appreciate_iberian_autonomy
+				}
+				reverse_add_opinion = {
+					who = J01
+					modifier = appreciate_iberian_autonomy
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = south_iberian_union
+				}
+				reverse_add_opinion = {
+					who = GAL
+					modifier = appreciate_iberian_autonomy
+				}
+				release = GAL
+			}
+			if = {
+				limit = {
+					has_country_flag = callaeci_iberian_union
+				}
+				release = LON
+				release = J03
+				create_subject = {
+					subject_type = march
+					subject = LON
+				}
+				reverse_add_opinion = {
+					who = LON
+					modifier = appreciate_iberian_autonomy
+				}
+				reverse_add_opinion = {
+					who = J03
+					modifier = appreciate_iberian_autonomy
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = intercacia_iberian_union
+				}
+				add_dip_power = -50
+				every_known_country = {
+					limit = {
+						religion_group = muslim
+						capital_scope = {
+							region = iberia_region
+						}
+					}
+					add_opinion = {
+						who = J06
+						modifier = appreciate_iberian_autonomy
+					}
+				}
+				reverse_add_opinion = {
+					who = U01
+					modifier = appreciate_iberian_autonomy
+				}
+				reverse_add_opinion = {
+					who = Y03
+					modifier = appreciate_iberian_autonomy
+				}
+				if = {
+					limit = {
+						exists = G02
+						is_neighbor_of = G02
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = muslim
+							OR = {
+								area = asturias_area
+								area = basque_country
+								area = aragon_area
+								area = galicia_area
+							}
+						}
+						cede_province = G02
+					}
+				}
+				if = {
+					limit = {
+						exists = J10
+						is_neighbor_of = J10
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = muslim
+							OR = {
+								area = castille_area
+								area = leon_area
+								area = toledo_area
+							}
+						}
+						cede_province = J10
+					}
+				}
+				if = {
+					limit = {
+						exists = R04
+						is_neighbor_of = R04
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = muslim
+							OR = {
+								area = extremadura_area
+								area = alentejo_area
+								area = beieras_area
+							}
+						}
+						cede_province = R04
+					}
+				}
+				if = {
+					limit = {
+						exists = J09
+						is_neighbor_of = J09
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = muslim
+							OR = {
+								area = lower_andalucia_area
+								area = upper_andalucia_area
+								area = toledo_area
+							}
+						}
+						cede_province = J09
+					}
+				}
+				if = {
+					limit = {
+						exists = Y02
+						is_neighbor_of = Y02
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = muslim
+							area = valencia_area
+						}
+						cede_province = Y02
+					}
+				}
+			}
+		}
+		custom_tooltip = iberian_autonomy_consequence
+	}
+
+	option = { #Lol yea right
+		name = unionIntegration.b
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = north_iberian_union
+				}
+				J05 = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				J04 = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				inherit = J04
+				inherit = J05
+			}
+			if = {
+				limit = {
+					has_country_flag = central_iberian_union
+				}
+				J05 = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				J01 = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				inherit = J05
+				inherit = J01
+			}
+			if = {
+				limit = {
+					has_country_flag = south_iberian_union
+				}
+				GAL = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				inherit = GAL
+			}
+			if = {
+				limit = {
+					has_country_flag = callaeci_iberian_union
+				}
+				LON = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				J03 = {
+					every_owned_province = {
+						add_unrest = 10
+					}
+				}
+				inherit = LON
+				inherit = J03
+			}
+			if = {
+				limit = {
+					has_country_flag = intercacia_iberian_union
+				}
+				every_known_country = {
+					limit = {
+						religion_group = muslim
+						any_owned_province = {
+							region = iberia_region
+						}
+					}
+					add_opinion = {
+						who = J06
+						modifier = oppressing_aybirean_faithful
+					}
+				}
+				every_owned_province = {
+					limit = {
+						religion_group = muslim
+					}
+					add_province_modifier = {
+						duration = 1325
+						name = oppressed_iberians
+					}
+				}
+			}
+		}
+		add_prestige = 15
+		custom_tooltip = oppressing_aybirean_faithful_tt
+	}
+}

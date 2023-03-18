@@ -1,0 +1,25 @@
+# - Oujda
+
+owner = R02
+controller = R02
+add_core = R02
+culture = zenati
+religion = mutazila
+capital = "Oujda"
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+
+
+
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

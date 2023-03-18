@@ -1,0 +1,20 @@
+#307 - Vladimir
+
+owner = Z10
+controller = Z10 
+culture = russian
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = slaves  
+base_manpower = 1
+capital = "Vladimir"
+is_city = yes
+add_core = Z10
+discovered_by = GOL
+discovered_by = KAZ
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

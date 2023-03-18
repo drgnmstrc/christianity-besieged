@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+mercantilism = 25
+primary_culture = fiorenorum
+religion = sol_invictus
+technology_group = ottoman
+capital = 116 # Firenze
+add_army_professionalism = 0.05

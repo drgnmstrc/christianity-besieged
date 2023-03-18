@@ -1,0 +1,25 @@
+#Skåne
+
+add_core = N28
+owner = N28
+controller = N28
+culture = wylfinge
+religion = norse_pagan_reformed
+hre = no
+base_tax = 8
+base_production = 8
+#trade_goods = grain
+trade_goods = fish #The Great Herring Market of Skåne
+base_manpower = 4
+capital = "Lund"
+is_city = yes
+add_permanent_province_modifier = {
+	name = skanemarket
+	duration = -1
+} 
+fort_15th = yes 
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

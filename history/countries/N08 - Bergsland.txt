@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = rygir
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 24
+
+1440.4.9 = {
+	monarch = {
+		name = "Mahttikar"
+		dynasty = "Iyka"
+		birth_date = 1425.2.26
+		adm = 6
+		dip = 5
+		mil = 1
+	}
+}

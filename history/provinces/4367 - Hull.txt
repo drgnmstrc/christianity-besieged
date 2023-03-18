@@ -1,0 +1,19 @@
+#245 - Yorkshire - East Riding
+
+owner = N12
+controller = N12
+add_core = N12
+culture = english
+religion = anglic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Hull"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

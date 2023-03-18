@@ -1,0 +1,24 @@
+# - Ouarzazate
+
+owner = TFL
+controller = TFL
+add_core = TFL
+add_core = R02
+add_core = TLC
+culture = maqil
+religion = mutazila
+capital = "Ouarzazate"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan
+discovered_by = east_african

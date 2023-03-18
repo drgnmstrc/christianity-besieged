@@ -1,0 +1,126 @@
+country_decisions = {
+	blessing_saint_eugenia_decision = {
+		potential = {
+			religion = payidotheos
+			320 = {
+				owner = { religion = payidotheos }
+			}
+		}
+		allow = {
+			owns = 320
+			320 = { religion = payidotheos }
+			NOT = { has_country_modifier = blessing_of_saint_eugenia }
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = {
+				name = blessing_of_saint_eugenia
+				duration = 9125
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	blessing_attleia_church_decision = {
+		potential = {
+			religion = payidotheos
+			5041 = {
+				owner = { religion = payidotheos }
+			}
+		}
+		allow = {
+			owns = 5041
+			5041 = { religion = payidotheos }
+			NOT = { has_country_modifier = blessing_attleia_church }
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			5041 = {
+				add_base_tax = 1
+				add_base_production = 1
+			}
+			add_country_modifier = {
+				name = blessing_attleia_church
+				duration = 9125
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	blessing_council_gallipoli_decision = {
+		potential = {
+			religion = payidotheos
+			5031 = {
+				owner = { religion = payidotheos }
+			}
+		}
+		allow = {
+			owns = 5031
+			358 = { religion = payidotheos }
+			NOT = { has_country_modifier = blessing_council_gallipoli }
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = {
+				name = blessing_council_gallipoli
+				duration = 9125
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	blessing_biblical_writers_decision = {
+		potential = {
+			religion = payidotheos
+			2302 = {
+				owner = { religion = payidotheos }
+			}
+		}
+		allow = {
+			owns = 2302
+			2302 = { religion = payidotheos }
+			NOT = { has_country_modifier = blessing_biblical_writers }
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = {
+				name = blessing_biblical_writers
+				duration = 9125
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	blessing_jesus_christ_decision = {
+		potential = {
+			religion = payidotheos
+			379 = {
+				owner = { religion = payidotheos }
+			}
+		}
+		allow = {
+			owns = 379
+			379 = { religion = payidotheos }
+			NOT = { has_country_modifier = blessing_jesus_christ }
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_country_modifier = {
+				name = blessing_jesus_christ
+				duration = 9125
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,18 @@
+#1007 - Ojibwa
+
+culture = inuvialuit
+religion = ikniksugritism
+owner = Q02
+controller = Q02
+add_core = Q02
+is_city = yes
+capital = "Ojibwa"
+trade_goods = fur
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = north_american

@@ -1,0 +1,21 @@
+#1191 - Tete
+
+owner = R31
+controller = R31
+add_core = R31
+add_core = R32
+culture = tshwa
+religion = qanumi
+add_core = ZIM
+capital = "Tete"
+is_city = yes
+base_manpower = 1
+trade_goods = ivory
+hre = no
+base_tax = 2 
+base_production = 2
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african
+extra_cost = 16
+center_of_trade = 2

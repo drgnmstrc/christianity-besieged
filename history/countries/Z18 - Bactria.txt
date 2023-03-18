@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bactrian
+religion = manichaeism
+government_rank = 1
+technology_group = near_east
+capital = 446	# Herat
+
+#Mihrabanids
+
+1439.1.1 = {
+	monarch = {
+		name = "Pikolausa"
+		dynasty = "Barmecides"
+		birth_date = 1423.1.1
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

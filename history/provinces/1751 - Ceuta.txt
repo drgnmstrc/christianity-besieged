@@ -1,0 +1,24 @@
+#1751 - Ceuta
+
+owner = GRA
+controller = GRA 
+culture = mutawasiti
+religion = ashabi
+capital = "Cebta"
+trade_goods = fish
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+fort_15th = yes
+add_core = GRA
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = saharan

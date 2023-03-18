@@ -1,0 +1,23 @@
+#139 - Hum
+
+owner = Z21
+controller = Z21
+culture = latinlerin
+religion = manichaeism
+add_core = Z21
+add_core = U17
+capital = "Mostar"	# Unofficial capital of Herzegovina
+trade_goods = wool
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

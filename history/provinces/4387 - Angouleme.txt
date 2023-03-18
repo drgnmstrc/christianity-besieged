@@ -1,0 +1,22 @@
+# 4387 Angoulême
+
+owner = G15
+controller = G15
+add_core = G15
+capital = "Angoulême"
+is_city = yes
+culture = vestes
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+#estate = estate_burghers
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

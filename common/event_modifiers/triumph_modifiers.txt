@@ -1,0 +1,95 @@
+cybele_at_5 = {
+	tolerance_own = 1
+}
+cybele_at_10 = {
+	tolerance_own = 1
+	discipline = 0.02
+}
+cybele_at_25 = {
+	tolerance_own = 1
+	discipline = 0.025
+	yearly_army_professionalism = 0.005
+}
+cybele_at_50 = {
+	tolerance_own = 1
+	land_morale = 0.05
+	discipline = 0.025
+	yearly_army_professionalism = 0.005
+}
+cybele_at_75 = {
+	tolerance_own = 2
+	land_morale = 0.05
+	discipline = 0.025
+	yearly_army_professionalism = 0.01
+}
+cybele_at_100 = {
+	tolerance_own = 2
+	land_morale = 0.05
+	discipline = 0.025
+	yearly_army_professionalism = 0.01
+	ae_impact = -0.05
+}
+cybele_at_250 = {
+	tolerance_own = 2
+	land_morale = 0.075
+	discipline = 0.03
+	yearly_army_professionalism = 0.01
+	ae_impact = -0.05
+}
+cybele_at_500 = {
+	tolerance_own = 3
+	land_morale = 0.1
+	manpower_recovery_speed = 0.1
+	discipline = 0.05
+	yearly_army_professionalism = 0.01
+	ae_impact = -0.075
+}
+cybele_at_750 = {
+	tolerance_own = 3
+	diplomatic_upkeep = 1
+	land_morale = 0.1
+	discipline = 0.05
+	yearly_army_professionalism = 0.01
+	ae_impact = -0.1
+}
+cybele_at_1000 = {
+	tolerance_own = 3
+	diplomatic_upkeep = 1
+	land_morale = 0.15
+	discipline = 0.05
+	production_efficiency = 0.05
+	yearly_army_professionalism = 0.01
+	development_cost = -0.1
+	ae_impact = -0.15
+}
+triumph_ferrara = {
+	global_tax_modifier = 1
+	global_autonomy = -1
+}
+triumph_istria = {
+	global_tax_modifier = 1
+	core_creation = -0.5
+}
+triumph_illeropoli = {
+	global_tax_modifier = 1
+	reform_progress_growth = 1
+}
+triumph_roma = {
+	global_tax_modifier = 1.5
+	monthly_splendor = 4
+}
+triumph_pisanus = {
+	global_tax_modifier = 1
+	innovativeness_gain = 2
+}
+triumph_napoli = {
+	global_tax_modifier = 1
+	build_time = -0.75
+}
+triumph_palermo = {
+	global_tax_modifier = 1
+	global_missionary_strength = 0.1
+}
+triumph_commemoration = {
+	local_development_cost = -0.05
+}

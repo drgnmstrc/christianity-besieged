@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = moism
+primary_culture = sichuanese
+capital = 679	#Chengdu

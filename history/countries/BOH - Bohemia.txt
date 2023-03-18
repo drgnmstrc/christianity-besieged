@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = czech
+religion = slavic
+capital = 266 # Praha
+technology_group = ottoman
+add_army_professionalism = 0.1
+
+1444.11.11 = {
+	monarch = {
+		name = "Václav IV"
+		dynasty = "Becevor"
+		birth_date = 1420.2.26
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}

@@ -1,0 +1,17 @@
+#830 - Maracaibo
+
+culture = yukpa
+owner = M84
+controller = M84
+add_core = M84
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Maracaibo"
+trade_goods = cocoa
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2

@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = greek_tyranny_reform
+government_rank = 1
+primary_culture = lykaones
+religion = hellenism
+technology_group = eastern
+capital = 2301

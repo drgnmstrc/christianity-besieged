@@ -1,0 +1,220 @@
+country_decisions = {
+
+	english_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_england_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = H15 }
+			NOT = { exists = GBR }
+			NOT = { tag = HLR }
+			NOT = { tag = B09 }
+			primary_culture = saxeish
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 236		# London
+				province_id = 237		# Oxfordshire
+				province_id = 234		# Wessex
+				province_id = 235		# Kent
+				province_id = 238		# East Anglia
+				province_id = 4372		# Coventry
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = B09
+				exists = H15
+			}
+			OR = {
+				AND = {
+					owns_core_province = 236		# London
+					owns_core_province = 4370		# Cambridge
+					owns_core_province = 234		# Wessex
+					owns_core_province = 235		# Kent
+					owns_core_province = 238		# East Anglia
+					owns_core_province = 4372		# Coventry
+				}
+				AND = {
+					OR = {
+						owns_core_province = 236
+						any_ally = {
+							owns = 236
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+					OR = {
+						owns_core_province = 4370
+						any_ally = {
+							owns = 4370
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+					OR = {
+						owns_core_province = 234
+						any_ally = {
+							owns = 234
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+					OR = {
+						owns_core_province = 235
+						any_ally = {
+							owns = 235
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+					OR = {
+						owns_core_province = 238
+						any_ally = {
+							owns = 238
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+					OR = {
+						owns_core_province = 4372
+						any_ally = {
+							owns = 4372
+							ai = yes
+							OR = {
+								tag = B03
+								tag = B05
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = B09
+			inherit = B03
+			inherit = B05
+			if = {
+				limit = {
+					government = theocracy
+				}
+				change_government = monarchy
+				add_government_reform = feudal_theocracy
+			}
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			wales_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			wessex_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = B09
+			}
+			#Cumbria
+			247 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = B09
+				}
+			}
+			#Northumberland
+			246 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_permanent_claim = B09
+				}
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_england_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

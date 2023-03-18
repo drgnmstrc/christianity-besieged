@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "TRIALSOF_MINOR"
+	desc = "TRIALSOF_MINOR_DESC"
+	date = "1444.11.11"
+	center = 4308
+	country = ARM
+	country = H10
+	country = H05
+	country = NAX
+	country = X07
+	country = Z01
+	country = H03
+	country = H04
+	country = H09
+	easy_country = ARM
+	easy_country = H10
+}

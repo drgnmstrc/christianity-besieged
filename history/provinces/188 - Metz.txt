@@ -1,0 +1,27 @@
+# 188 Metz - Principal cities: Metz, Thionville
+
+latent_trade_goods = {
+	coal
+}
+
+owner = BUR
+controller = BUR 
+capital = "Metz"
+is_city = yes
+#estate = estate_burghers
+culture = burgundian
+religion = germanic
+hre = yes
+base_tax = 6 
+base_production = 6
+trade_goods = glass
+base_manpower = 5
+add_core = BUR
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

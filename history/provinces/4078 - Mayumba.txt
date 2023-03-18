@@ -1,0 +1,16 @@
+owner = R09
+controller = R09
+add_core = R09
+culture = kongolese
+religion = mudarian
+capital = "Mayumba"
+trade_goods = ivory
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 4
+is_city = yes
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = south_african

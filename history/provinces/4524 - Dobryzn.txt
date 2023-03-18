@@ -1,0 +1,25 @@
+# 4525 - Dobryzn
+
+owner = V03
+controller = V03
+add_core = V03
+religion = slavic
+capital = "Dobrzyn"
+is_city = yes
+culture = polish
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

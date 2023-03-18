@@ -1,0 +1,393 @@
+namespace = slavicreplacement
+namespace = Heavysiege
+namespace = Mildsiege
+namespace = Lightsiege
+namespace = Liftedsiege
+namespace = Assassination
+namespace = slavicreplacementend
+
+country_event = {
+    id = slavicreplacement.0
+    title = slavicreplacement.EVTNAME0
+    desc = slavicreplacement.EVTDESC0
+    picture = LAND_MILITARY_eventPicture
+	fire_only_once = yes
+    
+    trigger = {
+        NOT = {
+            exists = U06
+            exists = U07
+        }
+        any_owned_province = {
+            OR = {
+                culture = qashqai
+                culture = latinlerin
+            }
+        }
+		tag = SLO
+   croatia_area = {
+   type = all
+   owned_by = ROOT
+   }
+   east_adriatic_coast_area = {
+   type = all
+   owned_by = ROOT
+   }
+   bosnia_area = {
+   type = all
+   owned_by = ROOT
+   }
+   rascia_area = {
+   type = all
+   owned_by = ROOT
+   }
+   albania_area = {
+   type = all
+   owned_by = ROOT
+   }
+   serbia_area = {
+   type = all
+   owned_by = ROOT
+   }
+    }
+    
+    mean_time_to_happen = {
+        days = 300
+    }
+    
+    option = {
+        name = slavicreplacement0.EVTOPT1
+        set_country_flag = had_slavicreplacement
+        every_owned_province = {
+		    add_province_modifier = {
+            name = great_moravian_replacement
+            duration = -1
+			}
+            limit = {
+                OR = {
+                    culture = qashqai
+                    culture = latinlerin
+                }
+            }
+            add_core = SLO
+        }
+	}
+    option = {
+        name = slavicreplacement0.EVTOPT2
+        
+            add_accepted_culture = qashqai
+            add_accepted_culture = latinlerin
+        }
+    }
+	country_event = {
+    id = slavicreplacement.1
+    title = slavicreplacement.EVTNAME1
+    desc = slavicreplacement.EVTDESC1
+    picture = SIEGE_eventPicture
+	fire_only_once = yes
+	trigger = {
+	    has_country_flag = had_slavicreplacement
+        NOT = {
+            OR = {
+                accepted_culture = qashqai
+                accepted_culture = latinlerin
+            }
+        }
+        any_owned_province = {
+            OR = {
+                culture = qashqai
+                culture = latinlerin
+            }
+        }
+		tag = SLO
+    }
+	    mean_time_to_happen = {
+        days = 100
+    }
+	option = {
+	name = slavicreplacement1.EVTOPT1
+	add_manpower = -8
+	random_list = {
+	15 = {  country_event = { id = Heavysiege.0} }
+	35 = {  country_event = { id = Mildsiege.0} }
+	25 = {  country_event = { id = Lightsiege.0} }
+	25 = {  country_event = { id = Liftedsiege.0} }
+	}
+	}
+	option = {
+	name = slavicreplacement1.EVTOPT2
+	add_manpower = -5
+	random_list = {
+	25 = {  country_event = { id = Heavysiege.0} }
+	25 = {  country_event = { id = Mildsiege.0} }
+	25 = {  country_event = { id = Lightsiege.0} }
+	25 = {  country_event = { id = Liftedsiege.0} }
+	}
+	}
+	option = {
+	name = slavicreplacement1.EVTOPT3
+	add_manpower = -3
+	random_list = {
+	50 = {  country_event = { id = Heavysiege.0} }
+	25 = {  country_event = { id = Mildsiege.0} }
+	13 = {  country_event = { id = Lightsiege.0} }
+	12 = {  country_event = { id = Liftedsiege.0} }
+	}
+	}
+	}
+	country_event = {
+    id = Heavysiege.0
+    title = heavysiege.EVTNAME1
+    desc = heavysiege.EVTDESC1
+    picture = WOUNDED_SOLDIERS_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = heavysiege.EVTOPT1
+		set_country_flag = had_siegevent
+        
+        every_owned_province = {
+		    add_province_modifier = {
+            name = slavicreplacement_heavysiege
+            duration = 730
+			}
+            limit = {
+                OR = {
+                    culture = qashqai
+                    culture = latinlerin
+                }
+            }
+        }
+	}
+}
+country_event = {
+    id = Mildsiege.0
+    title = mildsiege.EVTNAME1
+    desc = mildsiege.EVTDESC1
+    picture = LAND_MILITARY_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = mildsiege.EVTOPT1
+		set_country_flag = had_siegevent
+        
+        every_owned_province = {
+		    add_province_modifier = {
+            name = slavicreplacement_mildsiege
+            duration = 730
+			}
+            limit = {
+                OR = {
+                    culture = qashqai
+                    culture = latinlerin
+                }
+            }
+        }
+	}
+}
+country_event = {
+    id = Lightsiege.0
+    title = lightsiege.EVTNAME1
+    desc = lightsiege.EVTDESC1
+    picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = lightsiege.EVTOPT1
+		set_country_flag = had_siegevent
+        
+        every_owned_province = {
+		    add_province_modifier = {
+            name = slavicreplacement_lightsiege
+            duration = 730
+			}
+            limit = {
+                OR = {
+                    culture = qashqai
+                    culture = latinlerin
+                }
+            }
+        }
+	}
+}
+country_event = {
+    id = Liftedsiege.0
+    title = liftedsiege.EVTNAME1
+    desc = liftedsiege.EVTDESC1
+    picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = liftedsiege.EVTOPT1
+		set_country_flag = had_siegevent
+        
+        every_owned_province = {
+		    add_province_modifier = {
+            name = slavicreplacement_liftedsiege
+            duration = 730
+			}
+            limit = {
+                OR = {
+                    culture = qashqai
+                    culture = latinlerin
+                }
+            }
+        }
+	}
+}
+country_event = {
+    id = Assassination.0
+    title = Assassination.EVTNAME0
+    desc = Assassination.EVTDESC0
+    picture = BAD_WITH_MONARCH_eventPicture
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+    days = 360
+    }
+	
+	trigger = {
+	    has_country_flag = had_siegevent
+        NOT = {
+            OR = {
+                accepted_culture = qashqai
+                accepted_culture = latinlerin
+            }
+        }
+        any_owned_province = {
+            OR = {
+                culture = qashqai
+                culture = latinlerin
+            }
+        }
+		tag = SLO
+    }
+	option = {
+	name = Assassination.EVTOPT1
+	random_list = {
+	60 = {  country_event = { id = Assassination.1} }
+	30 = {  country_event = { id = Assassination.2} }
+	10 = {  country_event = { id = Assassination.3} }
+	}
+	}
+	option = {
+	name = Assassination.EVTOPT2
+	add_manpower = -1
+	random_list = {
+	50 = {  country_event = { id = Assassination.1} }
+	25 = {  country_event = { id = Assassination.2} }
+	25 = {  country_event = { id = Assassination.3} }
+	}
+	}
+	option = {
+	name = Assassination.EVTOPT3
+	add_manpower = -2
+	random_list = {
+	25 = {  country_event = { id = Assassination.1} }
+	50 = {  country_event = { id = Assassination.2} }
+	25 = {  country_event = { id = Assassination.3} }
+	}
+	}
+	option = {
+	name = Assassination.EVTOPT4
+	add_manpower = -3
+	random_list = {
+	20 = {  country_event = { id = Assassination.1} }
+	20 = {  country_event = { id = Assassination.2} }
+	60 = {  country_event = { id = Assassination.3} }
+	}
+	}
+	}
+	country_event = {
+    id = Assassination.1
+    title = Assassination.EVTNAME1
+    desc = Assassination.EVTDESC1
+    picture = KING_SICK_IN_BED_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = Assassination.EVTOPT5
+		set_country_flag = had_ass
+		random = {
+    chance = 75
+    kill_ruler = yes
+    }
+        
+	}
+}
+	country_event = {
+    id = Assassination.2
+    title = Assassination.EVTNAME2
+    desc = Assassination.EVTDESC2
+    picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = Assassination.EVTOPT6
+        set_country_flag = had_ass
+		add_prestige = 10
+		add_legitimacy = 10
+	}
+}
+	country_event = {
+    id = Assassination.3
+    title = Assassination.EVTNAME3
+    desc = Assassination.EVTDESC3
+    picture = MILITARY_CAMP_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+        name = Assassination.EVTOPT7
+        set_country_flag = had_ass
+		add_prestige = 50
+		add_legitimacy = 25
+        }
+}
+	country_event = {
+    id = slavicreplacementend.0
+    title = slavicreplacementend.EVTNAME0
+    desc = slavicreplacementend.EVTDESC0
+    picture = GOOD_WITH_MONARCH_eventPicture
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+    days = 1444
+    }
+		trigger = {
+	    has_country_flag = had_ass
+        NOT = {
+            OR = {
+                accepted_culture = qashqai
+                accepted_culture = latinlerin
+            }
+        }
+        any_owned_province = {
+            OR = {
+                culture = qashqai
+                culture = latinlerin
+            }
+        }
+		tag = SLO
+    }
+	option = {
+	name = slavicreplacementend.EVTOPT0
+	every_owned_province = { remove_province_modifier = great_moravian_replacement }
+	croatia_area = { change_culture = croatian }
+	croatia_area = { change_religion = slavic }
+	east_adriatic_coast_area = { change_culture = croatian }
+	east_adriatic_coast_area = { change_religion = slavic }
+	bosnia_area = { change_culture = croatian }
+	bosnia_area = { change_religion = slavic }
+	rascia_area = { change_culture = serbian }
+	rascia_area = { change_religion = slavic }
+    albania_area = { change_culture = serbian }
+	albania_area = { change_religion = slavic } 
+	serbia_area = { change_culture = serbian }
+	serbia_area = { change_religion = slavic }
+	inner_austria_area = { change_culture = slovak }
+	inner_austria_area = { change_religion = slavic }
+	transdanubia_area = { change_culture = slovak }
+	alfold_area = { change_culture = slovak }
+	austria_proper_area = { change_culture = slovak }
+    }
+}

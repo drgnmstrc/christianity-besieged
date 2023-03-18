@@ -1,0 +1,20 @@
+#4253 - Pereyaslavl-Zalesskiy & Yuriev-Polskiy
+
+tribal_owner = Z04
+culture = russian
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = salt 
+base_manpower = 2
+capital = "Yuriev"
+is_city = yes
+discovered_by = GOL
+discovered_by = KAZ
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech
+extra_cost = 8
+center_of_trade = 1

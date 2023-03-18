@@ -1,0 +1,53 @@
+make_locus_conventus = {
+    category = influence
+    require_acceptance = no
+
+    is_visible = {
+		OR = {
+			AND = {	
+				ROOT = {
+					mission_completed = venice_subjugate_ferrara
+				}
+				FROM = {
+					is_subject_of_type = vassal
+					is_subject_of = ROOT
+				}
+			}
+			AND = {
+				ROOT = {
+					has_country_modifier = rome_respecting_venetia
+				}
+				FROM = {
+					is_subject_of_type = vassal
+					is_subject_of = ROOT
+					tag = H28
+				}
+			}
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+        FROM = {
+			is_subject_of_type = vassal
+			is_subject_of = ROOT
+		}
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+		create_subject = {
+			subject_type = locus_conventus
+			subject = FROM
+		}
+		FROM = {
+			change_government = republic
+			add_government_reform = locus_conventus_reform
+		}
+		add_prestige = 10
+    }
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = yes
+    }
+}

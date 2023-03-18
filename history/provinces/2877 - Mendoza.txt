@@ -1,0 +1,14 @@
+# - Mendoza
+owner = M66
+controller = M66
+add_core = M66
+is_city = yes
+culture = mapuche
+discovered_by = south_american
+religion = inti
+capital = "Mendoza"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4

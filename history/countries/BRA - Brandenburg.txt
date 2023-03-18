@@ -1,0 +1,49 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = saxon
+religion = norse_pagan_reformed
+capital = 2964
+
+
+1440.9.21 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1413.11.19
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = incorruptible_personality
+	add_heir_personality = inspiring_leader_personality
+	queen = {
+		country_of_origin = SAX
+		name = "Catherine"
+		dynasty = "von Wettin"
+		birth_date = 1421.1.1
+		death_date = 1476.8.23
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Albrecht Achilles"
+		monarch_name = "Albrecht III Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1486.3.11
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	set_country_flag = albrecht_achilles_flag
+}
+
+1444.1.1 = {
+	set_in_empire = no
+}

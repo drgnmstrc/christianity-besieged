@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = greek_tyranny_reform
+government_rank = 1
+technology_group = near_east
+unit_type = eastern
+primary_culture = avandaloi
+religion = payidotheos
+capital = 163	# Heraklion
+fixed_capital = 163 # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.11 = {
+	monarch = {
+		name = "Palogos"
+		dynasty = "Kasakrytas"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

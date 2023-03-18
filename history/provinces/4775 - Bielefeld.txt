@@ -1,0 +1,21 @@
+# 4775 - Bielefeld
+
+owner = G26
+controller = G26
+add_core = G26
+culture = saxon
+religion = germanic
+trade_goods = cloth #linen
+capital = "Bielefeld"
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+
+hre = yes

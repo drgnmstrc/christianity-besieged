@@ -1,0 +1,20 @@
+#1754 - Murom ( formerly Orel)
+
+tribal_owner = Z11
+culture = russian
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown   
+base_manpower = 3
+capital = "Murom"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = GOL
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

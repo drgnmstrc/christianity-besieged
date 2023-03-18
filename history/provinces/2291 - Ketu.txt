@@ -1,0 +1,19 @@
+# No previous file for Ketu
+
+owner = DAH #Early kingdom of Allada/Ardra
+controller = DAH
+add_core = DAH
+is_city = yes
+culture = fon 
+religion = voodoo #Fetishism
+capital = "Ketu"
+trade_goods = slaves
+hre = no
+base_tax = 4
+base_production = 4
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+base_manpower = 1
+discovered_by = sub_saharan
+discovered_by = saharan

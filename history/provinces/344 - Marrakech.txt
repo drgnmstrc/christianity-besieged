@@ -1,0 +1,22 @@
+#344 - Marrakech
+
+owner = R03
+controller = R03
+add_core = R03
+add_core = R02
+culture = masmuden
+religion = mutazila
+capital = "Marrakech"
+trade_goods = sugar
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+fort_15th = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = saharan
+discovered_by = scandinavian_tech

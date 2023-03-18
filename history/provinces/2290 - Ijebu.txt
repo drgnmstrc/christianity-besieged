@@ -1,0 +1,21 @@
+# No previous file for Ijebu
+
+owner = DAH #Early kingdom of Allada/Ardra
+controller = DAH
+add_core = DAH
+culture = fon
+religion = voodoo #Fetishism
+capital = "Gbagle"
+is_city = yes
+base_manpower = 1
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+
+
+
+discovered_by = sub_saharan
+discovered_by = central_african
+
+discovered_by = saharan

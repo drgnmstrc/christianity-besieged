@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = amhara
+religion = shiite
+technology_group = east_african
+unit_type = sub_saharan
+capital = 2791 #Ankober
+religious_school = ismaili_school
+
+#Rulers of Shewa
+1442.1.1 = {
+	monarch = {
+		name = "Negasi Krestos"
+		dynasty = "Shewa"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	religion = shiite
+}

@@ -1,0 +1,126 @@
+
+#Baltics
+36  = "Estonija"	#Estland
+37   = "Livonija" 	#Livland
+271  = "Samogitija"	#Samogitia
+272  = "Vilna"		#Vilna
+273  = "Latgalija" 	#Latgalia	
+#Benelux
+90   = "Flandrija"	#Vlaanderen
+94   = "Luksemburg"	#Luxemburg
+96   = "Zeland"		#Zeeland
+97   = "Holandija"	#Holland
+100  = "Frizija"	#Friesland
+#France
+89   = "Pikardija"	#Picardie
+168  = "Normandija"	#Normandie
+183  = "Pariz"		#Paris
+189  = "Lorena"		#Lothringen
+#Romania
+156  = "Temišvar"	#Temes
+157  = "Veliki Varadin"	#Oradea
+160  = "Oltenija"	#Oltenia
+161  = "Trgovište"	#Tirgoviste
+164  = "Cikladi"	#Naxos
+268  = "Moldavija"	#Moldava
+#Poland
+261  = "Galic"		#Halicz
+262  = "Krakov"		#Krakow
+#Ukraine
+279  = "Volinj"	  	#Volhynia
+280  = "Kijev"		#Kiev
+282  = "Jedisan"	#Yedisan
+283  = "Zaporoška"	#Zaporozhia
+284  = "Krim"		#Crimea
+289  = "Cernjihiv"	#Chernigov
+291  = "Harkiv"		#Kharkov
+#Russia
+286  = "Azov"		#Azov
+292  = "Mogiljov"	#Mogilev
+297  = "Brjansk"	#Bryansk
+299  = "Voronjez"	#Voronezh
+301  = "Rjazan"		#Ryazan
+302  = "Tambov"		#Tambov
+303  = "Saratov"	#Saratov
+#Croatia
+129  = "Kranjska"       #Krain
+130  = "Istra"          #Istria
+136  = "Dalmacija"      #Dalmatia
+137  = "Dubrovnik"      #Ragusa
+139  = "Zahumlje"       #Hum
+140  = "Bosna"          #Bosnia
+264  = "Vratislavija"	#Breslau
+1767 = "Slavonija"      #Slavonia
+1769 = "Goriška"        #Gorz
+1828 = "Donji krajevi"  #Donji kraji
+1831 = "Travunja"       #Travunia
+3002 = "Vrhbosna"       #Visoki
+#Serbia
+138  = "Crna Gora"      #Zeta
+141  = "Srbija"         #Serbia
+143  = "Lješ"       	#Albania
+1827 = "Raška"          #Raska
+1954 = "Vojvodina"      #Torontal
+3000 = "Niš"            #Nis
+4249 = "Backa"          #Bacs
+4265 = "Valona"		#Vlore
+4266 = "Drac"		#Durres
+#Bulgaria
+150  = "Trnovo"         #Tarnovo
+159  = "Drastar"	#Silistria
+1765 = "Sofija"         #Sofia
+#Greece
+142  = "Krf"		#Corfu
+144  = "Epir"		#Epirus
+145  = "Moreja"		#Morea
+146  = "Atina"		#Athens
+147  = "Tesalija"	#Salonica
+148  = "Makedonija"	#Skopje
+163  = "Kreta"		#Crete
+320  = "Rod"		#Rhodes
+321  = "Cipar"		#Cyprus
+2007 = "Solun"          #Thessaloniki
+4267 = "Etolija"	#Aetolia
+#Turkey
+149  = "Drinopolje"     #Edirne
+151  = "Carigrad"       #Thrace
+#Hungary
+135  = "Šopron"         #Sopron
+153  = "Pešta"          #Pest
+1864 = "Šomod"          #Somogy
+#Slovakia
+154  = "Nitra"          #Ersekujvar
+162  = "Košice"         #Zemplen
+1318 = "Spiš"           #Szepes/Spis
+1772 = "Požun"          #Pozsony
+
+#List
+43 = "Gdanjsk" 							#Danzig
+76 = "Solnograd"      					#Salzburg
+101 = "Genova"							#Genoa
+102 = "Nica"							#Nice
+103 = "Pijemont"						#Piedmont
+104 = "Milano"							#Milan
+111 = "Furlanija"						#Friuli
+110 = "Južni Tirol"   	 				#Trent
+111 = "Furlanija"     	 				#Friuli
+112 = "Mleci"       					#Venezia
+116 = "Firenca"							#Firenze
+118 = "Rim"           				 	#Roma
+121 = "Napulj"							#Napoli
+122 = "Apulija"							#Apulia
+123 = "Kalabrija"						#Calabria
+128 = "Koruška"        					#Karnten
+132 = "Štajerska"      					#Steiermark
+134 = "Bec"            					#Wien
+152 = "Varaždin"       					#Varasd						|checked	03.06.18
+265  = "Moravska"     	 				#Moravia
+266  = "Prag"          					#Prague
+267  = "Plzen"							#Plzen
+1768 = "Istocni Tirol"  				#Lienz
+1863 = "Gradac"         				#Graz
+2006 = "Moldavija"
+2521 = "Nubijska pustinja"				#Sahra an Nübyah
+3111 = "Spish"
+2121 = "Nish"
+4299 = "Srijem"

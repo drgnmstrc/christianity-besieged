@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+mercantilism = 25
+technology_group = eastern
+religion = germanic
+primary_culture = ostrogothic
+capital = 1872	# Ulm
+fixed_capital = 1872 # Cannot move capital away from this province & no power cost to move to it
+elector = yes
+
+1428.11.11 = {
+	monarch = {
+		name = "Leovigild"
+		dynasty = "Amalung"
+		birth_date = 1399.6.19
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

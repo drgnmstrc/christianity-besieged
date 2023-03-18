@@ -1,0 +1,20 @@
+#4258 - Onega
+tribal_owner = V25
+culture = veps
+religion = suomenusko #Sami Shamanism
+trade_goods = unknown
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Onega"
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = nomad_group

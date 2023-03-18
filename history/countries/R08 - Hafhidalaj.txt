@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = imraguen
+religion = sunni
+technology_group = saharan
+capital = 1111
+religious_school = hanbali_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Malik"
+		dynasty = "Hafaji"
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+}

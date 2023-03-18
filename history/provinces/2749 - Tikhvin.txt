@@ -1,0 +1,20 @@
+# 2749 - Tikhvin
+owner = V26
+controller = V26
+add_core = V26
+culture = slovenski
+religion = slavic
+hre = no
+is_city = yes
+base_tax = 5
+base_production = 5
+trade_goods = fur
+base_manpower = 3
+capital = "Tikhvin"
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

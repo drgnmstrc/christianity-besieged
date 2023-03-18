@@ -1,0 +1,22 @@
+# 4738 - Trieste
+
+owner = U10
+controller = U10
+add_core = U10
+culture = istroli
+religion = ashabi
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = fish
+base_manpower = 2    
+capital = "Trieste" 
+is_city = yes # Estimated
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

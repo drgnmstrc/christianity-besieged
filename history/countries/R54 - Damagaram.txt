@@ -1,0 +1,21 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = tuareg
+religion = sunni
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1156
+historical_rival = AIR
+religious_school = shafii_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Tsheroma"
+		dynasty = "Ahmet"
+		dip = 4
+		adm = 4
+		mil = 5
+	}
+} 

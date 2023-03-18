@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = guayqueri
+religion = animism
+technology_group = south_american
+capital = 4615
+
+1444.11.11 = {
+	monarch = {
+		name = "Aymamon"
+		dynasty = "Anacacia"
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}

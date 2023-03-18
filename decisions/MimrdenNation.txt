@@ -1,0 +1,101 @@
+country_decisions = {
+
+	mimrden_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_mimrden_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = A04 }
+			tag = A03
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2410
+				province_id = 284
+				province_id = 285
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = A04 
+			}
+			owns_core_province = 2410
+			owns_core_province = 284
+			owns_core_province = 285
+		}
+		effect = {
+			change_tag = A04
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			yedisan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = A04
+			}
+			2412 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_claim = A04
+				}
+			}
+			2447 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_claim = A04
+				}
+			}
+			287 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_claim = A04
+				}
+			}
+			286 = {
+				if = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+					add_claim = A04
+				}
+			}
+			add_prestige = 25
+			set_country_flag = formed_mimrden_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

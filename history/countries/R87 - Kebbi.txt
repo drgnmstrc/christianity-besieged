@@ -1,0 +1,32 @@
+# No previous file for Kebbi
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hausa
+religion = shiite
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 2278
+religious_school = hanbali_school
+
+1430.1.1 = {
+	monarch = {
+		name = "Mukata"
+		dynasty = "Kotal"
+		dip = 2
+		adm = 6
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Muhammad Kanta"
+		monarch_name = "Kanta"
+		dynasty = "Kotal"
+		dip = 6
+		adm = 6
+		mil = 6
+	}
+}

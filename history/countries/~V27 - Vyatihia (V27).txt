@@ -1,0 +1,8 @@
+# No previous file for Vyatihia (V27)
+government = native
+add_government_reform = native_baltic_chiefdom_reform
+government_rank = 1
+primary_culture = slovenski
+religion = slavic
+technology_group = nomad_group
+capital = 4249

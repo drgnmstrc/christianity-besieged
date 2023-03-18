@@ -1,0 +1,996 @@
+namespace = manidoom
+country_event = {
+	id = manidoom.1
+	title = manidoom.1t
+	desc = manidoom.1d
+	picture = RELIGION_eventpicture
+	trigger = {
+		NOT = { has_country_flag = manie }
+		has_darkness = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				which = darkness
+				value = 0
+			}
+			add_country_modifier = {
+				name = darkness_extinguished
+				duration = -1
+			}
+			set_country_flag = manie
+		}
+	}
+	option = {
+		name = manidoom.1a
+	}
+}
+country_event = {
+	id = manidoom.2
+	hidden = yes
+	trigger = {
+		has_darkness = yes
+		is_month = 0
+		NOT = { is_month = 1 }
+		NOT = { has_country_flag = doom_month }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		change_variable = {
+			which = darkness
+			value = 8
+		}
+		if = {
+			limit = {
+				NOT = { stability = 0 }
+			}
+			change_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = { stability = -1 }
+			}
+			change_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = { stability = -2 }
+			}
+			change_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				4326 = {
+					owner = { NOT = { has_country_modifier = buzin_mitro_flame } }
+				}
+			}
+			change_variable = {
+				which = darkness
+				value = 4
+			}
+		}
+		if = {
+			limit = {
+				4329 = {
+					owner = { NOT = { has_country_modifier = farnbag_flame } }
+				}
+			}
+			change_variable = {
+				which = darkness
+				value = 6
+			}
+		}
+		if = {
+			limit = {
+				2212 = {
+					owner = { NOT = { has_country_modifier = gushnap_flame } }
+				}
+			}
+			change_variable = {
+				which = darkness
+				value = 4
+			}
+		}
+		if = {
+			limit = {
+				stability = 3
+			}
+			subtract_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				has_idea = syriac_mysticism
+			}
+			subtract_variable = {
+				which = darkness
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				has_idea = syr_hellene_education
+			}
+			subtract_variable = {
+				which = darkness
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				has_idea = qaht_iranized_arabs
+			}
+			subtract_variable = {
+				which = darkness
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				stability = 2
+			}
+			subtract_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				stability = 1
+			}
+			subtract_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = { average_unrest = 0 }
+			}
+			subtract_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					theologian = 1
+					inquisitor = 1
+				}
+			}
+			subtract_variable = {
+				which = darkness
+				value = 2
+			}
+		}
+		set_country_flag = doom_month
+	}
+}
+
+country_event = {
+	id = manidoom.3
+	hidden = yes
+	trigger = {
+		has_darkness = yes
+		is_month = 1
+		NOT = { is_month = 2 }
+		has_country_flag = doom_month
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		clr_country_flag = doom_month
+	}
+}
+
+country_event = {
+	id = manidoom.4
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				owns_core_province = 4329
+				NOT = { has_country_modifier = farnbag_flame }
+			}
+			AND = {
+				owns_core_province = 4326
+				NOT = { has_country_modifier = buzin_mitro_flame }
+			}
+			AND = {
+				owns_core_province = 2212
+				NOT = { has_country_modifier = gushnap_flame }
+			}
+		}
+		religion = manichaeism
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		if = {
+			limit = {
+				owns_core_province = 4329
+			}
+			add_country_modifier = {
+				name = farnbag_flame
+				duration = -1
+				desc = FARNBAG_FLAME_TOOLTIP
+			}
+		}
+		if = {
+			limit = {
+				owns_core_province = 4326
+			}
+			add_country_modifier = {
+				name = buzin_mitro_flame
+				duration = -1
+				desc = BUZIN_MITRO_FLAME_TOOLTIP
+			}
+		}
+		if = {
+			limit = {
+				owns_core_province = 2212
+			}
+			add_country_modifier = {
+				name = gushnap_flame
+				duration = -1
+				desc = GUSHNAP_FLAME_TOOLTIP
+			}
+		}
+	}
+}
+
+country_event = {
+	id = manidoom.5
+	hidden = yes
+	trigger = {
+		OR = {
+			AND = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 4329 }
+				}
+				has_country_modifier = farnbag_flame
+			}
+			AND = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 4326 }
+				}
+				has_country_modifier = buzin_mitro_flame
+			}
+			AND = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 2212 }
+				}
+				has_country_modifier = gushnap_flame
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		if = {
+			limit = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 4329 }
+				}
+			}
+			remove_country_modifier = farnbag_flame
+		}
+		if = {
+			limit = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 4326 }
+				}
+			}
+			remove_country_modifier = buzin_mitro_flame
+		}
+		if = {
+			limit = {
+				OR = {
+					NOT = { religion = manichaeism }
+					NOT = { owns_core_province = 2212 }
+				}
+			}
+			remove_country_modifier = gushnap_flame
+		}
+	}
+}
+
+country_event = {
+	id = manidoom.6
+	hidden = yes
+	trigger = {
+		NOT = { has_darkness = yes }
+		has_country_flag = manie
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		clr_country_flag = manie
+		set_variable = {
+			which = darkness
+			value = 0
+		}
+	}
+}
+
+country_event = {
+	id = manidoom.7
+	title = manidoomsday.t
+	desc = manidoomsday.d
+	trigger = {
+		religion = manichaeism
+		check_variable = {
+			which = darkness
+			value = 100
+		}
+		always = no #not used rn
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				spawn_rebels = {
+					type = leadered_peasant_rebels
+					size = 1
+				}
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = leadered_peasant_rebels
+					size = 1
+				}
+			}
+			random_owned_province = {
+				spawn_rebels = {
+					type = leadered_peasant_rebels
+					size = 1
+				}
+			}
+		}
+	}
+	option = {
+		name = manidoomsday.a
+		set_variable = {
+			which = darkness
+			value = 0
+		}
+		capital_scope = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = manidoom.8
+	hidden = yes
+	trigger = {
+		has_country_flag = manie
+		NOT = { check_variable = {
+			which = darkness
+			value = 0
+		} }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		set_variable = {
+			which = darkness
+			value = 0
+		}
+	}
+}
+province_event = {
+	id = manidoom.9
+	title = manitemple.t
+	desc = manitemple.d
+	picture = RELIGION_eventpicture
+	trigger = {
+		has_building = temple
+		NOT = { has_province_flag = manitemple }
+		owner = {
+			has_country_flag = manie
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = manitemple.a
+		subtract_variable = {
+			which = darkness
+			value = 5
+		}
+		set_province_flag = manitemple
+	}
+}
+
+country_event = {
+	id = manidoom.10
+	title = vibecheck.t
+	desc = vibecheck.d
+	picture = RELIGION_eventpicture
+	is_triggered_only = yes
+	option = {
+		name = vibecheck.a
+	}
+}
+
+country_event = {
+	id = manidoom.11
+	title = manidoom.11t
+	desc = manidoom.11d
+	picture = RELIGION_eventpicture
+	is_triggered_only = yes
+	option = {
+		name = manidoom.11a
+		set_country_flag = reject_zoroastrianism
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = manidoom.11b
+		add_prestige = 10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Darkness Rising!
+	id = manidoom.12
+	title = manidoom.12t
+	desc = manidoom.12d
+	picture = RELIGION_eventpicture
+	hidden = yes
+	trigger = {
+		has_darkness = yes
+		OR = {
+			AND = {
+				has_country_modifier = darkness_extinguished
+				check_variable = {
+					which = darkness
+					value = 10
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_low
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_rising
+				check_variable = {
+					which = darkness
+					value = 40
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_infiltrated
+				check_variable = {
+					which = darkness
+					value = 60
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_present
+				check_variable = {
+					which = darkness
+					value = 70
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_high
+				check_variable = {
+					which = darkness
+					value = 80
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_dangerous
+				check_variable = {
+					which = darkness
+					value = 90
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			remove_country_modifier = darkness_extinguished
+			remove_country_modifier = darkness_low
+			remove_country_modifier = darkness_rising
+			remove_country_modifier = darkness_infiltrated
+			remove_country_modifier = darkness_present
+			remove_country_modifier = darkness_high
+			remove_country_modifier = darkness_dangerous
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 10
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 25
+						}
+					}
+				}
+				set_country_flag = darkness_low
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 25
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 40
+						}
+					}
+				}
+				set_country_flag = darkness_rising
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 40
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 60
+						}
+					}
+				}
+				set_country_flag = darkness_infiltrated
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 60
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 70
+						}
+					}
+				}
+				set_country_flag = darkness_present
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 70
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 80
+						}
+					}
+				}
+				set_country_flag = darkness_high
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 80
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 90
+						}
+					}
+				}
+				set_country_flag = darkness_dangerous
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 90
+					}
+				}
+				set_country_flag = darkness_in_power
+			}
+		}
+	}
+	option = { #We must remain vigilant.
+		name = manidoom.12a
+		trigger = { has_country_flag = darkness_low }
+		add_country_modifier = {
+			name = darkness_low
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_low
+		}
+	}
+	option = { #Darkness is rising...
+		name = manidoom.12b
+		trigger = { has_country_flag = darkness_rising }
+		add_country_modifier = {
+			name = darkness_rising
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_rising
+		}
+	}
+	option = { #Darkness has infiltrated our society!
+		name = manidoom.12c
+		trigger = { has_country_flag = darkness_infiltrated }
+		add_country_modifier = {
+			name = darkness_infiltrated
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_infiltrated
+		}
+	}
+	option = { #Darkness is ever-present within society!
+		name = manidoom.12e
+		trigger = { has_country_flag = darkness_present }
+		add_country_modifier = {
+			name = darkness_present
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_present
+		}
+	}
+	option = { #There is a great amount of darkness within society!
+		name = manidoom.12f
+		trigger = { has_country_flag = darkness_high }
+		add_country_modifier = {
+			name = darkness_high
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_high
+		}
+	}
+	option = { #There is a dangerous amount of darkness within society!
+		name = manidoom.12g
+		trigger = { has_country_flag = darkness_dangerous }
+		add_country_modifier = {
+			name = darkness_dangerous
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_dangerous
+		}
+	}
+	option = { #Darkness has great power over our society!
+		name = manidoom.12h
+		trigger = { has_country_flag = darkness_in_power }
+		add_country_modifier = {
+			name = darkness_in_power
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_in_power
+		}
+	}
+}
+
+country_event = { #Darkness Falling!
+	id = manidoom.13
+	title = manidoom.13t
+	desc = manidoom.13d
+	picture = RELIGION_eventpicture
+	hidden = yes
+	trigger = {
+		has_darkness = yes
+		OR = {
+			AND = {
+				has_country_modifier = darkness_low
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 10
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_rising
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 25
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_infiltrated
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 40
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_present
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 60
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_high
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 70
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_dangerous
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 80
+					}
+				}
+			}
+			AND = {
+				has_country_modifier = darkness_in_power
+				NOT = {
+					check_variable = {
+						which = darkness
+						value = 90
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			remove_country_modifier = darkness_low
+			remove_country_modifier = darkness_rising
+			remove_country_modifier = darkness_infiltrated
+			remove_country_modifier = darkness_present
+			remove_country_modifier = darkness_high
+			remove_country_modifier = darkness_dangerous
+			remove_country_modifier = darkness_in_power
+			if = {
+				limit = {
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 10
+						}
+					}
+				}
+				set_country_flag = darkness_extinguished
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 10
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 25
+						}
+					}
+				}
+				set_country_flag = darkness_low
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 25
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 40
+						}
+					}
+				}
+				set_country_flag = darkness_rising
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 40
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 60
+						}
+					}
+				}
+				set_country_flag = darkness_infiltrated
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 60
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 70
+						}
+					}
+				}
+				set_country_flag = darkness_present
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 70
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 80
+						}
+					}
+				}
+				set_country_flag = darkness_high
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = darkness
+						value = 80
+					}
+					NOT = {
+						check_variable = {
+							which = darkness
+							value = 90
+						}
+					}
+				}
+				set_country_flag = darkness_dangerous
+			}
+		}
+	}
+	option = { #Our nation is destined for the heavens.
+		name = manidoom.120
+		trigger = { has_country_flag = darkness_extinguished }
+		add_country_modifier = {
+			name = darkness_extinguished
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_extinguished
+		}
+	}
+	option = { #We must remain vigilant.
+		name = manidoom.12a
+		trigger = { has_country_flag = darkness_low }
+		add_country_modifier = {
+			name = darkness_low
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_low
+		}
+	}
+	option = { #Darkness is receding...
+		name = manidoom.13b
+		trigger = { has_country_flag = darkness_rising }
+		add_country_modifier = {
+			name = darkness_rising
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_rising
+		}
+	}
+	option = { #Darkness has rightfully receded into the night.
+		name = manidoom.13c
+		trigger = { has_country_flag = darkness_infiltrated }
+		add_country_modifier = {
+			name = darkness_infiltrated
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_infiltrated
+		}
+	}
+	option = { #Darkness remains ever-present within society!
+		name = manidoom.13e
+		trigger = { has_country_flag = darkness_present }
+		add_country_modifier = {
+			name = darkness_present
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_present
+		}
+	}
+	option = { #There's still a great amount of darkness within society!
+		name = manidoom.13f
+		trigger = { has_country_flag = darkness_high }
+		add_country_modifier = {
+			name = darkness_high
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_high
+		}
+	}
+	option = { #There is a dangerous amount of darkness within society!
+		name = manidoom.12g
+		trigger = { has_country_flag = darkness_dangerous }
+		add_country_modifier = {
+			name = darkness_dangerous
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_dangerous
+		}
+	}
+	option = { #Darkness has great power over our society!
+		name = manidoom.12h
+		trigger = { has_country_flag = darkness_in_power }
+		add_country_modifier = {
+			name = darkness_in_power
+			duration = -1
+		}
+		hidden_effect = {
+			clr_country_flag = darkness_in_power
+		}
+	}
+}

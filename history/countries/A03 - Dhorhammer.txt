@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = novgorodian
+religion = rodoptr
+technology_group = western
+capital = 2410
+
+1429.1.1 = {
+	monarch = {
+		name = "Rollas"
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}

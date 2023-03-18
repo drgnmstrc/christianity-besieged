@@ -1,0 +1,18 @@
+# - Atabapo
+
+culture = guayqueri
+owner = M85
+controller = M85
+add_core = M85
+is_city = yes
+religion = animism
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+is_city = yes
+capital = "Atabapo"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

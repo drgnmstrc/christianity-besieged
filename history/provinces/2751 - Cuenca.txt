@@ -1,0 +1,24 @@
+#2751 - Cuenca
+
+owner = J10
+controller = J10
+add_core = J10
+culture = aybirean
+religion = sunni
+hre = no
+base_tax = 4 
+base_production = 4
+trade_goods = cloth 
+base_manpower = 3
+capital = "Cuenca" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

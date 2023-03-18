@@ -1,0 +1,26 @@
+#118 - Roma
+
+owner = U01
+controller = U01
+culture = italian_turk
+religion = ashabi 
+hre = no
+base_tax = 8
+base_production = 6
+trade_goods = paper
+base_manpower = 6
+capital = "Roma"
+is_city = yes
+fort_15th = yes #Castel Sant'Angelo
+add_core = U01
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+add_province_triggered_modifier = religious_center
+add_province_triggered_modifier = non_catholic_rome
+extra_cost = 8
+center_of_trade = 1

@@ -1,0 +1,18 @@
+government = native
+add_government_reform = native_baltic_chiefdom_reform
+government_rank = 1
+primary_culture = latgalian
+religion = romuva
+technology_group = nomad_group
+capital = 771
+
+1440.1.1 = {
+	monarch = {
+		name = "Niermac"
+		dynasty = "Latalli"
+		birth_date = 1427.11.30
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

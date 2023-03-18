@@ -1,0 +1,20 @@
+#433 - Nasik
+
+owner = L08
+controller = L08
+add_core = L08
+culture = marathi
+religion = hinduism
+capital = "Nasik"
+trade_goods = paper
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+add_brahmins_or_church_effect = yes
+is_city = yes
+add_core = BGA
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = near_eastdiscovered_by = ottoman
+discovered_by = chinese

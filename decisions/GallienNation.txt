@@ -1,0 +1,127 @@
+country_decisions = {
+
+	gallien_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_gallien_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = G12 }
+			NOT = { tag = G03 }
+			primary_culture = gallien
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4719
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = G12
+			}
+			capital_scope = { region = france_region }
+			num_of_cities = 12
+			primary_culture = gallien
+		}
+		effect = {
+			change_tag = G12
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			languedoc_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			provence_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			guyenne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			massif_central_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			savoy_dauphine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			orleans_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			west_burgundy_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			ile_de_france_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			loire_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			poitou_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G12
+			}
+			add_prestige = 25
+			set_country_flag = formed_gallien_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 600
+	}
+}

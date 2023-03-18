@@ -1,0 +1,18 @@
+# No previous file for Gwynedd (J17)
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = western
+primary_culture = welsh
+religion = druidism
+capital = 242
+fixed_capital = 242
+government_rank = 1
+1444.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

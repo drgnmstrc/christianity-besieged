@@ -1,0 +1,21 @@
+#1859 - Torun
+
+owner = PRU
+controller = PRU
+add_core = PRU
+capital = "Torun"
+is_city = yes
+#estate = estate_burghers
+culture = prus
+religion = rodoptr
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

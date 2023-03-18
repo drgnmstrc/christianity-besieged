@@ -1,0 +1,19 @@
+# No previous file for Kumeyaay
+
+culture = teochimen
+religion = atzintlicoatl
+owner = M31
+controller = M31
+add_core = M31
+is_city = yes
+capital = "Kumeyaay"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = mesoamerican
+discovered_by = north_american

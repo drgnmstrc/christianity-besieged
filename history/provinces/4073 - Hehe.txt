@@ -1,0 +1,16 @@
+#4073 - Hehe
+
+owner = TBK
+controller = TBK
+add_core = TBK
+culture = tumbukan
+religion = hussite
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+capital = "Hehe"
+
+discovered_by = central_african
+discovered_by = south_african

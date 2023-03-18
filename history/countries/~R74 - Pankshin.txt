@@ -1,0 +1,19 @@
+# No previous file for Pankshin
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = berom
+religion = byeri #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5066
+1440.1.1 = {
+	monarch = {
+		name = "Gowon"
+		dynasty = "Ngasi"
+		dip = 2
+		adm = 3
+		mil = 2
+	}
+}

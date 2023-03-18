@@ -1,0 +1,16 @@
+#781 - Patagonia Oriental
+
+owner = M68
+controller = M68
+add_core = M68
+culture = teushen
+religion = animism
+capital = "Puerto Desaedo"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 8
+native_ferocity = 1
+native_hostileness = 3

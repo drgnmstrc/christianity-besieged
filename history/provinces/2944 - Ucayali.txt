@@ -1,0 +1,16 @@
+#2944 - Ucayali
+
+culture = maipurean
+owner = INC
+controller = INC
+add_core = INC
+discovered_by = south_american
+discovered_by = andean
+is_city = yes
+religion = inti
+capital = "Ucayali"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

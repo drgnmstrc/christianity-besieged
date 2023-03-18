@@ -1,0 +1,16 @@
+#1800 - Limpopo
+
+owner = R32
+controller = R32
+add_core = R32
+culture = tshwa
+religion = qanumi
+capital = "Gaza"
+trade_goods = iron
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

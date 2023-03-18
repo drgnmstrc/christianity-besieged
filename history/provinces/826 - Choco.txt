@@ -1,0 +1,17 @@
+#826 - Choco
+
+owner = MCA
+controller = MCA
+add_core = MCA
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+culture = muisca
+religion = chiminigagua
+capital = "Choco"
+trade_goods = cocoa
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

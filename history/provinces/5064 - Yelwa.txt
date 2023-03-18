@@ -1,0 +1,17 @@
+# No previous file for Yelwa
+culture = tiv
+religion = byeri
+capital = "Yelwa"
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+owner = SOK
+controller = SOK
+add_core = SOK
+is_city = yes
+trade_goods = grain
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan

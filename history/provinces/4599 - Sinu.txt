@@ -1,0 +1,17 @@
+# No previous file for Sinu
+
+culture = muisca
+owner = TAI
+controller = TAI
+add_core = TAI
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+capital = "Sinu"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

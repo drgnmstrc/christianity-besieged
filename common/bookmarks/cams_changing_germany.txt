@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "CHG_GERM"
+	desc = "CHG_GERM_DESC"
+	date = "1444.11.11"
+	center = 1872
+	country = OLD
+	country = G15
+	country = BUR
+	country = PAL
+	country = G04
+	country = ULM
+	country = FRI
+	country = G10
+	country = G23
+	easy_country = OLD
+	easy_country = G15
+	easy_country = BUR
+	easy_country = PAL
+}

@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = western
+primary_culture = welsh
+religion = druidism
+capital = 242	# Gwynedd
+
+1444.9.12 = {
+	monarch = {
+		name = "Llywelyn IV"
+		dynasty = "Rhiemyr"
+		birth_date = 1376.4.15
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+}

@@ -1,0 +1,23 @@
+#1212 - Zeila
+
+owner = ETH
+controller = ETH
+add_core = ETH
+culture = somali # issa
+religion = shiite
+capital = "Zayla"
+is_city = yes
+trade_goods = incense
+hre = no
+base_manpower = 2
+base_tax = 3
+base_production = 3
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = saharan
+discovered_by = south_african
+fort_15th = yes
+extra_cost = 16
+center_of_trade = 2

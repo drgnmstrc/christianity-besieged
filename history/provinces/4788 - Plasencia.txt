@@ -1,0 +1,22 @@
+#4788 - Plasencia
+
+owner = R04
+controller = R04
+add_core = R04
+add_core = J04
+culture = vettonian
+religion = shiite
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+capital = "Plawsa"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

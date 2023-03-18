@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = kxai_reform
+primary_culture = igbo
+religion = qanumi
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5030
+religious_school = hado_school
+historical_friend = R53
+1440.1.1 = {
+	monarch = {
+		name = "Omalonyeso"
+		dynasty = "Eze Nri"
+		birth_date = 1379.1.1
+		dip = 2
+		adm = 5
+		mil = 5
+	}
+	heir= {
+		name = "Anyamata"
+		dynasty = "Eze Nri"
+		birth_date = 1434.4.12
+		dip = 6
+		adm = 4
+		mil = 3
+	}
+}
+1444.10.1 = {
+	set_estate_privilege = estate_gangans_ikenga_privileges
+}

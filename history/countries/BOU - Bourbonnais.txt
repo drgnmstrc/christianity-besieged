@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = gothic
+add_accepted_culture = gallien
+religion = germanic
+technology_group = eastern
+capital = 190	# Bourges
+fixed_capital = 190 # Cannot move capital away from this province & no power cost to move to it
+
+1434.2.5 = {
+	monarch = {
+		name = "Karl"
+		dynasty = "Aethewelson"
+		culture = ostrogothic
+		birth_date = 1401.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1434.2.5 = {
+	heir = {
+		name = "Edgyrd"
+		monarch_name = "Edgyrd"
+		dynasty = "Aethewelson"
+		culture = ostrogothic
+		birth_date = 1430.1.1
+		death_date = 1488.4.1
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}

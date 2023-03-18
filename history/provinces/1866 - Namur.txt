@@ -1,0 +1,27 @@
+# 1866 - Namur
+
+latent_trade_goods = {
+	coal
+}
+
+owner = G09
+controller = G09
+add_core = G09
+add_core = OLD
+capital = "Namür"
+is_city = yes
+culture = flemish
+religion = germanic
+hre = yes
+base_tax = 7 
+base_production = 7
+trade_goods = iron
+base_manpower = 3
+#estate = estate_church
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

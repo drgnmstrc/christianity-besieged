@@ -1,0 +1,26 @@
+# 199 Auvergne - Principal cities: Clermont-Ferrand
+
+latent_trade_goods = {
+	coal
+}
+
+owner = G14
+controller = G14
+capital = "Clermont"
+is_city = yes
+culture = gothic
+religion = germanic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = iron
+base_manpower = 4
+add_core = G14
+add_core = Y15
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

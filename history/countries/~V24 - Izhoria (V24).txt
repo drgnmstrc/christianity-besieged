@@ -1,0 +1,8 @@
+# No previous file for Izhoria (V24)
+government = native
+add_government_reform = native_baltic_chiefdom_reform
+government_rank = 1
+technology_group = nomad_group
+religion = suomenusko
+primary_culture = izhorian
+capital = 30

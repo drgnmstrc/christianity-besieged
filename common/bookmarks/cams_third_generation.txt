@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "THIRD_GENERATION"
+	desc = "THIRD_GENERATION_DESC"
+	date = "1444.11.11"
+	center = 1801
+	country = R31
+	country = R20
+	country = SOK
+	country = R40
+	country = R16
+	country = R29
+	country = R23
+	country = R41
+	country = R44
+	easy_country = R31
+	easy_country = R20
+}

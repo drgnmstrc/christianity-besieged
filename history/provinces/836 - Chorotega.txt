@@ -1,0 +1,18 @@
+#836 - Chorotega
+is_city = yes
+owner = M40
+controller = M40
+add_core = M40
+culture = muisca
+religion = animism
+capital = "Chorotega"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = mesoamerican
+discovered_by = south_american

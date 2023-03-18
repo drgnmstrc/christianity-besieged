@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = ruthenian
+government_rank = 1
+religion = slavic
+technology_group = western
+capital = 2961
+
+1444.11.11 = {
+	monarch = {
+		name = "Bozena"
+		dynasty = "Dnipsci"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

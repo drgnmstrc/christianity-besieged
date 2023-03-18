@@ -1,0 +1,17 @@
+#Lundu
+
+owner = R31
+controller = R31
+add_core = R31
+culture = chewa
+religion = qanumi
+add_core = LDU
+capital = "Mbebwe"
+is_city = yes
+base_manpower = 4
+trade_goods = cloth #or Cotton
+hre = no
+base_tax = 3
+base_production = 2
+discovered_by = central_african
+discovered_by = south_african

@@ -1,0 +1,20 @@
+#2307 - Van
+
+owner = ARM
+controller = ARM
+culture = armenian
+religion = manichaeism
+capital = "Van"
+trade_goods = cloth
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = ARM
+discovered_by = east_african
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group

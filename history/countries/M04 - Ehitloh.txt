@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = chichimecan
+religion = atzintlicoatl
+technology_group = mesoamerican
+capital = 2616
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Azcalxochico"
+		dynasty = "Ehitloh"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

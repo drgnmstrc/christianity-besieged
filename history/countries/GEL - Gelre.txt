@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = dutch
+religion = germanic
+technology_group = eastern
+capital = 99	# Coevorde
+
+1423.6.29 = {
+	monarch = {
+		name = "Arnold I"
+		dynasty = "van Egmond"
+		birth_date = 1410.7.14
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1438.2.12 = {
+	heir = {
+		name = "Adolf"
+		monarch_name = "Adolf I"
+		dynasty = "van Egmond"
+		birth_date = 1438.2.12
+		death_date = 1471.7.23
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

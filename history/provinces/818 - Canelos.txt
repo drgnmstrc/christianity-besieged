@@ -1,0 +1,21 @@
+#818 - Canelos
+
+owner = QTO
+controller = QTO
+add_core = QTO
+is_city = yes
+culture = cara
+discovered_by = south_american
+discovered_by = andean
+religion = inti
+capital = "Canelos"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = south_american
+discovered_by = andean

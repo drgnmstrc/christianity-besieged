@@ -1,0 +1,17 @@
+# No previous file for Okwoga
+culture = idoma
+religion = alekwu
+capital = "Okwoga"
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+trade_goods = livestock
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+tribal_owner = R76
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

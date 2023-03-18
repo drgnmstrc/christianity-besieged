@@ -1,0 +1,21 @@
+government = theocracy
+add_government_reform = tribute_reform
+government_rank = 1
+primary_culture = prussian
+add_accepted_culture = lithuanian
+religion = norse_pagan_reformed
+technology_group = western
+historical_rival = V01
+historical_friend = LIV
+capital = 1936
+add_army_professionalism = 0.1
+
+1444.5.1 = {
+	monarch = {
+		name = "Alfreyd"
+		culture = ostman
+		dip = 3
+		adm = 5
+		mil = 4
+	}
+}

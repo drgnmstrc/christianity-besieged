@@ -1,0 +1,22 @@
+#Minorca
+
+owner = Y03
+controller = Y03
+add_core = Y03
+add_core = MJO
+culture = mutawasiti
+religion = ashabi
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1 
+capital = "Mahon" 
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

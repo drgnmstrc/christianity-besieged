@@ -1,0 +1,19 @@
+#251 - Aberdeen
+
+owner = N09
+controller = N09
+culture = hjallish #Mix of Highland and Lowland Scotts 
+religion = norse_pagan_reformed
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+capital = "Aberdeen"
+is_city = yes
+add_core = N09
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

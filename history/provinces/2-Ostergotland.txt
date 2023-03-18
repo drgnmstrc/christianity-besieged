@@ -1,0 +1,19 @@
+#Östergötland, contains Norrköping, Linköping etc.
+
+add_core = N13
+owner = N13
+controller = N13
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Liongöping"
+is_city = yes # Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

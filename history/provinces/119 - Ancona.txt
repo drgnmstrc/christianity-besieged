@@ -1,0 +1,22 @@
+#119 - Ancona
+
+owner = U13
+controller = U13
+culture = rumanus 
+religion = ashabi
+hre = no 
+base_tax = 5 
+base_production = 5    
+trade_goods = paper
+base_manpower = 4    
+capital = "Ancona" 
+is_city = yes 
+add_core = U13
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+add_core = H35

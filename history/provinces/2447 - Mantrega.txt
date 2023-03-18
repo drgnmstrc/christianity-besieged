@@ -1,0 +1,25 @@
+#2447 - Mantrega
+
+owner = H30
+controller = H30
+culture = circassian
+religion = manichaeism
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 3
+capital = "Matrega"
+is_city = yes
+add_core = CIR
+add_core = CRI
+add_core = H30
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

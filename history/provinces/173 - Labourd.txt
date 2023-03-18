@@ -1,0 +1,25 @@
+# 173 Labourd - Principal cities: Bayonne (can't change file name)
+
+owner = FOI
+controller = FOI
+add_core = FOI
+culture = gurrean
+religion = germanic
+capital = "Bayonne"
+is_city = yes
+hre = yes
+base_tax = 3 
+base_production = 3
+trade_goods = wine
+base_manpower = 4
+fort_15th = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

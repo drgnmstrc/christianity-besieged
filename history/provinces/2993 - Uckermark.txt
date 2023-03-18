@@ -1,0 +1,23 @@
+#50 - Uckermark + Stargard, etc
+
+owner = N01
+controller = N01
+add_core = N01
+culture = prussian
+religion = rodoptr
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = cloth
+base_manpower = 1
+capital = "Prenzlau"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

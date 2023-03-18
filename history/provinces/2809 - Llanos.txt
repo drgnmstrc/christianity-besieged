@@ -1,0 +1,17 @@
+# - Llanos
+
+culture = pume
+owner = M82
+controller = M82
+add_core = M82
+is_city = yes
+religion = animism
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Calaboso"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

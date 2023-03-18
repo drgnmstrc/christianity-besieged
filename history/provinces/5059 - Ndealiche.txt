@@ -1,0 +1,14 @@
+add_core = R24
+owner = R24
+controller = R24
+culture = ibibio
+religion = inam
+capital = "Ndealiche"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

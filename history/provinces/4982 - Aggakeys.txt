@@ -1,0 +1,18 @@
+owner = R47
+controller = R47
+add_core = R47
+trade_goods = gold
+is_city = yes
+culture = shwakhwe
+capital = "Aggakeys"
+religion = qanumi
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

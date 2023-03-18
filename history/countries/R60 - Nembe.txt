@@ -1,0 +1,14 @@
+government = republic
+add_government_reform = mudarian_slavers
+primary_culture = ijaw
+religion = mudarian
+technology_group = sub_saharan
+capital = 5032
+1442.1.1 = {
+	monarch = {
+		name = "Mujahid"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,18 @@
+#1187 - Sena
+
+owner = R31
+controller = R31
+add_core = R31
+add_core = R32
+culture = tshwa
+religion = qanumi
+capital = "Sena"
+is_city = yes
+base_manpower = 2
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

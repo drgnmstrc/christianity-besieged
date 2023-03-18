@@ -1,0 +1,21 @@
+#Skaraborg, contains Skara, Skövde etc.
+
+add_core = N11
+owner = N11
+controller = N11
+add_core = N12
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Skara"
+is_city = yes
+ #"Domkyrkan i Skara"
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

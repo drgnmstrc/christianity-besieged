@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = astrakhani
+religion = manichaeism
+technology_group = nomad_group
+capital = 464	# Astrakhan
+
+1444.1.1 = {
+	monarch = {
+		name = "Mani"
+		dynasty = "Agraxid"
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Bilge"
+		monarch_name = "Bilge I"
+		dynasty = "Agraxid"
+		birth_date = 1435.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

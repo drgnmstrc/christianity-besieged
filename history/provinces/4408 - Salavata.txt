@@ -1,0 +1,22 @@
+#4408 - Salavata
+
+owner = CEY
+controller = CEY
+add_core = L01
+culture = sinhala
+religion = buddhism
+capital = "Salavata"
+trade_goods = spices	#Cinnamon
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = KND
+add_core = CEY
+add_local_autonomy = 25
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese

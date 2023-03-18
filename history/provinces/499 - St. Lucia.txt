@@ -1,0 +1,18 @@
+#499 - St. Lucia
+
+culture = carib
+religion = animism
+capital = "St. Lucia"
+trade_goods = unknown
+hre = no
+base_tax = 4 
+base_production = 5
+base_manpower = 1
+native_size = 15 
+native_ferocity = 1
+native_hostileness = 4
+1444.1.1 = {
+	discovered_by = CAB
+	discovered_by = ARW
+	discovered_by = M48
+}

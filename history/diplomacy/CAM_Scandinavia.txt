@@ -1,0 +1,20 @@
+union = {
+	first = N03
+	second = N25
+	start_date = 1429.9.14
+	end_date = 1460.11.11
+}
+
+alliance = {
+	first = N03
+	second = N02
+	start_date = 1429.9.14
+	end_date = 1460.11.11
+}
+
+royal_marriage = {
+	first = N03
+	second = N02
+	start_date = 1429.9.14
+	end_date = 1460.11.11
+}

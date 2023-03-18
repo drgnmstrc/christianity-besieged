@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = ottoman
+religion = sol_invictus
+primary_culture = aquigalli
+capital = 201
+government_rank = 1

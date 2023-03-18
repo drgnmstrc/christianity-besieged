@@ -1,0 +1,74 @@
+namespace = byeHRE
+country_event = {
+	id = byeHRE.0
+	title = byeHRE.t
+	desc = byeHRE.d
+	picture = HRE_eventPicture
+	trigger = {
+		is_part_of_hre = yes
+		NOT = { religion_group = german_pagan }
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+	option = {
+		name = byeHRE.a
+		add_prestige = 10
+		add_stability = 1
+		every_owned_province = {
+			limit = {
+				is_part_of_hre = yes
+			}
+			add_claim = emperor
+		}
+		set_in_empire = no
+		reverse_add_opinion = {
+			who = emperor
+			modifier = frayed_germania
+		}
+		hidden_effect = {
+			every_owned_province = {
+				set_in_empire = no
+			}
+		}
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_opinion = {
+						who = emperor
+						value = 150
+					}
+					alliance_with = emperor
+				}
+			}
+		}
+	}
+	option = {
+		name = byeHRE.b
+		add_prestige = -20
+		add_stability = -1
+		change_religion = germanic
+		capital_scope = {
+			change_religion = germanic
+		}
+		reverse_add_opinion = {
+			who = emperor
+			modifier = offered_sacrifice_emperor
+		}
+		every_known_country = {
+			limit = {
+				religion = germanic
+				is_emperor = no
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = offered_sacrifice_prince
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

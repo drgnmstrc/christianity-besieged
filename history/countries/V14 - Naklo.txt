@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+technology_group = western
+primary_culture = kashubian
+religion = slavic
+capital = 2963
+fixed_capital = 2963
+# Dukes of Olawa/Lubin
+
+1399.7.12 = {
+	monarch = {
+		name = "Jvomir"
+		birth_date = 1399.1.1
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}

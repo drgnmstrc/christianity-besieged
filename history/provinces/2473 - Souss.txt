@@ -1,0 +1,22 @@
+# - Susa
+
+owner = R05
+controller = R05 
+add_core = R05
+culture = sicilian
+religion = ashabi
+capital = "Susa"
+trade_goods = sugar
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 3
+is_city = yes
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

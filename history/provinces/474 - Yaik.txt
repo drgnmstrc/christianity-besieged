@@ -1,0 +1,21 @@
+#474 - Yaik
+
+owner = GOL
+controller = GOL
+culture = ukek
+religion = tengri_pagan_reformed
+capital = "Yaik"
+trade_goods = iron
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = GOL
+
+
+
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group

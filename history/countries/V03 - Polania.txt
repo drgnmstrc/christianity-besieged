@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = polish
+government_rank = 1
+religion = slavic
+technology_group = western
+capital = 254
+
+1444.11.11 = { #Lubomir Inowrocki NATIVE, Mieszko Morawski MORAVIAN, tyskland TBD
+	monarch = {
+		name = "(Interregnum)"
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}

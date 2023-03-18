@@ -1,0 +1,23 @@
+# - Touggourt
+
+owner = TGT
+controller = TGT
+culture = isawiyen
+religion = mutazila
+capital = "Touggourt"
+trade_goods = spices
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = TGT
+
+
+
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = western
+discovered_by = saharan
+discovered_by = east_african
+

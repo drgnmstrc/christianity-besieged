@@ -1,0 +1,829 @@
+namespace = tranceEvents
+country_event = {
+	id = tranceEvents.0
+	title = tranceEvents.t #A National Trance
+	desc = tranceEvents.d
+	is_triggered_only = yes
+	option = { #Hire an elaborate group of the nation's best healers.
+		name = tranceEvents.a
+		add_treasury = -50
+		hidden_effect = {
+			set_country_flag = national_num
+			random_list = {
+				50 = {
+					set_country_flag = great_ritual
+				}
+				50 = {
+					set_country_flag = decent_ritual
+				}
+			}
+			country_event = {
+				id = tranceEvents.1
+				days = 2
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { treasury = 50 }
+			}
+		}
+	}
+	option = { #Hire the services of some of the city's healers.
+		name = tranceEvents.b
+		add_treasury = -25
+		hidden_effect = {
+			set_country_flag = city_num
+			random_list = {
+				35 = {
+					set_country_flag = great_ritual
+				}
+				35 = {
+					set_country_flag = decent_ritual
+				}
+				30 = {
+					set_country_flag = mediocre_ritual
+				}
+			}
+			country_event = {
+				id = tranceEvents.1
+				days = 2
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { treasury = 25 }
+			}
+		}
+	}
+	option = { #Hire the services of the common folk
+		name = tranceEvents.c
+		set_country_flag = commoner_num
+		trigger = { culture_group = kung }
+		add_treasury = -5
+		hidden_effect = {
+			random_list = {
+				55 = {
+					set_country_flag = great_ritual
+				}
+				25 = {
+					set_country_flag = decent_ritual
+				}
+				18 = {
+					set_country_flag = mediocre_ritual
+				}
+				2 = {
+					set_country_flag = tragic_ritual
+				}
+			}
+			country_event = {
+				id = tranceEvents.1
+				days = 2
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = { treasury = 5 }
+			}
+		}
+	}
+	option = { #Hire the services of the military
+		name = tranceEvents.e
+		trigger = { primary_culture = tsiqaleha }
+		add_mil_power = -10
+		hidden_effect = {
+			set_country_flag = military_num
+			random_list = {
+				35 = {
+					set_country_flag = great_ritual
+				}
+				35 = {
+					set_country_flag = decent_ritual
+				}
+				30 = {
+					set_country_flag = mediocre_ritual
+				}
+			}
+			country_event = {
+				id = tranceEvents.1
+				days = 2
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				NOT = { mil_power = 10 }
+			}
+		}
+	}
+	option = { #Undertake the ceremony alone.
+		name = tranceEvents.f
+		add_treasury = -5
+		hidden_effect = {
+			set_country_flag = alone_num
+			if = {
+				limit = {
+					adm = 6
+					mil = 6
+					dip = 6
+				}
+				set_ruler_flag = perfect_ritual
+			}
+			else = {
+				random_list = {
+					10 = {
+						set_country_flag = great_ritual
+					}
+					20 = {
+						set_country_flag = decent_ritual
+					}
+					30 = {
+						set_country_flag = mediocre_ritual
+					}
+					40 = {
+						set_country_flag = tragic_ritual
+					}
+				}
+			}
+			country_event = {
+				id = tranceEvents.1
+				days = 2
+			}
+		}
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { ADM = 6 }
+				NOT = { DIP = 6 }
+				NOT = { MIL = 6 }
+			}
+		}
+	}
+	option = { #Perhaps another time.
+		name = tranceEvents.g
+		hidden_effect = {
+			remove_country_modifier = recent_trance
+		}
+		add_adm_power = 25
+	}
+}
+country_event = { #Ritual event
+	id = tranceEvents.1
+	title = tranceEvents.1t
+	desc = tranceEvents.1d
+	is_triggered_only = yes
+	option = {
+		name = tranceEvents.1a #We await the wisdom ahead.
+		trigger = {
+			NOT = { has_country_flag = tragic_ritual }
+		}
+		add_prestige = 10
+		if = {
+			limit = {
+				has_ruler_flag = perfect_ritual
+			}
+			add_ruler_modifier = {
+				name = awe_inspiring_ritual
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_ruler_flag = perfect_ritual
+					has_country_flag = great_ritual
+				}
+			}
+			add_stability_or_adm_power = yes
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_ruler_flag = perfect_ritual }	
+				}
+				random_list = {
+					20 = { #Increases lowest monarch power (Great) Provides military benefits (Not Great)
+						set_country_flag = ritual1
+					}
+					20 = { #Claims on heathen/heretic/lowest prestige neighbor
+						set_country_flag = ritual2
+					}
+					20 = { #Boost to economy, trade, or colonization
+						set_country_flag = ritual3
+					}
+					20 = { #Boost to infrastructure
+						set_country_flag = ritual4
+					}
+					20 = { #Provides monarch power (Not Great) Provides military benefits (Great)
+						set_country_flag = ritual5
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_ruler_flag = perfect_ritual
+				}
+				country_event = {
+					id = tranceEvents.2
+					days = 4
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = great_ritual
+				}
+				country_event = {
+					id = tranceEvents.3
+					days = 4
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = decent_ritual
+				}
+				country_event = {
+					id = tranceEvents.5
+					days = 4
+				}
+			}
+			else = {
+				country_event = { #Simple bonuses for mediocre rituals
+					id = tranceEvents.4
+					days = 4
+				}
+			}
+		}
+	}
+	option = {
+		name = tranceEvents.1b #Horror!
+		trigger = {
+			has_country_flag = tragic_ritual
+		}
+		kill_ruler = yes
+		add_prestige = -15
+		add_legitimacy = -15
+		hidden_effect = {
+			clr_country_flag = tragic_ritual
+			clr_country_flag = mediocre_ritual
+			clr_country_flag = decent_ritual
+			clr_country_flag = great_ritual
+			clr_country_flag = national_num
+			clr_country_flag = city_num
+			clr_country_flag = commoner_num
+			clr_country_flag = military_num
+			clr_country_flag = alone_num
+		}
+	}
+}
+country_event = { #Perfect ritual
+	id = tranceEvents.2
+	title = tranceEvents.2t
+	desc = tranceEvents.2d
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = tragic_ritual
+		clr_country_flag = mediocre_ritual
+		clr_country_flag = decent_ritual
+		clr_country_flag = great_ritual
+		clr_country_flag = national_num
+		clr_country_flag = city_num
+		clr_country_flag = commoner_num
+		clr_country_flag = military_num
+		clr_country_flag = alone_num
+	}
+	option = {
+		name = tranceEvents.2a
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_ruler_modifier = {
+			name = golden_age_expansion
+			duration = -1
+		}
+	}
+}
+country_event = { #Great rituals
+	id = tranceEvents.3
+	title = tranceEvents.2t
+	desc = {
+		trigger = {
+			has_country_flag = ritual1	
+		}
+		desc = tranceEvents.3da
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual2	
+		}
+		desc = tranceEvents.3db
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual3	
+		}
+		desc = tranceEvents.3dc
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual4	
+		}
+		desc = tranceEvents.3dd
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual5	
+		}
+		desc = tranceEvents.3de
+	}
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = tragic_ritual
+			clr_country_flag = mediocre_ritual
+			clr_country_flag = decent_ritual
+			clr_country_flag = great_ritual
+			clr_country_flag = national_num
+			clr_country_flag = city_num
+			clr_country_flag = commoner_num
+			clr_country_flag = military_num
+			clr_country_flag = alone_num
+		}
+	}
+	option = {
+		name = tranceEvents.3a
+		trigger = { has_country_flag = ritual1 }
+		increase_lowest_monarch_power = {
+			MONARCH_ADM = adm
+			MONARCH_DIP = dip
+			MONARCH_MIL = mil
+		}
+	}
+	option = {
+		name = tranceEvents.3b
+		trigger = { has_country_flag = ritual2 }
+		if = {
+			limit = {
+				any_neighbor_country = {
+					NOT = { religion = qanumi }
+					any_owned_province = { 
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+				}	
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { religion = qanumi }
+				}
+				every_owned_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighbor_country = {
+					NOT = { prestige = ROOT }
+					any_owned_province = { 
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+				}
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { prestige = ROOT }
+				}
+				every_owned_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		else_if = {
+			every_neighbor_country = {
+				limit = {
+					NOT = {
+						alliance_with = ROOT
+						any_owned_province = { 
+							NOT = { is_core = ROOT }
+							NOT = { is_claim = ROOT }
+						}
+					}
+				}
+				every_owned_province = {
+					limit = {
+						any_neighbor_province = {
+							owned_by = ROOT
+						}
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		else = {
+			add_mil_power = 100
+		}
+	}
+	option = {
+		name = tranceEvents.3c
+		trigger = { has_country_flag = ritual3 }
+		if = {
+			limit = {
+				num_of_colonies = 1
+			}
+			if = {
+				limit = {
+					share_of_starting_income = 1.5
+				}
+				add_ruler_modifier = {
+					name = great_colony_trance
+					duration = 3650
+				}
+			}
+			else = {
+				add_ruler_modifier = {
+					name = great_cheap_colony_trance
+					duration = 3650
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				num_of_merchants = 3
+			}
+			if = {
+				limit = {
+					share_of_starting_income = 1.5
+				}
+				add_ruler_modifier = {
+					name = great_trade_expansion_trance
+					duration = 3650
+				}
+			}
+			else = {
+				add_ruler_modifier = {
+					name = great_trade_proliferation_trance
+					duration = 3650
+				}
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = great_taxation_trance
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = tranceEvents.3d
+		trigger = { has_country_flag = ritual4 }
+		add_prestige = 10
+		capital_scope = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+		}
+		add_ruler_modifier = {
+			name = great_infrastructure_trance
+			duration = 3650
+		}
+	}
+	option = {
+		name = tranceEvents.3e
+		trigger = { has_country_flag = ritual5 }
+		add_ruler_modifier = {
+			name = great_conquest_trance
+			duration = 3650
+		}
+	}
+	after = {
+		clr_country_flag = ritual1
+		clr_country_flag = ritual2
+		clr_country_flag = ritual3
+		clr_country_flag = ritual4
+		clr_country_flag = ritual5
+	}
+}
+country_event = { #Mediocre ritual
+	id = tranceEvents.4
+	title = tranceEvents.2t
+	desc = {
+		trigger = {
+			has_country_flag = ritual1	
+		}
+		desc = tranceEvents.4da
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual2	
+		}
+		desc = tranceEvents.4db
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual3	
+		}
+		desc = tranceEvents.4dc
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual4	
+		}
+		desc = tranceEvents.4dd
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual5	
+		}
+		desc = tranceEvents.4de
+	}
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = tragic_ritual
+		clr_country_flag = mediocre_ritual
+		clr_country_flag = decent_ritual
+		clr_country_flag = great_ritual
+		clr_country_flag = national_num
+		clr_country_flag = city_num
+		clr_country_flag = commoner_num
+		clr_country_flag = military_num
+		clr_country_flag = alone_num
+	}
+	option = {
+		name = tranceEvents.4a
+		trigger = { has_country_flag = ritual1 }
+		add_adm_power = 10
+		add_ruler_modifier = {
+			name = mediocre_colonize
+			duration = 1825
+		}
+	}
+	option = {
+		name = tranceEvents.4b
+		trigger = { has_country_flag = ritual2 }
+		add_dip_power = 10
+		add_ruler_modifier = {
+			name = mediocre_espionage
+			duration = 1825
+		}
+	}
+	option = {
+		name = tranceEvents.4c
+		trigger = { has_country_flag = ritual3 }
+		add_mil_power = 10
+		add_ruler_modifier = {
+			name = mediocre_conquest
+			duration = 1825
+		}
+	}
+	option = {
+		name = tranceEvents.4d
+		trigger = { has_country_flag = ritual4 }
+		add_prestige = 10
+		add_ruler_modifier = {
+			name = mediocre_building
+			duration = 1825
+		}
+	}
+	option = {
+		name = tranceEvents.4e
+		trigger = { has_country_flag = ritual5 }
+		add_stability_or_adm_power = yes
+		add_ruler_modifier = {
+			name = mediocre_health
+			duration = 1825
+		}
+	}
+	after = {
+		clr_country_flag = tragic_ritual
+		clr_country_flag = mediocre_ritual
+		clr_country_flag = decent_ritual
+		clr_country_flag = great_ritual
+		clr_country_flag = national_num
+		clr_country_flag = city_num
+		clr_country_flag = commoner_num
+		clr_country_flag = military_num
+		clr_country_flag = alone_num
+		clr_country_flag = ritual1
+		clr_country_flag = ritual2
+		clr_country_flag = ritual3
+		clr_country_flag = ritual4
+		clr_country_flag = ritual5
+	}
+}
+country_event = { #Decent rituals
+	id = tranceEvents.5
+	title = tranceEvents.2t
+	desc = {
+		trigger = {
+			has_country_flag = ritual1	
+		}
+		desc = tranceEvents.5da
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual2	
+		}
+		desc = tranceEvents.5db
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual3	
+		}
+		desc = tranceEvents.5dc
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual4	
+		}
+		desc = tranceEvents.5dd
+	}
+	desc = {
+		trigger = {
+			has_country_flag = ritual5	
+		}
+		desc = tranceEvents.5de
+	}
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = tragic_ritual
+		clr_country_flag = mediocre_ritual
+		clr_country_flag = decent_ritual
+		clr_country_flag = great_ritual
+		clr_country_flag = national_num
+		clr_country_flag = city_num
+		clr_country_flag = commoner_num
+		clr_country_flag = military_num
+		clr_country_flag = alone_num
+	}
+	option = {
+		name = tranceEvents.5a
+		trigger = { has_country_flag = ritual1 }
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+	}
+	option = {
+		name = tranceEvents.5b
+		trigger = { has_country_flag = ritual2 }
+		if = {
+			limit = {
+				any_neighbor_country = {
+					NOT = { religion = qanumi}
+				}	
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { religion = qanumi }
+				}
+				every_owned_province = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				any_neighbor_country = {
+					NOT = { prestige = ROOT }
+				}
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { prestige = ROOT }
+				}
+				every_owned_province = {
+					limit = {
+						any_neighbor_province = {
+							owned_by = ROOT
+						}
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+		else = {
+			random_neighbor_country = {
+				limit = {
+					NOT = {
+						alliance_with = ROOT
+					}
+				}
+				random_owned_province = {
+					limit = {
+						any_neighbor_province = {
+							owned_by = ROOT
+						}
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+	option = {
+		name = tranceEvents.5c
+		trigger = { has_country_flag = ritual3 }
+		if = {
+			limit = {
+				num_of_colonists = 1
+			}
+			if = {
+				limit = {
+					share_of_starting_income = 1.5
+				}
+				add_ruler_modifier = {
+					name = decent_colony_trance
+					duration = 3650
+				}
+			}
+			else = {
+				add_ruler_modifier = {
+					name = decent_cheap_colony_trance
+					duration = 3650
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				num_of_merchants = 3
+			}
+			if = {
+				limit = {
+					share_of_starting_income = 1.5
+				}
+				add_ruler_modifier = {
+					name = decent_trade_expansion_trance
+					duration = 3650
+				}
+			}
+			else = {
+				add_ruler_modifier = {
+					name = decent_trade_proliferation_trance
+					duration = 3650
+				}
+			}
+		}
+		else = {
+			add_ruler_modifier = {
+				name = decent_taxation_trance
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = tranceEvents.5d
+		trigger = { has_country_flag = ritual4 }
+		add_ruler_modifier = {
+			name = decent_infrastructure_trance
+			duration = 3650
+		}
+	}
+	option = {
+		name = tranceEvents.5e
+		trigger = { has_country_flag = ritual5 }
+		add_ruler_modifier = {
+			name = decent_conquest_trance
+			duration = 3650
+		}
+	}
+	after = {
+		clr_country_flag = tragic_ritual
+		clr_country_flag = mediocre_ritual
+		clr_country_flag = decent_ritual
+		clr_country_flag = great_ritual
+		clr_country_flag = national_num
+		clr_country_flag = city_num
+		clr_country_flag = commoner_num
+		clr_country_flag = military_num
+		clr_country_flag = alone_num
+		clr_country_flag = ritual1
+		clr_country_flag = ritual2
+		clr_country_flag = ritual3
+		clr_country_flag = ritual4
+		clr_country_flag = ritual5
+	}
+}

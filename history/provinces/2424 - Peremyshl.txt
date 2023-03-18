@@ -1,0 +1,29 @@
+#2424 - Przemysl
+
+owner = V05
+controller = V05
+add_core = V05
+religion = slavic
+culture = ruthenian
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 1
+capital = "Przemysl"
+is_city = yes
+#estate = estate_nobles
+
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = near_east
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = nomad_group

@@ -1,0 +1,19 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+capital = "Passau"
+is_city = yes
+culture = bavarian
+religion = germanic
+hre = yes
+base_tax = 5 
+base_production = 5
+base_manpower = 1
+trade_goods = fish
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

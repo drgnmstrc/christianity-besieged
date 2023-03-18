@@ -1,0 +1,23 @@
+#1759 - Potsdam
+
+owner = N20
+controller = N20
+add_core = N20
+culture = polobske
+religion = rodoptr
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = iron
+base_manpower = 4
+capital = "Poczdam"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

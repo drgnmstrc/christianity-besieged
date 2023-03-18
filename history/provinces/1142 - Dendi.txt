@@ -1,0 +1,17 @@
+#1142 - Dendi
+
+owner = R87
+controller = R87
+add_core = R87
+add_core = R55
+culture = songhai
+is_city = yes
+base_manpower = 1
+religion = sunni
+capital = "Lulama"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+discovered_by = sub_saharan
+discovered_by = saharan

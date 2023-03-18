@@ -1,0 +1,22 @@
+# 180 Poitiers
+
+owner = G10
+controller = G10
+add_core = G10
+capital = "Poitiers"
+is_city = yes
+culture = gallien
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+add_core = B08
+#estate = estate_burghers
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

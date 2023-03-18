@@ -1,0 +1,677 @@
+country_decisions = {
+
+	russian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_russia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = RUS }
+			NOT = { exists = Z13 }
+			primary_culture = novgorodian
+			any_owned_province = {
+				region = russia_region
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 294
+					ROOT = { NOT = { owns_core_province = 308 } }
+				}
+				AND = {
+					province_id = 308
+					ROOT = { NOT = { owns_core_province = 294 } }
+				}
+				AND = {
+					province_id = 301
+					ROOT = { NOT = { owns_core_province = 293 } }
+				}
+				AND = {
+					province_id = 293
+					ROOT = { NOT = { owns_core_province = 301 } }
+				}
+				AND = {
+					province_id = 306
+					ROOT = { NOT = { owns_core_province = 312 } }
+				}
+				AND = {
+					province_id = 312
+					ROOT = { NOT = { owns_core_province = 306 } }
+				}
+				AND = {
+					province_id = 1752
+					ROOT = { NOT = { owns_core_province = 310 } }
+				}
+				AND = {
+					province_id = 310
+					ROOT = { NOT = { owns_core_province = 1752 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = RUS }
+			NOT = { exists = Z13 }
+			adm_tech = 10
+			if = {
+				limit = { has_dlc = "Dharma" }
+				NOT = { has_reform = states_general_reform }
+			}
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				owns_core_province = 1752		# Rzhev
+				owns_core_province = 310		# Novgorod
+			}
+			OR = {
+				owns_core_province = 294		# Tver
+				owns_core_province = 308		# Yaroslavl
+			}
+			OR = {
+				owns_core_province = 301		# Ryazan
+				owns_core_province = 293		# Smolensk
+			}
+			OR = {
+				owns_core_province = 306		# Nijni-Novgorod
+				owns_core_province = 312		# Beloozero
+			}			
+		}
+		effect = {
+			change_tag = RUS
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					government = theocracy
+				}
+				change_government = monarchy
+			}
+			add_government_reform = tsardom
+			set_government_rank = 3
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = RUS
+			}
+			crimea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = RUS
+			}
+			ural_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = RUS
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_russia_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	byashikhanate_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_russia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = RUS }
+			NOT = { exists = Z13 }
+			primary_culture = russian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 294
+				province_id = 308
+				province_id = 301
+				province_id = 306
+				province_id = 312
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = RUS }
+			NOT = { exists = Z13 }
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 294		# Tver
+			owns_core_province = 308		# Yaroslavl	
+			owns_core_province = 301		# Ryazan
+			owns_core_province = 306		# Nijni-Novgorod
+			owns_core_province = 312		# Beloozero			
+		}
+		effect = {
+			change_tag = Z13
+			change_technology_group = eastern
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+			}
+			set_government_rank = 2
+			russia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Z13
+			}
+			crimea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Z13
+			}
+			ural_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = Z13
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_russia_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	storrsuor_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_storrsuor_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = N16 }
+			any_owned_province = {
+				region = crimea_region
+			}
+			NOT = {
+				OR = {
+					tag = RUS
+					tag = N16
+					tag = N17
+					tag = N18
+				}
+			}
+			primary_culture = novgorodian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 2410
+					ROOT = { NOT = { owns_core_province = 286 } }
+				}
+				AND = {
+					province_id = 286
+					ROOT = { NOT = { owns_core_province = 2410 } }
+				}
+				AND = {
+					province_id = 282
+					ROOT = { NOT = { owns_core_province = 280 } }
+				}
+				AND = {
+					province_id = 280
+					ROOT = { NOT = { owns_core_province = 282 } }
+				}
+				AND = {
+					province_id = 464
+					ROOT = { NOT = { owns_core_province = 2418 } }
+				}
+				AND = {
+					province_id = 2418
+					ROOT = { NOT = { owns_core_province = 464 } }
+				}
+				AND = {
+					province_id = 2410
+					ROOT = { NOT = { owns_core_province = 423 } }
+				}
+				AND = {
+					province_id = 423
+					ROOT = { NOT = { owns_core_province = 2410 } }
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = N16 }
+			adm_tech = 10
+			if = {
+				limit = { has_dlc = "Dharma" }
+				NOT = { has_reform = states_general_reform }
+			}
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				owns_core_province = 2410
+				owns_core_province = 286
+			}
+			OR = {
+				owns_core_province = 282
+				owns_core_province = 280
+			}
+			OR = {
+				owns_core_province = 464
+				owns_core_province = 2418
+			}
+			OR = {
+				owns_core_province = 2410
+				owns_core_province = 423
+			}			
+		}
+		effect = {
+			change_tag = N16
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
+			add_government_reform = tsardom
+			set_government_rank = 3
+			central_asia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N16
+			}
+			crimea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N16
+			}
+			ural_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N16
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N16
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_storrsuorr_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	varangland_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_varangland_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = N17 }
+			NOT = {
+				OR = {
+					tag = RUS
+					tag = N16
+					tag = N17
+					tag = N18
+				}
+			}
+			any_owned_province = {
+				OR = {
+					region = poland_region
+					region = carpathia_region
+				}
+			}
+			primary_culture = novgorodian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = poland_region
+				region = carpathia_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = N17 }
+			adm_tech = 10
+			if = {
+				limit = { has_dlc = "Dharma" }
+				NOT = { has_reform = states_general_reform }
+			}
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				poland_region = {
+					type = all
+					owned_by = ROOT
+				}
+				carpathia_region = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = N17
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
+			add_government_reform = tsardom
+			set_government_rank = 3
+			carpathia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N17
+			}
+			poland_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N17
+			}
+			balkan_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N17
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N17
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_varangland_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	balorland_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_balorland_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = N18 }
+			NOT = {
+				OR = {
+					tag = RUS
+					tag = N16
+					tag = N17
+					tag = N18
+					tag = N01
+				}
+			}
+			OR = {
+				culture_group = baltic
+				culture_group = east_slavic
+				culture_group = scandinavian
+			}
+			any_owned_province = {
+				region = baltic_region
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = poland_region
+				region = carpathia_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = N17 }
+			adm_tech = 10
+			if = {
+				limit = { has_dlc = "Dharma" }
+				NOT = { has_reform = states_general_reform }
+			}
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				poland_region = {
+					type = all
+					owned_by = ROOT
+				}
+				carpathia_region = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			change_tag = N17
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government = monarchy
+					}
+				}
+				change_government = monarchy
+			}
+			add_government_reform = tsardom
+			set_government_rank = 3
+			carpathia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N17
+			}
+			poland_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = N17
+			}
+			balkan_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N17
+			}
+			ruthenia_region = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+					is_empty = no
+				}
+				add_permanent_claim = N17
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_balorland_flag
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

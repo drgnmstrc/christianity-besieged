@@ -1,0 +1,22 @@
+# 2978 - Arezzo
+
+owner = U11
+controller = U11
+add_core = LAN
+add_core = U11
+culture = fiorenorum
+religion = ashabi
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = livestock
+base_manpower = 2
+capital = "Arezzo" 
+is_city = yes # Estimated 
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

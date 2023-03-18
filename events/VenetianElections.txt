@@ -1,0 +1,731 @@
+namespace = veniceElection
+
+# Venice Election
+country_event = {
+	id = veniceElection.0
+	title = veniceElection.t
+	desc = veniceElection.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_government_attribute = lottery_election
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					random_gender = yes
+					min_age = 20
+					max_age = 75
+					adm = 2
+					dip = -1
+					mil = -1
+					option = 0
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = 2
+					dip = -1
+					mil = -1
+					option = 0
+				}
+			}
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = 2
+					mil = -1
+					random_gender = yes
+					option = 1
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = 2
+					mil = -1
+					option = 1
+				}
+			}
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = -1
+					mil = 2
+					random_gender = yes
+					option = 2
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = -1
+					mil = 2
+					option = 2
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_reform = privilegiis_dynastia }
+				}
+				random_list = {
+					25 = {
+						set_country_flag = loyalist_adm
+					}
+					25 = {
+						set_country_flag = bureaucrat_adm
+					}
+					25 = {
+						set_country_flag = oligarch_adm
+					}
+					25 = {
+						set_country_flag = philosopher_adm
+					}
+				}
+				random_list = {
+					25 = {
+						set_country_flag = appraised_dip
+					}
+					25 = {
+						set_country_flag = populist_dip
+					}
+					25 = {
+						set_country_flag = merchant_dip
+					}
+					25 = {
+						set_country_flag = eloquent_dip
+					}
+				}
+				random_list = {
+					23 = {
+						set_country_flag = right_hand_mil
+					}
+					23 = {
+						set_country_flag = general_mil
+					}
+					23 = {
+						set_country_flag = strongman_mil
+					}
+					23 = {
+						set_country_flag = warhero_mil
+					}
+					8 = {
+						set_country_flag = julio_claudian_mil
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_reform = privilegiis_dynastia
+				}
+				random_list = {
+					33 = {
+						set_country_flag = loyalist_adm
+					}
+					33 = {
+						set_country_flag = bureaucrat_adm
+					}
+					33 = {
+						set_country_flag = oligarch_adm
+					}
+				}
+				random_list = {
+					33 = {
+						set_country_flag = appraised_dip
+					}
+					33 = {
+						set_country_flag = populist_dip
+					}
+					33 = {
+						set_country_flag = merchant_dip
+					}
+				}
+				random_list = {
+					30 = {
+						set_country_flag = right_hand_mil
+					}
+					30 = {
+						set_country_flag = general_mil
+					}
+					30 = {
+						set_country_flag = strongman_mil
+					}
+					10 = {
+						set_country_flag = julio_claudian_mil
+					}
+				}
+			}
+		}
+	}
+	
+	after = {
+		clear_exiled_ruler = lottery_candidate_a_@ROOT
+		clear_exiled_ruler = lottery_candidate_b_@ROOT
+		clear_exiled_ruler = lottery_candidate_c_@ROOT
+		clr_country_flag = loyalist_adm
+		clr_country_flag = bureaucrat_adm
+		clr_country_flag = oligarch_adm
+		clr_country_flag = philosopher_adm
+		clr_country_flag = appraised_dip
+		clr_country_flag = populist_dip
+		clr_country_flag = merchant_dip
+		clr_country_flag = eloquent_dip
+		clr_country_flag = right_hand_mil
+		clr_country_flag = general_mil
+		clr_country_flag = strongman_mil
+		clr_country_flag = warhero_mil
+	}
+	option = {
+		name = AdminVeniceA
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = loyalist_adm }
+		set_ruler = lottery_candidate_a_@ROOT
+		add_ruler_modifier = {
+			name = loyalist_adm
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_patricians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_militantis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = AdminVeniceB
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = bureaucrat_adm }
+		set_ruler = lottery_candidate_a_@ROOT
+		add_ruler_modifier = {
+			name = bureaucrat_adm
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_plebians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_susceptors
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = AdminVeniceC
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = oligarch_adm }
+		set_ruler = lottery_candidate_a_@ROOT
+		add_ruler_modifier = {
+			name = oligarch_adm
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_plebians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_susceptors
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = AdminVeniceD
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = philosopher_adm }
+		set_ruler = lottery_candidate_a_@ROOT
+		add_ruler_modifier = {
+			name = philosopher_adm
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_plebians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_susceptors
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = DiploVeniceA
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = appraised_dip }
+		set_ruler = lottery_candidate_b_@ROOT
+		add_ruler_modifier = {
+			name = appraised_dip
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_patricians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_popularis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = DiploVeniceB
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = populist_dip }
+		set_ruler = lottery_candidate_b_@ROOT
+		add_ruler_modifier = {
+			name = populist_dip
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_plebians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_popularis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = DiploVeniceC
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = merchant_dip }
+		set_ruler = lottery_candidate_b_@ROOT
+		add_ruler_modifier = {
+			name = merchant_dip
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_adlorians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_susceptors
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = DiploVeniceD
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = eloquent_dip }
+		set_ruler = lottery_candidate_b_@ROOT
+		add_ruler_modifier = {
+			name = merchant_dip
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_plebians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_popularis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = MiliVeniceA
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = right_hand_mil }
+		set_ruler = lottery_candidate_c_@ROOT
+		add_ruler_modifier = {
+			name = right_hand_mil
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_patricians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_militantis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = MiliVeniceB
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = general_mil }
+		set_ruler = lottery_candidate_c_@ROOT
+		add_ruler_modifier = {
+			name = general_mil
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_adlorians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_militantis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = MiliVeniceC
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = strongman_mil }
+		set_ruler = lottery_candidate_c_@ROOT
+		add_ruler_modifier = {
+			name = strongman_mil
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_adlorians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_militantis
+				influence = 10
+			}			
+		}
+	}
+	option = {
+		name = MiliVeniceD
+		ai_chance = {
+			factor = 33
+		}
+		trigger = { has_country_flag = warhero_mil }
+		set_ruler = lottery_candidate_c_@ROOT
+		add_ruler_modifier = {
+			name = warhero_mil
+			duration = -1
+		}
+		if = {
+			limit = {
+				NOT = { has_reform = reconvene_the_roman_senate }
+			}
+			add_faction_influence = {
+				faction = ven_adlorians
+				influence = 10
+			}	
+		}	
+		if = {
+			limit = {
+				has_reform = reconvene_the_roman_senate
+			}
+			add_faction_influence = {
+				faction = roman_militantis
+				influence = 10
+			}			
+		}
+	}
+	option = { # nepotism
+		name = elections.800.e
+		trigger = {
+			has_reform = privilegiis_dynastia
+		}
+		ai_chance = { factor = 10 }
+		add_republican_tradition = -15
+		custom_tooltip = venetian_nepotism_tt
+		hidden_effect = {
+			random_list = {
+				20 = {
+					if = {
+						limit = { has_active_policy = mandatory_service }
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = 3
+							adm = 3
+							dip = 3
+							name = "lastname"
+							random_gender = yes # Allows random gender for republics
+						}
+					}
+					else = {
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = 3
+							adm = 3
+							dip = 3
+							name = "lastname"
+						}
+					}
+					add_ruler_modifier = {
+						name = prodigial_heir
+					}
+				}
+				20 = {
+					if = {
+						limit = { has_active_policy = mandatory_service }
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = -1
+							adm = -1
+							dip = 4
+							name = "lastname"
+							random_gender = yes # Allows random gender for republics
+						}
+					}
+					else = {
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = -1
+							adm = -1
+							dip = 4
+							name = "lastname"
+						}
+					}
+					add_ruler_modifier = {
+						name = eminent_heir
+					}
+				}
+				20 = {
+					if = {
+						limit = { has_active_policy = mandatory_service }
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = -1
+							adm = -1
+							dip = -1
+							name = "lastname"
+							random_gender = yes # Allows random gender for republics
+						}
+					}
+					else = {
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = -1
+							adm = -1
+							dip = -1
+							name = "lastname"
+						}
+					}
+					add_ruler_modifier = {
+						name = heir_apparent
+					}
+				}
+				20 = {
+					if = {
+						limit = { has_active_policy = mandatory_service }
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = 3
+							adm = -1
+							dip = -1
+							max_random_dip = 2
+							name = "lastname"
+							random_gender = yes # Allows random gender for republics
+						}
+					}
+					else = {
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = 3
+							adm = -1
+							dip = -1
+							max_random_dip = 2
+							name = "lastname"
+						}
+					}
+					add_ruler_modifier = {
+						name = violent_heir
+					}
+				}
+				20 = {
+					if = {
+						limit = { has_active_policy = mandatory_service }
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = 3
+							adm = -1
+							dip = -1
+							max_random_dip = 2
+							name = "lastname"
+							random_gender = yes # Allows random gender for republics
+						}
+					}
+					else = {
+						define_ruler = {
+							min_age = 20
+							max_age = 60
+							mil = -1
+							adm = -1
+							dip = -1
+							max_random_dip = 3
+							max_random_adm = 3
+							max_random_mil = 3
+							name = "lastname"
+						}
+					}
+					add_ruler_modifier = {
+						name = questionable_heir
+					}
+				}
+			}
+		}
+		add_faction_influence = {
+			faction = ven_patricians
+			influence = 20			
+		}
+	}
+}

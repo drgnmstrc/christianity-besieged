@@ -1,0 +1,188 @@
+namespace = sahara_colony
+province_event = {
+	id = sahara_colony.0
+	title = sahara_colony.t
+	picture = PLAGUE_eventpicture
+	desc = sahara_colony.d
+	trigger = {
+		is_colony = yes
+		owner = { NOT = { has_reform = berber_tribe } }
+		region = sahara_region
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			multiply_colonysize = 0
+			cede_province =    
+			if = {
+				limit = {
+					owner = {
+						ai = yes
+					}
+				}
+				undiscover_country = ROOT
+			}
+		}
+	}
+	option = {
+		name = sahara_colony.a
+		custom_tooltip = extreme_sahara_tt
+	}
+}
+province_event = {
+	id = sahara_colony.1
+	title = sahara_colony.1t
+	picture = PLAGUE_eventpicture
+	desc = sahara_colony.1d
+	trigger = {
+		owner = { NOT = { has_reform = berber_tribe } }
+		region = sahara_region
+		owner = { is_at_war = no }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					owner = {
+						OR = {
+							any_owned_province = {
+								NOT = {
+									region = sahara_region
+								}
+							}
+							num_of_cities = 2
+						}
+					}
+				}
+				if = {
+					limit = {
+						is_core = owner
+					}
+					remove_core = owner
+				}
+				cede_province =   
+			}
+			else = {
+				owner = {
+					add_government_reform = berber_tribe
+				}
+			}
+		}
+	}
+	option = {
+		name = sahara_colony.1a
+	}
+}
+province_event = {
+	id = sahara_colony.2
+	title = sahara_colony.2t
+	picture = CITY_DEVELOPMENT_eventpicture
+	desc = sahara_colony.2d
+	trigger = {
+		NOT = { region = sahara_region }
+		owner = { is_at_war = no }
+		NOT = {
+			OR = {
+				province_id = 1115
+				province_id = 2237
+				province_id = 2244
+				province_id = 2240
+				province_id = 2448
+				province_id = 2474
+				province_id = 2475
+				province_id = 1127
+				province_id = 1111
+				province_id = 4800
+				province_id = 774
+				area = waddai_area
+			}
+		}
+		owner = {
+			capital_scope = {
+				region = sahara_region
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = sahara_colony.2a
+		owner = {
+			add_core = ROOT
+			add_prestige = 10
+			ROOT = { move_capital_effect = yes }
+		}
+		change_culture = ROOT
+		change_religion = ROOT
+	}
+}
+country_event = {
+	id = sahara_colony.3
+	hidden = yes
+	trigger = {
+		NOT = { has_reform = berber_tribe }
+		all_owned_province = {
+			region = sahara_region
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		change_government = tribe
+		add_government_reform = berber_tribe
+	}
+	option = {
+		name = sahara_colony.3a
+	}
+}
+country_event = {
+	id = sahara_colony.4
+	hidden = yes
+	trigger = {
+		has_reform = berber_tribe
+		is_at_war = no
+		any_owned_province = {
+			AND = {
+				NOT = {
+					province_id = 1115
+					province_id = 2237
+					province_id = 2244
+					province_id = 2240
+					province_id = 2448
+					province_id = 2474
+					province_id = 2475
+					province_id = 1127
+					province_id = 1111
+					province_id = 4800
+					province_id = 774
+					area = waddai_area
+					area = baggara_area
+				}
+				NOT = { region = sahara_region }
+				OR = {
+					NOT = { region = central_africa_region }
+					owner = { num_of_cities = 2 }
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			remove_government_reform = berber_tribe
+		}
+	}
+	option = {
+		name = sahara_colony.3a
+		add_government_reform = settled_berber_tribe
+	}
+}

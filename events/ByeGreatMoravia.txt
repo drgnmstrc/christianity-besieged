@@ -1,0 +1,24 @@
+namespace = byegreatmoravia
+
+province_event = {
+	id = byegreatmoravia.0
+	hidden = yes
+	trigger = {
+		NOT = {
+			exists = SLO
+		}
+		is_core = SLO
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		remove_core = SLO
+		if = {
+			limit = {
+				culture = slovak
+			}
+			add_core = MVA
+		}
+	}
+}

@@ -1,0 +1,562 @@
+defined_text = {
+	name = Weebo
+	random = no
+	text = {
+		localisation_key = cam.elections.800.t
+		trigger = {
+			has_reform = venetian_tyranny_reform
+		}
+	}
+	text = {
+		localisation_key = beta.venice.lottery.BS
+		trigger = {
+			NOT = { has_reform = venetian_tyranny_reform }
+		}
+	}
+}
+
+defined_text = {
+	name = AdminCandidates
+	random = yes
+	text = {
+		localisation_key = AdminVeniceA
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = AdminVeniceB
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = AdminVeniceC
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = ADMTribeA
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = ADMTribeB
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = ADMMudariA
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+	text = {
+		localisation_key = ADMMudariB
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+}
+defined_text = {
+	name = DiploCandidates
+	random = yes
+	text = {
+		localisation_key = DiploVeniceA
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = DiploVeniceB
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = DiploVeniceC
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = DIPTribeA
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = DIPTribeB
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = DIPMudariA
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+	text = {
+		localisation_key = DIPMudariB
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+}
+defined_text = {
+	name = MiliCandidates
+	random = yes
+	text = {
+		localisation_key = MiliVeniceA
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = MiliVeniceB
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = MiliVeniceC
+		trigger = {
+			has_reform = venice_merchants_reform
+		}
+	}
+	text = {
+		localisation_key = MILTribeA
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = MILTribeB
+		trigger = {
+			has_reform = tribal_theocracy
+		}
+	}
+	text = {
+		localisation_key = MILMudariA
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+	text = {
+		localisation_key = MILMudariB
+		trigger = {
+			has_reform = mudarian_utopia
+		}
+	}
+}
+defined_text = {
+	name = GetAtlReforms
+	random = no
+	text = {
+		localisation_key = AtlReforms0
+		trigger = {
+			NOT = {
+				has_country_modifier = atzintli_reform1
+				has_country_flag = atzintli_reform5
+			}
+		}
+	}
+	text = {
+		localisation_key = AtlReforms1
+		trigger = {
+			has_country_modifier = atzintli_reform1
+			NOT = {
+				has_country_modifier = atzintli_reform2
+			}
+		}
+	}
+	text = {
+		localisation_key = AtlReforms2
+		trigger = {
+			has_country_modifier = atzintli_reform2
+			NOT = {
+				has_country_modifier = atzintli_reform3
+			}
+		}
+	}
+	text = {
+		localisation_key = AtlReforms3
+		trigger = {
+			has_country_modifier = atzintli_reform3
+			NOT = {
+				has_country_modifier = atzintli_reform4
+			}
+		}
+	}
+	text = {
+		localisation_key = AtlReforms4
+		trigger = {
+			has_country_modifier = atzintli_reform4
+			NOT = {
+				has_country_flag = atzintli_reform5
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = IberianAutonomyConsequence
+	random = no
+	text = {
+		localisation_key = iberian_autonomy_north
+		trigger = {
+			has_country_flag = north_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_autonomy_central
+		trigger = {
+			has_country_flag = central_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_autonomy_south
+		trigger = {
+			has_country_flag = south_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_autonomy_callaeci
+		trigger = {
+			has_country_flag = callaeci_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_autonomy_intercacia
+		trigger = {
+			has_country_flag = intercacia_iberian_union
+		}
+	}
+}
+defined_text = {
+	name = OppressingIberianEnemies
+	random = no
+	text = {
+		localisation_key = iberian_oppression_north
+		trigger = {
+			has_country_flag = north_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_oppression_central
+		trigger = {
+			has_country_flag = central_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_oppression_south
+		trigger = {
+			has_country_flag = south_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_oppression_callaeci
+		trigger = {
+			has_country_flag = callaeci_iberian_union
+		}
+	}
+	text = {
+		localisation_key = iberian_oppression_intercacia
+		trigger = {
+			has_country_flag = intercacia_iberian_union
+		}
+	}
+}
+defined_text = {
+	name = kursikaDLC
+	random = no
+	text = {
+		localisation_key = kursika_DLC
+		trigger = { has_dlc = "Golden Century" }
+	}
+	text = {
+		localisation_key = kursika_DLCless
+		trigger = { NOT = { has_dlc = "Golden Century" } }
+	}
+}
+defined_text = {
+	name = dynamicHellenicSize
+	random = no
+	text = {
+		localisation_key = dynamicHellenicSize.small
+		trigger = { has_country_flag = capital_settled }
+	}
+	text = {
+		localisation_key = dynamicHellenicSize.big
+		trigger = { NOT = { has_country_flag = capital_settled } }
+	}
+}
+defined_text = {
+	name = TranceScope
+	random = no
+	text = {
+		localisation_key = TranceScope.national
+		trigger = { has_country_flag = national_num }
+	}
+	text = {
+		localisation_key = TranceScope.city
+		trigger = { has_country_flag = city_num }
+	}
+	text = {
+		localisation_key = TranceScope.commoner
+		trigger = { has_country_flag = commoner_num }
+	}
+	text = {
+		localisation_key = TranceScope.military
+		trigger = { has_country_flag = military_num }
+	}
+	text = {
+		localisation_key = TranceScope.alone
+		trigger = { has_country_flag = alone_num }
+	}
+}
+defined_text = {
+	name = TranceResult
+	random = no
+	text = {
+		localisation_key = TranceResult.perfect
+		trigger = {
+			has_ruler_flag = perfect_ritual
+		}
+	}
+	text = {
+		localisation_key = TranceResult.greatAlone
+		trigger = {
+			has_country_flag = great_ritual
+			has_country_flag = alone_num
+		}
+	}
+	text = {
+		localisation_key = TranceResult.decentAlone
+		trigger = {
+			has_country_flag = decent_ritual
+			has_country_flag = alone_num
+		}
+	}
+	text = {
+		localisation_key = TranceResult.mediocreAlone
+		trigger = {
+			has_country_flag = mediocre_ritual
+			has_country_flag = alone_num
+		}
+	}
+	text = {
+		localisation_key = TranceResult.tragicAlone
+		trigger = {
+			has_country_flag = tragic_ritual
+			has_country_flag = alone_num
+		}
+	}
+	text = {
+		localisation_key = TranceResult.greatGroup
+		trigger = {
+			has_country_flag = great_ritual
+			NOT = { has_country_flag = alone_num }
+		}
+	}
+	text = {
+		localisation_key = TranceResult.decentGroup
+		trigger = {
+			has_country_flag = decent_ritual
+			NOT = { has_country_flag = alone_num }
+		}
+	}
+	text = {
+		localisation_key = TranceResult.mediocreGroup
+		trigger = {
+			has_country_flag = mediocre_ritual
+			NOT = { has_country_flag = alone_num }
+		}
+	}
+	text = {
+		localisation_key = TranceResult.tragicGroup
+		trigger = {
+			has_country_flag = tragic_ritual
+			NOT = { has_country_flag = alone_num }
+		}
+	}
+}
+defined_text = {
+	name = TranceTitle
+	random = no
+	text = {
+		localisation_key = TranceTitle.tragic
+		trigger = {
+			has_country_flag = tragic_ritual
+		}
+	}
+	text = {
+		localisation_key = TranceTitle.mediocre
+		trigger = {
+			has_country_flag = mediocre_ritual
+		}
+	}
+	text = {
+		localisation_key = TranceTitle.decent
+		trigger = {
+			has_country_flag = decent_ritual
+		}
+	}
+	text = {
+		localisation_key = TranceTitle.great
+		trigger = {
+			has_country_flag = great_ritual
+		}
+	}
+	text = {
+		localisation_key = TranceTitle.perfect
+		trigger = {
+			has_ruler_flag = perfect_ritual
+		}
+	}
+}
+defined_text = {
+	name = AlexFallenFamilies
+	random = no
+	text = {
+		localisation_key = ElsherifSaidis
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_elsherif
+				has_country_flag = eclipsed_saidis
+				has_country_flag = faridrid_candidate
+			}
+		}
+	}
+	text = {
+		localisation_key = MunaqadunSaidis
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_munaqadun
+				has_country_flag = eclipsed_saidis
+				has_country_flag = faridrid_candidate
+			}
+		}
+	}
+	text = {
+		localisation_key = ElsherifMunaqadun
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_munaqadun
+				has_country_flag = eclipsed_elsherif
+				has_country_flag = faridrid_candidate
+			}
+		}
+	}
+	text = {
+		localisation_key = AlexElsherif
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_elsherif
+				NOT = { has_country_flag = faridrid_candidate }
+			}
+		}
+	}
+	text = {
+		localisation_key = AlexSaidis
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_saidis
+				NOT = { has_country_flag = faridrid_candidate }
+			}
+		}
+	}
+	text = {
+		localisation_key = AlexMunaqadun
+		trigger = {
+			AND = {
+				has_country_flag = eclipsed_munaqadun
+				NOT = { has_country_flag = faridrid_candidate }
+			}
+		}
+	}
+}
+defined_text = {
+	name = AlexSurvivedFamily
+	random = no
+	text = {
+		localisation_key = AlexElsherif
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = eclipsed_munaqadun
+					NOT = { has_country_flag = faridrid_candidate }
+				}
+				AND = {
+					has_country_flag = eclipsed_munaqadun
+					has_country_flag = eclipsed_saidis
+					has_country_flag = faridrid_candidate
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = AlexSaidis
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = eclipsed_saidis
+					NOT = { has_country_flag = faridrid_candidate }
+				}
+				AND = {
+					has_country_flag = eclipsed_munaqadun
+					has_country_flag = eclipsed_elsherif
+					has_country_flag = faridrid_candidate
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = AlexMunaqadun
+		trigger = {
+			OR = {
+				AND = {
+					has_country_flag = eclipsed_munaqadun
+					NOT = { has_country_flag = faridrid_candidate }
+				}
+				AND = {
+					has_country_flag = eclipsed_elsherif
+					has_country_flag = eclipsed_saidis
+					has_country_flag = faridrid_candidate
+				}
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetPax
+	random = no
+	text = {
+		localisation_key = CisarPax
+		trigger = {
+			religion = cisarstvo
+		}
+	}
+	text = {
+		localisation_key = NoniPax
+		trigger = {
+			religion = noniustian
+		}
+	}
+	text = {
+		localisation_key = VanillaPax
+		trigger = {
+			NOT = {
+				OR = {
+					religion = cisarstvo
+					religion = noniustian
+				}
+			}
+		}
+	}
+}

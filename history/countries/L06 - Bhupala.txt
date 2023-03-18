@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = gond_kingdom
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = gondi
+capital = 4460	# Bhupal
+
+1444.1.1 = {
+	monarch = {
+		name = "Hanhma"
+		dynasty = "Bhupa"
+		ADM = 5
+		DIP = 6
+		MIL = 0
+	}
+}

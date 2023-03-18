@@ -1,0 +1,20 @@
+#1870 - St Gallen
+
+owner = G24
+controller = G24
+culture = alemanni
+religion = germanic
+capital = "Leventina"
+trade_goods = livestock
+hre = yes
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = G24
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

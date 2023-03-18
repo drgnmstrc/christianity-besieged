@@ -1,0 +1,19 @@
+#2212 - Mianeh
+
+owner = PER
+controller = PER
+culture = azerbaijani
+religion = manichaeism
+add_core = PER
+add_core = ARL
+capital = "Mianeh"
+trade_goods = paper
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = indian

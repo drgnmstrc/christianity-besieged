@@ -1,0 +1,48 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = cosmopolitan_french
+add_accepted_culture = wallonian
+religion = anglican
+technology_group = ottoman
+capital = 182 
+
+1422.10.22 = {
+	monarch = {
+		name = "Marcus"
+		dynasty = "Sagille"
+		birth_date = 1403.2.22
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+	queen = {
+        country_of_origin = B01
+        name = "Maria"
+        dynasty = "Viridia"
+        birth_date = 1404.10.14
+        death_date = 1463.11.29
+        female = yes
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+1423.7.3 = {
+	heir = {
+		name = "Christian"
+		monarch_name = "Christian II"
+		dynasty = "Sagille"
+		birth_date = 1423.7.3
+		death_date = 1483.8.30
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = intricate_web_weaver_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = well_advised_personality
+	add_queen_personality = zealot_personality
+}

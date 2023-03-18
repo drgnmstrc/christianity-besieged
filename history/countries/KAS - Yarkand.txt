@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = uyghur
+religion = manichaeism
+technology_group = chinese
+capital = 739	# kashgar
+add_accepted_culture = oirats
+add_accepted_culture = xibei
+
+1434.1.1 = {
+	monarch = {
+		name = "Oghrunzh II"
+		dynasty = "Tekin"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Erkin"
+		dynasty = "Terkin"
+		birth_date = 1440.1.1
+		death_date = 1514.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

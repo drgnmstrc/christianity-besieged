@@ -1,0 +1,22 @@
+# - São Tomé
+owner = R09
+controller = R09
+add_core = R09
+culture = banu
+religion = mudarian
+capital = "Muthalia"
+trade_goods = slaves
+hre = no
+base_tax = 7
+base_production = 6
+base_manpower = 6
+extra_cost = 16
+center_of_trade = 2
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = south_african
+
+add_permanent_province_modifier = {
+	name = the_black_stone
+	duration = -1
+}

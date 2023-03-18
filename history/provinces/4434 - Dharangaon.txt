@@ -1,0 +1,19 @@
+#4434 - Dharangaon
+
+owner = BGA
+controller = BGA
+culture = marathi
+religion = hinduism
+capital = "Dharangaon"
+trade_goods = cotton
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = BGA
+discovered_by = indian
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = chinese

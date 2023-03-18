@@ -1,0 +1,17 @@
+# No previous file for Ogoja
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = igbo
+religion = qanumi
+technology_group = sub_saharan
+capital = 5061
+religious_school = hado_school
+government_rank = 1
+1397.1.1 = {
+	monarch = {
+		name = "Ikemba"
+		adm = 1
+		dip = 5
+		mil = 4
+	}
+}

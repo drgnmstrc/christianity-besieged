@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = arawak
+religion = animism
+technology_group = mesoamerican
+capital = 2659
+government_rank = 1
+1431.1.1 = {
+	monarch = {
+		name = "Cuacanagarix"
+		dynasty = "Guacara"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}
+

@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = mercian
+religion = anglic
+technology_group = western
+capital = 244
+
+1434.2.5 = {
+	monarch = {
+		name = "Ecgbert"
+		dynasty = "Colasson"
+		birth_date = 1409.5.23
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}

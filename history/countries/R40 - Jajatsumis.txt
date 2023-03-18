@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = kurudic_order_reform
+primary_culture = tsiqaleha
+religion = qanumi
+technology_group = south_african
+capital = 4977
+religious_school = kurudi_school
+government_rank = 1
+1440.1.1 = {
+	monarch = {
+		name = "!'Am||ae"
+		dynasty = "|Naa||qhaa"
+		adm = 2
+		dip = 4
+		mil = 6
+	}
+}

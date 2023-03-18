@@ -1,0 +1,271 @@
+country_decisions = {
+
+	italya_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_italy_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ROM }
+			NOT = { exists = U02 }
+			NOT = { exists = U15 }
+			NOT = { exists = H25 }
+			NOT = { tag = U01 }
+			NOT = { tag = HLR }
+			OR = {
+				primary_culture = italian_turk
+				primary_culture = roman
+				primary_culture = graeci
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			religion_group = muslim
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 101	# Genoa
+				province_id = 104	# Milan
+				province_id = 106	# Modena
+				province_id = 108	# Verona
+				province_id = 109	# Mantua
+				province_id = 116	# Firenze
+				province_id = 117	# Siena
+				province_id = 118	# Roma
+				province_id = 119	# Ancona
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milan
+			owns_core_province = 106	# Modena
+			owns_core_province = 108	# Verona
+			owns_core_province = 109	# Mantua
+			owns_core_province = 116	# Firenze
+			owns_core_province = 117	# Siena
+			owns_core_province = 118	# Roma
+			owns_core_province = 119	# Ancona
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_tag = U02
+			if = {
+				limit = {
+					religion = ashabi
+				}
+				every_owned_province = {
+					limit = {
+						OR = {
+							culture = italian_turk
+							culture = roman
+						}
+						religion = ashabi
+					}
+					change_culture = italyan
+				}
+				if = {
+					limit = {
+						primary_culture = graeci
+					}
+					every_owned_province = {
+						limit = {
+							culture = graeci
+							religion = ashabi
+						}
+						change_culture = italyan
+					}
+				}
+				change_primary_culture = italyan
+			}
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = U02
+			}
+			add_prestige = 25
+			U02 = {
+				set_capital = 118
+			}
+			set_country_flag = formed_italy_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rome_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_rome_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ROM }
+			NOT = { exists = U02 }
+			NOT = { exists = H25 }
+			NOT = { tag = HLR }
+			NOT = { tag = U01 }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			has_roman_religion = yes
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 101	# Genoa
+				province_id = 104	# Milan
+				province_id = 106	# Modena
+				province_id = 108	# Verona
+				province_id = 109	# Mantua
+				province_id = 116	# Firenze
+				province_id = 117	# Siena
+				province_id = 118	# Roma
+				province_id = 119	# Ancona
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milan
+			owns_core_province = 106	# Modena
+			owns_core_province = 108	# Verona
+			owns_core_province = 109	# Mantua
+			owns_core_province = 116	# Firenze
+			owns_core_province = 117	# Siena
+			owns_core_province = 118	# Roma
+			owns_core_province = 119	# Ancona
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			if = {
+				limit = {
+					NOT = { accepted_culture = roman }
+				}
+				add_accepted_culture = roman
+			}
+			change_tag = H25
+			if = {
+				limit = {
+					NOT = { was_tag = H28 }
+				}
+				H25 = { set_capital = 118 }
+			}
+			if = {
+				limit = { NOT = { has_reform = privilegiis_venetia } }
+				add_government_reform = roman_tyranny_reform
+			}
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = H25
+			}
+			france_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = H25
+			}
+			iberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = H25
+			}
+			add_prestige = 25
+			set_country_flag = formed_rome_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

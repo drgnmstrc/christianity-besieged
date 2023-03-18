@@ -1,0 +1,19 @@
+#4339 - Rasht
+
+owner = KRY
+controller = KRY
+culture = gilaki
+religion = manichaeism
+add_core = KRY
+capital = "Rasht"
+trade_goods = silk
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = indian
+discovered_by = nomad_group

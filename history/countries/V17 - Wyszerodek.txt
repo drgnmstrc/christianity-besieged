@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = obotriske
+religion = slavic
+capital = 2996
+fixed_capital = 2996
+# Dukes of Olawa/Lubin
+
+1399.7.12 = {
+	monarch = {
+		name = "Czedrod"
+		dynasty = "Wartislaw"
+		birth_date = 1408.3.7
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

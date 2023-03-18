@@ -1,0 +1,15 @@
+owner = R38
+controller = R38
+add_core = R38
+trade_goods = gems
+is_city = yes
+culture = xami
+capital = "Gobabeb"
+religion = num_faith
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+discovered_by = central_african
+discovered_by = south_african

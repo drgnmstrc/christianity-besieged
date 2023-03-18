@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = iqta_council_reform
+technology_group = ottoman
+religion = ashabi
+primary_culture = italian_turk
+add_accepted_culture = zeneize
+add_accepted_culture = nissi
+capital = 2980
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Augustus"
+		dynasty = "Aydogdu"
+		dip = 5
+		mil = 1
+		adm = 2
+	}
+}

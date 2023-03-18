@@ -1,0 +1,27 @@
+# 129 - Krain
+owner = Z21
+controller = Z21
+add_core = Z21
+add_core = U06
+culture = pannici
+religion = manichaeism
+base_tax = 5 
+base_production = 4
+trade_goods = livestock
+base_manpower = 4
+capital = "Laibach"
+is_city = yes
+hre = no
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = nomad_group
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS

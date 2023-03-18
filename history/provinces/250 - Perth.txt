@@ -1,0 +1,19 @@
+#250 - Perth
+
+owner = J16
+controller = J16
+add_core = J16
+culture = highland_scottish
+religion = druidism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+capital = "Perth"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

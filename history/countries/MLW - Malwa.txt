@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = malvi
+religion = manichaeism
+technology_group = indian
+capital = 526	# Mandu
+add_accepted_culture = rajput
+ 
+#Sultans of Malwa
+1436.5.3 = {
+	monarch = {
+		name = "Mahmud I"
+		dynasty = "Khalji"
+		ADM = 5
+		DIP = 5
+		MIL = 6
+	}
+	clear_scripted_personalities = yes
+	#add_ruler_personality = just_personality
+	add_ruler_personality = careful_personality #Most dominant Personality aspect
+	#add_ruler_personality = well_connected_personality
+	#add_ruler_personality = tolerant_personality
+}

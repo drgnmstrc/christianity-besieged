@@ -1,0 +1,21 @@
+#4110 - Sutherland
+
+owner = N09
+controller = N09
+culture = hjallish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = grain
+base_manpower = 3
+capital = "Dornoch"
+is_city = yes
+#estate = estate_nobles
+add_core = N09
+add_core = HSC
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

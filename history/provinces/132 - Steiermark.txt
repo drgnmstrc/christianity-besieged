@@ -1,0 +1,21 @@
+#132 - Steiermark
+
+owner = V07
+controller = V07
+add_core = V07
+culture = slovene
+religion = cisarstvo
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = grain
+base_manpower = 3
+capital = "Judenburg" 
+is_city = yes
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

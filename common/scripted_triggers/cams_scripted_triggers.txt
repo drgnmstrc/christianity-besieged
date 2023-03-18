@@ -1,0 +1,126 @@
+has_funky_elections = {
+	OR = {
+		has_reform = venice_merchants_reform
+		has_reform = mudarian_utopia
+		has_reform = tribal_theocracy
+	}
+}
+
+is_west_african = {
+	OR = {
+		culture_group = igboid
+		culture_group = yoruboid
+		culture_group = gbe
+		culture_group = guradamawa
+		culture_group = nupoid
+		culture_group = ijoid
+		culture_group = bantoid
+	}
+}
+
+owned_by_christian_ally_or_vassal = {
+	owner = {
+		OR = {
+			is_subject_of = ROOT
+			alliance_with = ROOT
+		}
+		OR = {
+			tag = J01
+			tag = J02
+			tag = J03
+			tag = J04
+			tag = J05
+			tag = J08
+			tag = J12
+			tag = B04
+			tag = B02
+			tag = H29
+			tag = B06
+			tag = GAL
+			tag = LON
+		}
+		religion_group = christian
+		ai = yes
+	}
+}
+
+can_pax_deiorum_base = {
+	OR = {
+		AND = {
+			religion_group = hellenic
+			NOT = { is_roman_religion = yes }
+		}
+		religion_group = german_pagan
+		religion = norse_pagan_reformed
+		religion = tengri_pagan_reformed
+		religion_group = slavic_pagan
+		religion_group = eastern
+		religion_group = dharmic
+		religion_group = american_pagan
+		religion_group = african_pagan
+	}
+}
+
+has_roman_religion = {
+	custom_trigger_tooltip = {
+		tooltip = has_roman_religion_tooltip
+		OR = {
+			religion = sol_invictus
+			religion = procuveric
+			religion = walianitas
+			religion = noniustian
+			religion = cisarstvo
+			religion = latreiailios
+			religion = silvani
+			religion = zamolxism
+		}
+	}
+}
+
+has_roman_religion_province = {
+	OR = {
+		province_religion = sol_invictus
+		province_religion = procuveric
+		province_religion = walianitas
+		province_religion = noniustian
+		province_religion = cisarstvo
+		province_religion = latreiailios
+		province_religion = silvani
+		province_religion = zamolxism
+	}
+}
+
+has_roman_culture = {
+	OR = {
+		culture_group = italo_gallic
+		culture_group = illyro_dalmatian
+		culture_group = south_slavic
+		culture_group = cisalpin_romisch
+	}
+}
+
+has_hellenic_religion = {
+	OR = {
+		religion = hellenism
+		religion = hellenic_orthodox
+		religion = neopythagorean
+		religion = cybelism
+		religion = orphism
+	}
+}
+
+uses_hellenic_pantheon = {
+	OR = {
+		religion = hellenic_orthodox
+		religion = hellenism
+	}
+}
+
+has_darkness = {
+	OR = {
+		religion = manichaeism
+		religion = mandaeism
+		religion = noniustian
+		religion = monjiao
+	}
+}

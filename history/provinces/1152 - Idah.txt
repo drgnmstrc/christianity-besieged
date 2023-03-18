@@ -1,0 +1,16 @@
+#1152 - Idah
+is_city = yes
+culture = igala
+religion = itan
+capital = "Idah"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = naval_supplies
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+owner = R69
+controller = R69
+add_core = R69

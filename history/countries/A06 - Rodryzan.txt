@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = novgorodian
+religion = rodoptr
+technology_group = western
+capital = 1944
+
+1399.1.1 = {
+	monarch = {
+		name = "Herleif"
+		dynasty = "Rodkunigs"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}

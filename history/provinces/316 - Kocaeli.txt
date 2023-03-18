@@ -1,0 +1,25 @@
+#316 - Izmit
+
+owner = H09
+controller = H09
+culture = phryges
+religion = orphism
+capital = "Chalcedon"
+trade_goods = paper
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 5
+is_city = yes
+fort_15th = yes
+add_core = H09
+extra_cost = 8
+center_of_trade = 1
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

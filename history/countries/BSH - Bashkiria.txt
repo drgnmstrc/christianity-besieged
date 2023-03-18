@@ -1,0 +1,6 @@
+government = native
+add_government_reform = native_bashkir_christians_reform
+primary_culture = bashkir
+religion = syriac
+technology_group = nomad_group
+capital = 475	# Bashkortostan

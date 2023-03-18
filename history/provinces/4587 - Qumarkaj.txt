@@ -1,0 +1,16 @@
+# No previous file for Qumarkaj
+
+owner = M37
+controller = M37
+add_core = M37
+culture = highland_mayan 
+religion = mesoamerican_religion
+capital = "Qumarkaj" 
+trade_goods = cocoa 
+hre = no 
+base_tax = 3 
+base_production = 3
+base_manpower = 1 
+is_city = yes
+add_core = KIC
+discovered_by = mesoamerican

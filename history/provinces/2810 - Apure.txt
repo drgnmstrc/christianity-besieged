@@ -1,0 +1,17 @@
+# - Apure
+
+culture = pume
+owner = M82
+controller = M82
+add_core = M82
+is_city = yes
+religion = animism
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Apure"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

@@ -1,0 +1,1079 @@
+greek_tyranny = {
+    rank = {
+        1 = TYRANNY
+	2 = TYRANT_KINGDOM
+	3 = EMPIRE
+    }
+    
+    ruler_male = {
+	1 = TURRANOS
+	2 = AUTOKRATOR
+	3 = BASILEUS
+    }
+    
+    ruler_female = {
+	1 = TYRANT
+	2 = AUTOKRATEIRA
+	3 = BASILISSA
+    }
+    
+    consort_male = {
+	1 = DESPOT
+	2 = AUTOKRATOR
+	3 = BASILEUS
+    }
+    
+    consort_female = {
+	1 = DESPOTISSA
+	2 = AUTOKRATEIRA
+	3 = BASILISSA
+    }
+    
+    heir_male = {
+	1 = HEIR
+	2 = HEIR
+	3 = HEIR
+    }
+    
+    heir_female = {
+	1 = HEIR_fem
+	2 = HEIR_fem
+	3 = HEIR_fem
+    }
+    
+	trigger = {
+		OR = {
+			has_reform = phrygian_tyranny_reform
+			has_reform = greek_tyranny_reform
+    		}
+	}
+}
+
+shura_iskandaria = {
+	rank = {
+		1 = SHURA_ISKANDARIA
+		2 = SHURA_ISKANDARIA
+		3 = ISLAMIC_CALIPHATE
+	}
+
+	ruler_male = {
+		1 = EMIR
+		2 = SULTAN
+		3 = CALIPH
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = SULTANA
+		3 = CALIPHA
+	}
+
+	trigger = {
+		has_reform = iskandaria_council_reform
+	}
+}
+
+isaurian_tyranny = {
+    rank = {
+        1 = GOUANI #City, Luwian transliterated into Greek back into Latin
+	2 = CHANTIGIA #Kingdom, Luwian transliterated into Greek back into Latin then simplified
+	3 = TARGANTSAVAT #Literally Rule King, Luwian transliterated into Greek back into Latin then simplified
+    }
+    
+    ruler_male = {
+        1 = SARL #Chief
+	2 = CHANTAT #King, Luwian transliterated into Greek back into Latin then simplified
+	3 = ISAURICUS #Isaurian title historically bestowed upon Roman emperor
+    }
+    
+    ruler_female = {
+        1 = SARL
+	2 = CHASSOUAR #Queen, Luwian transliterated into Greek back into Latin
+	3 = ISAURICUS
+    }
+    
+    consort_male = {
+	1 = SARL
+	2 = CHANTAT
+	3 = CHANTAT
+    }
+    
+    consort_female = {
+	1 = SARL
+	2 = CHASSOUAR
+	3 = CHASSOUAR
+    }
+    
+    heir_male = {
+	1 = HEIR
+	2 = HEIR
+	3 = HEIR
+    }
+    
+    heir_female = {
+	1 = HEIR_fem
+	2 = HEIR_fem
+	3 = HEIR_fem
+    }
+    
+	trigger = {
+		has_reform = luwian_tyranny
+	}
+}
+
+syriac_church = {
+	rank = {
+		1 = CHURCH
+		2 = STATES
+		3 = HOLY_KINGDOM
+	}
+	ruler_male = {
+		1 = ARCHBISHOP
+		2 = PATRIARCH
+		3 = APOSTLE
+	}
+	ruler_female = {
+		1 = BISHOP
+		2 = ARCHBISHOP
+		3 = MATRIARCH
+	}
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+	trigger = {
+		government = theocracy
+		has_reform = syriac_church_reform
+	}
+}
+
+intercacia_government = {
+	rank = {
+		1 = BISHOPRIC
+		2 = ARCHBISHOPRIC
+		3 = PATRIARCHATE
+	}
+
+	ruler_male = {
+		1 = BISHOP
+		2 = ARCHBISHOP
+		3 = PATRIARCH
+	}
+
+	ruler_female = {
+		1 = BISHOP
+		2 = ARCHBISHOP
+		3 = MATRIARCH
+	}
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		government = theocracy
+		has_reform = intercacia_reform
+	}
+}
+
+muslim_irish = {
+	rank = {
+		1 = IOUMAMOCHT
+		2 = SOUTUNOCHT
+		3 = CHALIFWACHT
+	}
+
+	ruler_male = {
+		1 = IOUMAM
+		2 = SILTEN
+		3 = CHALIFW
+	}
+
+	ruler_female = {
+		1 = IOUMAMA
+		2 = SULTENA
+		3 = CHALIFWA
+	}
+
+	trigger = {
+		primary_culture = irish
+		religion_group = muslim
+	}
+}
+
+iqta_council = {
+	rank = {
+		1 = JUMHURIA_IQTA
+		2 = JUMHURIA_IQTA
+		3 = AITIHAD_IQTA
+	}
+
+	ruler_male = {
+		1 = EMIR
+		2 = VIZIER
+		3 = GRANDVIZIER
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = VIZIER
+		3 = GRANDVIZIER_fem
+	}
+
+	trigger = {
+		has_reform = iqta_council_reform
+		NOT = {
+			OR = {
+				culture_group = italo_gallic
+				culture_group = cisalpin_romisch
+			}
+		}
+	}
+}
+
+italian_iqta_council = {
+	rank = {
+		1 = JUMHURIA_IQTA
+		2 = JUMHURIA_IQTA
+		3 = AITIHAD_IQTA
+	}
+
+	ruler_male = {
+		1 = BEY
+		2 = VIZIER
+		3 = GRANDVIZIER
+	}
+
+	ruler_female = {
+		1 = HATUN
+		2 = VIZIER
+		3 = GRANDVIZIER_fem
+	}
+
+	trigger = {
+		has_reform = iqta_council_reform
+		OR = {
+			culture_group = italo_gallic
+			culture_group = cisalpin_romisch
+		}
+	}
+}
+
+aghustid_sultanate = {
+	rank = {
+		1 = SULTANATE
+		2 = SULTANATE
+		3 = CALIPHATE
+	}
+
+	ruler_male = {
+		1 = QAISER
+		2 = QAISER
+		3 = QAISER
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = VIZIER
+		3 = GRANDVIZIER_fem
+	}
+
+	trigger = {
+		has_reform = aghustean_sultanate
+	}
+}
+
+roman_emirate = {
+	rank = {
+		1 = EMIRATE
+		2 = SULTANATE
+		3 = CALIPHATE
+	}
+
+	ruler_male = {
+		1 = QAISER
+		2 = QAISER
+		3 = QAISER
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = VIZIER
+		3 = GRANDVIZIER_fem
+	}
+
+	trigger = {
+		religion = ashabi
+		government = monarchy
+		OR = {
+			culture_group = italo_gallic
+			culture_group = illyro_dalmatian
+		}
+		NOT = { capital_scope = { region = italy_region } }
+	}
+}
+
+berber_tribes = {
+	rank = {
+		1 = SAHARA_NOMADS
+	}
+	ruler_male = {
+		1 = AQERRU
+	}
+	ruler_female = {
+		1 = AQERRU
+	}
+	trigger = {
+		has_reform = berber_tribe
+		NOT = { religion_group = muslim }
+	}
+}
+
+islamic_berber_tribe = {
+	rank = {
+		1 = SAHARA_NOMADS
+	}
+	ruler_male = {
+		1 = RA'IS
+	}
+	ruler_female = {
+		1 = RA'IS
+	}
+	trigger = {
+		has_reform = berber_tribe
+		religion_group = muslim
+	}
+}
+
+almoravid_emirate = {
+	rank = {
+		1 = EMIRATE
+		2 = SULTANATE
+		3 = CALIPHATE
+	}
+
+	ruler_male = {
+		1 = EMIR
+		2 = SULTAN
+		3 = CALIPH
+	}
+
+	ruler_female = {
+		1 = EMIRA
+		2 = SULTAN
+		3 = CALIPH
+	}
+
+	trigger = {
+		has_reform = almoravid_emirate_reform
+	}
+}
+
+greek_democracy = {
+    rank = {
+        1 = POLIS
+	2 = LEAGUE
+	3 = FEDERATION
+    }
+    
+    ruler_male = {
+	1 = ARCHON
+	2 = ARCHON
+	3 = HIGH_ARCHON
+    }
+    
+    ruler_female = {
+	1 = ARCHON
+	2 = ARCHON
+	3 = HIGH_ARCHON
+    }
+    trigger = {
+	has_reform = greek_democracy_reform
+	}
+}
+
+venetian_tyranny = {
+    rank = {
+        1 = PROVINCE
+	2 = REPUBLIC
+	3 = EMPIRE
+    }
+    
+    ruler_male = {
+	1 = RECTOR
+	2 = DICTATOR
+	3 = EMPEROR
+    }
+    
+    ruler_female = {
+	1 = RECTOR
+	2 = DICTATOR
+	3 = EMPRESS
+    }
+    trigger = {
+	culture_group = italo_gallic
+	has_roman_religion = yes
+    }
+}
+
+high_druid = {
+	rank = {
+		1 = FREE_CITY
+	}
+	ruler_male = {
+		1 = HIGH_DRUID
+	}
+	ruler_female = {
+		1 = HIGH_DRUID
+	}
+	trigger = {
+		government = theocracy
+		religion = germanic
+	}
+}
+
+ethiopian_caliphate = {
+	rank = {
+		3 = CALIPHATE
+	}
+	ruler_male = {
+		3 = CALIPH
+	}
+	ruler_female = {
+		3 = CALIPH
+	}
+	trigger = {
+		tag = ETH
+		government_rank = 3
+	}
+}
+
+tribute_reform = {
+	rank = {
+		1 = JOMSORDEN
+	}
+	ruler_male = {
+		1 = JOMDROTTINN
+	}
+	ruler_female = {
+		1 = JOMDROTTINN
+	}
+	trigger = {
+		has_reform = tribute_reform
+		OR = {
+			is_subject_of_type = norse_tribute
+			is_subject_of_type = norse_tribute_annex
+		}
+	}
+}
+
+indian_shahdom = {
+    rank = {
+        1 = SATRAPY
+	2 = SHAHDOM
+	3 = SAHANSAHDOM
+    }
+    
+    ruler_male = {
+	1 = SATRAP
+	2 = SHAH
+	3 = SAHANSAH
+    }
+    
+    ruler_female = {
+	1 = SATRAPBANU
+	2 = SHAHBANU
+	3 = SAHBANUANSAH
+    }
+    
+    consort_male = {
+	1 = SATRAP
+	2 = SHAH
+	3 = SAHANSAH
+    }
+    
+    consort_female = {
+	1 = SATRAPMAM
+	2 = SHAHMAM
+	3 = SAHMAMANSAH
+    }
+    
+    heir_male = {
+	1 = SATRAPPUR
+	2 = SHAHPUR
+	3 = SAHPURANSAH
+    }
+    
+    heir_female = {
+	1 = SATRAPDOKHT
+	2 = SHAHDOKHT
+	3 = SAHDOKHTANSAH
+    }
+    
+	trigger = {
+		OR = {
+			has_reform = indian_sultanate_reform
+    		}
+	}
+}
+
+aramaic_kingdom = {
+    rank = {
+        1 = ERKUS
+	2 = MALKUTHO
+	3 = IMPRATURUTA
+    }
+    
+    ruler_male = {
+	1 = MIR
+	2 = MALKA
+	3 = SAHINSA
+    }
+    
+    ruler_female = {
+	1 = SHALITA
+	2 = MALIKTA
+	3 = BABISNA
+    }
+    
+    consort_male = {
+	1 = MIR
+	2 = MALKA
+	3 = SAHINSA
+    }
+    
+    consort_female = {
+	1 = SHALITA
+	2 = MALIKTA
+	3 = BABISNA
+    }
+    
+    heir_male = {
+	1 = SAHPIR
+	2 = SHAZADA
+	3 = WALIAD
+    }
+    
+    heir_female = {
+	1 = AMIRTA
+	2 = BRATMALKA
+	3 = BABISNITHA
+    }
+    
+	trigger = {
+		culture_group = armaic
+		NOT = { primary_culture = hebrew }
+		government = monarchy
+	}
+}
+
+hebrew_kingdom = {
+    rank = {
+        1 = NSIYKHUT
+	2 = MALKHUT
+	3 = KEYSARUT
+    }
+    
+    ruler_male = {
+	1 = NASHI
+	2 = MELEKH
+	3 = SHALIYT
+    }
+    
+    ruler_female = {
+	1 = NSIYKHAH
+	2 = MALKA
+	3 = KEYSARIYT
+    }
+    
+    consort_male = {
+	1 = NASHI
+	2 = MELEKH
+	3 = SHALIYT
+    }
+    
+    consort_female = {
+	1 = NSIYKHAH
+	2 = MALKA
+	3 = KEYSARIYT
+    }
+    
+    heir_male = {
+	1 = YORESH
+	2 = NASHI
+	3 = BET_HAMELEKH
+    }
+    
+    heir_female = {
+	1 = YORESH
+	2 = BAT_MELEKH
+	3 = NSIYKHAH
+    }
+    
+	trigger = {
+		primary_culture = hebrew
+		government = monarchy
+	}
+}
+
+taino_caciazgo = {
+    rank = {
+        1 = CACICAZGO
+	2 = MACUCACICAZGO
+	3 = KECACIAZGO
+    }
+    
+    ruler_male = {
+	1 = CACIQUE
+	2 = MACUCACIQUE
+	3 = BOCACIQUE
+    }
+    
+    ruler_female = {
+	1 = CACIA
+	2 = MACUCACIA
+	3 = BOCACIA
+    }
+    
+    consort_male = {
+	1 = CACIQUE
+	2 = MACUCACIQUE
+	3 = BOCACIQUE
+    }
+    
+    consort_female = {
+	1 = CACIA
+	2 = MACUCACIA
+	3 = BOCACIA
+    }
+    
+    heir_male = {
+	1 = GUAILI
+	2 = MACUGUAILI
+	3 = KEGUAILI
+    }
+    
+    heir_female = {
+	1 = RAHE
+	2 = MACURAHE
+	3 = KERAHE
+    }
+    
+	trigger = {
+		primary_culture = arawak
+		NOT = {
+			tag = ARW
+		}
+	}
+}
+
+inuit_nunaat = {
+    rank = {
+        1 = INUIAAT
+	2 = NUNAAT
+	3 = NUNANUNAAT
+    }
+    
+    ruler_male = {
+	1 = BIILERTOQ
+	2 = KUNNGI
+	3 = KUNNGI
+    }
+    
+    ruler_female = {
+	1 = BIILERTOQ
+	2 = KUNNGI
+	3 = KUNNGI
+    }
+    
+    consort_male = {
+	1 = ILIK
+	2 = ILIK
+	3 = ILIK
+    }
+    
+    consort_female = {
+	1 = ILIK
+	2 = ILIK
+	3 = ILIK
+    }
+    
+    heir_male = {
+	1 = ERNEQ
+	2 = ERNEQ
+	3 = ERNEQ
+    }
+    
+    heir_female = {
+	1 = PANIK
+	2 = PANIK
+	3 = PANIK
+    }
+    
+	trigger = {
+		religion = ikniksugritism
+	}
+}
+
+ifriqya_muftate = {
+	rank = {
+		1 = MUFTATE
+		2 = GRAND_MUFTATE
+		3 = CALIPHATE
+	}
+	ruler_male = {
+		1 = MUFTI
+		2 = GRAND_MUFTI
+		3 = CALIPH
+	}
+	ruler_female = {
+		1 = MUFTI
+		2 = GRAND_MUFTI
+		3 = CALIPH
+	}
+	trigger = {
+		has_reform = muftate_reform
+	}
+}
+
+mudarian_muftate = {
+	rank = {
+		1 = MUFTATE
+		2 = IMAMAH
+		3 = IMAMATE
+	}
+	ruler_male = {
+		1 = MUFTI
+		2 = IMAM
+		3 = IMAM
+	}
+	ruler_female = {
+		1 = MUFTI
+		2 = IMAM
+		3 = IMAM
+	}
+	trigger = {
+		has_reform = mudarian_utopia
+	}
+}
+
+roman_voivodes = {
+	rank = {
+		1 = THE_VOIVODES
+	}
+	ruler_male = {
+		1 = VOIVODE
+	}
+	ruler_female = {
+		1 = VOIVODE
+	}
+	trigger = {
+		tag = V11
+		overlord = {
+			tag = SLO
+		}
+	}
+}
+
+kxai_kaikxai = {
+	rank = {
+		2 = KXAI
+		3 = KAIKXAI
+	}
+	ruler_male = {
+		2 = KXAIAA
+		3 = AASKAIKXAI
+	}
+	ruler_female = {
+		2 = KXAIQAE
+		3 = QAESKAIKXAI
+	}
+	consort_male = {
+		2 = KXAIAA
+		3 = AASKAIKXAI
+	}
+	consort_female = {
+		2 = KXAIQAE
+		3 = QAESKAIKXAI
+	}
+	heir_male = {
+		2 = OQAA
+		3 = OQAA
+	}
+	heir_female = {
+		2 = OQAA
+		3 = OQAA
+	}
+	trigger = {
+		OR = {
+			has_reform = kxai_reform
+			has_reform = kaikxai_reform
+		}
+	}
+}
+
+kurudijuha = {
+	rank = {
+		1 = KURUDIJUHA
+	}
+	ruler_male = {
+		1 = SIGI
+	}
+	ruler_female = {
+		1 = SIGI
+	}
+	heir_male = {
+		1 = OQAA
+	}
+	heir_female = {
+		1 = OQAA
+	}
+	trigger = {
+		OR = {
+			has_reform = kurudic_order_reform
+			has_reform = qhaanue_reform
+		}
+	}
+}
+
+kung_duchy = {
+	rank = {
+		1 = MHAI
+	}
+	ruler_male = {
+		1 = NAAZU
+	}
+	ruler_female = {
+		1 = NAAZU
+	}
+	trigger = {
+		religion = qanumi
+		culture_group = kung
+		has_reform = tribal_theocracy
+	}
+}
+
+khoe_duchy = {
+	rank = {
+		1 = SIKHUMGUI
+	}
+	ruler_male = {
+		1 = KAIKHOE
+	}
+	ruler_female = {
+		1 = KAIKHOE
+	}
+	trigger = {
+		religion = qanumi
+		culture_group = khoe
+		has_reform = tribal_theocracy
+	}
+}
+
+taakwi_duchy = {
+	rank = {
+		1 = IKOO
+	}
+	ruler_male = {
+		1 = XAVTAA
+	}
+	ruler_female = {
+		1 = XAVTAA
+	}
+	trigger = {
+		religion = qanumi
+		NOT = {
+			culture_group = khoe
+			culture_group = kung
+		}
+		has_reform = tribal_theocracy
+	}
+}
+
+islamic_pirates = {
+	rank = {
+		1 = QAIDATE
+		2 = ALBAHR_EMIRATE
+		3 = AITIHAD
+	}
+
+	ruler_male = {
+		1 = QAID
+		2 = EMIR_ALBAHR
+		3 = CALIPH_ALBAHR
+	}
+
+	ruler_female = {
+		1 = QAID
+		2 = EMIR_ALBAHR
+		3 = CALIPH_ALBAHR
+	}
+
+	trigger = {
+		religion_group = muslim
+		has_reform = pirate_republic_reform
+	}
+}
+
+balik_ulus_govt = {
+	rank = {
+		1 = MEGAPLIS
+		2 = VASILUS
+		3 = VASR
+	}
+
+	ruler_male = {
+		1 = VAS
+		2 = VAS
+		3 = VASAVAS
+	}
+
+	ruler_female = {
+		1 = VASSA
+		2 = VASSA
+		3 = VASAVASSA
+	}
+
+	trigger = {
+		primary_culture = tarkhagan
+	}
+}
+
+qashqai_govt = {
+	rank = {
+		1 = BEGLIK
+		2 = KRALLIK
+		3 = CISARLIK
+	}
+
+	ruler_male = {
+		1 = BEG
+		2 = KRAL
+		3 = CISAR
+	}
+
+	ruler_female = {
+		1 = BEG
+		2 = KRALICE
+		3 = CISAR
+	}
+
+	trigger = {
+		primary_culture = qashqai
+	}
+}
+
+balikid_vasdom = {
+	rank = {
+		1 = BEGILUS
+		2 = VASILUS
+		3 = VASR
+	}
+
+	ruler_male = {
+		1 = BEG
+		2 = VAS
+		3 = VASAVAS
+	}
+
+	ruler_female = {
+		1 = VASSA
+		2 = VASSA
+		3 = VASAVASSA
+	}
+
+	trigger = {
+		government = monarchy
+		OR = {
+			AND = {
+				culture_group = turko_balikli
+				NOT = {
+					OR = {
+						primary_culture = tarkhagan
+						primary_culture = qashqai
+					}
+				}
+			}
+			AND = {
+				culture_group = illyro_dalmatian
+				religion = manichaeism
+			}
+		}
+	}
+}
+
+roman_illyrian_govt = {
+	rank = {
+		1 = RECERI
+		2 = IMPRETORI
+		3 = IMPERANDORI
+	}
+	
+	ruler_male = {
+		1 = REC
+		2 = IMPRET
+		3 = IMPERAND
+	}
+
+	ruler_female = {
+		1 = RECESHA
+		2 = IMPRETESHA
+		3 = IMPERANDESHA
+	}
+
+	trigger = {
+		culture_group = illyro_dalmatian
+		religion_group = hellenic
+	}
+}
+
+sebkhemerz_order = {
+	rank = {
+		1 = AMARMANI
+		2 = AMARMANI
+		3 = AZEMAMAR
+	}
+
+	ruler_male = {
+		1 = SARAFRAZ
+		2 = SARAFRAZ
+		3 = EZAMSARAFRAZ
+	}
+
+	ruler_female = {
+		1 = SARAFRAZ
+		2 = SARAFRAZ
+		3 = EZAMSARAFRAZ
+	}
+	
+	heir_male = {
+		1 = JANESHIN
+		2 = JANESHIN
+		3 = JANESHIN
+	}
+	
+	heir_female = {
+		1 = JANESHIN
+		2 = JANESHIN
+		3 = JANESHIN
+	}
+
+	trigger = {
+		has_reform = sebkhemerz_order_reform
+		government = theocracy
+	}
+}

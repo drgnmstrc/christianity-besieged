@@ -1,0 +1,21 @@
+owner = BYT
+controller = BYT
+capital = "Bayreuth"
+is_city = yes
+culture = bavarian
+religion = germanic
+hre = yes
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+trade_goods = wool
+add_core = BYT
+fort_15th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+#copied from Ansbach but I think it is accurate

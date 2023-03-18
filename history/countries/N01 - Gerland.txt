@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+primary_culture = prussian
+religion = rodoptr
+technology_group = western
+capital = 1858
+historical_friend = N02
+
+1444.11.11 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "Knýtlinga"
+		adm = 1
+		dip = 3
+		mil = 1
+		leader = {	name = "Albrecht"              	type = general	fire = 1	shock = 2	manuever = 2	siege = 0 }
+	}
+}

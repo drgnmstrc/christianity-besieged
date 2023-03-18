@@ -1,0 +1,22 @@
+#4308 - Denizli
+
+owner = H14
+controller = H14
+culture = lydes
+religion = hellenism
+capital = "Denizli"
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = H14
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

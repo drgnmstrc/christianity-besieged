@@ -1,0 +1,16 @@
+# No previous file for Magangué
+
+owner = MCA
+controller = MCA
+add_core = MCA
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+culture = muisca
+religion = chiminigagua
+capital = "Magangué"
+trade_goods = gems
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4

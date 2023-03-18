@@ -1,0 +1,18 @@
+#852 - Mexico
+
+owner = AZT
+controller = AZT
+add_core = AZT
+culture = aztek 
+religion = quetzacoatl
+capital = "Tenochtitlan" 
+trade_goods = gold
+hre = no 
+base_tax = 7 
+base_production = 7
+base_manpower = 5
+fort_15th = yes
+is_city = yes
+extra_cost = 8
+center_of_trade = 1
+discovered_by = mesoamerican

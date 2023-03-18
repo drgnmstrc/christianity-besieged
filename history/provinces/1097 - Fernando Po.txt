@@ -1,0 +1,15 @@
+#1097 - Fernando Po
+add_core = R24
+owner = R24
+controller = R24
+culture = banu
+religion = mudarian #Mudarianism, similar to Qarmatian
+capital = "Mina'ghinia"
+trade_goods = slaves
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = south_african

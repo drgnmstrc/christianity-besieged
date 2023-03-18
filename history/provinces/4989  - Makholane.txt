@@ -1,0 +1,19 @@
+#1793 - El Djouf
+owner = R21
+controller = R21
+add_core = R21
+trade_goods = grain
+is_city = yes
+culture = tsiqaleha
+capital = "Makholane"
+religion = qanumi
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

@@ -1,0 +1,95 @@
+namespace = qanumConquest
+country_event = { #Conquered Muthalia
+	id = qanumConquest.0
+	title = qanumConquest.t
+	desc = qanumConquest.d
+	fire_only_once = yes
+	trigger = {
+		religion = qanumi
+		owns = 1306
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = qanumConquest.a
+		add_prestige = 25
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { #Conquered Aksum
+	id = qanumConquest.1
+	title = qanumConquest.1.t
+	desc = qanumConquest.1.d
+	fire_only_once = yes
+	trigger = {
+		religion = qanumi
+		owns = 1227
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = qanumConquest.1a
+		add_prestige = 25
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { #Conquered Jerusalem
+	id = qanumConquest.2
+	title = qanumConquest.2t
+	desc = qanumConquest.2d
+	fire_only_once = yes
+	trigger = {
+		religion = qanumi
+		owns = 379
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = qanumConquest.2a
+		add_prestige = 25
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { #Conquered Tiruchirapalli
+	id = qanumConquest.3
+	title = qanumConquest.3t
+	desc = qanumConquest.3d
+	fire_only_once = yes
+	trigger = {
+		religion = qanumi
+		owns = 2085
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = qanumConquest.3a
+		add_prestige = 25
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { #Conquered Mecca
+	id = qanumConquest.4
+	title = qanumConquest.4t
+	desc = qanumConquest.4d
+	fire_only_once = yes
+	trigger = {
+		religion = qanumi
+		owns = 385
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = qanumConquest.4a
+		add_prestige = 25
+		add_stability_or_adm_power = yes
+	}
+}

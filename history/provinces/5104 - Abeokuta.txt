@@ -1,0 +1,17 @@
+owner = DAH #Early kingdom of Allada/Ardra
+controller = DAH
+add_core = DAH
+culture = egba 
+religion = itan #Fetishism
+capital = "Abeokuta"
+is_city = yes
+base_manpower = 1
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+
+
+
+discovered_by = sub_saharan
+discovered_by = saharan

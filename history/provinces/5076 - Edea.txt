@@ -1,0 +1,16 @@
+add_core = R46
+owner = R46
+controller = R46
+culture = basaa
+religion = mudarian
+capital = "Edea"
+trade_goods = naval_supplies
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = south_african

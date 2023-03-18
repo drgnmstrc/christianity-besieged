@@ -1,0 +1,83 @@
+#Serbia
+138  = "Crna Gora"  		#Zeta
+1827 = "Raška"      		#Raska
+1954 = "Vojvodina"  		#Torontal
+3000 = "Niš"        		#Nis
+4249 = "Backa"      		#Bacs
+4265 = "Valona"				#Vlore
+4266 = "Drac"				#Durres
+#Bulgaria
+159 = "Silistra"   			#Silistria
+1765 = "Sofija"    			#Sofia
+#Turkey
+149 = "Jedrinje"  			#Edirne
+151 = "Tsarigrad"  			#Constantinople
+#Greece 
+142 = "Krf"        			#Corfu
+143 = "Lješ"   				#Albania
+144 = "Epir"       			#Epirus
+146 = "Atina"      			#Athens
+147 = "Tesalija"   			#Thessaly
+320 = "Rodos"				#Rhodes
+2007 = "Solun"      		#Thessaloniki
+4267 = "Etolija"			#Aetolia
+#Croatia
+129  = "Kranjska"   		#Krain
+130  = "Istra"      		#Istria
+136  = "Dalmacija"  		#Dalmatia
+137  = "Dubrovnik"  		#Ragusa
+140  = "Bosna"      		#Bosnia
+152  = "Varaždin"   		#Varasd	
+1767 = "Slavonija"  		#Slavonia
+1769 = "Gorica"     		#Gorz
+#Slovakia
+154  = "Njitra"     		#Ersekujvar
+162  = "Košice"     		#Zemplen
+1318 = "Spiš"       		#Szepes/Spis
+1772 = "Požun"      		#Pozsony
+
+#Scandinavia
+1979 = "Farska Ostrva"		#Faroes
+2005 = "Laponija"		#Lappland
+#Hispania
+206 = "Galicija"		#Galicia
+
+#France
+174 = "Gaskonja"		#Gascogne
+201 = "Provansa"		#Procence
+
+#Italy
+104 = "Lombardija"					#Lombardia
+127 = "Sardinija"					#Sardinia
+3129 = "Umbrija"					#Umbria
+
+#Germany
+61 = "Saksonija"					#Dresden
+68 = "Švapska"						#Schwaben
+
+#Austria
+130 = "Istra"						#Istria
+
+#Asia
+2858 = "Tajpej"						#Kelam
+
+#List
+141 = "Srbija"								#Serbia
+145 = "Moreja"
+148 = "Skoplje"    							#Skopje					|			28.03.19		
+150 = "Nikopolj"	
+156 = "Tamiš"								#Temes					|			06.09.19
+160 = "Oltenija"
+161 = "Trgoviste"
+164 = "Naksos"
+320 = "Rodos"	
+339 = "Kabilija"							#Kabylia				|			14.06.18
+379 = "Jerusalim"							#Judea
+1773 = "Ahaja"
+1831 = "Travunija"  						#Travunia				|checked 	19.05.18
+1853 = "Kostur"
+2156 = "Evbeja"
+2521 = "Nubijska pustinja"					#Sahra an Nübyah
+4299 = "Srem"
+4362 = "Beograd"							#Belgrade				|checked	20.05.18
+

@@ -1,0 +1,17 @@
+# No previous file for Yao
+
+owner = YAO
+controller = YAO
+add_core = YAO
+culture = bilala 
+religion = shiite
+capital = "Yao"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 3
+is_city = yes
+base_manpower = 1
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = saharan

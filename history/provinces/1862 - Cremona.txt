@@ -1,0 +1,22 @@
+#1862 - Cremona
+
+owner = H19
+controller = H19
+culture = swiss
+religion = ashabi
+add_core = G06
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = grain
+base_manpower = 4
+capital = "Cremona"
+is_city = yes	# Estimated
+add_core = H19
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

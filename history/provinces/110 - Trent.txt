@@ -1,0 +1,22 @@
+#110 - Trent
+
+owner = U14
+controller = U14
+add_core = U14
+culture = lombard
+religion = germanic
+add_core = G06
+hre = yes
+base_tax = 4 
+base_production = 4
+trade_goods = iron 
+base_manpower = 1
+capital = "Trent"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

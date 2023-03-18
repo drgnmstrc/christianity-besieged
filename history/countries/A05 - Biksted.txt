@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = biksteder
+religion = rodoptr
+technology_group = western
+capital = 293
+
+1399.1.1 = {
+	monarch = {
+		name = "Otto"
+		dynasty = "Erkeic"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

@@ -1,0 +1,21 @@
+#803 - Moxos
+
+culture = jukuma
+owner = M63
+controller = M63
+add_core = M63
+is_city = yes
+discovered_by = south_american
+discovered_by = andean
+religion = inti
+capital = "Moxos"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = south_american
+discovered_by = andean

@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "CHR_RUIN"
+	desc = "CHR_RUIN_DESC"
+	date = "1444.11.11"
+	center = 87
+	default = yes
+	country = B08
+	country = GAL
+	country = B01
+	country = B06
+	country = B04
+	country = H29
+	country = J08
+	easy_country = B08
+	easy_country = GAL
+}

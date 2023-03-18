@@ -1,0 +1,19 @@
+#Stavanger
+
+owner = N08
+controller = N08
+add_core = N08
+culture = rygir
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3 
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Stavanger"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

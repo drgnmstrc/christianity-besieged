@@ -1,0 +1,20 @@
+#834 - Barinas
+
+culture = pume
+owner = M82
+controller = M82
+add_core = M82
+is_city = yes
+religion = animism
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Barinas"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 5

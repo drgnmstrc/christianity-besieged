@@ -1,0 +1,17 @@
+# No previous file for Chimila
+
+culture = yukpa
+owner = M84
+controller = M84
+add_core = M84
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Chimila"
+trade_goods = gems
+hre = no
+base_tax = 2
+base_production = 4
+base_manpower = 2

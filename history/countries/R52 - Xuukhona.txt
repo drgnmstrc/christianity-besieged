@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = xuukhoe
+religion = qanumi
+technology_group = south_african
+capital = 4781
+religious_school = kurudi_school
+government_rank = 1
+historical_rival = R21
+1380.1.1 = {
+	monarch = {
+		name = "|Nule|nu"
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}

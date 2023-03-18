@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = ottoman
+primary_culture = breton
+add_accepted_culture = gaulish
+religion = walianitas
+capital = 170
+unit_type = roman_units
+
+1399.9.12 = {
+	monarch = {
+		name = "Axius"
+		dynasty = "Renatus"
+		birth_date = 1376.4.15
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

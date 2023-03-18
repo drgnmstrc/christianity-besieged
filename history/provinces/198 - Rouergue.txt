@@ -1,0 +1,24 @@
+# 198 Rouergue - Principal cities: Rodez
+
+owner = G18
+controller = G18
+capital = "Rutena"
+is_city = yes
+culture = gothic
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+add_local_autonomy = 25
+#estate = estate_nobles
+add_core = G18
+add_core = Y15
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

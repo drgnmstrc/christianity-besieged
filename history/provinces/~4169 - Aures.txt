@@ -1,0 +1,7 @@
+#High Atlas
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

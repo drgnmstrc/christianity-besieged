@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "DESERTDESERT"
+	desc = "DESERTDESERT_DESC"
+	date = "1444.11.11"
+	center = 4809
+	country = FUL
+	country = R57
+	country = R55
+	country = R11
+	country = R10
+	country = R15
+	country = BEJ
+	country = MOR
+}

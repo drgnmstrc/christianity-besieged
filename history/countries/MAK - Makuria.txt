@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = nubian
+religion = shiite
+technology_group = east_african
+unit_type = muslim
+capital = 1234	# Daw
+religious_school = ismaili_school
+add_accepted_culture = al_misr_arabic
+1440.1.1 = {
+	monarch = {
+		name = "Siti"
+		dynasty = "Dotawo"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Ioel"
+		dynasty = "Dotawo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

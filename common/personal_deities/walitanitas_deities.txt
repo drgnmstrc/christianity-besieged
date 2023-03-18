@@ -1,0 +1,152 @@
+wl_mag_mater =
+{
+        global_tax_modifier = 0.025
+
+        allow = {
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_mag_mater_on_cd
+				has_country_modifier = wl_mother_on_cd
+			}
+		}
+	}
+        sprite = 44
+
+        ai_will_do = {
+                factor = 1
+        }
+}
+
+wl_venus =
+{
+        development_cost = -0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_venus_isis_on_cd
+				has_country_modifier = wl_mother_on_cd
+			}
+		}
+	}
+        sprite = 48
+
+        ai_will_do = {
+                  factor = 1
+        }
+}
+
+wl_epona =
+{
+        cavalry_power = 0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_epona_on_cd
+				has_country_modifier = wl_mother_on_cd
+			}
+		}
+	}
+        sprite = 89
+
+        ai_will_do = {
+                  factor = 1
+        }
+}
+
+wl_jupiter =
+{
+        land_fire_damage = 0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_jupiter_on_cd
+				has_country_modifier = wl_champion_on_cd
+			}
+		}
+	}
+        sprite = 43
+
+        ai_will_do = {
+                factor = 1
+	}
+}
+
+wl_lenus_mars =
+{
+        reinforce_speed = 0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_lenus_on_cd
+				has_country_modifier = wl_champion_on_cd
+			}
+		}
+	}
+        sprite = 47
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_militarist
+                  }
+                  modifier = {
+                          factor = 0.5
+                          personality = ai_capitalist
+                  }
+        }
+}
+
+wl_camulus_mars =
+{
+        land_morale = 0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			OR = {
+				has_country_modifier = wl_camulus_on_cd
+				has_country_modifier = wl_champion_on_cd
+			}
+		}
+	}
+        sprite = 118
+
+        ai_will_do = {
+                factor = 1
+                modifier = {
+                        factor = 2
+                        personality = ai_militarist
+                }
+                modifier = {
+                        factor = 0.5
+                        personality = ai_diplomat
+                }
+        }
+}
+
+wl_personal_cult =
+{
+        yearly_absolutism = 0.025
+
+        allow = { 
+		religion = walianitas
+		NOT = {
+			has_ruler_modifier = wl_personal_cult_on_cd
+		}
+	}
+        sprite = 118
+
+        ai_will_do = {
+                factor = 1
+        }
+}

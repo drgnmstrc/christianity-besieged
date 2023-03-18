@@ -1,0 +1,24 @@
+#337 - Oran
+
+owner = TLC
+controller = TLC
+add_core = TLC
+add_core = R02
+culture = mutawasiti
+religion = ashabi
+capital = "Oran"
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

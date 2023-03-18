@@ -1,0 +1,20 @@
+# No previous file for Arochukwu
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = igbo
+religion = odinani #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5162
+government_rank = 1
+1397.1.1 = {
+	monarch = {
+		name = "Orobiru"
+		dynasty = "Akpa"
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}

@@ -1,0 +1,26 @@
+#60 - Lausitz
+
+owner = SIL
+controller = SIL
+add_core = SIL
+add_core = N21
+capital = "Budysin"
+culture = polobske
+religion = slavic
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

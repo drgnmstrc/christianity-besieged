@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = free_city
+government_rank = 1
+mercantilism = 25
+technology_group = eastern
+primary_culture = swabian
+capital = 4715	# Rothenburg
+fixed_capital = 4715 # Cannot move capital away from this province & no power cost to move to it
+religion = germanic
+
+1444.1.1 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

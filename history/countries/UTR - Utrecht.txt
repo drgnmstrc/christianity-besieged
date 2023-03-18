@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = germanic
+primary_culture = dutch
+capital = 98	# Utrecht
+fixed_capital = 98 # Cannot move capital away from this province & no power cost to move to it
+
+#Prince Bishops of Utrecht
+
+1423.1.1 = {
+	monarch = {
+		name = "Rudolf I"
+		birth_date = 1390.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

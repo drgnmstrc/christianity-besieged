@@ -1,0 +1,20 @@
+#1130 - Tadimekket
+
+owner = R57
+controller = R57
+add_core = R57
+culture = tuareg
+is_city = yes
+base_manpower = 2
+religion = sunni
+capital = "Tadmekka al-Suq"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+
+
+
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = east_african

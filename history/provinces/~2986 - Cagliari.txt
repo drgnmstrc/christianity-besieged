@@ -1,0 +1,25 @@
+# - Cagliari
+
+owner = Y03
+controller = Y03
+add_core = Y03
+culture = mutawasiti
+religion = ashabi
+hre = no 
+base_tax = 4
+base_production = 4
+trade_goods = copper
+base_manpower = 1
+capital = "Cagliari" 
+is_city = yes # Estimated 
+add_core = SAR
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

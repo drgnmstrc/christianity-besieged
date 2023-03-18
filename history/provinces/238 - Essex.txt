@@ -1,0 +1,21 @@
+#238 - Essex
+#+part of Cambridgeshire
+
+owner = B03
+controller = B03
+culture = saxeish
+religion = saxish
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+capital = "Chelmsford"
+is_city = yes
+add_core = B03
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

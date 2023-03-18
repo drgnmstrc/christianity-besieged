@@ -1,0 +1,18 @@
+# No previous file for Camaguey
+
+
+
+discovered_by = mesoamerican
+discovered_by = south_american
+owner = M42
+controller = M42
+add_core = M42
+culture = arawak
+religion = animism
+capital = "Camaguey"
+trade_goods = sugar 
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+is_city = yes

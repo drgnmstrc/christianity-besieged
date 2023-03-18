@@ -1,0 +1,21 @@
+#2035 - Gulbarga
+
+owner = TLG
+controller = TLG
+add_core = TLG
+culture = kannada
+religion = hinduism
+capital = "Gulbarga"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 1
+is_city = yes
+#estate = estate_church
+add_core = KLN
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = near_east 
+discovered_by = ottoman
+discovered_by = chinese

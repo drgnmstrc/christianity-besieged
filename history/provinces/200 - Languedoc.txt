@@ -1,0 +1,21 @@
+# 200 Languedoc - Principal cities: Montpellier
+
+owner = J07
+controller = J07
+add_core = J07
+culture = pruqoth
+religion = ashabi
+capital = "Mun Biliih"
+is_city = yes
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = slaves
+base_manpower = 5
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

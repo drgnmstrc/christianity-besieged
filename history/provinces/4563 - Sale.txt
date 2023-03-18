@@ -1,0 +1,22 @@
+# - Sale
+
+owner = R02
+controller = R02
+add_core = R02
+culture = sahrawi
+religion = sunni
+capital = "Sale"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = saharan
+discovered_by = scandinavian_tech

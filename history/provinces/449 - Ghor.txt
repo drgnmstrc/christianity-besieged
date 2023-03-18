@@ -1,0 +1,20 @@
+#449 - Ghor
+
+owner = Z18
+controller = Z18
+add_core = Z18
+culture = bactrian
+religion = manichaeism
+capital = "Ahangaran"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 4
+is_city = yes
+add_core = SIS
+discovered_by = KAS
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = nomad_group

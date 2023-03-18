@@ -1,0 +1,25 @@
+#130 - Istria
+
+owner = U10
+controller = U10
+add_core = U10
+culture = istroli
+religion = ashabi
+add_core = G06
+capital = "Trieste"
+trade_goods = salt
+hre = no
+base_tax = 4
+base_production = 5
+base_manpower = 4
+is_city = yes
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

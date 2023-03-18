@@ -1,0 +1,22 @@
+#Nordjylland incl. Aalborg, Hjorring, Thisted, and Viborg
+
+owner = N25
+controller = N25
+add_core = N25
+culture = jutes
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = fish
+base_manpower = 1
+capital = "Aalborg"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

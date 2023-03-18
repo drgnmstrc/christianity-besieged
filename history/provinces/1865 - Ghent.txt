@@ -1,0 +1,20 @@
+# 1865 - Ghent
+
+owner = OLD
+controller = OLD
+add_core = OLD
+is_city = yes
+capital = "Aldenburg"
+culture = flemish
+religion = germanic
+hre = yes
+base_tax = 8 
+base_production = 8
+trade_goods = cloth
+base_manpower = 5
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

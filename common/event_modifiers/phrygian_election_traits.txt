@@ -1,0 +1,49 @@
+phrygian_status_quo = {
+	global_unrest = -2
+}
+strong_wittios_family = {
+	tolerance_heretic = 1
+	global_missionary_strength = -0.01
+}
+powerful_wittios_family = {
+	diplomatic_reputation = 1
+	tolerance_heretic = 1
+	global_missionary_strength = -0.02
+}
+autonomous_mekalawia_family = {
+	diplomatic_reputation = 1
+	tolerance_heretic = 0.5
+}
+strong_mekalawia_family = {
+	global_missionary_strength = 0.01
+	tolerance_heretic = -1
+}
+powerful_mekalawia_family = {
+	infantry_fire = 0.1
+	global_missionary_strength = 0.01
+	tolerance_heretic = -2
+}
+autonomous_wittios_family = {
+	diplomatic_reputation = 0.05
+	global_missionary_strength = 0.01
+}
+reinvigoration_cybele = {
+	global_tax_modifier = -0.05
+}
+confirm_olympic_system = {
+	church_influence_modifier = 0.1
+}
+phrygian_power_vacuum = {
+	local_unrest = 10
+	local_autonomy = 0.075
+}
+center_mekalawia_family = {
+	min_autonomy = 50
+	local_missionary_strength = -0.05
+	local_manpower_modifier = 0.35
+}
+center_wittios_family = {
+	min_autonomy = 50
+	local_missionary_strength = -0.05
+	local_manpower_modifier = 0.35
+}

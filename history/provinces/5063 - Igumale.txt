@@ -1,0 +1,19 @@
+# No previous file for Igumale
+culture = idoma
+religion = alekwu
+capital = "Igumale"
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+trade_goods = ivory
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+owner = R76
+controller = R76
+add_core = R76
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

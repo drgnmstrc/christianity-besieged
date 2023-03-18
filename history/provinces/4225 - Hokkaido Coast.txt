@@ -1,0 +1,6 @@
+discovered_by = chinese
+1444.1.1 = {discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU}

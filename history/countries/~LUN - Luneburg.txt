@@ -1,0 +1,60 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = saxon
+religion = germanic
+capital = 53 # Lüneburg
+fixed_capital = 53 # Cannot move capital away from this province & no power cost to move to it
+
+# Lüneburg (Dukes of Braunschweig-Lüneburg)
+1373.1.1 = {
+	monarch = {
+		name = "Bernhard I"
+		dynasty = "von Welf"
+		birth_date = 1361.1.1
+		dip = 3
+		adm = 2
+		mil = 2
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "Otto"
+		monarch_name = "Otto I"
+		dynasty = "von Welf"
+		birth_date = 1400.1.1
+		death_date = 1446.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+
+1434.6.11 = {
+	monarch = {
+		name = "Otto I"
+		dynasty = "von Welf"
+		birth_date = 1400.1.1
+		dip = 1
+		adm = 3
+		mil = 2
+	}
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich der Fromme"
+		dynasty = "von Welf"
+		birth_date = 1418.1.1
+		death_date = 1478.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = architectural_visionary_personality
+	add_heir_personality = craven_personality
+}

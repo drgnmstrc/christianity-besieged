@@ -1,0 +1,14 @@
+# - Chepes
+owner = M66
+controller = M66
+add_core = M66
+is_city = yes
+culture = huarpe
+discovered_by = south_american
+religion = inti
+capital = "Chepes"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

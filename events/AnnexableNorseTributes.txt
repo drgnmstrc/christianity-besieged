@@ -1,0 +1,24 @@
+namespace = norse_tribute_annexable
+country_event = {
+	id = norse_tribute_annexable.0
+	hidden = yes
+	trigger = {
+		is_subject_of_type = norse_tribute
+		NOT = { is_subject_of_type = norse_tribute_annex }
+		all_owned_province = {
+			religion = rodoptr
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = norse_tribute_annexable.a
+		overlord = {
+			create_subject = {
+				subject_type = norse_tribute_annex
+				subject = ROOT
+			}
+		}
+	}
+}

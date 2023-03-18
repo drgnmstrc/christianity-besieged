@@ -1,0 +1,21 @@
+government = native
+add_government_reform = native_clan_council_reform
+add_government_reform = native_oral_tradition_reform
+add_government_reform = native_settle_down_reform
+government_rank = 1
+technology_group = scandinavian_tech
+religion = rodoptr
+primary_culture = finnish
+add_accepted_culture = swedish
+capital = 30
+
+1444.11.28 = {
+	monarch = {
+		name = "Essi"
+		dynasty = "Heikkinnen"
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

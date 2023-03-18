@@ -1,0 +1,19 @@
+# No previous file for Aba
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = igbo
+religion = odinani #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5054
+1440.1.1 = {
+	monarch = {
+		name = "Ogbonna Uruakpa"
+		dynasty = "Nkwoha"
+		dip = 4
+		adm = 4
+		mil = 2
+	}
+}

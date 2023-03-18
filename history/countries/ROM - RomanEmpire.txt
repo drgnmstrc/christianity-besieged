@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = roman
+religion = sol_invictus
+technology_group = ottoman
+capital = 118 # Rome

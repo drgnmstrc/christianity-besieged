@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = gothic
+add_accepted_culture = gallien
+religion = germanic
+technology_group = eastern
+capital = 203 # Lugun
+add_army_professionalism = 0.05
+
+1434.11.2 = {
+	monarch = {
+		name = "Woderic"
+		dynasty = "Herminafrid"
+		culture = gepidan
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+1435.2.1 = {
+	heir = {
+		name = "Americ"
+		monarch_name = "Americ"
+		dynasty = "Herminafrid"
+		culture = gepidan
+		birth_date = 1435.2.1
+		death_date = 1472.3.30
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 0
+	}
+}

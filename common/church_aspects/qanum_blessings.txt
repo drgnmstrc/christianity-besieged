@@ -1,0 +1,97 @@
+race_against_kaggen = {
+	is_blessing = yes
+
+	modifier = {
+		embracement_cost = -0.2
+		technology_cost = -0.1
+		range = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+heal_the_land = {
+	is_blessing = yes
+
+	modifier = {
+		stability_cost_modifier = -0.2
+		war_exhaustion = -0.1
+		global_autonomy = -0.025
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			war_exhaustion = 3
+		}
+	}
+}
+
+invigorate_the_kurudiju = {
+	is_blessing = yes
+
+	modifier = {
+		land_morale = 0.1
+		general_cost = -0.1
+		nobles_loyalty_modifier = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 8
+			religious_school = {
+				group = african_pagan
+				school = kurudi_school
+			}
+		}
+	}
+}
+
+taallanqhan = {
+	is_blessing = yes
+
+	modifier = {
+		prestige_per_development_from_conversion = 0.2
+		warscore_cost_vs_other_religion = -0.15
+		church_loyalty_modifier = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 6
+			at_war_with_religious_enemy = yes
+		}
+		modifier = {
+			factor = 3
+			religious_school = {
+				group = african_pagan
+				school = kurudi_school
+			}
+		}
+	}
+}
+
+more_qaillhuu = {
+	is_blessing = yes
+
+	modifier = {
+		trade_steering = 0.15
+		global_foreign_trade_power = 0.05
+		burghers_loyalty_modifier = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			religious_school = {
+				group = african_pagan
+				school = hado_school
+			}
+		}
+	}
+}

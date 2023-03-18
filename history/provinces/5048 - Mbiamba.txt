@@ -1,0 +1,16 @@
+add_core = R79
+owner = R79
+controller = R79
+culture = urhobo
+religion = oghene
+capital = "Agbarho"
+trade_goods = gems
+hre = no
+is_city = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

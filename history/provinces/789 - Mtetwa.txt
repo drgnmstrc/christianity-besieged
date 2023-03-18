@@ -1,0 +1,16 @@
+# - Mtetwa
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = south_african
+owner = R22
+controller = R22
+add_core = R22
+culture = xegwe
+religion = qanumi
+capital = "Mtetwa"
+native_size = 50
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3

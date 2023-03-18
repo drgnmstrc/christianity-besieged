@@ -1,0 +1,16 @@
+owner = R37
+controller = R37
+add_core = R37
+culture = swahili
+religion = hanafis
+capital = "Taradiqa"
+trade_goods = slaves
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+extra_cost = 8
+center_of_trade = 1
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = south_african

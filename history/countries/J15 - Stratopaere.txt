@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = cumbric_electorate
+primary_culture = welsh
+religion = druidism
+technology_group = western
+capital = 4363
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "Máelarun"
+		dynasty = "Arthgarum"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

@@ -1,0 +1,16 @@
+# No previous file for Maroua
+owner = R18
+controller = R18
+add_core = R18
+culture = baggara
+religion = sunni
+capital = "Maroua"
+is_city = yes
+base_manpower = 1
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = saharan

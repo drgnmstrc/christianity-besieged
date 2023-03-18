@@ -1,0 +1,16 @@
+# No previous file for Oron
+add_core = R24
+owner = R24
+controller = R24
+culture = ibibio
+religion = inam
+capital = "Oron"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = south_african

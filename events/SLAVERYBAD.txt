@@ -1,0 +1,244 @@
+namespace = SLAVERYBAD
+
+province_event = { #SLAVERY BAD SLAVES FREE
+	id = SLAVERYBAD.0
+	title = "SLAVERYBAD.t"
+	desc = "SLAVERYBAD.d"
+	picture = REVOLUTION_eventPicture
+	trigger = {
+		owner = {
+			religion = qanumi
+		}
+		trade_goods = slaves
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+
+	}
+	option = { #Wee, we GOTEM, SLAVERY BAD
+		name = SLAVERYBAD.a 
+		add_devastation = 6
+		change_religion = qanumi
+		owner = { add_prestige = 10 }
+		add_province_modifier = {
+			name = liberated_slaving
+			duration = 36500
+		}
+		change_trade_goods = unknown
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0.001
+				owner = { OR = {
+					ruler_has_personality = embezzler_personality
+					ruler_has_personality = greedy_personality
+					ruler_has_personality = malevolent_personality
+				} }
+			}
+			modifier = {
+				factor = 0.01
+				owner = { OR = {
+					ruler_has_personality = midas_touched_personality
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = naive_personality
+					ruler_has_personality = drunkard_personality
+				} }
+			}
+		}
+	}
+	option = { #Cut a deal with influential slavers to keep their way of life under wraps... for a price
+		name = SLAVERYBAD.b 
+		add_devastation = 5
+		owner = {
+			add_years_of_income = 1
+			add_corruption = 1
+			add_prestige = -10
+		}
+		change_religion = qanumi
+		add_province_modifier = {
+			name = influential_servant_barons
+			duration = 36500
+		}
+		change_trade_goods = unknown
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				owner = { OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = zealot_personality
+					ruler_has_personality = loose_lips_personality
+					ruler_has_personality = humane_personality
+					ruler_has_personality = kind_hearted_personality
+					ruler_has_personality = just_personality
+					ruler_has_personality = benevolent_personality
+				} }
+			}
+		}
+	}
+}
+
+province_event = { #Wait... we're doing slavery again?
+	id = SLAVERYBAD.1
+	title = "SLAVERYBAD.1t"
+	desc = { #Should we really do slavery again?
+		trigger = {
+			has_province_modifier = liberated_slaving
+		}
+		desc = "SLAVERYBAD.1da"
+	}
+	desc = { #Oh, the slavery never ended. Looks like there's no choice lol
+		trigger = {
+			has_province_modifier = influential_servant_barons
+		}
+		desc = "SLAVERYBAD.1db"
+	}
+	picture = CORRUPTION_eventPicture
+	trigger = {
+		owner = {
+			NOT = { religion = qanumi }
+		}
+		OR = {
+			has_province_modifier = liberated_slaving
+			has_province_modifier = influential_servant_barons
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_province_modifier = influential_servant_barons
+				}
+				change_trade_goods = slaves
+			}
+		}
+	}
+	option = { #Let's really get this slavery thing back into gear!
+		name = SLAVERYBAD.1a 
+		add_devastation = 50
+		add_unrest = 10
+		owner = { add_prestige = 10 }
+		change_trade_goods = slaves
+		hidden_effect = {
+			if = {
+				limit = {
+					has_province_modifier = liberated_slaving
+				}
+				remove_province_modifier = liberated_slaving
+			}
+			if = {
+				limit = {
+					has_province_modifier = influential_servant_barons
+				}
+				remove_province_modifier = influential_servant_barons
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				owner = { OR = {
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = zealot_personality
+					ruler_has_personality = pious_personality
+					ruler_has_personality = free_thinker_personality
+				} }
+			}
+			modifier = {
+				factor = 0
+				owner = {
+					NOT = { religion = mudarian }	
+					OR = {
+						ruler_has_personality = scholar_personality
+						ruler_has_personality = humane_personality
+						ruler_has_personality = kind_hearted_personality
+						ruler_has_personality = just_personality
+						ruler_has_personality = benevolent_personality
+					}
+				}
+			}
+		}
+	}
+	option = { #Actually, the no slavery thing is fine. Probably cuz the new trade good's better LOL
+		name = "SLAVERYBAD.1b"
+		trigger = {
+			NOT = { has_province_modifier = influential_servant_barons }
+		}
+		owner = {
+			add_prestige = 5
+		}
+		hidden_effect = {
+			remove_province_modifier = liberated_slaving
+		}
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				owner = { OR = {
+					ruler_has_personality = embezzler_personality
+					ruler_has_personality = greedy_personality
+					ruler_has_personality = malevolent_personality
+				} }
+			}
+			modifier = {
+				factor = 0.1
+				owner = { OR = {
+					ruler_has_personality = midas_touched_personality
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = naive_personality
+					ruler_has_personality = drunkard_personality
+				} }
+			}
+		}
+	}
+}
+
+province_event = { #Hypturist slave raid
+	id = SLAVERYBAD.2
+	title = SLAVERYBAD.2t
+	desc = SLAVERYBAD.2d
+	major = yes
+	major_trigger = { tag = event_target:slave_raiding_nat }
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		base_tax = 3
+		base_production = 3
+		base_manpower = 3
+	}
+	option = { #Horror!
+		name = SLAVERYBAD.2a
+		random_list = {
+			33 = {
+				add_base_tax = -1
+				event_target:slave_raiding_nat = {
+					capital_scope = {
+						add_base_tax = 1
+					}
+				}
+			}
+			33 = {
+				add_base_production = -1
+				event_target:slave_raiding_nat = {
+					add_years_of_income = 0.5
+				}
+			}
+			33 = {
+				add_base_manpower = -1
+				event_target:slave_raiding_nat = {
+					add_manpower = 2
+				}
+			}
+		}
+	}
+	after = {
+		clear_global_event_target = slave_raiding_nat
+		clear_global_event_target = slave_raided_prov
+	}
+}

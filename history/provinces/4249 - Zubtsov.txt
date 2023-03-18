@@ -1,0 +1,22 @@
+#4249 - Zubtsov
+
+owner = V27
+controller = V27
+add_core = V27
+culture = slovenski
+religion = slavic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown  
+base_manpower = 1
+capital = "Zubtsov"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech
+discovered_by = KAZ

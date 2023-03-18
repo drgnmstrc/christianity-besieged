@@ -1,0 +1,128 @@
+country_decisions = {
+
+	hellenic_resettlement = {
+		major = yes
+		potential = {
+			NOT = {
+				has_country_flag = rebuilding_hellenic
+			}
+			culture_group = byzantine
+			NOT = { has_country_flag = formed_kxai }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1853 #Kastoria in Kastoria
+				province_id = 4705 #Maroneia in Thrace
+				province_id = 148 #Thessaloniki in Macedonia
+				province_id = 147 #Larissa in Thessaly
+				province_id = 146 #Athena in Attica
+				province_id = 4701 #Corinth in Corinth
+				province_id = 145 #Sparta in Sparta
+				province_id = 1773 #Patras in Achaea
+				province_id = 4699 #Arta in Arta
+				province_id = 144 #Ionianna in Epirus
+				province_id = 143 #Aulon in Aulon
+			}
+			NOT = { has_province_flag = hellenic_resettled }
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			num_of_cities = 9
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				treasury = 500
+			}
+			else = {
+				treasury = 250
+			}		
+			OR = {
+				AND = {
+					owns = 1853 #Kastoria in Kastoria
+					1853 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 4705 #Maroneia in Thrace
+					4705 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 148 #Thessaloniki in Macedonia
+					148 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 147 #Larissa in Thessaly
+					147 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 146 #Athena in Attica
+					146 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 4701 #Corinth in Corinth
+					4701 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 145 #Sparta in Sparta
+					145 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 1773 #Patras in Achaea
+					1773 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 4699 #Arta in Arta
+					4699 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 144 #Ionianna in Epirus
+					144 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+				AND = {
+					owns = 143 #Aulon in Aulon
+					143 = {
+						NOT = { has_province_flag = hellenic_resettled }
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = { id = helleneResettlement.0 } #Deciding where to rebuild
+			set_country_flag = rebuilding_hellenic
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

@@ -1,0 +1,25 @@
+#116 - Firenze
+
+owner = U11
+controller = U11
+add_core = LAN
+culture = fiorenorum
+religion = ashabi
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = wine
+base_manpower = 4
+capital = "Firenze"
+is_city = yes
+ # Founded 1321
+add_core = U11
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

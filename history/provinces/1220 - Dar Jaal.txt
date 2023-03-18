@@ -1,0 +1,19 @@
+#1220 - Dar Ja'al
+
+culture = nubian 
+religion = shiite
+capital = "Bayuda"
+owner = ETH
+controller = ETH
+add_core = ETH
+add_core = ABB
+is_city = yes
+trade_goods = livestock
+base_manpower = 2
+hre = no
+base_tax = 1 
+base_production = 1
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan

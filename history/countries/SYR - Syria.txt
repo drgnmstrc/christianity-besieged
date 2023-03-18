@@ -1,0 +1,15 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = aramean
+religion = manichaeism
+technology_group = near_east
+capital = 382	# Damascus
+1444.1.1 = {
+	monarch = {
+		name = "Zacchaeus"
+		dynasty = "Odaenethus"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,17 @@
+# No previous file for Guaymi
+is_city = yes
+culture = muisca
+owner = M40
+controller = M40
+add_core = M40
+religion = quetzacoatl
+capital = "Guaymi"
+trade_goods = naval_supplies
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+
+discovered_by = mesoamerican
+discovered_by = south_american

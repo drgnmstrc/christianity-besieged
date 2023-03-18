@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = ottoman
+religion = walianitas
+primary_culture = nissi
+capital = 102
+fixed_capital = 102
+government_rank = 1

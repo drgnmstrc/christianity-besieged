@@ -1,0 +1,78 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 180  88  199 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+
+historical_units = {
+	ottoman_yaya
+	ottoman_musellem
+	ottoman_azab
+	ottoman_timariot
+	
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Abdool #0" = 10
+	"Anerood #0" = 10
+	"Angidi #0" = 10
+	"Anil #0" = 10
+	"Cassam #0" = 10
+	"Charles #0" = 10
+	"Dayendranath #0" = 10
+	"Emmanuel #0" = 10
+	"Jaya #0" = 10
+	"Karl #0" = 10
+	"Madun #0" = 10
+	"Monique #0" = -10
+	"Navinchandra #0" = 10
+	"Paul #0" = 10
+	"Pravind #0" = 10
+	"Rabindranath #0" = 10
+	"Rama #0" = 10
+	"Raouf #0" = 10
+	"Rashid #0" = 10
+	"Seewoosagur #0" = 10
+	"Serge #0" = 10
+	"Sheilabhai #0" = 10
+	"Sookdeo #0" = 10
+	"Veerasamy #0" = 10
+}
+
+leader_names = {
+	Mohamed Jugnauth Chettiar Bachoo Uteem Burrenchobay Anquetil
+	Cuttaree Offmann Dulloo Bellepeau Ramgoolam Bérenger Ghurburrun
+	Sithanen Osman Bundhun Beejeejaun Clair Bappoo Bissoondoyal
+	Ringadoo
+}
+
+ship_names = {
+	"Classis Maurentia" "Classis Allah" "Classis Bugia" "Classis Venetum" "Classis Constantinopolis"
+	"Classis Roma" "Classis Adrianopolis" "Classis Atlanticum" "Classis Mediterraneus" "Classis Euxeinos Pontos"
+}
+
+
+

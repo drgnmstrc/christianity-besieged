@@ -1,0 +1,23 @@
+#214 - Aragón
+
+owner = J07
+controller = J07
+add_core = J07
+culture = aybirean
+religion = ashabi
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = iron
+base_manpower = 5
+capital = "Zaragoza" 
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

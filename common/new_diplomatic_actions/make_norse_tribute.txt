@@ -1,0 +1,53 @@
+make_norse_tribute = {
+    category = influence
+    require_acceptance = no
+
+    is_visible = {
+        ROOT = {
+			religion = rodoptr
+		}
+		FROM = {
+			is_subject_of_type = vassal
+			is_subject_of = ROOT
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+        FROM = {
+			is_subject_of_type = vassal
+			is_subject_of = ROOT
+			OR = {
+				NOT = { religion = rodoptr }
+				NOT = {
+					all_owned_province = {
+						religion = rodoptr
+					}
+				}
+			}
+		}
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+		create_subject = {
+			subject_type = norse_tribute
+			subject = FROM
+		}
+		FROM = {
+			if = {
+				limit = {
+					NOT = { religion = rodoptr }
+				}
+				change_religion = rodoptr
+			}
+			change_government = theocracy
+			add_government_reform = tribute_reform
+		}
+		add_prestige = 10
+    }
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = yes
+    }
+}

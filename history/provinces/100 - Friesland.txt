@@ -1,0 +1,20 @@
+# 100 Friesland - Principal cities: Leeuwarden & Harlingen 
+
+owner = FRI
+controller = FRI
+capital = "Danhjem"
+is_city = yes
+culture = danish
+religion = germanic
+hre = yes
+base_tax = 6
+base_production = 6
+trade_goods = livestock 
+base_manpower = 2
+add_core = FRI
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

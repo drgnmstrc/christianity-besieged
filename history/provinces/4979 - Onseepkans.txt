@@ -1,0 +1,18 @@
+owner = R40
+controller = R40
+add_core = R40
+trade_goods = grain
+is_city = yes
+culture = tsiqaleha
+capital = "Onseepkans"
+religion = qanumi
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

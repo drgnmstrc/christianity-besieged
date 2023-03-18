@@ -1,0 +1,20 @@
+government = native
+government_rank = 1
+add_government_reform = native_clan_council_reform
+add_government_reform = native_oral_tradition_reform
+add_government_reform = native_settle_down_reform
+primary_culture = diaguita
+religion = inti
+technology_group = andean
+unit_type = south_american
+capital = 2845
+
+1444.11.11 = {
+	monarch = {
+		name = "Naelices"
+		dynasty = "Huarpara"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

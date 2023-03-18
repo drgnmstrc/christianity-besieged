@@ -1,0 +1,14 @@
+bookmark =
+{
+	name = "CB_SONS_SOL"
+	desc = "CB_SONS_SOL_DESC"
+	date = "1444.11.11"
+	center = 1769
+	country = SLO
+	country = H28
+	country = H01
+	country = V11
+	country = H03
+	country = Y20
+	easy_country = SLO
+}

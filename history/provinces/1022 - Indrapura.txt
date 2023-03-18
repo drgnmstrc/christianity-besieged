@@ -1,0 +1,19 @@
+#1022 - Indrapura
+
+owner = CHA
+controller = CHA
+culture = cham
+religion = shiite
+capital = "Indrapura"
+trade_goods = incense
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+#estate = estate_nobles
+add_core = CHA
+add_core = ANN
+discovered_by = chinese
+discovered_by = indian
+discovered_by = near_east

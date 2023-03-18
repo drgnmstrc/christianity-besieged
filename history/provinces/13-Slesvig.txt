@@ -1,0 +1,19 @@
+#Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
+
+owner = N03
+controller = N03
+add_core = N03
+culture = heruli
+religion = norse_pagan_reformed
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 3
+capital = "Slesvig"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

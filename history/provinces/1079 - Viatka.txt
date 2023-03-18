@@ -1,0 +1,21 @@
+#1079 - Viatka
+
+tribal_owner = KAZ
+add_core = KAZ
+culture = mari 
+religion = suomenusko
+add_core = PRM
+add_core = V16
+capital = "Hlynov"
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 4
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = nomad_group

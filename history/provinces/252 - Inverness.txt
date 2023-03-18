@@ -1,0 +1,20 @@
+#252 - Highlands
+
+owner = HSC
+controller = HSC
+add_core = N09
+culture = highland_scottish
+religion = druidism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+capital = "Inverness"
+is_city = yes
+add_core = HSC
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

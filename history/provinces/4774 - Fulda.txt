@@ -1,0 +1,23 @@
+#4774 - Fulda
+owner = G34
+controller = G34
+add_core = G34
+culture = swabian
+religion = germanic
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 1
+capital = "Fulda"
+hre = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+
+is_city = yes

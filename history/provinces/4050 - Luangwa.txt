@@ -1,0 +1,15 @@
+#4050 - Luangwa
+
+owner = RZW
+controller = RZW
+add_core = RZW
+culture = bakalanga
+religion = mwari
+trade_goods = gold
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+discovered_by = central_african
+discovered_by = south_african
+capital = "Luangwa"

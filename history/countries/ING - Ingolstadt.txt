@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = bavarian
+religion = germanic
+capital = 2955	# Ingolstadt
+
+1438.5.1 = {
+	monarch = {
+		name = "Ludwig VIII"
+		dynasty = "von Wittelsbach"
+		birth_date = 1403.9.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1441.7.20 = {
+	queen = {
+		name = "Margarete"
+		dynasty = "von Hohenzollern"
+		birth_date = 1410.1.1
+		death_date = 1465.7.21
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_queen_personality = infertile_personality
+}
+
+# Landshut inherits Ingolstadt

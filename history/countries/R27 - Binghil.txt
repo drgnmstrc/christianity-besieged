@@ -1,0 +1,16 @@
+government = republic
+add_government_reform = mudarian_slavers
+primary_culture = banu
+add_accepted_culture = kongolese
+religion = mudarian
+technology_group = central_african
+capital = 1172
+unit_type = muslim
+1442.1.1 = {
+	monarch = {
+		name = "Sa'd"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}

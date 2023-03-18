@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = polish
+government_rank = 1
+religion = cisarstvo
+technology_group = ottoman
+capital = 262
+
+1444.11.11 = {
+	monarch = {
+		name = "Bozena"
+		dynasty = "Wiliski"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

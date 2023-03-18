@@ -1,0 +1,16 @@
+add_core = R46
+owner = R46
+controller = R46
+culture = duala
+religion = mudarian
+capital = "Tiko"
+trade_goods = slaves
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = south_african

@@ -1,0 +1,844 @@
+namespace = cultureshift
+
+#Aramaic into Syrian
+province_event = {
+	id = cultureshift.1
+	title = cultureshift.1t
+	desc = cultureshift.1d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = aramean
+			AND = {
+				culture = cilician
+				owner = {
+					NOT = {
+						primary_culture = armenian
+					}
+				}
+			}
+		}
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.1a
+		change_culture = al_suryah_arabic
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = al_suryah_arabic }
+			}
+		}
+	}
+}
+
+#Latin and Turkic to Italyan
+province_event = {
+	id = cultureshift.2
+	title = cultureshift.2t
+	desc = cultureshift.2d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture_group = italo_gallic
+		owner = {
+			religion_group = muslim
+		}
+		owner = { capital_scope = { region = italy_region } }
+		religion_group = muslim
+		NOT = { current_age = age_of_discovery }
+	}
+
+	mean_time_to_happen = {
+		years = 20
+		modifier = {
+			factor = 2
+			owner = { 
+				OR = {
+					primary_culture = roman
+					primary_culture = graeci
+				}
+			}
+		}
+	}
+
+	option = {
+		name = culture.2a
+		change_culture = italyan
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = italyan }
+			}
+		}
+	}
+}
+
+#Turkhen to Turkig
+province_event = {
+	id = cultureshift.3
+	title = cultureshift.3t
+	desc = cultureshift.3d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = qashqai
+			culture = latinlerin
+		}
+		owner = {
+			religion = manichaeism
+			NOT = { capital_scope = { region = italy_region } }
+			NOT = {
+				OR = {
+					culture = qashqai
+					culture_group = turko_balikli
+					culture_group = illyro_dalmatian
+				}
+			}
+		}
+		religion = manichaeism
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			owner = { tag = U16 }
+		}
+		modifier = {
+			factor = 2
+			owner = { tag = Z21 }
+		}
+	}
+
+	option = {
+		name = culture.3a
+		change_culture = turkig
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = turkig }
+			}
+		}
+	}
+}
+
+#Turkhen to Balkanli
+province_event = {
+	id = cultureshift.4
+	title = cultureshift.4t
+	desc = cultureshift.4d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = qashqai
+			culture = latinlerin
+		}
+		owner = {
+			religion_group = muslim
+			culture_group = rumi
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.4a
+		change_culture = balkanli
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = balkanli }
+			}
+		}
+	}
+}
+
+#Gothic to Pruqoth
+province_event = {
+	id = cultureshift.5
+	title = cultureshift.5t
+	desc = cultureshift.5d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture_group = french
+			culture = gothic
+			culture = ostrogothic
+		}
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.5a
+		change_culture = pruqoth
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = pruqoth }
+			}
+		}
+	}
+}
+
+#Pruqoth to Gothic
+province_event = {
+	id = cultureshift.6
+	title = cultureshift.6t
+	desc = cultureshift.6d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = pruqoth
+		owner = {
+			religion = germanic
+		}
+		religion = germanic
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.6a
+		change_culture = gothic
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = gothic }
+			}
+		}
+	}
+}
+
+#Aybirean to Aberni
+province_event = {
+	id = cultureshift.7
+	title = cultureshift.7t
+	desc = cultureshift.7d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = aybirean	
+		owner = {
+			religion_group = christian
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.7a
+		change_culture = andeberean
+		add_core = ARA
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = andeberean }
+			}
+		}
+	}
+}
+
+#Iberian to Aybirean
+province_event = {
+	id = cultureshift.8
+	title = cultureshift.8t
+	desc = cultureshift.8d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture_group = iberian	
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.8a
+		change_culture = aybirean
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = aybirean }
+			}
+		}
+	}
+}
+
+#Hebrew to Palestinian
+province_event = {
+	id = cultureshift.9
+	title = cultureshift.9t
+	desc = cultureshift.9d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = hebrew
+		owner = {
+			religion_group = muslim
+		}
+		OR = {
+			region = mashriq_region
+			region = arabia_region
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 15
+	}
+
+	option = {
+		name = culture.9a
+		change_culture = palestinian
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = palestinian }
+			}
+		}
+	}
+}
+
+#Hebrew to Egyptian
+province_event = {
+	id = cultureshift.10
+	title = cultureshift.10t
+	desc = cultureshift.10d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = hebrew
+		owner = {
+			religion_group = muslim
+			NOT = { tag = ETH }
+		}
+		religion_group = muslim
+		OR = {
+			region = egypt_region
+			province_id = 2324
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 15
+	}
+
+	option = {
+		name = culture.10a
+		change_culture = al_misr_arabic
+	}
+}
+
+#Hebrew to Tigray
+province_event = {
+	id = cultureshift.11
+	title = cultureshift.11t
+	desc = cultureshift.11d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = hebrew
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+		NOT = { region = mashriq_region }
+		NOT = { region = arabia_region }
+		OR = {
+			owner = { tag = ETH }
+			AND = {
+				NOT = { province_id = 2324 }
+				region = horn_of_africa_region
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 15
+	}
+
+	option = {
+		name = culture.11a
+		change_culture = jeberti
+	}
+}
+
+#Assyrian to Iraqi
+province_event = {
+	id = cultureshift.12
+	title = cultureshift.12t
+	desc = cultureshift.12d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = assyrian
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 100
+	}
+
+	option = {
+		name = culture.12a
+		change_culture = al_iraqiya_arabic
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = al_iraqiya_arabic }
+			}
+		}
+	}
+}
+
+#Alemanni, Helvetic, Lombard, Gepid, Burgundian, Swabian and Bavarian to Almani
+province_event = {
+	id = cultureshift.13
+	title = cultureshift.13t
+	desc = cultureshift.13d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = swiss
+			culture = alemanni
+			culture = lombard
+			culture = gepidan
+			culture = burgundian
+			culture = swabian
+			culture = bavarian
+			culture = fiari
+		}
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+		NOT = { current_age = age_of_discovery }
+	}
+
+	mean_time_to_happen = {
+		years = 20
+		modifier = {
+			factor = 2
+			owner = { 
+				NOT = { culture_group = rumi }
+			}
+		}
+	}
+
+	option = {
+		name = culture.2a
+		change_culture = almani
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = almani }
+			}
+		}
+	}
+}
+
+#Tarkhagani to Ilguzid
+province_event = {
+	id = cultureshift.14
+	title = cultureshift.14t
+	desc = cultureshift.14d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = tarkhagan
+		owner = {
+			primary_culture = bulgarian
+		}
+		NOT = { exists = Z01 }
+	}
+
+	mean_time_to_happen = {
+		years = 2
+	}
+	option = {
+		name = culture.14a
+		change_culture = bulgarian
+	}
+}
+
+#Ilguzid/Tarkhagan/Magyari->Trakyali
+province_event = {
+	id = cultureshift.15
+	title = cultureshift.15t
+	desc = cultureshift.15d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = tarkhagan
+			culture = hungarian
+			culture = bulgarian
+		}
+		owner = {
+			culture_group = rumi
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 25
+	}
+
+	option = {
+		name = culture.15a
+		change_culture = trakyali
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = trakyali }
+			}
+		}
+	}
+}
+
+#Andalucian to Avandaloi
+province_event = {
+	id = cultureshift.16
+	title = cultureshift.16t
+	desc = cultureshift.16d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = andalucian
+		religion_group = hellenic
+		owner = {
+			religion_group = hellenic
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 75
+	}
+
+	option = {
+		name = cultureshift.16a
+		change_culture = avandaloi
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = avandaloi }
+			}
+		}
+	}
+}
+
+#Kafiri to Iraqi
+province_event = {
+	id = cultureshift.17
+	title = cultureshift.17t
+	desc = cultureshift.17d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = kafiri
+			culture = bartazig
+		}
+		owner = {
+			religion_group = muslim
+		}
+		religion_group = muslim
+	}
+
+	mean_time_to_happen = {
+		years = 25
+	}
+
+	option = {
+		name = culture.17a
+		trigger = {
+			region = mashriq_region
+		}
+		change_culture = al_iraqiya_arabic
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = al_iraqiya_arabic }
+			}
+		}
+	}
+	option = {
+		name = culture.17a
+		trigger = {
+			region = arabia_region
+		}
+		change_culture = gulf_arabic
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = gulf_arabic }
+			}
+		}
+	}
+}
+province_event = { #Turkhen/Turkig to Latinlerin
+	id = cultureshift.18
+	title = cultureshift.18t
+	desc = cultureshift.18d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = turkig
+			culture = qashqai
+			culture = balkanli
+		}
+		owner = { 
+			has_roman_religion = yes
+			NOT = {
+				primary_culture = qashqai
+			}
+		}
+		has_roman_religion = yes
+	}
+
+	mean_time_to_happen = {
+		years = 50
+	}
+
+	option = {
+		name = culture.3a
+		change_culture = latinlerin
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = latinlerin }
+			}
+		}
+	}
+}
+province_event = { #Rise of the Kurds
+	id = cultureshift.19
+	title = cultureshift.19t
+	desc = cultureshift.19d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	mean_time_to_happen = {
+		years = 10
+	}
+	trigger = {
+		OR = {
+			area = dulkadir_area
+			area = north_kurdistan_area
+			area = al_jazira_area
+			area = shahrizor_area
+			AND = {
+				area = tabriz_area
+				NOT = { province_id = 416 }
+			}
+		}
+		owner = {
+			religion_group = muslim
+		}
+	}
+	option = {
+		name = culture.19a
+		change_culture = kurdish
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = kurdish }
+			}
+		}
+	}
+}
+province_event = { #Unity of the Iranians
+	id = cultureshift.20
+	title = cultureshift.20t
+	desc = cultureshift.20d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	mean_time_to_happen = {
+		years = 15
+	}
+	trigger = {
+		NOT = { area = dulkadir_area }
+		NOT = { area = north_kurdistan_area }
+		NOT = { area = al_jazira_area }
+		NOT = { area = shahrizor_area }
+		if = {
+			limit = {
+				area = tabriz_area
+			}
+			province_id = 416
+		}
+		owner = {
+			religion_group = muslim
+		}
+		OR = {
+			culture = persian
+			culture = median
+			culture = ajami
+			culture = yazdi
+			culture = kermani
+		}
+	}
+	option = {
+		name = culture.12a
+		change_culture = iranian
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = iranian }
+			}
+		}
+	}
+}
+province_event = { #Splintering of the Mazowiska
+	id = cultureshift.21
+	title = cultureshift.21t
+	desc = cultureshift.21d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	mean_time_to_happen = {
+		years = 15
+	}
+	trigger = {
+		owner = {
+			tag = MAZ
+			religion = rodoptr
+		}
+		NOT = { current_age = age_of_discovery }
+		culture = polish
+	}
+	option = {
+		name = cultureshift.21a
+		change_culture = mazowiska
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = mazowiska }
+			}
+		}
+	}
+}
+province_event = { #Rise of Dalmatli Culture
+	id = cultureshift.22
+	title = cultureshift.22t
+	desc = cultureshift.22d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	mean_time_to_happen = {
+		years = 15
+	}
+	trigger = {
+		owner = {
+			tag = DAL
+			religion = ashabi
+		}
+		culture = latinlerin
+	}
+	option = {
+		name = cultureshift.22a
+		change_culture = dalmatli
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = dalmatli }
+			}
+		}
+	}
+}

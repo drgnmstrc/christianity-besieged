@@ -1,0 +1,15 @@
+owner = R41
+controller = R41
+add_core = R41
+trade_goods = livestock
+is_city = yes
+culture = ning
+capital = "Mathangwane"
+religion = qanumi
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = central_african
+discovered_by = south_african

@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = ottoman
+religion = ashabi
+primary_culture = fiari
+capital = 113	# Ferrara
+fixed_capital = 113 # Cannot move capital away from this province & no power cost to move to it
+add_army_professionalism = 0.05
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammen"
+		dynasty = "Vitouan"
+		birth_date = 1407.1.1
+		adm = 3
+		dip = 5
+		mil = 1
+	}
+}

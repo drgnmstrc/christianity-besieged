@@ -1,0 +1,19 @@
+#242 - Gwynedd
+
+owner = J17
+controller = J17
+culture = welsh
+religion = druidism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+capital = "Caernarvon"
+is_city = yes
+add_core = J17
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

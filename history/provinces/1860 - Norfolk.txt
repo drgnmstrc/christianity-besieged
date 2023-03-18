@@ -1,0 +1,20 @@
+#1860 - Norfolk
+#Includes Suffolk
+
+owner = B03
+controller = B03
+culture = saxeish
+religion = saxish
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 3
+capital = "Norwich"
+is_city = yes
+add_core = B03
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

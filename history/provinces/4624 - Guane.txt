@@ -1,0 +1,16 @@
+# No previous file for Guane
+
+culture = yucatec
+owner = M35
+controller = M35
+add_core = M35
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = north_american
+discovered_by = mesoamerican
+capital = "Guane"
+trade_goods = tobacco 
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2

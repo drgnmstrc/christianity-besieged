@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = flemish
+religion = germanic
+technology_group = eastern
+capital = 1866	# Dijon
+add_army_professionalism = 0.1
+historical_rival = OLD
+
+1444.11.11 = {
+	monarch = {
+		name = "Philippe III"
+		dynasty = "de Namür"
+		birth_date = 1426.7.31
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = { name = "Philippe III"   	type = general	fire = 3	shock = 3	manuever = 3	siege = 1 }
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = calm_personality
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = well_advised_personality
+	add_heir_personality = bold_fighter_personality
+}

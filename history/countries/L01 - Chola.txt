@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = nayankara_reform
+primary_culture = tamil
+add_accepted_culture = malayalam
+religion = hinduism
+technology_group = indian
+capital = 2085
+historical_rival = L02
+
+1424.1.1 = {
+	monarch = {
+		name = "Karunyan"
+		dynasty = "Chola"
+		ADM = 3
+		DIP = 3
+		MIL = 4
+	}
+}

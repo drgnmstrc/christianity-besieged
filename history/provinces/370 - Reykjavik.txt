@@ -1,0 +1,21 @@
+#370 - Reykjavik
+
+owner = N09
+controller = N09 
+culture = hjallish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+add_local_autonomy = 25
+capital = "Reykjavik"
+is_city = yes 	
+add_core = N09
+add_core = ICE
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

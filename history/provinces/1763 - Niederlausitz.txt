@@ -1,0 +1,22 @@
+#1763 - Niederlausitz
+
+owner = SIL
+controller = SIL
+add_core = SIL
+add_core = N20
+culture = polobske
+religion = slavic
+capital = "Chósebuz"
+trade_goods = livestock
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = nomad_group
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

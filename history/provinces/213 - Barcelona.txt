@@ -1,0 +1,24 @@
+#213 - Barcelona
+
+owner = J07
+controller = J07
+add_core = J07
+culture = pruqoth
+religion = ashabi
+hre = no
+base_tax = 6 
+base_production = 5
+trade_goods = glass 
+base_manpower = 3
+capital = "Barcelona" 
+is_city = yes
+#estate = estate_burghers
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

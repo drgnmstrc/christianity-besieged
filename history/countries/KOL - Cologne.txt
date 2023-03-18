@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = swabian
+religion = germanic
+technology_group = eastern
+capital = 85	# Köln
+fixed_capital = 85 # Cannot move capital away from this province & no power cost to move to it
+
+1444.11.11 = {
+	monarch = {
+		name = "Dietrich II"
+		dynasty = "von Mörs"
+		birth_date = 1425.1.1
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = greedy_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}

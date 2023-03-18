@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = jelander
+religion = norse_pagan_reformed
+technology_group = western
+capital = 244
+
+1434.2.5 = {
+	monarch = {
+		name = "Thammes"
+		dynasty = "Wealdmærson"
+		birth_date = 1420.1.9
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

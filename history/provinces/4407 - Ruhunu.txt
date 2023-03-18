@@ -1,0 +1,22 @@
+#4407 - Ruhunu
+
+owner = CEY
+controller = CEY
+add_core = L01
+culture = sinhala
+religion = buddhism
+capital = "Devinuvara"
+trade_goods = gems
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+#estate = estate_church
+add_core = CEY
+add_local_autonomy = 25
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+discovered_by = east_african

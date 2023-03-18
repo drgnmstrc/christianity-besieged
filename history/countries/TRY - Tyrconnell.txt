@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eirun
+primary_culture = irish
+religion = druidism
+capital = 4380	# Donegal
+
+1439.1.1 = {
+	monarch = {
+		name = "Neachtan"
+		dynasty = "Ó Domhnaill"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

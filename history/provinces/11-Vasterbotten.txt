@@ -1,0 +1,20 @@
+#Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
+
+add_core = N04
+owner = N04
+controller = N04
+culture = sapmi
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2 
+base_production = 2
+trade_goods = fur
+base_manpower = 1
+capital = "Umeå"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+discovered_by = nomad_group

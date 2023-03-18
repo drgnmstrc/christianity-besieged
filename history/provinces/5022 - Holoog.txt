@@ -1,0 +1,14 @@
+owner = R16
+controller = R16
+add_core = R16
+trade_goods = livestock
+is_city = yes
+culture = julhoan
+capital = "Holoog"
+religion = qanumi
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+discovered_by = south_african

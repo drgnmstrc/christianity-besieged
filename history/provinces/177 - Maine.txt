@@ -1,0 +1,20 @@
+# 177 Maine - Principal cities: Le Mans, Laval
+
+owner = H01
+controller = H01
+capital = "Le Mans"
+is_city = yes
+culture = gaulish
+religion = sol_invictus
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+add_local_autonomy = 80
+add_core = H01
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

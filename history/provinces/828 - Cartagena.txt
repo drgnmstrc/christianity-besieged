@@ -1,0 +1,18 @@
+#828 - Cartagena
+
+culture = muisca
+owner = TAI
+controller = TAI
+add_core = TAI
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = south_american
+discovered_by = mesoamerican
+capital = "Cartagena"
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+extra_cost = 8
+center_of_trade = 1

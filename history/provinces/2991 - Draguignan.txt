@@ -1,0 +1,24 @@
+# Forcalquier
+
+owner = U09
+controller = U09
+capital = "Forcalquier"
+is_city = yes
+culture = aquigalli
+religion = walianitas
+hre = no
+base_tax = 4 
+base_production = 4
+trade_goods = wool
+base_manpower = 2
+add_core = U09
+add_core = H37
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

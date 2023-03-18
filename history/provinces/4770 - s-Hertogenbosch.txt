@@ -1,0 +1,21 @@
+# 4770 - Den Bosch/'s-Hertogenbosch.
+
+owner = OLD
+controller = OLD
+add_core = OLD
+is_city = yes
+capital = "'s-Hertogenbosch"
+culture = flemish
+religion = germanic
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = paper
+base_manpower = 2
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

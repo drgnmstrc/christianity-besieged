@@ -1,0 +1,5 @@
+﻿l_english:
+ hashimiyidFlavor.t:0 "The Call of the Hashimiyids"
+ hashimiyidFlavor.d:0 "The Hasimiyids have called for us, asking for our support of [Y13.Monarch.GetName]'s claim to the Caliphate, since the position was wrested from the Haladri Caliph. This would be a level of dedication that might put the integrity of our estate at risk, however."
+ hashimiyidFlavor.a:0 "We will glady accept the call to arms, Caliph [Y13.Monarch.GetName]!"
+ hashimiyidFlavor.b:0 "We must go our own way, [Y13.Monarch.GetTitle]."

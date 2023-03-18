@@ -1,0 +1,20 @@
+# - Merida
+
+culture = betoi
+owner = M83
+controller = M83
+add_core = M83
+is_city = yes
+religion = chiminigagua
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Merida"
+trade_goods = cocoa
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+native_size = 15
+native_ferocity = 1
+native_hostileness = 3

@@ -1,0 +1,15 @@
+#9000 - Transvaal
+discovered_by = central_african
+discovered_by = south_african
+owner = R52
+controller = R52
+add_core = R52
+culture = xuukhoe
+religion = qanumi
+capital = "|Xuu'a"
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes

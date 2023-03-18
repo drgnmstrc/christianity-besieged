@@ -1,0 +1,21 @@
+#Tavastland, incl. Tavastehus.
+
+owner = V22
+controller = V22
+add_core = V22
+culture = finnish
+religion = suomenusko
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+capital = "Tavastehus"
+is_city = yes
+#fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = nomad_group

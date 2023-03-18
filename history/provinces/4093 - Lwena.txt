@@ -1,0 +1,14 @@
+owner = R23
+controller = R23
+add_core = R23
+culture = lunda
+religion = nzambiism #Fetishism
+capital = "Lwena"
+trade_goods = ivory
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = central_african
+discovered_by = south_african

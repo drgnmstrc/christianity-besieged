@@ -1,0 +1,16 @@
+#1100 - Mahe
+owner = R34
+controller = R34
+add_core = R34
+culture = swahili
+religion = shiite
+is_city = yes
+capital = "Mahe"
+trade_goods = fish
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 2
+add_permanent_claim = R35
+discovered_by = east_african
+discovered_by = south_african

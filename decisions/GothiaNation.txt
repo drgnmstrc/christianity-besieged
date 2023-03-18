@@ -1,0 +1,134 @@
+country_decisions = {
+
+	gothia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_gothia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = G01 }
+			NOT = { tag = G03 }
+			OR = {
+				primary_culture = gothic
+				primary_culture = ostrogothic
+				primary_culture = gallien
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4719
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = G01
+			}
+			owns_core_province = 4719
+			num_of_cities = 8
+			OR = {
+				primary_culture = gothic
+				primary_culture = ostrogothic
+			}
+		}
+		effect = {
+			change_tag = G01
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			languedoc_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			provence_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			guyenne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			massif_central_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			savoy_dauphine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			orleans_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			west_burgundy_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			ile_de_france_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			loire_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			poitou_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+			add_claim = G01
+			}
+			add_prestige = 25
+			set_country_flag = formed_gothia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

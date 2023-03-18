@@ -1,0 +1,32 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = fulani
+religion = imohag #Fetishism
+technology_group = saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 4950
+
+#Denyanke Kings
+1444.1.1 = {
+	monarch = {
+		name = "Koli"
+		dynasty = "Denianke"
+		dip = 3
+		adm = 2
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Tengella"
+		monarch_name = "Koli Tengella"
+		dynasty = "Denianke"
+		birth_date = 1444.3.12
+		dip = 4
+		adm = 1
+		mil = 5
+	}
+}

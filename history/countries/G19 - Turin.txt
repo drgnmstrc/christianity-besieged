@@ -1,0 +1,18 @@
+# No previous file for Turin
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = torino
+capital = 103
+fixed_capital = 103
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Ahmad"
+		dynasty = "Muriunda"
+		dip = 5
+		mil = 0
+		adm = 1
+	}
+}

@@ -1,0 +1,16 @@
+owner = R36
+controller = R36
+add_core = R36
+trade_goods = slaves
+is_city = yes
+culture = banu
+capital = "Mjimbali"
+religion = hanafis
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 5
+center_of_trade = 1
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

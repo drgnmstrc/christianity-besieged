@@ -1,0 +1,208 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 29 102 224 }
+
+revolutionary_colors = { 255  0  81 }
+
+historical_score = 6700
+
+historical_idea_groups = {
+	economic_ideas
+	offensive_ideas
+	exploration_ideas
+	defensive_ideas	
+	administrative_ideas	
+	maritime_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Christian #2" = 160
+	"Theodulf #2" = 80
+	"Julius #1" = 60
+	"Soisson #0" = 40
+	"Rex #0" = 10
+	"Titas #0" = 10
+	"Marcus #1" = 10
+	"Tertulus #0" = 10
+	"Bastian #0" = 5
+	"Jacques #0" = 5
+	"Bertrand #0" = 5
+	"Cicero #0" = 5
+	"Catulus #2" = 1
+	"Aldrien #1" = 1
+	"Valens #1" = 1
+	"Seneca #0" = 0
+	"Alphonse #0" = 0
+	"Ambroise #0" = 0
+	"Albus #0" = 0
+	"Augustin #0" = 0
+	"Roenuallon #0" = 0
+	"Rhiwallon #0" = 0
+	"Pêr #0" = 0
+	"Loi #0" = 0
+	"Llywarch #0" = 0
+	"Iarcun #0" = 0
+	"Gueroc #0" = 0
+	"Mercator #0" = 0
+	"Nasica #0" = 0
+	"Ursus #0" = 0
+	"Octavianus #0" = 0
+	"Longinus #0" = 0
+	"Fronto #0" = 0
+	"Cyngar #0" = 0
+	"Gnaeus #0" = 0
+	"Lupius #0" = 0
+	"Dentatus #0" = 0
+	"Aratus #0" = 0
+	"Tiberius #0" = 0
+	"Jules #0" = 0
+	"Marc #0" = 0
+	"Titus #0" = 0
+	"Maximilien #0" = 0
+	"Libo #0" = 0
+	"Cotta #0" = 0
+	"Bledrig #0" = 0
+	"Beli #0" = 0
+	"Petronax #0" = 0
+	"Loïc #0" = 0
+	"Damasus #0" = 0
+	"Scipio #0" = -10
+	"Isabelle #0" = -1
+	"Elwen #0" = -1
+	"Gaela #0" = -10
+	"Beladore #0" = -10
+	"Adelaide #0" = -10
+}
+
+leader_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco Christian Theodulf
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+			Corentin Deniel Dinan Erwan Gaël Gwenaël Gwenneg 
+			Gwilherm Iouennic Loïc Maeldan Mikael Olier Padrig Paol Patern Pier Primel Roparzh Servan Similien Sklaer 
+			Sulio Uuinmael Venec Visant Vonig Vougay Winifrid Yann
+			Adoyre Adrien Adrian Aedan Hugh Agustin August Alan Alar Alaric Aldrien Aldroenus Alfrond Alor 
+			Alured Alfred Alwen Alwin Anaoc Anaubritou Anaugen Anauguethen Anauguoret Anauhocar Andreas 
+			Andrew Aniud Anton Antoninus Argantbri Argantmoet Arnalt Arnold Arthel Arthguiu Arthmael 
+			Arthueu Arthuiu Artorius Arthur Austol Baldoen Baldwin Bastian Sebastian Beli Beltram Bertrand 
+			Benabic Berenger Berengar Bernead Bernard Berthgualt Berthoald Bledric Bledrig Bledros Bleidcum 
+			Bletcu Blethin Bleddyn Blethiut Bleiddud Bodan Bran Brangualart Branwaladr Branhucar Branoc 
+			Brenci Brendan Breselconan Breselcoucant Breselgar Breseloc Breselueu Brethoc Brient Brian 
+			Brigualt Brioc Briog Brithael Brochuael Brogmaglus Bronmael Budguoret Budhoiarn Budic Benedict 
+			Budoc Buhedoc Butgual Cadan Cadaouen Cadarvan Cadiou Cadoc Cadog Cador Cadwr Cadou Cadw 
+			Cantgueithen Caradec Caratacus Caradoc Caradog Carantoc Catgualart Cadwaladr Catuallon Cadwallon 
+			Catguethen Catguoret Cadwared Catgutic Cathno Catnimed Catuod Caurantin Corentin Ceneu Cenguethen 
+			Cenmarhoc Cenmin Cenmonoc Cingur Cinhoedl Clemen Clement Clodouan Clotwoïon Comoere Conan Concen 
+			Cyngen Condeleu Cynddelw Condidan Cyndyddan Congar Cyngar Conmael Cynfael Conmonoc Conogan 
+			Conredeu Conuallon Cynwallon Conmarch Cynfarch Convelin Cynfelyn Conwoïon Corguethen Courantgern 
+			Courantmonoc Culmin Custent Constans Custentin Constantine Dauid Deniel Daniel Denis Deroch 
+			Derrien Deui David Deurhoiarn Domnoret Domuel Dywel Donual Donald Donuallon Dyfnwallon Drogon 
+			Drogo Duenerth Dumnarth Donyarth Edern Eternus Edouart Edward Eguen Eon Erispoë Erouan Yves 
+			Estienne Etgual Eudon Otto Euhocar Euhoiarn Eusebi Eusebius Even Eugene Evrard Everard Farinmael
+			Ffernfael Ferant Ferdinand Fracan Fragan Framual Fransaz Francis Frioc Friog Garmon German 
+			Geofroi Geralt Gerald Gereint Gerontius Gestin Justin Gilbert Godefroi Godfrey Goennoc Gouesnon 
+			Goulwen Gouremor Gwrfawr Gourmaelon Gralon Gratcant Gregor Gregory Grifiud Ruffinus Guallon 
+			Gualter Walter Gudual Guecon Guenerdon Guenhael Guentanet Guentiern Gui Guy Guiharan Guihomarch 
+			Guihomart Guilherm William Guincalon Guincum Guinhael Guinhoiarn Guinoc Guinol Winaloe Guithrit 
+			Guitol Vitalis Guobrian Guocon Guoedanau Guoedatoe Guoednou Guoethoiarn Guoletec Guorbili 
+			Guordotal Guoretan Guorethoiarn Guorhoiarn Gurbodu Gurcant Gurcencor Gurceneu Gwrgeneu Gurci 
+			Gwrgi Gurcon Gurdilic Gurgen Gurguaret Gurguist Gurguistl Fergus Gurheter Guriant Viriathius 
+			Gurlouen Gurmael Gurmaeloc Gurmhaelon Gurthcid Gurthiern Vortigern Guruant Guerech Gueroc 
+			Guethenan Guethencar Guethencor Guethenwoïon Guethenhoiarn Guethenoc Haelcomarch Haelguethen 
+			Haelguoret Haelhoiarn Haeloc Haeloubri Herori Haermael Hammelin Hamelin Hamon Harscoit Hedyn 
+			Heranal Herri Henry Hesdren Hincomhal Hinguethen Hocar Hoconan Honfroi Hoël Hywel Huiarnal 
+			Huiarnbili Huiarnviu Harvey Hunfroi Humphrey Iacob Jacob Iarcun Iarnbud Iarncant Iarncar 
+			Iarndetguid Iarnegon Jarnegon Iarnuallon Iarnuocon Iarnhitin Iedechael Iehan John Ilcarthon Ildut 
+			Iliud Inisian Iocilin Joscelin Iodoc Ionas Jonas Iosep Joseph Iudcum Iuduallon Idwallon 
+			Ithel Iudicael Judicael Iudnerth Idnerth Iudnimet Ednyfed Iustoc Iudoc Iudual Idwal Iumael 
+			Iunceneu Iunuocon Iunmonoc Jord George Leucum Loi Lorens Laurence Louenan Loumarch Llywarch 
+			Louïs Iudhael Louis Maelcon Maelgwn Maeldoï Maelhuedoc Maeloc Maelscoet Maelscuet Maenceneu Maenci March 
+			Marthin Martin Matheudoï Mathias Matthew Matoc Matad Matuid Maugan Mauric Maurice Medrod 
+			Meldroc Meriadoc Mermin Merfyn Meugan Mawgan Meven Michel Michael Morcant Morgan Morcondeleu 
+			Morgen Morguethen Morhaetho Mormarch Morfarch Morvan Mortiern Neven Nicolas Nicholas 
+			Nodhoiarn Nominoë Nougui Nowy Oliuer Oliver Oswallt Oswald Padric Patrick Paol Paul 
+			Pasquitan Patern Paternus Petroc Phelippe Phillip Piran Prigent Primael Primarhoc Putrael 
+			Peter Ralf Raoul Ralph Renan Resmen Riacet Ribald Ricart Richard Riceneu Ricenus Richwin 
+			Riualtr Rihouen Rinduran Rioc Riol Riwal Riuallon Rhiwallon Rodric Roderick Roenualloc 
+			Roenuolou Roenhoiarn Rolland Roland Ronan Roparth Robert Roucen Rucenus Rumon Roman Ryd 
+			Salomon Solomon Samson Samuel Stefen Stephen Sulgen Julian Sulhoiarn Sulmonoc Sultiern Talan 
+			Talhoiarn Tanci Tanet Tanhoiarn Telent Terithien Tethion Teudric Theodoric Teudur Theodore 
+			Tibault Theobald Tiernan Tiernmael Tiernoc Tiernualloc Tiernuallon Treveur Tristan Tuduallon 
+			Tudwallon Tudur Tugdual Tuathal Ungust Urbcen Urbgenius Urbien Urban Urblon Urvod Uther 
+			Vincenne Vincent Victor Salenn Roenuallon Ridoredh Pêr Pascueten Nodethael Mordred Marcus
+}
+
+ship_names = {
+	"Amiral de Biscaye" "Amiral de Galice" "Arc-en-Ciel" "Belle Poule" "Bien-Aimé" "Charles II" "Cheval Marin" "Commerce de Bordeaux" "Commerce de Marseille"
+	"Commerce de Paris" "Commerce du Lyon" "Couronne Ottomane" "Croissant d'Afrique" "Dauphin Royal" "Deux Frères" "Don de Dieu" "Dragon d'Or" "Duc d'Angoulême"
+	"Duc d'Aquitaine" "Duc de Berry" "Duc de Bourgogne" "Ésperance d'Angleterre" "Ésperance de Dieu" "Ésperance en Dieu" "États de Bourgogne" "Étoile de Diane"
+	"Faucon Anglais" "Fleur de Lys" "Frégate Royale" "Galion de Guise" "Grand Anglais" "Grand Chalain" "Grand Danois" "Grand Henry" "Grand Saint Louis"
+	"Grand Vainqueur" "Grand Vasseau du Roi" "Grande Galion de Malte" "Grande Nef d'Écosse" "Grande Saint Jean" "Île de France" "Le Beau Parterre" "Lion Couronné"
+	"Lion d'Or" "Madeleine de Brest" "Marguerite du Ponant" "Marie la Cordelière" "Marie-Elisabeth" "Mont Saint-Bernard" "Navire-du-Roi" "Noire Galère"
+	"Notre Dame de la Victoire" "Notre Dame des Martyres" "Notre Dame du Peuple" "Notre Dame" "Ours Blanc" "Ours d'Or" "Petit Saint Jean" "Petit Saint Louis"
+	"Prince Henri" "Quatre Frères" "Roi de Rome" "Royal Duc" "Royal Hollandais" "Royal Italien" "Royal Louis" "Royale Thérèse" "Saint André" "Saint Antoine de Gênes"
+	"Saint Antoine" "Saint Augustin" "Saint Basile" "Saint Catherine" "Saint Charles" "Saint Cosme" "Saint Dominique" "Saint Edmé" "Saint Esprit" "Saint François"
+	"Saint Georges de Londres" "Saint Ignace" "Saint Jacques du Portugal" "Saint Jacques" "Saint Jean de Bordeaux" "Saint Jean de Hollande" "Saint Jean" "Saint Joseph"
+	"Saint Louis de Brest" "Saint Louis de Nevers" "Saint Louis de Saint-Malo" "Saint Louis" "Saint Michel" "Saint Paul" "Saint Philippe" "Saint Pierre" "Saint Sébastien"
+	"Saint Thomas d'Aquin" "Saint Vincent" "Sainte Croix" "Sainte Geneviève" "Sainte Marie" "Saint-Malo" "Saint-Sacrement" "Sans Pareil" "Soleil d'Afrique"
+	"Soleil d'Alger" "Soleil Royal" "Trois Fanaux" "Trois Rois" "Vaisseau de Torais" "Vaisseau du Roi" "Ville-de-Marseille" "Ville-de-Paris" "Ville-de-Rouen"
+	Achille Actif Actionnaire Adelaïde Admirable Adroit Africain Agamemnon Aigle Aigrette Aimable Ajax Alcide Alcyon Alexandre Alliance Alsace Altier Amarante
+	Amazone Ambitieux America Amiral Amphion Amphitrite Andromaque Anglais Anna Annibal Anonyme Anversois Apollon Aquilon Arcole Ardent Aréthuse Argonaute Artésien
+	Asie Assuré Astrée Astrolabe Athénien Atlante Audacieux Auguste Aurore Avenant Aventurier Badine Banel Basque Beaufort Belliqueux Bellone Bienfaisant Bizarre Bon
+	Bonne Bordelais Borée Boudeuse Bouffonne Bourbon Boussole Brave Brélé Bretagne Breton Brillant Brutal Bucentaure Calypso Capable Capricieux Caraquon Cardinal
+	Caribou Cassard Castiglione Catholique Caton Censeur Centaure César Chalain Charente Charlemagne Charmante Chasseur Choquante Christine Citoyen Cléopâtre Clorinde
+	Colosse Comète Comte Concorde Conquérant Consolante Content Coq Corail Courageux Couronne Courtisan Croissant Curieux Cygne Dalmate Dansé Dantzig Dauphin Dédaigneuse
+	Défenseur Dego Desaix Destin Diadème Diamant Dictateur Dragon Dryade Dubois Duc Duguesclin Dunkerquois Duperre Duquesne Dur Éclatant Écueil Écureuil Église Elbeuf
+	Embuscade Émerillon Éminent Empereur Emporte Engageante Enjouree Entendu Entreprenant Éole Ésperance Europe Éveillé Excellent Fâcheux Fantasque Faucon Favori Fée
+	Félicité Fendant Ferronière Fidèle Fier Fiesque Flamand Fleuron Florissant Formidable Fort Fortune Foudroyant Fougueux Français Frédéric Friponne Fulminant Gaillard
+	Galant Galathée Gaulois Gazelle Généreux Gênois Gentille Gerze Gloire Gracieuse Grand Griffon Guerrier Guirlande Hardi Hasardeux Havre Hébé Henri Hercule Hermione
+	Héroïne Héros Heureux Hippopotame Hirondelle Hymen Inconstante Indien Indomptable Infante Inflexible Intrépide Invincible Iphighénie Isabelle Jason Jemmapes Jeux
+	Joli Jules Junon Jupiter Juste Languedoc Laurier Léger Léopard Licorne Ligourois Lion Lionne Lune Lutine Lys Madame Madeleine Magicienne Magnanime Magnifique
+	Maistresse Majestueux Maquedo Marabout Marguerite Marin Marquise Mars Maure Maurepas Mazarin Méduse Mercœur Mercure Merveilleux Mignonne Minotaure Modéré Monarque
+	Montebello Montenotte Montmorency Montolieu Mutine Nassau Navarrais Neptune Néréide Nieuport Normand Océan Oiseau Opiniâtre Orgueilleux Orient Oriflamme Orion Orphée
+	Ours Pacificateur Palmier Parfait Paris Patriote Pégase Pélican Pélicorne Perle Persée Persévérante Pléiade Poli Polonais Polyphème Pompée Pompeux Pourvoyeuse Prince
+	Princesse Prompt Prosélyte Protée Provençal Prudent Pucelle Puissant Pyrrhus Railleuse Raisonnable Redoutable Réfléchi Régénérateur Regina Regulus Reine Renommée
+	Résistance Robuste Rochefort Roland Rouen Royal Rubis Sage Sagittaire Salamandre Sceptre Scipion Séduisant Seine Sémillante Sérieux Sirène Soleil Solide Sophie
+	Sorlingue Sourdis Souverain Sphinx Subtile Suffisant Suffren Superbe Surveillante Suzanne Sylvie Téméraire Tempête Terpsichore Terreur Terrible Thémistocle Thérèse
+	Thésée Thétis Tigre Tonnant Topaze Toulon Tourbillon Tourville Trajan Trident Triomphe Triton Trocadero Trompeuse Uranie Utile Vaillant Vainqueur Valeur Vendôme
+	Vengeur Vénus Vertu Vestale Vétéran Victoire Victorieux Vierge Volage Volontaire Wallon Zélandais Zélé Zodiaque
+}
+
+army_names = {
+	"Armée royale" "Armée des Flandres" "Armée du Nord" "Armée de l'Est" "Armée du Jura" "Armée du Lyonnais" "Armée des Alpes"
+	"Armée du Midi" "Armée des Pyrénées" "Armée de l'Atlantique" "Armée de Bretagne" "Armée d'Italie" "Armée de $PROVINCE$"
+}
+
+fleet_names = {
+	"Escadre de la Manche" "Escadre de l'Atlantique" "Escadre de Méditerranée" "Escadre de Gascogne" "Escadre Bleue" "Escadre Rouge" "Escadre Blanche"
+}

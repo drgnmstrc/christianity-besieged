@@ -1,0 +1,21 @@
+# - Ingolstadt + Neuburg
+
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = bavarian
+religion = germanic
+base_tax = 3 
+base_production = 3
+trade_goods = wine #Would shift to beer over time
+base_manpower = 1
+capital	= "Ingolstadt" 
+is_city = yes
+hre = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

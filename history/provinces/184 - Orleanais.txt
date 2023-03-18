@@ -1,0 +1,22 @@
+# 184 Orléannais + Blois - Principal cities: Orléans
+
+owner = G10
+controller = G10
+add_core = G10
+capital = "Erelia"
+is_city = yes
+culture = cosmopolitan_french
+religion = anglican
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = grain
+base_manpower = 5
+add_core = B08
+add_local_autonomy = 50
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

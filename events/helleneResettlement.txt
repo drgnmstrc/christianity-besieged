@@ -1,0 +1,1176 @@
+namespace = helleneResettlement
+country_event = {
+	id = helleneResettlement.0
+	title = helleneResettlement.t
+	desc = helleneResettlement.d
+	picture = {
+		trigger = {
+			has_dlc = "Purple Phoenix"
+		}
+		picture = ATHENS_eventPicture
+	}
+	picture = {
+		trigger = {
+			NOT = { has_dlc = "Purple Phoenix" }
+		}
+		picture = HARBOUR_eventPicture
+	}
+	is_triggered_only = yes
+	option = {
+		name = helleneResettlement.a
+		trigger = {
+			owns = 1853
+			1853 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				1853 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				1853 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.b
+		trigger = {
+			owns = 4705
+			4705 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				4705 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				4705 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.c
+		trigger = {
+			owns = 148
+			148 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				148 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				148 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.e
+		trigger = {
+			owns = 147
+			147 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				147 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				147 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.f
+		trigger = {
+			owns = 146
+			146 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				146 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				146 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.g
+		trigger = {
+			owns = 4701
+			4701 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				4701 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				4701 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.h
+		trigger = {
+			owns = 145
+			145 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				145 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				145 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.i
+		trigger = {
+			owns = 1773
+			1773 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				1773 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				1773 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.j
+		trigger = {
+			owns = 4699
+			4699 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				4699 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				4699 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.k
+		trigger = {
+			owns = 144
+			144 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				144 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				144 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.l
+		trigger = {
+			owns = 143
+			143 = { NOT = { has_province_flag = hellenic_resettled } }
+		}
+		custom_tooltip = dynamicHellenicSize.tt
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = capital_settled
+				}
+				add_treasury = -250
+				143 = {
+					province_event = {
+						id = helleneResettlement.2
+						days = 730
+					}
+				}
+			}
+			else = {
+				add_treasury = -500
+				143 = {
+					province_event = {
+						id = helleneResettlement.1
+						days = 1460
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.m
+	}
+}
+province_event = {
+	id = helleneResettlement.1
+	title = helleneResettlement.1t
+	desc = helleneResettlement.1d
+	picture = {
+		trigger = {
+			has_dlc = "Purple Phoenix"
+		}
+		picture = ATHENS_eventPicture
+	}
+	picture = {
+		trigger = {
+			NOT = { has_dlc = "Purple Phoenix" }
+		}
+		picture = HARBOUR_eventPicture
+	}
+	is_triggered_only = yes
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 1853
+		}
+		move_capital_effect = yes
+		change_province_name = "Kastoria"
+		rename_capital = "Kastoria"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 1853
+		}
+		change_province_name = "Kastoria"
+		rename_capital = "Kastoria"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 4705
+		}
+		move_capital_effect = yes
+		change_province_name = "Thrace"
+		rename_capital = "Maroneia"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4705
+		}
+		change_province_name = "Thrace"
+		rename_capital = "Maroneia"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 148
+		}
+		move_capital_effect = yes
+		change_province_name = "Macedon"
+		rename_capital = "Thessaloniki"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 148
+		}
+		change_province_name = "Macedon"
+		rename_capital = "Thessaloniki"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 147
+		}
+		move_capital_effect = yes
+		change_province_name = "Thessaly"
+		rename_capital = "Larissa"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 147
+		}
+		change_province_name = "Thessaly"
+		rename_capital = "Larissa"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 146
+		}
+		move_capital_effect = yes
+		change_province_name = "Attica"
+		rename_capital = "Athens"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 146
+		}
+		change_province_name = "Attica"
+		rename_capital = "Athens"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 4701
+		}
+		move_capital_effect = yes
+		change_province_name = "Corinth"
+		rename_capital = "Corinth"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4701
+		}
+		change_province_name = "Corinth"
+		rename_capital = "Corinth"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 145
+		}
+		move_capital_effect = yes
+		change_province_name = "Sparta"
+		rename_capital = "Sparta"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 145
+		}
+		change_province_name = "Sparta"
+		rename_capital = "Sparta"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 1773
+		}
+		move_capital_effect = yes
+		change_province_name = "Achaea"
+		rename_capital = "Patras"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 1773
+		}
+		change_province_name = "Achaea"
+		rename_capital = "Patras"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 4699
+		}
+		move_capital_effect = yes
+		change_province_name = "Arta"
+		rename_capital = "Arta"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4699
+		}
+		change_province_name = "Arta"
+		rename_capital = "Arta"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 144
+		}
+		move_capital_effect = yes
+		change_province_name = "Epirus"
+		rename_capital = "Ionianna"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 144
+		}
+		change_province_name = "Epirus"
+		rename_capital = "Ionianna"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = helleneResettlement.1a
+		trigger = {
+			province_id = 143
+		}
+		move_capital_effect = yes
+		change_province_name = "Aulon"
+		rename_capital = "Aulon"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 143
+		}
+		change_province_name = "Aulon"
+		rename_capital = "Aulon"
+		add_base_tax = 3
+		add_base_production = 2
+		add_base_manpower = 2
+		change_religion = owner
+		change_culture = owner
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+province_event = {
+	id = helleneResettlement.2
+	title = helleneResettlement.1t
+	desc = helleneResettlement.1d
+	picture = {
+		trigger = {
+			has_dlc = "Purple Phoenix"
+		}
+		picture = ATHENS_eventPicture
+	}
+	picture = {
+		trigger = {
+			NOT = { has_dlc = "Purple Phoenix" }
+		}
+		picture = HARBOUR_eventPicture
+	}
+	is_triggered_only = yes
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 1853
+		}
+		change_province_name = "Kastoria"
+		rename_capital = "Kastoria"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4705
+		}
+		change_province_name = "Thrace"
+		rename_capital = "Maroneia"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 148
+		}
+		change_province_name = "Macedon"
+		rename_capital = "Thessaloniki"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 147
+		}
+		change_province_name = "Thessaly"
+		rename_capital = "Larissa"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 146
+		}
+		change_province_name = "Attica"
+		rename_capital = "Athens"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4701
+		}
+		change_province_name = "Corinth"
+		rename_capital = "Corinth"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 145
+		}
+		change_province_name = "Sparta"
+		rename_capital = "Sparta"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 1773
+		}
+		change_province_name = "Achaea"
+		rename_capital = "Patras"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 4699
+		}
+		change_province_name = "Arta"
+		rename_capital = "Arta"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 144
+		}
+		change_province_name = "Epirus"
+		rename_capital = "Ionianna"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+	}
+	option = {
+		name = helleneResettlement.1b
+		trigger = {
+			province_id = 143
+		}
+		change_province_name = "Aulon"
+		rename_capital = "Aulon"
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+			name = wave_hellenic_resettlement
+			duration = 3600
+		}
+		hidden_effect = {
+			set_province_flag = hellenic_resettled
+			owner = {
+				set_country_flag = capital_settled
+			}
+		}
+	}
+}

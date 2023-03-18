@@ -1,0 +1,19 @@
+country_decisions = {
+	vibe_check = {
+		potential = {
+			has_darkness = yes
+			has_country_flag = manie
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = {
+				id = manidoom.10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

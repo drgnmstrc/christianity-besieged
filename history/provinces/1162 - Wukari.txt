@@ -1,0 +1,18 @@
+#1162 - Wukari
+
+culture = jukun
+religion = qanumi
+capital = "Wukari"
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+owner = SOK
+controller = SOK
+add_core = SOK
+is_city = yes
+trade_goods = grain
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan

@@ -1,0 +1,18 @@
+# No previous file for Guanipa
+
+culture = guayqueri
+owner = M85
+controller = M85
+add_core = M85
+is_city = yes
+religion = animism
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+is_city = yes
+capital = "Guanipa"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

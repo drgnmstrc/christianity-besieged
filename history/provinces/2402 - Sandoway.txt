@@ -1,0 +1,18 @@
+#2402 - Sandoway
+
+owner = BNG
+controller = BNG
+add_core = BNG
+culture = arakanese
+religion = buddhism
+capital = "Sandoway"
+trade_goods = iron
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = indian
+discovered_by = chinese
+discovered_by = near_east
+discovered_by = ottoman

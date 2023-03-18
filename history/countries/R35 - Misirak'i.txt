@@ -1,0 +1,15 @@
+government = theocracy
+add_government_reform = mudarian_utopia
+primary_culture = banu
+religion = mudarian
+technology_group = east_african
+capital = 1102 #Mauritius
+unit_type = muslim
+1442.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

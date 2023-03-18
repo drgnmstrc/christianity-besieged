@@ -1,0 +1,15 @@
+#493 - St. Thomas
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+owner = M48
+controller = M48
+add_core = M48
+culture = arawak
+religion = animism
+capital = "St. Thomas"
+trade_goods = sugar
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 1

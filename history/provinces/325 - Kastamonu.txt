@@ -1,0 +1,23 @@
+#325 - Kastamonu
+
+owner = H07
+controller = H07
+culture = pondii
+religion = hellenism
+capital = "Kastamonu"
+trade_goods = copper
+hre = no
+base_tax = 5
+base_production = 7 #Huge copper mine
+base_manpower = 4
+is_city = yes
+add_core = H07
+add_core = H06
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

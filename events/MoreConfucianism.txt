@@ -1,0 +1,199 @@
+namespace = more_confucian
+
+#Tengri Harmonization
+country_event = {
+	id = more_confucian.1
+	title = "more_confucian.1.t"
+	desc = "more_confucian.1.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion = tengri_pagan_reformed }
+				save_event_target_as = tengri_pagan_reformed_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "et_china.1.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_tengri_pagan_reformed"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Hellenic Harmonization
+country_event = {
+	id = more_confucian.2
+	title = "more_confucian.2.t"
+	desc = "more_confucian.2.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion_group = hellenic }
+				save_event_target_as = hellenic_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "et_china.2.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_hellenic"
+				duration = -1
+			}
+		}
+	}
+}
+
+#American Harmonization
+country_event = {
+	id = more_confucian.3
+	title = "more_confucian.3.t"
+	desc = "more_confucian.3.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion_group = american_pagan }
+				save_event_target_as = american_pagan_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "more_confucian.3.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_american"
+				duration = -1
+			}
+		}
+	}
+}
+
+#North European Harmonization
+country_event = {
+	id = more_confucian.4
+	title = "more_confucian.4.t"
+	desc = "more_confucian.4.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion_group = slavic_pagan }
+				save_event_target_as = slavic_pagan_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "more_confucian.4.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_german_pagan"
+				duration = -1
+			}
+		}
+	}
+}
+
+#Germanic Harmonization
+country_event = {
+	id = more_confucian.5
+	title = "more_confucian.5.t"
+	desc = "more_confucian.5.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion_group = german_pagan }
+				save_event_target_as = german_pagan_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "more_confucian.5.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_german_pagan"
+				duration = -1
+			}
+		}
+	}
+}
+
+#African Harmonization
+country_event = {
+	id = more_confucian.6
+	title = "more_confucian.6.t"
+	desc = "more_confucian.6.d"
+	picture = NEO_CONFUCIANISM_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = { religion_group = african_pagan }
+				save_event_target_as = african_pagan_province
+			}
+			clr_country_flag = harmonization_shangdi_conflict
+			clr_country_flag = harmonization_han_kitab
+			clr_country_flag = harmonization_fate_of_advisor
+			clr_country_flag = harmonization_empowering_ceremonies
+		}
+	}
+	
+	option = {
+		name = "more_confucian.6.a"
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_african_pagan"
+				duration = -1
+			}
+		}
+	}
+}

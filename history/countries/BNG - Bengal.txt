@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = bengali
+religion = buddhism
+technology_group = indian
+capital = 561
+government_rank = 3
+historical_friend = KND
+add_accepted_culture = arakanese
+
+#Sultans of Bengal
+1435.1.1 = {
+	monarch = {
+		name = "Nasai"
+		dynasty = "Pala"
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+	add_heir_personality = bold_fighter_personality
+	heir = {
+		name = "Barbak"
+		monarch_name = "Barbak"
+		dynasty = "Pala"
+		birth_date = 1430.1.1
+		death_date = 1474.1.1
+		claim = 95
+		ADM = 4
+		DIP = 4
+		MIL = 5
+	}
+}

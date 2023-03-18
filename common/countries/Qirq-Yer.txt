@@ -1,0 +1,79 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 142  210  183 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Herod #0" = 40
+	"Simon #0" = 10
+	"John #0" = 10
+	"Aristobulus #0" = 10
+	"Alexander #0" = 10
+	"Salome #0" = 10
+	"Hyrcanus #0" = 10
+	"Antigonus #0" = 10
+	"Benjamin #0" = 0
+	"Ehud #0" = 0
+	"Ariel #0" = 0
+	"Rehavam #0" = 0
+	"Yossi #0" = 0
+	"Yosef #0" = 0
+	"Effie #0" = 0
+	"Rabbi #0" = 0
+	
+	"Michal #0" = -1
+	"Bat-sheva #0" = -1
+	"Ataliah #0" = -1
+	"Hadassah #0" = -1
+	"Mariamne #0" = -1
+	"Berenika #0" = -1
+}
+
+leader_names = {
+	Ben-Zvi
+	Ben-Gurion
+	Sharett
+	Eshkol
+	Eban
+	Meir
+	Rabin
+	Begin
+	Shamir
+	Peres
+	Netanyahu
+	Barak
+	Katsav
+	Zeevi
+}
+
+ship_names = {
+	Eilat Yaffo Haifa Mivtach Misgav Miznak
+	Haganah Lahav Hanit Akko Sa'ar Sufa
+	Ga'ash Herev Hetz Reshef Keshet Romach
+}

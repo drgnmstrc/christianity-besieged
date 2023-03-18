@@ -1,0 +1,16 @@
+#827 - Antioquía
+
+owner = MCA
+controller = MCA
+add_core = MCA
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+culture = muisca
+religion = chiminigagua
+capital = "Antioquía"
+trade_goods = cocoa
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2

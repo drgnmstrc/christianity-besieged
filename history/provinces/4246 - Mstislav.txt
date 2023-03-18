@@ -1,0 +1,18 @@
+#4246 - Mstislav
+
+owner = A05
+controller = A05
+add_core = A05
+culture = biksteder
+religion = rodoptr
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = wool 
+base_manpower = 1
+capital = "Mstsislaw"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

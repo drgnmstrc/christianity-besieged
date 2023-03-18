@@ -1,0 +1,19 @@
+# No previous file for Obong Okon Ita
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = ibibio
+religion = inam #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1151
+1397.1.1 = {
+	monarch = {
+		name = "Akpan"
+		dynasty = "Okon"
+		adm = 5
+		dip = 5
+		mil = 2
+	}
+}

@@ -1,0 +1,25 @@
+#210 - Navarra
+
+owner = G02
+controller = G02
+add_core = G02
+culture = pruqoth
+religion = ashabi
+hre = no
+base_tax = 3 
+base_production = 3
+trade_goods = iron
+base_manpower = 2 
+#fort_15th = yes #Fortifications of Pamplona and Saint-Jean-Pied-de-Port
+capital = "Pamplona" 
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

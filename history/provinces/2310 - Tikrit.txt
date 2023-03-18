@@ -1,0 +1,20 @@
+#2310 - Tikrit
+
+owner = X11
+controller = X11
+add_core = X11
+culture = assyrian
+religion = manichaeism
+capital = "Tikrit"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = indian
+discovered_by = nomad_group

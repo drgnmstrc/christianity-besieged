@@ -1,0 +1,26 @@
+#284 - Crimea
+
+owner = X21
+controller = X21
+culture = kuzarim
+religion = karaite
+hre = no
+base_tax = 5
+base_production = 4
+trade_goods = salt
+base_manpower = 4
+capital = "Qirq-Yer"
+is_city = yes
+fort_15th = yes #Qirq-Yer Fortress
+add_core = X21
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

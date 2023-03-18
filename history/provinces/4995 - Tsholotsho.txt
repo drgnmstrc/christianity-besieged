@@ -1,0 +1,15 @@
+owner = R30
+controller = R30
+add_core = R30
+trade_goods = livestock
+is_city = yes
+culture = ungkue
+capital = "Tsholotsho"
+religion = qanumi
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+discovered_by = central_african
+discovered_by = south_african

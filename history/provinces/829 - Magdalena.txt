@@ -1,0 +1,17 @@
+#829 - Magdalena
+
+culture = yukpa
+owner = M84
+controller = M84
+add_core = M84
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Tairo"
+trade_goods = cocoa
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3

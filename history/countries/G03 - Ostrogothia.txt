@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = ostrogothic
+religion = germanic
+capital = 205
+
+1444.1.1 = {
+	monarch = {
+		name = "Heribrand"
+		dynasty = "Ostro-Gotha"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

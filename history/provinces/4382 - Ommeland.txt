@@ -1,0 +1,20 @@
+# 4383 Ommeland - Groningen, Ommeland & Drenthe
+
+owner = FRI
+controller = FRI
+add_core = FRI
+capital = "Groningen"
+is_city = yes
+culture = danish
+religion = germanic
+hre = yes
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = cloth 
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

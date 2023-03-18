@@ -1,0 +1,20 @@
+#Upper Oka Basin
+
+
+owner = Z12
+controller = Z12 
+culture = severian
+religion = rodoptr #Will be changed to Rodism, the Norse-Slavic hybrid
+add_core = Z12
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 2
+capital = "Odayev"
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

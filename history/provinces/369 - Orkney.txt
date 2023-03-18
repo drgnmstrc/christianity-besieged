@@ -1,0 +1,22 @@
+#369 - Orkney
+
+owner = N09
+controller = N09
+culture = hjallish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Kirkwall"
+is_city = yes
+add_core = N09
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

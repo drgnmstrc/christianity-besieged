@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = aigaio
+religion = hellenism
+capital = 142
+fixed_capital = 142 # Cannot move capital away from this province & no power cost to move to it
+
+1448.1.1 = {
+	monarch = {
+		name = "Leonardo II"
+		dynasty ="Dagout"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}

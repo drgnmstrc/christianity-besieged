@@ -1,0 +1,17 @@
+# - Pore
+
+culture = betoi
+owner = M83
+controller = M83
+add_core = M83
+is_city = yes
+religion = chiminigagua
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Pore"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

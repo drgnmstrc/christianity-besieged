@@ -1,0 +1,30 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = sodor
+religion = norse_pagan_reformed
+technology_group = western
+capital = 4364 # inner hebrides
+government_rank = 1
+
+1423.1.1 = {
+	monarch = {
+		name = "Alasdair"
+		dynasty = "Ímarssons"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1444.1.1 = {
+	heir = {
+		name = "Eoin"
+		monarch_name = "Eoin II"
+		dynasty = "Ímarssons"
+		birth_date = 1434.1.1
+		death_date = 1503.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}

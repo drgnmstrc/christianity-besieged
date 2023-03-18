@@ -1,0 +1,25 @@
+#1110 - Agadir
+
+owner = TFL
+controller = TFL
+add_core = TFL
+add_core = R02
+add_core = R03
+culture = sahrawi
+religion = sunni
+capital = "Agadir"
+trade_goods = sugar
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+#estate = estate_nobles
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = saharan
+discovered_by = east_african
+extra_cost = 8
+center_of_trade = 1

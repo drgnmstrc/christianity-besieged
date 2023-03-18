@@ -1,0 +1,247 @@
+rome_rep_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		#tag = H25
+		#NOT = { map_setup = map_setup_random }
+		#NOT = { was_tag = H26 }
+		always = no
+	}
+	has_country_shield = yes
+	
+	rome_rep_crisis_germania = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			#incident: roman_resurgence
+			NOT = {
+				any_known_country = {
+					religion = germanic
+					any_owned_province = {
+						is_core = H25
+					}
+				}
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 10
+			if = {
+				limit = {
+					government = republic
+				}
+				add_republican_tradition = 10
+			}
+			else = {
+				add_legitimacy = 15
+			}
+			add_stability_or_adm_power = yes
+			add_country_modifier = {
+				name = roman_sense_security
+				duration = 9125
+			}
+		}
+	}
+	rome_rep_alpine_security = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 2
+		trigger = {
+			savoy_dauphine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			romandie_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			switzerland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			tirol_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 10
+			add_mil_power = 15
+			if = {
+				limit = {
+					savoy_dauphine_area = {
+						type = all
+						NOT = { has_building = cultus_domus }
+					}
+				}
+				4758 = {
+					add_building = cultus_domus
+				}
+			}
+			if = {
+				limit = {
+					tirol_area = {
+						type = all
+						NOT = { has_building = cultus_domus }
+					}
+				}
+				204 = {
+					add_building = cultus_domus
+				}
+			}
+		}
+	}
+	rome_rep_reconquest_rhine = {
+		icon = mission_conquer_50_development
+		required_missions = { rome_rep_alpine_security } #None
+		position = 3
+		trigger = {
+			holland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			north_brabant_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			brabant_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			lower_rhineland_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			north_rhine_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			wallonia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 10
+			add_mil_power = 15
+			if = {
+				limit = {
+					savoy_dauphine_area = {
+						type = all
+						NOT = { has_building = cultus_domus }
+					}
+				}
+				4758 = {
+					add_building = cultus_domus
+				}
+			}
+			if = {
+				limit = {
+					tirol_area = {
+						type = all
+						NOT = { has_building = cultus_domus }
+					}
+				}
+				204 = {
+					add_building = cultus_domus
+				}
+			}
+		}
+	}
+}
+rome_rep_missions_4_privilegiis_venetia = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		#tag = H25
+		#has_reform = privilegiis_venetia
+		#NOT = { 112 = { is_capital_of = H25 } }
+		#NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rome_rep_eclipsing_venetia = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			NOT = { exists = H25 }
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 10	
+		}
+	}
+}
+rome_rep_missions_5_centralized = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		#tag = H25
+		#NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	rome_rep_foothold_baleares = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			baleares_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			baleares_area = {
+				add_core = ROOT
+
+			}
+			catalonia_area = {
+				add_core = ROOT
+			}
+			valencia_area = {
+				add_core = ROOT
+			}
+			add_prestige = 5
+		}
+	}
+	rome_rep_conquest_iberia = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 2
+		trigger = {
+			baleares_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			baleares_area = {
+				add_core = ROOT
+				
+			}
+			catalonia_area = {
+				add_core = ROOT
+			}
+			valencia_area = {
+				add_core = ROOT
+			}
+			add_prestige = 5
+		}
+	}
+}

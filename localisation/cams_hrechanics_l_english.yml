@@ -1,0 +1,11 @@
+﻿l_english:
+ grant_sacredgrove_title:0 "Grant Frifeusten"
+ grant_sacredgrove_tooltip:0 "Granting them Frifeusten status will grant them special privileges, but conversely we will have to protect them in wars."
+ DEF_OPIN:0 "Default"
+ byeHRE.t:0 "Gods of Germania"
+ byeHRE.d:0 "One of the few things left that binds together the disparate entities tied within the ancient structure of the High Kingdom is a devout devotion to the Gods of Germania. Our worship has been deemed alarmingly divisive against the very foundations of Germania, and we have been systematically isolated from any sort of participation in the heavily religious councils and convenings that form the very foundational structure of representation within the High Kingdom."
+ byeHRE.a:0 "They're simply a gaggle of confused cretins."
+ byeHRE.b:0 "Beg forgiveness and offer sacrifice to the true Gods."
+ offered_sacrifice_emperor:0 "Offered Sacrifice"
+ offered_sacrifice_prince:0 "Offered Sacrifice"
+ frayed_germania:0 "Leading Germans away from the Gods"

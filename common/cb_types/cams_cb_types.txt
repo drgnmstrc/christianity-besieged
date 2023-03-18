@@ -1,0 +1,30 @@
+cb_berber_settle = {
+	prerequisites = {
+		FROM = {
+			NOT = { has_reform = berber_tribe }
+		}
+		has_reform = berber_tribe
+		is_neighbor_of = FROM
+	}
+	war_goal = annex_country_berber
+}
+
+cb_slave_raid = {
+	prerequisites = {
+		FROM = {
+			NOT = { religion = hypturism }
+		}
+		religion = hypturism
+		is_neighbor_of = FROM
+	}
+	war_goal = loot_nation_hypturist
+}
+
+cb_caliphial_intervention = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 60
+
+	war_goal = caliphial_intervention
+}

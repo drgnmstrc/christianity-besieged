@@ -1,0 +1,22 @@
+#239 - Gloucestershire
+
+owner = N22
+controller = N22
+add_core = N22
+culture = breton
+religion = walianitas
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Bristol"
+is_city = yes
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1
+add_permanent_claim = H01

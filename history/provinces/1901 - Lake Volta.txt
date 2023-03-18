@@ -1,0 +1,17 @@
+# - Mpangu
+
+owner = KON
+controller = KON 
+culture = kongolese
+religion = nzambiism #Fetishism
+capital = "Sundi"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = KON
+
+discovered_by = central_african
+discovered_by = south_african

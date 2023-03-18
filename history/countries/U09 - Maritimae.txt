@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = italian_turk
+add_accepted_culture = aquigalli
+add_accepted_culture = pruqoth
+capital = 201
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Idios al-Madiya"
+		dynasty = "Türügeli"
+		birth_date = 1420.9.12
+		dip = 6
+		mil = 6
+		adm = 4
+	}
+	add_ruler_personality = zealot_personality
+}
+1444.11.1 = {
+	heir = {
+		name = "Sarisaç"
+		dynasty = "Türügeli"
+		birth_date = 1443.1.8
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+1444.11.1 = {
+	queen = {
+		name = "Isolde"
+		dynasty = "Türügeli"
+		culture = alemanni
+		country_of_origin = PAL
+		birth_date = 1422.6.7
+		dip = 5
+		mil = 6
+		adm = 3
+	}
+}

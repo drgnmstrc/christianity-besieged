@@ -1,0 +1,23 @@
+#1851 - Coimbra
+
+owner = J05
+controller = J05
+culture = turdulian
+religion = liritism
+capital = "Coimbra"
+trade_goods = grain
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 4
+is_city = yes
+#estate = estate_nobles
+add_core = J05
+1444.11.11 = { unrest = 5 }
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

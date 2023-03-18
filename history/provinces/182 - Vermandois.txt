@@ -1,0 +1,23 @@
+# 182 Vermandois - Principal cities: Compiègne + Soissons
+
+owner = B08
+controller = B08
+capital = "Soissons"
+is_city = yes
+culture = cosmopolitan_french
+religion = anglican
+hre = no
+base_tax = 8
+base_production = 8
+trade_goods = paper
+base_manpower = 7
+extra_cost = 8
+center_of_trade = 1
+#fort_15th = yes
+add_core = B08
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

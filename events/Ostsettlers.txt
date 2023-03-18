@@ -1,0 +1,218 @@
+namespace = ostsettlers
+ 
+province_event = {
+	id = ostsettlers.0
+	hidden = yes
+	trigger = {
+		owner = {
+			primary_culture = novgorodian
+			OR = {
+				AND = {
+					government_rank = 1
+					NOT = { is_year = 1575 }
+				}
+				AND = {
+					government_rank = 2
+					NOT = { is_year = 1625 }
+				}
+				AND = {
+					government_rank = 3
+					NOT = { is_year = 1650 }
+				}
+			}
+		}
+		culture = novgorodian
+       	 	religion = rodoptr
+    	}
+    mean_time_to_happen = {
+        months = 200
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+    }
+    option = {
+        name = "ostsettlers_a"
+        random_list = {
+            33 = {
+                add_base_tax = 1
+            }
+            33 = {
+                add_base_production = 1
+            }
+            33 = {
+                add_base_manpower = 1
+            }
+        }
+    }
+}
+ 
+province_event = {
+    id = ostsettlers.1
+    title = "ostsettlers_1_title"
+    desc = "ostsettlers_1_desc"
+    picture = "EUROPEAN_REFUGEES_eventPicture"
+    trigger = {
+		owner = {
+			primary_culture = novgorodian
+			OR = {
+				AND = {
+					government_rank = 1
+					NOT = { is_year = 1575 }
+				}
+				AND = {
+					government_rank = 2
+					NOT = { is_year = 1625 }
+				}
+				AND = {
+					government_rank = 3
+					NOT = { is_year = 1650 }
+				}
+			}
+		}
+        NOT = {
+            culture = novgorodian
+            religion = rodoptr
+        }
+    }
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+        modifier = {
+            factor = 0.1
+            has_construction = missionary
+        }
+    }
+    option = {
+        name = "ostsettlers_1_a"
+        random_list = {
+            33 = {
+                add_base_tax = 1
+            }
+            33 = {
+                add_base_production = 1
+            }
+            33 = {
+                add_base_manpower = 1
+            }
+        }
+        change_religion = rodoptr
+    }
+}
+ 
+province_event = {
+    id = ostsettlers.2
+    title = "ostsettlers_2_title"
+    desc = "ostsettlers_2_desc"
+    picture = "EUROPEAN_REFUGEES_eventPicture"
+    trigger = {
+		owner = {
+			primary_culture = novgorodian
+			OR = {
+				AND = {
+					government_rank = 1
+					NOT = { is_year = 1575 }
+				}
+				AND = {
+					government_rank = 2
+					NOT = { is_year = 1625 }
+				}
+				AND = {
+					government_rank = 3
+					NOT = { is_year = 1650 }
+				}
+			}
+		}
+        NOT = {
+            culture = novgorodian
+        }
+        religion = rodoptr
+    }
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+    }
+    option = {
+        name = "ostsettlers_a"
+        random_list = {
+            33 = {
+                add_base_tax = 1
+               
+            }
+            33 = {
+                add_base_production = 1
+            }
+            33 = {
+                add_base_manpower = 1
+            }
+        }
+        change_culture = novgorodian
+    }
+}
+
+province_event = {
+	id = ostsettlers.3
+	hidden = yes
+	trigger = {
+		owner = {
+			primary_culture = novgorodian
+			NOT = {
+				any_owned_province = {
+					is_colony = yes
+				}
+			}
+			OR = {
+				AND = {
+					government_rank = 1
+					NOT = { is_year = 1575 }
+				}
+				AND = {
+					government_rank = 2
+					NOT = { is_year = 1625 }
+				}
+				AND = {
+					government_rank = 3
+					NOT = { is_year = 1650 }
+				}
+			}
+		}
+		culture = novgorodian
+       	 	religion = rodoptr
+		has_empty_adjacent_province = yes
+    	}
+    mean_time_to_happen = {
+        months = 250
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+    }
+    option = {
+        name = "ostsettlers_a"
+        random_empty_neighbor_province = {
+		add_siberian_construction = 400
+	}
+    }
+}

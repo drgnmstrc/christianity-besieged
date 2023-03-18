@@ -1,0 +1,24 @@
+#85 - Köln
+
+owner = G05
+controller = G05
+add_core = G05
+add_core = KOL
+culture = swabian
+religion = germanic
+trade_goods = paper
+capital = "Köln"
+base_tax = 6 
+base_production = 6
+base_manpower = 4
+is_city = yes
+fort_15th = yes #Godesberg
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

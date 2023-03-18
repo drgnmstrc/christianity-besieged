@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = tribute_reform
+government_rank = 1
+primary_culture = prus
+religion = rodoptr
+technology_group = western
+capital = 38
+
+1444.11.11 = {
+	monarch = {
+		name = "Alvert"
+		dynasty = "Hodzenekes"
+		culture = prussian
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}

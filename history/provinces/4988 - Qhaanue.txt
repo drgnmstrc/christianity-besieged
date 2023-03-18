@@ -1,0 +1,19 @@
+owner = R21
+controller = R21
+add_core = R21
+trade_goods = paper
+is_city = yes
+culture = tsiqaleha
+capital = "Qhaanue"
+religion = qanumi
+hre = no
+base_tax = 8
+base_production = 6
+base_manpower = 2
+center_of_trade = 1
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

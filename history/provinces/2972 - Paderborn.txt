@@ -1,0 +1,19 @@
+#Paderborn
+owner = G36
+controller = G36
+culture = saxon
+religion = germanic
+trade_goods = wool
+capital = "Paderborn"
+base_tax = 5
+base_production = 4
+base_manpower = 4
+hre = yes
+is_city = yes # Paderborn is through its history dependant on Münster and Köln.
+add_core = G36
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

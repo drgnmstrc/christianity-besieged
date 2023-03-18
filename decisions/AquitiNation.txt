@@ -1,0 +1,150 @@
+country_decisions = {
+
+	aquitia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_aquitia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = U01 }
+			NOT = { tag = U15 }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = SPA }
+			NOT = { tag = J13 }
+			NOT = { tag = ADU }
+			NOT = { tag = J11 }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			NOT = { exists = AMG }
+			primary_culture = gurrean
+			
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 197
+				province_id = 176
+				province_id = 174
+				province_id = 200
+				province_id = 201
+				province_id = 4550
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AMG }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			197 = { owned_by = ROOT }
+			176 = { owned_by = ROOT }
+			174 = { owned_by = ROOT }
+			200 = { owned_by = ROOT }
+			201 = { owned_by = ROOT }
+			4550 = { owned_by = ROOT }
+		}
+		effect = {
+			change_tag = AMG
+			every_owned_province = {
+				limit = {
+					culture = gurrean
+				}
+				change_culture = basque
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 50
+			change_primary_culture = basque
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			set_capital = 197
+			197 = {
+				change_culture = basque
+				add_base_tax = 2
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			if = {
+				limit = {
+					government = tribal
+				}
+				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
+				#set_legacy_government = despotic_monarchy
+			}
+			catalonia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			aragon_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			basque_country = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			provence_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			languedoc_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			guyenne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			valencia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AMG
+			}
+			set_country_flag = formed_aquitia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

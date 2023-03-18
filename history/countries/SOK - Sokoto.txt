@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = kxai_reform
+primary_culture = jukun
+add_accepted_culture = tiv
+religion = qanumi
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1162
+religious_school = kurudi_school
+historical_friend = R53
+1444.1.1 = {
+	monarch = {
+		name = "'||'An"
+		dynasty = "Dzahoka"
+		dip = 2
+		adm = 5
+		mil = 5
+	}
+}

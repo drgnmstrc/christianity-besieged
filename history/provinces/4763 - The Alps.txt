@@ -1,0 +1,6 @@
+# No previous file for The Alps
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman

@@ -1,0 +1,56 @@
+darkness_extinguished = {
+	legitimacy = 1
+	devotion = 1
+	horde_unity = 1
+	republican_tradition = 0.5
+	prestige = 0.5
+	global_tax_modifier = 0.1
+	all_power_cost = -0.05
+}
+darkness_low = {
+	legitimacy = 1
+	devotion = 1
+	horde_unity = 1
+	republican_tradition = 0.5
+	prestige = 0.25
+}
+darkness_rising = {
+	global_unrest = 2
+	stability_cost_modifier = 0.05
+}
+darkness_infiltrated = {
+	global_unrest = 3
+	stability_cost_modifier = 0.05
+	global_autonomy = 0.5
+	global_tax_modifier = -0.05
+}
+darkness_present = {
+	global_unrest = 4
+	stability_cost_modifier = 0.1
+	global_autonomy = 0.5
+	global_tax_modifier = -0.05
+}
+darkness_high = {
+	global_unrest = 5
+	stability_cost_modifier = 0.15
+	global_autonomy = 0.5
+	global_tax_modifier = -0.05
+}
+darkness_dangerous = {
+	global_unrest = 6
+	stability_cost_modifier = 0.2
+	global_autonomy = 1
+	global_tax_modifier = -0.05
+	legitimacy = -0.5
+	devotion = -1
+	republican_tradition = -0.5
+}
+darkness_in_power = {
+	global_unrest = 7
+	stability_cost_modifier = 0.25
+	global_autonomy = 1
+	global_tax_modifier = -0.1
+	legitimacy = -0.5
+	devotion = -1
+	republican_tradition = -0.5
+}

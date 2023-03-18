@@ -1,0 +1,14 @@
+#482 - Bahamas
+
+owner = M35
+controller = M35
+add_core = M35
+is_city = yes
+culture = arawak
+religion = animism
+capital = "Bahamas"
+trade_goods = cotton
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 1

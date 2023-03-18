@@ -1,0 +1,21 @@
+# 4112 - Cahors
+
+owner = G15
+controller = G15
+add_core = G15
+capital = "Cahors"
+is_city = yes
+culture = vestes
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = wine
+base_manpower = 3
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = free_city
+government_rank = 1
+primary_culture = saxon
+religion = germanic
+technology_group = eastern
+capital = 82
+fixed_capital = 82
+
+1444.11.11 = {
+	monarch = {
+		name = "Ludwig the Pious"
+		birth_date = 1396.5.12
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,17 @@
+# - Darien 
+
+culture = muisca
+owner = TAI
+controller = TAI
+add_core = TAI
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+capital = "Darien"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

@@ -1,0 +1,15 @@
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = shwakhwe
+religion = qanumi
+technology_group = south_african
+capital = 4982
+government_rank = 1
+1380.1.1 = {
+	monarch = {
+		name = "K''o-khode"
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}

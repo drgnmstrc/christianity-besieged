@@ -1,0 +1,23 @@
+# 89 Picardie - Principal cities: Amiens
+
+owner = B01
+controller = B01
+add_core = B01
+capital = "Amiens"
+is_city = yes
+#estate = estate_nobles
+culture = wallonian
+religion = anglican
+hre = no
+base_tax = 6 
+base_production = 6
+trade_goods = grain
+base_manpower = 5
+add_core = B01
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

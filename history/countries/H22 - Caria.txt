@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = kares
+religion = payidotheos
+technology_group = eastern
+capital = 319
+government_rank = 1

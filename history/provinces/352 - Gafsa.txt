@@ -1,0 +1,25 @@
+#352 - Gafsa
+
+owner = R06
+controller = R06 
+add_core = R06
+culture = isawiyen
+religion = mutazila
+capital = "Gafsa"
+trade_goods = salt
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

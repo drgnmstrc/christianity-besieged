@@ -1,0 +1,17 @@
+owner = R60
+controller = R60
+add_core = R60
+is_city = yes
+culture = ijaw 
+religion = egbesu
+capital = "Akassa"
+trade_goods = fish
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

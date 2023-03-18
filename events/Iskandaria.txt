@@ -1,0 +1,799 @@
+namespace = iskandaria
+country_event = { #Families of Janub Ifriqya
+	id = iskandaria.0
+	title = iskandaria.t
+	desc = iskandaria.d
+	picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+	option = { #The Aglidanab Jujubee Barons
+		name = iskandaria.a
+		set_country_flag = aglidanab_candidate
+		custom_tooltip = aglidanab_candidate_tt
+	}
+	option = { #The Muhallabids, prominent from Abbasid era
+		name = iskandaria.b
+		set_country_flag = muhallabid_candidate
+		custom_tooltip = muhallabid_candidate_tt
+	}
+	option = { #Restore the Hafsids to their station
+		name = iskandaria.c
+		set_country_flag = hafsid_candidate
+		custom_tooltip = hafsid_candidate_tt
+	}
+}
+
+country_event = { #Growing Desire for the Holy Land
+	id = iskandaria.1
+	title = iskandaria.1t
+	desc = iskandaria.1d
+	picture = LIBERUM_VETO_eventPicture
+	is_triggered_only = yes
+	option = { #We will take back what is ours.
+		name = iskandaria.1a
+		add_country_modifier = {
+			name = alex_desire_holy_land
+			duration = 9125
+		}
+	}
+	option = { #We should treat our fellow people of the book with respect.
+		name = iskandaria.1b
+		add_country_modifier = {
+			name = alex_welcoming_administration
+			duration = 9125
+		}
+	}
+}
+
+country_event = { #Multiple Families From Medina Gain Prominence
+	id = iskandaria.2
+	title = iskandaria.2t
+	desc = iskandaria.2d
+	picture = CULTURE_eventPicture
+	is_triggered_only = yes
+	option = { #Restore the Husaynids
+		name = iskandaria.2a
+		add_prestige = 10
+		custom_tooltip = alex_husaynids_tt
+		set_country_flag = husaynid_candidate
+	}
+	option = { #Make all theologically astute Medinans eligible
+		name = iskandaria.2b
+		add_scaled_republican_tradition = 15
+		custom_tooltip = alex_allmedina_tt
+		set_country_flag = allmedina_candidate
+	}
+}
+
+country_event = { #A New Family Rises in Tripoli
+	id = iskandaria.3
+	title = iskandaria.3t
+	desc = iskandaria.3d
+	picture = ADVISOR_eventPicture
+	is_triggered_only = yes
+	immediate = { #Which families fall depends on your current dynasty, or the first one you picked at the start.
+		hidden_effect = {
+			if = { #Survival of the Munaqadun - Ruling
+				limit = {
+					dynasty = "Munaqadhin"
+				}
+				set_country_flag = eclipsed_elsherif
+				set_country_flag = eclipsed_saidis
+				set_country_flag = faridrid_candidate
+				set_country_flag = alex_ruling_survive
+			}
+			if = {
+				limit = { #Suvival of the Elsherif - Ruling
+					dynasty = "Sherifid"
+				}
+				set_country_flag = eclipsed_munaqadun
+				set_country_flag = eclipsed_saidis
+				set_country_flag = faridrid_candidate
+				set_country_flag = alex_ruling_survive
+			}
+			if = {
+				limit = {  #Survival of the Saidi - Ruling
+					dynasty = "Sa'idi"
+				}
+				set_country_flag = eclipsed_elsherif
+				set_country_flag = eclipsed_munaqadun
+				set_country_flag = faridrid_candidate
+				set_country_flag = alex_ruling_survive
+			}
+			if = { #Survival through Eminence
+				limit = {
+					NOT = {
+						OR = {
+							dynasty = "Munaqadhin"
+							dynasty = "Sherifid"
+							dynasty = "Sa'idi"
+						}
+					}
+				}
+				if = { #Survival of the Munaqadun
+					limit = {
+						has_country_flag = goodbye_elsherif
+					}
+					set_country_flag = eclipsed_elsherif
+					set_country_flag = eclipsed_saidis
+					set_country_flag = faridrid_candidate
+				}
+				if = { #Suvival of the Elsherif
+					limit = {
+						has_country_flag = goodbye_saidi
+					}
+					set_country_flag = eclipsed_munaqadun
+					set_country_flag = eclipsed_saidis
+					set_country_flag = faridrid_candidate
+				}
+				if = { #Survival of the Saidi
+					limit = {
+						has_country_flag = goodbye_munaqadun
+					}
+					set_country_flag = eclipsed_elsherif
+					set_country_flag = eclipsed_munaqadun
+					set_country_flag = faridrid_candidate
+				}
+			}
+		}
+	}
+	option = {
+		name = iskandaria.3a
+		add_country_modifier = {
+			name = alex_meritocratic_age
+			duration = 13688
+		}
+	}
+}
+
+country_event = { #An Old Family Returns in Tripoli
+	id = iskandaria.4
+	title = iskandaria.4t
+	desc = iskandaria.4d
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = goodbye_elsherif
+					NOT = {
+						OR = {
+							dynasty = "Sherifid"
+							dynasty = "Sa'idi"
+						}
+					}
+				}
+				set_country_flag = eclipsed_elsherif
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_elsherif
+					dynasty = "Sherifid"
+				}
+				set_country_flag = eclipsed_saidis
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_elsherif
+					dynasty = "Sa'idi"
+				}
+				set_country_flag = eclipsed_elsherif
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_saidi
+					NOT = {
+						OR = {
+							dynasty = "Munaqadhin"
+							dynasty = "Sa'idi"
+						}
+					}
+				}
+				set_country_flag = eclipsed_saidis
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_saidi
+					dynasty = "Sherifid"
+				}
+				set_country_flag = eclipsed_munaqaun
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_saidi
+					dynasty = "Sa'idi"
+				}
+				set_country_flag = eclipsed_saidis
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_munaqadun
+					NOT = {
+						OR = {
+							dynasty = "Sherifid"
+							dynasty = "Munaqadhin"
+						}
+					}
+				}
+				set_country_flag = eclipsed_saidis
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_munaqadun
+					dynasty = "Sherifid"
+				}
+				set_country_flag = eclipsed_munaqaun
+			}
+			if = {
+				limit = {
+					has_country_flag = goodbye_munaqadun
+					dynasty = "Sa'idi"
+				}
+				set_country_flag = eclipsed_saidis
+			}
+		}
+	}
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = iskandaria.3a
+		add_country_modifier = {
+			name = alex_meritocratic_age
+			duration = 9125
+		}
+	}
+}
+
+country_event = { #Christians of Seliah
+	id = iskandaria.5
+	title = iskandaria.5t
+	desc = iskandaria.5d
+	picture = ORTHODOX_eventPicture
+	is_triggered_only = yes
+	option = { #Guarantee the autonomy of their church.
+		name = iskandaria.5a
+		add_prestige = 15
+		4810 = {
+			cede_province = B12
+		}
+		create_subject = {
+			subject_type = tributary_state
+			subject = B12
+		}
+	}
+	option = { #Provide the church with limited autonomy.
+		name = iskandaria.5b
+		add_prestige = 5
+		4810 = {
+			add_province_modifier = {
+				name = seliah_christian_privileges
+				duration = -1
+			}
+		}
+	}
+	option = { #Time to remind them about the last prophet.
+		name = iskandaria.5c
+		add_prestige = 10
+		4810 = {
+			add_province_modifier = {
+				name = rebellious_christians
+				duration = -1
+			}
+		}
+		custom_tooltip = seliah_rebellious_tt
+	}
+}
+
+country_event = { #Dealing with Heresy
+	id = iskandaria.6
+	title = iskandaria.6t
+	desc = iskandaria.6d
+	picture = PIETY_eventPicture
+	is_triggered_only = yes
+	option = { #Allow other Islamic thinkers their due representation.
+		name = iskandaria.6a
+		add_country_modifier = {
+			modifier = alex_protecting_all_faithful
+			duration = 18250
+		}
+	}
+	option = { #Tighten on the crackdown against these heretical thinkers.
+		name = iskandaria.6b
+		add_country_modifier = {
+			modifier = alex_sunni_privilege
+			duration = 18250
+		}
+	}
+}
+
+country_event = { #Iskandaria Elections
+	id = iskandaria.7
+	title = iskandaria.7t
+	desc = {
+		trigger = { NOT = { has_ruler_flag = leader_has_been_pushed_out } }
+		desc = EVTDESC700
+	}
+	
+	desc = {
+		trigger = { has_ruler_flag = leader_has_been_pushed_out }
+		desc = elections.700.d
+	}
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = council_iskandaria_reform
+	}
+	immediate = {
+		hidden_effect = {
+			set_variable = {
+				which = num_alex_families
+				value = 0
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = eclipsed_munaqadun }
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_munaqadhin@ROOT
+					min_age = 20
+					max_age = 75
+					dynasty = "Munaqadhin"
+					culture = al_misr_arabic
+					adm = 1
+					dip = -1
+					mil = -1
+					max_random_adm = 4
+					max_random_dip = 2
+					max_random_mil = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = eclipsed_elsherif }
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_elsherif@ROOT
+					min_age = 20
+					max_age = 75
+					dynasty = "Sherifid"
+					culture = al_misr_arabic
+					adm = -1
+					dip = 1
+					mil = -1
+					max_random_adm = 2
+					max_random_dip = 4
+					max_random_mil = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = eclipsed_saidis }
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_saidis@ROOT
+					min_age = 20
+					max_age = 75
+					dynasty = "Sa'idi"
+					culture = al_misr_arabic
+					adm = -1
+					dip = -1
+					mil = 1
+					max_random_adm = 2
+					max_random_dip = 2
+					max_random_mil = 4
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = cairo_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_cairo@ROOT
+					min_age = 20
+					max_age = 75
+					culture = al_misr_arabic
+					adm = -1
+					dip = -1
+					mil = -1
+					max_random_adm = 3
+					max_random_dip = 3
+					max_random_mil = 3
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = alquds_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_alquds@ROOT
+					min_age = 30
+					max_age = 70
+					culture = palestinian
+					adm = -1
+					dip = -1
+					mil = 2
+					max_random_adm = 4
+					max_random_dip = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = mecca_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_mecca@ROOT
+					min_age = 50
+					max_age = 75
+					culture = hejazi_culture
+					adm = -1
+					dip = 3
+					mil = -1
+					max_random_adm = 4
+					max_random_mil = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = medina_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_medina@ROOT
+					min_age = 30
+					max_age = 60
+					culture = hejazi_culture
+					adm = -1
+					dip = 2
+					mil = -1
+					max_random_adm = 2
+					max_random_mil = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = husaynid_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_husaynid@ROOT
+					min_age = 30
+					max_age = 60
+					dynasty = "Husaynid"
+					culture = hejazi_culture
+					adm = 3
+					dip = -1
+					mil = -1
+					max_random_adm = 2
+					max_random_mil = 2
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = allmedina_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_allmedina@ROOT
+					min_age = 30
+					max_age = 60
+					culture = hejazi_culture
+					adm = -1
+					dip = -1
+					mil = -1
+					max_random_adm = 4
+					max_random_mil = 4
+					max_random_dip = 4
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = aglidanab_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_aglidanab@ROOT
+					min_age = 24
+					max_age = 48
+					culture = mutawasiti
+					adm = 1
+					dip = 3
+					mil = -1
+					max_random_adm = 2
+					max_random_mil = 2
+					max_random_dip = 4
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = muhallabid_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_muhallabid@ROOT
+					min_age = 45
+					max_age = 65
+					culture = bedouin_arabic
+					adm = 2
+					dip = 2
+					mil = 2
+					max_random_adm = 4
+					max_random_mil = 4
+					max_random_dip = 4
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = hafsid_candidate
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_hafsid@ROOT
+					min_age = 30
+					max_age = 40
+					culture = masmuden
+					adm = 1
+					dip = 1
+					mil = 1
+					max_random_adm = 3
+					max_random_mil = 3
+					max_random_dip = 3
+				}
+				change_variable = {
+					which = num_alex_families
+					value = 1
+				}
+			}
+			#Checking for mission
+			if = {
+				limit = {
+					check_variable = {
+						which = num_alex_families
+						value = 6
+					}
+				}
+				set_country_flag = had_6_alex_fams
+			}
+		}
+	}
+	option = {
+		name = iskandaria.7a
+		trigger = {
+			NOT = { has_country_flag = eclipsed_munaqadun }
+		}
+		set_ruler = lottery_candidate_munaqadhin@ROOT
+		add_ruler_modifier = {
+
+		}
+	}
+	option = {
+		name = iskandaria.7b
+		trigger = {
+			NOT = { has_country_flag = eclipsed_elsherif }
+		}
+		set_ruler = lottery_candidate_elsherif@ROOT
+	}
+	option = {
+		name = iskandaria.7c
+		trigger = {
+			NOT = { has_country_flag = eclipsed_saidis }
+		}
+		set_ruler = lottery_candidate_saidis@ROOT
+	}
+	option = {
+		name = iskandaria.7d
+		trigger = {
+			has_country_flag = cairo_candidate
+		}
+		set_ruler = lottery_candidate_cairo@ROOT
+	}
+	option = {
+		name = iskandaria.7e
+		trigger = {
+			has_country_flag = alquds_candidate
+		}
+		set_ruler = lottery_candidate_alquds@ROOT
+	}
+	option = {
+		name = iskandaria.7f
+		trigger = {
+			has_country_flag = mecca_candidate
+		}
+		set_ruler = lottery_candidate_mecca@ROOT
+	}
+	option = {
+		name = iskandaria.7g
+		trigger = {
+			has_country_flag = medina_candidate
+		}
+		set_ruler = lottery_candidate_medina@ROOT
+	}
+	option = {
+		name = iskandaria.7h
+		trigger = {
+			has_country_flag = husaynid_candidate
+		}
+		set_ruler = lottery_candidate_husaynid@ROOT
+	}
+	option = {
+		name = iskandaria.7g
+		trigger = {
+			has_country_flag = allmedina_candidate
+		}
+		set_ruler = lottery_candidate_allmedina@ROOT
+	}
+	option = { #Re-election
+		name = "EVTOPTA700"	# Current ruler stays
+		trigger = {
+			has_regency = no
+			NOT = { has_ruler_flag = leader_has_been_pushed_out }
+		}
+		ai_chance = { 
+			factor = 60
+			modifier = {
+				factor = 0
+				NOT = { republican_tradition = 25 }
+			}	
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 50 }
+			}				
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 75 }
+			}	
+			modifier = {
+				factor = 2.0
+				republican_tradition = 90
+			}		
+		}
+		custom_tooltip = remains_ruler
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+		if = {
+			limit = {
+				is_tribal = no 
+				government = republic
+				NOT = { republican_tradition = 20 }				
+				NOT = { has_reform = revolutionary_republic_reform }
+				has_dlc = "Res Publica"
+			}
+			add_government_reform = presidential_despot_reform	
+		}
+		else_if = {
+			limit = {
+				government = republic
+				NOT = { republican_tradition = 20 }	
+				has_reform = revolutionary_republic_reform
+			}
+			change_government = monarchy
+			add_government_reform = revolutionary_empire_reform
+		}
+		if = {
+			limit = {
+				is_tribal = no  
+				government = republic
+				NOT = { republican_tradition = 20 }
+				NOT = { has_dlc = "Res Publica" }
+			}
+			change_government = monarchy
+		}
+		add_scaled_republican_tradition = -10
+		random_list = {
+			10 = {
+				add_adm_power = 50
+			}
+			10 = {
+				add_dip_power = 50
+			}
+			10 = {
+				add_mil_power = 50
+			}
+		}
+	}
+}
+
+country_event = { #Council of Iskandaria
+	id = iskandaria.8
+	title = iskandaria.8t
+	desc = iskandaria.8d #The council argues who and how to lead. Who wins?
+	picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = Y08 }
+	option = { #Embrace the Faridri traditions of the Haladris and Abbasids.
+		name = iskandaria.8a
+		set_religious_school = {
+			group = muslim
+			school = hanafi_school
+		}
+		define_ruler = {
+			name = "Azmy"
+			dynasty = "Munaqadhin"
+			adm = 5
+			dip = 2
+			mil = 5
+			fixed = yes
+			age = 43
+		}
+		hidden_effect = {
+			set_country_flag = goodbye_elsherif
+		}
+	}
+	option = { #Embrace the Shafii traditions of our old Mamlukean overlords.
+		name = iskandaria.8b
+		set_religious_school = {
+			group = muslim
+			school = shafii_school
+		}
+		define_ruler = {
+			name = "Youssif"
+			dynasty = "Sherifid"
+			adm = 5
+			dip = 5
+			mil = 2
+			fixed = yes
+			age = 39
+		}
+		hidden_effect = {
+			set_country_flag = goodbye_saidi
+		}
+	}
+	option = { #Embrace the Maliki traditions of Arabia.
+		name = iskandaria.8c
+		set_religious_school = {
+			group = muslim
+			school = maliki_school
+		}
+		define_ruler = {
+			name = "Muhammad ibn Tumaini"
+			dynasty = "Sa'idi"
+			adm = 2
+			dip = 5
+			mil = 5
+			fixed = yes
+			age = 47
+		}
+		hidden_effect = {
+			set_country_flag = goodbye_munaqadun
+		}
+	}
+}

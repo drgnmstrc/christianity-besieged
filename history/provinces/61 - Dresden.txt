@@ -1,0 +1,23 @@
+#61 - Saxony
+
+owner = N21
+controller = N21
+add_core = N21
+culture = polobske
+religion = slavic
+capital = "Misno"
+trade_goods = iron
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 2
+is_city = yes
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

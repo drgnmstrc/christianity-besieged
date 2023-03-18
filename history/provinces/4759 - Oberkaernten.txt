@@ -1,0 +1,23 @@
+#4759 - Oberkärnten
+
+owner = G06
+controller = G06
+add_core = G06
+culture = lombard
+religion = germanic
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = iron 
+capital = "Villach" 
+is_city = yes
+hre = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = mutawasiti
+add_accepted_culture = isawiyen
+religion = ashabi
+technology_group = ottoman
+capital = 338
+
+1444.1.1 = {
+	monarch = {
+		name = "Julian"
+		dynasty = "Shayashrun"
+		culture = rumanus
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}

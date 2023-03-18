@@ -1,0 +1,19 @@
+#4361 - Central + East March (Roxburghshire+Berwickshire+Selkirkshire)
+
+owner = N27
+controller = N27
+add_core = N27
+culture = english
+religion = anglic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = iron
+base_manpower = 2
+capital = "Jedburgh"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

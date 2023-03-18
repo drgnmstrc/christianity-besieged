@@ -1,0 +1,25 @@
+#128 - Kärnten
+
+owner = Z21
+controller = Z21
+add_core = Z21
+add_core = U06
+culture = lombard
+religion = germanic
+add_core = G06
+base_tax = 4
+base_production = 5
+trade_goods = iron 
+base_manpower = 4
+capital = "Klagenfurt" 
+is_city = yes
+hre = no
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,22 @@
+# Tetouan
+
+owner = GRA
+controller = GRA
+culture = mutawasiti
+religion = ashabi
+capital = "Tetouan"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = GRA
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = saharan

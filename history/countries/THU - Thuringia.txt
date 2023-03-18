@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = thuringen
+religion = germanic
+technology_group = eastern
+capital = 63	# Erfurt
+elector = yes
+
+1444.11.11 = {
+	monarch = {
+		name = "Balthasar I"
+		dynasty = "von Wettin"
+		birth_date = 1426.12.21
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}

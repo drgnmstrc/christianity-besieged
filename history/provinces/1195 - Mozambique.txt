@@ -1,0 +1,22 @@
+#1195 - Mozambique
+
+owner = R33
+controller = R33
+add_core = R33
+add_core = ZAN
+culture = swahili
+religion = shiite
+capital = "Mozambique"
+is_city = yes
+base_manpower = 2
+trade_goods = ivory
+hre = no
+base_tax = 2 
+base_production = 2
+add_local_autonomy = 25
+discovered_by = east_african
+discovered_by = indian
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = central_african
+discovered_by = south_african

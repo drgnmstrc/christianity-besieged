@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = tribute_reform
+government_rank = 1
+primary_culture = polobske
+religion = rodoptr
+technology_group = western
+capital = 4748
+
+1444.11.11 = {
+	monarch = {
+		name = "Plezcin"
+		dynasty = "Tharagea"
+		birth_date = 1409.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

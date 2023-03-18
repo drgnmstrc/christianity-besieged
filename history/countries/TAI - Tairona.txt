@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = muisca
+religion = mesoamerican_religion
+technology_group = south_american
+capital = 828
+
+1444.11.11 = {
+	monarch = {
+		name = "Aguazuque"
+		dynasty = "Maiara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

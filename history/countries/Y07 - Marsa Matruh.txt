@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = almukhidi
+religion = sunni
+technology_group = east_african
+capital = 2325
+fixed_capital = 2325
+add_army_professionalism = 0.1
+religious_school = hanafi_school
+government_rank = 1
+
+1438.6.8 = {
+	monarch = {
+		name = "Malik"
+		birth_date = 1411.1.1
+		dynasty = "Saliba"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

@@ -1,0 +1,72 @@
+namespace = dacia_boogaloo
+province_event = {
+	id = dacia_boogaloo.0
+	hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			AND = {
+				culture = romanian
+				NOT = {
+					OR = {
+						religion_group = muslim
+						religion = tengri_pagan_reformed
+					}
+				}
+			}
+			AND = {
+				culture = transylvanian
+				NOT = {
+					OR = {
+						religion = slavic
+						religion = norse_pagan_reformed
+					}
+				}
+			}
+			AND = {
+				culture = dacian
+				NOT = {
+					OR = {
+						religion = hellenism
+						religion_group = christian
+					}
+				}
+			}
+		}
+		OR = {
+			religion = slavic
+			religion = hellenism
+			religion = tengri_pagan_reformed
+			religion = norse_pagan_reformed
+			religion_group = christian
+			religion_group = muslim
+		}
+	}
+	option = {
+		trigger = {
+			OR = {
+				religion = slavic
+				religion = norse_pagan_reformed
+			}
+		}
+		change_culture = transylvanian
+	}
+	option = {
+		trigger = {
+			OR = {
+				religion = hellenism
+				religion_group = christian
+			}
+		}
+		change_culture = dacian
+	}
+	option = {
+		trigger = {
+			OR = {
+				religion = tengri_pagan_reformed
+				religion_group = muslim
+			}
+		}
+		change_culture = romanian
+	}
+}

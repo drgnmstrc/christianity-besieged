@@ -1,0 +1,19 @@
+#1188 - Masapa
+
+owner = R31
+controller = R31
+add_core = R31
+add_core = R41
+culture = ning
+religion = qanumi
+add_core = ZIM
+capital = "Massapa"
+is_city = yes
+base_manpower = 3
+trade_goods = gold
+hre = no
+base_tax = 3
+base_production = 3
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

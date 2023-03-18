@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = khoemana
+religion = qanumi
+technology_group = south_african
+capital = 4992
+religious_school = hado_school
+government_rank = 1
+1380.1.1 = {
+	monarch = {
+		name = "Cora"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

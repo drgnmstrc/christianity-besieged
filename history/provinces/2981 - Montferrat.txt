@@ -1,0 +1,24 @@
+#2981 - Montferrat
+
+owner = H19
+controller = H19
+culture = swiss
+religion = ashabi
+add_core = H19
+hre = no
+base_tax = 6
+base_production = 7
+trade_goods = wine
+base_manpower = 3
+capital = "Montferrat"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

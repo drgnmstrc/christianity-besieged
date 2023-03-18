@@ -1,0 +1,23 @@
+#54 - Stade
+
+owner = N02
+controller = N02
+add_core = N02
+culture = heruli
+religion = norse_pagan_reformed
+capital = "Bremervörde"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 4
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

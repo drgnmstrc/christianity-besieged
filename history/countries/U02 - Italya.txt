@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = lombard_turk
+add_accepted_culture = lombard
+religion = ashabi
+technology_group = ottoman
+historical_rival = U01
+capital = 104
+national_focus = MIL
+add_army_professionalism = 0.1
+	
+1444.1.1 = {
+	monarch = {
+		name = "Ahmet"
+		dynasty = Osmanoglu
+		birth_date = 1432.3.30
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	#add_ruler_personality = lawgiver_personality
+	add_piety = -0.2
+}

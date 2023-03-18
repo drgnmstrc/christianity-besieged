@@ -1,0 +1,423 @@
+########################################
+# Events for Kongo
+#
+# written by Johan Andersson
+########################################
+
+namespace = flavor_kon
+normal_or_historical_nations = yes
+
+	
+# Portuguese Missionaries
+country_event = {
+	id = flavor_kon.1
+	title = flavor_kon.1.t
+	desc = flavor_kon.1.d
+	picture = POPE_PREACHING_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = KON
+		any_country = {
+			OR = {
+				religion = sunni
+				religion = shiite
+				religion = ashabi
+				religion = norse_pagan_reformed
+				religion = liritism
+			}
+			has_discovered = 4080
+			has_discovered = 4079
+		}
+		religion = shamanism
+
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					any_country = {
+						religion = norse_pagan_reformed
+						has_discovered = 4080
+						has_discovered = 4079
+					}
+				}
+				set_country_flag = norse_kongo
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						religion = liritism
+						has_discovered = 4080
+						has_discovered = 4079
+					}
+				}
+				set_country_flag = liritism_kongo
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						religion = ashabi
+						has_discovered = 4080
+						has_discovered = 4079
+					}
+				}
+				set_country_flag = alsababi_kongo
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						religion = shiite
+						has_discovered = 4080
+						has_discovered = 4079
+					}
+				}
+				set_country_flag = shiite_kongo
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						religion = sunni
+						has_discovered = 4080
+						has_discovered = 4079
+					}
+				}
+				set_country_flag = sunni_kongo
+			}
+		}
+	}
+	option = { 
+		name = flavor_kon.1.a			# Let Them Preach
+		ai_chance = { factor = 90 }
+		
+		add_stability = -1
+		add_prestige = -25
+		add_legitimacy = -25
+		if = {
+			limit = {
+				has_country_flag = norse_kongo
+			}
+			random_owned_province = {
+				limit = {
+					religion = shamanism
+				}
+				change_religion = norse_pagan_reformed
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = liritism_kongo
+			}
+			random_owned_province = {
+				limit = {
+					religion = shamanism
+				}
+				change_religion = liritism
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = alsababi_kongo
+			}
+			random_owned_province = {
+				limit = {
+					religion = shamanism
+				}
+				change_religion = ashabi
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = shiite_kongo
+			}
+			random_owned_province = {
+				limit = {
+					religion = shamanism
+				}
+				change_religion = ashabi
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = sunni_kongo
+			}
+			random_owned_province = {
+				limit = {
+					religion = shamanism
+				}
+				change_religion = sunni
+			}
+		}
+		set_country_flag = kongo_allows_missionaries
+		
+		every_country = {
+			limit = {
+				has_discovered = 4080
+				has_discovered = 4079
+				OR = {
+					religion = ashabi
+					religion = norse_pagan_reformed
+					religion = shiite
+					religion = sunni
+					religion = liritism
+				}
+			}
+			add_opinion = {
+				who = KON
+				modifier = missionaries_accepted
+			}
+			hidden_effect = {
+				country_event = { id = flavor_kon.2 days = 1 }
+			}
+		}
+	}
+	option = {
+		name = flavor_kon.1.b			# Drive off the missionaries!
+		ai_chance = { factor = 10 }
+		
+		add_stability_or_adm_power = yes
+		add_prestige = 10
+		
+		every_country = {
+			limit = {
+				has_discovered = 4080
+				has_discovered = 4079
+				OR = {
+					religion = ashabi
+					religion = norse_pagan_reformed
+					religion = shiite
+					religion = sunni
+					religion = liritism
+				}
+			}
+			add_opinion = {
+				who = KON
+				modifier = missionaries_rebuffed
+			}
+			hidden_effect = {
+				country_event = { id = flavor_kon.3 days = 1 }
+			}
+		}
+	}	
+}
+
+# Missionaries accepted
+country_event = {
+	id = flavor_kon.2
+	title = flavor_kon.2.t
+	desc = flavor_kon.2.d
+	picture = POPE_PREACHING_eventPicture
+
+	is_triggered_only = yes
+		
+	option = { # Another investment pays off.
+		name = flavor_kon.2.a
+		if = {
+			limit = {
+				religion = ashabi
+			}
+			add_papal_influence = 25
+		}
+		if = {
+			limit = {
+				NOT = { has_completed_all_reforms_trigger = yes }
+			}
+			add_reform_progress_small_effect = yes
+		}
+		reverse_add_opinion = {
+			who = KON
+			modifier = missionaries_accepted
+		}
+	}
+}
+
+# Missionaries rebuffed!
+country_event = {
+	id = flavor_kon.3
+	title = flavor_kon.3.t
+	desc = flavor_kon.3.d
+	picture = POPE_PREACHING_eventPicture
+
+	is_triggered_only = yes
+		
+	option = { # We shall wipe the dust.. on them.
+		name = flavor_kon.3.a
+		add_prestige = -5
+		reverse_add_opinion = {
+			who = KON
+			modifier = missionaries_rebuffed
+		}
+	}
+}
+
+
+# The King of Kongo Converts!
+country_event = {
+	id = flavor_kon.4
+	title = flavor_kon.4.t
+	desc = flavor_kon.4.d
+	picture = POPE_PREACHING_eventPicture
+	fire_only_once = yes
+
+
+	trigger = {
+		has_country_flag = kongo_allows_missionaries
+		religion = shamanism
+		is_female = no
+		
+		any_owned_province = {
+			NOT = { religion_group = african_pagan }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+
+		
+	option = { # Christianity will triumph in Kongo
+		name = flavor_kon.4.a
+		trigger = {
+			has_country_flag = liritism_kongo
+		}
+		ai_chance = { factor = 16 }
+		change_religion = liritism
+		if = {
+			limit = { is_tribal = yes }
+			change_government_to_monarchy = yes
+		}
+		add_stability = -3
+
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = liritism
+				}
+				country_event = { id = flavor_kon.5 days = 1 }
+			}		
+		}
+	}
+	option = { # Norse triumphs in Kongo
+		name = flavor_kon.4.c
+		trigger = {
+			has_country_flag = norse_kongo
+		}
+		ai_chance = { factor = 16 }
+		change_religion = norse_pagan_reformed
+		if = {
+			limit = { is_tribal = yes }
+			change_government_to_monarchy = yes
+		}
+		add_stability = -3
+
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = norse_pagan_reformed
+				}
+				country_event = { id = flavor_kon.5 days = 1 }
+			}
+		}		
+	}
+	option = { # Alsababi triumphs in Kongo
+		name = flavor_kon.4.e
+		trigger = {
+			has_country_flag = alsababi_kogo
+		}
+		ai_chance = { factor = 16 }
+		change_religion = ashabi
+		if = {
+			limit = { is_tribal = yes }
+			change_government_to_monarchy = yes
+		}
+		add_stability = -3
+
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { id = flavor_kon.5 days = 1 }
+			}
+		}		
+	}
+	option = { # Shia triumphs in Kongo
+		name = flavor_kon.4.f
+		trigger = {
+			has_country_flag = shiite_kogo
+		}
+		ai_chance = { factor = 16 }
+		change_religion = shiite
+		if = {
+			limit = { is_tribal = yes }
+			change_government_to_monarchy = yes
+		}
+		add_stability = -3
+
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = shiite
+				}
+				country_event = { id = flavor_kon.5 days = 1 }
+			}
+		}		
+	}
+	option = { # Sunni triumphs in Kongo
+		name = flavor_kon.4.g
+		trigger = {
+			has_country_flag = sunni_kogo
+		}
+		ai_chance = { factor = 16 }
+		change_religion = sunni
+		if = {
+			limit = { is_tribal = yes }
+			change_government_to_monarchy = yes
+		}
+		add_stability = -3
+
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = sunni
+				}
+				country_event = { id = flavor_kon.5 days = 1 }
+			}
+		}		
+	}
+	option = { # Kill the Ruler!
+		name =  flavor_kon.4.b
+		ai_chance = { factor = 4 }
+		kill_ruler = yes
+	}
+}
+
+
+
+# Conversion of the Kongo!
+country_event = {
+	id = flavor_kon.5
+	title = flavor_kon.5.t
+	desc = flavor_kon.5.d
+	picture = POPE_PREACHING_eventPicture
+	is_triggered_only = yes
+		
+	option = { # Another investment pays off.
+		name = flavor_kon.5.a
+		add_prestige = 25
+		if = {
+			limit = {
+				religion = ashabi
+			}
+			add_papal_influence = 25
+		}
+		else = {
+			add_stability_or_adm_power = yes
+		}
+	}
+}
+

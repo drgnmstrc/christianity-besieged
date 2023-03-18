@@ -1,0 +1,37 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = rodoptr
+primary_culture = polish
+capital = 257	# Warsaw
+
+
+# Mazovian Dukes# (in fact the dukes of Warsaw as Mazovia had more duchies)
+
+1429.12.8 = {
+	monarch = {
+		name = "Siemomysl III"
+		dynasty = "Mieclaw"
+		birth_date = 1421.1.1
+		dip = 2
+		adm = 3
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Bezprym"
+		monarch_name = "Bezprym II"
+		dynasty = "Mieclaw"
+		birth_date = 1448.1.1
+		death_date = 1503.10.28
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}

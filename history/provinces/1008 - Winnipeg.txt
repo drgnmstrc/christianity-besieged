@@ -1,0 +1,17 @@
+#1008 - Winnipeg
+
+culture = inupiat
+religion = ikniksugritism
+owner = Q01
+controller = Q01
+add_core = Q01
+is_city = yes
+capital = "Manitoba"
+trade_goods = fur
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+discovered_by = north_american
+extra_cost = 8
+center_of_trade = 1

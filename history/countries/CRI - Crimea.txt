@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = hungarian
+add_accepted_culture = astrakhani
+religion = manichaeism
+technology_group = nomad_group
+capital = 286
+
+1444.11.11 = {
+	monarch = {
+		name = "Jelek"
+		dynasty = Zoltánid
+		birth_date = 1419.2.23			
+		adm = 6
+		dip = 3
+		mil = 5
+	}
+}

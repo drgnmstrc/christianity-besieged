@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = hungarian
+religion = manichaeism
+technology_group = nomad_group
+capital = 1974
+
+1444.11.11 = {
+	monarch = {
+		name = "Béla"
+		dynasty = Zoltánid
+		birth_date = 1424.2.23			
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

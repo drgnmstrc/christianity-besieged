@@ -1,0 +1,24 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = xami
+religion = num_faith
+technology_group = central_african
+unlock_cult = mwari_cult
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+
+unit_type = south_african
+capital = 5005
+
+#Fictional Rulers of Karagwe
+
+1444.1.1 = {
+	monarch = {
+		name = "Aka"
+		dynasty = "Gobabebi"
+		birth_date = 1420.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

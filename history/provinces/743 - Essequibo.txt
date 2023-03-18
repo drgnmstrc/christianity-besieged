@@ -1,0 +1,15 @@
+#743 - Essequibo
+
+owner = CAB
+controller = CAB
+add_core = CAB
+is_city = yes
+culture = carib
+discovered_by = south_american
+religion = mesoamerican_religion
+capital = "Essequibo"
+trade_goods = sugar
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1

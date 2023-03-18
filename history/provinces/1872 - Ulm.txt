@@ -1,0 +1,21 @@
+# 1872 - Ulm
+owner = ULM
+controller = ULM
+add_core = ULM
+culture = ostrogothic
+religion = germanic
+base_tax = 7 
+base_production = 7
+trade_goods = cloth	#fustians
+base_manpower = 5
+capital = "Zuostenhüs"
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 2

@@ -1,0 +1,22 @@
+#1934 - Lucania
+
+owner = H20
+controller = H20
+culture = graeci 
+religion = ashabi 
+hre = no 
+base_tax = 2 
+base_production = 2
+trade_goods = livestock
+base_manpower = 1
+capital = "Potenza"
+is_city = yes 
+#estate = estate_nobles
+add_core = H20
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,19 @@
+#Romsdal
+
+add_core = N05
+owner = N05
+controller = N05
+culture = norwegian
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+is_city = yes
+capital = "Molde"
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

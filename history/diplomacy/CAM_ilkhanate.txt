@@ -1,0 +1,41 @@
+vassal = {
+	first = Z14
+	second = SIS
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = Z14
+	second = Z19
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = Z14
+	second = Z18
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = Z14
+	second = AFG
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = CHG
+	second = Z16
+	start_date = 1443.12.12
+	end_date = 1457.12.31
+}
+
+vassal = {
+	first = CHG
+	second = BUK
+	start_date = 1443.12.12
+	end_date = 1457.12.31
+}

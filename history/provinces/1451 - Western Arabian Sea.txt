@@ -1,0 +1,5 @@
+
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = east_african

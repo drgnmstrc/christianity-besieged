@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = teochimen
+religion = atzintlicoatl
+technology_group = north_american
+unit_type = mesoamerican
+capital = 2476
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Tepin"
+		dynasty = "Cuicapa"
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}

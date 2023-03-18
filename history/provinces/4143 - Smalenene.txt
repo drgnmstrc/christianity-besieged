@@ -1,0 +1,20 @@
+#Smålenene, incl. Mossedal, Heggen og Fröland, Vemme, RARMestad, Idd og Marker, Onsöy, Verne Kloster, Moss, Tune og Åbygge and part of Nedre Romerike.
+ 
+owner = N29
+controller = N29
+add_core = N29
+culture = alfinge
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Moss"
+is_city = yes
+#estate = estate_church
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

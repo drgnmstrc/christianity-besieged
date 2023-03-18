@@ -1,0 +1,15 @@
+#490 - Barahonas
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+owner = M47
+controller = M47
+add_core = M47
+culture = arawak
+religion = animism
+capital = "Barahona"
+trade_goods = sugar 
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1

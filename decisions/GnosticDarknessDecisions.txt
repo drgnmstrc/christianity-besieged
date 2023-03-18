@@ -1,0 +1,613 @@
+country_decisions = {
+	pursue_darkness_education = {
+		potential = {
+			has_darkness = yes
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+			years_of_income = 0.5
+			NOT = { has_country_modifier = pursuing_darkness_education }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 10
+			}
+			add_years_of_income = -0.5
+			add_country_modifier = {
+				name = pursuing_darkness_education
+				duration = 730
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+			modifier = {
+				factor = 0
+				num_of_loans = 1
+			}
+		}
+		ai_importance = 400	
+		
+	}
+	bring_mani_bishops_to_bear = {
+		potential = {
+			OR = {
+				religion = manichaeism
+				religion = monjiao
+			}
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 4
+			}
+			num_of_missionaries = 2
+			NOT = { has_country_modifier = bring_the_bishops_to_bear }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 4
+			}
+			add_country_modifier = {
+				name = bring_the_bishops_to_bear
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					religious_unity = 0.99
+					num_of_missionaries = 3
+				}
+			}
+		}
+		ai_importance = 400	
+	}
+	train_warriors_against_darkness = {
+		potential = {
+			has_darkness = yes
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+			manpower_percentage = 0.2
+			NOT = { has_country_modifier = training_warriors_against_darkness }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 10
+			}
+			add_yearly_manpower = -1
+			add_country_modifier = {
+				name = training_warriors_against_darkness
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+			modifier = {
+				factor = 0
+				num_of_revolts = 1
+			}
+		}
+		ai_importance = 400
+	}
+	expose_heretical_worldviews = {
+		potential = {
+			religion = manichaeism
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+			innovativeness = 5
+			NOT = { has_country_modifier = exposing_heretical_worldviews }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 10
+			}
+			change_innovativeness = -5
+			add_country_modifier = {
+				name = exposing_heretical_worldviews
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_idea_group = innovativeness_ideas
+			}
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+		}
+		ai_importance = 400
+	}
+	rally_soldiers_to_ruler = {
+		potential = {
+			religion = mandaeism
+		}
+		allow = {
+			check_variable = {
+				which = mandaeism
+				value = 10
+			}
+			mil = 3
+			NOT = { has_country_modifier = rallying_soldiers_to_ruler }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 10
+			}
+			add_country_modifier = {
+				name = rallying_soldiers_to_ruler
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = no
+			}
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+		}
+		ai_importance = 400
+	}
+	denounce_dark_practices = {
+		potential = {
+			religion = noniustian
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+			dip = 3
+			NOT = { has_country_modifier = denouncing_dark_practices }
+			any_owned_province = {
+				NOT = { religion_group = ROOT }
+			}
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 10
+			}
+			add_country_modifier = {
+				name = denouncing_dark_practices
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_idea_group = humanist_ideas
+			}
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 10
+				} }
+			}
+		}
+		ai_importance = 400
+	}
+	cull_manis_enemies = {
+		potential = {
+			religion = monjiao
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 5
+			}
+			mil = 3
+			NOT = { has_country_modifier = culling_manis_enemies }
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 5
+			}
+			add_corruption = 1
+			add_adm_power = 10
+			add_dip_power = 10
+			add_mil_power = 10
+			add_country_modifier = {
+				name = culling_manis_enemies
+				duration = 360
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { current_income_balance = 1 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { check_variable = {
+					which = darkness
+					value = 5
+				} }
+			}
+		}
+		ai_importance = 400
+	}
+	manichaean_elected_administrator = {
+		potential = {
+			religion = manichaeism
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 5
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_country_modifier = elected_in_power }
+			}
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 5
+			}
+			add_adm_power = -25
+			add_ruler_modifier = {
+				name = elected_in_power
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	mandaean_elected_diplomat = {
+		potential = {
+			religion = mandaeism
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 5
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_country_modifier = elected_in_power }
+			}
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 5
+			}
+			add_dip_power = -25
+			add_ruler_modifier = {
+				name = elected_in_power
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	noniustian_elected_general = {
+		potential = {
+			religion = noniustian
+		}
+		allow = {
+			check_variable = {
+				which = darkness
+				value = 5
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_country_modifier = elected_in_power }
+			}
+		}
+		effect = {
+			subtract_variable = {
+				which = darkness
+				value = 5
+			}
+			add_mil_power = -25
+			add_ruler_modifier = {
+				name = elected_in_power
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	noniustian_administation = {
+		potential = {
+			religion = noniustian
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 85
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = policies_misaligned_darkness }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 15
+			}
+			add_adm_power = 100
+			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+	manichaean_diplomacy = {
+		potential = {
+			religion = manichaeism
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 85
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = policies_misaligned_darkness }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 15
+			}
+			add_dip_power = 100
+			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+	mandaean_militarism = {
+		potential = {
+			religion = mandaeism
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 85
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = policies_misaligned_darkness }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 15
+			}
+			add_mil_power = 100
+			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+	monjiao_punitive_administrators = {
+		potential = {
+			religion = monjiao
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 95
+				}
+			}
+			is_emperor = yes
+			imperial_mandate = 6
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = monjiao_adm }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 5
+			}
+			add_adm_power = 50
+			hidden_effect = { set_ruler_flag = monjiao_adm }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { imperial_mandate = 80 }
+			}
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+	monjiao_punitive_production = {
+		potential = {
+			religion = monjiao
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 95
+				}
+			}
+			is_emperor = yes
+			imperial_mandate = 6
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = monjiao_dip }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 5
+			}
+			add_dip_power = 50
+			hidden_effect = { set_ruler_flag = monjiao_dip }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { imperial_mandate = 80 }
+			}
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+	monjiao_punitive_military = {
+		potential = {
+			religion = monjiao
+		}
+		allow = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 95
+				}
+			}
+			is_emperor = yes
+			imperial_mandate = 6
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = monjiao_adm }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 5
+			}
+			add_mil_power = 50
+			hidden_effect = { set_ruler_flag = monjiao_mil }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { imperial_mandate = 80 }
+			}
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = darkness
+					value = 25
+				}
+			}
+		}
+		ai_importance = 400
+	}
+}

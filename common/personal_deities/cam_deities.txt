@@ -1,0 +1,776 @@
+jesus_of_nazareth = {
+	stability_cost_modifier = -0.1
+	global_unrest = -2
+	allow = { 
+		OR = {
+			AND = {
+				any_owned_province = {
+					culture_group = armaic
+				}
+				religion = manichaeism
+			}	
+			religion = liritism
+		}
+	}
+	sprite = 85
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+saint_michael = {
+	land_morale = 0.1
+	harsh_treatment_cost = -0.15
+	allow = { 
+		OR = {
+			religion = manichaeism	
+			religion = liritism
+		}
+	}
+	sprite = 86
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+			NOT = { tag = X07 }
+		}
+		modifier = {
+			factor = 2
+			tag = X07
+		}
+	}
+}
+lirit_lydda = {
+	global_missionary_strength = 0.02
+	tolerance_heathen = 1
+	allow = { 
+			religion = liritism
+	}
+	sprite = 87
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			religious_unity = 0.99
+		}
+	}
+}
+endovelicus = {
+	manpower_recovery_speed = 0.1
+	sailors_recovery_speed = 0.15
+	allow = { 
+			religion = liritism
+	}
+	sprite = 88
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+epona = {
+	cavalry_cost = -0.15
+	cavalry_power = 0.1
+	allow = { 
+			religion = liritism
+	}
+	sprite = 89
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+bandua = {
+	defensiveness = 0.1
+	shock_damage_received = -0.1
+	allow = { 
+			religion = liritism
+	}
+	sprite = 90
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+ohrmazd_bay = {
+	legitimacy = 0.5
+	republican_tradition = 0.25
+	horde_unity = 0.5
+	prestige = 1
+	allow = { 
+		OR = {
+			religion = manichaeism
+			religion = noniustian
+		}
+		NOT = { has_country_flag = reject_zoroastrianism }
+	}
+	sprite = 91
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 50
+				}
+			}
+		}
+	}
+}
+mithra = {
+	development_cost = -0.1
+	build_cost = -0.1
+	allow = { 
+		religion = manichaeism
+		NOT = { has_country_flag = reject_zoroastrianism }
+	}
+	sprite = 92
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+muhammad_deity = {
+	global_missionary_strength = 0.015
+	global_autonomy = -0.05
+	allow = { 
+		any_owned_province = {
+			OR = {
+				culture_group = turko_semitic
+				culture_group = rumi
+				culture = italian_turk
+			}
+		}
+		religion = manichaeism
+	}
+	sprite = 93
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+baptist_john = {
+	defensiveness = 0.1
+	diplomatic_reputation = 1
+	allow = { 
+			any_owned_province = {
+				OR = {
+					culture_group = armaic
+					religion = mandaeism
+					religion_group = christian
+				}
+			}
+			religion = manichaeism
+	}
+	sprite = 94
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+earth_mother = {
+	monthly_splendor = 1
+	production_efficiency = 0.1
+	allow = { 
+		any_owned_province = {
+			OR = {
+				culture_group = altaic
+				culture_group = tartar
+			}
+		}
+		religion = manichaeism
+	}
+	sprite = 95
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+atlas = {
+	prestige_decay = -0.01
+	idea_cost = -0.05
+	allow = { 
+			any_owned_province = {
+				culture_group = byzantine
+			}
+			religion = manichaeism
+	}
+	sprite = 96
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+ausrine_mani = {
+	heir_chance = 0.5
+	diplomatic_reputation = 1
+	allow = { 
+			any_owned_province = {
+				culture_group = baltic
+			}
+			religion = manichaeism
+	}
+	sprite = 97
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			has_heir = yes
+		}
+	}
+}
+sudenicy = {
+	yearly_absolutism = 0.1
+	core_creation = -0.1
+	allow = { 
+			any_owned_province = {
+				OR = {
+					culture_group = south_slavic
+					culture_group = west_slavic
+				}
+			}
+			religion = manichaeism
+	}
+	sprite = 98
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+ksitigharba = {
+	global_institution_spread = 0.1
+	prestige_decay = -0.01
+	allow = {
+		OR = {
+			religion = hinduism
+			AND = {
+				any_owned_province = {
+					OR = {
+						culture_group = western_aryan
+						culture_group = eastern_aryan
+						culture_group = dravidian
+						culture_group = hindusthani
+					}
+				}
+				religion = manichaeism
+			}
+		}
+	}
+	sprite = 99
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+shitan_wang = {
+	discipline = 0.025
+	defensiveness = 0.1
+	allow = { 
+			any_owned_province = {
+				culture_group = tibetan_group
+			}
+			religion = manichaeism
+	}
+	sprite = 100
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+personal_buddha = {
+	global_unrest = -2
+	diplomatic_reputation = 1
+	allow = {
+			religion = manichaeism
+	}
+	sprite = 101
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+rigong_shier_huanu = {
+	heir_chance = 0.5
+	diplomatic_reputation = 2
+	allow = { 
+			any_owned_province = {
+				culture_group = east_asian
+			}
+			religion = manichaeism
+	}
+	sprite = 102
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			stability = 1
+		}
+	}
+}
+
+cybele = {
+	heir_chance = 0.5
+	discipline = 0.05
+	allow = {
+		dominant_culture = phryges
+		uses_personal_deities = yes
+	}
+	sprite = 103
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			tag = H10
+		}
+	}
+}
+
+giahve = {
+	tolerance_heathen = 1
+	global_missionary_strength = 0.01
+	allow = {
+		religion = hellenism
+		any_owned_province = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion = jewish
+				religion = mandaeism
+			}
+		}
+	}
+	sprite = 104
+	ai_will_do = {
+		factor = 3
+	}
+}
+
+hypturma = {
+	innovativeness_gain = 0.5
+	loot_amount = 0.25
+	allow = {
+		religion = hellenism
+		accepted_culture = isaurian
+	}
+	sprite = 105
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+}
+
+atlas_hellenic = {
+	prestige_decay = -0.01
+	idea_cost = -0.05
+	allow = {
+		religion = hellenism
+	}
+	sprite = 96
+	ai_will_do = {
+	 	factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+akousmatikoi = {
+	global_tax_modifier = 0.175
+	ae_impact = -0.175
+	allow = {
+		religion = neopythagorean
+	}
+	sprite = 106
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_militarist
+		}
+	}
+}
+
+mathematikoi = {
+	advisor_cost = -0.15
+	technology_cost = -0.125
+	allow = {
+		religion = neopythagorean
+	}
+	sprite = 107
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 2
+			is_lacking_institutions = no
+		}
+	}
+}
+sol_deity = {
+        legitimacy = 1
+	devotion = 1.5
+	republican_tradition = 0.5
+        discipline = 0.05
+
+        allow = {
+		OR = {
+			religion = noniustian
+			religion = sol_invictus
+		}
+	}
+        sprite = 114
+
+        ai_will_do = {
+                factor = 5
+		modifier = {
+                        factor = 2
+                        personality = ai_militarist
+                }
+                modifier = {
+                        factor = 0.5
+                        personality = ai_capitalist
+                }
+        }
+}
+
+svarog_invictus = 
+{
+	discipline = 0.05
+	production_efficiency = 0.1
+	
+	allow = { religion = cisarstvo }
+	sprite = 23
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}		
+	}	
+}
+
+isis_deity = {
+	discipline = 0.05
+	development_cost = -0.05
+	allow = {
+		OR = {
+			religion = sol_invictus
+			religion = noniustian
+			religion = cisarstvo
+		}
+	}
+	sprite = 120
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+	}
+}
+mojmir_deity = {
+	land_morale = 0.1
+	ae_impact = -0.2
+	allow = {
+		religion = cisarstvo
+	}
+	sprite = 121
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+tamat = {
+        heir_chance = 0.5
+	land_morale = 0.1
+        allow = {
+		government = monarchy
+		has_roman_religion = yes
+		has_country_flag = tamat_deified
+	}
+        sprite = 115
+
+        ai_will_do = {
+                factor = 2
+                  modifier = {
+                          factor = 3
+                          personality = ai_diplomat
+                  }
+                  modifier = {
+                          factor = 0.5
+                          personality = ai_militarist
+                  }
+        }
+}
+tamat = {
+        global_heathen_missionary_strength = 0.025
+	land_morale = 0.1
+        allow = {
+		government = republic
+		has_roman_religion = yes
+		has_country_flag = tamat_deified
+	}
+        sprite = 115
+
+        ai_will_do = {
+                factor = 2
+                  modifier = {
+                          factor = 3
+                          personality = ai_diplomat
+                  }
+                  modifier = {
+                          factor = 0.5
+                          personality = ai_militarist
+                  }
+        }
+}
+minerva = {
+	defensiveness = 0.5
+	hostile_attrition = 2
+        allow = {
+		OR = {
+			religion = sol_invictus
+			religion = noniustian
+		}
+	}
+        sprite = 116
+
+        ai_will_do = {
+                factor = 2
+                modifier = {
+                        factor = 2
+                        personality = ai_capitalist
+                }
+                modifier = {
+                        factor = 2
+                        personality = ai_militarist
+                }
+                modifier = {
+                        factor = 2
+                        personality = ai_diplomat
+                }
+        }
+}
+albalupus = {
+	ship_durability = 0.15
+	sunk_ship_morale_hit_recieved = -0.15
+        allow = {
+		OR = {
+			religion = sol_invictus
+			religion = noniustian
+		}
+		has_country_flag = albalupus_dead
+	}
+        sprite = 117
+
+        ai_will_do = {
+                factor = 2
+                modifier = {
+                        factor = 2
+                        personality = ai_capitalist
+                }
+                modifier = {
+                        factor = 2
+                        personality = ai_militarist
+                }
+                modifier = {
+                        factor = 2
+                        personality = ai_diplomat
+                }
+        }
+}
+cernos = {
+	hostile_attrition = 2
+	leader_land_manuever = 1
+	allow = {
+		religion = walianitas
+		any_owned_province = {
+			OR = {
+				culture_group = french
+				culture = gaulish
+			}
+		}
+	}
+	sprite = 118
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 3
+			is_at_war = yes
+		}
+	}
+}
+augustus_deity = {
+	discipline = 0.05
+	ae_impact = -0.1
+	allow = {
+		OR = {
+			religion = walianitas
+			religion = sol_invictus
+			religion = noniustian
+		}
+	}
+	sprite = 119
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+	}
+}
+aurelian_deity = {
+	land_morale = 0.1
+	ae_impact = -0.2
+	allow = {
+		has_roman_religion = yes
+		has_country_flag = aurelian_deified
+	}
+	sprite = 121
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+	}
+}
+
+oromasdes_deity = {
+	technology_cost = -0.1
+	development_cost = -0.1
+	allow = {
+		has_roman_religion = yes
+		has_country_flag = oromasdes_deified
+	}
+	sprite = 122
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+	}
+}
+
+victorinus_deity = {
+	discipline = 0.075
+	legitimacy = 1
+	republican_tradition = 0.5
+	allow = {
+		has_roman_religion = yes
+		has_country_flag = victorinus_deified
+	}
+	sprite = 123
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+	}
+}
+
+axrotalus_deity = {
+	discipline = 0.05
+	land_morale = 0.1
+	allow = {
+		has_roman_religion = yes
+		has_country_flag = axrotalus_deified
+	}
+	sprite = 123
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}

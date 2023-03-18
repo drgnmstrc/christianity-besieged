@@ -1,0 +1,16 @@
+#1023 - Echizen
+
+owner = HTK
+controller = HTK
+culture = ainu
+religion = animism
+capital = "Takefu"
+trade_goods = paper
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = HTK
+add_core = ASA
+discovered_by = chinese

@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = khorasani
+add_accepted_culture = persian
+religion = manichaeism
+technology_group = near_east
+#capital = 446	# Herat
+capital = 2214 #Astarabad
+
+1444.1.1 = { #At start this represents Astarabad, with alegience to Babur bin Baysunkur.
+	#capital = 2214 #Astarabad
+	monarch = {
+		name = "Babur bin Baysunkur"
+		dynasty = "Timurid"
+		culture = uzbehk
+		adm = 3
+		dip = 5
+		mil = 5
+		culture = uzbehk
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+	heir = {
+		name = "Mahmud"
+		monarch_name = "Mahmud Shah"
+		dynasty = "Timurid"
+		birth_date = 1444.1.1
+		death_date = 1457.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

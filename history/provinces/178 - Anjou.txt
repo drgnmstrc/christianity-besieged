@@ -1,0 +1,20 @@
+# 178 Anjou - Principal cities: Angers
+
+owner = H01
+controller = H01 
+capital = "Annecas"
+is_city = yes
+culture = gaulish
+religion = procuveric
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+add_core = H01
+fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

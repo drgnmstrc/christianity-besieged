@@ -1,0 +1,14 @@
+owner = LUB
+controller = LUB
+add_core = LUB
+add_core = KLD
+culture = luba
+religion = bumuntu #Fetishism
+trade_goods = slaves
+capital = "Lega"
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 4
+discovered_by = central_african
+discovered_by = south_african

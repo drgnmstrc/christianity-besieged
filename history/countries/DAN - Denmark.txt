@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = jutes
+religion = catholic
+technology_group = western
+historical_friend = NOR
+capital = 4149 #Kolding

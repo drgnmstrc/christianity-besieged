@@ -1,0 +1,482 @@
+bayt_allah_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = U01
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	stabilize_bayt_allah = { #Localized as stabilize_bayt_allah_title and stabilize_bayt_allah_desc
+		icon = mission_high_income
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			stability = 2
+			manpower = 9.075
+			devotion = 100
+		}
+		effect = { #This is what you get after you finished your mission.
+			tuscany_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+			emilia_romagna_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+		}
+	}
+	bayt_unite_italian_turks = { #Localized as stabilize_bayt_allah_title and stabilize_bayt_allah_desc
+		icon = mission_dominate_home_trade_node
+		required_missions = { stabilize_bayt_allah }
+		position = 2
+		trigger = {
+			AND = {
+				emilia_romagna_area = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				liguria_area = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				tuscany_area = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			piedmont_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			calabria_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			naples_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			apulia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	bayt_helveti_and_alemanni_faithful = {
+		icon = mission_landsknecht_soldier
+		required_missions = { bayt_unite_italian_turks }
+		position = 3
+		trigger = {
+			AND = {
+				piedmont_area = {
+					type = all
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				lombardy_area = {
+					type = all
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				provence_area = {
+					type = all
+					is_core = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			venetia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			po_valley_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	bayt_end_venetian_dream = {
+		icon = mission_invade_island
+		required_missions = { bayt_helveti_and_alemanni_faithful }
+		position = 4
+		trigger = {
+			venetia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			po_valley_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			NOT = { exists = H28 }
+		}
+		effect = { 
+			add_country_modifier = {
+				name = suzerains_of_mina_wasina
+				duration = 7300
+			}
+			#country_event Question of Status: The Emperor Worshippers
+		}
+	}
+	unite_italya = {
+		icon = mission_italian_condottiere
+		required_missions = { bayt_end_venetian_dream }
+		position = 5
+		trigger = {
+			italy_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}	
+		}
+		effect = { 
+			add_country_modifier = { #core cost reduc & stab cost reduc
+				name = strong_rumi_legitimacy
+				duration = -1
+			}
+			bosnia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			croatia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			east_adriatic_coast_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			rascia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			serbia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			slavonia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			#country_event Question of Identity: The Italyan Shift - Allow Italyan shift, maintaining status quo, We are Rumi! Create Rumi culture in Rum
+		}
+	}
+	invite_balkan_turks_to_islam = {
+		icon = mission_eastern_european_city
+		required_missions = { unite_italya }
+		position = 6
+		trigger = {
+			bosnia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			croatia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			east_adriatic_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			rascia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			serbia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			slavonia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+		}
+		effect = { 
+			bulgaria_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			thrace_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			silistria_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			macedonia_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			morea_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			albania_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			northern_greece_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			#country_event Question of Identity: The Trakyali
+		}
+	}
+	bayt_andalucia_and_nabutia = {
+		icon = mission_mosque
+		required_missions = { invite_balkan_turks_to_islam }
+		position = 7
+		trigger = {
+			albania_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			macedonia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			northern_greece_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			morea_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = aegean_merchant
+				duration = 7300
+			}
+			#country_event Question of Identity: The Trakyali
+		}
+	}
+}
+bayt_allah_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = U01
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	bayt_call_kursikan_diyt = {
+		icon = mission_sea_battles
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			exists = COR
+			custom_trigger_tooltip = {
+				tooltip = raided_by_kursika
+				OR = {
+					has_country_flag = kursikan_raided_coasts
+					AND = {
+						NOT = { has_dlc = "Golden Century" }
+						is_claim = 1247
+					}
+				}
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			country_event = { id = alsababDebateEvent.2 }
+			add_prestige = 10
+			add_devotion = 5
+		}
+	}
+	bayt_subjugate_graeci = {
+		icon = mission_italian_condottiere
+		required_missions = { stabilize_bayt_allah }
+		position = 2
+		trigger = {
+			NOT = { exists = H20 }
+			owns_core_province = 2983
+			owns_core_province = 1934
+			owns_core_province = 2985
+		}
+		effect = { 
+			western_sicily_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			sicily_area = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	bayt_call_illerpoli_diyt = {
+		icon = mission_conquer_50_development
+		required_missions = { bayt_subjugate_graeci }
+		position = 3
+		trigger = {
+			Y12 = {
+				OR = {
+					exists = no
+					is_subject = yes
+					NOT = { religion = ashabi }
+				}
+			}
+			NOT = { owns = 4754 }
+			NOT = { Y12 = { overlord = { tag = ROOT } } }
+		}
+		effect = { 
+			add_piety = 5
+			add_prestige = 5
+			country_event = { id = alsababDebateEvent.10 }
+		}
+	}
+	subdue_tartary_threat = {
+		icon = mission_cossack_cavalry
+		required_missions = { invite_balkan_turks_to_islam }
+		position = 7
+		trigger = {
+			bulgaria_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			silistria_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+			thrace_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				religion = ashabi
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = balkanli_emissary
+				duration = 7300
+			}
+			#country_event Question of Identity: The Trakyali
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+#163 - Crete
+
+owner = CRT
+controller = CRT
+culture = avandaloi
+religion = payidotheos
+capital = "Heraklion"
+trade_goods = naval_supplies
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = CRT
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

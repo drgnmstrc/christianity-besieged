@@ -1,0 +1,245 @@
+namespace = romeTriumph
+
+province_event = {
+	id = romeTriumph.0
+	title = romeTriumph.t
+	desc = romeTriumph.d
+	picture = REVOLUTION_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		owner = { has_roman_religion = yes }
+		OR = {
+			province_id = 113 #Ferrara
+			province_id = 130 #Istria
+			province_id = 4754 #Illeropoli
+			province_id = 118 #Roma
+			province_id = 115 #Pisanus
+			province_id = 121 #Napoli
+			province_id = 125 #Palermo
+		}
+	}
+	option = {
+		name = romeTriumph.a
+		trigger = { province_id = 113 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_ferrara
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.b
+		trigger = { province_id = 130 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_istria
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.c
+		trigger = { province_id = 4754 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_illeropoli
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.e
+		trigger = { province_id = 118 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_roma
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.f
+		trigger = { province_id = 115 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_pisanus
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.g
+		trigger = { province_id = 121 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_napoli
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.h
+		trigger = { province_id = 125 }
+		owner = {
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_palermo
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 113
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_ferrara
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 130
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_istria
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 4754
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_illeropoli
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 118
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_roma
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 115
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_pisanus
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 121
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_napoli
+				duration = 365
+			}
+		}
+	}
+	option = {
+		name = romeTriumph.i
+		trigger = {
+			years_of_income = 1
+			province_id = 125
+		}
+		add_province_modifier = {
+			name = triumph_commemoration
+			duration = -1
+		}
+		owner = {
+			add_years_of_income = -1
+			add_prestige = 5
+			add_mil_power = 25
+			add_country_modifier = {
+				name = triumph_palermo
+				duration = 365
+			}
+		}
+	}
+}

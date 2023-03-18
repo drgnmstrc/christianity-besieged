@@ -1,0 +1,24 @@
+#41 - Königsberg
+
+owner = N01
+controller = N01
+add_core = N01
+capital = "Königsberg"
+culture = prussian
+religion = rodoptr
+trade_goods = gems #Amber
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+add_core = PRU
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

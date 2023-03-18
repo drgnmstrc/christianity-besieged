@@ -1,0 +1,20 @@
+# 4767 - Zweibrücken
+
+capital = "Zweibrücken"
+culture = swabian
+religion = germanic
+trade_goods = cloth
+owner = G29
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+controller = G29
+add_core = G29
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

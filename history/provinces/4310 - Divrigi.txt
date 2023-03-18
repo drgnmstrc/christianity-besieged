@@ -1,0 +1,22 @@
+#4308 - Divrigi
+
+owner = H05
+controller = H05
+culture = kappadokes
+religion = mandaeism
+capital = "Sebastia"
+trade_goods = wool
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = H05
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

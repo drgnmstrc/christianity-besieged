@@ -1,0 +1,19 @@
+# 4384 Rennes
+
+owner = H01
+controller = H01
+capital = "Rennes"
+is_city = yes
+culture = gaulish
+religion = sol_invictus
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+add_core = H01
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

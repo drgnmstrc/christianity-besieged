@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eirun
+primary_culture = irish
+religion = druidism
+capital = 4379	# Offaly
+
+1425.1.1 = {
+	monarch = {
+		name = "An Calbhach"
+		dynasty = "Ua Conchobhair Failghe"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

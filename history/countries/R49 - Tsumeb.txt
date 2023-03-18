@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = taa
+religion = qanumi
+technology_group = south_african
+capital = 5007
+religious_school = hado_school
+government_rank = 1
+1443.1.1 = {
+	monarch = {
+		name = "Saataa"
+		adm = 3
+		dip = 5
+		mil = 0
+	}
+}

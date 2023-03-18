@@ -1,0 +1,18 @@
+#1249 - Yola
+
+culture = mumuye
+religion = byeri
+capital = "Alkalawa"
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+owner = R90
+controller = R90
+add_core = R90
+trade_goods = grain
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan

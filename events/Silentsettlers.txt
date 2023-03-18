@@ -1,0 +1,138 @@
+namespace = silentsettlers
+ 
+province_event = {
+    id = silentsettlers.1
+    hidden = yes
+    trigger = {
+        owner = {
+	    has_country_flag = silence_settlers
+            OR = {
+                AND = {
+                    tag = A01
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = A02
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = A04
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = RUS
+                    NOT = {
+                        is_year = 1625
+                    }
+                }
+            }
+        }
+        NOT = {
+            culture = novgorodian
+            religion = norse_pagan_reformed
+        }
+    }
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+        modifier = {
+            factor = 0.1
+            has_construction = missionary
+        }
+    }
+    option = {
+        name = "ostsettlers_1_a"
+        random_list = {
+            33 = {
+                add_base_tax = 1
+            }
+            33 = {
+                add_base_production = 1
+            }
+            33 = {
+                add_base_manpower = 1
+            }
+        }
+        change_religion = norse_pagan_reformed
+    }
+}
+ 
+province_event = {
+    id = silentsettlers.2
+    hidden = yes
+    trigger = {
+        owner = {
+	    has_country_flag = silence_settlers
+            OR = {
+                AND = {
+                    tag = A01
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = A02
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = A04
+                    NOT = {
+                        is_year = 1575
+                    }
+                }
+                AND = {
+                    tag = RUS
+                    NOT = {
+                        is_year = 1625
+                    }
+                }
+            }
+        }
+        NOT = {
+            culture = novgorodian
+        }
+        religion = norse_pagan_reformed
+    }
+    mean_time_to_happen = {
+        months = 240
+        modifier = {
+            factor = 0.8
+            owner = { stability = 1 }
+        }
+        modifier = {
+            factor = 0.75
+            owner = { stability = 3 }
+        }
+    }
+    option = {
+        name = "ostsettlers_a"
+        random_list = {
+            33 = {
+                add_base_tax = 1
+               
+            }
+            33 = {
+                add_base_production = 1
+            }
+            33 = {
+                add_base_manpower = 1
+            }
+        }
+        change_culture = novgorodian
+    }
+}

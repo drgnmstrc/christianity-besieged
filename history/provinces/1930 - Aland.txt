@@ -1,0 +1,22 @@
+#Åland
+
+add_core = N06
+owner = N06
+controller = N06
+culture = swedish
+religion = norse_pagan_reformed
+capital = "Mariehamn"
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = fish
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+discovered_by = nomad_group

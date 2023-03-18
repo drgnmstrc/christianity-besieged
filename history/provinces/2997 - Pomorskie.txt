@@ -1,0 +1,22 @@
+#2997 - Pomorskie
+
+owner = N01
+controller = N01
+add_core = N01
+culture = prussian
+religion = rodoptr
+capital = "Tuchel"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 4
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+#estate = estate_burghers
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

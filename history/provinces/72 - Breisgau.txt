@@ -1,0 +1,20 @@
+#72 - Breisgau
+
+owner = PAL
+controller = PAL 
+culture = alemanni
+religion = germanic
+add_core = PAL
+base_tax = 2 
+base_production = 2
+trade_goods = glass 
+base_manpower = 1
+capital = "Freiburg" 
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

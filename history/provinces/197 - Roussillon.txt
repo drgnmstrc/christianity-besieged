@@ -1,0 +1,25 @@
+# 197 Roussillon - Principal cities: Perpignan
+
+owner = J07
+controller = J07
+add_core = J07
+culture = pruqoth
+religion = ashabi
+capital = "Perpignan"
+is_city = yes
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = slaves
+base_manpower = 4
+#estate = estate_nobles
+fort_15th = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

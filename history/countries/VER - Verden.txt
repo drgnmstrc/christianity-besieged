@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = saxon
+religion = germanic
+technology_group = western
+capital = 4771 #Verden
+fixed_capital = 4771

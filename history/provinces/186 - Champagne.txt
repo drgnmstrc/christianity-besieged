@@ -1,0 +1,24 @@
+# 186 Champagne - Principal cities: Reims
+
+owner = B08
+controller = B08
+capital = "Reims"
+is_city = yes
+culture = cosmopolitan_french
+religion = anglican
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = wine
+base_manpower = 4
+#estate = estate_church
+add_core = B08
+add_claim = PRO
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

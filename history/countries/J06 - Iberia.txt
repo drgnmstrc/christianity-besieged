@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+religion = liritism
+technology_group = western
+capital = 206	# Galicia

@@ -1,0 +1,17 @@
+# No previous file for Kuna
+
+culture = muisca
+owner = TAI
+controller = TAI
+add_core = TAI
+is_city = yes
+religion = mesoamerican_religion
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+capital = "Kuna"
+trade_goods = naval_supplies
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

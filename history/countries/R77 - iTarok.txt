@@ -1,0 +1,20 @@
+# No previous file for iTarok
+government = native
+add_government_reform = native_african_chiefdom_reform
+primary_culture = tarok
+religion = byeri #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5065
+government_rank = 1
+1440.1.1 = {
+	monarch = {
+		name = "Daushep"
+		dynasty = "Lar"
+		dip = 3
+		adm = 4
+		mil = 3
+	}
+}

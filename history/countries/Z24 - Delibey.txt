@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = hungarian
+religion = manichaeism
+technology_group = nomad_group
+capital = 282
+
+1444.11.11 = {
+	monarch = {
+		name = "Zsombor"
+		dynasty = Keves
+		birth_date = 1409.2.23			
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

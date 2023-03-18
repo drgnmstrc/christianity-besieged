@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = prussian
+religion = rodoptr
+capital = 1935	# Mitau
+
+1430.11.28 = {
+	monarch = {
+		name = "Purai"
+		dynasty = "Strangulis"
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}
+
+1439.11.25 = {
+	heir = {
+		name = "Vlandys"
+		monarch_name = "Vlandys"
+		dynasty = "Strangulis"
+		birth_date = 1439.11.25
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

@@ -1,0 +1,22 @@
+#2321 - Queseer
+
+owner = R56
+controller = R56
+add_core = R56
+culture = hebrew
+religion = hussite
+add_permanent_claim = Y05
+capital = "Kisrh"
+is_city = yes
+base_manpower = 2
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 2
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = indian
+discovered_by = east_african
+discovered_by = saharan

@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = tionontati
+religion = totemism
+technology_group = north_american
+capital = 2671
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Okwaho"
+		dnyasty = "Dawah"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}

@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+mercantilism = 0.1
+technology_group = western
+primary_culture = gaulish
+religion = anglican
+capital = 177
+
+government_rank = 1

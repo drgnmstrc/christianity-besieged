@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = toubou
+religion = imohag
+technology_group = saharan
+capital = 2474
+
+1444.1.1 = {
+	monarch = {
+		name = "Komo"
+		dynasty = "Dazragra"
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+}

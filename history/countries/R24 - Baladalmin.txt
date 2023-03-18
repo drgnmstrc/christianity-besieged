@@ -1,0 +1,15 @@
+government = republic
+add_government_reform = mudarian_slavers
+primary_culture = banu
+religion = mudarian
+technology_group = sub_saharan
+capital = 1097
+unit_type = muslim
+1442.1.1 = {
+	monarch = {
+		name = "Sabih"
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+}

@@ -1,0 +1,27 @@
+# 4750 - Krujë, Tirana, central Albania
+
+owner = Y20
+controller = Y20
+add_core = Y20
+culture = fayunlit
+religion = ashabi
+capital = "Krujë"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+fort_15th = yes # Krujë Castle
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

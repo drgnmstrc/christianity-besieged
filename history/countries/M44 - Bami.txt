@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = arawak
+religion = animism
+technology_group = mesoamerican
+capital = 4654
+government_rank = 1
+1431.1.1 = {
+	monarch = {
+		name = "Cacimauca"
+		dynasty = "Bami"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}
+

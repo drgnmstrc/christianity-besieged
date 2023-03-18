@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = kven
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 5
+
+1440.4.9 = {
+	monarch = {
+		name = "Jenna"
+		dynasty = "Sember"
+		birth_date = 1425.2.26
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}

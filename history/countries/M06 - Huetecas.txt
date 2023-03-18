@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = hutec
+religion = atzintlicoatl
+technology_group = north_american
+unit_type = mesoamerican
+capital = 888
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Tlapaxaca"
+		dynasty = "Zitaxis"
+		adm = 6
+		dip = 5
+		mil = 1
+	}
+}

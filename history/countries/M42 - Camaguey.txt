@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = arawak
+religion = animism
+technology_group = mesoamerican
+capital = 2656
+government_rank = 1
+1431.1.1 = {
+	monarch = {
+		name = "Ulciamos"
+		dynasty = "Camaguey"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}
+

@@ -1,0 +1,69 @@
+graphical_culture = africangfx
+
+color = { 219 214 23 } 
+
+historical_idea_groups = {
+	innovativeness_ideas
+	quality_ideas
+	exploration_ideas
+	expansion_ideas
+	religious_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+}
+
+historical_units = {
+	african_clubmen
+	bantu_tribal_warfare
+	bantu_plains_warfare
+	bantu_gunpowder_warfare
+	westernized_bantu
+	african_western_franchise_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_hussar
+	african_dragoon	
+}
+
+monarch_names = {
+	"Sekgoma #2" = 40
+	"Dzahi #2" = 40
+	"Munjuku #1" = 40
+	"Tjamuaha #0" = 40
+	"Maharero #0" = 40
+	"N!xau #0" = 20
+	"Kxao #1" = 20
+	"|Gao #0" = 20
+	"Ts'kx'aje #0" = 20
+	"O'ai #0" = 20
+	"||Ona #0" = 20
+	"|Nule #0" = 20
+	"!Um #0" = 20
+	"|Guma #0" = 20
+	"Si'i #0" = 20
+	"Tam #0" = 20
+	"Ts'kx'aje #0" = 0
+	"Kxan|a #0" = 0
+	"N!om #0" = 0
+	"Dcig!u #0" = 0
+	"!'U||ari #0" = 0
+	"|Xuni #0" = 0
+	
+	"Behati #0" = -1
+	"G|qhee #0" = -1
+	"Te'e #0" = -1
+	"|Q'an #0" = -1
+	"Tuu #0" = -1
+	"||'An #0" = -1
+	"!Qhan #0" = -1
+}
+
+leader_names = {
+"Kxan|a" "N!om" "Dcig!u" "!'U||ari" "|Xuni" "|Au||'ai-si" "N|ai!'hoa" "Uhen!ama" "N||o'oro" "!Hun|ai" "Tse'awasi" "!Gubi" "Tobee" "Oom" "Sankx'ai" "|Oa|an-s" "||NaTana-s" "||Khae-bKxuri" "Hai-s!noma-b" "|Gais" "Ao-b" "Mi" "|Aob" "Sikhum" "Nee|gui-" "Sekgoma" "Munjuku" "Tjamuaha" "Maharero" "N!xau" "Kxao" "|Gao" "Ts'kx'aje" "O'ai" "||Ona" "|Nule" "!Um" "|Guma" "Si'i" "Tam"
+}
+
+ship_names = {
+	Kurudi!rab Qanum!rab Qhaan!rab Mjim!rab Dzahi!rab
+}

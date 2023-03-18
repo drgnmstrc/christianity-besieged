@@ -1,0 +1,23 @@
+#141 - Serbia
+
+owner = X07
+controller = X07
+add_core = X07
+add_core = U16
+culture = lyrsci
+religion = manichaeism
+capital = "Smederevo"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

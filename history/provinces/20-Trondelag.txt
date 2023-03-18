@@ -1,0 +1,23 @@
+#Tröndelag, incl. Trondheim, Frosta, Röros, Steinviksholm
+
+add_core = N05
+owner = N05
+controller = N05
+culture = norwegian
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Trondheim"
+#estate = estate_church
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+fort_15th = yes
+extra_cost = 8
+center_of_trade = 1

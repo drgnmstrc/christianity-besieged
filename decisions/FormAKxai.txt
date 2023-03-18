@@ -1,0 +1,496 @@
+country_decisions = {
+
+	kxai_nation = {
+		major = yes
+		potential = {
+			NOT = {
+				has_reform = kxai_reform
+				has_reform = kaikxai_reform
+			}
+			religion = qanumi
+			NOT = { has_country_flag = formed_kxai }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1872
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				has_reform = kxai_reform
+				has_reform = kaikxai_reform
+			}
+			religion = qanumi
+			num_of_cities = 12
+		}
+		effect = {
+			if = {
+				limit = {
+					dynasty = "Herero"
+				}
+				override_country_name = HERERO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Namaqua"
+				}
+				override_country_name = NAMAQUA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Guma"
+				}
+				override_country_name = GUMA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|A'na!um"
+				}
+				override_country_name = ANAUM_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Kx'umOnoo"
+				}
+				override_country_name = KXUMONOO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!'Amts'kx'aje"
+				}
+				override_country_name = AMTSKXAJE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Saa!ga'no"
+				}
+				override_country_name = SAAGANO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ts'kx'ani!nule"
+				}
+				override_country_name = TSKXANINULE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "G!qhua|nuu"
+				}
+				override_country_name = GQHUANUU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Aag||xuu|Nan"
+				}
+				override_country_name = AAGXUUNAN_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Qhaa|nan"
+				}
+				override_country_name = QHAANAN_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Naa||Qhaa"
+				}
+				override_country_name = NAAQHAA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Toma"
+				}
+				override_country_name = TOMA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Sankx'ai"
+				}
+				override_country_name = SANKXAI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Nu"
+					culture_group = taa-kwi
+				}
+				override_country_name = NU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|A'ug!a"
+				}
+				override_country_name = AUGA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "N|un!om"
+				}
+				override_country_name = NUNOM_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Aun!ama"
+				}
+				override_country_name = AUNAMA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Aun!u'ubu"
+				}
+				override_country_name = AUNUUBU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ts'ama!kui"
+				}
+				override_country_name = TSAMAKUI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "N!om||ari"
+				}
+				override_country_name = NOMARI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ko!'ha"
+				}
+				override_country_name = KOHA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "G|ai!ai"
+				}
+				override_country_name = GAIAI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Hun|ai"
+				}
+				override_country_name = HUNAI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Da'adhari"
+				}
+				override_country_name = DAADHARI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ezan"
+				}
+				override_country_name = EZAN_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "G!aada'a"
+				}
+				override_country_name = GAADAA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Hai'g!u"
+				}
+				override_country_name = HAIGU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "N||o'oron|o"
+				}
+				override_country_name = NORONO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ezan"
+				}
+				override_country_name = EZAN_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Huni|gamiro-b"
+				}
+				override_country_name = HUNIGAMIROB_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Nutsu-xu-b"
+				}
+				override_country_name = NUTSUXU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Guuneedao-b"
+				}
+				override_country_name = GUUNEEDAO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Kai|ae-b"
+				}
+				override_country_name = KAIAE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Amdao-b"
+				}
+				override_country_name = AMDAO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Awa|gae-s"
+				}
+				override_country_name = AWAGAE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Nu|ui-b"
+				}
+				override_country_name = NUUI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Ui|o|oo"
+				}
+				override_country_name = UIOOO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Tcori"
+				}
+				override_country_name = TCORI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Kru!er"
+				}
+				override_country_name = KRUER_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Qassim"
+				}
+				override_country_name = QASSIM_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Festus"
+				}
+				override_country_name = FESTUS_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Nu"
+					NOT = { culture_group = taa-kwi }
+				}
+				override_country_name = 1NU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Nee|khao-khoen"
+				}
+				override_country_name = NEEKHAOKHOEN_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "|Nanu-bTsu-xu-b"
+				}
+				override_country_name = NANUBTSUXU_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Mwale"
+				}
+				override_country_name = MWALE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Phiri"
+				}
+				override_country_name = PHIRI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Mbewe"
+				}
+				override_country_name = MBEWE_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Karonga"
+				}
+				override_country_name = KARONGA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Ayao"
+				}
+				override_country_name = AYAO_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Banda"
+				}
+				override_country_name = BANDA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Chewa"
+				}
+				override_country_name = CHEWA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Undi"
+				}
+				override_country_name = UNDI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Luhanga"
+				}
+				override_country_name = LUHANGA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Kachali"
+				}
+				override_country_name = KACHALI_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Mwafulirwa"
+				}
+				override_country_name = MWAFULIRWA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "!Nueg|qhua"
+				}
+				override_country_name = NUEGQHUA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Mtika"
+				}
+				override_country_name = MTIKA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Nyanjagha"
+				}
+				override_country_name = NYANJAGHA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Chiluba"
+				}
+				override_country_name = CHILUBA_KXAI
+			}
+			if = {
+				limit = {
+					dynasty = "Danag|abu"
+				}
+				override_country_name = DANAGABU_KXAI
+			}
+			set_government_and_rank = {
+				government = monarchy
+				rank = 2
+			}
+			add_government_reform = kxai_reform
+			capital_scope = {
+				region = {
+					limit = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+			add_claim = ROOT
+			}
+			add_prestige = 25
+			set_country_flag = formed_kxai
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	kaikxai_nation = {
+		major = yes
+		potential = {
+			NOT = { has_reform = kaikxai_reform }
+			has_reform = kxai_reform
+			religion = qanumi
+			NOT = { has_country_flag = formed_kaikxai }
+			NOT = { exists = R17 }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = saadzahi_region
+				region = namibia_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = R17 }
+			saadzahi_region = {
+				type = all
+				owned_by = ROOT
+			}
+			namibia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			south_africa_region = {
+				type = all
+				owned_by = ROOT
+			}
+			religion = qanumi
+		}
+		effect = {
+			change_tag = R17
+			remove_government_reform = kxai_reform
+			set_government_rank = 3
+			add_government_reform = kaikxai_reform
+			africa = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = R17
+			}
+			add_prestige = 25
+			set_country_flag = formed_kaikxai
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

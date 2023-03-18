@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = mudarian_slavers
+government_rank = 1
+technology_group = central_african
+unit_type = sub_saharan
+religion = mudarian
+primary_culture = kongolese
+capital = 1166	# Loango
+
+1444.1.1 = {
+	monarch = {
+		name = "Abul-Bicullu"
+		dip = 2
+		adm = 3
+		mil = 3
+	}
+}

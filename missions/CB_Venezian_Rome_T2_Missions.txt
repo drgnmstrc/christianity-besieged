@@ -1,0 +1,340 @@
+rome_pagan_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+			tag = H25
+		}
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			has_country_flag = ven_rom_king_missions
+			has_country_flag = rome_fed_missions
+			tag = H25
+		}
+		has_roman_religion = yes
+	}
+	has_country_shield = yes
+
+	roman_temple_in_rome = {
+		icon = mission_hands_praying
+		position = 10
+		required_missions = { }
+		trigger = {
+			118 = { country_or_non_sovereign_subject_holds = ROOT }
+			if = {
+				limit = {
+					religion = noniustian	
+				}
+				OR = {
+					118 = { religion = noniustian }
+					118 = { has_roman_religion = yes }
+				}
+			}
+			else = {
+				118 = { has_roman_religion = yes }
+			}
+			118 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = new_deity_event_tt
+			hidden_effect = {
+				118 = { province_event = { id = venetianEvents.3 } }
+			}
+		}
+	}
+	roman_palarma_temple = {
+		icon = mission_hands_praying
+		position = 12
+		required_missions = { }
+		trigger = {
+			125 = { country_or_non_sovereign_subject_holds = ROOT }
+			if = {
+				limit = {
+					religion = noniustian	
+				}
+				OR = {
+					125 = { religion = noniustian }
+					125 = { has_roman_religion = yes }
+				}
+			}
+			else = {
+				125 = { has_roman_religion = yes }
+			}
+			125 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = new_deity_event_tt
+			hidden_effect = { 125 = { province_event = { id = venetianEvents.3 } } }
+		}
+	}
+}
+
+rome_king_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_rom_king_missions
+	}
+	has_country_shield = yes
+
+	ven_rome_redistribute_land = {
+		icon = mission_cannons_firing
+		required_missions = { ven_rome_italian_affairs }
+		position = 10
+		trigger = {
+			adm_power = 50
+			stability = 1
+		}
+		effect = {
+			add_adm_power = -50
+			118 = {
+				change_culture = ROOT
+				change_religion = ROOT
+			}
+			every_owned_province = {
+				limit = {
+					culture = italian_turk
+				}
+				add_province_modifier = {
+					name = ven_rom_new_aristocracy
+					duration = 9125
+				}
+			}
+		}
+	}
+
+	ven_rome_industria = {
+		icon = mission_cannons_firing
+		required_missions = { ven_rome_redistribute_land }
+		position = 11
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 12
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+		}
+		effect = {
+			add_adm_power = 50
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+				add_province_modifier = {
+					name = ven_rom_industrial_boom
+					duration = 3650
+				}
+			}
+		}
+	}
+	ven_rome_italian_luxuries = {
+		icon = mission_cannons_firing
+		required_missions = { ven_rome_industria}
+		position = 12
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 12
+				has_building = manufactory
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_country_modifier = {
+					name = ven_rom_wave_luxuries
+					duration = 3650
+			}
+		}
+	}
+}
+
+rome_king_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_rom_king_missions
+	}
+	has_country_shield = yes
+
+	ven_rome_italian_affairs = {
+		icon = mission_empire
+		required_missions = { venice_conquer_rome }
+		position = 9
+		trigger = {
+			tag = H25
+		}
+		effect = {
+			if = {
+				limit = {
+					has_reform = privilegiis_venetia
+				}
+				country_event = { id = venetianEvents.6 }
+			}
+		}
+	}
+	ven_rome_uniting_peninsula = {
+		icon = mission_empire
+		required_missions = { ven_rome_italian_affairs }
+		position = 10
+		trigger = {
+			calabria_area = {
+				type = all
+				owned_by = ROOT
+			}
+			apulia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			naples_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_adm_power = 100
+			add_country_modifier = {
+				name = rome_peninsular_irredentism
+				duration = 3650
+			}
+		}
+	}
+	ven_rome_conquest_of_sicily = {
+		icon = mission_empire
+		required_missions = { ven_rome_uniting_peninsula }
+		position = 11
+		trigger = {
+			western_sicily_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sicily_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_stability_or_adm_power = yes
+		}
+	}
+	ven_rome_grain_subsidies = {
+		icon = mission_empire
+		required_missions = { ven_rome_conquest_of_sicily }
+		position = 12
+		trigger = {
+			po_valley_area = {
+				type = all
+				num_of_times_improved_by_owner = 3
+			}
+			121 = { num_of_times_improved_by_owner = 3 }
+			4737 = { num_of_times_improved_by_owner = 3 }
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = po_valley_area
+						id = 121
+						id = 4737
+					}
+				}
+				add_province_modifier = {
+					name = ven_rom_grain_subsidies
+					duration = 14600
+				}
+			}
+		}
+	}
+}
+
+rome_king_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_rom_king_missions
+	}
+	has_country_shield = yes
+	
+	ven_rome_culture = {
+		icon = mission_empire
+		required_missions = { ven_rome_italian_affairs }
+		position = 10
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				culture = ROOT
+			}
+		}
+		effect = {
+			define_advisor = {
+				type = philosopher
+				skill = 2
+				discount = yes
+			}
+		}
+	}
+	ven_rome_anizing_italy = {
+		icon = mission_empire
+		required_missions = { ven_rome_culture }
+		position = 11
+		trigger = {
+			italy_region = {
+				type = all
+				culture_group = italo_gallic
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ven_rom_old_italia_triumphant
+				duration = -1
+			}
+		}
+	}
+	ven_rome_glory = {
+		icon = mission_empire
+		required_missions = { ven_rome_anizing_italy }
+		position = 12
+		trigger = {
+			prestige = 100
+		}
+		effect = {
+			add_country_modifier = {
+				name = ven_rom_the_glorious_kingdom
+				duration = 9125
+			}
+		}
+	}
+}

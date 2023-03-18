@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = ofo
+religion = atzintlicoatl
+technology_group = north_american
+capital = 2524
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Tizoc"
+		dynasty = "Deto"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

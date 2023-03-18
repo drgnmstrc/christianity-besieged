@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = aleutian
+religion = ikniksugritism
+technology_group = north_american
+capital = 2485
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Akna"
+		dynasty = "Waska"
+		female = yes
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+}

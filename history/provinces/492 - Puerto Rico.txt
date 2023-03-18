@@ -1,0 +1,17 @@
+#492 - Puerto Rico
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+owner = M48
+controller = M48
+add_core = M48
+culture = arawak
+religion = animism
+capital = "Boriko"
+trade_goods = sugar 
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+extra_cost = 8
+center_of_trade = 1

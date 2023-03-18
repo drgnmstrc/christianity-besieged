@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = sogdian
+religion = manichaeism
+technology_group = near_east
+capital = 442 #Bukhara
+government_rank = 1
+
+1444.1.1 = { 
+	monarch = { 
+		name = "Marid"
+		dynasty = "Shakbanid"
+		dip = 3
+		adm = 3
+		mil = 6
+	}
+} 

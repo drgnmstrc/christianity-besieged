@@ -1,0 +1,2748 @@
+namespace = alsababiPrimer
+country_event = {
+	id = alsababiPrimer.1
+	title = alsababiPrimer.1.t
+	desc = alsababiPrimer.1.d
+	hidden = yes
+	trigger = {
+		religion = ashabi
+		is_month = 4
+		NOT = { is_month = 5 }
+		NOT = { has_ruler_modifier = the_alsababi_debates }
+		NOT = {
+			OR = {
+				has_ruler_modifier = theologically_astute_alsababi
+				has_ruler_modifier = theologically_ignorant_alsababi
+				has_ruler_modifier = studying_alsababi_theology
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			add_ruler_modifier = {
+				name = the_alsababi_debates
+				duration = 50
+				hidden = yes
+			}
+		}
+	}
+	option = {
+		name = alsababiPrimer.1a
+		trigger = {
+			dip = 4
+		}
+		random_list = {
+			87 = {
+			}
+			10 = {
+				country_event = {
+					id = alsababDebateEvent.0
+				}
+			}
+			3 = {
+				country_event = {
+					id = alsababDebateEvent.1
+				}
+			}
+		}
+	}
+	option = {
+		name = alsababiPrimer.1b
+		trigger = {
+			dip = 2
+			NOT = { dip = 4 }
+		}
+		random_list = {
+			90 = {
+			}
+			5 = {
+				country_event = {
+					id = alsababDebateEvent.0
+				}
+			}
+			5 = {
+				country_event = {
+					id = alsababDebateEvent.1
+				}
+			}
+		}
+	}
+	option = {
+		name = alsababiPrimer.1c
+		trigger = {
+			NOT = { dip = 2 }
+		}
+		random_list = {
+			87 = {
+			}
+			3 = {
+				country_event = {
+					id = alsababDebateEvent.0
+				}
+			}
+			10 = {
+				country_event = {
+					id = alsababDebateEvent.1
+				}
+			}
+		}
+	}
+}
+namespace = alsababDebateEvent
+country_event = {
+	id = alsababDebateEvent.0
+	title = "alsababDebateEvent_0_title"
+	desc = "alsababDebateEvent_0_desc"
+	picture = WESTERNISATION_eventPicture
+	trigger = { religion = ashabi }
+	is_triggered_only = yes
+	option = {
+		name = "alsababDebateEvent_0a"
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 10
+		}
+		add_ruler_modifier = {
+			name = theologically_astute_alsababi
+			duration = 730
+		}
+	}
+}
+country_event = {
+	id = alsababDebateEvent.1
+	title = "alsababDebateEvent_1_title"
+	desc = "alsababDebateEvent_1_desc"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = { religion = ashabi }
+	is_triggered_only = yes
+	option = {
+		name = "alsababDebateEvent_1a"
+		add_dip_power = -25
+		add_ruler_modifier = {
+			name = studying_alsababi_theology
+			duration = 365
+		}
+	}
+	option = {
+		name = "alsababDebateEvent_1b"
+		add_dip_power = -25
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		add_ruler_modifier = {
+			name = theologically_ignorant_alsababi
+			duration = -1
+		}
+	}
+}
+country_event = { #Preparing the Kursikan Diyt
+	id = alsababDebateEvent.2
+	title = "alsababDebateEvent.2t"
+	desc = "alsababDebateEvent.2d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		tag = U01
+	}
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #We must directly take control over the situation in Kursika.
+		name = "alsababDebateEvent.2a"
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingKursikanDiytA
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.3
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = { #We should seek a covert solution with a powerful Captain in Kursika.
+		name = "alsababDebateEvent.2b"
+		add_piety = -5
+		custom_tooltip = preparingKursikanDiytB
+		country_event = {
+			id = alsababDebateEvent.4
+			days = 18
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				treasury = 300
+			}
+			modifier = {
+				factor = 5
+				curia_treasury_size = 500
+			}
+		}
+	}
+	option = { #Protect their autonomy - Allah has a destiny for them.
+		 name = "alsababDebateEvent.2c"
+		 add_piety = 5
+		 custom_tooltip = preparingKursikanDiytC
+		 create_guarantee = COR
+		 reverse_add_opinion = {
+			 who = COR
+			 modifier = protected_our_destiny
+		 }
+		ai_chance = {
+			factor = 2
+		}
+	}
+}
+country_event = { #The Kursikan Diyt
+	id = alsababDebateEvent.3
+	title = "alsababDebateEvent.3t"
+	desc = "alsababDebateEvent.3d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.3a"
+		trigger = {
+			NOT = { tag = COR }
+		}
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = 0
+						who = U01
+					}
+				}
+			}
+		}
+	}
+	option = { #Not Ifriqya: Contest interference within Kursika's borders.
+		name = "alsababDebateEvent.3b"
+		trigger = {
+			NOT = { tag = Y03 }
+		}
+		add_prestige = 10
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 0
+					who = U01
+				}
+			}
+		}
+	}
+	option = { #Ifriqya: Contest the Bayt Allah's influence in Kursika.
+		name = "alsababDebateEvent.3c"
+		trigger = {
+			tag = Y03
+		}
+		add_mil_power = 25
+		add_dip_power = -25
+		add_prestige = 10
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+		hidden_effect = { 
+			add_claim = 1247
+			U01 = { add_claim = 1247 }
+			set_country_flag = contested_bayt_diyt
+		}
+		custom_tooltip = bayt_ifriqya_kursika_claims
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					value = 50
+					who = U01
+				}
+			}
+			modifier = {
+				factor = 0.5
+				alliance_with = U01
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.9
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Abdullah ibn Balfaqr al-Bahrjawt
+	id = alsababDebateEvent.4
+	title = alsababDebateEvent.4t
+	desc = alsababDebateEvent.4d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Give him the full support of the Bayt Allah.
+		trigger = {
+			curia_treasury_size = 150
+		}
+		name = alsababDebateEvent.4a
+		add_curia_treasury = -150
+		add_piety = -5
+		country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = { #The Caliph will provide him with full support.
+		trigger = {
+			treasury = 150
+		}
+		name = alsababDebateEvent.4b
+		add_treasury = -150
+		country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+		ai_chance = {
+			factor = 5
+		}
+	}
+	option = { #Provide limited support.
+		name = alsababDebateEvent.4c
+		add_adm_power = -5
+		add_dip_power = -5
+		add_mil_power = -10
+		add_years_of_income = -0.5
+		random_list = {
+			50 = {
+				country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+			}
+			50 = {
+				country_event = { id = alsababDebateEvent.8 } #Death of Abdullah ibn Balfaqr al-Bahrjawt
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #Kursika contested in the Diyt
+	id = alsababDebateEvent.5
+	title = alsababDebateEvent.5t
+	desc = alsababDebateEvent.5d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Give up the attempt
+		name = alsababDebateEvent.5a
+		trigger = { tag = U01 }
+		if = {
+			limit = {
+				Y03 = { has_country_flag = contested_bayt_diyt }
+			}
+			Y03 = { vassalize = COR }
+		}
+		add_ruler_modifier = { #Peace of the Caliph
+			name = salam_alkhalifa
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Denounce these corrupt Muftis and leave the Diyt with tensions high.
+		name = alsababDebateEvent.5b
+		trigger = { tag = U01 }
+		corsica_sardinia_area = {
+			if = {
+				limit = {
+					NOT = { country_or_non_sovereign_subject_holds = U01 }
+				}
+				add_permanent_claim = U01
+			}
+		}
+		if = {
+			limit = {
+				Y03 = { has_country_flag = contested_bayt_diyt }
+			}
+			Y03 = { add_claim = 1247 }
+		}
+		add_country_modifier = {
+			name = strong_waves_on_horizon
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = { #So many corrupt Muftis in the court...
+		name = alsababDebateEvent.5c
+		trigger = { 
+			NOT = { has_country_flag = contested_bayt_diyt }
+			NOT = { tag = U01 }
+		}
+		add_papal_influence = 5
+	}
+	option = { #The Caliph is the religious leader, not an overlord.
+		name = alsababDebateEvent.5e
+		trigger = { 
+			has_country_flag = contested_bayt_diyt
+			NOT = { tag = U01 }
+			NOT = { tag = Y12 }
+		}
+		add_prestige = 5
+	}
+	option = { #Praise Allah for pushing us to contest this corrupt Caliph.
+		name = alsababDebateEvent.5f
+		trigger = { 
+			has_country_flag = contested_bayt_diyt
+			tag = Y12
+		}
+		add_prestige = 10
+	}
+}
+
+country_event = { #Takeover of Kursika
+	id = alsababDebateEvent.6
+	title = alsababDebateEvent.6t
+	desc = alsababDebateEvent.6d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
+		name = alsababDebateEvent.6a
+		trigger = { tag = U01 }
+		vassalize = COR
+		add_country_modifier = {
+			name = mutawasiti_admirals
+			duration = 3650
+		}
+	}
+	option = { #Kursika: Horror!
+		name = alsababDebateEvent.6b
+		trigger = { tag = COR }
+		change_government = monarchy
+		add_government_reform = iqta_legacy
+		1247 = { add_devastation = 10 }
+	}
+	option = { #This is a good day for the Muslim world.
+		name = alsababDebateEvent.6c
+		trigger = {
+			NOT = { has_country_flag = contested_bayt_diyt }
+			NOT = { tag = U01 }
+			NOT = { tag = COR }
+		}
+		add_papal_influence = 5
+	}
+	option = { #Horror!
+		name = alsababDebateEvent.6e
+		trigger = {
+			has_country_flag = contested_bayt_diyt
+			NOT = { tag = COR }
+			NOT = { tag = U01 }
+		}
+		add_papal_influence = -5
+	}
+}
+
+country_event = { #The Kursika Coup
+	id = alsababDebateEvent.7
+	title = alsababDebateEvent.7t
+	desc = alsababDebateEvent.7d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	major = yes
+	is_triggered_only = yes
+	major_trigger = {
+		religion = ashabi
+	}
+	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
+		name = alsababDebateEvent.7a
+		trigger = {
+			tag = U01
+		}
+		vassalize = COR
+		add_country_modifier = {
+			name = mutawasiti_admirals
+			duration = 3650
+		}
+	}
+	option = { #Kursika: Horror!
+		name = alsababDebateEvent.7b
+		trigger = {
+			tag = COR
+		}
+		change_government = monarchy
+		add_government_reform = iqta_legacy
+		1247 = { add_devastation = 5 }
+		define_ruler = {
+			name = "Abdullah al-Bahrjawt"
+			dynasty = "Balfaqrid"
+			adm = 1
+			dip = 6
+			mil = 6
+			age = 27
+		}
+	}
+}
+
+country_event = { #Death of Abdullah ibn Balfaqr al-Bahrjawt
+	id = alsababDebateEvent.8
+	title = alsababDebateEvent.8t
+	desc = alsababDebateEvent.8d
+	picture = LAND_MILITARY_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: Horror!
+		name = alsababDebateEvent.8a
+		trigger = { tag = U01 }
+		add_country_modifier = {
+			name = strong_waves_on_horizon
+			duration = 3650
+		}
+	}
+	option = { #Kursika: Three cheers for our band of brothers!
+		name = alsababDebateEvent.8b
+		trigger = { tag = COR }
+		add_stability = 1
+		add_prestige = 10
+	}
+}
+
+country_event = { #Hidden event: measure Caliph support
+	id = alsababDebateEvent.9
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						Y03 = { has_country_flag = contested_bayt_diyt }
+						Y03 = { land_forcelimit = U01 }
+					}
+					calc_true_if = {
+						all_country = {
+							religion = ashabi
+							has_country_flag = contested_bayt_diyt
+						}
+						amount = 10
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { id = alsababDebateEvent.5 } #Kursika contested!
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { id = alsababDebateEvent.6 } #Takeover of Kursika
+			}
+		}
+	}
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #Preparing the Illeropoli Diyt
+	id = alsababDebateEvent.10
+	title = "alsababDebateEvent.10t"
+	desc = "alsababDebateEvent.10d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		tag = U01
+	}
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #We must protect Illeropoli and grant it autonomy directly under the Caliph.
+		name = "alsababDebateEvent.10a"
+		trigger = {
+			Y12 = { is_subject = yes }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytA #This is a benefitial solution but might be harder to pass off in the debate.
+		hidden_effect = {
+			set_country_flag = transfer_illeropoli
+			Y12 = {
+				overlord = {
+					save_global_event_target_as = illeropoliOwner
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.11 #Illeropoli Diyt - Transfer Vassal
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must free Illeropoli and grant them complete independence.
+		name = "alsababDebateEvent.10b"
+		trigger = {
+			Y12 = { is_subject = yes }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytB #This is a pious call and should be easy to garner support for.
+		hidden_effect = {
+			set_country_flag = liberate_illeropoli
+			4754 = {
+				owner = {
+					save_global_event_target_as = illeropoliOwner
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.12 #Illeropoli Diyt - Independence
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must free Illeropoli and grant them autonomy under the Caliph.
+		name = "alsababDebateEvent.10c"
+		trigger = {
+			NOT = { exists = Y12 }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytB #This is a pious call and should be easy to garner support for.
+		hidden_effect = {
+			set_country_flag = free_illeropoli
+			4754 = {
+				owner = {
+					save_global_event_target_as = illeropoliOwner
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.13 #Illeropoli Diyt - Released Vassal
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must incoporate Illeropoli directly under al-Bayt authority.
+		name = "alsababDebateEvent.10e"
+		trigger = {
+			NOT = { exists = Y12 }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytC #This is a beneficial solution but might be harder to pass off in the debate.
+		hidden_effect = {
+			4754 = {
+				owner = {
+					save_global_event_target_as = illeropoliOwner
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.14 #Illeropoli Diyt - Reconquest
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must strictly enforce the faith in Illeropoli.
+		name = "alsababDebateEvent.10f"
+		trigger = {
+			NOT = { Y12 = { religion = ashabi } }
+			Y12 = { is_subject = no }
+			Y12 = { exists = yes }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytD #This is a beneficial solution but might be harder to pass off in the debate.
+		hidden_effect = {
+			set_country_flag = enforce_illeropoli_convert
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.15 #Illeropoli Diyt - Religious Vassalization
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must force the Illeropoli court into reconversion.
+		name = "alsababDebateEvent.10g"
+		trigger = {
+			NOT = { Y12 = { religion = ashabi } }
+			Y12 = { is_subject = no }
+			Y12 = { exists = yes }
+		}
+		add_dip_power = -5
+		add_piety = 10
+		custom_tooltip = preparingIlleropoliDiytE #This is a pious call and should be easy to garner support for.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = {
+					id = alsababDebateEvent.16 #Illeropoli Diyt - Enforce Faith
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Transfer Vassal
+	id = alsababDebateEvent.11
+	title = "alsababDebateEvent.11t" #"Diyt al-Ilyubuli"
+	desc = "alsababDebateEvent.11d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = 0
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:illeropoliOwner = { tag = ROOT }
+			}
+			modifier = {
+				factor = 0
+				tag = Y12
+				ai_attitude = {
+					who = event_target:illeropoliOwner
+					attitude = attitude_loyal
+				}
+			}
+			modifier = {
+				factor = 0
+				is_core = 4754
+			}
+			modifier = {
+				factor = 0.1
+				is_claim = 4754
+			}
+			modifier = {
+				factor = 0.5
+				reverse_has_opinion = {
+					who = event_target:illeropoliOwner
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:illeropoliOwner = {
+					religion = ashabi
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 50
+					who = U01
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:illeropoliOwner = { NOT = { religion = ashabi } }
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { is_core = 4754 }
+				NOT = { tag = Y12 }
+				NOT = { event_target:illeropoliOwner = { tag = ROOT } }
+				NOT = { alliance_with = event_target:illeropoliOwner }
+			}
+			modifier = {
+				factor = 0
+				tag = Y12
+				ai_attitude = {
+					who = event_target:illeropoliOwner
+					attitude = attitude_disloyal
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Independence
+	id = alsababDebateEvent.12
+	title = "alsababDebateEvent.11t" #"Diyt al-Ilyubuli"
+	desc = "alsababDebateEvent.12d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = -100
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:illeropoliOwner = { tag = ROOT }
+			}
+			modifier = {
+				factor = 0
+				tag = Y12
+				ai_attitude = {
+					who = event_target:illeropoliOwner
+					attitude = attitude_loyal
+				}
+			}
+			modifier = {
+				factor = 0.5
+				reverse_has_opinion = {
+					who = event_target:illeropoliOwner
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:illeropoliOwner = {
+					religion = ashabi
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 0
+					who = U01
+				}
+			}
+			modifier = {
+				factor = 1.5
+				is_claim = 4754
+			}
+			modifier = {
+				factor = 2
+				is_core = 4754
+			}
+			modifier = {
+				factor = 3
+				event_target:illeropoliOwner = { NOT = { religion = ashabi } }
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { is_core = 4754 }
+				NOT = { tag = Y12 }
+				NOT = { event_target:illeropoliOwner = { tag = ROOT } }
+				NOT = { alliance_with = event_target:illeropoliOwner }
+			}
+			modifier = {
+				factor = 0
+				tag = Y12
+				ai_attitude = {
+					who = event_target:illeropoliOwner
+					attitude = attitude_disloyal
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Released Vassal
+	id = alsababDebateEvent.13
+	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
+	desc = "alsababDebateEvent.13d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = -100
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				alliance_with = event_target:illeropoliOwner
+			}
+			modifier = {
+				factor = 0
+				is_core = 4754
+			}
+			modifier = {
+				factor = 0.1
+				is_claim = 4754
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					value = 100
+					who = event_target:illeropoliOwner
+				}
+			}
+			modifier = {
+				factor = 0.8
+				event_target:illeropoliOwner = {
+					religion = ashabi
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 0
+					who = U01
+				}
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { is_core = 4754 }
+				NOT = { alliance_with = event_target:illeropoliOwner }
+			}
+			modifier = {
+				factor = 0.5
+				event_target:illeropoliOwner = {
+					NOT = { religion = ashabi }
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Reconquest
+	id = alsababDebateEvent.14
+	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
+	desc = "alsababDebateEvent.14d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = 0
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				alliance_with = event_target:illeropoliOwner
+			}
+			modifier = {
+				factor = 0
+				is_core = 4754
+			}
+			modifier = {
+				factor = 0.1
+				is_claim = 4754
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					value = 50
+					who = event_target:illeropoliOwner
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:illeropoliOwner = { religion = ashabi }
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 50
+					who = U01
+				}
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { is_core = 4754 }
+				NOT = { alliance_with = event_target:illeropoliOwner }
+			}
+			modifier = {
+				factor = 0.5
+				event_target:illeropoliOwner = {
+					NOT = { religion = ashabi }
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Religious Vassalization
+	id = alsababDebateEvent.15
+	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
+	desc = "alsababDebateEvent.15d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = 0
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				alliance_with = Y12
+			}
+			modifier = {
+				factor = 0
+				is_core = 4754
+			}
+			modifier = {
+				factor = 0.1
+				is_claim = 4754
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					value = 50
+					who = Y12
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 50
+					who = U01
+				}
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { is_core = 4754 }
+				NOT = { alliance_with = Y12 }
+			}
+			modifier = {
+				factor = 0.5
+				event_target:illeropoliOwner = {
+					NOT = { religion = ashabi }
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+country_event = { #The Illeropoli Diyt - Enforce Religion
+	id = alsababDebateEvent.16
+	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
+	desc = "alsababDebateEvent.15d"
+	picture = DEBATE_REPUBLICAN_eventPicture
+	trigger = {
+		religion = ashabi
+		NOT = { tag = U01 }
+	}
+	is_triggered_only = yes
+	option = { #Support the Caliph's decision.
+		name = "alsababDebateEvent.11a"
+		add_papal_influence = 15
+		reverse_add_opinion = {
+			who = U01
+			modifier = supported_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					has_opinion = {
+						value = -100
+						who = U01
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				alliance_with = Y12
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					value = 100
+					who = Y12
+				}
+			}
+			modifier = {
+				factor = 1.5
+				has_opinion = {
+					value = 0
+					who = U01
+				}
+			}
+		}
+	}
+	option = { #Contest the Caliph's decision.
+		name = "alsababDebateEvent.11b"
+		add_prestige = 10
+		reverse_add_opinion = {
+			who = U01
+			modifier = contested_bayt_in_diyt2
+		}
+		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_opinion = {
+					value = 100
+					who = U01
+				}
+				NOT = { alliance_with = Y12 }
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			U01 = {
+				country_event = { #Measures support in the Diyt
+					id = alsababDebateEvent.17
+					days = 14
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Hidden event: measure Caliph support
+	id = alsababDebateEvent.17
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				calc_true_if = {
+					all_country = {
+						religion = ashabi
+						has_country_flag = contested_bayt_diyt2
+					}
+					amount = 10
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { id = alsababDebateEvent.18 } #Diyt Faces Heavy Resistance
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { id = alsababDebateEvent.19 } #Diyt Reaches Agreement
+			}
+		}
+	}
+	option = {
+	}
+}
+
+country_event = { #Diyt Faces Heavy Resistance
+	id = alsababDebateEvent.18
+	title = alsababDebateEvent.18t
+	desc = alsababDebateEvent.18d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Placate the opposition and drop the claims.
+		name = alsababDebateEvent.18a
+		trigger = { tag = U01 }
+		if = {
+			limit = {
+				has_ruler_modifier = salam_alkhalifa
+			}
+			add_prestige = -10
+			add_ruler_modifier = {
+				name = sabar_alkhalifa
+				duration = -1
+			}
+		}
+		else = {
+			add_ruler_modifier = { #Peace of the Caliph
+				name = salam_alkhalifa
+				duration = -1
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Leave in a huff amidst the chaotic argument in the court.
+		name = alsababDebateEvent.18b
+		trigger = { tag = U01 }
+		if = {
+			limit = {
+				NOT = { exists = Y12 }
+			}
+			add_permanent_claim = 4753
+		}
+		if = {
+			limit = {
+				exists = Y12
+					Y12 = {
+						is_subject = no
+						NOT = {	religion = ashabi }
+					}
+			}
+			add_casus_belli = {
+				type = cb_religious_conformance
+				target = Y12
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = transfer_illeropoli
+			}
+			add_casus_belli = {
+				type = cb_caliphial_intervention
+				target = event_target:illeropoliOwner
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = liberate_illeropoli
+				event_target:illeropoliOwner = { religion = ashabi }
+			}
+			add_casus_belli = {
+				type = cb_liberation
+				target = event_target:illeropoliOwner
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = liberate_illeropoli
+				event_target:illeropoliOwner = { NOT = { religion = ashabi } }
+			}
+			add_casus_belli = {
+				type = cb_crusade
+				target = event_target:illeropoliOwner
+			}
+		}
+		add_country_modifier = {
+			name = rising_caliphial_irredentism
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = { #So many corrupt Muftis in the court...
+		name = alsababDebateEvent.5c
+		trigger = { 
+			NOT = { has_country_flag = contested_bayt_diyt2 }
+			NOT = { tag = U01 }
+		}
+		add_papal_influence = 5
+	}
+	option = { #The Caliph loves trying to overstep his boundaries.
+		name = alsababDebateEvent.18c
+		trigger = { 
+			has_country_flag = contested_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_prestige = 5
+	}
+}
+
+country_event = { #Diyt Reaches Agreement
+	id = alsababDebateEvent.19
+	title = alsababDebateEvent.19t
+	desc = alsababDebateEvent.19d
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		religion = ashabi
+	}
+	option = { #Our claim is now enforced by religious law. (Illeropoli or their owner are Alsababi)
+		name = alsababDebateEvent.19a
+		trigger = {
+			tag = U01
+			if = {
+				limit = {
+					Y12 = { exists = yes }
+				}
+				Y12 = { is_subject = yes }
+			}
+			if = {
+				limit = {
+					OR = {
+						Y12 = { is_subject = yes }
+						Y12 = { exists = no }
+					}
+				}
+				event_target:illeropoliOwner = { religion = ashabi }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = Y12 }
+			}
+			4754 = {
+				cede_province = U01
+			}
+			if = {
+				limit = {
+					has_country_flag = free_illeropoli
+				}
+				release = Y12
+				vassalize = Y12
+				Y12 = {
+					capital_scope = {
+						add_base_tax = 2
+						add_province_modifier = {
+							name = wave_of_theologians
+							duration = 7300
+							desc = wave_of_theologians_tt
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = transfer_illeropoli
+			}
+			free_vassal = Y12
+			vassalize = Y12
+			Y12 = {
+				capital_scope = {
+					add_base_tax = 2
+					add_province_modifier = {
+						name = wave_of_theologians
+						duration = 7300
+						desc = wave_of_theologians_tt
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = liberate_illeropoli
+			}
+			free_vassal = Y12
+			Y12 = {
+				capital_scope = {
+					add_base_tax = 2
+					add_province_modifier = {
+						name = wave_of_theologians
+						duration = 7300
+						desc = wave_of_theologians_tt
+					}
+				}
+			}
+		}
+		add_country_modifier = {
+			name = rising_caliphial_irredentism
+			duration = 3650
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	option = { #Send Illeropoli the ultimatium. (Religious war/vassalization)
+		name = alsababDebateEvent.19b
+		trigger = {
+			tag = U01
+			AND = {
+				Y12 = { is_subject = no }
+				Y12 = { exists = yes }
+				Y12 = { NOT = { religion = ashabi } }
+			}
+		}
+		add_prestige = 15
+		Y12 = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Send [event_target:illeropoliOwner.GetName] the ultimatium. (Illeropoli is a subject or doesn't exist)
+		name = alsababDebateEvent.19c
+		trigger = {
+			tag = U01
+			OR = {
+				Y12 = { is_subject = yes }
+				Y12 = { exists = no }
+			}
+			event_target:illeropoliOwner = { NOT = { religion = ashabi } }
+		}
+		add_prestige = 15
+		event_target:illeropoliOwner = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #What a glorious day!
+		name = alsababDebateEvent.19e
+		trigger = { 
+			NOT = { has_country_flag = contested_bayt_diyt2 }
+			NOT = { tag = U01 }
+		}
+		add_papal_influence = 5
+	}
+	option = { #This is absurd!
+		name = alsababDebateEvent.19f
+		trigger = { 
+			has_country_flag = contested_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_prestige = 5
+	}
+}
+country_event = { #The Illeropoli Ultimatium
+	id = alsababDebateEvent.20
+	title = alsababDebateEvent.20t
+	#The Alsababi threaten jihad over Illeropoli
+	desc = {
+		trigger = { #Transfer Illeropoli to Bayt Allah
+			event_target:illeropoliOwner = { tag = ROOT }
+			U01 = { has_country_flag = transfer_illeropoli }
+		}
+		desc = alsababDebateEvent.20da
+	}
+	desc = {
+		trigger = { #Release Illeropoli from subject status
+			event_target:illeropoliOwner = { tag = ROOT }
+			U01 = { has_country_flag = liberate_illeropoli }
+		}
+		desc = alsababDebateEvent.20db
+	}
+	desc = {
+		trigger = { #Release Illeropoli and transfer to Bayt Allah
+			event_target:illeropoliOwner = { tag = ROOT }
+			U01 = { has_country_flag = free_illeropoli }
+		}
+		desc = alsababDebateEvent.20dc
+	}
+	desc = {
+		trigger = { #Cede Illeropoli to Bayt Allah
+			event_target:illeropoliOwner = { tag = ROOT }
+			NOT = { U01 = { has_country_flag = free_illeropoli } }
+		}
+		desc = alsababDebateEvent.20dd
+	}
+	desc = {
+		trigger = { #Illeropoli: Convert and submit to Bayt Allah
+			tag = Y12
+			U01 = { has_country_flag = enforce_illeropoli_convert }
+		}
+		desc = alsababDebateEvent.20de
+	}
+	desc = {
+		trigger = { #Illeropoli: Convert to Alsababi Islam
+			tag = Y12
+			NOT = { U01 = { has_country_flag = enforce_illeropoli_convert } }
+		}
+		desc = alsababDebateEvent.20df
+	}
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		religion = ashabi
+	}
+	option = { #Reject these outlandish terms!
+		name = alsababDebateEvent.20a
+		custom_tooltip = alsababDebateEvent.20a_tt #You will become very quickly hated by everyone in the Alsababi community who supported this measure, especially the Caliph.
+		hidden_effect = {
+			save_global_event_target_as = illeropoliOwner
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Rejected!
+					id = alsababDebateEvent.21
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ai_attitude = {
+					who = U01
+					attitude = attitude_threatened
+				}
+			}
+			modifier = {
+				factor = 100
+				total_development = U01
+			}
+		}
+	}
+	option = { #Transfer Illeropoli to Bayt Allah
+		name = alsababDebateEvent.20b
+		trigger = {
+			U01 = { has_country_flag = transfer_illeropoli }
+		}
+		free_vassal = Y12
+		U01 = { vassalize = Y12 }
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+	option = { #Release Illeropoli
+		name = alsababDebateEvent.20c
+		trigger = {
+			U01 = { has_country_flag = liberate_illeropoli }
+		}
+		free_vassal = Y12
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+	option = { #Release Illeropoli as vassal of Bayt Allah
+		name = alsababDebateEvent.20d
+		trigger = {
+			U01 = { has_country_flag = free_illeropoli }
+			owns = 4754
+		}
+		4754 = { cede_province = Y12 }
+		U01 = { vassalize = Y12 }
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+	option = { #Cede Illeropoli to Bayt Allah
+		name = alsababDebateEvent.20e
+		trigger = {
+			NOT = { U01 = { has_country_flag = free_illeropoli } }
+			NOT = { exists = Y12 }
+			owns = 4754
+		}
+		4754 = { cede_province = U01 }
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+	option = { #Submit to Bayt Allah as a vassal
+		name = alsababDebateEvent.20f
+		trigger = {
+			tag = Y12
+			U01 = { has_country_flag = enforce_illeropoli_convert }
+		}
+		change_religion = ashabi
+		U01 = { vassalize = Y12 }
+		capital_scope = {
+			change_religion = ashabi
+			add_base_production = 2
+			add_base_tax = 2
+			add_province_modifier = {
+				name = wave_of_theologians
+				duration = 7300
+			}
+		}
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+	option = { #Convert to Alsababi Islam
+		name = alsababDebateEvent.20g
+		trigger = {
+			tag = Y12
+			U01 = { NOT = { has_country_flag = enforce_illeropoli_convert } }
+			NOT = { religion = ashabi }
+			is_subject = no
+		}
+		change_religion = ashabi
+		capital_scope = {
+			change_religion = ashabi
+			add_base_production = 2
+			add_base_tax = 2
+			add_province_modifier = {
+				name = wave_of_theologians
+				duration = 7300
+			}
+		}
+		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		hidden_effect = {
+			every_country = {
+				limit = {
+					religion = ashabi
+					NOT = { tag = ROOT }
+				}
+				country_event = { #Diyt Ultimatium Accepted!
+					id = alsababDebateEvent.22
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					ai_attitude = {
+						who = U01
+						attitude = attitude_domineering
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_rivalry
+					}
+					ai_attitude = {
+						who = U01
+						attitude = attitude_outraged
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { #Diyt Ultimatium Rejected!
+	id = alsababDebateEvent.21
+	title = alsababDebateEvent.21t
+	desc = alsababDebateEvent.21d
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = U01
+			has_country_flag = supported_bayt_diyt2
+			has_country_flag = contested_bayt_diyt2
+		}
+	}
+	option = { #They will pay.
+		name = alsababDebateEvent.21a
+		trigger = { tag = U01 }
+		if = {
+			limit = {
+				NOT = { exists = Y12 }
+			}
+			add_permanent_claim = 4753
+		}
+		if = {
+			limit = {
+				exists = Y12
+					Y12 = {
+						is_subject = no
+						NOT = {	religion = ashabi }
+					}
+			}
+			add_casus_belli = {
+				type = cb_religious_conformance
+				target = Y12
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = transfer_illeropoli
+			}
+			add_casus_belli = {
+				type = cb_caliphial_intervention
+				target = event_target:illeropoliOwner
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = liberate_illeropoli
+				event_target:illeropoliOwner = { NOT = { religion = ashabi } }
+			}
+			add_casus_belli = {
+				type = cb_crusade
+				target = event_target:illeropoliOwner
+			}
+		}
+		add_opinion = {
+			who = event_target:illeropoliOwner
+			modifier = rejected_diyt_terms_bayt
+		}
+		add_ruler_modifier = {
+			name = rising_caliphial_irredentism
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #They'll pay dearly.
+		name = alsababDebateEvent.21b
+		trigger = { 
+			has_country_flag = supported_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_papal_influence = 10
+		add_opinion = {
+			who = event_target:illeropoliOwner
+			modifier = rejected_diyt_terms
+		}
+	}
+	option = { #The Caliph loves trying to overstep his boundaries.
+		name = alsababDebateEvent.18c
+		trigger = { 
+			has_country_flag = contested_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_prestige = 5
+		reverse_add_opinion = {
+			who = event_target:illeropoliOwner
+			modifier = protected_our_destiny
+		}
+	}
+}
+country_event = { #Diyt Ultimatium Accepted!
+	id = alsababDebateEvent.22
+	title = alsababDebateEvent.22t
+	desc = alsababDebateEvent.22d
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = U01
+			has_country_flag = supported_bayt_diyt2
+			has_country_flag = contested_bayt_diyt2
+		}
+	}
+	option = { #Praise Allah for granting us this civilized victory!
+		name = alsababDebateEvent.22a
+		trigger = { tag = U01 }
+		add_stability_or_adm_power = yes
+		add_prestige = 20
+		add_opinion = {
+			who = event_target:illeropoliOwner
+			modifier = accepted_diyt_terms_bayt
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Mashallah! And this is proof!
+		name = alsababDebateEvent.22b
+		trigger = { 
+			has_country_flag = supported_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_opinion = {
+			who = event_target:illeropoliOwner
+			modifier = accepted_diyt_terms
+		}
+		add_papal_influence = 10
+	}
+	option = { #How spineless of them to crack.
+		name = alsababDebateEvent.22c
+		trigger = { 
+			has_country_flag = contested_bayt_diyt2
+			NOT = { tag = U01 }
+		}
+		add_prestige = 5
+	}
+}
+namespace = isildaDiyt
+country_event = { #Isilda Nojua (In Ferrara)
+	id = isildaDiyt.0
+	title = isildaDiyt.t
+	desc = isildaDiyt.d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = FER
+		has_institution = renaissance
+		religion = ashabi
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	option = { #Respect her right to speak at local debates.
+		name = isildaDiyt.a
+		add_prestige = 5
+		add_country_modifier = {
+			name = ferrara_imams_displeased
+			duration = 730
+		}
+		hidden_effect = {
+			country_event = { #Eminence of Isilda
+				id = isildaDiyt.1
+				days = 65
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #Expel this heathenous speaker!
+		name = isildaDiyt.b
+		add_stability = 1
+		add_country_modifier = {
+			name = ferrara_imams_pleased
+			duration = 730
+		}
+		hidden_effect = {
+			U01 = {
+				country_event = {
+					id = isildaDiyt.2 #Isilda Nojua (in Rome)
+					days = 65
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+}
+country_event = { #Eminence of Isilda
+	id = isildaDiyt.1
+	title = isildaDiyt.1t
+	desc = isildaDiyt.1d #Isilda has crushed debates - what now?
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Perhaps her concepts hold some merit.
+		name = isildaDiyt.1a
+		add_stability = 1
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+		hidden_effect = {
+			U01 = {
+				country_event = {
+					id = isildaDiyt.3 #Ferrara's Reforms
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = { #Okay, time to put an end to this.
+		name = isildaDiyt.1b
+		add_stability = -1
+		add_country_modifier = {
+			name = stamping_out_al_nasawiat #ie feminists
+			duration = 1825
+		}
+		hidden_effect = {
+			U01 = {
+				country_event = {
+					id = isildaDiyt.2 #Isilda Nojua (in Rome)
+					days = 65
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { #Isilda Nojua (In Rome)
+	id = isildaDiyt.2
+	title = isildaDiyt.t
+	desc = {
+		trigger = {
+			FER = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		desc = isildaDiyt.2da
+	}
+	desc = {
+		trigger = {
+			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+		}
+		desc = isildaDiyt.2db
+	}
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Allow her to present her ideas in a Diyt al-Bayt.
+		name = isildaDiyt.2a
+		add_prestige = 5
+		add_dip_power = -10
+		custom_tooltip = isilda_diyt_tt
+		hidden_effect = {
+			set_variable = {
+				which = isildaDiytVote
+				value = 0
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #The Diyt of Isilda Nojua
+					id = isildaDiyt.4
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #Her ideas have no place in the Ashab Alsabab.
+		name = isildaDiyt.2b
+		reverse_add_opinion = {
+			who = FER
+			modifier = supportive_ferrara
+		}
+		hidden_effect = {
+			H28 = {
+				country_event = {
+					id = isildaDiyt.8 #Isilda Nojua (In Venetia)
+					days = 125
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+}
+country_event = { #Ferrara's Reforms
+	id = isildaDiyt.3
+	title = isildaDiyt.3t
+	desc = isildaDiyt.3d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #They can maintain their strange new local custom.
+		name = isildaDiyt.3a
+		reverse_add_opinion = {
+			who = FER
+			modifier = supportive_ferrara
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Hold a Diyt regarding the legality of the reforms.
+		name = isildaDiyt.3b
+		add_prestige = 5
+		add_dip_power = -10
+		custom_tooltip = isilda_diyt_tt
+		hidden_effect = {
+			set_variable = {
+				which = isildaDiytVote
+				value = 0
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #The Diyt of Isilda Nojua
+					id = isildaDiyt.4
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { #The Diyt of Isilda Nojua
+	id = isildaDiyt.4
+	title = isildaDiyt.4t
+	picture = wihgfx_LIBERUM_VETO_eventPicture
+	desc = {
+		desc = isildaDiyt.4da
+		trigger = {
+			FER = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+	}
+	desc = {
+		desc = isildaDiyt.4db
+		trigger = {
+			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+		}
+	}
+	is_triggered_only = yes
+	option = { #General: She has crafted a strong case for herself.
+		name = isildaDiyt.4a
+		trigger = {
+			NOT = { tag = U01 }
+			NOT = { tag = FER }
+		}
+		custom_tooltip = supported_isilda_tt
+		hidden_effect = {
+			set_country_flag = supported_isilda_diyt
+			U01 = {
+				change_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+			}
+			reverse_add_opinion = {
+				who = FER
+				modifier = supportive_ferrara
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #General: I've never seen a woman so thoroughly twist the Quran!
+		name = isildaDiyt.4b
+		trigger = {
+			NOT = { tag = U01 }
+			NOT = { tag = FER }
+		}
+		custom_tooltip = contested_isilda_tt
+		hidden_effect = {
+			U01 = {
+				subtract_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				FER = { has_country_modifier = stamping_out_al_nasawiat }
+			}
+			reverse_add_opinion = {
+				who = FER
+				modifier = supportive_ferrara
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+	option = { #Supportive Ferrara: Her reforms have been a resounding success!
+		name = isildaDiyt.4c
+		custom_tooltip = supported_isilda_tt
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		hidden_effect = {
+			U01 = {
+				change_variable = {
+					which = isildaDiytVote
+					value = 2
+				}
+			}
+		}
+	}
+	option = { #Aggro Ferrara: Can we put this nonsense to rest?
+		name = isildaDiyt.4d
+		custom_tooltip = contested_isilda_tt
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		hidden_effect = {
+			U01 = {
+				subtract_variable = {
+					which = isildaDiytVote
+					value = 2
+				}
+			}
+		}
+	}
+	option = { #Bayt Allah: Observe the progressions.
+		name = isildaDiyt.4e
+		trigger = { tag = U01 }
+		add_prestige = 5
+	}
+	after = {
+		U01 = {
+			country_event = {
+				id = isildaDiyt.5 #Hidden event: counting votes
+				days = 60
+			}
+		}
+	}
+}
+country_event = { #Hidden event: counting votes
+	id = isildaDiyt.5
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #Isilda Emerges Victorious
+					id = isildaDiyt.6
+				}
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #Isilda is Defeated
+					id = isildaDiyt.7
+				}
+			}
+		}
+	}
+	option = {}
+}
+
+country_event = { #Isilda is Victorious
+	id = isildaDiyt.6
+	title = isildaDiyt.6t
+	desc = isildaDiyt.6d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: What an interesting development.
+		name = isildaDiyt.6a
+		trigger = { tag = U01 }
+		add_reform_desire = 10
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #Supportive Ferrara: We never doubted she would triumph.
+		name = isildaDiyt.6b
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		add_prestige = 15
+	}
+	option = { #Aggro Ferrara: What a complete mess!
+		name = isildaDiyt.6c
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		add_prestige = -15
+		add_stability = -1
+		remove_country_modifier = stamping_out_al_nasawiat
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #General Supportive: Glory to Allah!
+		name = isildaDiyt.6c
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = U01 }
+			has_country_flag = supported_isilda_diyt
+		}
+		add_prestige = 5
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #General Aggro: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = U01 }
+			NOT = { has_country_flag = supported_isilda_diyt }
+		}
+		add_prestige = -5
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+}
+
+country_event = { #Isilda is Defeated
+	id = isildaDiyt.7
+	title = isildaDiyt.7t
+	desc = isildaDiyt.7d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: A fairly predictable outcome.
+		name = isildaDiyt.7a
+		trigger = { tag = U01 }
+		hidden_effect = {
+			H28 = {
+				country_event = {
+					id = isildaDiyt.8
+					days = 7
+				}
+			}
+		}
+	}
+	option = { #Supportive Ferrara: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		add_prestige = -10
+		remove_country_modifier = isilda_reforms
+	}
+	option = { #Aggro Ferrara: Finally, she's gone!
+		name = isildaDiyt.7b
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		add_prestige = 15
+	}
+	option = { #General Supportive: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = U01 }
+			has_country_flag = supported_isilda_diyt
+		}
+		add_prestige = -5
+	}
+	option = { #General Aggro: Glory to Allah!
+		name = isildaDiyt.6c
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = U01 }
+			NOT = { has_country_flag = supported_isilda_diyt }
+		}
+		add_prestige = 5
+	}
+}
+
+country_event = { #Isilda Nojua (In Venetia)
+	id = isildaDiyt.8
+	title = isildaDiyt.t
+	desc = isildaDiyt.8d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #What a sad woman.
+		name = isildaDiyt.8a
+		add_dip_power = 5
+	}
+	option = { #Her service is welcome in Venetia.
+		name = isildaDiyt.8b
+		define_advisor = {
+			type = philosopher
+			name = "Isilda Nojua"
+			skill = 2
+			female = yes
+			discount = yes
+			culture = fiari
+			religion = ashabi
+		}
+	}
+}

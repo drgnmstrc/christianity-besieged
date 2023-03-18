@@ -1,0 +1,121 @@
+country_decisions = {
+
+	citerior_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_almoravid_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = U01 }
+			NOT = { tag = U15 }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = SPA }
+			NOT = { tag = J13 }
+			NOT = { tag = ADU }
+			NOT = { tag = J11 }
+			NOT = { tag = J06 }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			NOT = { exists = J12 }
+			OR = {
+				culture_group = iberian
+				culture = gurrean
+			}
+			any_owned_province = {
+				OR = {
+					area = catalonia_area
+					area = valencia_area
+					area = aragon_area
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = catalonia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = J07 }
+			NOT = { exists = J12 }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			catalonia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			change_tag = J12
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			set_capital = 2988
+			2988 = {
+				add_base_tax = 2
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			if = {
+				limit = {
+					government = tribal
+				}
+				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
+				#set_legacy_government = despotic_monarchy
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = J12
+			}
+			aragon_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = J12
+			}
+			basque_country = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = J12
+			}
+			valencia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = J12
+			}
+			set_country_flag = formed_citerior_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,88 @@
+country_decisions = {
+
+	francia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_francia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = G08 }
+			NOT = { exists = FRA }
+			NOT = { tag = HLR }
+			primary_culture = wallonian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 87
+				province_id = 90
+				province_id = 1865
+				province_id = 98
+				province_id = 93
+				province_id = 1866
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = G08 }
+			NOT = { exists = FRA }
+			NOT = { tag = HLR }
+			owns_core_province = 87
+			owns_core_province = 90
+			owns_core_province = 1865
+			owns_core_province = 98
+			owns_core_province = 93
+			owns_core_province = 1866
+		}
+		effect = {
+			change_tag = FRA
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			low_countries_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			champagne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			add_prestige = 25
+			set_country_flag = formed_francia_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

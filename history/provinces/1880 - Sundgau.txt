@@ -1,0 +1,23 @@
+# 1880 - Sundgau
+
+owner = BUR
+controller = BUR 
+add_core = BUR
+culture = burgundian
+religion = germanic
+capital = "Altkirch"
+is_city = yes
+hre = yes
+base_tax = 4 
+base_production = 6
+trade_goods = iron
+base_manpower = 4
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

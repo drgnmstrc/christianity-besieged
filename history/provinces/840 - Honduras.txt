@@ -1,0 +1,18 @@
+#840 - Honduras
+is_city = yes
+culture = miskito
+owner = M39
+controller = M39
+add_core = M39
+religion = quetzacoatl
+capital = "Honduras" 
+trade_goods = fish
+hre = no 
+base_tax = 1
+base_production = 1
+base_manpower = 1 
+
+
+
+discovered_by = mesoamerican
+discovered_by = south_american

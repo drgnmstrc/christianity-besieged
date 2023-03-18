@@ -1,0 +1,23 @@
+#4773 - Göttingen
+
+owner = G33
+controller = G33
+culture = saxon
+religion = germanic
+capital = "Göttingen"
+trade_goods = cloth
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = G33
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

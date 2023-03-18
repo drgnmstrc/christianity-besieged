@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "RUSH_RUSSIA"
+	desc = "RUSH_RUSSIA_DESC"
+	date = "1444.11.11"
+	center = 4545
+	country = N01
+	country = A02
+	country = A06
+	country = Z12
+	country = A01
+	country = A05
+	country = A03
+	easy_country = N01
+	easy_country = SLO
+	easy_country = A02
+}

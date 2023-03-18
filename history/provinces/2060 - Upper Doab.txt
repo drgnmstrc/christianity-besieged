@@ -1,0 +1,22 @@
+#2060 - Upper Doab
+
+owner = L04
+controller = L04
+add_core = L04
+culture = kanauji
+religion = hinduism
+capital = "Meerut"
+trade_goods = cloth
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 4
+#estate = estate_nobles
+is_city = yes
+add_core = DLH
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = near_east 
+discovered_by = ottoman
+discovered_by = chinese
+add_core = SRH

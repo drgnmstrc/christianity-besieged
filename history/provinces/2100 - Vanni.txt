@@ -1,0 +1,21 @@
+#2100 - Vanni
+
+owner = L01
+controller = L01
+add_core = L01
+culture = tamil
+religion = hinduism
+capital = "Yapapatuna"
+trade_goods = gems
+hre = no
+base_tax = 2 
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = CEY
+add_local_autonomy = 25
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = chinese
+discovered_by = east_african

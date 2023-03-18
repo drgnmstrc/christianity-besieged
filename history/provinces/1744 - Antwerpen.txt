@@ -1,0 +1,24 @@
+# 1744 Antwerp - Principal cities: Antwerp
+
+owner = OLD
+controller = OLD
+add_core = OLD
+is_city = yes
+capital = "Antwerp"
+#estate = estate_burghers
+hre = yes
+culture = flemish
+religion = germanic
+base_tax = 8 
+base_production = 8
+trade_goods = glass
+base_manpower = 3
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

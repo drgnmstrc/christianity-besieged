@@ -1,0 +1,22 @@
+#63 - Erfurt
+
+owner = N21
+controller = N21
+add_core = N21
+add_core = THU
+culture = thuringen
+religion = germanic
+hre = no
+capital = "Erfurt"
+trade_goods = dyes #Woad, also a center for glassmaking
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+fort_15th = yes

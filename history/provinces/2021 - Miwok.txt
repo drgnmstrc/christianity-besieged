@@ -1,0 +1,18 @@
+#2021 - Miwok
+
+culture = mictan
+religion = atzintlicoatl
+owner = M21
+controller = M21
+add_core = M21
+is_city = yes
+capital = "Miwok" 
+trade_goods = fish
+hre = no 
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+
+
+discovered_by = north_american

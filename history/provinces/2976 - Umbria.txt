@@ -1,0 +1,22 @@
+# - Umbria
+
+owner = U12
+controller = U12
+culture = rumanus 
+religion = ashabi
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = wine
+base_manpower = 1
+capital = "Perugia" 
+is_city = yes
+add_core = U12
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+add_core = H35

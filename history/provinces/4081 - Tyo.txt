@@ -1,0 +1,14 @@
+owner = KON
+controller = KON
+add_core = KON
+culture = kongolese
+religion = nzambiism #Fetishism
+capital = "Okango"
+trade_goods = spices
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = central_african
+discovered_by = south_african

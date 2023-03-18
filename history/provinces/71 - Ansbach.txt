@@ -1,0 +1,22 @@
+# 71 - Ansbach
+
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = bavarian
+religion = germanic
+hre = yes
+trade_goods = salt
+capital = "Hall"
+is_city = yes
+base_manpower = 2
+base_tax = 3
+base_production = 3
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,15 @@
+#486 - Guantanamo		
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+owner = M43
+controller = M43
+add_core = M43
+culture = arawak
+religion = animism
+capital = "Guantanamo"
+trade_goods = sugar 
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3

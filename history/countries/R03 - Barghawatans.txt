@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+primary_culture = masmuden
+religion = mutazila
+technology_group = ottoman
+capital = 4564	# Tafilalt
+
+1444.1.1 = {
+	monarch = {
+		name = "Malik"
+		dynasty = "al-Waradi"
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+}

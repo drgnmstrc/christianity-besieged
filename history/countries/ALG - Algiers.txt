@@ -1,0 +1,101 @@
+government = monarchy
+add_government_reform = iqta 
+government_rank = 1
+technology_group = near_east
+religion = sunni
+primary_culture = algerian
+capital = 338 # Al-Djazair
+religious_school = maliki_school
+
+1510.1.1 = {
+	monarch = {
+		name = "Salim"
+		dynasty = "Al-Tumi"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+1516.1.1 = {
+	monarch = {
+		name = "Oruc Reis"
+		dynasty = "Yakubid"
+		culture = mutawasiti
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+
+1518.1.1 = {
+	monarch = {
+		name = "Hayreddin Barbarossa"
+		culture = mutawasiti
+		dynasty = "Yakubid"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Yakubid"
+		culture = mutawasiti
+		birth_date = 1525.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1545.1.1 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Yakubid"
+		culture = mutawasiti
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1552.1.1 = {
+	monarch = {
+		name = "Salah Reis"
+		dynasty = "Biga"
+		culture = italyan
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1556.1.1 = {
+	monarch = {
+		name = "Hasan"
+		dynasty = "Corso"
+		culture = italyan
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1556.5.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Kurdogli"
+		culture = italyan
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+#Temporary rule while waiting for Hasan under Yusuf and Yahyia

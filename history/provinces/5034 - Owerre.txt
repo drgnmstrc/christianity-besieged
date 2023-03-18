@@ -1,0 +1,20 @@
+add_core = R53
+owner = R53
+controller = R53
+culture = igbo
+religion = odinani
+capital = "Owerre"
+trade_goods = ivory
+hre = no
+is_city = yes
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+add_province_modifier = {
+	name = liberated_slaving
+	duration = 24351
+}
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

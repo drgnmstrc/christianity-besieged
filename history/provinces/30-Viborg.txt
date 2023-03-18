@@ -1,0 +1,21 @@
+#Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
+
+owner = V23
+controller = V23
+add_core = V23
+culture = karelian
+religion = suomenusko
+hre = no
+base_tax = 7 
+base_production = 5
+trade_goods = iron
+base_manpower = 5
+capital = "Viborg"
+is_city = yes
+fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = nomad_group

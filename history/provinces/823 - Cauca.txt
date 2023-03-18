@@ -1,0 +1,19 @@
+#823 - Cauca
+
+owner = MCA
+controller = MCA
+add_core = MCA
+is_city = yes
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+culture = muisca
+religion = chiminigagua
+capital = "Cauca"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+extra_cost = 8
+center_of_trade = 1

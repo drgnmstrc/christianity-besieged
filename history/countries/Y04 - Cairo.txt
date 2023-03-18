@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = al_misr_arabic
+add_accepted_culture = al_suryah_arabic
+religion = sunni
+technology_group = east_african
+capital = 361 # Cairo
+add_army_professionalism = 0.1
+religious_school = shafii_school
+government_rank = 1
+
+1399.1.1 = {
+	monarch = {
+		name = "al-Masr Jaraf"
+		dynasty = "Baj"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	add_piety = 0.5
+}

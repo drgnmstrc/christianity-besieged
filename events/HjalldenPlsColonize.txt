@@ -1,0 +1,19 @@
+namespace = hjallden_pls_colonize
+country_event = {
+	id = hjallden_pls_colonize.0
+	hidden = yes
+	trigger = {
+		tag = N09
+		num_of_colonists = 1
+		NOT = { personality = ai_colonialist }
+	}
+	mean_time_to_happen = {
+		days = 10
+	}
+	option = {
+		set_ai_personality = {
+   			personality = ai_colonialist
+    			locked = yes
+		}
+	}
+}

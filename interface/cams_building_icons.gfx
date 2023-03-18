@@ -1,0 +1,9 @@
+spriteTypes = {
+
+		spriteType = {
+		name = "GFX_cultus_domus"
+		texturefile = "gfx//interface//buildings//cultus_domus.tga"
+		loadType = "INGAME"
+	}
+
+}

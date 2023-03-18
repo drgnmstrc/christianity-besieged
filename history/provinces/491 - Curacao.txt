@@ -1,0 +1,19 @@
+#491 - Curacao
+
+culture = yucatec
+owner = M41
+controller = M41
+add_core = M41
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+religion = mesoamerican_religion
+capital = "Curacao"
+trade_goods = sugar
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+extra_cost = 8
+center_of_trade = 1

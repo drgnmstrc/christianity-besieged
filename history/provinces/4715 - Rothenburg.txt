@@ -1,0 +1,19 @@
+owner = ROT
+controller = ROT
+capital = "Rothenburg ob der Tauber"
+is_city = yes
+culture = swabian
+religion = germanic
+hre = yes
+base_tax = 4 
+base_production = 5
+base_manpower = 1
+trade_goods = grain
+
+add_core = ROT
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

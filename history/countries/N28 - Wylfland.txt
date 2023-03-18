@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = wylfinge
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 6
+
+1440.4.9 = {
+	monarch = {
+		name = "Þiðrandi"
+		dynasty = "Wylfing"
+		birth_date = 1395.2.26
+		adm = 6
+		dip = 2
+		mil = 6
+	}
+}
+
+1440.4.9 = {
+	heir = {
+		name = "Wachard"
+		dynasty = "Wylfing"
+		birth_date = 1423.2.26
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+}

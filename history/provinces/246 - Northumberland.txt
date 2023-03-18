@@ -1,0 +1,25 @@
+#246 - Northumberland
+#+Durham
+
+latent_trade_goods = {
+	coal
+}
+
+owner = N10
+controller = N10
+add_core = N10
+culture = english
+religion = anglic
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+capital = "Newcastle"
+fort_15th = yes
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

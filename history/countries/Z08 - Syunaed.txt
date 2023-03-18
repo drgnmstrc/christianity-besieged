@@ -1,0 +1,17 @@
+government = native
+add_government_reform = native_bulgar_khanate_reform
+government_rank = 1
+primary_culture = russian
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 294
+
+1432.1.1 = {
+	monarch = {
+		name = "Radik"
+		dynasty = "Syunaed"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}

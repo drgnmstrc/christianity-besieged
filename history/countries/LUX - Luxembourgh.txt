@@ -1,0 +1,19 @@
+government = theocracy
+add_government_reform = free_city
+government_rank = 1
+primary_culture = flemish
+religion = germanic
+technology_group = eastern
+capital = 94	# Luxembourg
+fixed_capital = 94 # Cannot move capital away from this province & no power cost to move to it
+
+1444.11.11 = {
+	monarch = {
+		name = "Elisabeth I"
+		dynasty = "von Luxemburg"
+		adm = 2
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}

@@ -1,0 +1,22 @@
+#4787 - Ribatejo
+
+owner = R04
+controller = R04
+add_core = R04
+add_core = J05
+culture = turdulian
+religion = shiite
+capital = "Santarém"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

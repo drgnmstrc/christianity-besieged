@@ -1,0 +1,28 @@
+# 4780 - Ohrid
+
+owner = Y20
+controller = Y20
+add_core = Y20
+add_claim = X07
+culture = fayunlit
+religion = silvani
+capital = "Ohrid"
+trade_goods = wool
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

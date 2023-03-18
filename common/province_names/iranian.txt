@@ -1,0 +1,4 @@
+504 = "Daibul"
+2218 = "Pars"
+414 = "Ecbatana"
+1765 = "Ortet"

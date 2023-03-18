@@ -1,0 +1,22 @@
+# 69 - Oberschwaben (incl. Lindau, Biberach, Überlingen, Ravensberg, and many of the other Free cities of Schwaben)
+culture = saxon
+owner = RVA
+controller = RVA
+add_core = RVA
+capital = "Dortmund"
+religion = germanic
+trade_goods = cloth
+base_tax = 5
+base_production = 5
+base_manpower = 1
+is_city = yes
+hre = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

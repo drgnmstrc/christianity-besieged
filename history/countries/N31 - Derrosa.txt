@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = sodor
+religion = norse_pagan_reformed
+technology_group = western
+capital = 8
+
+1443.4.9 = {
+	monarch = {
+		name = "Tormod"
+		dynasty = "Mac Corcadail"
+		birth_date = 1394.4.14
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+
+1443.4.9 = {
+	heir = {
+		name = "Ìomhar"
+		dynasty = "Mac Corcadail"
+		birth_date = 1424.1.16
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}

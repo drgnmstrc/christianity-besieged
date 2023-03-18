@@ -1,0 +1,21 @@
+#1869 - Zurich
+
+owner = G37
+controller = G37
+culture = alemanni
+religion = germanic
+capital = "Zürich"
+trade_goods = wool
+hre = yes
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+#estate = estate_burghers
+add_core = G37
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

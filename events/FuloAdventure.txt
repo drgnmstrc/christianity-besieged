@@ -1,0 +1,153 @@
+namespace = fulofun
+country_event = {
+	id = fulofun.0
+	title = fulofun.t
+	desc = fulofun.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = FUL
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = { #We will embrace this new religion, and spread it to our peoples!
+		name = fulofun.a
+		change_religion = sunni
+		tekrur_area = {
+			cede_province = FUL
+			add_core = FUL
+		}
+		1115 = {
+			move_capital_effect = yes
+			change_religion = sunni
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					MAL = {
+						was_player = no
+					}
+				}
+				tekrur_area = {
+					remove_core = MAL
+				}
+			}
+		}
+		define_ruler = {
+			name = "Koli"
+			dynasty = "Deniake"
+			adm = 3
+			dip = 2
+			mil = 4
+			age = 46
+			claim = 95
+		}
+		define_heir = {
+			name = "Tengella"
+			dynasty = "Deniake"
+			adm = 4
+			dip = 1
+			mil = 5
+			age = 1
+			claim = 95
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Punish those who defy the Gods and establish our protection over the region.
+		name = fulofun.b
+		tekrur_area = {
+			cede_province = FUL
+			add_core = FUL
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					MAL = {
+						was_player = no
+					}
+				}
+				tekrur_area = {
+					remove_core = MAL
+				}
+			}
+		}
+		2240 = {
+			move_capital_effect = yes
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 2
+		}
+		1115 = {
+			add_unrest = 5
+			add_base_tax = -2
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		define_ruler = {
+			name = "Yaro"
+			dynasty = "Dialo"
+			adm = 1
+			dip = 1
+			mil = 6
+			age = 23
+			claim = 90
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must migrate from our home and enter the land of the faithful!
+		name = fulofun.c
+		change_religion = sunni
+		remove_government_reform = tribal_despotism
+		add_government_reform = berber_tribe
+		capital_scope = {
+			change_religion = sunni
+		}
+		define_ruler = {
+			name = "Koli"
+			dynasty = "Deniake"
+			adm = 3
+			dip = 2
+			mil = 4
+			age = 46
+			claim = 95
+		}
+		define_heir = {
+			name = "Tengella"
+			dynasty = "Deniake"
+			adm = 4
+			dip = 1
+			mil = 5
+			age = 1
+			claim = 95
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #We must escape this monotheistic menace!
+		name = fulofun.dd
+		1115 = { change_religion = shamanism }
+		remove_government_reform = tribal_despotism
+		add_government_reform = berber_tribe
+		capital_scope = {
+			change_religion = sunni
+		}
+		define_ruler = {
+			name = "Yaro"
+			dynasty = "Dialo"
+			adm = 1
+			dip = 1
+			mil = 6
+			age = 23
+			claim = 90
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

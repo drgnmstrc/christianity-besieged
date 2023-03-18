@@ -1,0 +1,506 @@
+alexandriyya_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = Y08
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	alex_remnant_egyptian_mamluks = {
+		icon = mission_bedouins
+		required_missions = { alex_conquer_cairo }
+		position = 2
+		trigger = {
+			owns = 4317
+			NOT = { exists = Y05 }
+		}
+		effect = { #This is what you get after you finished your mission.
+			al_wahat_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_facing_false_caliph = {
+		icon = mission_unite_home_region
+		required_missions = { }
+		position = 3
+		trigger = {
+			war_with = ETH
+			OR = {
+				mission_completed = alex_remnant_egyptian_mamluks
+				mission_completed = alex_sea_of_calm
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = egyptian_zeal
+				duration = 3650
+			}
+		}	
+	}
+	alex_drive_out_ethiopia = {
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { alex_facing_false_caliph }
+		position = 4
+		trigger = {
+			vostani_area = {
+				type = all
+				owned_by = ROOT
+			}
+			said_area = {
+				type = all
+				owned_by = ROOT
+			}
+			owns = 2321
+		}
+		effect = {
+			said_area = {
+				add_core = ROOT
+			}
+			add_core = 2321
+		}
+	}
+	alex_securing_desert = {
+		icon = mission_non-western_soldiers
+		required_missions = { alex_pushing_tripolitania }
+		position = 6
+		trigger = {
+			owns = 4567
+			owns = 2449
+		}
+		effect = {
+			said_area = {
+				add_core = ROOT
+			}
+			add_core = 2449
+		}
+	}
+	alex_subjugating_western_tribes = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = { alex_securing_desert alex_jewel_maghreb alex_suitable_ruler_tripoli }
+		position = 7
+		trigger = {
+			north_saharan_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ouled_nail_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			north_saharan_area = {
+				add_core = ROOT
+			}
+			ouled_nail_area = {
+				add_core = ROOT
+			}
+		}	
+	}
+}
+alexandriyya_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = Y08
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	alex_conquer_cairo = {
+		icon = mission_early_game_buildings
+		required_missions = { }
+		position = 1
+		trigger = {
+			owns = 361
+		}
+		effect = {
+			add_core = 361
+			custom_tooltip = cairo_candidate_tt
+			set_country_flag = cairo_candidate
+			#Cairo Candidate modifier
+		}
+	}
+	alex_sea_of_calm = { #bahar al-quzum
+		icon = mission_galleys_in_port
+		required_missions = { alex_conquer_cairo }
+		position = 2
+		trigger = {
+			gulf_of_arabia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			gulf_of_arabia_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_holy_land = { #al-ard al-muqaddasah
+		icon = mission_kowtow
+		required_missions = { alex_honor_rashidun }
+		position = 3
+		trigger = {
+			palestine_area = {
+				type = all
+				religion = ROOT
+				num_of_times_improved = 2
+			}
+		}
+		effect = {
+			palestine_area = {
+				add_base_tax = 1
+			}
+			custom_tooltip = al_quds_candidate
+			set_country_flag = alquds_candidate
+		}
+	}
+	alex_securing_benghazi = {
+		icon = mission_dominate_home_trade_node
+		required_missions = { }
+		position = 4
+		trigger = {
+			cyrenaica_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			cyrenaica_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_pushing_tripolitania = {
+		icon = mission_sea_battles
+		required_missions = { alex_securing_benghazi }
+		position = 5
+		trigger = {
+			tripolitania_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			tripolitania_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_jewel_maghreb = {
+		icon = mission_establish_high_seas_navy
+		required_missions = { alex_pushing_tripolitania }
+		position = 6
+		trigger = {
+			djerba_area = {
+				type = all
+				owned_by = ROOT
+			}
+			tunisia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			djerba_area = {
+				add_core = ROOT
+			}
+			tunisia_area = {
+				add_core = ROOT
+			}
+			country_event = {
+				id = iskandaria.0
+				days = 14
+				tooltip = families_of_janub_ifriqya
+			}
+		}
+	}
+}
+alexandriyya_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Y08
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	alex_conquer_gaza = {
+		icon = mission_arabian_fort
+		required_missions = { }
+		position = 1
+		trigger = {
+			owns = 364
+		}
+		effect = {
+			364 = { add_core = ROOT }
+			hidden_effect = {
+				country_event = {
+					id = iskandaria.1
+					days = 5
+					random = 10
+				}
+			}
+		}
+	}
+	alex_honor_rashidun = {
+		icon = mission_cossack_cavalry
+		required_missions = { alex_conquer_gaza }
+		position = 2
+		trigger = {
+			palestine_area = {
+				type = all
+				owned_by = ROOT
+			}
+			NOT = { exists = X05 }
+		}
+		effect = {
+			palestine_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_arabian_foothold = {
+		icon = mission_arabian_fort
+		required_missions = { alex_honor_rashidun }
+		position = 3
+		trigger = {
+			tabuk_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			tabuk_area = {
+				add_core = ROOT
+			}
+		}
+	}
+	alex_protecting_medina = {
+		icon = mission_noble_council
+		required_missions = { alex_arabian_foothold }
+		position = 4
+		trigger = {
+			owns = 384
+		}
+		effect = {
+			384 = { add_core = ROOT }
+			add_country_modifier = {
+				name = guardians_of_medina
+				duration = 9125
+			}
+			if = {
+				limit = {
+					religious_school = {
+						group = muslim
+						school = maliki_school
+					}
+				}
+				country_event = {
+					id = iskandaria.2
+					days = 5
+					random = 10
+					tooltip = medina_candidates
+				}
+			}
+			else = {
+				custom_tooltip = medina_candidate
+				set_country_flag = medina_candidate
+			}
+		}
+	}
+	alex_repulsing_shia_mecca = {
+		icon = mission_mosque
+		required_missions = { alex_protecting_medina }
+		position = 5
+		trigger = {
+			owns = 385
+		}
+		effect = {
+			385 = { add_core = ROOT }
+			add_country_modifier = {
+				name = alex_liberators_mecca
+				duration = 9125
+			}
+			custom_tooltip = mecca_candidate
+			set_country_flag = mecca_candidate
+		}
+	}
+	alex_suitable_ruler_tripoli = {
+		icon = mission_asian_trader
+		required_missions = { alex_pushing_tripolitania }
+		position = 6
+		trigger = {
+			OR = {
+				354 = {
+					culture = al_misr_arabic
+					religion = ROOT
+				}
+				accepted_culture = almukhidi
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					354 = {
+						culture = almukhidi
+					}
+				}
+				country_event = {
+					id = iskandaria.3
+					days = 5
+					random = 10
+				}
+			}
+			else = {
+				country_event = {
+					id = iskandaria.4
+					days = 5
+					random = 10
+				}
+			}
+		}
+	}
+	alex_strangling_alsabab = {
+		icon = mission_invade_island
+		required_missions = { alex_suitable_ruler_tripoli alex_jewel_maghreb alex_securing_desert }
+		position = 7
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			western_sicily_area = {
+				type = all
+				owned_by = ROOT
+			}
+			sicily_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = strangling_alsabab_trade
+				duration = 3650
+			}
+		}
+	}
+}
+alexandriyya_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Y08
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	alex_developing_mediterranean_breakbasket = {
+		icon = mission_colonial
+		required_missions = { }
+		position = 1
+		trigger = {
+			363 = {
+				base_tax = 6
+				base_production = 6
+			}
+			2316 = {
+				base_tax = 6
+				base_production = 6
+			}
+			4316 = {
+				base_tax = 6
+				base_production = 6
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_republican_tradition = 10
+		}
+	}
+	alex_grand_plurality = {
+		icon = mission_indian_stateman
+		required_missions = { }
+		position = 2
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = at_least_6_families
+				has_country_flag = had_6_alex_fams
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_prestige = 10
+			add_republican_tradition = 10
+			add_dip_power = 50
+		}
+	}
+	alex_wealth_syria = {
+		icon = mission_high_income
+		required_missions = { alex_honor_rashidun }
+		position = 3
+		trigger = {
+			syria_area = {
+				type = all
+				owned_by = ROOT
+			}
+			syrian_desert_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cashing_wealth_syria
+				duration = 9125
+			}
+		}
+	}
+	alex_securing_aleppo = {
+		icon = mission_european_church
+		required_missions = { alex_wealth_syria }
+		position = 4
+		trigger = {
+			aleppo_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			aleppo_area = {
+				add_core = ROOT
+			}
+			country_event = {
+				id = iskandaria.5
+				tooltip = christians_of_seliah
+			}
+		}
+	}
+	alex_assessing_heresy = {
+		icon = mission_empire
+		required_missions = { alex_securing_aleppo }
+		position = 5
+		trigger = {
+			aleppo_area = {
+				type = all
+				religion = ROOT
+			}
+			syria_area = {
+				type = all
+				religion = ROOT
+			}
+		}
+		effect = {
+			country_event = {
+				id = iskandaria.6
+			}
+		}
+	}
+}

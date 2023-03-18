@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = yotvingian
+religion = romuvan
+technology_group = nomadic_group
+capital = 270
+government_rank = 1
+
+1399.7.12 = {
+	monarch = {
+		name = "Jvomir"
+		birth_date = 1407.3.9
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

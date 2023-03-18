@@ -1,0 +1,21 @@
+#4365 - Mann
+
+owner = LOI
+controller = LOI
+culture = sodor
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Castletown"
+is_city = yes
+add_core = LOI
+add_core = MTH
+add_core = KOI
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

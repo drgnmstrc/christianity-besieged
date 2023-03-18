@@ -1,0 +1,32 @@
+#Croatian Resettlement
+great_moravian_replacement = {
+    local_unrest = 5
+}
+slavicreplacement_heavysiege = {
+local_monthly_devastation = 0.30	
+local_production_efficiency = -1
+local_tax_modifier = -1
+province_trade_power_modifier = -1
+local_manpower_modifier = -1
+}
+slavicreplacement_mildsiege = {
+local_monthly_devastation = 0.20	
+local_production_efficiency = -0.7
+local_tax_modifier = -0.7
+province_trade_power_modifier = -0.7
+local_manpower_modifier = -0.7
+}
+slavicreplacement_lightsiege = {
+local_monthly_devastation = 0.12	
+local_production_efficiency = -0.3
+local_tax_modifier = -0.3
+province_trade_power_modifier = -0.3
+local_manpower_modifier = -0.3
+}
+slavicreplacement_liftedsiege = {
+local_monthly_devastation = 0.05	
+local_production_efficiency = -0.1
+local_tax_modifier = -0.1
+province_trade_power_modifier = -0.1
+local_manpower_modifier = -0.1
+}

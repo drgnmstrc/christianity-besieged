@@ -1,0 +1,68 @@
+country_decisions = {
+	strengthen_ulema_influence = {
+		potential = {
+			religion = hanafis
+			NOT = { has_country_modifier = hanafis_ulema_influence }
+		}
+		allow = {
+			is_at_war = no
+			adm = 3
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = hanafis_ulema_influence
+				duration = -1
+			}
+			add_prestige = 5
+			add_adm_power = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	strengthen_commoner_influence = {
+		potential = {
+			religion = hanafis
+			NOT = { has_country_modifier = hanafis_commoner_influence }
+		}
+		allow = {
+			is_at_war = no
+			dip = 3
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = hanafis_commoner_influence
+				duration = -1
+			}
+			add_prestige = 5
+			add_dip_power = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	strengthen_amir_influence = {
+		potential = {
+			religion = hanafis
+			NOT = { has_country_modifier = hanafis_amir_influence }
+		}
+		allow = {
+			is_at_war = no
+			adm = 3
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = hanafis_amir_influence
+				duration = -1
+			}
+			add_prestige = 5
+			add_mil_power = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

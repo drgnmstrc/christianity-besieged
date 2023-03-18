@@ -1,0 +1,20 @@
+government = native
+government_rank = 1
+add_government_reform = native_clan_council_reform
+add_government_reform = native_oral_tradition_reform
+add_government_reform = native_settle_down_reform
+primary_culture = jukuma
+religion = inti
+technology_group = andean
+unit_type = south_american
+capital = 801
+
+1444.11.11 = {
+	monarch = {
+		name = "Otei"
+		dynasty = "Jukuma"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

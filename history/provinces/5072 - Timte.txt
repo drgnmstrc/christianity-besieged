@@ -1,0 +1,16 @@
+# No previous file for Timte
+culture = vute
+religion = byeri
+capital = "Timte"
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

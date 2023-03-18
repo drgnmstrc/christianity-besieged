@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = romanian
+religion = manichaeism
+technology_group = near_east
+capital = 161 # Tîrgoviste
+
+
+
+1442.8.1 = {
+	monarch = {
+		name = "Basarab II"
+		dynasty = "Danesti"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}

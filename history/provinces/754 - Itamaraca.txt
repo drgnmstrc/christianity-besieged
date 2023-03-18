@@ -1,0 +1,16 @@
+#754 - Itamaraca
+discovered_by = south_american
+capital = "Kura Niani"
+owner = Y11
+controller = Y11
+culture = mali
+is_city = yes
+base_manpower = 4
+religion = sunni
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 3
+add_core = Y11
+extra_cost = 8
+center_of_trade = 1

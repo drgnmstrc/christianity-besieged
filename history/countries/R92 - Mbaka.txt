@@ -1,0 +1,20 @@
+# No previous file for Mbaka
+government = native
+add_government_reform = native_african_chiefdom_reform
+primary_culture = gbaya
+religion = byeri #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5124
+government_rank = 1
+1440.1.1 = {
+	monarch = {
+		name = "Khuaaku"
+		dynasty = "Wapha"
+		dip = 2
+		adm = 5
+		mil = 5
+	}
+}

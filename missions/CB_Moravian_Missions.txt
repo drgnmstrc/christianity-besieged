@@ -1,0 +1,32 @@
+moravia_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SLO
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	moravia_pest = { #Localized as moravia_pest_title and moravia_pest_desc
+		icon = mission_italian_condottiere
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			153 = {
+				base_manpower = 6
+			}
+			owns = 153
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_mil_power = 25
+			153 = {
+				change_culture = slovak
+			}
+			add_country_modifier = {
+				name = "carpathian_recruits"
+				duration = 9125 #25 years
+			}
+		}
+	}
+}

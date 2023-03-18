@@ -1,0 +1,26 @@
+
+
+owner = BON
+controller = BON
+add_core = BON
+is_city = yes
+culture = aka 
+religion = onyamesom #Fetishism
+capital = "Amanvi"
+trade_goods = coffee #Kola nuts
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+
+
+
+discovered_by = sub_saharan
+discovered_by = saharan
+
+
+1735.1.1 = {
+	owner = ASH
+	controller = ASH
+	add_core = ASH 
+} #Ashanti conquest

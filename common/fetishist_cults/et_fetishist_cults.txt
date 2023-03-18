@@ -1,0 +1,56 @@
+cult_of_the_dead =
+{
+	stability_cost_modifier = -0.1
+
+	allow = {
+		OR = {
+			has_unlocked_cult = cult_of_the_dead
+			technology_group = east_african
+			technology_group = near_east
+			culture_group = maghrebi
+		}
+	}
+	sprite = 18
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+manichaean_cult =
+{
+	tolerance_heretic = 2
+
+	allow = {
+		OR = {
+			has_unlocked_cult = manichaean_cult
+			technology_group = near_east
+		}
+	}
+	sprite = 19
+
+	ai_will_do = {
+		factor = 0.5
+		modifier = {
+			any_owned_province = { religion = manichaeism }
+			factor = 3
+		}
+	}
+}
+
+hellenism_cult =
+{
+	build_cost = -0.1
+	allow = {
+		OR = {
+			has_unlocked_cult = hellenism_cult
+			technology_group = east_african
+			technology_group = near_east
+		}
+	}
+	sprite = 20
+
+	ai_will_do = {
+		factor = 1
+	}
+}

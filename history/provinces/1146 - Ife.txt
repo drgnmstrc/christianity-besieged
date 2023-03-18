@@ -1,0 +1,23 @@
+#1146 - Ife
+
+owner = R89
+controller = R89
+add_core = R89
+culture = ife
+religion = itan #Fetishism
+capital = "Ife Ile"
+is_city = yes
+base_manpower = 1
+trade_goods = glass #Ife Glass Beads
+hre = no
+base_tax = 1 
+base_production = 1
+
+1444.5.5 = {
+	owner = OYO
+	controller = OYO
+	add_core = OYO
+}
+
+discovered_by = sub_saharan
+discovered_by = saharan

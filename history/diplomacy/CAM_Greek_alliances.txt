@@ -1,0 +1,20 @@
+vassal = {
+	first = H05
+	second = H07
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+vassal = {
+	first = H05
+	second = H23
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+vassal = {
+	first = H05
+	second = X15
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}

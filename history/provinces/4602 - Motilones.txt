@@ -1,0 +1,17 @@
+# No previous file for Motilones
+
+culture = betoi
+owner = M83
+controller = M83
+add_core = M83
+is_city = yes
+religion = chiminigagua
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Motilones"
+trade_goods = gems
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2

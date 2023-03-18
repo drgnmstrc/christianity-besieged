@@ -1,0 +1,25 @@
+#127 - Sardinia
+
+owner = Y03
+controller = Y03
+add_core = Y03
+culture = mutawasiti
+religion = ashabi
+hre = no 
+base_tax = 3 
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Sassari" 
+is_city = yes 
+add_core = SAR
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

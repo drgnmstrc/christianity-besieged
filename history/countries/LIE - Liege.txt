@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = germanic
+primary_culture = flemish
+capital = 93	# Liège
+historical_rival = OLD
+
+1419.5.28 = {
+	monarch = {
+		name = "Jean VIII"
+		culture = hessian
+		birth_date = 1396.1.1
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}

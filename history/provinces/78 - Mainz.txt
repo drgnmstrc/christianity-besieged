@@ -1,0 +1,22 @@
+# 78 - Mainz
+capital = "Mainz"
+culture = swabian
+religion = germanic
+trade_goods = paper
+owner = G05
+controller = G05
+add_core = G05
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = MAI
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

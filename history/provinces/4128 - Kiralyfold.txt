@@ -1,0 +1,27 @@
+#1951 - Hunyad
+
+owner = V11
+controller = V11
+add_core = V11
+culture = transylvanian
+religion = cisarstvo
+capital = "Sibiu"
+trade_goods = cloth
+#estate = estate_burghers
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+fort_15th = yes #Fortified Region
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

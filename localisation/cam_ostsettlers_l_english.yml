@@ -1,0 +1,10 @@
+﻿l_english:
+ ostsettlers_title:0 "Norse settlers from the West"
+ ostsettlers_desc:0 "The influx of settlers from the lands of Rod continues, and with it we grow stronger."
+ ostsettlers_a:0 "Excellent."
+ ostsettlers_1_title:0 "Norse settlers from the West"
+ ostsettlers_1_desc:0 "The influx of settlers from the lands of Rod continues, and with it, the [Root.Religion.GetName] worshippers of [Root.GetName] find themselves in the minority."
+ ostsettlers_1_a:0 "Excellent."
+ ostsettlers_2_title:0 "Norse settlers from the West"
+ ostsettlers_2_desc:0 "As the influx of settlers from the lands of Rod continues, these Rodhaengkar have started to greatly outnumber the [Root.Culture.GetName] of [Root.GetName]."
+ ostsettlers_2_a:0 "Excellent."

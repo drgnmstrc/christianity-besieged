@@ -1,0 +1,404 @@
+#Designed by SkyWarrior
+assyrian_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = assyrian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	asyr_race_time = {
+		icon = mission_persian_soldiers
+		required_missions = {}
+		position = 1
+		trigger = {
+			grown_by_development = 100
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { is_year = 1455 }
+				}
+				add_country_modifier = {
+					name = asyr_powerful_presence
+					duration = 5475
+				}
+			}
+			if = {
+				limit = {
+					is_year = 1455
+					NOT = { is_year = 1465 }
+				}
+				add_country_modifier = {
+					name = asyr_good_presence
+					duration = 5475
+				}
+			}
+			if = {
+				limit = {
+					is_year = 1465
+				}
+				add_country_modifier = {
+					name = asyr_presence
+					duration = 5475
+				}
+			}
+		}
+	}
+	asyr_shatter_serpent = {
+		icon = mission_steppe_warriors
+		required_missions = { asyr_dominance }
+		position = 3
+		trigger = {
+			414 = { 
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1227 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_prestige = 25
+			add_legitimacy = 25
+			add_country_modifier = {
+				name = assyria_unstoppable
+				duration = -1
+			}
+		}
+	}
+}
+assyrian_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = assyrian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	asyr_united = {
+		icon = mission_arabian_fort
+		required_missions = {}
+		position = 1
+		trigger = {
+			owns_all_provinces = {
+				culture = assyrian
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = dawn_third_asyr
+				duration = 3650
+			}
+		}
+	}
+	asyr_dominance = {
+		icon = mission_unite_home_region
+		required_missions = { asyr_united }
+		position = 2
+		trigger = {
+			mashriq_region = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 50
+			add_dip_power = 50
+			add_mil_power = 50
+		}
+	}
+	asyr_jerusalem = {
+		icon = mission_crusade_for_varna
+		required_missions = { asyr_dominance }
+		position = 3
+		trigger = {
+			379 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_legitimacy = 25
+		}
+	}
+	asyr_nile_beyond = {
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { asyr_jerusalem }
+		position = 4
+		trigger = {
+			delta_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bahari_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			vostani_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 25
+			add_dip_power = 25
+			add_country_modifier = {
+				name = asyr_labor_boom
+				duration = 3650
+			}
+		}
+	}
+	asyr_true_breadbasket = {
+		icon = mission_market_place_with_asian_traders
+		required_missions = { asyr_nile_beyond }
+		position = 4
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				region = egypt_region
+				trade_goods = grain
+				has_building = workshop
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_adm_power = 25
+			add_dip_power = 25
+			add_country_modifier = {
+				name = asyr_nile_explosion
+				duration = 3650
+			}
+		}
+	}
+}
+assyrian_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = assyrian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	asyr_lamb_for_all = {
+		icon = mission_steppe_warriors
+		required_missions = { }
+		position = 1
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				trade_goods = wool
+				base_production = 12
+			}
+		}
+		effect = {
+			add_dip_power = 100
+			every_owned_province = {
+				limit = {
+					trade_goods = wool
+				}
+				add_province_modifier = {
+					name = asyr_lamb_boom
+					duration = 5475
+				}
+			}
+		}
+	}
+	asyr_hormuz_trade = {
+		icon = mission_sea_battles
+		required_missions = { asyr_eastern_port }
+		position = 2
+		trigger = {
+			1334 = { is_strongest_trade_power = ROOT }
+		}
+		effect = {
+			add_dip_power = 50
+			add_years_of_income = 0.5
+		}
+	}
+	asyr_david_goliath = {
+		icon = mission_assemble_an_army
+		required_missions = { asyr_dominance }
+		position = 3
+		trigger = {
+			army_size_percentage = 1
+			OR = {
+				full_idea_group = defensive_ideas
+				full_idea_group = offensive_ideas
+				full_idea_group = quantity_ideas
+				full_idea_group = quality_ideas
+				army_professionalism = 0.5
+				fort_15th = 4
+			}
+		}
+		effect = {
+			add_mil_power = 100
+			add_country_modifier = {
+				name = asyr_fight_for_supremacy
+				duration = 5475
+			}
+		}
+	}
+	asyr_australian_colony = {
+		icon = mission_colonial
+		required_missions = { asyr_indonesian_communities }
+		position = 4
+		trigger = {
+			any_known_country = {
+				capital_scope = { region = australia_region }
+				is_colonial_nation_of = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_country_modifier = {
+				name = asyr_war_down_under
+				duration = 3650
+			}
+		}
+	}
+
+}
+assyrian_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = assyrian
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	asyr_eastern_port = {
+		icon = mission_persian_soldiers
+		required_missions = {}
+		position = 1
+		trigger = {
+			any_owned_province = {
+				has_port = yes
+				OR = {
+					area = persian_gulf_coast
+					province_id = 412
+					province_id = 408
+				}
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = asyr_naval_buildup
+				duration = 3650
+			}
+		}
+	}
+	asyr_indian_relations = {
+		icon = mission_indian_stateman
+		required_missions = { asyr_eastern_port }
+		position = 2
+		trigger = {
+			any_known_country = {
+				capital_scope = { superregion = india_superregion }
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 25
+			add_country_modifier = {
+				name = asyr_india_presence #+1 merchant +1 diplo relationship
+				duration = 9125
+			}
+		}
+	}
+	asyr_indonesian_communities = {
+		icon = mission_trade_company_region_abroad
+		required_missions = { asyr_indian_relations }
+		position = 3
+		trigger = {
+			any_owned_province = {
+				OR = {
+					region = malaya_region
+					region = indonesia_region
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = assyrian_colonial_expansion
+				duration = 9125
+			}
+		}
+	}
+	asyr_claim_pacific = {
+		icon = mission_invade_island
+		required_missions = { asyr_indonesian_communities }
+		position = 4
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 6
+				continent = oceania
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_country_modifier = {
+				name = assyrian_thassalocracy
+				duration = 9125
+			}
+		}
+	}
+	asyr_new_world_mission = {
+		icon = mission_settlers_north_america
+		required_missions = { asyr_claim_pacific }
+		position = 5
+		trigger = {
+			any_owned_province = {
+				is_colony = yes
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_country_modifier = {
+				name = assyrian_colonial_zeal
+				duration = 9125
+			}
+		}
+	}
+	asyr_agricultural_revolution = {
+		icon = mission_settlers_north_america
+		required_missions = { asyr_new_world_mission }
+		position = 6
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 6
+				trade_goods = grain
+				num_of_times_improved_by_owner = 4
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_country_modifier = {
+				name = assyrian_crop_boom
+				duration = 9125
+			}
+		}
+	}
+}

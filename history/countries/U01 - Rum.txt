@@ -1,0 +1,25 @@
+government = theocracy
+add_government_reform = papacy_reform
+primary_culture = italian_turk
+add_accepted_culture = roman
+religion = ashabi
+technology_group = ottoman
+historical_rival = U02
+capital = 118
+fixed_capital = 118
+national_focus = MIL
+add_army_professionalism = 0.1
+	
+1444.1.1 = {
+	monarch = {
+		name = "Hamza Fâkih"
+		birth_date = 1412.3.30
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	#add_ruler_personality = lawgiver_personality
+	add_piety = -0.2
+}

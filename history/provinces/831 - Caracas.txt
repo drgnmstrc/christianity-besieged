@@ -1,0 +1,17 @@
+#831 - Caracas
+
+owner = CAB
+controller = CAB
+add_core = CAB
+is_city = yes
+culture = carib
+religion = mesoamerican_religion
+discovered_by = south_american
+discovered_by = mesoamerican
+discovered_by = andean
+capital = "Caracas"
+trade_goods = fur
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

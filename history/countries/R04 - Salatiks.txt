@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = vettonian
+add_accepted_culture = turdulian
+religion = shiite
+technology_group = ottoman
+capital = 4788
+government_rank = 1
+historical_friend = MCM
+religious_school = jafari_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Mu'awiya"
+		dynasty = "Salatik"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}

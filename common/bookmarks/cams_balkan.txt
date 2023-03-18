@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "BURZAFRAH_CONQUEST"
+	desc = "BURZAFRAH_CONQUEST_DESC"
+	date = "1444.11.11"
+	center = 1827
+	country = X07
+	country = Z21
+	country = Z01
+	country = BUL
+	country = U16
+	country = DAL
+	country = Y12
+	country = X18
+	easy_country = X07
+	easy_country = Z21
+}

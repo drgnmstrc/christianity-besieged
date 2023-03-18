@@ -1,0 +1,20 @@
+#1967 - Khujand
+
+owner = CHG
+controller = CHG
+add_core = CHG
+culture = sogdian
+religion = manichaeism
+capital = "Khujand"
+trade_goods = silk
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 3
+is_city = yes
+add_core = KOK
+discovered_by = KAS
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = indian

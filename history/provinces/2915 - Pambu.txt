@@ -1,0 +1,16 @@
+# - Pambu
+
+culture = ge
+discovered_by = south_american
+religion = sunni
+capital = "Pambu"
+trade_goods = tropical_wood
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+owner = Y11
+controller = Y11
+add_core = Y11
+add_local_autonomy = 25
+is_city = yes

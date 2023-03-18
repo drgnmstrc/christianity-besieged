@@ -1,0 +1,15 @@
+#9002 - Swazi
+
+owner = R22
+controller = R22
+add_core = R22
+culture = xegwe
+religion = qanumi
+capital = "Mbabane"
+trade_goods = ivory
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+discovered_by = south_african

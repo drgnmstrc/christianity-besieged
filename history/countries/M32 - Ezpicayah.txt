@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mictan
+religion = atzintlicoatl
+technology_group = north_american
+unit_type = mesoamerican
+capital = 871
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Chalchuixahual"
+		dynasty = "Ezpicayah"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}

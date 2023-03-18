@@ -1,0 +1,18 @@
+#1027 - Hitachi
+
+owner = STK
+controller = STK
+culture = ainu
+religion = animism
+capital = "Ota"
+trade_goods = fish
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+is_city = yes
+add_core = STK
+
+
+
+discovered_by = chinese

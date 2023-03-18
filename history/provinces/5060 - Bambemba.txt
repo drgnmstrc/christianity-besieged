@@ -1,0 +1,14 @@
+add_core = R24
+owner = R24
+controller = R24
+culture = ekoi
+religion = byeri
+capital = "Bambemba"
+trade_goods = ivory
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

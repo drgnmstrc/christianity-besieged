@@ -1,0 +1,17 @@
+#1181 - Natal
+
+owner = R20
+controller = R20
+add_core = R20
+trade_goods = ivory
+is_city = yes
+culture = okung
+capital = "Na!a|"
+religion = qanumi
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = south_african

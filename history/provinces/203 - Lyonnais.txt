@@ -1,0 +1,24 @@
+# 203 Lyonnais - Principal cities: Lyon
+
+owner = SAV
+controller = SAV
+add_core = SAV
+add_core = Y15
+culture = gothic
+religion = germanic
+capital = "Lugun"
+is_city = yes
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 4
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

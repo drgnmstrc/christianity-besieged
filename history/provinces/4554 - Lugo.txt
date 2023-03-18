@@ -1,0 +1,23 @@
+#Lugo
+
+owner = GAL
+controller = GAL
+add_core = GAL
+culture = galician
+religion = liritism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Lugo" 
+is_city = yes
+#estate = estate_church
+ # Santiago de Compostela pilgrimage
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

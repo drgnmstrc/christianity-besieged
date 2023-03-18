@@ -1,0 +1,85 @@
+country_decisions = {
+
+	reform_assyria = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_assyria_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			primary_culture = assyrian
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4292	# Mardin
+				province_id = 4293	# Arbil
+				province_id = 411	# Mosul
+				province_id = 415	# Kirkuk
+				province_id = 410	# Baghdad
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 4292
+			owns_core_province = 4293
+			owns_core_province = 411
+			owns_core_province = 415
+			owns_core_province = 410
+		}
+		effect = {
+			change_tag = X16
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			if = {
+				limit = {
+					government = tribal
+				}
+				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
+				#set_legacy_government = despotic_monarchy
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = X16
+			}
+			add_permanent_claim = 126
+			set_country_flag = formed_assyria_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = alfinge
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 16
+
+1440.4.9 = {
+	monarch = {
+		name = "Þiðrandi"
+		dynasty = "Alfing"
+		birth_date = 1401.3.12
+		adm = 6
+		dip = 2
+		mil = 6
+	}
+}
+
+1440.4.9 = {
+	heir = {
+		name = "Wachard"
+		dynasty = "Alfing"
+		birth_date = 1419.2.26
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

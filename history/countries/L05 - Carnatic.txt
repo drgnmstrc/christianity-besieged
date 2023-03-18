@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = nayankara_reform
+primary_culture = tamil
+add_accepted_culture = telegu
+religion = hinduism
+technology_group = indian
+capital = 539	# Mylapore
+
+1424.1.1 = {
+	monarch = {
+		name = "Anandan"
+		dynasty = "Batarai"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}

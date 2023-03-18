@@ -1,0 +1,22 @@
+# 90 Vlaanderen - Principal cities: Brugge
+
+owner = B01
+controller = B01
+add_core = B01
+is_city = yes
+capital = "Brugge"
+culture = wallonian
+religion = anglican
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = fish
+base_manpower = 4
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

@@ -1,0 +1,25 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = hungarian
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 280
+
+1444.11.11 = {
+	monarch = {
+		name = "Tühütüm"
+		dynasty = Lellen
+		birth_date = 1398.2.23			
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Hitvánd"
+		dynasty = Lellen
+		birth_date = 1435.3.09		
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

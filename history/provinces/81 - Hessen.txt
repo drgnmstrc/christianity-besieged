@@ -1,0 +1,20 @@
+#81 - Hessen
+
+owner = G34
+controller = G34
+add_core = G34
+capital = "Marburg"
+trade_goods = wool
+culture = swabian
+religion = germanic
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

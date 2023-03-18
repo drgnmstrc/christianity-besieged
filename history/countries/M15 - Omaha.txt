@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = omahan
+religion = atzintlicoatl
+technology_group = north_american
+capital = 948
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Itzcoatl"
+		dynasty = "Gahege"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

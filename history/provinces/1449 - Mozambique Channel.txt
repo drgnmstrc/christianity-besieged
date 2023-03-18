@@ -1,0 +1,10 @@
+
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = indian
+discovered_by = ottoman
+discovered_by = south_african
+
+
+
+1421.1.1 = { discovered_by = MNG }

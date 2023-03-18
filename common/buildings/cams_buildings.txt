@@ -1,0 +1,62 @@
+cultus_domus = {
+	cost = 125
+	time = 12
+	influencing_fort = yes
+	modifier = {
+		fort_level = 1
+	}
+	build_trigger = {
+		owner = { has_roman_religion = yes }
+		NOT = {
+			OR = {
+				has_province_modifier = fidemarx_temple
+				has_province_modifier = fidemarx_fortress
+				has_province_modifier = fidemarx_military_district
+				has_province_modifier = fidemarx_bureaucratic_district
+			}
+		}
+		NOT = {
+			area_for_scope_province = {
+				OR = {
+					has_construction = cultus_domus
+					has_building = cultus_domus
+				}
+				
+			}
+		}
+		NOT = { 
+			area_for_scope_province = {
+				NOT = { owned_by = ROOT }
+			}
+		}
+	}
+	on_built = {
+		add_core = owner
+	}
+	on_destroyed = {
+		if = {
+			limit = {
+				has_province_modifier = fidemarx_temple
+			}
+			owner = {
+				subtract_variable = {
+					value = 1
+					which = TemplumFidemarxes
+				}
+			}
+		}
+		area = {
+			remove_province_modifier = fidemarx_temple
+			remove_province_modifier = fidemarx_fortress
+			remove_province_modifier = fidemarx_military_district
+			remove_province_modifier = fidemarx_bureaucratic_district
+		}
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 100
+			highest_supply_limit_in_area = yes
+		}
+	}
+}

@@ -1,0 +1,20 @@
+owner = R23
+controller = R23
+add_core = R23
+trade_goods = copper
+is_city = yes
+culture = taa
+capital = "Ngwezi"
+religion = qanumi
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+1435.11.1 = {
+	owner = R50
+	controller = R50
+}
+add_core = R50
+
+discovered_by = central_african
+discovered_by = south_african

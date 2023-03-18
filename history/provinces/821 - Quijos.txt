@@ -1,0 +1,16 @@
+#821 - Quijos
+
+owner = QTO
+controller = QTO
+add_core = QTO
+is_city = yes
+culture = cara
+discovered_by = south_american
+discovered_by = andean
+religion = inti
+capital = "Baeza"
+trade_goods = cocoa
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2

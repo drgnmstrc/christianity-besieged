@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = arawak
+religion = animism
+technology_group = mesoamerican
+capital = 486
+government_rank = 1
+1431.1.1 = {
+	monarch = {
+		name = "Comones"
+		dynasty = "Bayaqui"
+		adm = 2
+		dip = 3
+		mil = 6
+	}
+}
+

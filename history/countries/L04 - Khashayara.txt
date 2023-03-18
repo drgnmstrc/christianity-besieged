@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = indian_sultanate_reform
+primary_culture = kanauji
+religion = manichaeism
+technology_group = indian
+capital = 524	# Central Doab
+add_accepted_culture = panjabi
+add_accepted_culture = kashmiri
+ 
+#Shah of Khashayara
+1390.1.1 = {
+	monarch = {
+		name = "Vamara Khan"
+		dynasty = "Khashayara"
+		culture = kashmiri
+		birth_date = 1423.9.1
+		ADM = 2
+		DIP = 4
+		MIL = 6
+	}
+}

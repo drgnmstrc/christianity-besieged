@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = burgundian
+religion = germanic
+technology_group = eastern
+capital = 192	# Dijon
+add_army_professionalism = 0.1
+elector = yes
+1444.11.11 = {
+	monarch = {
+		name = "Sigismund III"
+		dynasty = "Bourgund"
+		birth_date = 1426.7.31
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = { name = "Sigismund III"   	type = general	fire = 3	shock = 3	manuever = 3	siege = 1 }
+	}
+}

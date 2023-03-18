@@ -1,0 +1,34 @@
+government = republic
+add_government_reform = greek_democracy_reform
+primary_culture = aigaio
+religion = hellenism
+technology_group = near_east
+government_rank = 1
+capital = 321	# Nicosia
+fixed_capital = 321 # Cannot move capital away from this province & no power cost to move to it
+
+1432.6.29 = {
+	monarch = {
+		name = "Jean II"
+		dynasty = "de Lusignan"
+		birth_date = 1414.5.16
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1444.6.28 = {
+	heir = {
+		name = "Charlotte"
+		monarch_name = "Charlotte"
+		dynasty = "de Lusignan"
+		birth_date = 1444.6.28
+		death_date = 1487.7.16
+		claim = 95
+		adm = 1
+		dip = 0
+		mil = 0
+		female = yes
+	}
+}

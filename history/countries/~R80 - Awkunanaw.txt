@@ -1,0 +1,19 @@
+# No previous file for Awkunanaw
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = igbo
+religion = onyamesom #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5033
+1397.1.1 = {
+	monarch = {
+		name = "Agama"
+		dynasty = "Nnachi"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,18 @@
+#756 - Bahia
+
+culture = tupinamba
+discovered_by = south_american
+religion = sunni
+capital = "Bahia"
+trade_goods = sugar
+hre = no
+base_tax = 3
+base_production = 5
+base_manpower = 2
+owner = Y11
+controller = Y11
+add_core = Y11
+add_local_autonomy = 25
+is_city = yes
+extra_cost = 8
+center_of_trade = 1

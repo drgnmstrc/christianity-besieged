@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = steppe_horde
+technology_group = nomad_group
+religion = vajrayana
+primary_culture = ebodalo
+capital = 2227
+
+#Khans of the Oirats (Kalmyks, Dzungars)
+1428.1.1 = {
+	monarch = {
+		name = "Akur"
+		dynasty = "Tardushid"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}

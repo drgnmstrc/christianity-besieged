@@ -1,0 +1,19 @@
+#1160 - Mandara
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanuri
+religion = bori
+capital = "Wandala"
+is_city = yes
+base_manpower = 1
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+
+
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = saharan

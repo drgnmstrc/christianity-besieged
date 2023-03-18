@@ -1,0 +1,18 @@
+# - Arrial dos Couros
+
+is_city = yes
+owner = M74
+controller = M74
+add_core = M74
+culture = ge
+discovered_by = south_american
+religion = animism
+capital = "Arrial dos Couros"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 15
+native_ferocity = 1
+native_hostileness = 7

@@ -1,0 +1,8 @@
+# No previous file for Gwynedd (J17)
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = western
+primary_culture = welsh
+religion = druidism
+capital = 242
+fixed_capital = 242

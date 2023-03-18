@@ -1,0 +1,19 @@
+# No previous file for Agbarho
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = urhobo
+religion = oghene
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5048
+1397.1.1 = {
+	monarch = {
+		name = "Efetobore"
+		dynasty = "Ogbamremu"
+		adm = 1
+		dip = 2
+		mil = 6
+	}
+}

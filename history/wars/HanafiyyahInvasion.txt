@@ -1,0 +1,37 @@
+name = "Hanafi Invasion of Upper Egypt"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 1231
+}
+
+1442.1.11 = {
+	add_attacker = ETH
+	add_attacker = MAK
+	add_attacker = R56
+	add_attacker = X05
+	add_defender = MAM
+}
+
+1442.5.18 = {
+	add_defender = Y05
+	add_defender = Y10
+	add_defender = Y04
+	add_defender = Y08
+	add_defender = Y07
+	add_defender = Y06
+	rem_defender = MAM
+}
+
+1442.6.13 = {
+	rem_attacker = ETH
+	rem_attacker = MAK
+	rem_attacker = R56
+	rem_attacker = X05
+	rem_defender = Y05
+	rem_defender = Y10
+	rem_defender = Y04
+	rem_defender = Y08
+	rem_defender = Y07
+	rem_defender = Y06
+}

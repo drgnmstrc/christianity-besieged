@@ -1,0 +1,24 @@
+#1127 - Tuat
+
+owner = R14
+controller = R14
+add_core = R14
+is_city = yes
+culture = maqil
+capital = "Tawat"
+religion = mutazila
+trade_goods = livestock
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+discovered_by = ottoman
+discovered_by = sub_saharan
+discovered_by = saharan
+discovered_by = east_african
+
+native_size = 30
+native_ferocity = 4
+native_hostileness = 9

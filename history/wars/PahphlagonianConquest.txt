@@ -1,0 +1,22 @@
+name = "2nd Cappadocian War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 1846
+}
+
+1441.4.8 = {
+	add_attacker = H05
+	add_defender = H06
+	add_defender = H07
+	add_defender = H11
+	add_defender = H26
+}
+
+1441.11.13 = {
+	rem_attacker = H05
+	rem_defender = H06
+	rem_defender = H07
+	rem_defender = H26
+	rem_defender = H11
+}

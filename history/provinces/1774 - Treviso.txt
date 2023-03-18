@@ -1,0 +1,22 @@
+#1774 - Treviso
+owner = H28
+controller = H28
+culture = venixicus
+religion = sol_invictus
+add_core = G06
+add_core = H28
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Treviso" 
+is_city = yes	# Estimated 
+fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

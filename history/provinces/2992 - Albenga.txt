@@ -1,0 +1,24 @@
+# - Albenga
+
+owner = U08
+controller = U08
+add_core = U08
+culture = zeneize
+religion = procuveric
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Albenga"
+is_city = yes # Estimated
+add_core = H39
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

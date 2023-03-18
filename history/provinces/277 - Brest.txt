@@ -1,0 +1,22 @@
+#Brest-Litovsk
+
+owner = MAZ
+controller = MAZ
+add_core = MAZ
+culture = polish
+religion = rodoptr
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = wool
+base_manpower = 2
+capital = "Brest-Litovsk"
+is_city = yes 
+add_core = LIT
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = scandinavian_tech
+discovered_by = eirun

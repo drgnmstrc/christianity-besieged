@@ -1,0 +1,22 @@
+#267 - Plsen
+
+owner = BOH
+controller = BOH
+add_core = BOH
+capital = "Plzen"
+culture = czech
+religion = slavic
+trade_goods = naval_supplies
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 1
+is_city = yes
+fort_15th = yes
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

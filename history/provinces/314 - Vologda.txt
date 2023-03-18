@@ -1,0 +1,16 @@
+#314 - Vologda
+
+tribal_owner = Z06
+culture = slovenski
+religion = slavic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Vologda"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

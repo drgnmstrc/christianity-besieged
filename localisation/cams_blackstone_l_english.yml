@@ -1,0 +1,8 @@
+﻿l_english:
+ blackstone.t:0 "al-Hajaru al-Aswad"
+ blackstone.d:0 "It seems that, through conquest, we have found ourselves in possession of the al-Hajaru al-Aswad, or the Black Stone, an important artifact to the Islamic faith. What should we do with this?"
+ blackstone.a:0 "This belongs in [Root.Capital.GetName]!"
+ blackstone.b:0 "This belongs back in the Kaaba!"
+ blackstone.c:0 "This belongs to the Bayt Allah!"
+ blackstone.d:0 "This belongs in Muthalia!"
+ blackstone.e:0 "This rock is of no importance to us."

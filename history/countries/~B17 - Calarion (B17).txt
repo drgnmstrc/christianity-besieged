@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = breton
+religion = anglican
+technology_group = roman
+capital = 4376
+
+1434.2.5 = {
+	monarch = {
+		name = "David"
+		dynasty = "Penthièvre"
+		birth_date = 1420.1.9
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

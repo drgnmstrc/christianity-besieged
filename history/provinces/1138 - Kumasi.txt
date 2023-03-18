@@ -1,0 +1,15 @@
+#1138 - Kumasi
+culture = aka
+base_manpower = 3
+religion = onyamesom #Fetishism
+trade_goods = gold
+hre = no
+base_tax = 4 
+base_production = 4
+discovered_by = sub_saharan
+discovered_by = saharan
+owner = ASH
+controller = ASH 
+add_core = ASH
+capital = "Kumasi"
+is_city = yes 

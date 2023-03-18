@@ -1,0 +1,26 @@
+#4241 - Wenden
+
+owner = KUR
+controller = KUR
+add_core = KUR
+culture = curonian
+religion = rodoptr
+add_core = V13
+capital = "Wenden"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+#estate = estate_church #Kokenhusen
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = nomad_group

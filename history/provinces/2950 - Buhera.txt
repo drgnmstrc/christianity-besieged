@@ -1,0 +1,17 @@
+#2950 - Buhera
+
+owner = R32
+controller = R32
+add_core = R32
+culture = tshwa
+religion = qanumi
+capital = "Buhera"
+is_city = yes
+base_manpower = 2
+trade_goods = ivory
+hre = no
+base_tax = 2
+base_production = 2
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

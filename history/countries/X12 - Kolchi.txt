@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = georgian
+religion = syriac
+technology_group = near_east
+capital = 422 # Kutaisi
+government_rank = 1
+
+1401.1.1 = {
+	monarch = {
+		name = "Abraams"
+		dynasty = "Mitridat'e"
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}

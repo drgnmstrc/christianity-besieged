@@ -1,0 +1,16 @@
+government = native
+add_government_reform = native_suomenusko_tribe
+government_rank = 1
+technology_group = scandinavian_tech
+religion = suomenusko
+primary_culture = finnish
+capital = 29
+1444.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

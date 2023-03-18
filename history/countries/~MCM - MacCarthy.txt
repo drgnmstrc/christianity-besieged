@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = irish_iqta
+government_rank = 1
+technology_group = western
+primary_culture = irish
+religion = shiite
+capital = 4378	# Kingdom of Desmond
+historical_friend = R04
+religious_school = jafari_school
+
+1428.1.1 = {
+	monarch = {
+		name = "Abdullhain ibhn Ali"
+		dynasty = "Saulfid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

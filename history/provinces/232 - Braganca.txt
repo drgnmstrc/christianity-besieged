@@ -1,0 +1,25 @@
+#232 - Bragança
+
+owner = LON
+controller = LON
+add_core = LON
+culture = lusitanian
+religion = liritism
+capital = "Bragança"
+trade_goods = wine
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+#estate = estate_nobles
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

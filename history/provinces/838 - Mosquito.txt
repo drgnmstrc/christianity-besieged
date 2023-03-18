@@ -1,0 +1,14 @@
+#838 - Mosquito
+is_city = yes
+culture = miskito
+owner = M39
+controller = M39
+add_core = M39
+religion = quetzacoatl
+capital = "Mosquito" 
+trade_goods = coffee
+hre = no 
+base_tax = 4
+base_production = 4
+base_manpower = 4
+discovered_by = mesoamerican

@@ -1,0 +1,125 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 150  140  163 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	maritime_ideas
+	innovativeness_ideas
+	offensive_ideas
+	exploration_ideas
+	economic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Christien #2" = 160
+	"Theode #2" = 80
+	"Juliós #1" = 60
+	"Gallón #0" = 40
+	"Rex #0" = 10
+	"Téós #0" = 10
+	"Marrus #1" = 10
+	"Tertulus #0" = 10
+	"Bastión #0" = 5
+	"Jacques #0" = 5
+	"Bertrand #0" = 5
+	"Cicerro #0" = 5
+	"Catallós #2" = 1
+	"Aldrein #1" = 1
+	"Valens #1" = 1
+	"Seneca #0" = 0
+	"Alphonse #0" = 0
+	"Ambroise #0" = 0
+	"Allas #0" = 0
+	"Agóst #0" = 0
+	"Ronualçion #0" = 0
+	"Riwallón #0" = 0
+	"Pêrre #0" = 0
+	"Loi #0" = 0
+	"Pêrróell #0" = 0
+	"Iarçión #0" = 0
+	"Góéroç #0" = 0
+	"Mércettór #0" = 0
+	"Nasica #0" = 0
+	"Ursus #0" = 0
+	"Octavianus #0" = 0
+	"Longinus #0" = 0
+	"Fronto #0" = 0
+	"Cyngar #0" = 0
+	"Gnaeus #0" = 0
+	"Lupius #0" = 0
+	"Dentatus #0" = 0
+	"Aratus #0" = 0
+	"Tiberius #0" = 0
+	"Jules #0" = 0
+	"Marc #0" = 0
+	"Titus #0" = 0
+	"Maximilien #0" = 0
+	"Libo #0" = 0
+	"Cotta #0" = 0
+	"Bledrig #0" = 0
+	"Beli #0" = 0
+	"Petronax #0" = 0
+	"Loïc #0" = 0
+	"Damasus #0" = 0
+	"Scipio #0" = -10
+	"Isabelle #0" = -1
+	"Elwen #0" = -1
+	"Gaela #0" = -10
+	"Beladore #0" = -10
+	"Adelaide #0" = -10
+}
+
+leader_names = {
+	Dampierre Deconinck
+	Goethals
+	Nevers
+	Penen
+	"Van Bellegem" "Van Gulik"
+	"Van Herstal" "Van Leeuwergem"
+	"Van Lichtervelde" "Van Nieuwland"
+	"Van Oudenaarde" "Van Petershem"
+	"Van Raveschoot" "Van Renesse"
+}
+
+ship_names = {
+	Antwerpen
+	"Boudewijn I" Brugge
+	"De Vlaamse leeuw"
+	Gent Guldensporenslag "Gwijde van Dampierre" 
+	Hasselt
+	"Jacob van Artevelde"
+	"Karel de Goede" "Kerel van Vlaanderen"
+	Leuven
+	"Manneken Pis" Mechelen
+	"Pieter de Coninck"
+	Schelde
+	"Tijl Uilenspiegel"
+	Vlaanderen
+}
+
+army_names = {
+	"Leger van $PROVINCE$"  }
+
+fleet_names = {  "Vloot van $PROVINCE$" 
+	 }

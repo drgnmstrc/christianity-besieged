@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = tribal_theocracy
+primary_culture = ning
+religion = qanumi
+technology_group = south_african
+capital = 1185
+religious_school = hado_school
+government_rank = 1
+1443.1.1 = {
+	monarch = {
+		name = "||Ae|nan"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}

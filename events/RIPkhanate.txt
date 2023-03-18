@@ -1,0 +1,196 @@
+namespace = ripkhanate
+ 
+country_event = {
+	id = ripkhanate.0
+	title = "ripkhanate.t"
+	desc = "ripkhanate.d"
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = Z14
+		NOT = { is_year = 1500 }
+	}
+	immediate = {
+		hidden_effect = {
+			release = BAL
+			every_owned_province = {
+				limit = {
+					culture = baluchi
+				}
+				cede_province = BAL
+			}
+			release = SIS
+			release_all_subjects = yes
+			Z19 = {
+				country_event = {
+					id = ripkhanate.1
+				}
+			}
+		}
+	}
+	option = {
+		name = "ripkhanate.a"
+		ai_chance = { factor = 0 }
+		define_ruler = {
+			name = "Tuq-Timur"
+			dynasty = "Timurid"
+			adm = 1
+			dip = 4
+			mil = 1
+			fixed = yes
+			male = yes
+			age = 30
+			claim = 10
+		}
+		declare_war_with_cb = {
+			who = BAL
+			casus_belli = cb_annex
+		}
+		declare_war_with_cb = {
+			who = SIS
+			casus_belli = cb_disloyal_vassal
+		}
+		declare_war_with_cb = {
+			who = Z18
+			casus_belli = cb_disloyal_vassal
+		}
+		declare_war_with_cb = {
+			who = AFG
+			casus_belli = cb_disloyal_vassal
+		}
+	}
+	option = {
+		name = "ripkhanate.b"
+		ai_chance = { factor = 100 }
+		change_tag = SND
+		set_government_rank = 1
+		define_ruler = {
+			name = "Bhati"
+			dynasty = "Thatidi"
+			adm = 3
+			dip = 3
+			mil = 3
+			male = yes
+			age = 43
+			claim = 65
+		}
+	}
+}
+
+country_event = {
+	id = ripkhanate.1
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		if = {
+			limit = {
+				was_player = yes
+				PER = {
+					is_neighbor_of = Z19
+				}
+			}
+			country_event = {
+				id = ripkhanate.2
+			}
+		}
+		if = {
+			limit = {
+				PER = {
+					was_player = yes
+					is_neighbor_of = Z19
+				}
+			}
+			PER = {
+				country_event = {
+					id = ripkhanate.3
+				}
+			}
+		}
+		if = {
+			limit = {
+				was_player = no
+				PER = {
+					was_player = no
+					is_neighbor_of = Z19
+				}
+				SND = {
+					was_player = no
+				}
+				Z14 = {
+					was_player = no
+				}
+			}
+			every_owned_province = {
+				cede_province = PER
+			}
+		}
+		if = {
+			limit = {
+				was_player = no
+				PER = {
+					was_player = no
+					is_neighbor_of = Z19
+				}
+				OR = {
+					SND = {
+						was_player = yes
+					}
+					Z14 = {
+						was_player = yes
+					}
+				}
+			}
+			PER = {
+				vassalize = Z19
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ripkhanate.2
+	title = "ripkhanate.2t"
+	desc = "ripkhanate.2d"
+	is_triggered_only = yes
+	option = {
+		name = "ripkhanate.2a"
+		PER = {
+			vassalize = Z19
+		}
+		add_stability = 1
+	}
+	option = {
+		name = "ripkhanate.2b"
+		PER = {
+			add_opinion = {
+				who = Z19
+				modifier = resisting_glorious_reunion
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ripkhanate.3
+	title = "ripkhanate.3t"
+	desc = "ripkhanate.3d"
+	is_triggered_only = yes
+	option = {
+		name = "ripkhanate.3a"
+		vassalize = Z19
+	}
+	option = {
+		name = "ripkhanate.3b"
+		inherit = Z19
+		add_stability = -1
+	}
+	option = {
+		name = "ripkhanate.3c"
+		Z19 = {
+			add_opinion = {
+				who = PER
+				modifier = abandoned_ancient_suzerainty
+			}
+		}
+	}
+}

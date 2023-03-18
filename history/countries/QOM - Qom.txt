@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = persian
+add_accepted_culture = azerbaijani
+religion = manichaeism
+technology_group = near_east
+capital = 2213 # Qom
+
+1442.1.1 = { #Appointed as governor of Sultaniyya, Qazvin, Rayy and Qom, but takes up tribute from Kashan, Qazvin, Sari, Isfahan, Natanz, Firuzkuh, Sultaniyya, Tarum, Azerbaijan as well.
+	monarch = {
+		name = "Muhammad bin Baysonqor"
+		birth_date = 1417.1.1
+		dynasty = "Timurid"
+		adm = 3
+		dip = 2
+		mil = 4
+		culture = uzbehk
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}

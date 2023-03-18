@@ -1,0 +1,23 @@
+#Lolland-Falster
+
+owner = N03
+controller = N03
+add_core = N03
+culture = heruli
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Nykobing"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

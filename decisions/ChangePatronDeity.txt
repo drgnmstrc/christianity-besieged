@@ -1,0 +1,43 @@
+country_decisions = {
+
+	change_patron_deity = {
+		major = yes
+		potential = {
+			OR = {
+				religion = walianitas
+				religion = hellenism
+			}
+		}
+		allow = {
+			is_at_war = no			
+			dip_power = 25
+			custom_trigger_tooltip = {
+				tooltip = not_no_deity
+				NOT = { has_personal_deity = }
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_changed_deity
+				NOT = { has_country_modifier = changed_deity }
+			}
+		}
+		effect = {
+			add_dip_power = -25
+			custom_tooltip = resets_deity
+			hidden_effect = {
+				change_personal_deity = 
+			}
+			add_country_modifier = {
+				name = changed_deity
+				duration = 365
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+		ai_importance = 0
+	}
+}

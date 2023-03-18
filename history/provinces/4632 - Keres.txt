@@ -1,0 +1,12 @@
+# No previous file for Keres
+
+culture = pueblo
+religion = totemism
+capital = "Zia"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+discovered_by = north_american

@@ -1,0 +1,22 @@
+# - Matamba
+
+owner = R23
+controller = R23
+add_core = R23
+culture = mbundu
+religion = nzambiism #Fetishism
+capital = "Matamba"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+add_core = NDO
+add_province_modifier = {
+	name = liberated_slaving
+	duration = 27523
+}
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = south_african

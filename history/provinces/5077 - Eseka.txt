@@ -1,0 +1,16 @@
+# No previous file for Eseka
+culture = basaa
+religion = byeri
+capital = "Eseka"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

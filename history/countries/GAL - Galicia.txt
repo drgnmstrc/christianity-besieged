@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = galician
+religion = liritism
+technology_group = ottoman
+capital = 206	# Galicia
+historical_friend = J05
+historical_friend = LON
+historical_friend = J08
+
+1444.1.1 = {
+	monarch = {
+		name = "Astorias"
+		dynasty = "Caperdenax"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}

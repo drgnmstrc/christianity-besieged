@@ -1,0 +1,17 @@
+government = native
+add_government_reform = native_suomenusko_tribe
+government_rank = 1
+technology_group = scandinavian_tech
+religion = suomenusko
+primary_culture = karelian
+capital = 313
+
+1444.11.11 = {
+	monarch = {
+		name = "Aarne"
+		dynasty = "Vatanen"
+		adm = 1
+		dip = 3
+		mil = 0
+	}
+}

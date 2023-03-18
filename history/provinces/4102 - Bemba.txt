@@ -1,0 +1,13 @@
+owner = R29
+controller = R29
+add_core = R29
+culture = bemba
+religion = qanumi
+trade_goods = cloth
+capital = "Bemba"
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+discovered_by = central_african
+discovered_by = south_african

@@ -1,0 +1,21 @@
+#2340 - Grane
+
+owner = Y13
+controller = Y13
+add_core = Y13
+culture = bartazig
+religion = manichaeism
+capital = "Grane" #old name for Kuwait
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = ALH
+add_core = BSR
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = east_african

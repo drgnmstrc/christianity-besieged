@@ -1,0 +1,19 @@
+#Western Småland - Tiohärads Lagsaga, ie: Värend, Finnveden och Njudung
+
+add_core = N28
+owner = N28
+controller = N28
+culture = wylfinge
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Växjö"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

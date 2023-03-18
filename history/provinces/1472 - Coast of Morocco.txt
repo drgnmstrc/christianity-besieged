@@ -1,0 +1,8 @@
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = saharan

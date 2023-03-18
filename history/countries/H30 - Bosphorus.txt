@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = greek_tyranny_reform
+primary_culture = pondii
+add_accepted_culture = hungarian
+religion = hellenism
+technology_group = near_east
+capital = 285
+government_rank = 1
+
+1410.1.1 = {
+	monarch = {
+		name = "Diophantus"
+		dynasty = "Mithridates"
+		adm = 1
+		dip = 1
+		mil = 3
+	}
+}

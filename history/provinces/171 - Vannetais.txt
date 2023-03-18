@@ -1,0 +1,19 @@
+# 171 - Vannetais
+
+owner = H01
+controller = H01 
+capital = "Vannes"
+is_city = yes
+culture = breton
+religion = walianitas
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = fish
+base_manpower = 4
+add_core = H01
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

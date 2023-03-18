@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_federation
+primary_culture = kurdish
+religion = manichaeism
+technology_group = near_east
+capital = 407
+add_army_professionalism = 0.05
+government_rank = 1
+1444.1.1 = {
+	monarch = {
+		name = "Sabrisho"
+		dynasty = "Yokhannan"
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}

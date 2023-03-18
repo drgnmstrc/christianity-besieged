@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = ottoman
+religion = sunni
+primary_culture = almukhidi
+government_rank = 1
+capital = 354	# Tripoli
+fixed_capital = 354 # Cannot move capital away from this province & no power cost to move to it
+religious_school = hanafi_school
+#Based in Djerba
+
+1444.1.1 = {
+	monarch = {
+		name = "Oruç Reis"
+		dynasty = "Yakubid"
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}

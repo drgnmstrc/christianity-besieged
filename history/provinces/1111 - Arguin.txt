@@ -1,0 +1,14 @@
+#1111 - Arguin
+discovered_by = sub_saharan
+culture = imraguen
+religion = sunni
+capital = "Arguin"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 2
+base_manpower = 1
+owner = R08
+controller = R08
+add_core = R08
+discovered_by = saharan

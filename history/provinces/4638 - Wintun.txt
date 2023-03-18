@@ -1,0 +1,19 @@
+# No previous file for Wintun
+
+
+culture = mictan
+religion = atzintlicoatl
+owner = M32
+controller = M32
+add_core = M32
+is_city = yes
+capital = "Wintun"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = north_american

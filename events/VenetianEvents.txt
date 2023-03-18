@@ -1,0 +1,663 @@
+namespace = veniceselection
+
+country_event = {
+	id = veniceselection.800
+	title = elections.800.t
+	desc = elections.800.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_government_attribute = lottery_election
+		has_reform = venetian_tyranny_reform
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					random_gender = yes
+					min_age = 20
+					max_age = 75
+					adm = 2
+					dip = -1
+					mil = -1
+					option = 0
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_a_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = 2
+					dip = -1
+					mil = -1
+					option = 0
+				}
+			}
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = 2
+					mil = -1
+					random_gender = yes
+					option = 1
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_b_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = 2
+					mil = -1
+					option = 1
+				}
+			}
+			if = {
+				limit = {
+					has_active_policy = mandatory_service
+				}
+				
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = -1
+					mil = 2
+					random_gender = yes
+					option = 2
+				}
+			}
+			else = {
+				define_exiled_ruler = {
+					exiled_as = lottery_candidate_c_@ROOT
+					min_age = 20
+					max_age = 75
+					adm = -1
+					dip = -1
+					mil = 2
+					option = 2
+				}
+			}
+		}
+	}
+	
+	after = {
+		clear_exiled_ruler = lottery_candidate_a_@ROOT
+		clear_exiled_ruler = lottery_candidate_b_@ROOT
+		clear_exiled_ruler = lottery_candidate_c_@ROOT
+	}
+	
+	option = {
+		name = elections.800.a
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = lottery_candidate_a_@ROOT
+		add_republican_tradition = -25
+		if = {
+			limit = { 
+				has_faction = mr_guilds 
+			}
+			add_faction_influence = {
+				faction = mr_guilds
+				influence = 20
+			}				
+		}
+		custom_tooltip = lottery_candidate_bonus_one
+	}
+	option = {
+		name = elections.800.b
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = lottery_candidate_b_@ROOT
+		add_republican_tradition = -25
+		if = {
+			limit = { 
+				has_faction = mr_traders 
+			}
+			add_faction_influence = {
+				faction = mr_traders
+				influence = 20
+			}				
+		}
+		custom_tooltip = lottery_candidate_bonus_one
+	}
+	option = {
+		name = elections.800.c
+		ai_chance = {
+			factor = 0
+		}
+		set_ruler = lottery_candidate_c_@ROOT
+		add_republican_tradition = -25
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 20
+			}				
+		}
+		custom_tooltip = lottery_candidate_bonus_one
+	}
+}
+namespace = venetianEvents
+country_event = { #Albalupus dies
+	id = venetianEvents.0
+	title = venetianEvents.t
+	desc = venetianEvents.d
+	fire_only_once = yes
+	trigger = {
+		NOT = { has_leader = "Albalupus ex Helvetica" }
+		tag = H28
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	immediate = {
+		hidden_effect = {
+			set_country_flag = albalupus_dead
+		}
+	}
+	option = { #Today, a hero has fallen.
+		name = venetianEvents.a
+		add_prestige = 15
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #He is truly an icon of what it means to be Roman.
+		name = venetianEvents.b
+		trigger = {
+			OR = {
+				religion = sol_invictus
+				religion = noniustian
+			}
+		}
+		add_stability = 1
+		change_personal_deity = albalupus
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { #The Question of Mithraism
+	id = venetianEvents.1
+	title = venetianEvents.1t
+	desc = {
+		trigger = {
+			religion = noniustian
+		}
+		desc = venetianEvents.1da
+	}
+	desc = {
+		trigger = {
+			NOT = { religion = noniustian }
+		}
+		desc = venetianEvents.1db
+	}
+	is_triggered_only = yes
+	option = { #We unite with our solar bretheren to reclaim the Empires of Light!
+		name = venetianEvents.1a
+		trigger = {
+			religion = noniustian
+		}
+		112 = { change_religion = noniustian }
+		Z21 = { change_religion = noniustian }
+		140 = {
+			change_religion = noniustian
+			add_reform_center = noniustian
+		}
+		create_union = Z21
+		add_stability_or_adm_power = yes
+	}
+	option = { #The Sun has always preferred the Empire of Rome.
+		name = venetianEvents.1b
+		trigger = {
+			NOT = { religion = noniustian }
+		}
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = roman_sol_pride
+			duration = 10950
+		}
+	}
+}
+country_event = { #The Reconquest of Rome
+	id = venetianEvents.2
+	title = venetianEvents.2t
+	desc = venetianEvents.2d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	option = { #We have been restored to Rome!
+		name = venetianEvents.2a
+		add_stability_or_adm_power = yes
+		add_stability_or_adm_power = yes
+		add_mil_power = 25
+		118 = {
+			add_core = ROOT
+			move_capital_effect = yes
+		}
+	}
+	option = { #A great day, but Venetia remains supreme.
+		name = venetianEvents.2b
+		add_stability_or_adm_power = yes
+		add_stability_or_adm_power = yes
+		add_mil_power = 25
+		118 = {
+			add_core = ROOT
+		}
+	}
+}
+province_event = { #Who to dedicate the temple to
+	id = venetianEvents.3
+	title = venetianEvents.3t
+	desc = venetianEvents.3d
+	picture = ST_PETERS_CHURCH_eventPicture
+	is_triggered_only = yes
+	option = { #Dedicate it to Aurelian, God-Emperor of Illumination
+		name = venetianEvents.3a
+		trigger = {
+			owner = {
+				NOT = { has_country_flag = aurelian_deified }
+			}
+		}
+		owner = {
+			set_country_flag = aurelian_deified
+		}
+	}
+	option = { #Dedicate it to Tanat, the Maiden Mother
+		name = venetianEvents.3b
+		trigger = {
+			owner = {
+				NOT = { has_country_flag = tamat_deified }
+			}
+		}
+		owner = {
+			set_country_flag = tamat_deified
+		}
+	}
+	option = { #Dedicate it to Oromasdes, God of Wisdom
+		name = venetianEvents.3c
+		trigger = {
+			owner = {
+				NOT = { has_country_flag = oromasdes_deified }
+				OR = {
+					religion = noniustian
+					religion = walianitas
+				}
+			}
+		}
+		owner = {
+			set_country_flag = oromasdes_deified
+		}
+	}
+	option = { #Dedicate it to Victorinus, God-Emperor and Savior of Rome
+		name = venetianEvents.3e
+		owner = {
+			set_country_flag = victorinus_deified
+		}
+		trigger = {
+			owner = {
+				NOT = { has_country_flag = victorinus_deified }
+				OR = {
+					religion = sol_invictus
+					religion = walianitas
+				}
+			}
+		}
+	}
+	option = { #Give tribute to the Roman pantheon as a whole
+		name = venetianEvents.3f
+		owner = {
+			add_stability_or_adm_power = yes
+			add_prestige = 10
+			add_legitimacy = 5
+			add_republican_tradition = 5
+		}
+	}
+	option = { #Dedicate it to yourself
+		name = venetianEvents.3g
+		owner = {
+			add_legitimacy = 15
+			add_republican_tradition = -5
+			add_prestige = 25
+		}
+	}
+}
+
+province_event = { #Fidemarx of [Root.GetName]
+	id = venetianEvents.4
+	title = venetianEvents.4t
+	desc = venetianEvents.4d
+	picture = FORT_eventPicture
+	trigger = {
+		owner = { has_roman_religion = yes }
+		has_building = cultus_domus
+		NOT = {
+			OR = {
+				has_province_modifier = fidemarx_temple
+				has_province_modifier = fidemarx_fortress
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	option = { #Dedicate the structure to the pantheon and Rome itself
+		name = venetianEvents.4a
+		add_province_modifier = {
+			name = fidemarx_temple
+			duration = -1
+		}
+		area = {
+			add_province_modifier = {
+				name = fidemarx_bureaucratic_district
+				duration = -1
+			}
+		}
+		custom_tooltip = romanization_edict_tt
+		hidden_effect = {
+			owner = {
+				change_variable = {
+					which = TemplumFidemarxes
+					value = 1
+				}
+			}
+		}
+	}
+	option = { #Use the extra space for a stronger garrison and greater sulf-sufficient taxation systems
+		name = venetianEvents.4b
+		add_province_modifier = {
+			name = fidemarx_fortress
+			duration = -1
+		}
+		area = {
+			add_province_modifier = {
+				name = fidemarx_military_district
+				duration = -1
+			}
+		}
+	}
+}
+
+province_event = { #Romanization effect on a province
+	id = venetianEvents.5
+	title = venetianEvents.5t
+	desc = {
+		trigger = {
+			NOT = { has_roman_religion = yes }
+		}
+		desc = venetianEvents.5da
+	}
+	desc = {
+		trigger = {
+			has_roman_religion = yes
+			NOT = { culture_group = ROOT }
+		}
+		desc = venetianEvents.5db
+	}
+	picture = FORT_eventPicture
+	trigger = {
+		has_state_edict = romanization_edict
+		OR = {
+			AND = {
+				NOT = { has_roman_religion = yes }
+				owner = {
+					has_roman_religion = yes
+					NOT = { religion = noniustian }
+				}
+			}
+			NOT = { culture_group = ROOT }
+			AND = {
+				OR = {
+					NOT = { religion = noniustian }
+					NOT = { religion = manichaean }
+					NOT = { has_roman_religion = yes }
+				}
+				owner = { religion = noniustian }
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.75
+			owner = { stability = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			owner = { prestige = 80 }
+		}
+		modifier = {
+			factor = 0.75
+			owner = {
+				OR = {
+					legitimacy = 90
+					republican_tradition = 90
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { devastation = 1 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { owner = { stability = -2 } }
+		}
+		modifier = {
+			factor = 1.5
+			devastation = 35
+		}
+		modifier = {
+			factor = 1.5
+			devastation = 75
+		}
+		modifier = {
+			factor = 1.5
+			devastation = 95
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				OR = {
+					region = italy_region
+					region = france_region
+					region = british_isles_region
+					region = south_german_region
+					region = balkan_region
+					region = maghreb_region
+					region = iberia_region
+				}
+			}
+		}
+	}
+	option = { #Praise the Gods!
+		name = venetianEvents.5a
+		trigger = { NOT = { has_roman_religion = yes } }
+		if = {
+			limit = {
+				owner = {
+					has_roman_religion = yes
+					NOT = { religion = noniustian }
+				}
+			}
+			random_list = {
+				33 = {
+					change_religion = sol_invictus
+				}
+				33 = {
+					change_religion = procuveric
+				}
+				33 = {
+					change_religion = walianitas
+				}
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					religion = noniustian
+				}
+			}
+			random_list = {
+				20 = {
+					change_religion = sol_invictus
+				}
+				20 = {
+					change_religion = procuveric
+				}
+				20 = {
+					change_religion = walianitas
+				}
+				20 = {
+					change_religion = manichaeism
+				}
+				20 = {
+					change_religion = noniustian
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_terrain = forest
+			}
+			random = {
+				chance = 50
+				change_religion = silvani
+			}
+		}
+	}
+	option = { #Praise Rome!
+		name = venetianEvents.5b
+		trigger = {
+			owner = { culture_group = italo_gallic }
+			OR = {
+				has_roman_religion = yes
+				religion = noniustian
+			}
+		}
+		if = {
+			limit = {
+				region = france_region
+			}
+			change_culture = gaulish
+		}
+		else_if = { 
+			limit = {
+				region = british_isles_region
+			}
+			change_culture = breton
+		}
+		else_if = { 
+			limit = {
+				region = iberia_region
+			}
+			change_culture = hispani
+		}
+		else_if = { 
+			limit = {
+				region = balkan_region
+			}
+			change_culture = illyranus
+		}
+		else_if = { 
+			limit = {
+				region = carpathia_region
+			}
+			change_culture = dacian
+		}
+		else_if = {
+			limit = {
+				culture_group = byzantine
+			}
+			change_culture = graeci
+		}
+		else_if = {
+			limit = {
+				OR = {
+					region = south_german_region
+					region = north_german_region
+				}
+			}
+			change_culture = alemannus
+		}
+		else = {
+			change_culture = roman
+		}
+	}
+}
+
+country_event = { #Respecting the Privilegiis Venetia
+	id = venetianEvents.6
+	title = venetianEvents.6t
+	desc = venetianEvents.6d
+	picture = FORT_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Respect the Privilegiis Venetia
+		name = venetianEvents.6a
+		add_country_modifier = {
+			name = rome_respecting_venetia
+			duration = -1
+		}
+		112 = { cede_province = H28 }
+		1774 = { cede_province = H28 }
+		vassalize = H28
+		ai_chance = {
+			factor = 25
+		}
+	}
+	option = { #Then the center of Rome shall be Venetia!
+		name = venetianEvents.6b
+		add_prestige = -5
+		112 = {
+			move_capital_effect = yes
+		}
+		ai_chance = {
+			factor = 25
+		}
+	}
+	option = { #We have moved past the need to hide in the lagoon. Now submit.
+		name = venetianEvents.6c
+		add_stability = -2
+		remove_government_reform = privilegiis_venetia
+		112 = {
+			add_nationalism = 12
+			add_province_modifier = {
+				name = disenfranchised_venetia
+				duration = 9125
+			}
+		}
+		if = {
+			limit = {
+				118 = { NOT = { is_capital = yes } }
+			}
+			118 = {
+				move_capital_effect = yes
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

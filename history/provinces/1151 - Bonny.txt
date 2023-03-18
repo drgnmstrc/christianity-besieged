@@ -1,0 +1,20 @@
+#1151 - Bonny
+add_core = R63
+owner = R63
+controller = R63
+culture = ibibio
+religion = inam
+capital = "Obot Okon Ita"
+trade_goods = ivory
+hre = no
+is_city = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan
+

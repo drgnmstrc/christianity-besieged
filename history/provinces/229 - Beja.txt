@@ -1,0 +1,21 @@
+#229 - Baixo Alentejo
+
+owner = J09
+controller = J09
+add_core = J09
+culture = aybirean
+religion = sunni
+capital = "Beja"
+trade_goods = livestock
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = east_african

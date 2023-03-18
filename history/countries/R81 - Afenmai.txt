@@ -1,0 +1,20 @@
+# No previous file for Afenmai
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = afenmai
+religion = itan #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5097
+government_rank = 1
+1440.1.1 = {
+	monarch = {
+		name = "Agbazika"
+		dynasty = "Yisa Mni"
+		dip = 4
+		adm = 3
+		mil = 5
+	}
+}

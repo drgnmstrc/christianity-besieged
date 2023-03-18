@@ -1,0 +1,26 @@
+#343 - Fez
+
+owner = R02
+controller = R02
+add_core = R02
+culture = zenati
+religion = mutazila
+capital = "Fez"
+trade_goods = cloth
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,27 @@
+government = tribal
+add_government_reform = berber_tribe
+primary_culture = zenati
+religion = sunni
+technology_group = saharan
+capital = 4957
+religious_school = shafii_school
+
+1420.1.1 = {
+	monarch = {
+		name = "Abdalhaqq II"
+		dynasty = "Marinid"
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+}
+
+1430.1.1 = {
+	heir= {
+		name = "Mohammed ibn Ali Amrani-Joutey"
+		dynasty = "Idrisid"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}

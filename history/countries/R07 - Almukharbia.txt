@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+primary_culture = almukhidi
+religion = sunni
+technology_group = east_african
+capital = 356
+religious_school = hanafi_school
+1432.1.1 = {
+	monarch = {
+		name = "Qarlssyn"
+		dynasty = "Nariinid"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

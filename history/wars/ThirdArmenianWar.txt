@@ -1,0 +1,35 @@
+name = "Sophenian War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2303
+}
+
+1443.9.12 = {
+	add_attacker = ARM
+	add_attacker = PER
+	add_attacker = SRV
+	add_attacker = X13
+	add_attacker = KRY
+	add_defender = H05
+	add_defender = H11
+	add_defender = H07
+	add_defender = X03
+}
+
+1443.12.9 = {
+	add_defender = H10
+}
+
+1444.5.13 = {
+	rem_attacker = ARM
+	rem_attacker = PER
+	rem_attacker = SRV
+	rem_attacker = X13
+	rem_attacker = KRY
+	rem_defender = H05
+	rem_defender = H11
+	rem_defender = H07
+	rem_defender = X03
+	rem_defender = H10
+}

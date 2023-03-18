@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = sahrawi
+religion = sunni
+technology_group = ottoman
+capital = 4563
+religious_school = shafii_school
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad XII"
+		dynasty = "Almohad"
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}

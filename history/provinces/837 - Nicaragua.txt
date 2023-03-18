@@ -1,0 +1,18 @@
+#837 - Nicaragua
+
+owner = M52
+controller = M52
+add_core = M52
+is_city = yes
+culture = miskito
+religion = quetzacoatl
+capital = "Nicaragua"
+trade_goods = cocoa
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = mesoamerican

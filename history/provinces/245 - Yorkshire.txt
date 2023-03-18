@@ -1,0 +1,21 @@
+#245 - Yorkshire - West Riding
+
+owner = N10
+controller = N10
+add_core = N10
+culture = hjallish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "York"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+extra_cost = 8
+center_of_trade = 1

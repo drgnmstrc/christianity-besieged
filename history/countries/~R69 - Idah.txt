@@ -1,0 +1,20 @@
+# No previous file for Idah
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = igala
+religion = itan #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1152
+1397.1.1 = {
+	monarch = {
+		name = "Ebulejonu"
+		dynasty = "Lgala"
+		female = yes
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+}

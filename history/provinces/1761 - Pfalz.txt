@@ -1,0 +1,20 @@
+#1761 - Pfalz
+
+capital = "Worms"
+culture = swabian
+religion = germanic
+trade_goods = wine
+owner = G28
+base_tax = 6 
+base_production = 6
+base_manpower = 3
+is_city = yes
+controller = G28
+add_core = G28
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

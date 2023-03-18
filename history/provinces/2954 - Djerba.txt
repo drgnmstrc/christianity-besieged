@@ -1,0 +1,26 @@
+#2954 - Djerba
+
+owner = Y03
+controller = Y03 
+culture = sicilian
+religion = ashabi
+capital = "Djerba"
+trade_goods = grain
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+fort_15th = yes #Borj El K'bir
+is_city = yes
+add_core = TRP
+add_core = Y03
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

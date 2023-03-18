@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = thuringen
+religion = germanic
+technology_group = western
+capital = 2965
+fixed_capital = 2965
+
+1444.11.11 = {
+	monarch = {
+		name = "Otto"
+		dynasty = "Plauentin"
+		birth_date = 1422.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

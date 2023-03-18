@@ -1,0 +1,18 @@
+#1190 - Zumbo
+
+owner = R31
+controller = R31
+add_core = R31
+culture = ning
+religion = qanumi
+add_core = R41
+is_city = yes
+capital = "Chikova"
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african

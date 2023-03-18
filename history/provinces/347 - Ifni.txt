@@ -1,0 +1,23 @@
+#347 - Ifni
+
+owner = TFL
+controller = TFL
+add_core = TFL
+add_core = R02
+add_core = R03
+culture = sahrawi
+religion = sunni
+capital = "Sidi Ifni"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = saharan
+discovered_by = east_african

@@ -1,0 +1,18 @@
+# No previous file for Ohlone
+
+culture = mictan
+religion = atzintlicoatl
+owner = M21
+controller = M21
+add_core = M21
+is_city = yes
+capital = "Ohlone" 
+trade_goods = fish 
+hre = no 
+base_tax = 4
+base_production = 3
+base_manpower = 3
+discovered_by = north_american
+extra_cost = 8
+center_of_trade = 1
+discovered_by = mesoamerican

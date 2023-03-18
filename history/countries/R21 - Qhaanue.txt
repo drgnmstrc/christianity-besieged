@@ -1,0 +1,19 @@
+government = theocracy
+add_government_reform = qhaanue_reform
+primary_culture = tsiqaleha
+religion = qanumi
+technology_group = south_african
+capital = 4988
+fixed_capital = 4988
+religious_school = kurudi_school
+government_rank = 1
+historical_rival = R52
+1444.1.1 = {
+	monarch = {
+		name = "'Onaje"
+		dynasty = "Danag|abu"
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}

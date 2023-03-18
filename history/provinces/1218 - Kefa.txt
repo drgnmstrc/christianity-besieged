@@ -1,0 +1,20 @@
+#1218 - Sidamo
+
+owner = WLY
+controller = WLY
+add_core = WLY
+culture = sidamo 
+religion = hussite
+capital = "Irgalem"
+is_city = yes
+base_manpower = 2
+trade_goods = coffee
+hre = no
+base_tax = 2 
+base_production = 2
+#estate = estate_nobles
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = saharan

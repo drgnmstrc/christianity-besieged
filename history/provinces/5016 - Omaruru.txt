@@ -1,0 +1,14 @@
+owner = R39
+controller = R39
+add_core = R39
+trade_goods = spices
+is_city = yes
+culture = julhoan
+capital = "Omaruru"
+religion = qanumi
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+discovered_by = central_african
+discovered_by = south_african

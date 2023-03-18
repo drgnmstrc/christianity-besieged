@@ -1,0 +1,21 @@
+#Sjaelland, incl. København, Roskilde, Helsingør, Ringsted
+
+add_core = N03
+owner = N03
+controller = N03
+culture = heruli
+religion = norse_pagan_reformed
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = fish
+base_manpower = 6
+capital = "København"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+fort_15th = yes
+extra_cost = 20

@@ -1,0 +1,139 @@
+wl_mothers_fortunes = {
+	local_tax_modifier = 0.025
+}
+wl_mothers_protection_a = {
+	local_unrest = -3
+}
+wl_mothers_protection_b = {
+	local_unrest = -6
+}
+wl_fortuitous_cd = { }
+wl_blessed_boons = {
+	trade_goods_size = 0.5
+}
+wl_charge_speed_1 = {
+	movement_speed = 0.04
+}
+wl_charge_speed_2 = {
+	movement_speed = 0.04
+}
+wl_charge_speed_3 = {
+	movement_speed = 0.04
+}
+wl_charge_speed_4 = {
+	movement_speed = 0.04
+}
+wl_charge_power_1 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_2 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_3 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_4 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_5 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_6 = {
+	cavalry_power = 0.025
+}
+wl_charge_power_7 = {
+	cavalry_power = 0.025
+}
+wl_horseriding_festival_1 = {
+	cavalry_cost = -0.1
+}
+wl_horseriding_festival_2 = {
+	cavalry_cost = -0.1
+}
+wl_horseriding_festival_3 = {
+	cavalry_cost = -0.1
+}
+wl_cams_game_dev_prov = {
+	trade_goods_size = 0.5
+}
+wl_cams_game_dev = {
+	manpower_recovery_speed = 0.05
+	infantry_cost = -0.1
+	cavalry_cost = -0.1
+}
+wl_call_clouds_1 = {
+	shock_damage = 0.025
+}
+wl_call_clouds_2 = {
+	shock_damage = 0.05
+}
+wl_call_clouds_3 = {
+	shock_damage = 0.075
+}
+wl_call_clouds_4 = {
+	shock_damage = 0.1
+}
+wl_call_clouds_5 = {
+	shock_damage = 0.125
+}
+wl_call_clouds_6 = {
+	shock_damage = 0.15
+}
+wl_call_clouds_7 = {
+	shock_damage = 0.3
+}
+wl_call_clouds_8 = {
+	shock_damage = 1
+}
+wl_call_clouds_9 = {
+	shock_damage = 2.5
+}
+wl_call_clouds_bad = {
+	shock_damage = -0.05
+}
+wl_pantheon_pissed = {
+	local_unrest = 1
+}
+wl_sol_salty = {
+	local_unrest = 1
+}
+wl_tyranny_1 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_2 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_3 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_4 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_5 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_6 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_7 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_8 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_9 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}
+wl_tyranny_10 = {
+	global_unrest = 6
+	global_tax_modifier = 0.06
+}

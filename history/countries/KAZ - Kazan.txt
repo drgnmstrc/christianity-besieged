@@ -1,0 +1,33 @@
+government = native
+add_government_reform = native_bulgar_khanate_reform
+add_government_reform = native_martial_tradition_reform
+add_government_reform = native_settle_down_reform
+primary_culture = russian
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 1082	# Kazan
+historical_rival = GOL
+
+1438.1.1 = {
+	monarch = {
+		name = "Ulugh Mihr"
+		dynasty = "Genghisid"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1438.1.1 = {
+	heir = {
+		name = "Burzadak"
+		monarch_name = "Burzadak"
+		dynasty = "Genghisid"
+		birth_date = 1430.1.1
+		death_Date = 1466.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

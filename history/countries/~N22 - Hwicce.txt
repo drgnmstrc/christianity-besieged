@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = hwiccan
+religion = druidism
+technology_group = western
+capital = 205
+fixed_capital = 205
+
+1434.2.5 = {
+	monarch = {
+		name = "Paega"
+		dynasty = "Sigeberht"
+		birth_date = 1409.5.23
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}

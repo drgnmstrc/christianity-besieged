@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = free_city
+government_rank = 1
+technology_group = eastern
+religion = germanic
+primary_culture = flemish
+fixed_capital = 92
+capital = 92
+
+1427.1.1 = {
+	monarch = {
+		name = "Karl II"
+		dynasty = "Rotenger"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+

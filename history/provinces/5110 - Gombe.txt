@@ -1,0 +1,17 @@
+# No previous file for Gombe
+owner = R84
+controller = R84
+add_core = R84
+culture = hausa 
+religion = bori
+capital = "Bauchi"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan
+is_city = yes

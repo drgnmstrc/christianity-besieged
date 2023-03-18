@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+primary_culture = obotriske
+religion = slavic
+technology_group = western
+capital =45
+
+1444.11.11 = {
+	monarch = {
+		name = "Gardorodca"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

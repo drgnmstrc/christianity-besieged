@@ -1,0 +1,23 @@
+#45 - Lübeck
+
+owner = HSA
+controller = HSA
+add_core = HSA
+culture = obotriske
+religion = slavic
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = slaves
+base_manpower = 3
+fort_15th = yes
+capital = "Liubice"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

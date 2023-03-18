@@ -1,0 +1,17 @@
+# No previous file for Owa
+culture = ika
+religion = odinani
+owner = R83
+controller = R83
+add_core = R83
+capital = "Owa"
+trade_goods = livestock
+hre = no
+is_city = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

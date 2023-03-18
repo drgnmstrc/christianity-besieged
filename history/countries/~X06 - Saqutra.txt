@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = saqutran
+religion = syriac
+technology_group = near_east
+capital = 1099
+fixed_capital = 1099
+
+1435.1.1 = { #Fictional
+	monarch = {
+		name = "Tawari"
+		dynasty = "Asomarid"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

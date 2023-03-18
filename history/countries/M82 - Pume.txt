@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = pume
+religion = animism
+technology_group = south_american
+capital = 4615
+
+1444.11.11 = {
+	monarch = {
+		name = "Cibayana"
+		dynasty = "Baguanano"
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+}

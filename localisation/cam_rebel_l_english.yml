@@ -1,0 +1,7 @@
+﻿l_english:
+ mamluk_revolt_title:0 "Mamluk"
+ mamluk_revolt_name:0 "$COUNTRYNAME$ Mamluks"
+ mamluk_revolt_desc:0 "An elite corpus of military elite bred out of enslaved military service."
+ mamluk_revolt_army:0 "Mamluk Army"
+ mamluk_revolt_demand:0 "Military Coup"
+ mamluk_revolt_demand_desc:0 "The Mamluks seek to take direct control over the government, reducing the [Root.Monarch.GetTitle] to a mere puppet underneath the Mamluk leadership. They claim deep corruption within the state greatly needs to be purged."

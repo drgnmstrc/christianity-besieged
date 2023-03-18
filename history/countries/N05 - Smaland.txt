@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = saemisk
+religion = norse_pagan_reformed
+technology_group = scandinavian_tech
+capital = 4164
+
+1440.4.9 = {
+	monarch = {
+		name = "Duhtavaš"
+		dynasty = "Albmirád"
+		birth_date = 1425.2.26
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

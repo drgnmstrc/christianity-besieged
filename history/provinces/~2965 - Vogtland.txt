@@ -1,0 +1,21 @@
+# - Vogtland
+
+owner = G21
+controller = G21
+add_core = G21
+culture = thuringen
+religion = germanic
+capital = "Plauen"
+trade_goods = wool
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+#estate = estate_nobles
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

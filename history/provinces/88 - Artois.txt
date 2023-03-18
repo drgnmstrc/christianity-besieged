@@ -1,0 +1,21 @@
+# 88 Artois - Principal cities: Arras, Saint-Omer & Lille
+
+owner = B01
+controller = B01
+add_core = B01
+culture = wallonian
+religion = anglican
+capital = "Arras"
+is_city = yes
+hre = no
+base_tax = 6 
+base_production = 6
+trade_goods = cloth
+base_manpower = 3
+add_core = B01
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

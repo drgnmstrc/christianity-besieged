@@ -1,0 +1,253 @@
+namespace = mamlukRevolt
+country_event = { #Mamluks took over the government
+    id = mamlukRevolt.0
+    title = mamlukRevolt.t
+    desc = mamlukRevolt.d
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            U01 = {
+                country_event = {
+                    id = mamlukRevolt.1
+                }
+            }
+        }
+    }
+    option = {
+        name = mamlukRevolt.a
+        hidden_effect = {
+            if = {
+                limit = {
+                    NOT = { government = monarchy }
+                }
+                change_government = monarchy
+            }
+            set_saved_name = {
+                key = mamluk_sultan
+                type = advisor
+                scope = ROOT
+            }
+            define_ruler = {
+                name = mamluk_sultan
+                culture = ROOT
+                mil = 4
+                age = 30
+            }    
+            lose_reforms = 2
+        }
+        override_country_name = THE_MAMLUKS
+        add_government_reform = mamluk_government
+        grant_independence = yes
+        remove_country_modifier = mamluks_revolted
+    }
+}
+country_event = { #Bayt Allah response
+    id = mamlukRevolt.1
+    title = mamlukRevolt.1t
+    desc = mamlukRevolt.1d
+    is_triggered_only = yes
+    major = yes
+    option = { #What else could it be but God's will?
+        name = mamlukRevolt.1a
+        reverse_add_opinion = {
+            who = event_target:mamlukRevolting
+            modifier = accepted_mamluk_coup
+        }
+        add_reform_desire = 0.05
+        hidden_effect = {
+            event_target:mamlukRevolting = {
+                set_ai_attitude = {
+                    attitude = attitude_friendly
+                    who = U01
+                }
+            }
+        }
+    }
+    option = { #They could've died in jihad instead
+        name = mamlukRevolt.1b
+        add_reform_desire = -0.25
+        reverse_add_opinion = {
+            who = event_target:mamlukRevolting
+            modifier = rejected_mamluk_coup
+        }
+        hidden_effect = {
+            event_target:mamlukRevolting = {
+                set_ai_attitude = {
+                    attitude = attitude_hostile
+                    who = U01
+                }
+            }
+        }
+    }
+    after = {
+        hidden_effect = {
+            event_target:mamlukRevolting = { clear_global_event_target = mamlukRevolting }
+        }
+    }
+}
+country_event = { #Decides target for Mamluk Revolt HIDDEN
+    id = mamlukRevolt.2
+    title = mamlukRevolt.2t
+    desc = mamlukRevolt.2d
+    hidden = yes
+    trigger = {
+        reform_desire = 0.95
+        religion = ashabi
+        NOT = { has_reform = mamluk_government }
+        NOT = { tag = event_target:mamlukRevolting }
+    }
+    mean_time_to_happen = {
+        months = 120
+
+        modifier = {
+            factor = 0.5
+            NOT = { stability = -1 }
+        }
+        modifier = {
+            factor = 50
+            is_at_war = yes
+        }
+        modifier = {
+            factor = 0.5
+            government = monarchy
+            NOT = { legitimacy = 30 }
+        }
+        modifier = {
+            factor = 1000
+            government = theocracy
+        }
+        modifier = {
+            factor = 0.5
+            government = republic
+            NOT = { legitimacy_equivalent = 30 }
+        }
+        modifier = {
+            factor = 0.1
+            any_hired_mercenary_company = {
+                template = mamlukean_guard
+            }
+        }
+    }
+    option = {
+        name = mamlukRevolt.2a
+        capital_scope = {
+            spawn_rebels = {
+                type = mamluk_revolt
+                size = 2
+            }
+        }
+        save_global_event_target_as = mamlukRevolting
+        add_reform_desire = -0.3
+        country_event = { id = mamlukRevolt.3 }
+    }
+}
+country_event = { #Oh god, the Mamluks are revolting
+    id = mamlukRevolt.3
+    title = mamlukRevolt.3t
+    desc = mamlukRevolt.3da
+    major = yes
+    trigger = {
+        religion = ashabi
+    }
+    is_triggered_only = yes
+    option = { #This is a disaster!
+        name = mamlukRevolt.3a
+        trigger = {
+            tag = event_target:mamlukRevolting
+        }
+        add_stability = -2
+        add_country_modifier = {
+            name = mamluks_revolted
+            duration = 1825
+        }
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+country_event = { #Mamluk Coup via on-action HIDDEN
+    id = mamlukRevolt.4
+    title = mamlukRevolt.4t
+    desc = mamlukRevolt.4d
+    hidden = yes
+    trigger = {
+        if = {
+            limit = {
+                NOT = { has_regency = yes }
+            }
+            reform_desire = 0.9
+        }
+        if = {
+            limit = {
+                has_regency = yes
+            }
+            reform_desire = 0.75
+        }
+        religion = ashabi
+        NOT = { has_reform = mamluk_government }
+        NOT = { tag = event_target:mamlukRevolting }
+    }
+    is_triggered_only = yes
+    option = {
+        name = mamlukRevolt.4a
+        trigger = {
+            NOT = {
+                any_hired_mercenary_company = {
+                    template = mamlukean_guard
+                }
+            }
+        }
+        if = {
+            limit = {
+                current_age = age_of_discovery
+            }
+            capital_scope = {
+                spawn_rebels = {
+                    type = mamluk_revolt
+                    size = 1
+                }
+            }
+        }
+        if = {
+            limit = {
+                current_age = age_of_reformation
+            }
+            capital_scope = {
+                spawn_rebels = {
+                    type = mamluk_revolt
+                    size = 2
+                }
+            }
+        }
+        save_global_event_target_as = mamlukRevolting
+        add_reform_desire = -0.3
+        country_event = { id = mamlukRevolt.3 }
+    }
+    option = {
+        name = mamlukRevolt.4b
+        trigger = {
+            any_hired_mercenary_company = {
+                template = mamlukean_guard
+            }
+        }
+        add_reform_desire = -0.3
+        country_event = { id = mamlukRevolt.0 }
+    }
+}
+country_event = { #End of the Mamluks of the Citerior
+    id = mamlukRevolt.5
+    title = mamlukRevolt.5t
+    desc = mamlukRevolt.5d
+    is_triggered_only = yes
+    fire_only_once = yes
+    option = {
+        name = mamlukRevolt.5a
+        change_tag = J12
+        if = {
+            limit = {
+                owns = 2988
+            }
+            2988 = { move_capital_effect = yes }
+        }
+    }
+}

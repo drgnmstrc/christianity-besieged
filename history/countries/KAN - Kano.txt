@@ -1,0 +1,22 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hausa
+religion = shiite
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1155
+religious_school = ismaili_school
+government_rank = 1
+
+#Sultans of Kano
+1438.1.1 = {
+	monarch = {
+		name = "Abdullah Burja I"
+		dynasty = "Rumfawa"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+}

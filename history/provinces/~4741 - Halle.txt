@@ -1,0 +1,23 @@
+# 4741 - Halle
+
+owner = THU
+controller = THU
+add_core = THU
+culture = thuringen
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = salt #the name "Halle" apparently might even derive from the Indo-Germanic word for salt
+base_manpower = 1
+capital = "Halle"
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

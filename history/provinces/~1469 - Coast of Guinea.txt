@@ -1,0 +1,5 @@
+1444.1.1 = {
+	discovered_by = MAL
+	discovered_by = JOL
+}
+

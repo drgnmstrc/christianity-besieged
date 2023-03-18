@@ -1,0 +1,11 @@
+advisor = {
+	advisor_id = 113
+	name = "Pharacles Ionassus"
+	location = 2297
+	religion = manichaeism
+	discount = yes
+	skill = 3
+	type = natural_scientist #could also be theologian 
+	date = 1431.1.1 #30 years old
+	death_date = 1464.8.11 #died
+}

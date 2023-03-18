@@ -1,0 +1,136 @@
+country_decisions = {
+
+	hellas_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_hellas_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = H18 }
+			culture_group = byzantine
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 328		# Sinop
+				province_id = 316		# Kocaeli
+				province_id = 2297		# Saruhan
+				province_id = 318		# Sugla
+				province_id = 319		# Mentese
+				province_id = 4312		# Sultanonu
+				province_id = 2302		# Icel
+				province_id = 142		# Corfu
+				province_id = 149		# Edirne
+				province_id = 330		# Trebizond
+				province_id = 4310		# Divrigi
+				province_id = 163		# Crete
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = H18 }
+			owns_core_province = 328
+			OR = {
+				owns_core_province = 142		# Corfu
+				owns_core_province = 330		# Trebizond	
+			}
+			OR = {
+				owns_core_province = 316		# Kocaeli
+				owns_core_province = 2302		# Icel	
+			}
+			OR = {
+				owns_core_province = 321		# Cyprus
+				owns_core_province = 164		# Naxos
+			}
+			OR = {
+				owns_core_province = 318		# Sugla
+				owns_core_province = 148		# Macedonia
+			}
+			OR = {
+				owns_core_province = 4312		# Sultanonu
+				owns_core_province = 319		# Mentese
+			}
+			OR = {
+				owns_core_province = 2297		# Saruhan
+				owns_core_province = 163		# Crete
+			}
+			OR = {
+				owns_core_province = 4310		# Divrigi
+				owns_core_province = 149		# Edirne
+			}	
+		}
+		effect = {
+			change_tag = H18
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { 
+						OR = {
+							owned_by = ROOT 
+							area = north_kurdistan_area
+						}
+					}
+				}
+				add_permanent_claim = H18
+			}
+			morea_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = H18
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = H18
+			}
+			macedonia_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = H18
+			}
+			thrace_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = H18
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_hellas_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,24 @@
+#114 - Romagna
+
+owner = BLG
+controller = BLG
+add_core = BLG
+culture = emaglici 
+religion = ashabi 
+hre = no 
+base_tax = 6 
+base_production = 6    
+trade_goods = salt
+base_manpower = 4    
+capital = "Ravenna"
+#estate = estate_nobles
+is_city = yes	# Estimated 
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

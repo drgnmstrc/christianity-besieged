@@ -1,0 +1,15 @@
+owner = R29
+controller = R29
+add_core = R29
+add_core = KZB
+culture = luba
+religion = bumuntu #Fetishism
+capital = "Kazembe Lualaba"
+trade_goods = salt
+hre = no
+base_tax = 4
+base_production = 6
+base_manpower = 4
+is_city = yes
+discovered_by = central_african
+discovered_by = south_african

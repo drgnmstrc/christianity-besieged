@@ -1,0 +1,16 @@
+# - Alagoas
+
+culture = tupinamba
+discovered_by = south_american
+religion = sunni
+capital = "Penedo"
+trade_goods = sugar
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+owner = Y11
+controller = Y11
+add_core = Y11
+add_local_autonomy = 25
+is_city = yes

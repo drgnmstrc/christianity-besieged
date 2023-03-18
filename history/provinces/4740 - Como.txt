@@ -1,0 +1,22 @@
+#4740 - Como
+
+owner = PAL
+controller = PAL 
+culture = swiss
+religion = ashabi
+add_core = H19
+add_core = PAL
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = cloth
+base_manpower = 2
+fort_15th = yes # Extensive fortifications were only dismantled in 1525-7
+capital = "Como"
+is_city = yes	# Estimated
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

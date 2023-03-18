@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = mudarian_utopia
+primary_culture = banu
+religion = mudarian
+technology_group = central_african
+capital = 1306 #Sao Tome
+unit_type = muslim
+1442.1.1 = {
+	monarch = {
+		name = "Ibn Batua"
+		adm = 4
+		dip = 6
+		mil = 2
+	}
+}
+set_country_flag = owns_the_black_stone

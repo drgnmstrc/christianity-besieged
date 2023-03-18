@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+primary_culture = marathi
+religion = hinduism
+technology_group = indian
+capital = 4431	# Kolhapur
+
+1437.1.1 = {
+	monarch = {
+		name = "Maena"
+		dynasty = "Kauman"
+		ADM = 2
+		DIP = 3
+		MIL = 5
+	}
+}

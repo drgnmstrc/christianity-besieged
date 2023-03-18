@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = yukpa
+religion = mesoamerican_religion
+technology_group = south_american
+capital = 4615
+
+1444.11.11 = {
+	monarch = {
+		name = "Mabo"
+		dynasty = "Comerio"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

@@ -1,0 +1,23 @@
+#4375 - Chester
+
+latent_trade_goods = {
+	coal
+}
+
+owner = N26
+controller = N26
+add_core = N26
+culture = welsh
+religion = riothemism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = salt
+base_manpower = 3
+capital = "Chester"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

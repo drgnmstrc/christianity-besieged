@@ -1,0 +1,927 @@
+namespace = phrygianHeir
+
+# Heir to Phyrgia
+country_event = { #phrygian Election
+	id = phrygianHeir.0
+	title = phrygianHeir.t
+	desc = phrygianHeir.d
+	picture = COURT_eventPicture
+	
+	trigger = {
+		has_reform = phrygian_tyranny_reform
+		NOT = {
+			has_country_modifier = autonomous_mekalawia_family
+			has_country_modifier = autonomous_wittios_family
+			has_country_modifier = strong_mekalawia_family
+			has_country_modifier = strong_wittios_family
+			has_country_modifier = powerful_mekalawia_family
+			has_country_modifier = powerful_wittios_family
+		}
+		OR = {
+			NOT = {
+				check_variable = {
+					which = familyPower
+					value = 3
+				}
+			}
+			check_variable = {
+				which = familyPower
+				value = -2
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = { #status quo w dorylaion ruler
+		name = phrygianHeir.aa
+		ai_chance = {
+			factor = 75
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 0
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 1
+    				}
+			}
+			dynasty = "Wittios"
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+			}
+		}
+		add_prestige = 10
+		add_ruler_modifier = {
+			name = phrygian_status_quo
+			duration = -1
+		}
+	}
+	option = { #status quo w synnada ruler
+		name = phrygianHeir.ab
+		ai_chance = {
+			factor = 75
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 0
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 1
+    				}
+			}
+			dynasty = "Mekalawia"
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+			}
+		}
+		add_prestige = 10
+		add_ruler_modifier = {
+			name = phrygian_status_quo
+			duration = -1
+		}
+	}
+	option = { #break status quo w dorylaion ruler
+		name = phrygianHeir.ba
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 0
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 1
+    				}
+			}
+			dynasty = "Wittios"
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				claim = 50
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+				claim = 50
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = strong_wittios_family
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #break status quo w synnada ruler
+		name = phrygianHeir.bb
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 0
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 1
+    				}
+			}
+			dynasty = "Mekalawia"
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+				claim = 50
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+				claim = 50
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = strong_mekalawia_family
+			duration = -1
+		}
+		hidden_effect = {
+			subtract_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #returning to status quo w strong dorylaion
+		name = phrygianHeir.ca
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 1
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 2
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+			}
+		}
+		add_stability = 1
+		add_ruler_modifier = {
+			name = phrygian_status_quo
+			duration = -1
+		}
+		hidden_effect = {
+			subtract_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #returning to status quo w strong synnada
+		name = phrygianHeir.ca
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = -1
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 0
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+			}
+		}
+		add_stability = 1
+		add_ruler_modifier = {
+			name = phrygian_status_quo
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #strong to powerful dorylaion
+		name = phrygianHeir.da
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 1
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 2
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				claim = 50
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+				claim = 50
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = powerful_wittios_family
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #strong to powerful synnada
+		name = phrygianHeir.db
+		ai_chance = {
+			factor = 50
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = -1
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 0
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+				claim = 50
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+				claim = 50
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = powerful_mekalawia_family
+			duration = -1
+		}
+		hidden_effect = {
+			subtract_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #curtailing powerful dorylaion
+		name = phrygianHeir.ea
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 2
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 3
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+				claim = 75
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+				claim = 75
+			}
+		}
+		add_stability = 1
+		add_ruler_modifier = {
+			name = reinvigoration_cybele
+			duration = -1
+		}
+		add_ruler_modifier = {
+			name = strong_wittios_family
+			duration = -1
+		}
+		hidden_effect = {
+			subtract_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #curtailing powerful synnada
+		name = phrygianHeir.eb
+		ai_chance = {
+			factor = 25
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = -2
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = -1
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				claim = 75
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				claim = 75
+				male = yes
+			}
+		}
+		add_stability = 1
+		add_ruler_modifier = {
+			name = confirm_olympic_system
+			duration = -1
+		}
+		add_ruler_modifier = {
+			name = strong_mekalawia_family
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = {
+				which = familyPower
+				value = 1
+			}
+		}
+	}
+	option = { #dorylaion dominance
+		name = phrygianHeir.fa
+		ai_chance = {
+			factor = 75
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = 2
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = 3
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = powerful_wittios_family
+			duration = -1
+		}
+		hidden_effect = {
+			change_variable = {
+				which = familyPower
+				value = 1
+			}
+			country_event = {
+				id = phrygianHeir.3
+				days = 35
+			}
+		}
+	}
+	option = { #synnada dominance
+		name = phrygianHeir.fb
+		ai_chance = {
+			factor = 75
+		}
+		trigger = {
+			check_variable = {
+   				which = familyPower
+				value = -2
+			}
+			NOT = {
+    				check_variable = {
+        				which = familyPower
+        				value = -1
+    				}
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+			}
+		}
+		add_stability = -1
+		add_ruler_modifier = {
+			name = powerful_mekalawia_family
+			duration = -1
+		}
+		hidden_effect = {
+			subtract_variable = {
+				which = familyPower
+				value = 1
+			}
+			country_event = {
+				id = phrygianHeir.3
+				days = 35
+			}
+		}
+	}
+	option = { #neither family - reset to mekalawia
+		name = phrygianHeir.ga
+		trigger = {
+			NOT = {
+				OR = {
+					dynasty = "Mekalawia"
+					dynasty = "Wittios"
+				}
+			}
+		}
+		hidden_effect = {
+			set_variable = {
+				which = familyPower
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				religion = cybelism
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Mekalawia"
+				male = yes
+				religion = cybelism
+			}
+		}
+	}
+	option = { #neither family - reset to wittios
+		name = phrygianHeir.gb
+		trigger = {
+			NOT = {
+				OR = {
+					dynasty = "Mekalawia"
+					dynasty = "Wittios"
+				}
+			}
+		}
+		hidden_effect = {
+			set_variable = {
+				which = familyPower
+				value = 0
+			}
+		}
+		if = {
+			limit = {
+				has_active_policy = mandatory_service
+			}
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				religion = hellenism
+			}
+		}
+		else = {
+			define_heir = {
+				age = 16
+				adm = -1
+				dip = -1
+				mil = -1
+				dynasty = "Wittios"
+				male = yes
+				religion = hellenism
+			}
+		}
+	}
+}
+
+country_event = { #Hidden: Phrygian setup
+	id = phrygianHeir.1
+	hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		has_reform = phrygian_tyranny_reform
+	}
+	immediate = {
+		set_variable = {
+    			which = familyPower
+    			value = 0
+		}
+	}
+	option = {
+		name = phrygianHeir.1a
+	}
+}
+
+country_event = { #Breakdown of Phrygian system
+	id = phrygianHeir.3
+	title = phrygianHeir.3t
+	desc = {
+		trigger = { dynasty = "Mekalawia" }
+		desc = phrygianHeir.3da
+	}
+	desc = {
+		trigger = { dynasty = "Wittios" }
+		desc = phrygianHeir.3db
+	}
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	option = { #synnada total dominance
+		name = phrygianHeir.3a
+		trigger = {
+			dynasty = "Mekalawia"
+		}
+		hidden_effect = {
+			remove_government_reform = phrygian_tyranny_reform
+			remove_country_modifier = powerful_mekalawia_family
+		}
+		if = {
+			limit = {
+				NOT = { religion = cybelism }
+			}
+			change_religion = cybelism
+		}
+		if = {
+			limit = {
+				owns = 4312
+			}
+			4312 = {
+				add_province_modifier = {
+					name = phrygian_power_vacuum
+					duration = 3650
+				}
+			}
+		} 
+		add_country_modifier = {
+			name = powerful_mekalawia_family
+			duration = -1
+		}
+		add_government_reform = mekalawia_dynasty_reform
+	}
+	option = { #dorylaion total dominance
+		name = phrygianHeir.3a
+		trigger = {
+			dynasty = "Wittios"
+		}
+		hidden_effect = {
+			remove_government_reform = phrygian_tyranny_reform
+			remove_country_modifier = powerful_wittios_family
+		}
+		if = {
+			limit = {
+				NOT = { religion = hellenism }
+			}
+			change_religion = hellenism
+		}
+		if = {
+			limit = {
+				owns = 4311
+			}
+			4311 = {
+				add_province_modifier = {
+					name = phrygian_power_vacuum
+					duration = 3650
+				}
+			}
+		} 
+		add_stability = -1
+		
+		add_country_modifier = {
+			name = powerful_wittios_family
+			duration = -1
+		}
+		add_government_reform = wittios_dynasty_reform
+	}
+	option = { #empower the nobility - wittios
+		name = phrygianHeir.3b
+		trigger = {
+			dynasty = "Wittios"
+		}
+		hidden_effect = {
+			remove_government_reform = phrygian_tyranny_reform
+			remove_country_modifier = powerful_wittios_family
+		}
+		if = {
+			limit = {
+				NOT = { religion = hellenism }
+			}
+			change_religion = hellenism
+		}
+		if = {
+			limit = {
+				owns = 4311
+			}
+			4311 = {
+				add_province_modifier = {
+					name = center_strong_mekalawia_nobles
+					duration = 3650
+				}
+			}
+		} 
+		
+		add_country_modifier = {
+			name = autonomous_mekalawia_family
+			duration = -1
+		}
+		add_government_reform = wittios_dynasty_reform
+	}
+	option = { #empower the nobility - mekalawia
+		name = phrygianHeir.3b
+		trigger = {
+			dynasty = "Mekalawia"
+		}
+		hidden_effect = {
+			remove_government_reform = phrygian_tyranny_reform
+			remove_country_modifier = powerful_mekalawia_family
+		}
+		if = {
+			limit = {
+				NOT = { religion = cybelism }
+			}
+			change_religion = cybelism
+		}
+		if = {
+			limit = {
+				owns = 4312
+			}
+			4312 = {
+				add_province_modifier = {
+					name = center_strong_wittios_nobles
+					duration = 3650
+				}
+			}
+		} 
+		
+		add_country_modifier = {
+			name = autonomous_wittios_family
+			duration = -1
+		}
+		add_government_reform = mekalawia_dynasty_reform
+	}
+}

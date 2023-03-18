@@ -1,0 +1,20 @@
+#4362 - West March (Dumfriesshire+Kircudbrightshire)
+
+owner = J15
+controller = J15
+add_core = J15
+culture = welsh
+religion = druidism
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+capital = "Dumfries"
+fort_15th = yes
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

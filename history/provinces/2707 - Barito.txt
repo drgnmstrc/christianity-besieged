@@ -1,0 +1,25 @@
+#2707 - Barito
+
+culture = bornean
+religion = hinduism
+capital = "Barito"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+native_size = 40
+native_ferocity = 8
+native_hostileness = 5
+
+1444.1.1 = {
+	owner = BNJ
+	controller = BNJ
+	add_core = BNJ
+	is_city = yes
+	trade_goods = spices
+}
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = near_east

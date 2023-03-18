@@ -1,0 +1,19 @@
+# No previous file for Chichitames
+
+culture = chichimecan
+religion = atzintlicoatl
+is_city = yes
+owner = M03
+controller = M03
+add_core = M03
+capital = "Chichitames" 
+trade_goods = wool
+hre = no 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+
+discovered_by = north_american
+discovered_by = mesoamerican

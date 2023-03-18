@@ -1,0 +1,19 @@
+#487 - Jamaica
+
+culture = arawak
+religion = mesoamerican_religion
+capital = "Jamaica"
+trade_goods = sugar
+hre = no
+base_tax = 5
+base_production = 5 
+base_manpower = 5
+
+owner = M41
+controller = M41
+add_core = M41
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+extra_cost = 8
+center_of_trade = 1

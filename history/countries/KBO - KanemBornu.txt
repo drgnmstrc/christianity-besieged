@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = sub_saharan
+religion = sunni
+primary_culture = kanuri
+capital = 1157	# Gatiga, Gazargamu
+historical_rival = YAO
+religious_school = shafii_school
+
+			
+1440.1.1 = {
+	monarch = {
+		name = "Kadai"
+		dynasty = "Sayfawa"
+		dip = 0
+		adm = 1
+		mil = 1
+	}
+}
+

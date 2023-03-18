@@ -1,0 +1,24 @@
+# 4766 - Verdun
+
+owner = G32
+controller = G32
+capital = "Verdun"
+is_city = yes
+culture = burgundian
+religion = germanic
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+add_core = G32
+fort_15th = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

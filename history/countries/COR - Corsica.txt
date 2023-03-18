@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+technology_group = ottoman
+religion = ashabi
+primary_culture = mutawasiti
+capital = 1247	# Bastia
+
+1444.1.1 = {
+	monarch = {
+		name = "Mourad"
+		dynasty = "Benchemsi"
+		adm = 5
+		dip = 1
+		mil = 1
+	}
+}

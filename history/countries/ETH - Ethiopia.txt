@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = ottoman_government
+add_accepted_culture = nubian
+add_accepted_culture = amharan
+add_accepted_culture = tigray
+government_rank = 3
+primary_culture = jeberti
+religion = shiite
+technology_group = east_african
+unit_type = muslim
+capital = 1227
+historical_friend = X05
+religious_school = ismaili_school
+
+1434.6.2 = {
+	monarch = {
+		name = "Ahmat"
+		dynasty = "al-Hanafiyyah"
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = righteous_personality
+}
+
+1434.6.2 = {
+	heir = {
+		name = "Ba'eda"
+		monarch_name = "Ba'eda II"
+		dynasty = "al-Hanafiyyah"
+		birth_date = 1420.1.1
+		death_date = 1478.10.17
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

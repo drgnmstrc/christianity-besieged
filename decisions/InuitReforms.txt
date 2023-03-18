@@ -1,0 +1,163 @@
+country_decisions = {
+
+	inuit_reform = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = inuit_reformed }
+			NOT = { tag = Q11 }
+			capital_scope = {
+				continent = north_america
+			}
+			religion = ikniksugritism
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 973
+				province_id = 2597
+				province_id = 1008
+				province_id = 1001
+				province_id = 994
+				province_id = 2572
+				province_id = 2576
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = Q11
+			}
+			owns_core_province = 973
+			owns_core_province = 2597
+			owns_core_province = 1008
+			owns_core_province = 1001
+			owns_core_province = 994
+			owns_core_province = 2572
+			owns_core_province = 2576
+		}
+		effect = {
+			custom_tooltip = inuit_reform_tt
+			hidden_effect = {
+				set_country_flag = inuit_reformed
+				release = Q09
+				release = Q01
+				release = Q02
+				release = WCR
+				release = Q04
+				release = Q07
+				release = Q05
+				release = Q06
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 800
+	}
+	
+	inuit_nation = {
+		major = yes
+		potential = {
+			has_country_flag = inuit_reformed
+			NOT = { has_country_flag = formed_inuit_empire_flag }
+			NOT = { tag = Q11 }
+			religion = ikniksugritism
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 973
+				province_id = 2597
+				province_id = 1008
+				province_id = 1001
+				province_id = 994
+				province_id = 2572
+				province_id = 2576
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = Q11
+			}
+			owns_core_province = 973
+			owns_core_province = 2597
+			owns_core_province = 1008
+			owns_core_province = 1001
+			owns_core_province = 994
+			owns_core_province = 2572
+			owns_core_province = 2576
+		}
+		effect = {
+			change_tag = Q11
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			hudson_bay_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Q11
+			}
+			cascadia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Q11
+			}
+			great_lakes_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Q11
+			}
+			northeast_america_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = Q11
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 50
+			set_country_flag = formed_inuit_empire_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 800
+	}
+	
+}

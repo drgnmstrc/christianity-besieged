@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = kxai_reform
+primary_culture = chewa
+add_accepted_culture = ning
+add_accepted_culture = tshwa
+religion = qanumi
+technology_group = south_african
+capital = 4040
+religious_school = kurudi_school
+government_rank = 2
+1444.1.1 = {
+	monarch = {
+		name = "Limbani"
+		dynasty = "Mphatsoqhan"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

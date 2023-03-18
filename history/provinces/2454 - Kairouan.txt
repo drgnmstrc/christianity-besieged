@@ -1,0 +1,26 @@
+# - El Kef
+
+owner = R06
+controller = R06 
+add_core = R06
+culture = isawiyen
+religion = mutazila
+capital = "El Kef"
+trade_goods = wool
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+is_city = yes
+fort_15th = yes #El Kef fortifications
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

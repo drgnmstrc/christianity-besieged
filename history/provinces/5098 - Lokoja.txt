@@ -1,0 +1,15 @@
+# No previous file for Lokoja
+is_city = yes
+culture = igala
+religion = itan
+capital = "Idah"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+discovered_by = sub_saharan
+discovered_by = saharan
+owner = R69
+controller = R69
+add_core = R69

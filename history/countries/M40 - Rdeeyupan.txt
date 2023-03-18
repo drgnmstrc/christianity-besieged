@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = muisca
+add_accepted_culture = miskito
+religion = quetzacoatl
+technology_group = mesoamerican
+capital = 4595
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Yayauhqui"
+		dynasty = "Rdyeoatl"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}

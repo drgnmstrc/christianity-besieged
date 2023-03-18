@@ -1,0 +1,14 @@
+name = "Reconquest of the Saxans"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 4373
+}
+
+1443.9.12 = {
+	add_attacker = H01
+	add_defender = B05
+}
+
+1450.1.1 = {
+}

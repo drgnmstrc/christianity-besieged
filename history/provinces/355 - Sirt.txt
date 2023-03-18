@@ -1,0 +1,27 @@
+#355 - Sirt
+
+owner = R07
+controller = R07
+add_core = R07
+culture = almukhidi
+religion = sunni
+capital = "Ben Jawad"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = FZA
+add_core = TRP
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,20 @@
+#237 - Oxfordshire
+#Oxfordshire+Bukinghamshire+Berkshire
+
+owner = B06
+controller = B06
+culture = breton
+religion = anglican
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 3
+capital = "Oxford"
+is_city = yes
+add_core = B06
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

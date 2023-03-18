@@ -1,0 +1,17 @@
+# No previous file for Umunchu
+add_core = R71
+owner = R71
+controller = R71
+culture = igbo
+religion = odinani
+capital = "Umunchu"
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+
+discovered_by = central_african
+discovered_by = sub_saharan
+discovered_by = saharan

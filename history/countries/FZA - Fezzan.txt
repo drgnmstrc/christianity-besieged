@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = tuareg
+religion = sunni
+technology_group = ottoman
+capital = 2450
+religious_school = shafii_school
+1440.1.1 = {
+	monarch = {
+		name = "Abdûlazzâ"
+		dynasty = "Muhammad"
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}

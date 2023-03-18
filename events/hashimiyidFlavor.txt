@@ -1,0 +1,44 @@
+namespace = hashimiyidFlavor
+country_event = {
+	id = hashimiyidFlavor.0 #Happens to Medina
+	title = hashimiyidFlavor.t #The Call of the Hashimiyids
+	desc = hashimiyidFlavor.d #The Hashimiyids call upon us in the war against the Hanafiyyah Caliphate
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #We will gladly accept the call to arms, Caliph [Y13.Ruler.GetName]!
+		name = hashimiyidFlavor.a
+		Y13 = { vassalize = MDA }
+		add_piety = 25
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 10
+				Y13 = { ai = no }
+			}
+		}
+	}
+	option = { #We must go our own way, [Y13.Ruler.GetTitle].
+		name = hashimiyidFlavor.a
+		reverse_add_opinion = {
+			who = Y13
+			modifier = rejected_the_hashimiyid_call
+		}
+		add_prestige = 10
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				NOT = {
+					ai_attitude = {
+						who = ETH
+						attitude = attitude_threatened
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				Y13 = { ai = no }
+			}
+		}
+	}
+}

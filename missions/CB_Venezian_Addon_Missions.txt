@@ -1,0 +1,526 @@
+
+ven_pagan_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			has_country_flag = ven_conq_missions
+			has_country_flag = ven_feds_missions
+		}
+		has_roman_religion = yes
+	}
+	has_country_shield = yes
+
+	ven_venetian_temple = {
+		icon = mission_early_modern_university
+		position = 6
+		required_missions = { }
+		trigger = {
+			112 = { country_or_non_sovereign_subject_holds = ROOT }
+			if = {
+				limit = {
+					religion = noniustian	
+				}
+				OR = {
+					112 = { religion = noniustian }
+					112 = { has_roman_religion = yes }
+				}
+			}
+			else = {
+				112 = { has_roman_religion = yes }
+			}
+			112 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = new_deity_event_tt
+			hidden_effect = { 112 = { province_event = { id = venetianEvents.3 } } }
+		}
+	}
+	ven_ferrara_temple = {
+		icon = mission_hands_praying
+		position = 8
+		required_missions = { }
+		trigger = {
+			102 = { country_or_non_sovereign_subject_holds = ROOT }
+			if = {
+				limit = {
+					religion = noniustian	
+				}
+				OR = {
+					102 = { religion = noniustian }
+					102 = { has_roman_religion = yes }
+				}
+			}
+			else = {
+				102 = { has_roman_religion = yes }
+			}
+			102 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = new_deity_event_tt
+			hidden_effect = { 102 = { province_event = { id = venetianEvents.3 } } }
+		}
+	}
+}
+
+venice_conquest_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_conq_missions
+	}
+	has_country_shield = yes
+
+	venice_conquer_valley = {
+		icon = mission_assemble_an_army
+		required_missions = { venice_conquer_ferrara }
+		position = 6
+		trigger = {
+			po_valley_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_mil_power = 15
+			po_valley_area = {
+				add_core = ROOT
+			}
+			108 = {
+				add_base_tax = 1
+				add_base_production = 1
+			}
+			109 = {
+				add_base_tax = 1
+				add_base_production = 1
+			}
+			add_country_modifier = {
+				name = secured_the_original_breadbasket
+				duration = 9125
+			}
+		}
+	}
+	venice_consolidate_north_italy = {
+		icon = mission_early_modern_university
+		required_missions = { venice_conquer_valley }
+		position = 7
+		trigger = {
+			lombardy_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			piedmont_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			liguria_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_mil_power = 10
+			add_country_modifier = {
+				name = powerful_roman_presence_alps
+				duration = 12045
+			}
+		}
+	}
+}
+
+venice_conquest_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_conq_missions
+	}
+	has_country_shield = yes
+
+	venice_conquer_aemilia = {
+		icon = mission_cossack_cavalry
+		required_missions = { venice_conquer_ferrara }
+		position = 6
+		trigger = {
+			emilia_romagna_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			every_owned_province = {
+				limit = { area = emilia_romagna_area }
+				add_core = ROOT
+			}
+		}
+	}
+	venice_doorstep_rome = {
+		icon = mission_unite_home_region
+		required_missions = { venice_conquer_aemilia }
+		position = 7
+		trigger = {
+			tuscany_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2977 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			119 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			2976 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4731 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 15
+			add_mil_power = 100
+		}
+	}
+	venice_conquer_rome = {
+		icon = mission_empire
+		required_missions = { }
+		position = 8
+		trigger = {
+			owns = 118
+		}
+		effect = {
+			118 = { add_core = H28 }
+			118 = { add_nationalism = -10 }
+			country_event = { id = venetianEvents.2 }
+			add_country_modifier = {
+				name = "happy_people"
+				duration = 9125
+			}
+			set_country_flag = ven_rom_king_missions
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
+venice_conquest_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_conq_missions
+	}
+	has_country_shield = yes
+
+	venice_conquer_lombards = {
+		icon = mission_impaled_soldies
+		required_missions = { venice_conquer_ferrara }
+		position = 6
+		trigger = {
+			4758 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			110 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			1768 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4759 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			128 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_mil_power = 50
+			every_owned_province = {
+				limit = {
+					culture = lombard
+				}
+				add_nationalism = -5
+			}
+		}
+	}
+	venice_northern_illyria = {
+		icon = mission_sea_battles
+		required_missions = { venice_conquer_lombards }
+		position = 7
+		trigger = {
+			carinthia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			croatia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			east_adriatic_coast_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			bosnia_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			add_mil_power = 30
+			add_dip_power = 30
+			add_country_modifier = {
+				name = ven_roman_adriatic
+				duration = 9125
+			}
+		}
+	}
+}
+
+venice_fed_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_feds_missions
+	}
+	has_country_shield = yes
+
+	venice_turcia_aemilia = {
+		icon = mission_have_two_subjects
+		required_missions = { venice_subjugate_ferrara }
+		position = 6
+		trigger = {
+			emilia_romagna_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			tuscany_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = bologna_consul
+				duration = 9125
+			}
+		}
+	}
+	venice_unite_northern_rome = {
+		icon = mission_eastern_european_city
+		required_missions = { venice_turcia_aemilia }
+		position = 7
+		trigger = {
+			lombardy_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			piedmont_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			liguria_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = organized_consul_network
+				duration = 9125
+			}
+		}
+	}
+}
+
+venice_fed_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_feds_missions
+	}
+	has_country_shield = yes
+
+	venice_bardia = {
+		icon = mission_landsknecht_soldier
+		required_missions = { venice_subjugate_ferrara }
+		position = 6
+		trigger = {
+			po_valley_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			110 = {
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			4758 = {
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			1768 = {
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			4759 = {
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+			128 = {
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			add_country_modifier = {
+				name = consul_at_bardia
+				duration = 9125
+			}
+		}
+	}
+	venice_liberate_picenum = {
+		icon = mission_cannons_firing
+		required_missions = { venice_bardia }
+		position = 7
+		trigger = {
+			central_italy_area = {
+				type = all
+				OR = {
+					owner = { vassal_of = ROOT }
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = the_capital_in_sights
+				duration = 9125
+			}
+		}
+	}
+	venice_conquer_rome_rep = {
+		icon = mission_empire
+		required_missions = { }
+		position = 8
+		trigger = {
+			owns = 118
+		}
+		effect = {
+			118 = { add_core = H28 }
+			118 = { add_nationalism = -10 }
+			country_event = { id = venetianEvents.2 }
+			add_country_modifier = {
+				name = "happy_people"
+				duration = 9125
+			}
+			set_country_flag = rome_fed_missions
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
+venice_fed_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+		has_country_flag = ven_feds_missions
+	}
+	has_country_shield = yes
+
+
+}

@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = lombard
+religion = germanic
+technology_group = eastern
+capital = 1768
+add_army_professionalism = 0.05
+elector = yes
+
+1438.12.2 = {
+	monarch = {
+		name = "Marun"
+		dynasty = "Gausci"
+		birth_date = 1422.1.1
+		death_date = 1489.2.22
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+}

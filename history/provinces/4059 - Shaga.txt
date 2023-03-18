@@ -1,0 +1,16 @@
+#4059 - Shaga
+
+owner = R58
+controller = R58
+add_core = R58
+culture = mekelti
+religion = hussite
+trade_goods = grain
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 4
+
+discovered_by = central_african
+discovered_by = south_african
+capital = "Mekeltas"

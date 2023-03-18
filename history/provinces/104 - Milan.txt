@@ -1,0 +1,25 @@
+#104 - Milano
+
+owner = H19
+controller = H19
+culture = swiss
+religion = ashabi
+add_core = G06
+hre = no
+base_tax = 7
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+fort_15th = yes #Sforza Castle
+capital = "Milano"
+is_city = yes	# Estimated
+add_core = H19
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

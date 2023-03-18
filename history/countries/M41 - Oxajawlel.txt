@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = yucatec
+add_accepted_culture = arawak
+religion = mesoamerican_religion
+technology_group = mesoamerican
+capital = 2630
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Amoxtli"
+		dynasty = "Zachua"
+		culture = zapotek
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

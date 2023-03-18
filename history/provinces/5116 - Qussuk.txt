@@ -1,0 +1,16 @@
+# No previous file for Qussuk
+owner = R18
+controller = R18
+add_core = R18
+culture = baggara
+religion = sunni
+capital = "Qussur"
+is_city = yes
+base_manpower = 2
+trade_goods = tropical_wood
+hre = no
+base_tax = 3
+base_production = 3
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = saharan

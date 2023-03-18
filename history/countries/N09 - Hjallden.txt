@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = tribal_despotism
+religion = norse_pagan_reformed
+technology_group = western
+capital = 1978
+primary_culture = hjallish
+
+1444.11.1 = {
+	monarch = {
+		name = "Farmaðr"
+		dynasty = "Lundúngoði"
+		birth_date = 1428.11.10
+		adm = 6
+		dip = 6
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = expansionist_personality
+}

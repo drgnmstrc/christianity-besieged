@@ -1,0 +1,7 @@
+1444.1.1 = { 
+	discovered_by = BTS
+	discovered_by = ANT
+	discovered_by = MFY
+	discovered_by = SKA
+	discovered_by = R34
+}

@@ -1,0 +1,186 @@
+country_decisions = {
+
+	iberia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_iberia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = J06 }
+			culture_group = iberian
+			religion = liritism
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 227
+				province_id = 206
+				province_id = 207
+				province_id = 1745
+				province_id = 4553
+				province_id = 217
+				province_id = 1746
+			}
+			OR = {
+				NOT = { owned_by = ROOT } 
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = J06
+			}
+			OR = {
+				owns_core_province = 227
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					227 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+			OR = {
+				owns_core_province = 206
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					206 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+			
+			OR = {
+				owns_core_province = 207
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					207 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+			
+			OR = {
+				owns_core_province = 1745
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					1745 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+
+			OR = {
+				owns_core_province = 1746
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					1746 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+			
+			OR = {
+				owns_core_province = 4553
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					4553 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+			
+			OR = {
+				owns_core_province = 217
+				custom_trigger_tooltip = {
+					tooltip = owned_by_christian_ally_or_vassal_tt
+					217 = {
+						owned_by_christian_ally_or_vassal = yes
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							tag = J01
+							tag = J02
+						}
+					}
+					set_country_flag = north_iberian_union
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = J03
+							tag = LON
+						}
+					}
+					set_country_flag = central_iberian_union
+				}
+				if = {
+					limit = {
+						OR = {
+							tag = J04
+							tag = J05
+						}
+					}
+					set_country_flag = south_iberian_union
+				}
+				if = {
+					limit = {
+						tag = J08
+					}
+					set_country_flag = intercacia_iberian_union
+					change_government = monarchy
+					add_government_reform = feudal_theocracy
+				}
+				if = {
+					limit = {
+						tag = GAL
+					}
+					set_country_flag = callaeci_iberian_union
+				}
+			}
+			change_tag = J06
+			hidden_effect = { country_event = { id = unionIntegration.0 } }
+			custom_tooltip = inheriting_christian_allies_tt
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			iberia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = J06
+			}
+
+			add_prestige = 20
+			set_country_flag = formed_iberia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,17 @@
+# No previous file for Marghi
+
+owner = KBO
+controller = KBO
+add_core = KBO
+is_city = yes
+culture = kanuri 
+religion = bori
+capital = "Marghi"
+trade_goods = grain
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+discovered_by = sub_saharan
+discovered_by = east_african
+discovered_by = saharan

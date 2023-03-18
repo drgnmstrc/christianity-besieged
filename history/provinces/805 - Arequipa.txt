@@ -1,0 +1,15 @@
+#805 - Arequipa
+owner = INC
+controller = INC
+add_core = INC
+is_city = yes
+culture = aimara
+religion = inti
+capital = "Arequipa"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+discovered_by = south_american
+discovered_by = andean

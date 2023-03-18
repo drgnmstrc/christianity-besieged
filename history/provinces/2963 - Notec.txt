@@ -1,0 +1,25 @@
+#254 - Notec
+
+owner = V14
+controller = V14
+add_core = V14
+capital = "Naklo"
+culture = kashubian
+religion = slavic
+trade_goods = livestock
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

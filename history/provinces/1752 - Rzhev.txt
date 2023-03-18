@@ -1,0 +1,18 @@
+#1752 - Rzhev
+
+owner = A02
+controller = A02  
+culture = novgorodian
+religion = rodoptr
+add_core = A02
+hre = no
+base_tax = 7
+base_production = 5
+trade_goods = slaves 
+base_manpower = 4
+capital = "Rzhev"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

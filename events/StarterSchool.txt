@@ -1,0 +1,36 @@
+namespace = starterschool
+country_event = {
+	id = starterschool.0
+	hidden = yes
+	trigger = {
+		religion = qanumi
+		religious_school = {
+			group = african_pagan
+			school = kurudi_school
+		}
+		NOT = { has_country_flag = salty_about_school }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		hidden_effect = {
+			every_neighbor_country = {
+				limit = {
+					religious_school = {
+						group = african_pagan
+						school = hado_school
+					}
+				}
+				set_school_opinion = {
+					who = ROOT
+					opinion = -1
+				}
+			}
+			set_country_flag = salty_about_school
+		}
+	}
+	option = {
+		name = starterschool.0a
+	}
+}

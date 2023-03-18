@@ -1,0 +1,17 @@
+# - La Rioja
+
+culture = huarpe
+owner = M66
+controller = M66
+add_core = M66
+is_city = yes
+discovered_by = south_american
+discovered_by = andean
+
+religion = inti
+capital = "La Rioja"
+trade_goods = wine
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2

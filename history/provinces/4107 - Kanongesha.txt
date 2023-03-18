@@ -1,0 +1,15 @@
+owner = R29
+controller = R29
+add_core = R29
+add_core = KIK
+culture = bemba
+religion = qanumi
+capital = "Ka|gesha"
+trade_goods = copper
+hre = no
+base_tax = 2
+base_production = 4
+base_manpower = 4
+is_city = yes
+discovered_by = central_african
+discovered_by = south_african

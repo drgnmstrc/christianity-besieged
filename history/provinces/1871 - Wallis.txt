@@ -1,0 +1,21 @@
+#1871 - Wallis
+
+owner = PAL
+controller = PAL 
+culture = alemanni
+religion = germanic
+add_core = PAL
+capital = "Sion"
+trade_goods = livestock
+hre = yes
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+#estate = estate_church
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

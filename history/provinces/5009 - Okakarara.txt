@@ -1,0 +1,16 @@
+
+owner = R42
+controller = R42
+add_core = R42
+trade_goods = grain
+is_city = yes
+culture = taa
+capital = "Okakarara"
+religion = qanumi
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+discovered_by = central_african
+discovered_by = south_african

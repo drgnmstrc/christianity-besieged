@@ -1,0 +1,17 @@
+# No previous file for Talamanca
+is_city = yes
+culture = miskito
+owner = M40
+controller = M40
+add_core = M40
+religion = quetzacoatl
+capital = "Talamanca"
+trade_goods = cocoa
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = mesoamerican

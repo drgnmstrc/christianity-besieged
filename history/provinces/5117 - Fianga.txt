@@ -1,0 +1,17 @@
+# No previous file for Mser
+culture = gbaya
+religion = byeri
+capital = "Goudje"
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+trade_goods = unknown
+
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan

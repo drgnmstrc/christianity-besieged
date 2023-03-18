@@ -1,0 +1,16 @@
+# No previous file for Yaquimo
+
+owner = M41
+controller = M41
+add_core = M41
+is_city = yes
+discovered_by = mesoamerican
+discovered_by = south_american
+culture = yucatec
+religion = mesoamerican_religion
+capital = "Yaquimo"
+trade_goods = unknown 
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2

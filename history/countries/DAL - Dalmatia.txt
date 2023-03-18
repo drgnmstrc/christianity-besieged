@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = italian_iqta
+primary_culture = latinlerin
+religion = ashabi
+technology_group = ottoman
+capital = 136 # Split
+add_army_professionalism = 0.05
+
+1444.1.1 = {
+	monarch = {
+		name = "Calacun"
+		dynasty = "Quereni"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

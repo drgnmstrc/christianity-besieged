@@ -1,0 +1,18 @@
+owner = R20
+controller = R20
+add_core = R20
+trade_goods = copper
+is_city = yes
+culture = okung
+capital = "Aliwal"
+religion = qanumi
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

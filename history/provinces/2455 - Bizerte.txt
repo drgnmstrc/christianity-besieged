@@ -1,0 +1,26 @@
+# - Bizerte
+
+owner = R05
+controller = R05 
+add_core = R05
+culture = mutawasiti
+religion = ashabi
+capital = "Qirtaj"
+#estate = estate_nobles
+trade_goods = silk
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 6
+is_city = yes
+center_of_trade = 2
+extra_cost = 16
+
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

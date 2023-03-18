@@ -1,0 +1,21 @@
+# 4764 - Salins. Principal cities: Salins, Lons-le-Saunier, Arlay, Pontarlier
+
+owner = PAL
+controller = PAL 
+culture = alemanni
+religion = germanic
+add_core = PAL
+capital = "Salins"
+is_city = yes
+add_local_autonomy = 30 # The counts of Chalon-Arlay were very dominant in the region
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = salt
+base_manpower = 2
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

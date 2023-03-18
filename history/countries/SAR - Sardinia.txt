@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = ottoman
+religion = ashabi
+primary_culture = mutawasiti
+capital = 127	# Cagliari
+fixed_capital = 127 # Cannot move capital away from this province & no power cost to move to it

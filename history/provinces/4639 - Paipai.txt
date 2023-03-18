@@ -1,0 +1,17 @@
+# No previous file for Paipai
+
+culture = teochimen
+religion = atzintlicoatl
+owner = M31
+controller = M31
+add_core = M31
+is_city = yes
+capital = "Paipai"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+discovered_by = north_american
+
+discovered_by = mesoamerican

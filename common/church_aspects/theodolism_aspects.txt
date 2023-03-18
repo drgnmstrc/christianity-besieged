@@ -1,0 +1,126 @@
+seize_property_aspect = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			treasury = 1000000
+		}
+		any_owned_province = {
+			NOT = {
+				religion = anglican
+			}
+		}
+	}
+	effect = {
+		add_years_of_income = 0.25
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_bankrupt = yes
+		}
+	}
+}
+
+
+monopoly_aspect = {
+	sprite = "GFX_grant_monopoly_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			mercantilism = 100
+		}
+	}
+	effect = {
+		add_mercantilism = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			trade_income_percentage = 0.4
+		}
+	}
+}
+
+
+ceremony_tourney_aspect = {
+	sprite = "GFX_ceremony_tourney_icon"
+	cost = 100
+	trigger = {
+		NOT = {
+			army_tradition = 95
+			prestige = 89
+		}
+	}
+	effect = {
+		add_prestige = 5
+		add_army_tradition = 2
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+charity_aspect = {
+	sprite = "GFX_charity_icon"
+	cost = 200
+	trigger = {
+		NOT = {
+			adm_power = 800
+		}
+	}
+	effect = {
+		add_adm_power = 50
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+proselytism_aspect = {
+	sprite = "GFX_proselytism_icon"
+	cost = 200
+	trigger = {
+		any_owned_province = {
+			NOT = {
+				religion = anglican
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = encouraging_proselytism
+			duration = 365
+			hidden = yes
+		}
+		custom_tooltip = ENCOURAGING_PROSELYTISM_TOOLTIP
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+knight_aspect = {
+	sprite = "GFX_knight_aspect_icon"
+	cost = 300
+	trigger = {
+		NOT = {
+			has_leader_with = {
+				general = yes
+				fire = 5
+				shock = 5
+				manuever = 4
+				siege = 2
+			}
+		}
+	}
+	effect = {
+		create_general = { tradition = 100 }
+	}
+	ai_will_do = {
+		factor = 2
+	}
+}

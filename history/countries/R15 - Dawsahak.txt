@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = idaksahak
+religion = karaite
+technology_group = saharan
+capital = 4949
+
+1444.1.1 = {
+	monarch = {
+		name = "Salaman"
+		dynasty = "Dawsahaka"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

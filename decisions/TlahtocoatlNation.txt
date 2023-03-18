@@ -1,0 +1,85 @@
+country_decisions = {
+	tlahtocoatl_nation = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = tlahtocoatl_formed }
+			NOT = { tag = M12 }
+			religion = atzintlicoatl
+			primary_culture = atlcotl
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 893
+				province_id = 2530
+				province_id = 2514
+				province_id = 2520
+				province_id = 939
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = {
+				exists = M12
+			}
+			owns_core_province = 893
+			owns_core_province = 2530
+			owns_core_province = 2514
+			owns_core_province = 2520
+			owns_core_province = 939
+		}
+		effect = {
+			change_tag = M12
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_authority = 50
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 2
+			}
+			mississippi_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = M12
+			}
+			great_lakes_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = M12
+			}
+			great_plains_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = M12
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 50
+			set_country_flag = tlahtocoatl_formed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 800
+	}
+	
+}

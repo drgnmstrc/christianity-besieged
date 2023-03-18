@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = atlcotl
+religion = atzintlicoatl
+technology_group = north_american
+unit_type = mesoamerican
+capital = 900
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Cualla"
+		dynasty = "Pilipo"
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}

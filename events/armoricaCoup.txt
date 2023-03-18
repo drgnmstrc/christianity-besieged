@@ -1,0 +1,167 @@
+namespace = armoricaCoup
+country_event = { #We gonna get couped if we dont get shit together!
+	id = armoricaCoup.0
+	title = armoricaCoup.t
+	desc = armoricaCoup.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = H01
+		B05 = { ai = yes }
+	}
+	option = {
+		name = armoricaCoup.a
+	}
+}
+country_event = { #Welp it happened
+	id = armoricaCoup.1
+	title = armoricaCoup.1t
+	desc = armoricaCoup.1d
+	fire_only_once = yes
+	trigger = {
+		tag = H01
+		is_year = 1448
+		exists = B05
+		B05 = { ai = yes }
+		NOT = { is_year = 1450 }
+	}
+	mean_time_to_happen = {
+		months = 2
+	}
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { B05 = { ai = yes } }
+				white_peace = B05
+				inherit = B05
+			}
+			set_country_flag = axrotalus_rules
+		}
+	}
+	option = { #Axius stands down without a fight.
+		name = armoricaCoup.1a
+		change_religion = sol_invictus
+		add_stability = 2
+		define_ruler = {
+			name = "Axrotalus"
+			dynasty = "Segamaros"
+			culture = gaulish
+			adm = 4
+			dip = 3
+			mil = 6
+			age = 27
+    			claim = 85
+			fixed = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Axius fights for his honor.
+		name = armoricaCoup.1b
+		kill_ruler = yes
+		change_religion = sol_invictus
+		add_stability = 3
+		add_prestige = 10
+		170 = { change_religion = sol_invictus }
+		define_ruler = {
+			name = "Axrotalus"
+			dynasty = "Segamaros"
+			culture = gaulish
+			adm = 4
+			dip = 3
+			mil = 6
+			age = 27
+    			claim = 85
+			fixed = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = {
+	id = armoricaCoup.2
+	title = armoricaCoup.2t
+	desc = armoricaCoup.2d
+	picture = DEATH_OF_HEIR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			set_country_flag = axrotalus_deified
+		}
+	}
+	option = { #He was a hero.
+		name = armoricaCoup.2a
+		add_prestige = 5
+		custom_tooltip = axrotalus_ascension_tt
+		hidden_effect = {
+			kill_ruler = yes
+		}
+	}
+	option = { #He was my hero.
+		name = armoricaCoup.2b
+		hidden_effect = {
+			kill_ruler = yes
+		}
+		add_prestige = 5
+		change_personal_deity = axrotalus_deity
+		custom_tooltip = axrotalus_ascension_tt
+	}
+}
+country_event = { #Wessex Revolt
+	id = armoricaCoup.3
+	title = armoricaCoup.2t
+	desc = armoricaCoup.2d
+	picture = DEATH_OF_HEIR_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = H01
+		has_country_flag = axrotalus_deified
+		NOT = { exists = B05 }
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	immediate = {
+		hidden_effect = {
+			4373 = { cede_province = B05 }
+			4130 = { cede_province = B05 }
+			4374 = {
+				cede_province = B05
+				B05 = {
+					infantry = PREV
+					infantry = PREV
+					infantry = PREV
+				}
+			}
+			H01 = {
+				declare_war = B05
+			}
+		}
+	}
+	option = { #We lose too many in these hapless wars as it is.
+		name = armoricaCoup.2a
+		add_prestige = -5
+		white_peace = B05
+		hidden_effect = {
+			4371 = { cede_province = B04 }
+			234 = {
+				cede_province = B04
+				add_core = B04
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+	option = { #There's no way we let them destroy Axrotalus' legacy!
+		name = armoricaCoup.2b
+		add_prestige = 15
+		add_stability = -1
+		ai_chance = {
+			factor = 3
+		}
+	}
+}

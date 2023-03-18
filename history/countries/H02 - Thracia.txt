@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = greek_democracy_reform
+government_rank = 1
+primary_culture = iones
+religion = hellenism
+technology_group = eastern
+capital = 149
+
+
+1425.7.21 = {
+	monarch = {
+		name = "Ioannes VIII"
+		dynasty = "Palaiologos"
+		birth_date = 1425.7.19
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

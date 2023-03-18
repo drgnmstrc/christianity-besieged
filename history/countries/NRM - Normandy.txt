@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = normand
+religion = norse_pagan_reformed
+capital = 4385
+
+1444.11.11 = {
+	monarch = {
+		name = "Charles I"
+		dynasty = "de Rusen"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

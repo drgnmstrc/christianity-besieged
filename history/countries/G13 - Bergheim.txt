@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = swabian
+religion = germanic
+capital = 77
+
+1399.9.12 = {
+	monarch = {
+		name = "Lugan III"
+		dynasty = "Bergendorf"
+		birth_date = 1396.4.15
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

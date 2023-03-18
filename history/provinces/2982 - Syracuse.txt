@@ -1,0 +1,26 @@
+# - Syracusa
+
+owner = Y03
+controller = Y03
+culture = sicilian 
+religion = ashabi
+hre = no 
+base_tax = 6
+base_production = 6
+trade_goods = wine
+base_manpower = 4
+capital = "Syracusa"
+is_city = yes
+add_core = SIC
+add_core = Y03
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+discovered_by = saharan

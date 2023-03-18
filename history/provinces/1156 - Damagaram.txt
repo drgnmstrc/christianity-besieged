@@ -1,0 +1,18 @@
+#1156 - Damagaram
+
+owner = R54
+controller = R54
+add_core = R54
+culture = tuareg
+religion = sunni
+capital = "Zinder"
+is_city = yes
+base_manpower = 4
+trade_goods = livestock
+hre = no
+base_tax = 5
+base_production = 4
+discovered_by = sub_saharan
+discovered_by = saharan
+extra_cost = 8
+center_of_trade = 1

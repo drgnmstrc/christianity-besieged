@@ -1,0 +1,24 @@
+#348 - Sus
+
+owner = TFL
+controller = TFL
+add_core = TFL
+add_core = R02
+add_core = R03
+culture = sahrawi
+religion = sunni
+capital = "Taroudant"
+trade_goods = sugar
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan
+discovered_by = east_african

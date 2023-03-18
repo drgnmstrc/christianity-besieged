@@ -1,0 +1,18 @@
+# No previous file for Toskouria
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = ottoman
+primary_culture = toskout
+religion = ashabi
+capital = 4174
+government_rank = 1
+1444.11.11 = {
+	monarch = {
+		name = "Xixian"
+		dynasty = Suraimi
+		birth_date = 1422.2.11	
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}

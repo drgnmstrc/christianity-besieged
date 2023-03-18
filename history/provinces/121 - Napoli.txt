@@ -1,0 +1,24 @@
+#121 - Napoli
+
+owner = U01
+controller = U01
+culture = italian_turk
+religion = ashabi
+hre = no 
+base_tax = 5
+base_production = 5
+trade_goods = grain 
+base_manpower = 7 
+capital = "Napoli" 
+is_city = yes	# Estimated
+fort_15th = yes
+add_core = U01
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 16
+center_of_trade = 2

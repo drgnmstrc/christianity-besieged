@@ -1,0 +1,109 @@
+country_decisions = {
+	enable_pax_deiorum = {
+		potential = {
+			has_roman_religion = yes
+			NOT = { has_estate = estate_church }
+			NOT = { has_country_modifier = venetian_pax_deiorum }
+		}
+		allow = {
+			OR = {
+				any_owned_province = {
+					has_roman_religion = yes
+					NOT = { religion = root }
+				}
+				if = {
+					limit = {
+						religion = cisarstvo
+					}
+					any_owned_province = {
+						religion = slavic
+					}
+				}
+				if = {
+					limit = {
+						religion = noniustian
+					}
+					any_owned_province = {
+						religion = manichaeism
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = venetian_pax_deiorum
+				duration = -1
+			}
+			custom_tooltip = estate_church_pax_deiorum_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_roman_religion = yes
+						NOT = { religion = root }
+						NOT = { has_province_modifier = carnaro_village_privileges }
+					}
+					add_province_modifier = {
+						name = estate_church_pax_deiorumin
+						duration = -1
+					}
+				}
+				if = {
+					limit = {
+						religion = cisarstvo
+					}
+					every_owned_province = {
+						limit = {
+							religion = slavic
+						}
+						add_province_modifier = {
+							name = estate_church_pax_deiorumin
+							duration = -1
+						}
+					}
+				}
+				if = {
+					limit = {
+						religion = noniustian
+					}
+					every_owned_province = {
+						limit = {
+							religion_group = iranian
+						}
+						add_province_modifier = {
+							name = estate_church_pax_deiorumin
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	disable_pax_deiorum = {
+		potential = {
+			has_roman_religion = yes
+			NOT = { has_estate = estate_church }
+			has_country_modifier = venetian_pax_deiorum
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			remove_country_modifier = venetian_pax_deiorum
+			custom_tooltip = estate_church_pax_deiorum_revoke_effect_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_province_modifier = estate_church_pax_deiorumin
+					}
+					remove_province_modifier = estate_church_pax_deiorumin
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

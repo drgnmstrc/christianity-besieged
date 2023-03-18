@@ -1,0 +1,16 @@
+#366 - The Canarias
+
+capital = "Las Palmas"
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+culture = imraguen
+religion = sunni
+trade_goods = unknown
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun

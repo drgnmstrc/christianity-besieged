@@ -1,0 +1,46 @@
+country_decisions = {
+	silence_settlers = {
+		potential = {
+			religion = norse_pagan_reformed
+			primary_culture = novgorodian
+			OR = {
+				tag = A01
+				tag = A02
+				tag = A04
+				tag = RUS
+			}
+			NOT = { has_country_flag = silence_settlers }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = silence_settlers
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	wait_i_like_settlers = {
+		potential = {
+			religion = norse_pagan_reformed
+			primary_culture = novgorodian
+			OR = {
+				tag = A01
+				tag = A02
+				tag = A04
+				tag = RUS
+			}
+			has_country_flag = silence_settlers
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			clr_country_flag = silence_settlers
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

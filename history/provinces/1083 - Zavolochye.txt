@@ -1,0 +1,22 @@
+#1083 - Vetluga ( formerly Zavolochye )
+
+tribal_owner = KAZ
+add_core = KAZ
+culture = mari 
+religion = suomenusko
+add_core = PRM
+add_core = V16
+capital = "Yur"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = scandinavian_tech

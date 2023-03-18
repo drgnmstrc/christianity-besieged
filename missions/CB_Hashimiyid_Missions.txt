@@ -1,0 +1,28 @@
+hashimiyid_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = Y13
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	call_to_medina = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_mosque
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			reverse_has_opinion = {
+				who = MDA
+				value = 80
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			MDA = {
+				country_event = { id = hashimiyidFlavor.0 }
+			}
+			add_prestige = 10
+		}
+	}
+}

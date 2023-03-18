@@ -1,0 +1,18 @@
+# No previous file for Kalapuya
+
+culture = mictan
+religion = atzintlicoatl
+owner = M33
+controller = M33
+add_core = M33
+is_city = yes
+capital = "Kalapuya"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = north_american

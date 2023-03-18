@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = kxai_reform
+primary_culture = taa
+religion = qanumi
+technology_group = south_african
+capital = 5001
+religious_school = kurudi_school
+government_rank = 2
+1444.1.1 = {
+	monarch = {
+		name = "Ka'a'aa"
+		dynasty = "||quV|um"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

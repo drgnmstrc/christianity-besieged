@@ -1,0 +1,20 @@
+# No previous file for Jalingo
+culture = mumuye
+religion = byeri
+capital = "Yorro"
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = ivory
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+owner = R90
+controller = R90
+add_core = R90
+is_city = yes
+discovered_by = sub_saharan
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = saharan

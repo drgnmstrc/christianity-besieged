@@ -1,0 +1,187 @@
+namespace = sebkhevents
+
+country_event = { #Spah Burzafrah's Unstoppable Will
+	id = sebkhevents.0
+	title = sebkhevents.t
+	desc = sebkhevents.d
+	picture = COMET_SIGHTED_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = { tag = X07 }
+	option = {
+		name = sebkhevents.a
+		add_ruler_modifier = {
+			name = burzafrah_unstoppable
+			duration = -1
+		}
+	}
+}
+country_event = { #The Tragedy of Burzafrah's Demise
+	id = sebkhevents.1
+	title = sebkhevents.1t
+	desc = sebkhevents.1d
+	picture = KING_SICK_IN_BED_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = { tag = X07 }
+	option = {
+		name = sebkhevents.1a
+		add_country_modifier = {
+			name = burzafrah_dead
+			duration = 10950
+		}
+	}
+}
+
+province_event = { #Sebkhemerz Conquest of Iliropolis
+	id = sebkhevents.2
+	title = sebkhevents.2t #The Emptying of Iliropolis
+	desc = sebkhevents.2d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #It'll grow back in time.
+		name = sebkhevents.2a
+		change_culture = karakalpak
+		change_religion = manichaeism
+		add_base_tax = -2
+		add_base_production = -2
+		add_base_manpower = -2
+	}
+	option = { #Seize the most valuable land to give as later rewards to retired nobles and generals.
+		name = sebkhevents.2b
+		owner = { add_mil_power = 100 }
+		change_culture = karakalpak
+		change_religion = manichaeism
+		add_base_tax = -2
+		add_base_production = -4
+		add_base_manpower = -4
+	}
+	option = { #Provide incentives to quickly resettle the city to its former glory.
+		name = sebkhevents.2c
+		owner = {
+			add_adm_power = -50
+			add_dip_power = -50
+		}
+		change_culture = karakalpak
+		change_religion = manichaeism
+	}
+}
+
+country_event = { #Sebkhemerz Vassalize Ghajaz and Moglena
+	id = sebkhevents.3
+	title = sebkhevents.3t #Maintaining the Safety of the Faithful
+	desc = sebkhevents.3d
+	picture = COMET_SIGHTED_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		OR = {
+			exists = X17
+			exists = X18
+		}
+	}
+	option = { #Fear not, for you have our protection.
+		name = sebkhevents.3a
+		if = {
+			limit = {
+				exists = X17
+				X17 = { NOT = { is_subject = yes } }
+			}
+			vassalize = X17
+		}
+		if = {
+			limit = {
+				exists = X18
+				X18 = { NOT = { is_subject = yes } }
+			}
+			vassalize = X18
+		}
+	}
+}
+
+country_event = { #New Foundation Bonuses
+	id = sebkhevents.4
+	title = sebkhevents.4t #The Assembly at Ortet
+	desc = sebkhevents.4d
+	picture = LIBERUM_VETO_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #The Sebkhemerz followers ARE the state.
+		name = sebkhevents.4a
+		add_country_modifier = {
+			name = sebkhemerz_militancy
+			duration = -1
+		}
+	}
+	option = { #Transform the Sebkhemerz followers into a landed feudal nobility.
+		name = sebkhevents.4b
+		add_treasury = 50
+		change_government_to_monarchy = yes
+		add_government_reform = sebkhemerz_monarchy_reform
+		add_country_modifier = {
+			name = sebkhemerz_feudalism
+			duration = -1
+		}
+	}
+	option = { #The followers may remain under military service, but a new landed clergy will rule.
+		name = sebkhevents.4c
+		add_country_modifier = {
+			name = sebkhemerz_theocracy
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = sebkhevents.5
+	title = sebkhevents.5t #Visions of a Nation
+	desc = sebkhevents.5d
+	picture = LIBERUM_VETO_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = sebkhevents.5a
+		trigger = {
+			has_country_modifier = sebkhemerz_militancy
+		}
+		remove_country_modifier = sebkhemerz_militancy
+		override_country_name = seb_manideh
+		set_government_rank = 3
+		every_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = maniercler
+		}
+		change_primary_culture = maniercler
+		add_country_modifier = {
+			name = manideh_milis
+			duration = -1
+		}
+	}
+	option = {
+		name = sebkhevents.5b
+		trigger = {
+			has_country_modifier = sebkhemerz_feudalism
+		}
+		remove_country_modifier = sebkhemerz_feudalism
+		override_country_name = seb_manideh
+		set_government_rank = 3
+		add_country_modifier = {
+			name = kingdom_of_manideh
+			duration = -1
+		}
+	}
+	option = {
+		name = sebkhevents.5c
+		trigger = {
+			has_country_modifier = sebkhemerz_theocracy
+		}
+		remove_country_modifier = sebkhemerz_theocracy
+		override_country_name = seb_manideh
+		set_government_rank = 3
+		add_country_modifier = {
+			name = holy_manideh
+			duration = -1
+		}
+	}
+}

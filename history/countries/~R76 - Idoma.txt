@@ -1,0 +1,19 @@
+# No previous file for Idoma
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = idoma
+religion = alekwu #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5063
+1440.1.1 = {
+	monarch = {
+		name = "Onoja"
+		dynasty = "Iduma"
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+}

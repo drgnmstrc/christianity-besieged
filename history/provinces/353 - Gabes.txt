@@ -1,0 +1,27 @@
+#353 - Tataouine
+
+owner = GHD
+controller = GHD 
+add_core = GHD
+add_core = R07
+add_core = TRP
+culture = isawiyen
+religion = sunni
+capital = "Tataouine"
+trade_goods = grain
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

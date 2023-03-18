@@ -1,0 +1,29 @@
+namespace = athyubia
+country_event = { #Alright, what are we called on the big screen?
+	id = athyubia.0
+	title = athyubia.t
+	desc = athyubia.d
+	picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = ETH }
+	option = { #We are the Hanafiyyah Caliphate, obviously!
+		name = athyubia.a
+		override_country_name = ETH_Hanafiyyah
+		ai_chance = { factor = 10 }
+	}
+	option = { #It's always been Aksum, obviously!
+		name = athyubia.b
+		override_country_name = ETH_Aksum
+		ai_chance = { factor = 10 }
+	}
+	option = { #It's always been Athyubia, obviously!
+		name = athyubia.c
+		override_country_name = ETH_Athyubia
+		ai_chance = { factor = 10 }
+	}
+	option = { #It's always just been Ethiopia, obviously!
+		name = athyubia.e
+		ai_chance = { factor = 9 }
+	}
+}

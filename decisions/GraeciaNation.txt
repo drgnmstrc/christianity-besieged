@@ -1,0 +1,141 @@
+country_decisions = {
+
+	graecia_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_aybirea_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = U01 }
+			NOT = { tag = U15 }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = SPA }
+			NOT = { tag = Y23 }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			NOT = { exists = Y23 }
+			OR = {
+				primary_culture = sicilian
+				tag = H20
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4736	# Trapani
+				province_id = 125	# Palermo
+				province_id = 4737	# Girgenti
+				province_id = 124	# Messina
+				province_id = 2982	# Syracuse
+				province_id = 123	# Calabria
+				province_id = 2984	# Cosenza
+				province_id = 2983	# Salerno
+				province_id = 121	# Napoli
+				province_id = 142	# Corfu
+				province_id = 4698	# Cephalonia
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = Y23 }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 4736
+			owns_core_province = 125
+			owns_core_province = 4737
+			owns_core_province = 124
+			owns_core_province = 2982
+			owns_core_province = 123
+			owns_core_province = 2984
+			owns_core_province = 2983
+			owns_core_province = 121
+			owns_core_province = 142
+			owns_core_province = 4698
+		}
+		effect = {
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = { region = italy_region }
+					}
+				}
+				125 = {	#Cordoba
+					move_capital_effect = yes
+				}
+				set_capital = 125 # Palermo
+			}
+			change_tag = Y23
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			if = {
+				limit = {
+					government = tribal
+				}
+				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
+				#set_legacy_government = despotic_monarchy
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			albania_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			morea_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			corsica_sardinia_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			set_country_flag = formed_graecia_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

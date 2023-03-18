@@ -1,0 +1,25 @@
+#4523 - Inwroclaw
+
+owner = V03
+controller = V03
+add_core = V03
+religion = slavic
+capital = "Inowroclaw"
+culture = polish
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

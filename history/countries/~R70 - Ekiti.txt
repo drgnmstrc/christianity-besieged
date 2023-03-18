@@ -1,0 +1,19 @@
+# No previous file for Ekiti
+government = tribal
+add_government_reform = tribal_despotism
+primary_culture = ekiti
+religion = itan #Fetishism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 5096
+1397.1.1 = {
+	monarch = {
+		name = "Parapo"
+		dynasty = "Ekiti"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

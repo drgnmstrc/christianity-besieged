@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudal_theocracy
+primary_culture = azerbaijani
+add_accepted_culture = persian
+religion = manichaeism
+technology_group = near_east
+capital = 424 #Ardabil
+government_rank = 1
+add_army_professionalism = 0.05

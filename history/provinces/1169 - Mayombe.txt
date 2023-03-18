@@ -1,0 +1,16 @@
+#1169 - Anziku
+
+owner = TYO
+controller = TYO
+culture = kongolese
+religion = nzambiism #Fetishism
+capital = "Anziku"
+trade_goods = copper
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+is_city = yes
+add_core = TYO
+discovered_by = central_african
+discovered_by = south_african

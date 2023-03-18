@@ -1,0 +1,23 @@
+# No previous file for Bretony
+owner = H44
+controller = H44
+capital = "Bretona"
+is_city = yes
+culture = bretono
+religion = walianitas
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = cloth
+base_manpower = 2
+add_core = H44
+fort_15th = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1

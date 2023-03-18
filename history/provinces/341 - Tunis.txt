@@ -1,0 +1,25 @@
+#341 - Tunis
+
+owner = R05
+controller = R05 
+culture = sicilian
+religion = ashabi
+capital = "Tunis"
+trade_goods = cloth
+hre = no
+base_tax = 6
+base_production = 7
+base_manpower = 3
+is_city = yes
+add_core = R05
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+extra_cost = 8
+center_of_trade = 1
+add_local_autonomy = 50

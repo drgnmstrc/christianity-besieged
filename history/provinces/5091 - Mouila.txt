@@ -1,0 +1,17 @@
+# No previous file for Mouila
+# No previous file for Mayumba
+owner = LOA
+controller = LOA
+add_core = LOA
+culture = kongolese
+religion = nzambiism
+capital = "Mayumba"
+trade_goods = ivory
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = central_african
+discovered_by = saharan
+discovered_by = south_african

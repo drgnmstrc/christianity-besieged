@@ -1,0 +1,26 @@
+#335 - Melilla
+
+owner = GRA
+controller = GRA
+add_core = GRA
+culture = mutawasiti
+religion = ashabi
+capital = "Melilla"
+trade_goods = fish
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+is_city = yes
+#estate = estate_nobles
+
+
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = saharan
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

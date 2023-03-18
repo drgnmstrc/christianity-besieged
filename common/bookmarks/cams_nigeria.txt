@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "BOTRK_TITLE"
+	desc = "BOTRK_DESC"
+	date = "1444.11.11"
+	center = 5031
+	country = BEN
+	country = R53
+	country = SOK
+	country = R24
+	country = OYO
+	country = DAH
+	country = R62
+	country = KBO
+	country = R91
+	easy_country = BEN
+	easy_country = R53
+	easy_country = SOK
+}
+
+

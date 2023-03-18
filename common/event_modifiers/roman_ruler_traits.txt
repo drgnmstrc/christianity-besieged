@@ -1,0 +1,56 @@
+loyalist_adm = {
+	stability_cost_modifier = -0.05
+}
+bureaucrat_adm = {
+	global_tax_modifier = 0.05
+}
+oligarch_adm = {
+	global_autonomy = -0.05
+}
+appraised_dip = {
+	prestige = 0.5
+}
+populist_dip = {
+	republican_tradition = 0.5
+}
+merchant_dip = {
+	global_trade_power = 0.05
+}
+right_hand_mil = {
+	army_tradition = 0.5
+}
+general_mil = {
+	discipline = 0.01
+}
+strongman_mil = {
+	harsh_treatment_cost = -0.1
+}
+philosopher_adm = {
+	idea_cost = -0.1
+}
+eloquent_dip = {
+	diplomatic_reputation = 1
+}
+warhero_mil = {
+	land_morale = 0.1
+}
+prodigial_heir = {
+	land_morale = 0.1
+	global_unrest = -4
+	prestige = 0.5
+}
+eminent_heir = {
+	diplomatic_reputation = 1
+	vassal_income = 0.1
+}
+heir_apparent = {
+	prestige = 0.5
+}
+violent_heir = {
+	discipline = 0.01
+	global_unrest = 2
+}
+questionable_heir = {
+	diplomatic_reputation = -1
+	power_projection_from_insults = -10
+}

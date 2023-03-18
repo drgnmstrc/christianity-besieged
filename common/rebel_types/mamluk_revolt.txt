@@ -1,0 +1,160 @@
+
+######################################################################
+# Mamluk rebels. Will form a Mamluk Sultanate if they succeed.
+######################################################################
+mamluk_revolt = {
+
+	color = { 230 175 175 }
+
+	area = nation 					# Sticks to provinces of their nation
+	government = monarchy 			# Desires Monarchy
+	religion = ashabi
+	defection = none				# Will not defect
+	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
+	independence = none				# Does not strive for independence
+	unit_transfer = no
+	gfx_type = culture_province
+	will_relocate = yes	
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	artillery = 0.0
+	infantry = 1.0
+	cavalry = 0.0
+	
+	morale = 1.35
+
+	# Possible handle actions
+	handle_action_negotiate = yes
+	handle_action_stability = no
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 100
+			is_capital = yes
+		}
+		modifier = {
+			factor = 0
+			owner = { NOT = { reform_desire = 95 } }
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion = ashabi }
+		}
+		modifier = {
+			factor = 0
+			owner = { has_country_flag = had_mamluks }
+		}
+		modifier = {
+			factor = 0
+			owner = { has_reform = mamluk_government }
+		}
+		modifier = {
+			factor = 100
+			owner = {
+				any_hired_mercenary_company = {
+					template = mamlukean_guard
+				}
+			}
+		}
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+			NOT = { units_in_province = 1 }
+		}
+		modifier = {
+			factor = 3
+			is_capital = yes
+		}
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+		NOT = {
+			AND = {
+				owned_by = U01
+				is_capital = yes
+			}
+		}
+ 	}
+	siege_won_effect = {
+		add_devastation = 10
+		owner = {
+			add_manpower = -100
+		}
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {
+		OR = {
+			religion_group = muslim
+			dominant_religion = ashabi
+		}
+	}
+	
+	# Country scope
+	can_enforce_trigger = {
+		capital_scope = {
+			controlled_by = FROM
+		}
+	}
+	
+	# Localisation for their demands
+	demands_description = mamluk_revolt_demand
+	
+	# Country Scope	
+	demands_enforced_effect = {
+		if = {
+			limit = {
+				NOT = { religion_group = muslim }
+			}
+			add_prestige = -50
+			every_owned_province = {
+				limit = {
+					has_rebel_faction = REB
+				}
+				add_local_autonomy = 20
+			}
+		}
+		if = {
+			limit = {
+				tag = U01
+			}
+			add_stability = -1
+		}
+		else_if = {
+			limit = {
+				religion = ashabi
+			}
+			add_country_modifier = {
+				name = "religious_intolerance_enforced"
+				duration = 3650
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { religion = ashabi }
+			}
+			change_religion = ashabi
+			force_converted = yes
+			add_stability = -1
+		}
+		else = { add_stability = -1 } #Should probably never get here
+		country_event = { id = mamlukRevolt.0 }
+		disband_rebels = mamluk_revolt
+	}
+}

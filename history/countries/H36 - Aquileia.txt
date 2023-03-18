@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+mercantilism = 25
+primary_culture = aquilicus
+religion = procuveric
+technology_group = ottoman
+capital = 111 # Venezia
+fixed_capital = 111 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1

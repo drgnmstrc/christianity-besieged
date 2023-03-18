@@ -1,0 +1,18 @@
+trade_goods = grain
+is_city = yes
+owner = R45
+controller = R45
+add_core = R45
+culture = khoemana
+religion = qanumi
+capital = "eBhobhofolo"
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

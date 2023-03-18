@@ -1,0 +1,362 @@
+ethiopia_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eth_decree_hanafis = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_luther_theses
+		required_missions = {  } #None
+		position = 4
+		trigger = {
+			adm_power = 50
+			dip_power = 50
+			mil_power = 50
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_adm_power = -25
+			add_dip_power = -25
+			add_mil_power = -25
+			#event
+		}
+	}
+}
+
+ethiopia_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eth_raise_army = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_assemble_an_army
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = { 
+				name = eth_holy_swords
+				duration = 9125
+			}
+		}
+	}
+	eth_secure_arab_coast = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_invade_island
+		required_missions = { eth_raise_army } #None
+		position = 2
+		trigger = {
+			tihama_al_yemen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			yemen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hadramut_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mahra_area = {
+				type = all
+				owned_by = ROOT
+			}
+			dhofar_area = {
+				type = all
+				owned_by = ROOT
+			}
+			medina_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = { 
+				name = eth_dominating_arab_affairs
+				duration = 18250
+			}
+		}
+	}
+	eth_united_arabia = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_unite_home_region
+		required_missions = { eth_secure_arab_coast } #None
+		position = 3
+		trigger = {
+			arabia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 15
+			add_country_modifier = { 
+				name = eth_sultan_arabia
+				duration = -1
+			}
+		}
+	}
+}
+
+ethiopia_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eth_secure_highlands = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			southern_ethiopia_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hadiya_area = {
+				type = all
+				owned_by = ROOT
+			}
+			shewa_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ifat_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = { 
+				name = eth_mass_land_seizure
+				duration = 9125
+			}
+		}
+	}
+	eth_wealth_of_somalia = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_sea_battles
+		required_missions = { eth_secure_highlands } #None
+		position = 2
+		trigger = {
+			majarteen_area = {
+				type = all
+				owned_by = ROOT
+			}
+			somaliland_area = {
+				type = all
+				owned_by = ROOT
+			}
+			hadramut_area = {
+				type = all
+				owned_by = ROOT
+			}
+			mogadishu_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ajuuran_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = { 
+				name = eth_sights_indian_ocean
+				duration = 5475
+			}
+		}
+	}
+	eth_indian_trade = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_market_place_with_asian_traders
+		required_missions = { eth_wealth_of_somalia } #None
+		position = 3
+		trigger = {
+			504 = { is_strongest_trade_power = ROOT }
+			1340 = { is_strongest_trade_power = ROOT }
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 15
+			add_country_modifier = { 
+				name = eth_thirst_riches
+				duration = 27375
+			}
+		}
+	}
+}
+
+ethiopia_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eth_integrating_egyptians = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_mosque
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			359 = { owned_by = ROOT }
+			4318 = { owned_by = ROOT }
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_adm_power = 25
+			add_ruler_modifier = { 
+				name = eth_popular_administration
+				duration = -1
+			}
+		}
+	}
+	eth_dominating_egyptian_affairs = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_egyptian_mamluk_soldier
+		required_missions = { eth_integrating_egyptians } #None
+		position = 2
+		trigger = {
+			2771 = { owned_by = ROOT }
+			2769 = { owned_by = ROOT }
+			4316 = { owned_by = ROOT }
+			363 = { owned_by = ROOT }
+			362 = { owned_by = ROOT }
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = { 
+				name = eth_masters_nile
+				duration = -1
+			}
+		}
+	}
+	eth_uniting_struggling_maghreb = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_dominate_home_trade_node
+		required_missions = { eth_dominating_egyptian_affairs } #None
+		position = 3
+		trigger = {
+			maghreb_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_prestige = 10
+			every_owned_province = {
+				limit = { region = maghreb_region }
+				add_province_modifier = { 
+					name = eth_heart_mind_caliph
+					duration = 3650
+				}
+			}
+		}
+	}
+}
+
+ethiopia_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = ETH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	eth_develop_tana_jeberti = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_hanseatic_city
+		required_missions = {  } #None
+		position = 4
+		trigger = {
+			2772 = { num_of_times_improved = 3 }
+			1223 = { num_of_times_improved = 3 }
+			1224 = { num_of_times_improved = 3 }
+			2770 = { num_of_times_improved = 3 }
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_adm_power = 100
+			2772 = {
+				add_base_tax = 1
+			}
+			1223 = {
+				add_base_tax = 1
+			}
+			1224 = {
+				add_base_tax = 1
+			}
+			2770 = {
+				add_base_tax = 1
+			}
+		}
+	}
+	eth_integrate_amhara_tigray = { #Localized as call_to_medina_title and call_to_medina_desc
+		icon = mission_african_soldier
+		required_missions = { eth_develop_tana_jeberti } #None
+		position = 5
+		trigger = {
+			2771 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			2769 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			1214 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			2791 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			1213 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			2762 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+			2763 = {
+				owned_by = ROOT
+				culture = jeberti
+			}
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_dip_power = 100
+			2771 = {
+				add_base_tax = 1
+			}
+			2769 = {
+				add_base_tax = 1
+			}
+			1214 = {
+				add_base_tax = 1
+			}
+			2791 = {
+				add_base_tax = 1
+			}
+			1213 = {
+				add_base_tax = 1
+			}
+			2762 = {
+				add_base_tax = 1
+			}
+			2763 = {
+				add_base_tax = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+#76 - Salzburg
+
+owner = V07
+controller = V07
+add_core = V07
+culture = slovene
+religion = slavic
+capital = "Salzburg"
+trade_goods = salt
+hre = no
+base_tax = 6 
+base_production = 6
+base_manpower = 4
+is_city = yes
+
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

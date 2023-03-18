@@ -1,0 +1,8 @@
+
+1421.3.3 = {
+	discovered_by = BTS
+	discovered_by = ANT
+	discovered_by = MFY
+	discovered_by = SKA
+	discovered_by = R35
+}

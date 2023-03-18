@@ -1,0 +1,20 @@
+#373 - Meath
+
+owner = MTH
+controller = MTH
+add_core = J14
+add_core = MTH
+culture = sodor
+religion = norse_pagan_reformed
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Dublin"
+is_city = yes
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

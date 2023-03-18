@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mictan
+religion = atzintlicoatl
+technology_group = north_american
+unit_type = mesoamerican
+capital = 2481
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "Cualdira"
+		dynasty = "Zelnitec"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

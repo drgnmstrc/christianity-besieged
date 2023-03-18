@@ -1,0 +1,15 @@
+#4043 - Phangwa
+owner = MRA
+controller = MRA
+add_core = MRA
+culture = tonga
+religion = mwari #Fetishism
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+capital = "Phangwa"
+discovered_by = central_african
+discovered_by = south_african

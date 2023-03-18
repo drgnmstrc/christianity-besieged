@@ -1,0 +1,22 @@
+# No previous file for Kebbi
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = hausa
+religion = bori
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1150
+
+#Kings of Katsina are far less well known than those of Kano
+
+1430.1.1 = {
+	monarch = {
+		name = "Abarshi"
+		dynasty = "Zamfara"
+		dip = 4
+		adm = 2
+		mil = 2
+	}
+}

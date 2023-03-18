@@ -1,0 +1,22 @@
+#240 - Marches
+#Shropshire, Herefordshire, Worcestershire
+
+owner = N22
+controller = N22
+add_core = N22
+culture = welsh
+religion = druidism
+add_claim = WLS
+hre = no
+base_tax = 5
+base_production = 4
+trade_goods = wool
+base_manpower = 4
+capital = "Zewshuld"
+is_city = yes
+fort_15th = yes
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun

@@ -1,0 +1,3 @@
+discovered_by = western
+discovered_by = eirun
+discovered_by = ottoman

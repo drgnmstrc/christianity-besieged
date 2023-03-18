@@ -1,0 +1,580 @@
+venice_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	venice_build_army = { #Localized as reclaim_maine_title and reclaim_maine_desc
+		icon = mission_build_up_to_force_limit
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_mil_power = 25
+			add_country_modifier = {
+				name = "reorganized_laeti"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	venice_histria = {
+		icon = mission_italian_condottiere
+		required_missions = { venice_build_army }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				province_id = 130
+				province_id = 111
+				province_id = 4738
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			130 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			111 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4738 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_mil_power = 50
+			130 = {
+				add_nationalism = -10
+				if = {
+					limit = {
+						NOT = { is_core = H28 }
+					}
+					add_core = H28
+				}
+				else = {
+					owner = { add_adm_power = 25 }
+				}
+			}
+			111 = {
+				add_nationalism = -10
+				if = {
+					limit = {
+						NOT = { is_core = H28 }
+					}
+					add_core = H28
+				}
+				else = {
+					owner = { add_adm_power = 25 }
+				}
+			}
+			4738 = {
+				add_nationalism = -10
+				if = {
+					limit = {
+						NOT = { is_core = H28 }
+					}
+					add_core = H28
+				}
+				else = {
+					owner = { add_adm_power = 25 }
+				}
+			}
+		}
+	}
+	venice_istria = {
+		icon = mission_conquer_50_development
+		required_missions = { }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 130
+		}
+		trigger = {
+			130 = {
+				has_building = fort_15th
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = "happy_people"
+				duration = 3650
+			}
+			130 = {
+				add_province_modifier = {
+					name = "fortification_expert_boost"
+					duration = 5475 #15 years
+				}
+			}
+		}
+	}
+	venice_workshops = {
+		icon = mission_early_game_buildings
+		required_missions = { venice_istria }
+		position = 3
+		provinces_to_highlight = {
+			province_id = 130
+		}
+		trigger = {
+			workshop = 5
+		}
+		effect = {
+			add_prestige = 5
+			add_adm_power = 25
+			add_country_modifier = {
+				name = "building_spree"
+				duration = 9125
+			}
+		}
+	}
+}
+
+venice_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	venice_east_cenomania = {
+		icon = mission_crusade_for_varna
+		position = 2
+		required_missions = { venice_build_army }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4729
+				province_id = 108
+				province_id = 110
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4729 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			108 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			110 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_mil_power = 25
+			4729 = {
+				change_culture = venixicus
+				change_religion = ROOT
+			}
+			if = {
+				limit = {
+					113 = {
+						owned_by = FER
+					}
+				}
+				113 = { add_base_tax = 1 }
+				4729 = { add_base_tax = -1 }
+			}
+		}
+	}
+	venice_naval_investment = {
+		icon = mission_sea_battles
+		position = 3
+		required_missions = { venice_build_navy }
+		trigger = {
+			navy_tradition = 50
+		}
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = "gatekeepers_of_the_adriatic"
+				duration = 5475 #15 years
+			}
+		}
+	}
+	venice_dock = {
+		icon = mission_conquer_50_development
+		required_missions = { venice_naval_investment }
+		position = 4
+		provinces_to_highlight = {
+			province_id = 130
+		}
+		trigger = {
+			112 = {
+				has_building = dock
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_dip_power = 50
+		}
+	}
+	venice_conquer_ferrara = {
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 5
+		trigger = {
+			owns = 113
+			is_core = 113
+			NOT = {
+				mission_completed = venice_subjugate_ferrara
+			}
+		}
+		effect = {
+			add_mil_power = 25
+			add_country_modifier = {
+				name = the_second_rise_of_rome
+				duration = -1
+			}
+			set_country_flag = ven_conq_missions
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
+venice_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	venice_build_navy = {
+		icon = mission_establish_high_seas_navy
+		position = 2
+		required_missions = { }
+		trigger = {
+			navy_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_dip_power = 25
+			add_country_modifier = {
+				name = "thriving_ship_building_sector"
+				duration = 9125 #25 years
+			}
+		}
+	}
+
+	venice_dalmatia = {
+		icon = mission_steppe_warriors
+		position = 3
+		required_missions = { venice_build_navy }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4753
+				province_id = 136
+				province_id = 1826
+				province_id = 4752
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			4753 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4752 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1826 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			136 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_mil_power = 25
+			137 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+			4754 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+			142 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+		}
+	}
+	venice_corfu = {
+		icon = mission_invade_island
+		position = 4
+		required_missions = { venice_dalmatia }
+		provinces_to_highlight = {
+			province_id = 142
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = {
+			142 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_dip_power = 25
+			add_mil_power = 25
+			4698 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+			122 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+			4174 = {
+				if = {
+					limit = {
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				add_core = ROOT
+				}
+			}
+		}
+	}
+}
+
+venice_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	venice_unuor_ulus = {
+		icon = mission_noble_council
+		position = 1
+		required_missions = {  }
+		trigger = {
+			reverse_has_opinion = {
+				who = Z21
+				value = 100
+			}
+			alliance_with = Z21
+		}
+		effect = {
+			add_prestige = 5
+			add_dip_power = 50
+			add_country_modifier = {
+				name = "roman_embassy_of_saray"
+				duration = 9125
+			}
+		}
+	}
+	venice_illeropoli = {
+		icon = mission_pf_map_table
+		position = 2
+		required_missions = { venice_unuor_ulus }
+		trigger = {
+			4754 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = {
+			4754 = {
+				random_list = {
+					33 = {
+						change_religion = sol_invictus
+					}
+					33 = {
+						change_religion = walianitas
+					}
+					33 = {
+						change_religion = procuveric
+					}
+				}
+			}
+			add_ruler_modifier = {
+				name = "illyrian_revival"
+				duration = -1
+			}
+		}
+	}
+	venice_trade_power = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { venice_build_navy }
+		trigger = {
+			1308 = { 
+				has_most_province_trade_power = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 5
+			add_dip_power = 50
+			add_country_modifier = {
+				name = "mediterranean_ambition"
+				duration = 3650
+			}
+		}
+	}
+	venice_light_ships = {
+		icon = mission_galleys_in_port
+		position = 4
+		required_missions = { venice_trade_power }
+		trigger = {
+			num_of_light_ship = 20
+		}
+		effect = {
+			add_prestige = 5
+			add_dip_power = 25
+			add_navy_tradition = 10
+			custom_tooltip = stability_adriatic_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_port = yes
+						OR = {
+							sea_zone = { province_id = 1308 }
+							sea_zone = { province_id = 1309 }
+							sea_zone = { province_id = 1310 }
+							province_id = 142
+						}
+					}
+					add_province_modifier = {
+						name = "stability_in_the_adriatic"
+						duration = 9125
+					}
+				}
+			}
+		}
+	}
+	venice_subjugate_ferrara = {
+		icon = mission_hanseatic_city
+		required_missions = { }
+		position = 5
+		trigger = {
+			OR = {
+				owns = 113
+				FER = { vassal_of = ROOT }
+			}
+			NOT = {
+				mission_completed = venice_conquer_ferrara
+			}
+		}
+		effect = {
+			add_dip_power = 25
+			add_country_modifier = {
+				name = federation_of_rome
+				duration = -1
+			}
+			set_country_flag = ven_feds_missions
+			swap_non_generic_missions = yes
+		}
+	}
+
+}
+
+venice_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = H28
+			was_tag = H28
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	venice_mithraism = {
+		icon = mission_indian_stateman
+		position = 2
+		required_missions = { venice_unuor_ulus }
+		trigger = {
+			OR = {
+				religion = noniustian
+				NOT = { alliance_with = Z21 }
+			}
+		}
+		effect = {
+			add_prestige = 5
+			country_event = { id = venetianEvents.1 }
+		}
+	}
+	venice_iader_temple = {
+		icon = mission_hands_praying
+		position = 3
+		required_missions = { venice_mithraism }
+		trigger = {
+			owns = 137
+			is_core = 137
+			137 = { religion = ROOT }
+			137 = {
+				has_building = temple
+			}
+		}
+		effect = {
+			add_stability_or_adm_power = yes
+			custom_tooltip = new_deity_event_tt
+			hidden_effect = { 137 = { province_event = { id = venetianEvents.3 } } }
+		}
+	}
+	venice_find_allies = {
+		icon = mission_ottoman_harem
+		position = 4
+		required_missions = { }
+		trigger = {
+			num_of_allies = 3
+		}
+		effect = {
+			add_prestige = 10
+			add_stability = 1
+		}
+	}
+}

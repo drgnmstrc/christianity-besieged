@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "AGEOF_NORD"
+	desc = "AGEOF_NORD_DESC"
+	date = "1444.11.11"
+	center = 1268
+	country = N09
+	country = N02
+	country = B05
+	country = NOL
+	country = N22
+	country = N05
+	country = N03
+	easy_country = N09
+	easy_country = N02
+	easy_country = B05
+}

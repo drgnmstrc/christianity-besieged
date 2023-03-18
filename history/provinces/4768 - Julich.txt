@@ -1,0 +1,23 @@
+# 4769 - Jülich
+
+owner = AAC
+controller = AAC
+add_core = AAC
+culture = flemish
+religion = germanic
+trade_goods = grain
+capital = "Jülich"
+base_tax = 3
+base_production = 3
+is_city = yes
+add_core = TRI
+base_manpower = 2
+hre = yes
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech

@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "FETISHISM_BESIEGED"
+	desc = "FETISHISM_BESIEGED_DESC"
+	date = "1444.11.11"
+	center = 4091
+	country = KON
+	country = R09
+	country = R58
+	country = R27
+	country = LUB
+	country = RZW
+	country = RWA
+	easy_country = KON
+}

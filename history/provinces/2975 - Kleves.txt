@@ -1,0 +1,19 @@
+owner = KLE
+controller = KLE
+add_core = KLE
+culture = dutch
+religion = germanic
+trade_goods = cloth
+capital = "Kleves"
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+
+hre = yes

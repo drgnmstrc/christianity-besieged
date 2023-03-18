@@ -1,0 +1,34 @@
+pontou_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = H06
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	pontou_reconquer_capital = {
+		icon = mission_conquer_50_development
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			owns = 328
+		}
+		effect = { #This is what you get after you finished your mission.
+			if = {
+				limit = {
+					328 = { NOT = { is_core = ROOT } }
+				}
+				328 = { add_core = ROOT }
+				328 = { move_capital_effect = yes }
+			}
+			if = {
+				limit = {
+					328 = { is_core = ROOT }
+				}
+				328 = { move_capital_effect = yes }
+			}
+		}
+	}
+}

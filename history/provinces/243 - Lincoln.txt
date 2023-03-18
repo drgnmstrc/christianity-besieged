@@ -1,0 +1,21 @@
+#243 - Lincolnshire
+
+owner = N24
+controller = N24
+add_core = N24
+culture = english
+religion = anglic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 3
+capital = "Lindsey"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = eirun
+discovered_by = scandinavian_tech
+extra_cost = 8
+center_of_trade = 1

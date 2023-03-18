@@ -1,0 +1,23 @@
+#57 - Brunswick
+
+owner = BRU
+controller = BRU
+add_core = BRU
+culture = saxon
+religion = germanic
+capital = "Braunschweig"
+trade_goods = iron
+hre = yes
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+fort_15th = yes #Strong City Fortifications
+add_core = BRU
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

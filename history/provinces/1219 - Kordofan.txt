@@ -1,0 +1,21 @@
+#1219 - Darfur
+
+capital = "Al-Fashir"
+culture = zaghawa
+religion = shiite
+base_manpower = 1
+hre = no
+base_tax = 1 
+base_production = 1
+owner = DAR
+controller = DAR
+add_core = DAR
+add_core = NUB
+is_city = yes
+trade_goods = slaves
+discovered_by = east_african
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = indian
+discovered_by = sub_saharan
+discovered_by = saharan

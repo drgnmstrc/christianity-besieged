@@ -1,0 +1,19 @@
+#1183 - Inhambane
+
+owner = R22
+controller = R22
+add_core = R22
+add_core = R32
+culture = tshwa
+religion = qanumi
+capital = "Inhambane"
+trade_goods = cloth
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = south_african
+extra_cost = 8
+center_of_trade = 1

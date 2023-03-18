@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = kermani
+religion = manichaeism
+technology_group = near_east
+capital = 432 # Kerman
+1444.1.1 = {
+	monarch = {
+		name = "Yima"
+		dynasty = "Parshintid"
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}

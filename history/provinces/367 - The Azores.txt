@@ -1,0 +1,23 @@
+#367 - The Azores
+
+culture = imraguen
+religion = animism
+capital = "The Azores"
+trade_goods = fish
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+
+
+
+1402.1.1 = {
+	discovered_by = western
+	discovered_by = near_east
+	discovered_by = ottoman
+	discovered_by = CAS
+}

@@ -1,0 +1,140 @@
+grant_sacredgrove = {
+	category = emperor
+	require_acceptance = yes
+	is_visible = {
+		ROOT = {
+			is_emperor = yes
+		}
+		FROM = {
+			is_part_of_hre = yes
+			is_elector = no
+			NOT = {
+				has_reform = free_city
+				has_country_modifier = refused_free_city
+			}
+		}
+	}
+	is_allowed = {
+		FROM = {
+			NOT = {
+				num_of_cities = 2
+			}
+			religion = germanic
+		}
+		NOT = {
+			calc_true_if = {
+				all_country = {
+					has_reform = free_city
+				}
+				amount = 8
+			}
+		}
+	}
+	on_accept = {
+		ROOT = {
+			add_opinion = {
+				who = FROM
+				modifier = opinion_special_privileges
+			}
+		}
+		FROM = {
+			if = {
+				limit = {
+					NOT = {
+						government = theocracy
+					}
+				}
+				change_government = theocracy
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_special_privileges
+			}
+			set_legacy_government = imperial_city
+			add_government_reform = free_city
+		}
+	}
+	on_decline = {
+		FROM = {
+			add_country_modifier = {
+				name = refused_free_city
+				duration = 3600
+			}
+		}
+	}
+	ai_acceptance = {
+		add_entry = {
+			name = DEF_OPIN
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				which = ai_value
+				value = -100
+			}
+		}
+		add_entry = {
+			name = OPINION
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+		}
+		add_entry = {
+			name = TRUST
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}
+			subtract_variable = { which = ai_value value = 40 }
+			divide_variable = { which = ai_value value = 3 }
+		}
+		add_entry = {
+			name = IS_MONARCHY
+			limit = {
+				FROM = {
+					government = monarchy
+				}
+			}
+			subtract_variable = {which = ai_value value = 25}
+		}
+		add_entry = {
+			name = IS_REPUBLIC
+			limit = {
+				FROM = {
+					government = republic
+				}
+			}
+			subtract_variable = {which = ai_value value = 50}
+		}
+		add_entry = {
+			name = IS_THEOCRACY
+			limit = {
+				FROM = {
+					government = theocracy
+				}
+			}
+			change_variable = {which = ai_value value = 25}
+		}
+	}
+	ai_will_do = {
+		NOT = {
+			calc_true_if = {
+				all_country = {
+					has_reform = free_city
+				}
+				amount = 8
+			}
+		}
+	}
+}

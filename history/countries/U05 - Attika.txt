@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = tarkhagan
+religion = manichaeism
+technology_group = ottoman
+capital = 146
+national_focus = MIL
+add_army_professionalism = 0.1
+religious_school = hanafi_school
+government_rank = 1
+	
+1444.1.1 = {
+	monarch = {
+		name = "Ahmet"
+		dynasty = Olmud
+		birth_date = 1432.3.30
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	#add_ruler_personality = lawgiver_personality
+	add_piety = -0.2
+}

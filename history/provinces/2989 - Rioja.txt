@@ -1,0 +1,25 @@
+# - Rioja
+
+owner = G02
+controller = G02
+add_core = G02
+culture = aybirean
+religion = ashabi
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wine 
+base_manpower = 2
+capital = "Logroño"
+#estate = estate_nobles
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

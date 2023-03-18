@@ -1,0 +1,179 @@
+country_decisions = {
+
+	restore_roman_empire = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = restored_rome_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = H25
+				tag = H15
+				tag = H18
+			}
+			any_owned_province = {
+				OR = {
+					region = italy_region
+					region = france_region
+					region = iberia_region
+				}
+			}
+			NOT = { exists = ROM }
+			NOT = { religion_group = muslim }
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = italy_region
+				region = france_region
+				region = iberia_region
+				province_id = 130 # Istria
+				province_id = 343 # Fez
+				province_id = 341 # Tunis
+				province_id = 236 # London
+				province_id = 245 # Yorkshire
+				province_id = 96 # Zeeland
+				province_id = 134 # Vienna
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			italy_region = {
+				type = all
+				owned_by = ROOT
+			}
+			france_region = {
+				type = all
+				owned_by = ROOT
+			}
+			iberia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			owns = 130 # Istria
+			owns = 343 # Fez
+			owns = 341 # Tunis
+			owns = 236 # London
+			owns = 245 # Yorkshire
+			owns = 96 # Zeeland
+			owns = 134 # Vienna
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			118 = {
+				move_capital_effect = yes
+			}
+			change_tag = ROM
+			custom_tooltip = restore_roman_empire_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			add_prestige = 50
+			add_core = 118 # Rome
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = restored_rome_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	restore_rum_caliphate = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = restored_rum_flag }
+			owns = 118
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = U01
+				tag = U02
+				culture_group = rumi
+			}
+			NOT = { exists = ROM }
+			religion = ashabi
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = italy_region
+				region = balkan_region
+				province_id = 130 # Istria
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			italy_region = {
+				type = all
+				owned_by = ROOT
+			}
+			balkan_region = {
+				type = all
+				owned_by = ROOT
+			}
+			owns = 130 # Istria
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { tag = U01 }
+				}
+				118 = {
+					move_capital_effect = yes
+				}
+				change_tag = U15
+				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					tag = U01
+				}
+				override_country_name = RUMCALIPHATE
+				add_stability_or_adm_power = yes
+				set_government_rank = 3
+			}
+			custom_tooltip = restore_roman_empire_tt
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			add_prestige = 50
+			add_core = 118 # Rome
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = restored_rome_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

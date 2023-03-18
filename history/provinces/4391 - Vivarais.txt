@@ -1,0 +1,22 @@
+# 4391 Vivarais
+
+owner = G17
+controller = G17
+capital = "Viviers"
+is_city = yes
+culture = gothic
+religion = germanic
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = wine
+base_manpower = 4
+add_core = G17
+add_core = Y15
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

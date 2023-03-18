@@ -1,0 +1,18 @@
+owner = R43
+controller = R43
+add_core = R43
+trade_goods = grain
+is_city = yes
+culture = tsiqaleha
+capital = "Nozizwe"
+religion = qanumi
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+1444.1.1 = {
+	discovered_by = R36
+	discovered_by = R37
+}
+discovered_by = central_african
+discovered_by = south_african

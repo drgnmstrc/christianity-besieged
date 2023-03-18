@@ -1,0 +1,16 @@
+#4035 - Ngindo
+
+owner = ZIM
+controller = ZIM
+add_core = ZIM
+culture = shona
+religion = mwari
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+discovered_by = central_african
+discovered_by = east_african
+discovered_by = south_african
+capital = "Ngindo"

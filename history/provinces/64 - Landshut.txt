@@ -1,0 +1,23 @@
+#64 - Landshut
+
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = bavarian
+religion = germanic
+base_tax = 5
+base_production = 5
+trade_goods = salt
+base_manpower = 2
+fort_15th = yes #Trausnitz Castle
+capital	= "Landshut" 
+is_city = yes
+#estate = estate_nobles
+hre = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

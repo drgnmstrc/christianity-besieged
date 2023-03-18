@@ -1,0 +1,21 @@
+# 204 Dauphiné - Principal cities: Grenoble
+
+owner = Y15
+controller = Y15
+add_core = Y15
+culture = pruqoth
+religion = ashabi
+capital = "Grenoble"
+is_city = yes
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun

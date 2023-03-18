@@ -1,0 +1,280 @@
+namespace = blackstone
+
+country_event = {
+	id = blackstone.0
+	title = blackstone.t
+	desc = blackstone.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		NOT = {
+			has_country_flag = owns_the_black_stone
+			has_country_flag = who_cares_stone
+		}
+	}
+	option = { #Bring it to the capital!
+		name = blackstone.a
+		hidden_effect = {
+			every_province = {
+				limit = {
+					controlled_by = ROOT
+					has_province_modifier = the_black_stone
+				}
+				remove_province_modifier = the_black_stone
+				owner = {
+					add_opinion = {
+						who = ROOT
+						modifier = stole_black_stone
+					}
+					clr_country_flag = owns_the_black_stone
+				}
+			}
+		}
+		add_prestige = 10
+		capital_scope = {
+			add_permanent_province_modifier = {
+				name = the_black_stone
+				duration = -1
+			}
+		}
+		set_country_flag = owns_the_black_stone
+		if = {
+			limit = {
+				religion = ashabi
+				exists = U01
+				118 = {
+					owned_by = U01
+					NOT = { has_province_modifier = the_black_stone }
+				}
+			}
+			reverse_add_opinion = {
+				who = U01
+				modifier = didnt_give_us_stone
+			}
+		}
+		if = {
+			limit = {
+				religion = mudarian
+				NOT = { owns = 1306 }
+				1306 = { NOT = { has_province_modifier = the_black_stone } }
+			}
+			1306 = {
+				owner = {
+					add_opinion = {
+						who = ROOT
+						modifier = didnt_give_us_stone
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						religion = ashabi
+						has_opinion = {
+							who = U01
+							value = 0
+						}
+					}
+					AND = {
+						religion = mudarian
+						1306 = {
+							has_province_modifier = the_black_stone
+						}
+					}
+					AND = {
+						religion_group = muslim
+						NOT = { religion = mudarian }
+						385 = {
+							has_province_modifier = the_black_stone
+						}
+					}
+				}
+			}
+		}
+	}
+	option = { #This belongs in the Kaaba...
+		name = blackstone.b
+		trigger = {
+			religion_group = muslim
+			NOT = { religion = mudarian }
+			385 = { NOT = { has_province_modifier = the_black_stone } }
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					controlled_by = ROOT
+					has_province_modifier = the_black_stone
+				}
+				remove_province_modifier = the_black_stone
+				owner = {
+					add_opinion = {
+						who = FROM
+						modifier = stole_black_stone
+					}
+					clr_country_flag = owns_the_black_stone
+				}
+			}
+		}
+		add_prestige = 15
+		385 = {
+			add_permanent_province_modifier = {
+				name = the_black_stone
+				duration = -1
+			}
+			owner = {
+				add_opinion = {
+					who = ROOT
+					modifier = returned_the_stone
+				}
+				hidden_effect = {
+					set_country_flag = owns_the_black_stone
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						religion = ashabi
+						NOT = { has_opinion = {
+							who = U01
+							value = 0
+						} }
+					}
+					AND = {
+						religion_group = muslim
+						government_rank = 3
+						NOT = { owns = 385 }
+					}
+				}
+			}
+		}
+	}
+	option = { #This belongs in Rome (Or whatever Bayt Allah's capital is)!
+		name = blackstone.c
+		trigger = {
+			religion =  ashabi
+			exists = U01
+			U01 = { capital_scope = { NOT = { has_province_modifier = the_black_stone} } }
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					controlled_by = ROOT
+					has_province_modifier = the_black_stone
+				}
+				remove_province_modifier = the_black_stone
+				owner = {
+					add_opinion = {
+						who = ROOT
+						modifier = stole_black_stone
+					}
+					clr_country_flag = owns_the_black_stone
+				}
+			}
+		}
+		add_prestige = 15
+		U01 = {
+			add_opinion = {
+				who = FROM
+				modifier = returned_the_stone
+			}
+			capital_scope = {
+				add_province_modifier = {
+					name = the_black_stone
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				set_country_flag = owns_the_black_stone
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_opinion = {
+					who = U01
+					value = 1
+				} }
+			}
+		}
+	}
+	option = { #This belongs in Muthalia!
+		name = blackstone.d
+		trigger = {
+			religion = mudarian
+			1306 = { 
+				religion = mudarian
+				owner = { religion = mudarian }
+				NOT = { has_province_modifier = the_black_stone }
+			}
+		}
+		hidden_effect = {
+			every_province = {
+				limit = {
+					controlled_by = ROOT
+					has_province_modifier = the_black_stone
+				}
+				remove_province_modifier = the_black_stone
+				owner = {
+					add_opinion = {
+						who = ROOT
+						modifier = stole_black_stone
+					}
+					clr_country_flag = owns_the_black_stone
+				}
+			}
+		}
+		add_prestige = 15
+		1306 = {
+			add_permanent_province_modifier = {
+				name = the_black_stone
+				duration = -1
+			}
+			owner = {
+				add_opinion = {
+					who = ROOT
+					modifier = returned_the_stone
+				}
+				hidden_effect = {
+					set_country_flag = owns_the_black_stone
+				}
+			}
+		}
+	}
+	option = { #Uhhh IDC?
+		name = blackstone.e
+		hidden_effect = {
+			set_country_flag = who_cares_stone
+		}
+		every_province = {
+			limit = {
+				has_province_modifier = the_black_stone
+			}
+			owner = {
+				add_opinion = {
+					who = ROOT
+					modifier = respected_the_stone
+				}
+			}
+		}
+		add_prestige = 5
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				1306 = { owner = { NOT = { reverse_has_opinion = {
+					who = U01
+					value = 1
+				} } } }
+			}
+		}
+	}
+}

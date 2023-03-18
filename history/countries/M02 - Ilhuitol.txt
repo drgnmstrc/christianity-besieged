@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = wastek
+religion = quetzacoatl
+technology_group = mesoamerican
+capital = 858
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Tezozomoc"
+		dynasty = "Ilhuitol"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

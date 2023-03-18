@@ -1,0 +1,18 @@
+#857 - Guachichil
+
+
+culture = guamares
+religion = quetzacoatl
+owner = M01
+controller = M01
+add_core = M01
+is_city = yes
+capital = "Guachichil" 
+trade_goods = gold 
+hre = no 
+base_tax = 1
+base_production = 1
+base_manpower = 1 
+
+discovered_by = mesoamerican
+discovered_by = north_american

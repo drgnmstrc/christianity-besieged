@@ -1,0 +1,20 @@
+#15 - Western Jutland, incl. Ribe and Ringkøbing
+
+owner = N25
+controller = N25
+add_core = N25
+culture = jutes
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 1
+capital = "Ribe"
+is_city = yes
+#estate = estate_nobles
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun

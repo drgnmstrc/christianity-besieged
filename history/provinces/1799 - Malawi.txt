@@ -1,0 +1,16 @@
+#1799 - Urgoma
+culture = nilotic
+religion = dinka
+capital = "Urgoma"
+trade_goods = unknown
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 80
+native_ferocity = 4
+native_hostileness = 9
+
+discovered_by = near_east
+discovered_by = east_african
+discovered_by = central_african

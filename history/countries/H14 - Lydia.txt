@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = greek_democracy_reform
+primary_culture = lydes
+religion = hellenism
+secondary_religion = neopythagorean
+technology_group = near_east
+capital = 322
+
+1444.1.1 = {
+	monarch = {
+		name = "Odaetos"
+		dynasty = "Theses"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,19 @@
+#205 - Savoie
+
+owner = Y22
+controller = Y22
+add_core = Y22
+culture = pruqoth
+religion = ashabi
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = cloth
+base_manpower = 6
+capital = "Cambrias"
+is_city = yes	
+fort_15th = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman

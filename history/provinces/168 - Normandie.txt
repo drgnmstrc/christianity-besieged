@@ -1,0 +1,22 @@
+# 168 Normandie - Principal cities: Caen
+
+owner = B16
+controller = B16
+add_core = B16
+add_claim = B08
+capital = "Catema"
+is_city = yes
+culture = gaulish
+religion = anglican
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+discovered_by = eastern
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+fort_15th = yes

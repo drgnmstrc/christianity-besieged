@@ -1,0 +1,23 @@
+#149 - Edirne
+
+owner = Z01
+controller = Z01
+add_core = Z01
+culture = mugatac
+religion = manichaeism
+capital = "Kavala"
+trade_goods = grain
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = east_african
+discovered_by = scandinavian_tech
+discovered_by = eirun
+add_core = Z01
