@@ -2,7 +2,7 @@
 
 owner = HSC
 controller = HSC
-culture = highland_scottish
+culture = gaidheil
 religion = druidism
 hre = no
 base_tax = 4

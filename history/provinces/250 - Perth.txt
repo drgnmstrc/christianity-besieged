@@ -3,7 +3,7 @@
 owner = J16
 controller = J16
 add_core = J16
-culture = highland_scottish
+culture = gaidheil
 religion = druidism
 hre = no
 base_tax = 3
