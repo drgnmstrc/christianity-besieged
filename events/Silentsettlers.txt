@@ -35,7 +35,7 @@ province_event = {
         }
         NOT = {
             culture = novgorodian
-            religion = norse_pagan_reformed
+            religion = rodoptr
         }
     }
     mean_time_to_happen = {
@@ -66,7 +66,7 @@ province_event = {
                 add_base_manpower = 1
             }
         }
-        change_religion = norse_pagan_reformed
+        change_religion = rodoptr
     }
 }
  
@@ -106,7 +106,7 @@ province_event = {
         NOT = {
             culture = novgorodian
         }
-        religion = norse_pagan_reformed
+        religion = rodoptr
     }
     mean_time_to_happen = {
         months = 240
