@@ -620,6 +620,10 @@ buddha_statues = {
 				religion = mahayana
 				has_owner_religion = yes
 			}
+			AND= {
+				religion = manichaeism
+				has_owner_religion = yes
+			}
 		}
 	}
 
@@ -11600,6 +11604,10 @@ ellora_caves = {
 			}
 			AND= {
 				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = manichaeism
 				has_owner_religion = yes
 			}
 			AND= {
