@@ -1,0 +1,91 @@
+#three colonial events related to britain getting jealous of other people's colonies
+
+country_event = { #Surge of Refugees
+	id = RomanoBritishEvents.1
+	title = RomanoBritishEvents.1t
+	desc = RomanoBritishEvents.1d
+	picture = PLAGUE_eventPicture
+	
+	trigger = {
+		OR = {
+			religion = anglican
+			religion = riothemism
+		}
+		OR = {
+			NOT = {
+				exists = B01
+				exists = B08
+			}
+			NOT = {
+				exists = GAL
+				exists = J05
+				exists = LON
+				exists = J01
+				exists = J08
+				exists = J03
+				exists = J02
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				OR = {
+					region = france_region
+					region = iberia_region
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = {
+		name = RomanoBritishEvents.1a
+		add_country_modifier = {
+			name = mainland_christian_refugees
+			duration = 9125
+		}
+	}
+}
+
+country_event = { #Pretender Romans colonizing
+	id = RomanoBritishEvents.2
+	title = RomanoBritishEvents.2t
+	desc = RomanoBritishEvents.2d
+	picture = NAVAL_MILITARY_eventPicture
+	
+	trigger = {
+		OR = {
+			religion = anglican
+			religion = riothemism
+		}
+		NOT = {
+			OR = {
+				colony = 1
+				num_of_colonies = 1
+			}
+		}
+		any_known_country = {
+			OR = {
+				has_roman_culture = yes
+				has_roman_religion = yes
+				culture_group = rumi
+				religion = ashabi
+			}
+			colony = 1
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	option = {
+		name = RomanoBritishEvents.2a
+		add_country_modifier = {
+			name = roman_colonial_competition
+			duration = 9125
+		}
+	}
+}

@@ -749,3 +749,11 @@ hanafis_amir_influence = {
 	cavalry_power = 0.25
 	yearly_absolutism = 0.1
 }
+mainland_christian_refugees = {
+	development_cost = -0.025
+	global_colonial_growth = 10
+}
+roman_colonial_competition = {
+	global_ship_recruit_speed = -0.1
+	global_ship_cost = -0.1
+}
