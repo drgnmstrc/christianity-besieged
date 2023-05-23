@@ -2,7 +2,7 @@ wl_mag_mater =
 {
         global_tax_modifier = 0.025
 
-        allow = {
+        potential = {
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -12,6 +12,18 @@ wl_mag_mater =
 		}
 	}
         sprite = 44
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_mag_mater_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_mother_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                 factor = 1
@@ -22,7 +34,7 @@ wl_venus =
 {
         development_cost = -0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -32,6 +44,18 @@ wl_venus =
 		}
 	}
         sprite = 48
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_venus_isis_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_mother_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                   factor = 1
@@ -42,7 +66,7 @@ wl_epona =
 {
         cavalry_power = 0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -52,6 +76,18 @@ wl_epona =
 		}
 	}
         sprite = 89
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_epona_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_mother_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                   factor = 1
@@ -60,9 +96,9 @@ wl_epona =
 
 wl_jupiter =
 {
-        land_fire_damage = 0.025
+        fire_damage = 0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -72,6 +108,18 @@ wl_jupiter =
 		}
 	}
         sprite = 43
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_jupiter_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_champion_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                 factor = 1
@@ -82,7 +130,7 @@ wl_lenus_mars =
 {
         reinforce_speed = 0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -92,6 +140,18 @@ wl_lenus_mars =
 		}
 	}
         sprite = 47
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_lenus_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_champion_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                   factor = 1
@@ -110,7 +170,7 @@ wl_camulus_mars =
 {
         land_morale = 0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
@@ -120,6 +180,18 @@ wl_camulus_mars =
 		}
 	}
         sprite = 118
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_country_modifier = {
+                        name = wl_camulus_on_cd
+                        duration = 1825
+                }
+                add_country_modifier = {
+                        name = wl_champion_on_cd
+                        duration = 730
+                }
+        }
 
         ai_will_do = {
                 factor = 1
@@ -138,13 +210,21 @@ wl_personal_cult =
 {
         yearly_absolutism = 0.025
 
-        allow = { 
+        potential = { 
 		religion = walianitas
 		NOT = {
 			has_ruler_modifier = wl_personal_cult_on_cd
 		}
 	}
         sprite = 118
+	trigger = {}
+	effect = {}
+	removed_effect = {
+                add_ruler_modifier = {
+                        name = wl_personal_cult_on_cd
+                        duration = -1
+                }
+        }
 
         ai_will_do = {
                 factor = 1

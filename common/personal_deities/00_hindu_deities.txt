@@ -2,8 +2,11 @@
 # If adding new dieties, make sure they are uniquely named.
 
 buddha = {
-	sprite = 6 # TODO implement new sprite and change number here
-	allow = { 
+	sprite = 6
+	trigger = {}
+	effect = {}
+	removed_effect = {}
+	potential = { 
 		religion = hinduism
 		OR = {
 			mission_completed = mnd_maj_candi_shrines
@@ -34,7 +37,7 @@ shiva =
 	ae_impact = -0.05
 	core_creation = -0.10
 	
-	allow = {
+	potential = {
 		OR = {
 			religion = hinduism
 			AND = {
@@ -50,6 +53,9 @@ shiva =
 			}
 		}
 	}
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	sprite = 1
 	
 	ai_will_do = {
@@ -71,7 +77,7 @@ ganesha =
 	diplomatic_reputation = 1
 	improve_relation_modifier = 0.20
 	
-	allow = {
+	potential = {
 		OR = {
 			religion = hinduism
 			AND = {
@@ -88,6 +94,9 @@ ganesha =
 		}
 	}
 	sprite = 2
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -108,7 +117,7 @@ surya =
 	global_tax_modifier = 0.10
 	trade_efficiency = 0.10
 	
-	allow = { religion = hinduism }
+	potential = { religion = hinduism }
 	sprite = 3
 	
 	ai_will_do = {
@@ -130,8 +139,11 @@ ganga =
 	interest = -0.25
 	build_cost = -0.10
 	
-	allow = { religion = hinduism }
+	potential = { religion = hinduism }
 	sprite = 4
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -152,8 +164,11 @@ shakti =
 	siege_ability = 0.05
 	discipline = 0.05
 	
-	allow = { religion = hinduism }
+	potential = { religion = hinduism }
 	sprite = 5
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -174,8 +189,11 @@ vishnu =
 	defensiveness = 0.2
 	global_missionary_strength = 0.02
 	
-	allow = { religion = hinduism }
+	potential = { religion = hinduism }
 	sprite = 6
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1

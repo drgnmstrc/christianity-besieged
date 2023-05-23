@@ -1,0 +1,514 @@
+country_event = { #Glorious Sacrifice to Jupiter
+	id = walianitasEvents.0
+	is_triggered_only = yes
+    hidden = yes
+	option = {
+		name = walianitasEvents.1a
+        random_list = {
+            60 = {
+                random_list = {
+                    20 = {
+                        country_event = { id = walianitasEvents.1 } #Gain ADM power
+                    }
+                    20 = {
+                        country_event = { id = walianitasEvents.2 } #Gain DIP power
+                    }
+                    20 = {
+                        country_event = { id = walianitasEvents.3 } #Gain MIL power
+                    }
+                    20 = {
+                        country_event = { id = walianitasEvents.4 } #Gain prestige
+                    }
+                    20 = {
+                        country_event = { id = walianitasEvents.5 } #Gain legitimacy
+                    }
+                }
+            }
+            20 = {
+                random_list = {
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_to_the_seas }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_to_the_seas } }
+                            country_event = { id = walianitasEvents.6 } #To the Seas
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_year_of_humility }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_year_of_humility } }
+                            country_event = { id = walianitasEvents.7 } #Year of Humility
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_emergency_powers }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_emergency_powers } }
+                            country_event = { id = walianitasEvents.8 } #Emergency Powers
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_enemies_within }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_enemies_within } }
+                        country_event = { id = walianitasEvents.9 } #Enemies Within
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_call_for_worshippers }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_call_for_worshippers } }
+                            country_event = { id = walianitasEvents.10 } #Call for Worshippers
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_shun_the_unbelievers }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_shun_the_unbelievers } }
+                            country_event = { id = walianitasEvents.11 } #Shun the Unbelievers
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_call_to_arms }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_call_to_arms } }
+                            country_event = { id = walianitasEvents.12 } #Call to Arms
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_good_harvests }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_good_harvests } }
+                            country_event = { id = walianitasEvents.13 } #Good Harvests
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { has_country_modifier = wl_gs_a_time_for_thinkers }
+                            country_event = { id = walianitasEvents.17 }
+                        }
+                        if = {
+                            limit = { NOT = { has_country_modifier = wl_gs_a_time_for_thinkers } }
+                            country_event = { id = walianitasEvents.14 } #A Time for Thinkers
+                        }
+                    }
+                    10 = {
+                        if = {
+                            limit = { NOT = { has_country_flag = walianitas_forced_cult } }
+                            country_event = { id = walianitasEvents.15 } #Chaos in the Court
+                        }
+                        if = {
+                            limit = { has_country_flag = walianitas_forced_cult }
+                            country_event = { id = walianitasEvents.16 } #Gain stability
+                        }
+                    }
+                }
+            }
+            20 = {
+                country_event = { id = walianitas.Events.17 } #Lose prestige
+            }
+        }
+    }
+}
+
+country_event = {
+    id = walianitasEvents.1
+    title = walianitasEvents.1t
+    desc = walianitasEvents.1d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.1a
+        add_adm_power = 25
+        add_dip_power = -5
+        add_mil_power = -5
+    }
+}
+country_event = {
+    id = walianitasEvents.2
+    title = walianitasEvents.1t
+    desc = walianitasEvents.1d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.2a
+        add_adm_power = -5
+        add_dip_power = 25
+        add_mil_power = -5
+    }
+}
+country_event = {
+    id = walianitasEvents.3
+    title = walianitasEvents.1t
+    desc = walianitasEvents.1d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.3a
+        add_adm_power = -5
+        add_dip_power = -5
+        add_mil_power = 25
+    }
+}
+country_event = {
+    id = walianitasEvents.4
+    title = walianitasEvents.1t
+    desc = walianitasEvents.4d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.4a
+        add_prestige = 15
+    }
+}
+country_event = {
+    id = walianitasEvents.5
+    title = walianitasEvents.1t
+    desc = walianitasEvents.5d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.4a
+        legitimacy = 15
+    }
+}
+country_event = { #To the Seas
+    id = walianitasEvents.6
+    title = walianitasEvents.6t
+    desc = walianitasEvents.6d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.6a
+        add_country_modifier = {
+            name = wl_gs_to_the_seas
+            duration = 1460
+        }
+    }
+}
+country_event = { #Year of Humility
+    id = walianitasEvents.7
+    title = walianitasEvents.7t
+    desc = walianitasEvents.7d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.6a
+        add_country_modifier = {
+            name = wl_gs_year_of_humility
+            duration = 365
+        }
+    }
+}
+country_event = { #Emergency Powers
+    id = walianitasEvents.8
+    title = walianitasEvents.8t
+    desc = walianitasEvents.8d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.8a
+        add_adm_power = 15
+        add_dip_power = 15
+        add_mil_power = 15
+        add_country_modifier = {
+            name = wl_gs_emergency_powers
+            duration = 365
+        }
+    }
+}
+country_event = { #Enemies Within
+    id = walianitasEvents.9
+    title = walianitasEvents.9t
+    desc = walianitasEvents.9d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.9a
+        remove_advisor_by_category = ADM
+        remove_advisor_by_category = DIP
+        remove_advisor_by_category = MIL
+        add_adm_power = -66
+        add_dip_power = 33
+        add_mil_power = 33
+        add_country_modifier = {
+            name = wl_gs_enemies_within
+            duration = 365
+        }
+    }
+}
+country_event = { #Call for Worshippers
+    id = walianitasEvents.10
+    title = walianitasEvents.10t
+    desc = walianitasEvents.10d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.10a
+        add_country_modifier = {
+            name = wl_gs_call_for_worshippers
+            duration = 365
+        }
+    }
+}
+country_event = { #Shun the Unbelievers
+    id = walianitasEvents.11
+    title = walianitasEvents.11t
+    desc = walianitasEvents.11d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.11a
+        add_country_modifier = {
+            name = wl_gs_shun_the_unbelievers
+            duration = 365
+        }
+    }
+}
+country_event = { #Call to Arms
+    id = walianitasEvents.12
+    title = walianitasEvents.12t
+    desc = walianitasEvents.12d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.12a
+        add_country_modifier = {
+            name = wl_gs_call_to_arms
+            duration = 365
+        }
+    }
+}
+country_event = { #Good Harvests
+    id = walianitasEvents.13
+    title = walianitasEvents.13t
+    desc = walianitasEvents.13d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.13a
+        add_adm_power = 33
+        add_dip_power = 33
+        add_mil_power = -66
+        add_country_modifier = {
+            name = wl_gs_good_harvests
+            duration = 140
+        }
+    }
+}
+country_event = { #A Time for Thinkers
+    id = walianitasEvents.14
+    title = walianitasEvents.14t
+    desc = walianitasEvents.14d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.14a
+        add_country_modifier = {
+            name = wl_gs_a_time_for_thinkers
+            duration = 3650
+        }
+    }
+}
+country_event = { #Chaos in the Court
+    id = walianitasEvents.15
+    title = walianitasEvents.15t
+    desc = walianitasEvents.15d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.15a
+        define_ruler = {
+            adm = 3
+            dip = 3
+            mil = 3
+            age = 20
+            claim = 75
+        }
+        add_stability = -1
+        change_personal_deity = wl_personal_cult
+    }
+}
+country_event = { #Gain stability
+    id = walianitasEvents.16
+    title = walianitasEvents.1t
+    desc = walianitasEvents.4d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.4a
+        add_stability_or_adm_power = yes
+    }
+}
+country_event = { #Silence from above
+    id = walianitasEvents.17
+    title = walianitasEvents.17t
+    desc = walianitasEvents.17d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.17a
+        add_prestige = -5
+    }
+}
+country_event = { #Call upon the clouds roll
+    id = walianitasEvents.18
+    hidden = yes
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.18a
+        random_list = {
+            10 = {
+                set_country_flag = wl_clouds_1
+            }
+            10 = {
+                set_country_flag = wl_clouds_2
+            }
+            10 = {
+                set_country_flag = wl_clouds_3
+            }
+            10 = {
+                set_country_flag = wl_clouds_4
+            }
+            10 = {
+                set_country_flag = wl_clouds_5
+            }
+            10 = {
+                set_country_flag = wl_clouds_6
+            }
+            10 = {
+                set_country_flag = wl_clouds_7
+            }
+            10 = {
+                set_country_flag = wl_clouds_8
+            }
+            10 = {
+                set_country_flag = wl_clouds_9
+            }
+            10 = {
+                set_country_flag = wl_clouds_bad
+            }
+        }
+        country_event = { id = walianitasEvents.18 }
+    }
+}
+country_event = { #The Call is Answered
+    id = walianitasEvents.19
+    title = walianitasEvents.19t
+    desc = walianitasEvents.19d
+    picture = COURT_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.19a
+        trigger = { has_country_flag = wl_clouds_1 }
+        add_country_modifier = {
+            name = wl_call_clouds_1
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_1
+    }
+    option = {
+        name = walianitasEvents.19b
+        trigger = { has_country_flag = wl_clouds_2 }
+        add_country_modifier = {
+            name = wl_call_clouds_2
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_2
+    }
+    option = {
+        name = walianitasEvents.19c
+        trigger = { has_country_flag = wl_clouds_3 }
+        add_country_modifier = {
+            name = wl_call_clouds_3
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_3
+    }
+    option = {
+        name = walianitasEvents.19dd
+        trigger = { has_country_flag = wl_clouds_4 }
+        add_country_modifier = {
+            name = wl_call_clouds_4
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_4
+    }
+    option = {
+        name = walianitasEvents.19e
+        trigger = { has_country_flag = wl_clouds_5 }
+        add_country_modifier = {
+            name = wl_call_clouds_5
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_5
+    }
+    option = {
+        name = walianitasEvents.19f
+        trigger = { has_country_flag = wl_clouds_6 }
+        add_country_modifier = {
+            name = wl_call_clouds_6
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_6
+    }
+    option = {
+        name = walianitasEvents.19g
+        trigger = { has_country_flag = wl_clouds_7 }
+        add_country_modifier = {
+            name = wl_call_clouds_7
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_7
+    }
+    option = {
+        name = walianitasEvents.19h
+        trigger = { has_country_flag = wl_clouds_8 }
+        add_country_modifier = {
+            name = wl_call_clouds_8
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_8
+    }
+    option = {
+        name = walianitasEvents.19i
+        trigger = { has_country_flag = wl_clouds_9 }
+        add_country_modifier = {
+            name = wl_call_clouds_9
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_9
+    }
+    option = {
+        name = walianitasEvents.19j
+        trigger = { has_country_flag = wl_clouds_bad }
+        add_country_modifier = {
+            name = wl_call_clouds_bad
+            duration = 14
+        }
+        cl_country_flag = wl_clouds_bad
+    }
+}

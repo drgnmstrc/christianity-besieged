@@ -5,8 +5,11 @@ amaz_tanit =
     heir_chance = 0.50
     manpower_recovery_speed = 0.25
 
-    allow = { religion = amanaiism }
+    potential = { religion = amanaiism }
     sprite = 93
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
     ai_will_do = {
         factor = 1
@@ -26,8 +29,11 @@ amaz_baal =
     global_tax_modifier = 0.1
     global_trade_goods_size_modifier = 0.20
 
-    allow = { religion = amanaiism }
+    potential = { religion = amanaiism }
     sprite = 94
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
     ai_will_do = {
         factor = 1
@@ -47,8 +53,11 @@ amaz_gurzil =
 	discipline = 0.05
 	leader_land_shock = 1
 	
-	allow = { religion = amanaiism }
+	potential = { religion = amanaiism }
 	sprite = 95
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -68,8 +77,11 @@ amaz_anzar =
 	global_trade_goods_size_modifier = 0.1
 	land_attrition = -0.10
 	
-	allow = { religion = amanaiism }
+	potential = { religion = amanaiism }
 	sprite = 96
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -85,8 +97,11 @@ amaz_sufax =
 	defensiveness = 0.2
 	land_morale = 0.1
 	
-	allow = { religion = amanaiism }
+	potential = { religion = amanaiism }
 	sprite = 97
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -106,8 +121,11 @@ amaz_afrika =
     stability_cost_modifier = -0.10
     global_unrest = -1
 
-    allow = { religion = amanaiism }
+    potential = { religion = amanaiism }
     sprite = 98
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
     ai_will_do = {
         factor = 1
@@ -129,8 +147,11 @@ can_baal =
 	discipline = 0.05
 	leader_land_shock = 1
 	
-	allow = { religion = canaanism }
+	potential = { religion = canaanism }
 	sprite = 99
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -150,8 +171,11 @@ can_ashtart =
     global_tax_modifier = 0.1
     global_trade_goods_size_modifier = 0.20
 
-    allow = { religion = canaanism }
+    potential = { religion = canaanism }
     sprite = 100
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
     ai_will_do = {
         factor = 1
@@ -171,8 +195,11 @@ can_melqart =
         defensiveness = 0.2
         core_creation = -0.10
 
-        allow = { religion = canaanism }
+        potential = { religion = canaanism }
         sprite = 101
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -196,8 +223,11 @@ can_eshmun =
     heir_chance = 0.50
     manpower_recovery_speed = 0.25
 
-    allow = { religion = canaanism }
+    potential = { religion = canaanism }
     sprite = 102
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
     ai_will_do = {
         factor = 1
@@ -217,8 +247,11 @@ can_sydyk =
         stability_cost_modifier = -0.10
         global_unrest = -1
 
-        allow = { religion = canaanism }
+        potential = { religion = canaanism }
         sprite = 103
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -238,8 +271,11 @@ can_yam =
         naval_attrition = -0.10
         naval_morale = 0.20
 
-        allow = { religion = canaanism }
+        potential = { religion = canaanism }
         sprite = 104
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -261,8 +297,11 @@ yor_olorun =
         land_morale = 0.1
         global_unrest = -1
 
-        allow = { religion = itan }
+        potential = { religion = itan }
         sprite = 105
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -282,8 +321,11 @@ yor_aje =
          global_tax_modifier = 0.1
          global_trade_goods_size_modifier = 0.20
 
-         allow = { religion = itan }
+         potential = { religion = itan }
          sprite = 106
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -303,8 +345,11 @@ yor_ogun =
 	production_efficiency = 0.1
 	defensiveness = 0.2
 	
-	allow = { religion = itan }
+	potential = { religion = itan }
 	sprite = 107
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -320,8 +365,11 @@ yor_odudua =
         heir_chance = 0.50
         land_attrition = -0.10
         
-        allow = { religion = itan }
+        potential = { religion = itan }
         sprite = 108
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -341,8 +389,11 @@ yor_olokun =
         manpower_recovery_speed = 0.20
         navy_tradition = 1
 
-        allow = { religion = itan }
+        potential = { religion = itan }
         sprite = 109
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -362,8 +413,11 @@ yor_kokou =
         land_morale = 0.1
         discipline = 0.025
 
-        allow = { religion = itan }
+        potential = { religion = itan }
         sprite = 110
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -384,8 +438,11 @@ amun =
          global_tax_modifier = 0.1
          navy_tradition = 1
 
-         allow = { religion = egyptian }
+         potential = { religion = egyptian }
          sprite = 67
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -405,8 +462,11 @@ maat =
         stability_cost_modifier = -0.10
         global_unrest = -1
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 68
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -426,8 +486,11 @@ ra =
         hostile_attrition = 1.0
         recover_army_morale_speed = 0.05
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 69
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -447,8 +510,11 @@ seth =
          infantry_power = 0.1
          global_manpower_modifier = 0.1
 
-         allow = { religion = egyptian }
+         potential = { religion = egyptian }
          sprite = 70
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -468,8 +534,11 @@ isis =
         heir_chance = 0.50
         manpower_recovery_speed = 0.25
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 71
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -489,8 +558,11 @@ anubis =
         global_unrest = -1
         discipline = 0.05
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 72
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -505,207 +577,16 @@ anubis =
         }
 }
 
-#Armenian
-aramazd =
-{
-        global_unrest = -1
-		ae_impact = -0.15
-
-        allow = { religion = armenian_religion }
-        sprite = 111
-
-        ai_will_do = {
-			factor = 2
-        }
-}
-
-anahit =
-{
-        manpower_recovery_speed = 0.1
-		production_efficiency = 0.1
-
-        allow = { religion = armenian_religion }
-        sprite = 112
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_capitalist
-            }
-        }
-}
-
-mihr =
-{
-        prestige = 1
-		diplomatic_upkeep = 1
-
-        allow = { religion = armenian_religion }
-        sprite = 113
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 4
-				personality = ai_diplomat
-            }
-        }
-}
-
-nane =
-{
-        discipline = 0.05
-		infantry_power = 0.10
-
-        allow = { religion = armenian_religion }
-        sprite = 114
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_militarist
-            }
-        }
-}
-
-tir =
-{
-        technology_cost = -0.10
-		global_institution_spread = 0.1
-
-        allow = { religion = armenian_religion }
-        sprite = 115
-
-        ai_will_do = {
-			factor = 2
-        }
-}
-
-vaghan =
-{
-        land_morale = 0.1
-		leader_land_shock = 1
-
-        allow = { religion = armenian_religion }
-        sprite = 116
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_militarist
-            }
-        }
-}
-
-#Georgian
-armazi =
-{
-        global_unrest = -1
-		ae_impact = -0.15
-
-        allow = { religion = georgian_religion }
-        sprite = 117
-
-        ai_will_do = {
-			factor = 2
-        }
-}
-
-adgilis_deda =
-{
-        defensiveness = 0.2
-		build_cost = -0.15
-
-        allow = { religion = georgian_religion }
-        sprite = 118
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_capitalist
-            }
-        }
-}
-
-dali =
-{
-        leader_land_manuever = 1
-		land_attrition = -0.15
-
-        allow = { religion = georgian_religion }
-        sprite = 119
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 2
-                personality = ai_militarist
-            }
-        }
-}
-
-lamaria =
-{
-        global_trade_goods_size_modifier = 0.1
-		production_efficiency = 0.1
-
-        allow = { religion = georgian_religion }
-        sprite = 120
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_capitalist
-            }
-        }
-}
-
-zaden =
-{
-        global_tax_modifier = 0.1
-		development_cost = -0.1
-
-        allow = { religion = georgian_religion }
-        sprite = 121
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_capitalist
-            }
-        }
-}
-
-kopala =
-{
-        land_morale = 0.1
-		leader_land_shock = 1
-
-        allow = { religion = georgian_religion }
-        sprite = 122
-
-        ai_will_do = {
-			factor = 1
-			modifier = {
-                factor = 4
-                personality = ai_militarist
-            }
-        }
-}
-
 sanamahi =
 {
         global_missionary_strength = 0.02
 		religious_unity = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 123
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -717,8 +598,11 @@ paakhangba =
         build_cost = -0.1
 		global_trade_goods_size_modifier = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 124
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -730,8 +614,11 @@ atingkok =
 		prestige = 1
 		advisor_cost = -0.10
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 125
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -743,8 +630,11 @@ leimarel_sidabi =
 		legitimacy = 1
 		heir_chance = 0.5
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 126
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -756,8 +646,11 @@ emoinu =
         production_efficiency = 0.1
 		trade_efficiency = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 127
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -769,8 +662,11 @@ ema_panthoibi =
         discipline = 0.05
 		defensiveness = 0.2
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 128
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1

@@ -3,10 +3,7 @@ country_decisions = {
 	change_patron_deity = {
 		major = yes
 		potential = {
-			OR = {
-				religion = walianitas
-				religion = hellenism
-			}
+			religion = hellenism
 		}
 		allow = {
 			is_at_war = no			
@@ -24,6 +21,107 @@ country_decisions = {
 			add_dip_power = -25
 			custom_tooltip = resets_deity
 			hidden_effect = {
+				change_personal_deity = 
+			}
+			add_country_modifier = {
+				name = changed_deity
+				duration = 365
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				always = yes
+			}
+		}
+		ai_importance = 0
+	}
+	wl_change_patron_deity = {
+		major = yes
+		potential = {
+			religion = walianitas
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = not_no_deity
+				NOT = { has_personal_deity = }
+			}
+			custom_trigger_tooltip = {
+				tooltip = not_changed_deity
+				NOT = { has_country_modifier = changed_deity }
+			}
+			NOT = { has_personal_deity = wl_personal_cult }
+		}
+		effect = {
+			custom_tooltip = resets_deity
+			hidden_effect = {
+				if = {
+					limit = { has_personal_deity = wl_mag_mater }
+					add_country_modifier = {
+							name = wl_mag_mater_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_mother_on_cd
+							duration = 730
+					}
+				}
+				if = {
+					limit = { has_personal_deity = wl_venus }
+					add_country_modifier = {
+							name = wl_venus_isis_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_mother_on_cd
+							duration = 730
+					}
+				}
+				if = {
+					limit = { has_personal_deity = wl_epona }
+					add_country_modifier = {
+							name = wl_epona_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_mother_on_cd
+							duration = 730
+					}
+				}
+				if = {
+					limit = { has_personal_deity = wl_lenus_mars }
+					add_country_modifier = {
+							name = wl_lenus_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_champion_on_cd
+							duration = 730
+					}
+				}
+				if = {
+					limit = { has_personal_deity = wl_camulus_mars }
+					add_country_modifier = {
+							name = wl_camulus_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_champion_on_cd
+							duration = 730
+					}
+				}
+				if = {
+					limit = { has_personal_deity = wl_jupiter }
+					add_country_modifier = {
+							name = wl_jupiter_on_cd
+							duration = 1825
+					}
+					add_country_modifier = {
+							name = wl_champion_on_cd
+							duration = 730
+					}
+				}
 				change_personal_deity = 
 			}
 			add_country_modifier = {

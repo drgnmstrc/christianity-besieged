@@ -1,7 +1,7 @@
 jesus_of_nazareth = {
 	stability_cost_modifier = -0.1
 	global_unrest = -2
-	allow = { 
+	potential = { 
 		OR = {
 			AND = {
 				any_owned_province = {
@@ -13,6 +13,9 @@ jesus_of_nazareth = {
 		}
 	}
 	sprite = 85
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -24,13 +27,16 @@ jesus_of_nazareth = {
 saint_michael = {
 	land_morale = 0.1
 	harsh_treatment_cost = -0.15
-	allow = { 
+	potential = { 
 		OR = {
 			religion = manichaeism	
 			religion = liritism
 		}
 	}
 	sprite = 86
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -47,10 +53,13 @@ saint_michael = {
 lirit_lydda = {
 	global_missionary_strength = 0.02
 	tolerance_heathen = 1
-	allow = { 
+	potential = { 
 			religion = liritism
 	}
 	sprite = 87
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -62,10 +71,13 @@ lirit_lydda = {
 endovelicus = {
 	manpower_recovery_speed = 0.1
 	sailors_recovery_speed = 0.15
-	allow = { 
+	potential = { 
 			religion = liritism
 	}
 	sprite = 88
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -77,10 +89,13 @@ endovelicus = {
 epona = {
 	cavalry_cost = -0.15
 	cavalry_power = 0.1
-	allow = { 
+	potential = { 
 			religion = liritism
 	}
 	sprite = 89
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -92,10 +107,13 @@ epona = {
 bandua = {
 	defensiveness = 0.1
 	shock_damage_received = -0.1
-	allow = { 
+	potential = { 
 			religion = liritism
 	}
 	sprite = 90
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -109,7 +127,7 @@ ohrmazd_bay = {
 	republican_tradition = 0.25
 	horde_unity = 0.5
 	prestige = 1
-	allow = { 
+	potential = { 
 		OR = {
 			religion = manichaeism
 			religion = noniustian
@@ -117,6 +135,9 @@ ohrmazd_bay = {
 		NOT = { has_country_flag = reject_zoroastrianism }
 	}
 	sprite = 91
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -133,11 +154,14 @@ ohrmazd_bay = {
 mithra = {
 	development_cost = -0.1
 	build_cost = -0.1
-	allow = { 
+	potential = { 
 		religion = manichaeism
 		NOT = { has_country_flag = reject_zoroastrianism }
 	}
 	sprite = 92
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -149,7 +173,7 @@ mithra = {
 muhammad_deity = {
 	global_missionary_strength = 0.015
 	global_autonomy = -0.05
-	allow = { 
+	potential = { 
 		any_owned_province = {
 			OR = {
 				culture_group = turko_semitic
@@ -160,6 +184,9 @@ muhammad_deity = {
 		religion = manichaeism
 	}
 	sprite = 93
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -171,7 +198,7 @@ muhammad_deity = {
 baptist_john = {
 	defensiveness = 0.1
 	diplomatic_reputation = 1
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				OR = {
 					culture_group = armaic
@@ -182,6 +209,9 @@ baptist_john = {
 			religion = manichaeism
 	}
 	sprite = 94
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -193,7 +223,7 @@ baptist_john = {
 earth_mother = {
 	monthly_splendor = 1
 	production_efficiency = 0.1
-	allow = { 
+	potential = { 
 		any_owned_province = {
 			OR = {
 				culture_group = altaic
@@ -203,6 +233,9 @@ earth_mother = {
 		religion = manichaeism
 	}
 	sprite = 95
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -214,13 +247,16 @@ earth_mother = {
 atlas = {
 	prestige_decay = -0.01
 	idea_cost = -0.05
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				culture_group = byzantine
 			}
 			religion = manichaeism
 	}
 	sprite = 96
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -232,13 +268,16 @@ atlas = {
 ausrine_mani = {
 	heir_chance = 0.5
 	diplomatic_reputation = 1
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				culture_group = baltic
 			}
 			religion = manichaeism
 	}
 	sprite = 97
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -250,7 +289,7 @@ ausrine_mani = {
 sudenicy = {
 	yearly_absolutism = 0.1
 	core_creation = -0.1
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				OR = {
 					culture_group = south_slavic
@@ -260,6 +299,9 @@ sudenicy = {
 			religion = manichaeism
 	}
 	sprite = 98
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -271,7 +313,7 @@ sudenicy = {
 ksitigharba = {
 	global_institution_spread = 0.1
 	prestige_decay = -0.01
-	allow = {
+	potential = {
 		OR = {
 			religion = hinduism
 			AND = {
@@ -288,6 +330,9 @@ ksitigharba = {
 		}
 	}
 	sprite = 99
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -299,13 +344,16 @@ ksitigharba = {
 shitan_wang = {
 	discipline = 0.025
 	defensiveness = 0.1
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				culture_group = tibetan_group
 			}
 			religion = manichaeism
 	}
 	sprite = 100
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -317,10 +365,13 @@ shitan_wang = {
 personal_buddha = {
 	global_unrest = -2
 	diplomatic_reputation = 1
-	allow = {
+	potential = {
 			religion = manichaeism
 	}
 	sprite = 101
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -332,13 +383,16 @@ personal_buddha = {
 rigong_shier_huanu = {
 	heir_chance = 0.5
 	diplomatic_reputation = 2
-	allow = { 
+	potential = { 
 			any_owned_province = {
 				culture_group = east_asian
 			}
 			religion = manichaeism
 	}
 	sprite = 102
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -351,11 +405,14 @@ rigong_shier_huanu = {
 cybele = {
 	heir_chance = 0.5
 	discipline = 0.05
-	allow = {
+	potential = {
 		dominant_culture = phryges
 		uses_personal_deities = yes
 	}
 	sprite = 103
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -368,18 +425,21 @@ cybele = {
 giahve = {
 	tolerance_heathen = 1
 	global_missionary_strength = 0.01
-	allow = {
+	potential = {
 		religion = hellenism
 		any_owned_province = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion = jewish
+				religion_group = jewish_group
 				religion = mandaeism
 			}
 		}
 	}
 	sprite = 104
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 3
 	}
@@ -388,11 +448,14 @@ giahve = {
 hypturma = {
 	innovativeness_gain = 0.5
 	loot_amount = 0.25
-	allow = {
+	potential = {
 		religion = hellenism
 		accepted_culture = isaurian
 	}
 	sprite = 105
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -405,10 +468,13 @@ hypturma = {
 atlas_hellenic = {
 	prestige_decay = -0.01
 	idea_cost = -0.05
-	allow = {
+	potential = {
 		religion = hellenism
 	}
 	sprite = 96
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 	 	factor = 1
 		modifier = {
@@ -421,10 +487,13 @@ atlas_hellenic = {
 akousmatikoi = {
 	global_tax_modifier = 0.175
 	ae_impact = -0.175
-	allow = {
+	potential = {
 		religion = neopythagorean
 	}
 	sprite = 106
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -437,10 +506,13 @@ akousmatikoi = {
 mathematikoi = {
 	advisor_cost = -0.15
 	technology_cost = -0.125
-	allow = {
+	potential = {
 		religion = neopythagorean
 	}
 	sprite = 107
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -454,30 +526,33 @@ mathematikoi = {
 	}
 }
 sol_deity = {
-        legitimacy = 1
+    legitimacy = 1
 	devotion = 1.5
 	republican_tradition = 0.5
-        discipline = 0.05
+    discipline = 0.05
 
-        allow = {
+    potential = {
 		OR = {
 			religion = noniustian
 			religion = sol_invictus
 		}
 	}
-        sprite = 114
+    sprite = 114
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
-        ai_will_do = {
-                factor = 5
+    ai_will_do = {
+        factor = 5
 		modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 0.5
-                        personality = ai_capitalist
-                }
+            factor = 2
+            personality = ai_militarist
         }
+        modifier = {
+            factor = 0.5
+             personality = ai_capitalist
+        }
+    }
 }
 
 svarog_invictus = 
@@ -485,8 +560,11 @@ svarog_invictus =
 	discipline = 0.05
 	production_efficiency = 0.1
 	
-	allow = { religion = cisarstvo }
+	potential = { religion = cisarstvo }
 	sprite = 23
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -504,7 +582,7 @@ svarog_invictus =
 isis_deity = {
 	discipline = 0.05
 	development_cost = -0.05
-	allow = {
+	potential = {
 		OR = {
 			religion = sol_invictus
 			religion = noniustian
@@ -512,6 +590,9 @@ isis_deity = {
 		}
 	}
 	sprite = 120
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -527,10 +608,13 @@ isis_deity = {
 mojmir_deity = {
 	land_morale = 0.1
 	ae_impact = -0.2
-	allow = {
+	potential = {
 		religion = cisarstvo
 	}
 	sprite = 121
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -546,12 +630,15 @@ mojmir_deity = {
 tamat = {
         heir_chance = 0.5
 	land_morale = 0.1
-        allow = {
+        potential = {
 		government = monarchy
 		has_roman_religion = yes
 		has_country_flag = tamat_deified
 	}
-        sprite = 115
+    sprite = 115
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 2
@@ -568,12 +655,15 @@ tamat = {
 tamat = {
         global_heathen_missionary_strength = 0.025
 	land_morale = 0.1
-        allow = {
+        potential = {
 		government = republic
 		has_roman_religion = yes
 		has_country_flag = tamat_deified
 	}
-        sprite = 115
+    sprite = 115
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 2
@@ -590,13 +680,16 @@ tamat = {
 minerva = {
 	defensiveness = 0.5
 	hostile_attrition = 2
-        allow = {
+        potential = {
 		OR = {
 			religion = sol_invictus
 			religion = noniustian
 		}
 	}
         sprite = 116
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 2
@@ -617,7 +710,7 @@ minerva = {
 albalupus = {
 	ship_durability = 0.15
 	sunk_ship_morale_hit_recieved = -0.15
-        allow = {
+        potential = {
 		OR = {
 			religion = sol_invictus
 			religion = noniustian
@@ -625,6 +718,9 @@ albalupus = {
 		has_country_flag = albalupus_dead
 	}
         sprite = 117
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 2
@@ -645,7 +741,7 @@ albalupus = {
 cernos = {
 	hostile_attrition = 2
 	leader_land_manuever = 1
-	allow = {
+	potential = {
 		religion = walianitas
 		any_owned_province = {
 			OR = {
@@ -655,6 +751,9 @@ cernos = {
 		}
 	}
 	sprite = 118
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -670,14 +769,16 @@ cernos = {
 augustus_deity = {
 	discipline = 0.05
 	ae_impact = -0.1
-	allow = {
+	potential = {
 		OR = {
-			religion = walianitas
 			religion = sol_invictus
 			religion = noniustian
 		}
 	}
 	sprite = 119
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -693,11 +794,14 @@ augustus_deity = {
 aurelian_deity = {
 	land_morale = 0.1
 	ae_impact = -0.2
-	allow = {
+	potential = {
 		has_roman_religion = yes
 		has_country_flag = aurelian_deified
 	}
 	sprite = 121
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -714,11 +818,14 @@ aurelian_deity = {
 oromasdes_deity = {
 	technology_cost = -0.1
 	development_cost = -0.1
-	allow = {
+	potential = {
 		has_roman_religion = yes
 		has_country_flag = oromasdes_deified
 	}
 	sprite = 122
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -736,11 +843,14 @@ victorinus_deity = {
 	discipline = 0.075
 	legitimacy = 1
 	republican_tradition = 0.5
-	allow = {
+	potential = {
 		has_roman_religion = yes
 		has_country_flag = victorinus_deified
 	}
 	sprite = 123
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -757,11 +867,14 @@ victorinus_deity = {
 axrotalus_deity = {
 	discipline = 0.05
 	land_morale = 0.1
-	allow = {
+	potential = {
 		has_roman_religion = yes
 		has_country_flag = axrotalus_deified
 	}
 	sprite = 123
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {

@@ -1,0 +1,117 @@
+country_decisions = {
+
+	epona_glory_charge = {
+        major = yes
+        potential = {
+            has_personal_deity = wl_epona
+        }
+        allow = {
+            NOT = { has_country_modifier = glory_charge_on_cd }
+        }
+        effect = {
+            hidden_effect = {
+                if = {
+                    limit = { num_of_cavalry = 10 }
+                    add_country_modifier = {
+                        name = wl_charge_speed_1
+                        duration = 244
+                    }
+                }
+                if = {
+                    limit = { num_of_cavalry = 20 }
+                    add_country_modifier = {
+                        name = wl_charge_speed_2
+                        duration = 244
+                    }
+                }
+                if = {
+                    limit = { num_of_cavalry = 30 }
+                    add_country_modifier = {
+                        name = wl_charge_speed_3
+                        duration = 244
+                    }
+                }
+                if = {
+                    limit = { num_of_cavalry = 40 }
+                    add_country_modifier = {
+                        name = wl_charge_speed_4
+                        duration = 244
+                    }
+                }
+            }
+            custom_tooltip = wl_charge_speed_total_tt
+            add_country_modifier = {
+                name = glory_charge
+                duration = 244
+            }
+            add_country_modifier = {
+                name = glory_charge_on_cd
+                duration = 1825
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                is_at_war = no
+            }
+            modifier = {
+                factor = 0
+                NOT = { num_of_cavalry = 10 }
+            }
+        }
+        ai_importance = 1
+    }
+    jupiter_glorious_sacrifice = {
+        major = yes
+        potential = {
+            has_personal_deity = wl_jupiter
+        }
+        allow = {
+            NOT = { has_country_modifier = glorious_sacrifice_on_cd }
+            years_of_income = 0.1
+        }
+        effect = {
+            hidden_effect = {
+                country_event = {
+                    id = walianitasEvents.0
+                }
+            }
+            custom_tooltip = wl_jupiter_sacrifice_tt
+            add_years_of_income = -0.1
+            add_country_modifier = {
+                name = glorious_sacrifice_on_cd
+                duration = 183
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        ai_importance = 1
+    }
+    jupiter_call_upon_clouds = {
+        major = yes
+        potential = {
+            has_personal_deity = wl_jupiter
+        }
+        allow = {
+            NOT = { has_country_modifier = call_upon_clouds_on_cd }
+        }
+        effect = {
+            hidden_effect = {
+                country_event = {
+                    id = walianitasEvents.18
+                }
+            }
+            custom_tooltip = wl_jupiter_clouds_tt
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                is_at_war = no
+            }
+        }
+        ai_importance = 1
+    }
+}

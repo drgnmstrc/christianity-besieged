@@ -8,8 +8,11 @@ ukko =
 	land_morale = 0.1
 	discipline = 0.025
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 13
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -29,8 +32,11 @@ tapio =
 	hostile_attrition = 1.0
 	defensiveness = 0.2
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 14
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -50,8 +56,11 @@ ahti =
 	naval_morale = 0.20
 	navy_tradition = 1
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 15
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -71,8 +80,11 @@ mielikki =
 	leader_land_fire = 1
 	global_trade_goods_size_modifier = 0.1
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 16
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -92,8 +104,11 @@ akras =
 	production_efficiency = 0.1
 	manpower_recovery_speed = 0.20
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 17
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -113,8 +128,11 @@ tuoni =
 	global_unrest = -1
 	global_tax_modifier = 0.1
 	
-	allow = { religion = suomenusko }
+	potential = { religion = suomenusko }
 	sprite = 18
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -131,8 +149,11 @@ perun =
 	hostile_attrition = 1.0
 	defensiveness = 0.2
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 19
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -160,8 +181,11 @@ jarilo =
 	land_morale = 0.1
 	discipline = 0.05
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 20
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -181,8 +205,11 @@ lada =
 	naval_morale = 0.15
 	navy_tradition = 1
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 21
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -206,8 +233,11 @@ veles =
 	leader_land_fire = 1
 	global_trade_goods_size_modifier = 0.1
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 22
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -227,8 +257,11 @@ svarog =
 	production_efficiency = 0.1
 	manpower_recovery_speed = 0.20
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 23
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -248,8 +281,11 @@ svetovid =
 	global_unrest = -1
 	global_tax_modifier = 0.1
 	
-	allow = { religion = slavic }
+	potential = { religion = slavic }
 	sprite = 24
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -265,8 +301,11 @@ dievas =
 	land_morale = 0.1
 	core_creation = -0.10
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 25
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -287,8 +326,11 @@ perkunas =
 	discipline = 0.05
 	leader_land_shock = 1
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 26
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -308,8 +350,11 @@ ausrine =
 	diplomatic_upkeep = 1
 	improve_relation_modifier = 0.10
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 27
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -325,8 +370,11 @@ saule =
 	production_efficiency = 0.1
 	global_trade_goods_size_modifier = 0.1
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 28
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -342,8 +390,11 @@ laima =
 	global_unrest = -1
 	global_tax_modifier = 0.1
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 29
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -359,8 +410,11 @@ gabija =
 	hostile_attrition = 1.0
 	defensiveness = 0.2
 	
-	allow = { religion = romuva }
+	potential = { religion = romuva }
 	sprite = 30
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -380,8 +434,11 @@ tiwaz =
 	discipline = 0.05
 	infantry_power = 0.10
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 31
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -403,8 +460,11 @@ wodan =
 	land_morale = 0.1
 	core_creation = -0.10
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 32
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -424,8 +484,11 @@ dunar =
 	defensiveness = 0.2
 	leader_land_shock = 1
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 33
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -445,8 +508,11 @@ frijjo =
 	diplomatic_upkeep = 1
 	improve_relation_modifier = 0.10
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 34
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -462,8 +528,11 @@ austro =
 	production_efficiency = 0.1
 	manpower_recovery_speed = 0.20
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 35
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -483,8 +552,11 @@ fraujaz =
 	global_trade_goods_size_modifier = 0.1
 	land_attrition = -0.10
 	
-	allow = { religion = germanic }
+	potential = { religion = germanic }
 	sprite = 36
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -502,8 +574,11 @@ toutatis =
 	land_morale = 0.1
 	defensiveness = 0.2
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 37
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -523,8 +598,11 @@ taranis =
 	discipline = 0.05
 	leader_land_shock = 1
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 38
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -544,8 +622,11 @@ lugus =
 	global_tax_modifier = 0.15
 	global_trade_goods_size_modifier = 0.1
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 39
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -561,8 +642,11 @@ dagda =
 	infantry_power = 0.10
 	leader_land_manuever = 1
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 40
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -582,8 +666,11 @@ sulis =
 	naval_morale = 0.15
 	diplomatic_upkeep = 1
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 41
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1	
@@ -599,8 +686,11 @@ brigid =
 	manpower_recovery_speed = 0.20
 	improve_relation_modifier = 0.20
 	
-	allow = { religion = druidism }
+	potential = { religion = druidism }
 	sprite = 42
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1	
@@ -617,14 +707,13 @@ jupiter =
         religious_unity = 0.05
         global_unrest = -1
 
-        allow = {
-		NOT = { religion = procuveric }
-		OR = {
-			religion = walianitas
-			religion = sol_invictus
-		}
+        potential = {
+		religion = sol_invictus
 	}
         sprite = 43
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 4
@@ -639,46 +728,19 @@ jupiter =
         }
 }
 
-juno =
-{
-        defensiveness = 0.2
-        core_creation = -0.10
-
-        allow = {
-		religion = walianitas
-	}
-        sprite = 44
-
-        ai_will_do = {
-                factor = 1
-                modifier = {
-                        factor = 2
-                        personality = ai_capitalist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_diplomat
-                }
-        }
-}
-
 neptune =
 {
         naval_morale = 0.15
         global_trade_goods_size_modifier = 0.15
 
-        allow = {
+        potential = {
 		NOT = { has_country_flag = albalupus_dead }
-		OR = {
-			religion = walianitas
-			religion = sol_invictus
-		}
+		religion = sol_invictus
 	}
         sprite = 45
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -698,60 +760,17 @@ apollo =
         production_efficiency = 0.1
         global_tax_modifier = 0.1
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 46
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
                   modifier = {
                           factor = 3
                           personality = ai_capitalist
-                  }
-        }
-}
-
-mars =
-{
-        land_morale = 0.1
-        discipline = 0.025
-
-        allow = {
-		religion = walianitas
-	}
-        sprite = 47
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_capitalist
-                  }
-        }
-}
-
-venus =
-{
-        heir_chance = 0.50
-        manpower_recovery_speed = 0.25
-
-        allow = {
-		religion = walianitas
-	}
-        sprite = 48
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_diplomat
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
                   }
         }
 }
@@ -761,8 +780,11 @@ zeus =
         land_morale = 0.1
         global_unrest = -1
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 43
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -782,8 +804,11 @@ hera =
         defensiveness = 0.2
         core_creation = -0.10
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 44
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -807,8 +832,11 @@ poseidon =
         naval_morale = 0.15
         global_trade_goods_size_modifier = 0.15
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 45
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                 factor = 1
@@ -828,8 +856,11 @@ ares =
         land_morale = 0.1
         discipline = 0.025
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 47
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -849,8 +880,11 @@ aphrodite =
         heir_chance = 0.50
         manpower_recovery_speed = 0.25
 
-        allow = { uses_hellenic_pantheon = yes }
+        potential = { uses_hellenic_pantheon = yes }
         sprite = 48
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -871,8 +905,11 @@ asshur =
         land_morale = 0.1
         tolerance_heretic = 2
 
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 49
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -892,8 +929,11 @@ anu =
         diplomatic_upkeep = 1
         improve_relation_modifier = 0.10
 
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 50
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -910,8 +950,11 @@ bel =
         global_tax_modifier = 0.1
         stability_cost_modifier = -0.10
 
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 51
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -927,8 +970,11 @@ ea =
         core_creation = -0.10
         land_attrition = -0.10
         
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 52
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -948,8 +994,11 @@ shamash =
         improve_relation_modifier = 0.20
         global_unrest = -1
 
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 53
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -969,8 +1018,11 @@ ramman =
         hostile_attrition = 1.0
         siege_ability = 0.1
 
-        allow = { religion = ashurism }
+        potential = { religion = ashurism }
         sprite = 54
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -986,8 +1038,11 @@ dushares =
         global_unrest = -1
         core_creation = -0.10
 
-        allow = { religion = nabataean }
+        potential = { religion = nabataean }
         sprite = 55
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1003,8 +1058,11 @@ al_qaum =
          global_tax_modifier = 0.1
          global_trade_goods_size_modifier = 0.20
 
-         allow = { religion = nabataean }
+         potential = { religion = nabataean }
          sprite = 56
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -1024,8 +1082,11 @@ al_kutbay =
         production_efficiency = 0.1
         leader_land_fire = 1
 
-        allow = { religion = nabataean }
+        potential = { religion = nabataean }
         sprite = 57
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1045,8 +1106,11 @@ allat =
         land_morale = 0.1
         discipline = 0.025
 
-        allow = { religion = nabataean }
+        potential = { religion = nabataean }
         sprite = 58
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1066,8 +1130,11 @@ manawat =
         heir_chance = 0.50
         manpower_recovery_speed = 0.25
 
-        allow = { religion = nabataean }
+        potential = { religion = nabataean }
         sprite = 59
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1083,8 +1150,11 @@ al_uzza =
         discipline = 0.05
         leader_land_shock = 1
 
-        allow = { religion = nabataean }
+        potential = { religion = nabataean }
         sprite = 60
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1101,135 +1171,18 @@ al_uzza =
 #South_Arabian
 
 #Amm, Ta'lab, Shams, Almaqah, Athtar, Wadd
-amm =
-{
-         discipline = 0.04
-         army_tradition = 1
 
-         allow = { religion = south_arabian }
-         sprite = 61
-
-         ai_will_do = {
-                   factor = 1
-                   modifier = {
-                           factor = 3
-                           personality = ai_militarist
-                   }
-                   modifier = {
-                           factor = 2
-                           personality = ai_capitalist
-                   }
-        }
-}
-
-shams =
-{
-        hostile_attrition = 1.0
-        manpower_recovery_speed = 0.20
-
-        allow = { religion = south_arabian }
-        sprite = 62
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_capitalist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_diplomat
-                  }
-        }
-}
-
-athtar = 
-{
-        infantry_power = 0.10
-        global_unrest = -1
-
-        allow = { religion = south_arabian }
-        sprite = 63
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_capitalist
-                  }
-        }
-}
-
-almaqah =
-{
-        legitimacy = 0.5
-        leader_land_shock = 1
-
-        allow = { religion = south_arabian }
-        sprite = 64
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-        }
-}
-
-talab =
-{
-        leader_land_shock = 1
-        production_efficiency = 0.1
-
-        allow = { religion = south_arabian }
-        sprite = 65
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_diplomat
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_capitalist
-                  }
-        }
-}
-
-wadd =
-{
-        diplomatic_upkeep = 1
-        diplomats = 1
-
-        allow = { religion = south_arabian }
-        sprite = 66
-
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_diplomat
-                  }
-        }
-}
 #Egyptian
 amun =
 {
          global_tax_modifier = 0.1
          navy_tradition = 1
 
-         allow = { religion = egyptian }
+         potential = { religion = egyptian }
          sprite = 67
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -1249,8 +1202,11 @@ maat =
         stability_cost_modifier = -0.10
         global_unrest = -1
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 68
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1270,8 +1226,11 @@ ra =
         hostile_attrition = 1.0
         recover_army_morale_speed = 0.05
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 69
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1291,8 +1250,11 @@ seth =
          infantry_power = 0.1
          global_manpower_modifier = 0.1
 
-         allow = { religion = egyptian }
+         potential = { religion = egyptian }
          sprite = 70
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
          ai_will_do = {
                    factor = 1
@@ -1312,8 +1274,11 @@ isis =
         heir_chance = 0.50
         manpower_recovery_speed = 0.25
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 71
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1333,8 +1298,11 @@ anubis =
         global_unrest = -1
         discipline = 0.05
 
-        allow = { religion = egyptian }
+        potential = { religion = egyptian }
         sprite = 72
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1354,8 +1322,11 @@ huitzilopochtli =
         prestige = 1
         global_unrest = -1
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 73
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1375,8 +1346,11 @@ tlaloc =
         manpower_recovery_speed = 0.20
         production_efficiency = 0.1
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 74
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1396,8 +1370,11 @@ tonatiuh =
         defensiveness = 0.2
         core_creation = -0.10
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 75
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1421,8 +1398,11 @@ tezcatlipoca =
         ae_impact = -0.15
         legitimacy = 1
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 76
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1446,8 +1426,11 @@ chalchiuhtlicue =
         naval_attrition = -0.10
         naval_morale = 0.20
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 77
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1467,8 +1450,11 @@ quetzalcoatl =
         range = 0.20
         technology_cost = -0.10
 
-        allow = { religion = mesoamerican_religion }
+        potential = { religion = mesoamerican_religion }
         sprite = 78
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
                   factor = 1
@@ -1488,8 +1474,11 @@ sanamahi =
         global_missionary_strength = 0.02
 		religious_unity = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 123
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1501,8 +1490,11 @@ paakhangba =
         build_cost = -0.1
 		global_trade_goods_size_modifier = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 124
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1514,8 +1506,11 @@ atingkok =
 		prestige = 1
 		advisor_cost = -0.10
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 125
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1527,8 +1522,11 @@ leimarel_sidabi =
 		legitimacy = 1
 		heir_chance = 0.5
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 126
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1540,8 +1538,11 @@ emoinu =
         production_efficiency = 0.1
 		trade_efficiency = 0.1
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 127
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1553,8 +1554,11 @@ ema_panthoibi =
         discipline = 0.05
 		defensiveness = 0.2
 
-        allow = { religion = sanamahism }
+        potential = { religion = sanamahism }
         sprite = 128
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 
         ai_will_do = {
 			factor = 1
@@ -1566,8 +1570,11 @@ tiw =
 	discipline = 0.05
 	infantry_power = 0.10
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 31
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -1587,8 +1594,11 @@ woden =
 	land_morale = 0.1
 	core_creation = -0.10
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 32
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -1608,8 +1618,11 @@ thunar =
 	defensiveness = 0.2
 	leader_land_shock = 1
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 33
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -1629,8 +1642,11 @@ frig =
 	diplomatic_upkeep = 1
 	improve_relation_modifier = 0.10
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 34
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -1646,8 +1662,11 @@ eastre =
 	production_efficiency = 0.1
 	manpower_recovery_speed = 0.20
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 35
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1
@@ -1667,8 +1686,11 @@ frey =
 	global_trade_goods_size_modifier = 0.1
 	land_attrition = -0.10
 	
-	allow = { religion = saxish }
+	potential = { religion = saxish }
 	sprite = 36
+	trigger = {}
+	effect = {}
+	removed_effect = {}
 	
 	ai_will_do = {
 		factor = 1

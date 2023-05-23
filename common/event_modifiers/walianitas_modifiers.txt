@@ -137,3 +137,55 @@ wl_tyranny_10 = {
 	global_unrest = 6
 	global_tax_modifier = 0.06
 }
+wl_gs_to_the_seas = {
+	global_ship_cost = 0.05
+	global_ship_recruit_speed = -0.35
+	naval_morale = 0.1
+}
+wl_gs_year_of_humility = {
+	can_not_build_buildings = yes
+	development_cost = 1
+	technology_cost = 1
+}
+wl_gs_emergency_powers = {
+	all_power_cost = -0.1
+	global_unrest = 10
+}
+wl_gs_enemies_within = {
+	can_not_declare_war = yes
+	global_unrest = 5
+	reduced_stab_impacts = yes
+	global_spy_defence = 0.33
+}
+wl_gs_call_for_worshippers = {
+	tolerance_heathen = -3
+	tolerance_heretic = -1
+	tolerance_own = 1
+	global_missionary_strength = 0.05
+	enforce_religion_cost = -0.5
+	relation_with_same_religion = 5
+	relation_with_heathens = -10
+}
+wl_gs_shun_the_unbelievers = {
+	tolerance_heathen = -5
+	tolerance_heretic = -2
+	tolerance_own = 2
+	can_not_build_missionaries = yes
+	relation_with_same_religion = 15
+	relation_with_heretics = -5
+	relation_with_heathens = -20
+}
+wl_gs_call_to_arms = {
+	land_morale = 0.1
+	discipline = 0.015
+	global_regiment_recruit_speed = -0.33
+	land_maintenance_modifier = 0.1
+}
+wl_gs_good_harvests = {
+	development_cost = -0.1
+	global_tax_modifier = 0.05
+}
+wl_gs_a_time_for_thinkers = {
+	idea_cost = -0.05
+	technology_cost = -0.05
+}
