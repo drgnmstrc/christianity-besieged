@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = yotvingian
-religion = romuvan
-technology_group = nomadic_group
+religion = romuva
+technology_group = nomad_group
 capital = 270
 government_rank = 1
 

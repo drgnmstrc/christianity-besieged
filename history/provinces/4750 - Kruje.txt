@@ -3,6 +3,7 @@
 owner = Y20
 controller = Y20
 add_core = Y20
+add_claim = X07
 culture = fayunlit
 religion = ashabi
 capital = "Krujë"

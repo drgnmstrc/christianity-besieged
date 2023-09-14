@@ -1,0 +1,16 @@
+name = "Caracalpac War of Apostasy"
+war_goal = {
+	type = take_capital
+	casus_belli = cb_crusade
+	province = 1765
+}
+
+1428.11.18 = {
+	add_attacker = X07
+	add_defender = Z22
+}
+
+1434.8.19 = {
+	rem_attacker = X07
+	rem_defender = Z22
+}

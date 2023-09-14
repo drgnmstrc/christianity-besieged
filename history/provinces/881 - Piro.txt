@@ -3,7 +3,7 @@
 culture = mescalero
 religion = totemism
 capital = "Teypana"
-trade_goods = grain 
+trade_goods = maize 
 hre = no 
 base_tax = 2 
 base_production = 2

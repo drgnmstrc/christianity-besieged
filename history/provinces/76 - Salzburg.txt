@@ -1,13 +1,13 @@
 #76 - Salzburg
 
-owner = V07
-controller = V07
-add_core = V07
-culture = slovene
-religion = slavic
+owner = G04
+controller = G04
+add_core = G04
+culture = gepidan
+religion = germanic
 capital = "Salzburg"
-trade_goods = salt
-hre = no
+trade_goods = beer
+hre = yes
 base_tax = 6 
 base_production = 6
 base_manpower = 4

@@ -53,7 +53,7 @@ G23 = "countries/Lauen-Perle.txt"
 G24 = "countries/Leventina.txt"
 G25 = "countries/Hoyaberg.txt"
 G26 = "countries/Ravensburg.txt"
-#G27 = "countries/Brussel.txt" #Uses Brabant
+G27 = "countries/Grischun.txt"
 G28 = "countries/Worms.txt"
 G29 = "countries/Zweinbrucken.txt"
 #G30 = "countries/Obabayern.txt" #Landshut
@@ -433,7 +433,7 @@ U12 = "countries/Samnium.txt"
 U13 = "countries/Picenum.txt"
 U14 = "countries/Cenomania.txt"
 U15 = "countries/RumCaliphate.txt"
-U16 = "countries/Tyrikhids.txt" #SE EUROPE TODO - CHANGE TO LYROLKE
+U16 = "countries/Südmarc.txt"
 U17 = "countries/Latlurum.txt" #SOUTHEAST EUROPE MINIUPDATE - REVOLTER
 U18 = "countries/Gagauz.txt"
 

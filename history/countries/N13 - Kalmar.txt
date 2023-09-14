@@ -7,8 +7,8 @@ capital = 6
 
 1440.4.9 = {
 	monarch = {
-		name = "Big Otis"
-		dynasty = "Kalmaryten"
+		name = "Stórrotis"
+		dynasty = "Munsö"
 		birth_date = 1425.2.26
 		adm = 6
 		dip = 6

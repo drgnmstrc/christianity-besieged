@@ -1,10 +1,9 @@
 #139 - Hum
 
-owner = Z21
-controller = Z21
+owner = U17
+controller = U17
 culture = latinlerin
-religion = manichaeism
-add_core = Z21
+religion = ashabi
 add_core = U17
 capital = "Mostar"	# Unofficial capital of Herzegovina
 trade_goods = wool
@@ -21,3 +20,9 @@ discovered_by = ottoman
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1427.4.14 = {
+	owner = Z21
+	controller = Z21
+	add_core = Z21
+	religion = manichaeism
+}

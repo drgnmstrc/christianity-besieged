@@ -1,7 +1,7 @@
-owner = G04
-controller = G04
-add_core = G04
-culture = gepidan
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = bavarian
 religion = germanic
 capital = "Wasserburg"
 is_city = yes

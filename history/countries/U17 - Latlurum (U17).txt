@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = latinlerin
+add_accepted_culture = pannici
+capital = 136
+government_rank = 2

@@ -1,13 +1,14 @@
 # - Eger
 
-owner = BOH
-controller = BOH
+owner = G04
+controller = G04
+add_core = G04
 add_core = BOH
+culture = gepidan
+religion = germanic
 capital = "Eger"
-culture = czech
-religion = slavic
 trade_goods = gold #Joachimstal mines
-hre = no
+hre = yes
 base_tax = 4
 base_production = 5
 base_manpower = 2

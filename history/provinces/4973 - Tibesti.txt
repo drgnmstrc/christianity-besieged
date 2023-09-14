@@ -2,7 +2,7 @@
 owner = R10
 controller = R10
 add_core = R10
-trade_goods = livestock
+trade_goods = camel
 is_city = yes
 discovered_by = near_east
 discovered_by = ottoman

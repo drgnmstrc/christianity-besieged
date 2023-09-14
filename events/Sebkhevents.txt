@@ -153,6 +153,9 @@ country_event = {
 			change_culture = maniercler
 		}
 		change_primary_culture = maniercler
+		change_country_color = { 
+			color = { 173 33 33 }
+		}
 		add_country_modifier = {
 			name = manideh_milis
 			duration = -1
@@ -166,6 +169,14 @@ country_event = {
 		remove_country_modifier = sebkhemerz_feudalism
 		override_country_name = seb_manideh
 		set_government_rank = 3
+		every_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = maniercler
+		}
+		change_primary_culture = maniercler
+		change_country_color = { 
+			color = { 248 109 18 }
+		}
 		add_country_modifier = {
 			name = kingdom_of_manideh
 			duration = -1
@@ -179,6 +190,14 @@ country_event = {
 		remove_country_modifier = sebkhemerz_theocracy
 		override_country_name = seb_manideh
 		set_government_rank = 3
+		every_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = maniercler
+		}
+		change_primary_culture = maniercler
+		change_country_color = { 
+			color = { 236 50 30 }
+		}
 		add_country_modifier = {
 			name = holy_manideh
 			duration = -1

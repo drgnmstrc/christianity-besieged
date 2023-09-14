@@ -3,8 +3,8 @@
 owner = U16
 controller = U16
 add_core = U16
-culture = lyrsci
-religion = slavic
+culture = marcer
+religion = germanic
 capital = "Belgrade"
 trade_goods = cloth
 hre = no

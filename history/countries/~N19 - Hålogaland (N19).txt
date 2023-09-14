@@ -1,7 +1,0 @@
-government = tribal
-add_government_reform = tribal_kingdom
-government_rank = 1
-primary_culture = nordmenn
-religion = norse_pagan_reformed
-technology_group = scandinavian_tech
-capital = 21

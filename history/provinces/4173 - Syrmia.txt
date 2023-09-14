@@ -3,10 +3,10 @@
 owner = U16
 controller = U16
 add_core = U16
-culture = lyrsci
-religion = slavic
+culture = marcer
+religion = germanic
 capital = "Mitrovica"
-trade_goods = grain
+trade_goods = beer
 hre = no
 base_tax = 4
 base_production = 4

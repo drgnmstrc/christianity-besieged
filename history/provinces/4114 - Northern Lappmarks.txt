@@ -2,7 +2,7 @@
 owner = V20
 controller = V20
 add_core = V20
-trade_goods = unknown
+trade_goods = tar
 native_size = 50
 native_ferocity = 2
 native_hostileness = 5

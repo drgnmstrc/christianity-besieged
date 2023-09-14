@@ -1,8 +1,0 @@
-government = tribal
-add_government_reform = tribal_federation
-government_rank = 1
-primary_culture = krivich
-religion = slavic
-technology_group = western
-capital = 1960	# Polotsk
-fixed_capital = 275 # Cannot move capital away from this province & no power cost to move to it

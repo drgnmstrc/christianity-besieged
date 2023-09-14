@@ -1,13 +1,12 @@
 #3002 - Southern part of Vrhbosna + some lands in modern Serbia
 
-owner = Z21
-controller = Z21
+owner = U17
+controller = U17
 culture = latinlerin
-religion = manichaeism
-add_core = Z21
+religion = ashabi
 add_core = U17
 capital = "Visoki"
-trade_goods = grain
+trade_goods = silver
 hre = no
 base_tax = 5
 base_production = 4
@@ -25,3 +24,9 @@ discovered_by = ottoman
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1427.4.14 = {
+	owner = Z21
+	controller = Z21
+	add_core = Z21
+	religion = manichaeism
+}

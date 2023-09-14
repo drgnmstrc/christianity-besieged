@@ -3,7 +3,7 @@
 culture = filipino
 religion = animism
 capital = "Butuan"
-trade_goods = gems
+trade_goods = cinnamon
 hre = no
 base_tax = 2 
 base_production = 2

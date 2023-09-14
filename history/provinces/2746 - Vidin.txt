@@ -1,8 +1,7 @@
 #2746 - Vidin
 
-owner = X07
-controller = X07
-add_core = X07
+owner = Z22
+controller = Z22
 culture = karakalpak
 religion = manichaeism
 add_core = Z01
@@ -21,3 +20,8 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1434.8.19 = {
+	owner = X07
+	controller = X07
+	add_core = X07
+}

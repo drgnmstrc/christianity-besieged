@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = marcer
+religion = germanic
+technology_group = ottoman
+capital = 4239
+national_focus = MIL
+add_army_professionalism = 0.1
+government_rank = 1
+	
+1444.1.1 = {
+	monarch = {
+		name = "Cepler"
+		dynasty = "Jodoc"
+		birth_date = 1411.3.30
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

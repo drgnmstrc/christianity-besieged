@@ -24,5 +24,5 @@ discovered_by = ottoman
 	controller = SMB
 	add_core = SMB
 	is_city = yes
-	trade_goods = fish
+	trade_goods = sea_turtle
 }

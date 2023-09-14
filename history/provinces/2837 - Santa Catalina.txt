@@ -13,7 +13,7 @@ discovered_by = andean
 
 religion = inti
 capital = "Santa Catalina"
-trade_goods = wool
+trade_goods = llama
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,8 +1,7 @@
 #148 - Macedonia
 
-owner = X07
-controller = X07
-add_core = X07
+owner = Y21
+controller = Y21
 add_core = Y21
 culture = yaliboylu
 religion = ashabi
@@ -24,3 +23,8 @@ discovered_by = scandinavian_tech
 discovered_by = eirun
 extra_cost = 8
 center_of_trade = 1
+1438.6.12 = {
+	owner = X07
+	controller = X07
+	add_core = X07
+}

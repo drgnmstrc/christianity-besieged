@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = cantabrian
-religion = liritism
-technology_group = western
-capital = 1745	# Cantabria
-fixed_capital = 1745

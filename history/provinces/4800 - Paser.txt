@@ -20,7 +20,7 @@ discovered_by = muslim
 	controller = BNJ
 	add_core = BNJ
 	is_city = yes
-	trade_goods = spices
+	trade_goods = cloves
 }
 
 1521.1.1 = { discovered_by = POR }

@@ -17,7 +17,6 @@ add_core = BLM
 discovered_by = chinese
 discovered_by = indian
 discovered_by = near_east
-discovered_by = ottoman
 
 1509.1.1 = { discovered_by = POR }
 

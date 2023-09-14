@@ -7,7 +7,7 @@ add_core = N21
 capital = "Budysin"
 culture = polobske
 religion = slavic
-trade_goods = cloth
+trade_goods = indigo
 hre = no
 base_tax = 3
 base_production = 3
@@ -24,3 +24,8 @@ discovered_by = near_east
 discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
+add_permanent_province_modifier = { 
+	name = woad_type
+	duration = -1  
+	desc = woad_type_tooltip
+}

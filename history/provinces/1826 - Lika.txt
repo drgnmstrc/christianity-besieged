@@ -1,8 +1,7 @@
 #1826 - Lika
 
-owner = Z21
-controller = Z21
-add_core = Z21
+owner = U17
+controller = U17
 add_core = U17
 culture = latinlerin
 religion = ashabi
@@ -29,3 +28,8 @@ discovered_by = eirun
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+1427.4.14 = {
+	owner = Z21
+	controller = Z21
+	add_core = Z21
+}

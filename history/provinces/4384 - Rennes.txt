@@ -9,7 +9,7 @@ religion = sol_invictus
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = cloth
+trade_goods = indigo
 base_manpower = 4
 add_core = H01
 discovered_by = western
@@ -17,3 +17,8 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = eirun
 discovered_by = scandinavian_tech
+add_permanent_province_modifier = { 
+	name = woad_type
+	duration = -1  
+	desc = woad_type_tooltip
+}

@@ -628,3 +628,48 @@ kxaiae_ideas = {
 		unjustified_demands = -0.1
 	}
 }
+
+norse_finnic_ideas = {
+	start = {
+		manpower_in_own_culture_provinces = 0.10
+		relation_with_same_culture_group = 25
+	}
+	bonus = {
+		yearly_absolutism = 0.1
+		manpower_in_own_culture_provinces = 0.05
+	}
+	trigger = {
+		OR = {
+			tag = N04
+			tag = N05
+			tag = N11
+		}
+	}
+	free = yes
+	kxaiae_bantu_origins = {
+		technology_cost = -0.05
+		governing_capacity = 50
+	}
+	kxaiae_insurgent_masters = {
+		monthly_reform_progress = 0.02
+	}
+	kxaiae_new_qanumi = {
+		idea_cost = -0.05
+		institution_spread_from_true_faith = 0.1
+	}
+	kxaiae_northern_kurudis = {
+		warscore_cost_vs_other_religion = -0.2
+		relation_with_same_religion = 5
+	}
+	kxaiae_language_standardization = {
+		culture_conversion_cost = -0.2
+		administrative_efficiency = 0.05
+	}
+	kxaiae_saadzahis_rulers = {
+		max_absolutism = 10
+	}
+	kxaiae_war_against_the_world = {
+		land_morale = 0.05
+		unjustified_demands = -0.1
+	}
+}

@@ -1,9 +1,9 @@
 #68 - Memmingen
 
-owner = G04
-controller = G04
-add_core = G04
-culture = gepidan
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = bavarian
 religion = germanic
 hre = yes
 base_tax = 5

@@ -1,8 +1,7 @@
 #137 - Ragusa
 
-owner = X07
-controller = X07
-add_core = X07
+owner = U17
+controller = U17
 culture = latinlerin
 religion = ashabi
 capital = "Ragusa"
@@ -25,3 +24,8 @@ discovered_by = eirun
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2
+1427.4.14 = {
+	owner = X07
+	controller = X07
+	add_core = X07
+}

@@ -1,0 +1,73 @@
+grischun_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = G27
+			was_tag = G27
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	grischun_campaign_preparations = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  } #None
+		position = 1
+		trigger = {
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
+		}
+		effect = { #This is what you get after you finished your mission.
+			1870 = { add_permanent_claim = G27 }
+			166 = { add_permanent_claim = G27 }
+		}
+	}
+
+	grischun_leventina_campaign = {
+		icon = mission_cossack_cavalry
+		required_missions = { grischun_campaign_preparations }
+		position = 2
+		trigger = {
+			war_with = G24
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_country_modifier = {
+				name = roman_enthusiasm
+				duration = 9125
+			}
+		}	
+	}
+	grischun_finish_conquest = {
+		icon = mission_have_two_subjects
+		required_missions = { grischun_leventina_campaign }
+		position = 3
+		trigger = {
+			owns = 166
+			owns = 1870
+		}
+		effect = { #This is what you get after you finished your mission.
+			add_core = 166
+			add_core = 1870
+			166 = {
+				change_culture = 1873
+				change_religion = 1873
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+			}
+			1870 = {
+				change_culture = 4722
+				change_religion = 4722
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
+			}
+			PAL = {
+				country_event = {
+					id = CBFlavorEvents.17
+				}
+			}
+		}	
+	}
+}

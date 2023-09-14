@@ -1,10 +1,9 @@
 # - Hradecko
 
-owner = SLO
-controller = SLO  
+owner = BOH
+controller = BOH
+add_core = BOH 
 religion = slavic
-add_core = SLO
-add_core = BOH
 capital = "Hradec Králové"
 culture = czech
 trade_goods = grain 

@@ -218,7 +218,7 @@ wl_personal_cult =
 	}
         sprite = 118
 	trigger = {}
-	effect = {}
+	effect = { country_event = walianitasEvents.20 }
 	removed_effect = {
                 add_ruler_modifier = {
                         name = wl_personal_cult_on_cd

@@ -114,4 +114,23 @@ country_decisions = {
         }
         ai_importance = 1
     }
+    personal_cult_assassination = {
+        major = yes
+        potential = {
+            has_personal_deity = wl_personal_cult
+        }
+        allow = {
+            num_of_rebel_armies = 1
+        }
+        effect = {
+            kill_ruler = yes
+            add_ruler_modifier = {
+                name = wl_personal_cult_on_cd
+                duration = -1
+            }
+            hidden_effect = {
+                country_event = { name = walianitasEvents.22 }
+            }
+        }
+    }
 }

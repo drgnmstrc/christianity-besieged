@@ -1,7 +1,7 @@
 #136 - Dalmatia
 
-owner = DAL
-controller = DAL
+owner = U17
+controller = U17
 culture = latinlerin
 religion = ashabi
 capital = "Zadar"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 5
 is_city = yes
 fort_15th = yes # Klis Fortress
-add_core = DAL
+add_core = U17
 discovered_by = nomad_group
 discovered_by = western
 discovered_by = eastern
@@ -21,3 +21,8 @@ discovered_by = ottoman
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1427.4.21 = {
+	owner = DAL
+	controller = DAL
+	add_core = DAL
+}

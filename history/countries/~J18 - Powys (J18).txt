@@ -1,7 +1,0 @@
-# No previous file for Powys (J18)
-government = tribal
-add_government_reform = tribal_kingdom
-technology_group = western
-primary_culture = welsh
-religion = druidism
-capital = 4366

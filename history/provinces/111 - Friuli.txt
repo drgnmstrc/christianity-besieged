@@ -3,6 +3,7 @@
 owner = U10
 controller = U10
 add_core = U10
+add_core = G06
 culture = aquilicus
 religion = procuveric
 add_core = H28

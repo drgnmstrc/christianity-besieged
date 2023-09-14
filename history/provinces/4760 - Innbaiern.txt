@@ -1,17 +1,17 @@
 #4760 - Innbaiern
 
-owner = V07
-controller = V07
-add_core = V07
-culture = slovene
-religion = slavic
+owner = G04
+controller = G04
+add_core = G04
+culture = gepidan
+religion = germanic
 base_tax = 3
 base_production = 3
 trade_goods = wine
 base_manpower = 2
 capital	= "Braunau am Inn" 
 is_city = yes
-hre = no
+hre = yes
 
 
 

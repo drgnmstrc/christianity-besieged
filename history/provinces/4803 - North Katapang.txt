@@ -20,7 +20,7 @@ discovered_by = ottoman
 	controller = SMB
 	add_core = SMB
 	is_city = yes
-	trade_goods = grain
+	trade_goods = rice
 }
 
 1521.1.1 = { discovered_by = POR }

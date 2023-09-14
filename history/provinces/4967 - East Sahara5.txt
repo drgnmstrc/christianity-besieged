@@ -3,7 +3,7 @@
 culture = siwi
 capital = "Siwa Oasis"
 religion = egyptian
-trade_goods = livestock
+trade_goods = camel
 hre = no
 base_tax = 1 
 base_production = 1

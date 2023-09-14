@@ -2,14 +2,14 @@
 
 owner = PAL
 controller = PAL 
-culture = swiss
-religion = ashabi
+culture = romansh
+religion = walianitas
 add_core = H19
 add_core = PAL
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = grain
+trade_goods = beer
 base_manpower = 3
 capital = "Novara"
 is_city = yes	# Estimated

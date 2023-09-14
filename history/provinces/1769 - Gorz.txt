@@ -1,13 +1,12 @@
 # 1769 - Görz
-owner = U10
-controller = U10
-add_core = U10
+owner = U06
+controller = U06
 culture = pannici
 religion = ashabi
-add_core = G06
+add_core = U06
 base_tax = 5 
 base_production = 5
-trade_goods = iron
+trade_goods = lead
 base_manpower = 2
 capital = "Gorizia"
 is_city = yes
@@ -22,3 +21,8 @@ discovered_by = ottoman
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1440.2.27 = {
+	owner = U10
+	controller = U10
+	add_core = U10
+}

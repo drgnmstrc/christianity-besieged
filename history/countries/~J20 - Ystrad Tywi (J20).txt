@@ -1,6 +1,0 @@
-government = tribal
-add_government_reform = stateless_society
-technology_group = western
-primary_culture = welsh
-religion = druidism
-capital = 241

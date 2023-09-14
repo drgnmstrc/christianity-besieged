@@ -1,7 +1,7 @@
 owner = R16
 controller = R16
 add_core = R16
-trade_goods = livestock
+trade_goods = elephants
 is_city = yes
 culture = julhoan
 capital = "Holoog"

@@ -1,9 +1,9 @@
 #4740 - Como
 
 owner = PAL
-controller = PAL 
-culture = swiss
-religion = ashabi
+controller = PAL
+culture = romansh
+religion = walianitas
 add_core = H19
 add_core = PAL
 hre = no

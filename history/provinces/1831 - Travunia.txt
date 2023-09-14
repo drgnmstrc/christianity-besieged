@@ -1,8 +1,7 @@
 #1831 - Travunia
 
-owner = X07
-controller = X07
-add_core = X07
+owner = U17
+controller = U17
 add_core = U17
 culture = latinlerin
 religion = ashabi
@@ -21,3 +20,8 @@ discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
 discovered_by = east_african
+1427.4.14 = {
+	owner = X07
+	controller = X07
+	add_core = X07
+}

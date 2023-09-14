@@ -1,6 +1,5 @@
-owner = X07
-controller = X07
-add_core = X07
+owner = X18
+controller = X18
 add_core = X18
 add_core = Z01
 culture = armani
@@ -23,3 +22,13 @@ discovered_by = nomad_group
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1436.2.14 = {
+	owner = Y21
+	controller = Y21
+	add_core = Y21
+}
+1438.6.12 = {
+	owner = X07
+	controller = X07
+	add_core = X07
+}

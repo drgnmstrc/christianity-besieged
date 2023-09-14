@@ -1,8 +1,7 @@
 #152 - Varazd
 
-owner = Z21
-controller = Z21
-add_core = Z21
+owner = U06
+controller = U06
 culture = pannici
 religion = manichaeism
 capital = "Varazdin"
@@ -21,3 +20,8 @@ discovered_by = near_east
 discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
+1440.2.27 = {
+	owner = Z21
+	controller = Z21
+	add_core = Z21
+}

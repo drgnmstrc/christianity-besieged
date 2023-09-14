@@ -1,0 +1,18 @@
+name = "Geyard Anti Piracy Offensive"
+war_goal = {
+	type = superiority
+	casus_belli = cb_border_war
+	province = 138
+}
+
+1426.2.9 = {
+	add_attacker = X17
+	add_attacker = Z21
+	add_defender = U17
+}
+
+1427.4.14 = {
+	rem_attacker = X17
+	rem_attacker = Z21
+	rem_defender = U17
+}

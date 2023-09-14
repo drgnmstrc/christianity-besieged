@@ -3,7 +3,7 @@
 culture = zenati
 capital = "Oasis"
 religion = sunni
-trade_goods = livestock
+trade_goods = camel
 hre = no
 base_tax = 1 
 base_production = 1

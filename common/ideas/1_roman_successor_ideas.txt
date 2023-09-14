@@ -1,7 +1,7 @@
 roman_successor_ideas = {
 	start = {
 		global_manpower_modifier = 0.15
-		discipline = 0.025
+		discipline = 0.05
 	}
 	bonus = {
 		governing_capacity = 150

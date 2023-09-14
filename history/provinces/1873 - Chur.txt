@@ -1,12 +1,12 @@
 #1873 - Chur
 
-owner = G04
-controller = G04
-add_core = G04
-culture = gepidan
-religion = germanic
+owner = G27
+controller = G27
+add_core = G27
+culture = romansh
+religion = walianitas
 capital = "Chur"
-trade_goods = livestock
+trade_goods = cheese
 hre = yes
 base_tax = 3 
 base_production = 3

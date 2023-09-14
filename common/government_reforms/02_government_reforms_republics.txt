@@ -47,7 +47,7 @@ east_roman_federation_reform = {
 	modifiers = {
 		defensiveness = 0.2
 		enemy_core_creation = 0.2
-		liberty_desire = -15
+		candidate_random_bonus = 2
 		max_absolutism = -50
 	}
 	custom_attributes = {

@@ -1,2 +1,0 @@
-discovered_by = sub_saharan
-discovered_by = east_african

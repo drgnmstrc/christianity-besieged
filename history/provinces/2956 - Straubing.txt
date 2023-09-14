@@ -1,9 +1,9 @@
 #64 - Straubing (includes Passau)
 
-owner = BAV
-controller = BAV
-add_core = BAV
-culture = bavarian
+owner = G04
+controller = G04
+add_core = G04
+culture = gepidan
 religion = germanic
 base_tax = 5 
 base_production = 5

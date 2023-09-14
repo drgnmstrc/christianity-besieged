@@ -1,0 +1,18 @@
+name = "Liberation of the Armani"
+war_goal = {
+	type = take_capital
+	casus_belli = cb_crusade
+	province = 1765
+}
+
+1436.3.14 = {
+	add_attacker = X07
+	add_attacker = NAX
+	add_defender = Y21
+}
+
+1438.6.12 = {
+	rem_attacker = X07
+	rem_attacker = NAX
+	rem_defender = Y21
+}

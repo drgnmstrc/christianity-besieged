@@ -460,7 +460,15 @@ wodan =
 	land_morale = 0.1
 	core_creation = -0.10
 	
-	potential = { religion = germanic }
+	potential = {
+		OR = {
+			religion = germanic
+			AND = {
+				religion = manichaeism
+				any_owned_province = { culture_group = germanic }
+			}
+		}
+	}
 	sprite = 32
 	trigger = {}
 	effect = {}

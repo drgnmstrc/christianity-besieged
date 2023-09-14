@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = near_east
+unit_type = eastern
+primary_culture = karakalpak
+add_accepted_culture = latinlerin
+religion = manichaeism
+capital = 1765

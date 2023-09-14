@@ -1,14 +1,14 @@
 #134 - Wien
 
-owner = SLO
-controller = SLO
-add_core = SLO
-culture = slovak
+owner = V07
+controller = V07
+add_core = V07
+culture = slovene
 religion = slavic
 hre = no
 base_tax = 5
 base_production = 5
-trade_goods = wine 
+trade_goods = champagne 
 base_manpower = 4
 fort_15th = yes #Vienna + Outer ring of fortifications
 capital = "Wien" 

@@ -12,7 +12,7 @@ discovered_by = andean
 
 religion = animism
 capital = "Coquimbo"
-trade_goods = grain
+trade_goods = potato
 hre = no
 base_tax = 2 
 base_production = 1

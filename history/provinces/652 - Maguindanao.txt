@@ -3,7 +3,7 @@
 culture = filipino
 religion = animism
 capital = "Maguindanao"
-trade_goods = spices
+trade_goods = nutmeg
 hre = no
 is_city = yes
 base_tax = 5

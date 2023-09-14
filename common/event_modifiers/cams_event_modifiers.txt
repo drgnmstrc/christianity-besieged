@@ -507,8 +507,12 @@ culling_manis_enemies = {
 }
 elected_in_power = {
 }
-znovuzaty_union = {
-	
+power_divided_amongst_cities = {
+	land_forcelimit_modifier = -0.25
+	reelection_cost = 1
+	liberty_desire = -35
+	move_capital_cost_modifier = -0.90
+	development_cost = -0.15
 }
 twilight_venetia_pompey = {
 	army_tradition = 0.5
@@ -756,4 +760,10 @@ mainland_christian_refugees = {
 roman_colonial_competition = {
 	global_ship_recruit_speed = -0.1
 	global_ship_cost = -0.1
+}
+tukholma_large_swedish_minority = {
+	local_unrest = 4
+	local_state_maintenance_modifier = 0.25
+	technology_cost = -0.025
+	embracement_cost = -0.025
 }

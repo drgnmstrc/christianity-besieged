@@ -1,13 +1,12 @@
 # 129 - Krain
-owner = Z21
-controller = Z21
-add_core = Z21
+owner = U06
+controller = U06
 add_core = U06
 culture = pannici
 religion = manichaeism
 base_tax = 5 
 base_production = 4
-trade_goods = livestock
+trade_goods = mercury
 base_manpower = 4
 capital = "Laibach"
 is_city = yes
@@ -25,3 +24,8 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
+1440.2.27 = {
+	owner = Z21
+	controller = Z21
+	add_core = Z21
+}

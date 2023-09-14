@@ -1,8 +1,8 @@
 #162 - Zemplén
 
-owner = V11
-controller = V11
-add_core = V11
+owner = SLO
+controller = SLO
+add_core = SLO
 culture = transylvanian
 religion = cisarstvo
 capital = "Casovia"

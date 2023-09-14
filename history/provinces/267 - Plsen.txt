@@ -1,12 +1,13 @@
 #267 - Plsen
 
-owner = BOH
-controller = BOH
+owner = G04
+controller = G04
+add_core = G04
 add_core = BOH
-capital = "Plzen"
 culture = czech
 religion = slavic
-trade_goods = naval_supplies
+capital = "Plzen"
+trade_goods = lumber
 hre = no
 base_tax = 5 
 base_production = 5

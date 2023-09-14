@@ -1,3 +1,5 @@
+namespace = walianitasEvents
+
 country_event = { #Glorious Sacrifice to Jupiter
 	id = walianitasEvents.0
 	is_triggered_only = yes
@@ -192,7 +194,7 @@ country_event = {
     is_triggered_only = yes
     option = {
         name = walianitasEvents.4a
-        legitimacy = 15
+        add_legitimacy = 15
     }
 }
 country_event = { #To the Seas
@@ -412,7 +414,7 @@ country_event = { #Call upon the clouds roll
                 set_country_flag = wl_clouds_bad
             }
         }
-        country_event = { id = walianitasEvents.18 }
+        country_event = { id = walianitasEvents.19 }
     }
 }
 country_event = { #The Call is Answered
@@ -510,5 +512,190 @@ country_event = { #The Call is Answered
             duration = 14
         }
         cl_country_flag = wl_clouds_bad
+    }
+}
+country_event = { #Personal Cult pulse A
+    id = walianitasEvents.20
+    hidden = yes
+    is_triggered_only = yes
+    option = {
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_8
+                NOT = { has_ruler_modifier = wl_tyranny_9 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_9
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.21
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_6
+                NOT = { has_ruler_modifier = wl_tyranny_7 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_7
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.21
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_4
+                NOT = { has_ruler_modifier = wl_tyranny_5 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_5
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.21
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_2
+                NOT = { has_ruler_modifier = wl_tyranny_3 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_3
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.21
+                days = 30
+                random = 1
+            }
+        }
+    }
+}
+country_event = { #Personal Cult pulse B
+    id = walianitasEvents.21
+    hidden = yes
+    is_triggered_only = yes
+    option = {
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_9
+                NOT = { has_ruler_modifier = wl_tyranny_10 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_10
+                duration = -1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_7
+                NOT = { has_ruler_modifier = wl_tyranny_8 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_8
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.20
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_5
+                NOT = { has_ruler_modifier = wl_tyranny_6 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_6
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.20
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_modifier = wl_tyranny_3
+                NOT = { has_ruler_modifier = wl_tyranny_4 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_4
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.20
+                days = 30
+                random = 1
+            }
+        }
+        if = {
+            limit = {
+                NOT = { has_ruler_modifier = wl_tyranny_2 }
+            }
+            add_ruler_modifier = {
+                name = wl_tyranny_2
+                duration = -1
+            }
+            country_event = { 
+                id = walianitasEvents.20
+                days = 30
+                random = 1
+            }
+        }
+    }
+}
+country_event = { #Second assassination roll
+    id = walianitasEvents.22
+    hidden = yes
+    is_triggered_only = yes
+    option = {
+        random = {
+            chance = 33
+            country_event = walianitasEvents.23
+        }
+    }
+}
+country_event = { #Another assassination!
+    id = walianitasEvents.23
+    title = walianitasEvents.23t
+    desc = walianitasEvents.23d
+    picture = SPY_eventPicture
+    is_triggered_only = yes
+    option = {
+        name = walianitasEvents.15a
+        kill_ruler = yes
+    }
+}
+country_event = { #Personal Cult trigger
+    id = walianitasEvents.24
+    hidden = yes
+    trigger = {
+        has_personal_deity = wl_personal_cult
+        NOT = { has_ruler_modifier = wl_tyranny_1 }
+    }
+    mean_time_to_happen = { days = 1 }
+    option = {
+        add_ruler_modifier = {
+            name = wl_tyranny_1
+            duration = -1
+        }
+        country_event = { 
+            id = walianitasEvents.21
+            days = 30
+            random = 1
+        }
     }
 }

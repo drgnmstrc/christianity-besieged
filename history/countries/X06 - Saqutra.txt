@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = saqutran
-religion = hindu
+religion = hinduism
 technology_group = near_east
 capital = 1099
 fixed_capital = 1099

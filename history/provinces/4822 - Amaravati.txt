@@ -13,7 +13,6 @@ add_core = CHA
 discovered_by = chinese
 discovered_by = indian
 discovered_by = near_east
-discovered_by = ottoman
 
 1535.1.1 = { discovered_by = POR }
 
