@@ -274,21 +274,6 @@ spriteTypes = {
 		name = "GFX_great_project_versailles"	
 		texturefile = "gfx//interface//great_projects//great_project_versailles.dds"
 	}
-
-### CB ###
-
-	spriteType = {
-		name = "GFX_great_project_library_of_baghdad"	
-		texturefile = "gfx//interface//great_projects//great_project_library_of_baghdad.dds"
-	}
-	spriteType = {
-		name = "GFX_great_project_third_temple_jerusalem"	
-		texturefile = "gfx//interface//great_projects//great_project_third_temple_jerusalem.dds"
-	}
-	spriteType = {
-		name = "GFX_great_project_st_peter_antioch"	
-		texturefile = "gfx//interface//great_projects//great_project_st_peter_antioch.dds"
-	}
 	
 ### CANALS ###
 
@@ -567,4 +552,153 @@ spriteTypes = {
 		texturefile = "gfx//interface//great_projects//great_project_zacatecas_mine_city.dds"
 	}
 
+	### 1.34 MONUMENTS
+
+	spriteType = {
+		name = "GFX_great_project_falun_copper_mine"	
+		texturefile = "gfx//interface//great_projects//great_project_falun_copper_mine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_kronborg"	
+		texturefile = "gfx//interface//great_projects//great_project_kronborg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_visby_city"	
+		texturefile = "gfx//interface//great_projects//great_project_visby_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_trakai_castle"	
+		texturefile = "gfx//interface//great_projects//great_project_trakai_castle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_salvador_da_bahia"	
+		texturefile = "gfx//interface//great_projects//great_project_salvador_da_bahia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_mbanza_kongo"	
+		texturefile = "gfx//interface//great_projects//great_project_mbanza_kongo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_harar_jugol"	
+		texturefile = "gfx//interface//great_projects//great_project_harar_jugol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_dujiangyan"	
+		texturefile = "gfx//interface//great_projects//great_project_dujiangyan.dds"
+	}
+
+	### DOMINATION  ####
+
+	spriteType = {
+		name = "GFX_great_project_aljaferia_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_aljaferia_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_divrigi_hospital_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_divrigi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_edinburgh_castle"	
+		texturefile = "gfx//interface//great_projects//great_project_Edinburgh.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_1"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_2"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_3"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_great_project_grand_canal_4"	
+		texturefile = "gfx//interface//great_projects//great_project_grand_canal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_imperial_city_kyoto"	
+		texturefile = "gfx//interface//great_projects//great_project_Kyoto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_palace_of_the_popes"	
+		texturefile = "gfx//interface//great_projects//great_project_PopePalace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_st_basil_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_StBasil_cathedral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_al_azhar_university"	
+		texturefile = "gfx//interface//great_projects//great_project_al_azhar_university.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_city_of_sanaa"	
+		texturefile = "gfx//interface//great_projects//great_project_city_of_sanaa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_golestan_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_golestan_palace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_itchan_kala"	
+		texturefile = "gfx//interface//great_projects//great_project_itchan_kala.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_kazan_kremlin"	
+		texturefile = "gfx//interface//great_projects//great_project_kazan_kremlin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_narikala_fortress"	
+		texturefile = "gfx//interface//great_projects//great_project_narikala_fortress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_nizwa_fort"	
+		texturefile = "gfx//interface//great_projects//great_project_nizwa_fort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_shah_rukn_e_alam_tomb"	
+		texturefile = "gfx//interface//great_projects//great_project_shah_rukn_e_alam_tomb.dds"
+	}
+
+
+### CB ###
+
+	spriteType = {
+		name = "GFX_great_project_library_of_baghdad"	
+		texturefile = "gfx//interface//great_projects//great_project_library_of_baghdad.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_third_temple_jerusalem"	
+		texturefile = "gfx//interface//great_projects//great_project_third_temple_jerusalem.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_st_peter_antioch"	
+		texturefile = "gfx//interface//great_projects//great_project_st_peter_antioch.dds"
+	}
 }

@@ -1,0 +1,21 @@
+#4371 - Sussex
+
+owner = B05
+controller = B05
+add_core = B05
+culture = breton
+religion = anglican
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+capital = "Hastings"
+is_city = yes
+add_core = B04
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = scandinavian_tech
+discovered_by = eirun
+add_core = H01

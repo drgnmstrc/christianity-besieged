@@ -19,6 +19,14 @@ on_startup = {
 			}
 		}
 	}
+	if = {
+		limit = { religion = druidism }
+		set_estate_privilege = estate_druids_land_consecration
+		set_estate_privilege = estate_druids_leading_sacred_rituals
+		set_estate_privilege = estate_druids_supremacy_of_court
+		set_estate_privilege = estate_druids_legal_immunity
+		set_estate_privilege = estate_druids_sacred_armies
+	}
 	emperor = {
 		save_global_event_target_as = Emperor
 	}
@@ -483,20 +491,7 @@ on_main_war_won = {
 # country
 # root = winning country, from = loser country
 on_separate_war_won = {
-	if = {
-		limit = {
-			ROOT = {
-				has_mission = swe_devastate_the_christians
-				NOT = { mission_completed = swe_devastate_the_christians }
-				religion = norse_pagan_reformed
-			}
-			FROM = { religion_group = christian }
-		}
-		change_variable = {
-			which = swe_won_wars_against_christians
-			value = 1
-		}
-	}
+
 }
 
 # country

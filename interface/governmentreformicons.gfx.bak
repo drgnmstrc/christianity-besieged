@@ -706,7 +706,7 @@ spriteTypes = {
 		name = "government_reform_kingdom_of_god"
 		texturefile = "gfx/interface/government_reform_icons/kingdom_of_god.dds"
 	}
-
+	
 	spriteType = {
 		name = "government_reform_siamese_absolutism"
 		texturefile = "gfx/interface/government_reform_icons/siamese_absolutism.dds"

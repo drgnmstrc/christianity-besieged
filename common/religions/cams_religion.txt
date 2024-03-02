@@ -825,6 +825,13 @@ hellenic = {
 	druidism = {
 		color = { 100 200 20 }
 		icon = 27
+		allowed_conversion = {
+			shiite
+			anglican
+			riothemism
+			norse_pagan_reformed
+			walianitas
+		}
 		province = {
 			local_missionary_strength = 0.01
 		}

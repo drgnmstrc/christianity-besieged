@@ -1,0 +1,22 @@
+owner = H28
+controller = H28
+culture = ilyicolone
+religion = silvani
+add_core = H28
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = fish
+base_manpower = 4
+capital = "Vikla" 
+is_city = yes
+add_local_autonomy = 65
+add_province_modifier = {
+	name = carnaro_village_privileges
+	duration = -1
+}
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+add_core = H40

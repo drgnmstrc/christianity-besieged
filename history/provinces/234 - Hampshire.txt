@@ -2,8 +2,8 @@
 
 owner = B05
 controller = B05
-culture = breton
-religion = anglican
+culture = saxeish
+religion = saxish
 hre = no
 base_tax = 5
 base_production = 4

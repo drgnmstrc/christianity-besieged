@@ -1,0 +1,25 @@
+<name> = {
+    # Whether the triggered modifier is visible in the Province view window
+    potential = {
+        <triggers>
+    }
+
+    # Whether the triggered modifier is active
+    trigger = {
+        <triggers>
+    }
+
+    # The modifier to apply when the triggered modifier is active
+    <modifiers>
+    
+    # Province scope
+    # Effects to execute when the triggered modifiers switches to active
+    on_activation = {
+    
+    }
+    
+    # Effects to execute when the triggered modifiers switches to inactive
+    on_deactivation = {
+    
+    } 
+}

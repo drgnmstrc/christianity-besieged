@@ -3,6 +3,62 @@
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
+georgian = {
+    rank = {
+        1 = SAMTAVRO
+        2 = SAMEPO
+        3 = IMPERIA
+    }
+
+    ruler_male = {
+        1 = MTAVARI
+        2 = MEPE
+        3 = IMPERATORI
+    }
+	
+    ruler_female = {
+        1 = MTAVARI
+        2 = MEPE
+        3 = IMPERATRITSA
+    }
+
+	consort_male = {
+        1 = MTAVARI
+        2 = MEPE
+        3 = IMPERATORI
+	}
+
+	consort_female = {
+        1 = MTAVARI
+        2 = DEDOPALI
+        3 = IMPERATRITSA
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = PRINTSI
+		3 = PRINTSI
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = PRINTSESA
+		3 = PRINTSESA
+	
+	}
+
+    trigger = {
+		OR = {
+			primary_culture = georgian
+			primary_culture = georgian_new
+		}
+		NOT = {
+			tag = SME
+		}
+		government = monarchy
+    }
+}
+
 stateless_society = {
 	rank = {
 		1 = STATELESS_SOCIETY
@@ -464,19 +520,22 @@ gov_admiralty = {
 	}
 	
 	ruler_male = {
-		1 = LORD_HIGH_ADMIRAL
+		1 = LORD_ADMIRAL
 		2 = LORD_HIGH_ADMIRAL
 		3 = SUPREME_ADMIRAL
 	}
 	
 	ruler_female = {
-		1 = LORD_HIGH_ADMIRAL_fem
+		1 = LORD_ADMIRAL_fem
 		2 = LORD_HIGH_ADMIRAL_fem
 		3 = SUPREME_ADMIRAL_fem
 	}
 	
 	trigger = {
-		has_reform = admiralty_reform
+		OR = {
+			has_reform = admiralty_regime_reform
+			has_reform = admiralty_reform
+		}
 	}
 }
 
@@ -543,7 +602,10 @@ military_dictatorship = {
 		3 = CAPTAIN_GENERAL_fem
 	}
 	trigger = {
-		has_reform = military_dictatorship_reform
+		OR = {
+			has_reform = military_dictatorship_reform
+			has_reform = military_rulership_reform
+		}
 	}
 }
 
@@ -567,7 +629,7 @@ greek_pirate_government = {
 	}
 
 	trigger = {
-		has_reform = pirate_republic_reform
+		has_government_attribute = is_pirate_republic_reform
 		NOT = { has_reform = pirate_king_reform }
 		primary_culture = greek
 	}
@@ -588,12 +650,7 @@ pirate_daimyo_government = {
 	
 	trigger = {
 		tag = SOO
-		OR = {
-			has_reform = pirate_republic_reform
-			has_reform = pirate_king_reform
-			has_reform = war_against_the_world_doctrine_reform
-			has_reform = black_market_consortium_reform
-		}
+		has_government_attribute = is_pirate_republic_reform
 		is_subject_of_type = daimyo_vassal
 	}
 }
@@ -618,8 +675,9 @@ pirate_government = {
 	}
 
 	trigger = {
-		has_reform = pirate_republic_reform
+		has_government_attribute = is_pirate_republic_reform
 		NOT = { has_reform = pirate_king_reform }
+		NOT = { primary_culture = greek }
 	}
 }
 
@@ -654,14 +712,14 @@ synthetic_nation = {
 		3 = SYNTH_GOV
 	}
 	ruler_male = {
-		1 = SYNTH_RULER
-		2 = SYNTH_RULER
-		3 = SYNTH_RULER
+		1 = SYNTH_RULER_MAIN_CONDUIT
+		2 = SYNTH_RULER_MAIN_CONDUIT
+		3 = SYNTH_RULER_MAIN_CONDUIT
 	}
 	ruler_female = {
-		1 = SYNTH_RULER_fem
-		2 = SYNTH_RULER_fem
-		3 = SYNTH_RULER_fem
+		1 = SYNTH_RULER_MAIN_CONDUIT_fem
+		2 = SYNTH_RULER_MAIN_CONDUIT_fem
+		3 = SYNTH_RULER_MAIN_CONDUIT_fem
 	}
 	trigger = {
 		tag = SYN
@@ -712,7 +770,13 @@ yuan_empire = {
 	}
 	
 	trigger = {
-		tag = YUA
+		OR = {
+			tag = YUA
+			AND = {
+				tag = OIR
+				has_reform = celestial_empire
+			}
+		}
 		government = monarchy
 	}
 }
@@ -856,8 +920,11 @@ ottoman_vassals = {
 		government = monarchy
 		religion_group = muslim
 		NOT = { is_march = yes }
+		is_subject_of_type = vassal
+		NOT = { has_reform = eyalet_government }
+		NOT = { has_reform = barbary_eyalet_government }
 		overlord = {
-			culture = italian_turk
+			primary_culture = italian_turk
 		}
 	}
 }
@@ -5656,5 +5723,93 @@ march_eastern_christian_monarchy = {
 			religion = orthodox
 		}
 		is_march = yes
+	}
+}
+
+gov_holy_horde = {
+	rank = {
+		1 = CRUSADER_ORDER
+		2 = CRUSADER_ORDER
+		3 = CRUSADER_EMPIRE
+	}
+
+	ruler_male = {
+		1 = CRUSADER
+		2 = GRAND_CRUSADER
+		3 = GRAND_CRUSADER
+	}
+
+	ruler_female = {
+		1 = CRUSADER_fem
+		2 = GRAND_CRUSADER_fem
+		3 = GRAND_CRUSADER_fem
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		OR = {
+			has_reform = holy_horde_reform
+			has_reform = crusading_kingdom_reform
+			has_reform = militarized_crusader_order_reform
+		}
+	}
+}
+
+gov_japanese_divine_empire = {
+	rank = {
+		1 = DIVINE_DUCHY
+		2 = DIVINE_KINGDOM
+		3 = DIVINE_EMPIRE
+	}
+
+	ruler_male = {
+		1 = GOD_EMPEROR
+		2 = GOD_EMPEROR
+		3 = GOD_EMPEROR
+	}
+
+	ruler_female = {
+		1 = GODDESS_EMPRESS
+		2 = GODDESS_EMPRESS
+		3 = GODDESS_EMPRESS
+	}
+	
+	heir_male = {
+		1 = OUJI
+		2 = OUJI
+		3 = OUJI
+	}
+
+	heir_female = {
+		1 = OUJO
+		2 = OUJO
+		3 = OUJO
+	}
+
+	consort_male = {
+		1 = KOSEI
+		2 = KOSEI
+		3 = KOSEI
+	}
+
+	consort_female = {
+		1 = KOGO
+		2 = KOGO
+		3 = KOGO
+	}
+
+	trigger = {
+		has_reform = japanese_divine_empire
 	}
 }
