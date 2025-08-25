@@ -15,4 +15,4 @@ is_city = yes
 add_core = CHA
 discovered_by = chinese
 discovered_by = indian
-discovered_by = near_east
+discovered_by = muslim

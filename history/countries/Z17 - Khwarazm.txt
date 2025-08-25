@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = turkmeni
 religion = manichaeism
-technology_group = near_east
+technology_group = muslim
 capital = 1973 #Urgench
 
 1444.1.1 = { 

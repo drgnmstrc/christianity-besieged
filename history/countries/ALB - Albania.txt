@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = udi
 religion = zoroastrian
-technology_group = near_east
+technology_group = muslim
 capital = 2202 # Lezhe
 
 # The League of Lezhe

@@ -1,6 +1,6 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
-primary_culture = venetian
+primary_culture = aquilicus
 religion = germanic
 technology_group = western
 capital = 111	# Friuli

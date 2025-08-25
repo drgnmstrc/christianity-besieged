@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = ottoman_government
 add_accepted_culture = nubian
-add_accepted_culture = amharan
+add_accepted_culture = amhara
 add_accepted_culture = tigray
 government_rank = 3
 primary_culture = jeberti

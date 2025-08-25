@@ -1,6 +1,6 @@
 name = "War of the Moravan Coalition"
 war_goal = {
-	type = take_capital
+	type = superiority_punitive
 	casus_belli = cb_super_badboy
 	province = 1765
 }

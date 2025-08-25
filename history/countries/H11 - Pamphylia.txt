@@ -3,7 +3,7 @@ add_government_reform = greek_tyranny_reform
 government_rank = 1
 primary_culture = pamphylii
 religion = payidotheos
-technology_group = near_east
+technology_group = muslim
 capital = 5040
 
 1444.11.1 = {

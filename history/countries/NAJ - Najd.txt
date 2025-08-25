@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_federation
-technology_group = near_east
+technology_group = muslim
 primary_culture = bedouin_arabic
 religion = sunni
 capital = 392 # Deraiyah

@@ -12,5 +12,5 @@ base_manpower = 1
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
-discovered_by = eirun
-discovered_by = saharan
+discovered_by = western
+discovered_by = muslim

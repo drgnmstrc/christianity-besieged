@@ -22,6 +22,9 @@ government_rank = 1
 		name = "Gilswinda"
 		dynasty = "D'Arras"
 		birth_date = 1379.5.24
+		adm = 3
+		dip = 1
+		mil = 2
 	}
 	heir = {
 		name = "Fedde"

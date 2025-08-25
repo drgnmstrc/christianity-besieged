@@ -17,4 +17,4 @@ base_manpower = 2
 add_core = R50
 
 discovered_by = central_african
-discovered_by = south_african
+discovered_by = sub_saharan

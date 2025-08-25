@@ -68,7 +68,7 @@
 3108 = "Khab"
 3109 = "Budyufitsh"
 3110 = "Haradts Kralufh"
-3111 - "Bubrad"
+3111 = "Bubrad"
 #Switzerland
 165 = "Birn"
 166 = "Lusirn"
@@ -1947,7 +1947,7 @@
 495 = "Antijuu"
 496 = "Ghwadylub"
 497 = "Al Ahad"
-498 = "Jazirat Al Iighwana"ihar
+498 = "Jazirat Al Iighwana" # ihar
 499 = "Jazirat Hylyn"
 500 = "Jazirat Al Kubriat"
 501 = "Barbadus"

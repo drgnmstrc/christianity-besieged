@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = sindhi
 add_accepted_culture = baluchi
 religion = manichaeism
-technology_group = near_east
+technology_group = muslim
 capital = 504 #Thatta
 
 1444.1.1 = {

@@ -1,13 +1,13 @@
-dependency = {
-	subject_type = "norse_tribute"
-	first = N01
-	second = N20
-	start_date = 1433.12.12
-	end_date = 1497.12.31
-}
-alliance = {
-	first = HJO
-	second = TKD
-	start_date = 1434.1.1
-	end_date = 1568.1.1
-}
+# dependency = {
+# 	subject_type = "norse_tribute"
+# 	first = N01
+# 	second = N20
+# 	start_date = 1433.12.12
+# 	end_date = 1497.12.31
+# }
+# alliance = {
+# 	first = HJO
+# 	second = TKD
+# 	start_date = 1434.1.1
+# 	end_date = 1568.1.1
+# }

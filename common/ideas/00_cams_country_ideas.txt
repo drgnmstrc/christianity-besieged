@@ -380,8 +380,8 @@ venetian_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 	}
 	free = yes
@@ -444,7 +444,7 @@ pontic_ideas = {
 		diplomatic_reputation = 1
 		diplomats = 1
 	}
-	the_lessons_of_the_cappadocian_wars = {
+	the_lessons_of_the_kappadokes_wars = {
 		land_morale = 0.1
 		reinforce_speed = 0.15
 	}
@@ -1218,7 +1218,7 @@ kasrashi_ideas = {
 	}
 	kasra_great_bounties = {
 		treasure_fleet_income = 0.1
-		global_tarrifs = 0.1
+		global_tariffs = 0.1
 	}
 	kasra_every_soldier_a_king = {
 		nobles_loyalty_modifier = 0.1	

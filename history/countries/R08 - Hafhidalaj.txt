@@ -3,7 +3,7 @@ add_government_reform = berber_tribe
 government_rank = 1
 primary_culture = imraguen
 religion = sunni
-technology_group = saharan
+technology_group = muslim
 capital = 1111
 religious_school = hanbali_school
 

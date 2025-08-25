@@ -17,4 +17,4 @@ add_core = BEI
 
 discovered_by = chinese
 discovered_by = indian
-discovered_by = near_east
+discovered_by = muslim

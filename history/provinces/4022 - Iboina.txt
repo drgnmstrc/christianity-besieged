@@ -15,4 +15,4 @@ base_manpower = 1
 is_city = yes
 add_local_autonomy = 20
 discovered_by = east_african
-discovered_by = south_african
+discovered_by = sub_saharan

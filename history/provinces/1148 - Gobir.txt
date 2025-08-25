@@ -16,7 +16,7 @@ base_production = 3
 
 
 discovered_by = sub_saharan
-discovered_by = saharan
+discovered_by = muslim
 
 
 1514.1.1 = { owner = SON controller = SON add_core = SON } #Askiya Muhammad of Songhai seizes control 

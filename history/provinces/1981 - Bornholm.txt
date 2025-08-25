@@ -1,0 +1,20 @@
+#Bornholm
+
+owner = N03
+controller = N03
+add_core = N03
+culture = heruli
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = seafood
+base_manpower = 1
+capital = "Ronne"
+is_city = yes
+#estate = estate_church
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = western

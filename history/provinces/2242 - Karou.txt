@@ -15,7 +15,7 @@ base_manpower = 1
 
 
 discovered_by = sub_saharan
-discovered_by = saharan
+discovered_by = muslim
 
 1464.1.1 = { discovered_by = POR } 
 

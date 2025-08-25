@@ -17,4 +17,4 @@ native_hostileness = 9
 
 
 discovered_by = sub_saharan
-discovered_by = saharan
+discovered_by = muslim

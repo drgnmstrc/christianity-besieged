@@ -13,7 +13,7 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 discovered_by = central_african
-discovered_by = south_african
+discovered_by = sub_saharan
 
 1750.1.1 = { #Bugesera divided between Rwanda and Burundi
 	owner = BUU

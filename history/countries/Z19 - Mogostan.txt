@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 primary_culture = persian
 add_accepted_culture = kermani
 religion = manichaeism
-technology_group = near_east
+technology_group = muslim
 capital = 431 #Mogostan
 fixed_capital = 431
 

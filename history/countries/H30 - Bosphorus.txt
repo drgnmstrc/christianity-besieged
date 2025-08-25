@@ -3,7 +3,7 @@ add_government_reform = greek_tyranny_reform
 primary_culture = pondii
 add_accepted_culture = hungarian
 religion = hellenism
-technology_group = near_east
+technology_group = muslim
 capital = 285
 government_rank = 1
 

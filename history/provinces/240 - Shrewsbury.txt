@@ -18,5 +18,5 @@ fort_15th = yes
 discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern
-discovered_by = scandinavian_tech
-discovered_by = eirun
+discovered_by = western
+discovered_by = western

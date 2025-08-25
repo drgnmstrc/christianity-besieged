@@ -2,8 +2,8 @@
 
 owner = B05
 controller = B05
-culture = breton
-religion = anglican
+culture = saxeish
+religion = saxish
 hre = no
 base_tax = 5
 base_production = 4
@@ -16,7 +16,7 @@ add_core = B05
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
-discovered_by = eirun
-discovered_by = scandinavian_tech
+discovered_by = western
+discovered_by = western
 add_core = H01
 add_core = N32

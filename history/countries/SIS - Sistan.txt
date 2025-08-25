@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 primary_culture = bactrian
 religion = manichaeism
 government_rank = 1
-technology_group = near_east
+technology_group = muslim
 capital = 435	# Zaranj
 
 #Mihrabanids

@@ -1,3 +1,3 @@
 
 discovered_by = east_african
-discovered_by = south_african
+discovered_by = sub_saharan

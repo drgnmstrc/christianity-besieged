@@ -1,6 +1,6 @@
 name = "Liberation of the Armani"
 war_goal = {
-	type = take_capital
+	type = superiority_crusade
 	casus_belli = cb_crusade
 	province = 1765
 }

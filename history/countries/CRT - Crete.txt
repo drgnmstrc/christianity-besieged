@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = greek_tyranny_reform
 government_rank = 1
-technology_group = near_east
+technology_group = muslim
 unit_type = eastern
 primary_culture = avandaloi
 religion = payidotheos

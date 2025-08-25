@@ -1,6 +1,6 @@
 name = "Geyard Anti Piracy Offensive"
 war_goal = {
-	type = superiority
+	type = take_border
 	casus_belli = cb_border_war
 	province = 138
 }

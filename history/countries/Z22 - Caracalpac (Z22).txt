@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = near_east
+technology_group = muslim
 unit_type = eastern
 primary_culture = karakalpak
 add_accepted_culture = latinlerin

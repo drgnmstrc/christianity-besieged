@@ -4,7 +4,7 @@ owner = R58
 controller = R58
 add_core = R58
 culture = mekelti
-religion = hussite
+religion = rabbinic
 trade_goods = grain
 hre = no
 base_tax = 4
@@ -12,5 +12,5 @@ base_production = 4
 base_manpower = 3
 
 discovered_by = central_african
-discovered_by = south_african
+discovered_by = sub_saharan
 capital = "Curea"

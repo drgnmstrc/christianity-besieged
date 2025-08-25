@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = vestes
 add_accepted_culture = gallien
 religion = germanic
-technology_group = eastern
+technology_group = ottoman
 capital = 174
 add_army_professionalism = 0.1
 

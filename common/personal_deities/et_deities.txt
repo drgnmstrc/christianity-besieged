@@ -161,7 +161,7 @@ perun =
 			factor = 0
 			NOT = {
 				any_owned_province = {
-					has_terrain = mountains
+					has_terrain = mountain
 				}
 			}
 		}

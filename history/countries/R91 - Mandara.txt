@@ -3,7 +3,7 @@ add_government_reform = berber_tribe
 government_rank = 1
 primary_culture = mandara
 religion = sunni
-technology_group = saharan
+technology_group = muslim
 capital = 5123
 
 1440.1.1 = {

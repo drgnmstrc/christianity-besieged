@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = romanian
 religion = manichaeism
-technology_group = near_east
+technology_group = muslim
 capital = 161 # Tîrgoviste
 
 

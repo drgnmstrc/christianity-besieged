@@ -68,7 +68,7 @@
 3108 = "Khab"
 3109 = "Budyufitsh"
 3110 = "Haradts Kralufh"
-3111 - "Bubrad"
+3111 = "Bubrad"
 #Switzerland
 165 = "Birn"
 166 = "Lusirn"

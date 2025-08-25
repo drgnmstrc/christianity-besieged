@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = gallien
 add_accepted_culture = cosmopolitan_french
 religion = germanic
-technology_group = eastern
+technology_group = ottoman
 capital = 179
 add_army_professionalism = 0.1
 

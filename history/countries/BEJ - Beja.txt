@@ -2,7 +2,7 @@
 #Conglomorates like the Bannu Amir.
 government = tribal
 add_government_reform = berber_tribe
-technology_group = saharan
+technology_group = muslim
 unit_type = sub_saharan
 religion = ibadi
 primary_culture = beja

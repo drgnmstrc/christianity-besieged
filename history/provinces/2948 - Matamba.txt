@@ -19,4 +19,4 @@ add_province_modifier = {
 }
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = south_african
+discovered_by = sub_saharan

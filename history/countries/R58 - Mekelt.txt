@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = mekelti
-religion = hussite
+religion = rabbinic
 technology_group = central_african
 unit_type = sub_saharan
 capital = 4059

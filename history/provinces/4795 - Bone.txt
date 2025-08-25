@@ -12,7 +12,7 @@ is_city = yes
 add_core = BNE
 discovered_by = chinese
 discovered_by = indian
-discovered_by = near_east
+discovered_by = muslim
 
 1511.1.1 = { discovered_by = POR }
 

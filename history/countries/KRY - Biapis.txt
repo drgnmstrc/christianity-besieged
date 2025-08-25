@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 religion = manichaeism
 mercantilism = 25
 primary_culture = gilaki
-technology_group = near_east
+technology_group = muslim
 capital = 417 # Lahijan
 
 1430.1.1 = {

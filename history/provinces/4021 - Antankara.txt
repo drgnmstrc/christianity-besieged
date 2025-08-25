@@ -15,4 +15,4 @@ base_manpower = 1
 is_city = yes
 add_local_autonomy = 40 #Ruled by independent chiefs
 discovered_by = east_african
-discovered_by = south_african
+discovered_by = sub_saharan

@@ -69,7 +69,7 @@ shura_iskandaria = {
 	}
 
 	trigger = {
-		has_reform = iskandaria_council_reform
+		has_reform = council_iskandaria_reform
 	}
 }
 

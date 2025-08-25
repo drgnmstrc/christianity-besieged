@@ -16,4 +16,4 @@ controller = R76
 add_core = R76
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = saharan
+discovered_by = muslim

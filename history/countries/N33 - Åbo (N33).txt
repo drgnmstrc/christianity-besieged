@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = swedish
 religion = norse_pagan_reformed
-technology_group = scandinavian_tech
+technology_group = western
 capital = 27
 government_rank = 1
 

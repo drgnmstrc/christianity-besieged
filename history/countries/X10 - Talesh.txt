@@ -4,7 +4,7 @@ add_government_reform = autocracy_reform
 religion = manichaeism
 mercantilism = 25
 primary_culture = taleshi
-technology_group = near_east
+technology_group = muslim
 capital = 4340
 government_rank = 1
 

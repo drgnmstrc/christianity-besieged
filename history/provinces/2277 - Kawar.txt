@@ -21,7 +21,7 @@ base_manpower = 1
 
 discovered_by = sub_saharan
 discovered_by = east_african
-discovered_by = saharan
+discovered_by = muslim
 
 1444.1.1 = { add_core = KBO }
 1590.1.1 = {

@@ -14,10 +14,10 @@ hre = no
 base_tax = 1 
 base_production = 1
 discovered_by = east_african
-discovered_by = near_east
+discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
-discovered_by = saharan
+discovered_by = muslim
 
 
 1473.1.1 = { unrest = 5 } # Raids by Bayda Maryam into Adal to enforce fealty

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = andalucian
+primary_culture = andalusi
 religion = ashabi
 technology_group = ottoman
 capital = 147

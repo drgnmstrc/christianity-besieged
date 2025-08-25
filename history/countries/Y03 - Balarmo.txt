@@ -1,6 +1,6 @@
 government = theocracy
 add_government_reform = muftate_reform
-primary_culture = sicilian
+primary_culture = ifri
 add_accepted_culture = neapolitan
 add_accepted_culture = mutawasiti
 religion = ashabi

@@ -390,7 +390,7 @@
 4246 = "Szenkursk"
 4276 = "Stary Perm"
 
-New world colony names:
+# New world colony names:
 
 481	= "	Bermudy	"	#NWCN
 482	= "	Bahamy	"	#NWCN

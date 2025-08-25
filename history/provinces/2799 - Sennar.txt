@@ -14,9 +14,9 @@ base_production = 1
 hre = no
 
 discovered_by = east_african
-discovered_by = near_east
+discovered_by = muslim
 discovered_by = ottoman
-discovered_by = saharan
+discovered_by = muslim
 
 
 1503.1.1 = {

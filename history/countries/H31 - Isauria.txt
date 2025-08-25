@@ -3,7 +3,7 @@ add_government_reform = luwian_tyranny
 government_rank = 2
 primary_culture = isaurian
 religion = hypturism
-technology_group = near_east
+technology_group = muslim
 capital = 323
 
 1444.1.1 = {

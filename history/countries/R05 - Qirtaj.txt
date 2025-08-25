@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = iqta_council_reform
 primary_culture = mutawasiti
-add_accepted_culture = sicilian
+add_accepted_culture = ifri
 religion = ashabi
 technology_group = ottoman
 capital = 2455

@@ -1,1 +1,0 @@
-1260.5.5 = { celestial_emperor = YUA }

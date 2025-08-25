@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = hebrew
-religion = hussite
-technology_group = near_east
+primary_culture = ivrit
+religion = rabbinic
+technology_group = muslim
 capital = 379
 historical_friend = ETH
 1444.1.1 = {

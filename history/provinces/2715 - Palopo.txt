@@ -14,7 +14,7 @@ is_city = yes
 add_core = LUW
 
 discovered_by = indian
-discovered_by = near_east
+discovered_by = muslim
 
 1511.1.1 = { discovered_by = POR }
 

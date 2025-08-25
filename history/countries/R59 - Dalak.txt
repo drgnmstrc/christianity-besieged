@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = hebrew
-religion = hussite
+primary_culture = ivrit
+religion = rabbinic
 technology_group = eastern
 capital = 4884
 1444.1.1 = {

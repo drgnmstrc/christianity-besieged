@@ -3,7 +3,7 @@ add_government_reform = berber_tribe
 government_rank = 1
 primary_culture = idaksahak
 religion = karaite
-technology_group = saharan
+technology_group = muslim
 capital = 4949
 
 1444.1.1 = {

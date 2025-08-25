@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = samisk
 religion = norse_pagan_reformed
-technology_group = scandinavian_tech
+technology_group = western
 capital = 4113
 
 1440.4.9 = {

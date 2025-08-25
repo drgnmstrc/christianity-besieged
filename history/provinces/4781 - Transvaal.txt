@@ -1,6 +1,6 @@
 #9000 - Transvaal
 discovered_by = central_african
-discovered_by = south_african
+discovered_by = sub_saharan
 owner = R52
 controller = R52
 add_core = R52

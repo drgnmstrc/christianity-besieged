@@ -16,11 +16,11 @@ is_city = yes
 center_of_trade = 2
 extra_cost = 16
 
-discovered_by = near_east
+discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
-discovered_by = saharan
+discovered_by = muslim
 discovered_by = east_african
-discovered_by = scandinavian_tech
-discovered_by = eirun
+discovered_by = western
+discovered_by = western

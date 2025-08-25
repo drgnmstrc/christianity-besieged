@@ -1,7 +1,7 @@
 #1177 - Cape
 discovered_by = central_african
 discovered_by = east_african
-discovered_by = south_african
+discovered_by = sub_saharan
 owner = R37
 controller = R37
 add_core = R37

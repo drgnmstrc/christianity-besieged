@@ -1,8 +1,8 @@
 government = theocracy
 add_government_reform = syriac_church_reform
-primary_culture = old_aramaic
+primary_culture = aramaic
 religion = syriac
-technology_group = near_east
+technology_group = muslim
 capital = 2313
 government_rank = 1
 1444.1.1 = {

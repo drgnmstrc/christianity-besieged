@@ -3,7 +3,7 @@ add_government_reform = greek_democracy_reform
 government_rank = 2
 primary_culture = iones
 religion = hellenic_orthodox
-technology_group = near_east
+technology_group = muslim
 unit_type = eastern
 capital = 3003
 
