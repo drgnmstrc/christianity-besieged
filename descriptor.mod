@@ -17,5 +17,5 @@ tags={
 	"Trade"
 }
 name="Christianity Besieged 1444"
-supported_version="1.30.4"
+supported_version="1.37.5"
 remote_file_id="1974407665"
