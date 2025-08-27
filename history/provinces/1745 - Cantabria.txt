@@ -1,9 +1,9 @@
 #1745 - Cantabria
 
-owner = G02
-controller = G02
-add_core = G02
-add_core = J01
+owner = AGU
+controller = AGU
+add_core = AGU
+add_core = CNT
 culture = cantabrian
 religion = liritism
 hre = no

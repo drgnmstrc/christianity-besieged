@@ -118,8 +118,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J01
-							tag = J02
+							tag = CNT
+							tag = ASU
 						}
 					}
 					set_country_flag = north_iberian_union
@@ -127,8 +127,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J03
-							tag = LON
+							tag = VCC
+							tag = LUS
 						}
 					}
 					set_country_flag = central_iberian_union
@@ -136,15 +136,15 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J04
-							tag = J05
+							tag = VTT
+							tag = TRD
 						}
 					}
 					set_country_flag = south_iberian_union
 				}
 				if = {
 					limit = {
-						tag = J08
+						tag = INT
 					}
 					set_country_flag = intercacia_iberian_union
 					change_government = monarchy

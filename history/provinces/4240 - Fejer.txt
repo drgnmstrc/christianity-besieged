@@ -1,8 +1,8 @@
 #4240 - Fejér (Fejér + Veszprém + Györ + parts of Komárom)
 
-owner = SLO
-controller = SLO
-add_core = SLO
+owner = MVA
+controller = MVA
+add_core = MVA
 culture = serbian
 religion = slavic
 capital = "Fehérvár"

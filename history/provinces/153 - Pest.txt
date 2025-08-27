@@ -1,8 +1,8 @@
 #153 - Pest (Pest + Pilis + Esztergom + Kalocsa + most of Kiskunság + Parts of Nógrád )
 
-owner = SLO
-controller = SLO
-add_core = SLO
+owner = MVA
+controller = MVA
+add_core = MVA
 culture = serbian
 add_core = SER
 religion = slavic

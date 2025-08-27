@@ -7,11 +7,11 @@ bookmark =
 	default = yes
 	country = B08
 	country = GAL
-	country = B01
+	country = LOT
 	country = B06
 	country = B04
 	country = H29
-	country = J08
+	country = INT
 	easy_country = B08
 	easy_country = GAL
 }

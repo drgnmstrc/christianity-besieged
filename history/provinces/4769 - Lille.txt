@@ -1,8 +1,8 @@
 # 4769 - Lille, meant to represent Waals Vlaanderen. Principal cities: Lille, Douai, Orchies
 
-owner = B01
-controller = B01
-add_core = B01
+owner = LOT
+controller = LOT
+add_core = LOT
 culture = lotharingian
 religion = anglican
 is_city = yes

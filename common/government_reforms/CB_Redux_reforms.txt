@@ -26,8 +26,8 @@ moravian_empire_reform = { # I
 	icon = "castle"
 	potential = {
 		OR = {
-			tag = SLO
-			was_tag = SLO
+			tag = MVA
+			was_tag = MVA
 			has_reform = moravian_empire_reform
 			have_had_reform = moravian_empire_reform
 		}
@@ -404,8 +404,8 @@ county_of_bretono = { # I
 	icon = "castle"
 	potential = {
 		OR = {
-			tag = H44
-			was_tag = H44
+			tag = BRO
+			was_tag = BRO
 			has_reform = county_of_bretono
 			have_had_reform = county_of_bretono
 		}
@@ -1062,7 +1062,7 @@ qhaanue_reform = { # I - Qhaanue Administration
 
 intercacia_reform = { # I
 	potential = {
-		tag = J08
+		tag = INT
 		religion = liritism
 	}
 	allow_normal_conversion = yes

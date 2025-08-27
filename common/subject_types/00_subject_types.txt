@@ -1605,6 +1605,10 @@ locus_conventus = {
 	subject_opinion_modifier = is_vassal
 }
 
+voivode = {
+	copy_from = appanage
+}
+
 dummy =
 {
 	copy_from = default

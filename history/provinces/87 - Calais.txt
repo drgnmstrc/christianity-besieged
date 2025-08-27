@@ -1,7 +1,7 @@
 # 87 Calais - Principal cities: Calais
 
-owner = B01
-controller = B01 
+owner = LOT
+controller = LOT 
 capital = "Lothara"
 culture = lotharingian
 religion = anglican
@@ -10,7 +10,7 @@ base_tax = 6
 base_production = 5
 trade_goods = seafood
 base_manpower = 4
-add_core = B01
+add_core = LOT
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

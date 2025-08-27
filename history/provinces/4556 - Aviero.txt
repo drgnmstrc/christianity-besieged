@@ -1,7 +1,7 @@
 #Aviero
 
-owner = J05
-controller = J05
+owner = TRD
+controller = TRD
 culture = turdulian
 religion = liritism
 capital = "Aveiro"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = J05
+add_core = TRD
 1444.11.11 = { unrest = 5 }
 
 discovered_by = western

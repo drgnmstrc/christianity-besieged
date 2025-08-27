@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = B01
-controller = B01
-add_core = B01
+owner = LOT
+controller = LOT
+add_core = LOT
 capital = "Cambray"
 is_city = yes
 #estate = estate_church

@@ -4219,9 +4219,9 @@ country_event = {
 		reduce_estate_church_loyalty_effect = yes
 		if = {
 			limit = {
-				exists = J08
+				exists = INT
 			}
-			J08 = {
+			INT = {
 				add_opinion = {
 					who = root
 					modifier = opinion_heretical_philosopher

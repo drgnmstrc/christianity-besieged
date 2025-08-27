@@ -1,7 +1,7 @@
 #4236 - Trencin
 
-owner = SLO
-controller = SLO  
+owner = MVA
+controller = MVA  
 culture = slovak
 religion = cisarstvo
 capital = "Trencin"
@@ -13,7 +13,7 @@ base_manpower = 3
 is_city = yes
 #estate = estate_nobles
 fort_15th = yes #Trencin Castle
-add_core = SLO
+add_core = MVA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

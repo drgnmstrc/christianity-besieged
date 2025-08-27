@@ -57,7 +57,7 @@ pru_base_sprite_pack = {
 por_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = J05
+		tag = TRD
 	}
 
 	sprite_infantry = {

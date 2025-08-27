@@ -1,8 +1,8 @@
 #1953 - Szabolcs
 
-owner = SLO
-controller = SLO
-add_core = SLO
+owner = MVA
+controller = MVA
+add_core = MVA
 culture = serbian
 add_core = SER
 religion = slavic

@@ -1,9 +1,9 @@
 #4787 - Ribatejo
 
-owner = R04
-controller = R04
-add_core = R04
-add_core = J05
+owner = KSR
+controller = KSR
+add_core = KSR
+add_core = TRD
 culture = turdulian
 religion = shiite
 capital = "Santarém"

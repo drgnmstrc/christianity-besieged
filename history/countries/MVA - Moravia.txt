@@ -1,7 +1,35 @@
 government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = slovak
-religion = slavic
-government_rank = 1
-capital = 4237 # Olomouc
-technology_group = western
+add_government_reform = moravian_empire_reform
+primary_culture = moravian
+add_accepted_culture = slavo_romanian
+religion = cisarstvo
+technology_group = ottoman
+capital = 265
+government_rank = 3
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+1444.10.1 = {
+	set_estate_privilege = estate_nobles_french_strong_duchies
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Svatopluc X"
+		dynasty = "Mojmir"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

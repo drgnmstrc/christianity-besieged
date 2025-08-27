@@ -371,7 +371,7 @@ renaissance = {
 				}
 				OR = {
 					owner = {
-						NOT = { tag = SLO }
+						NOT = { tag = MVA }
 						num_of_cities = 28
 					}
 					

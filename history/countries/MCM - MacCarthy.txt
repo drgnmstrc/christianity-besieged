@@ -12,7 +12,7 @@ religion = shiite
 technology_group = muslim
 capital = 4378
 # Specific Effects #
-historical_friend = R04
+historical_friend = KSR
 religious_school = jafari_school
 
 1428.1.1 = {

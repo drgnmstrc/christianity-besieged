@@ -12,6 +12,6 @@ bookmark =
 	country = A05
 	country = A03
 	easy_country = N01
-	easy_country = SLO
+	easy_country = MVA
 	easy_country = A02
 }

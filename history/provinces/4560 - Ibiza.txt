@@ -1,8 +1,8 @@
 #Ibiza
 
-owner = Y02
-controller = Y02
-add_core = Y02
+owner = MRS
+controller = MRS
+add_core = MRS
 add_core = MJO
 culture = mutawasiti
 religion = ashabi

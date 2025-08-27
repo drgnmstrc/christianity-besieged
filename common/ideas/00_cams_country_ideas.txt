@@ -256,7 +256,7 @@ great_moravian_ideas = {
 		years_of_nationalism = -5
 	}
 	trigger = {
-		tag = SLO
+		tag = MVA
 	}
 	free = yes
 	incorporating_carpathians = {
@@ -507,7 +507,7 @@ aghustid_ideas = {
 		yearly_army_professionalism = 0.01
 	}
 	trigger = {
-		tag = G02
+		tag = AGU
 	}
 	free = yes
 	renaissance_of_aybirea = {
@@ -1194,7 +1194,7 @@ kasrashi_ideas = {
 		dip_advisor_cost = -0.05
 	}
 	trigger = {
-		tag = R04
+		tag = KSR
 	}
 	free = yes
 	kasra_eirun_friendship = {

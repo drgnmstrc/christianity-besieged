@@ -1,10 +1,9 @@
 government = monarchy
-add_government_reform = moravian_empire_reform
 primary_culture = slovak
 add_accepted_culture = slavo_romanian
 religion = cisarstvo
 technology_group = ottoman
-capital = 265
+capital = 1772
 government_rank = 3
 
 change_estate_land_share = {

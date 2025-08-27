@@ -398,7 +398,7 @@ ai_colonialist = {
 		modifier = {
 			factor = 3
 			OR = {
-				tag = LON
+				tag = LUS
 				tag = Y01
 				tag = F01
 				tag = GAL
@@ -409,7 +409,7 @@ ai_colonialist = {
 			factor = 2
 			OR = {
 				tag = H01
-				tag = G02
+				tag = AGU
 			}
 		}
 		modifier = {

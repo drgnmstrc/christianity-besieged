@@ -784,7 +784,7 @@ roman_voivodes = {
 	trigger = {
 		tag = V11
 		overlord = {
-			tag = SLO
+			tag = MVA
 		}
 	}
 }

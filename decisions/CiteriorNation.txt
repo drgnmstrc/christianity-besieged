@@ -50,7 +50,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = J07 }
+			NOT = { exists = MAM }
 			NOT = { exists = J12 }
 			is_nomad = no
 			is_free_or_tributary_trigger = yes

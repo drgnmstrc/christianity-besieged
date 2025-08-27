@@ -13,17 +13,17 @@ country_event = { #Surge of Refugees
 		}
 		OR = {
 			NOT = {
-				exists = B01
+				exists = LOT
 				exists = B08
 			}
 			NOT = {
 				exists = GAL
-				exists = J05
-				exists = LON
-				exists = J01
-				exists = J08
-				exists = J03
-				exists = J02
+				exists = TRD
+				exists = LUS
+				exists = CNT
+				exists = INT
+				exists = VCC
+				exists = ASU
 			}
 		}
 		NOT = {

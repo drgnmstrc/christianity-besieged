@@ -1,8 +1,8 @@
 #229 - Baixo Alentejo
 
-owner = J09
-controller = J09
-add_core = J09
+owner = CRD
+controller = CRD
+add_core = CRD
 culture = aybirean
 religion = sunni
 capital = "Beja"

@@ -1309,7 +1309,7 @@ guiTypes = {
 			position = { x = 129 y = 4 }
 			textureFile = ""
 			font = "vic_18"
-			text = "SLOTS"
+			text = "MVATS"
 			maxWidth = 28
 			maxHeight = 18
 			format = center

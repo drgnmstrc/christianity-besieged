@@ -75,7 +75,7 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_mamluks
         	trigger = {
-			tag = J07
+			tag = MAM
 		}
 	}
 	text = {
@@ -93,7 +93,7 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_lothar
         	trigger = {
-			tag = B01
+			tag = LOT
 		}
 	}
 	text = {

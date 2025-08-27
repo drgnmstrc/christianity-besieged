@@ -8,7 +8,6 @@ A06 = "countries/Rodryzan.txt"
 
 
 #Christian
-B01 = "countries/Lotharingen.txt"
 B02 = "countries/London.txt"
 B03 = "countries/Essex.txt"
 B04 = "countries/Sussex.txt" #Reginorum
@@ -25,10 +24,11 @@ B14 = "countries/Coriallo.txt"
 B15 = "countries/Sagien.txt"
 B16 = "countries/Catema.txt"
 B17 = "countries/Calarionne.txt"
+LUS = "countries/Lusitania.txt"
 
 #German
 G01 = "countries/Gothia.txt"
-G02 = "countries/Visigothia.txt" #Aghustids
+AGU = "countries/Aghustids.txt" #Aghustids
 G03 = "countries/Ostrogothia.txt"
 G04 = "countries/Gepida.txt"
 G05 = "countries/Rhineland.txt"
@@ -96,7 +96,6 @@ H24 = "countries/Dacia.txt"
 H25 = "countries/Rome.txt"
 H26 = "countries/Lycaonia.txt"
 H27 = "countries/Galatia.txt"
-VEN = "countries/Venetia.txt" #Attempt to fix Venice
 H29 = "countries/Dubris.txt"
 H30 = "countries/Bosphorus.txt"
 H31 = "countries/Isauria.txt"
@@ -112,19 +111,18 @@ H40 = "countries/Sinusea.txt"
 #H41 = "countries/Iliria.txt" #Formable by Toskouria, Geyard, and Illeropolis
 #H42 = "countries/Romascia.txt" #Znovuzaty formable
 #H43 = "countries/Arberteke.txt" #Arbërteke formable by Faynitia
-H44 = "countries/Bretona.txt"
+BRO = "countries/Bretona.txt"
 
 #Iberian/Celtic
-J01 = "countries/Cantabria.txt"
-J02 = "countries/Asturias.txt"
-J03 = "countries/Vaccaeia.txt"
-J04 = "countries/Vettonia.txt"
-J05 = "countries/Turduli.txt"
+CNT = "countries/Cantabria.txt"
+ASU = "countries/Asturias.txt"
+VCC = "countries/Vaccaeia.txt"
+VTT = "countries/Vettonia.txt"
+TRD = "countries/Turduli.txt"
 J06 = "countries/Iberia.txt"
-J07 = "countries/GothMamluks.txt"
-J08 = "countries/Intercacia.txt"
-J09 = "countries/Cordoba.txt"
-J10 = "countries/Toledo.txt"
+INT = "countries/Intercacia.txt"
+CRD = "countries/Cordoba.txt"
+TLD = "countries/Tawlidu.txt"
 J11 = "countries/Almoravid.txt" #Formable if last big Almoravid dynasty
 J12 = "countries/Citerior.txt" #Formable as vassal or by Intercacia/Gurrea
 J13 = "countries/Aybirea.txt"
@@ -298,7 +296,7 @@ Q15 = "countries/Wabanaki.txt" #Wabanki Confederacy
 R01 = "countries/Maurentia.txt" 
 R02 = "countries/Almohads.txt" 
 R03 = "countries/Barghatwans.txt" 
-R04 = "countries/Salatiks.txt" 
+KSR = "countries/Kasrash.txt" 
 R05 = "countries/Qirtaj.txt" 
 R06 = "countries/Shawiya.txt" 
 R07 = "countries/Almukharbia.txt" 
@@ -497,7 +495,7 @@ Z26 = "countries/Tokhara.txt"
 
 #Non-Turkish Sunni/Alsababi
 Y01 = "countries/Andalusia.txt"
-Y02 = "countries/Balansiya.txt"
+MRS = "countries/Mursiya.txt"
 Y03 = "countries/Balarmo.txt"
 Y04 = "countries/Cairo.txt"
 Y05 = "countries/Muqawama.txt"

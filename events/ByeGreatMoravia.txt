@@ -5,20 +5,20 @@ province_event = {
 	hidden = yes
 	trigger = {
 		NOT = {
-			exists = SLO
+			exists = MVA
 		}
-		is_core = SLO
+		is_core = MVA
 	}
 	mean_time_to_happen = {
 		days = 1
 	}
 	option = {
-		remove_core = SLO
+		remove_core = MVA
 		if = {
 			limit = {
 				culture = slovak
 			}
-			add_core = MVA
+			add_core = SLO
 		}
 	}
 }

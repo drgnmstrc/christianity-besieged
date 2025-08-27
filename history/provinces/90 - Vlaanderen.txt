@@ -1,8 +1,8 @@
 # 90 Vlaanderen - Principal cities: Brugge
 
-owner = B01
-controller = B01
-add_core = B01
+owner = LOT
+controller = LOT
+add_core = LOT
 is_city = yes
 capital = "Brugge"
 culture = lotharingian

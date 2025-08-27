@@ -1,8 +1,8 @@
 # - Urgell
 
-owner = J07
-controller = J07
-add_core = J07
+owner = MAM
+controller = MAM
+add_core = MAM
 culture = pruqoth
 religion = ashabi
 hre = no

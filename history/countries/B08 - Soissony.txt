@@ -16,7 +16,7 @@ capital = 182
 		mil = 4
 	}
 	queen = {
-        country_of_origin = B01
+        country_of_origin = LOT
         name = "Maria"
         dynasty = "Viridia"
         birth_date = 1404.10.14

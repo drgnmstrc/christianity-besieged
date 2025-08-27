@@ -212,7 +212,7 @@ sebkhemerz_missions_4 = {
 		position = 2
 		trigger = {
 			has_won_war_against = {
-				who = SLO
+				who = MVA
 				max_years_since = 5
 			}
 		}

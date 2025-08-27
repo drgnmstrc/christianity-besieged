@@ -25,19 +25,19 @@ owned_by_christian_ally_or_vassal = {
 			alliance_with = ROOT
 		}
 		OR = {
-			tag = J01
-			tag = J02
-			tag = J03
-			tag = J04
-			tag = J05
-			tag = J08
+			tag = CNT
+			tag = ASU
+			tag = VCC
+			tag = VTT
+			tag = TRD
+			tag = INT
 			tag = J12
 			tag = B04
 			tag = B02
 			tag = H29
 			tag = B06
 			tag = GAL
-			tag = LON
+			tag = LUS
 		}
 		religion_group = christian
 		ai = yes

@@ -1,7 +1,7 @@
 #228 - Beira
 
-owner = LON
-controller = LON
+owner = LUS
+controller = LUS
 culture = lusitanian
 religion = liritism
 capital = "Viseu"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = LON
+add_core = LUS
 1444.11.11 = { unrest = 5 }
 
 

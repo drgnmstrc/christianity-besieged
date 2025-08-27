@@ -1480,7 +1480,7 @@ occidental = { #Occidental
 		primary = H20
 	}
 	vestes = {
-		primary = G02
+		primary = AGU
 	}
 	gallien = {
 		primary = G10
@@ -1618,7 +1618,7 @@ occidental = { #Occidental
 		primary = J14
 	}
 	bretono = {
-		primary = H44
+		primary = BRO
 	}
 	aquigalli = {
 		primary = H37
@@ -2213,7 +2213,7 @@ iberian	= {
 		}
 	}
 	cantabrian = {
-		primary = J01
+		primary = CNT
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
 			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
@@ -2273,7 +2273,7 @@ iberian	= {
 		}
 	}
 	asturian = {
-		primary = J02
+		primary = ASU
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
 			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
@@ -2333,7 +2333,7 @@ iberian	= {
 		}
 	}
 	vaccaeian = {
-		primary = J03
+		primary = VCC
 		dynasty_names = {
 			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
 			#CK2
@@ -2358,7 +2358,7 @@ iberian	= {
 		}
 	}
 	vettonian = {
-		primary = J04
+		primary = VTT
 		dynasty_names = {
 			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
 			#CK2
@@ -2383,7 +2383,7 @@ iberian	= {
 		}
 	}
 	turdulian = {
-		primary = J05
+		primary = TRD
 		dynasty_names = {
 			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
 			"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
@@ -2470,7 +2470,7 @@ iberian	= {
 		}
 	}
 	lusitanian = {
-		primary = LON
+		primary = LUS
 		dynasty_names = {
 			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
 			"Téllez-Girón" "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
@@ -2544,7 +2544,7 @@ belgican = {
 		}
 	}
 	lotharingian = {
-		primary = B01
+		primary = LOT
 	}
 	dynasty_names = {
 		Penteur Leon Roazhon Poutrecoet Naoned "Dinan" "Vitré" "Cornou" 
@@ -3294,6 +3294,23 @@ south_slavic = {
 		}
 	}
 	slovak = {
+		primary = MVA
+		male_names = {
+			Matej Ján Lukáš Štefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
+			Hugolín Tomáš Ľudovít Viliam Mikuláš Ignác Jaroslav Jaromír Miroslav Drahoslav Svätopluk Mojmír
+			Dobroslav Radoslav Radomír Kazimír Vlastimil Vítazoslav Blahoslav Svetozár Bonifác Vratislav
+			Vladislav Vladimír Cyril Konštantín Metod Bohuslav Drahomír Prokop Jerguš Tichomír Bartolomej
+			Ľuboslav Ľubomír Ľevoslav Stanislav
+		}
+		female_names = {
+			Mária Anna Alžbeta Ľudmila Eva Jaroslava Jarmila Amália Margaréta Hana			 
+		}
+		dynasty_names = {
+			Stibor Bel Kollár Podmanický Hatnanský Pongrác Bosniak Veselíni Zichy Turzo Andráši
+			Zápolský Pálfi Czáki Balaža Báthory
+		}
+	}
+	moravian = {
 		primary = MVA
 		male_names = {
 			Matej Ján Lukáš Štefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
@@ -5472,10 +5489,10 @@ rumi = {
 		}
 	}
 	pruqoth = {
-		primary = J07
+		primary = MAM
 	}
 	aybirean = {
-		primary = G02
+		primary = AGU
 	}
 	mutawasiti = {
 		primary = R01

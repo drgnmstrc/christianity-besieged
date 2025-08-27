@@ -1,8 +1,8 @@
 # 88 Artois - Principal cities: Arras, Saint-Omer & Lille
 
-owner = B01
-controller = B01
-add_core = B01
+owner = LOT
+controller = LOT
+add_core = LOT
 culture = lotharingian
 religion = anglican
 capital = "Arras"
@@ -12,7 +12,7 @@ base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 3
-add_core = B01
+add_core = LOT
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

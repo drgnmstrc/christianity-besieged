@@ -42,7 +42,7 @@ car_guard = {
 	home_province = 265
 	sprites = { dlc061_boh_sprite_pack dlc028_boh_sprite_pack easterngfx_sprite_pack }
 	trigger = {
-		NOT = { exists = SLO }
+		NOT = { exists = MVA }
 	}
 	modifier = {
 		discipline = 0.05
