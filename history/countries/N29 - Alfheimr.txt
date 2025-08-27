@@ -3,7 +3,7 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = alfinge
 religion = norse_pagan_reformed
-technology_group = western
+technology_group = scandinavian_tech
 capital = 16
 
 1440.4.9 = {

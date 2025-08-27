@@ -745,7 +745,7 @@ cernos = {
 		religion = walianitas
 		any_owned_province = {
 			OR = {
-				culture_group = french
+				culture_group = belgican
 				culture = gaulish
 			}
 		}

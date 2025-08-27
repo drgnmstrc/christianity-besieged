@@ -14,7 +14,7 @@ country_decisions = {
 			NOT = { exists = GBR }
 			NOT = { tag = HLR }
 			NOT = { tag = B09 }
-			primary_culture = breton
+			primary_culture = armorican
 			religion_group = christian
 			is_colonial_nation = no
 			OR = {

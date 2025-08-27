@@ -30,7 +30,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 	remove_core = IRO
 } # Construction of Cahokia

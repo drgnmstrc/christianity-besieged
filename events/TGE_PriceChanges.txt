@@ -147,8 +147,8 @@ country_event = {
 		cheese = 2
 		NOT = { has_global_flag = cheeseislove }
 		OR = {
-			culture_group = italo_gallic
-			culture_group = french
+			culture_group = occidental
+			culture_group = belgican
 		}
 	}
 	

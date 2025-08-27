@@ -18,7 +18,7 @@ country_decisions = {
 				exists = N15
 				exists = ENG
 			}
-			primary_culture = breton
+			primary_culture = armorican
 			NOT = { religion_group = christian }
 			OR = {
 				ai = no

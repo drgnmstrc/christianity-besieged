@@ -4,7 +4,7 @@ graphical_culture = westerngfx
 
 color = { 180  232  111 }
 
-revolutionary_colors = { 111  111  111 } #Fictional
+revolutionary_colors = { 11  11  11 } #Fictional
 
 historical_score = 210
 preferred_religion = norse_pagan_reformed

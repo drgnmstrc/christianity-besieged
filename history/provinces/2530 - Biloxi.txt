@@ -22,7 +22,7 @@ discovered_by = north_american
 1699.1.1 = {	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 	is_city = yes
 	trade_goods = cotton

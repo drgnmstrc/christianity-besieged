@@ -22,7 +22,7 @@ discovered_by = north_american
 	trade_goods = cotton
 	is_city = yes
 	religion = catholic
-	culture = cosmopolitan_french
+	culture = soisson
 } # French settlement
 1762.1.1 = {
 	owner = SPA
@@ -37,7 +37,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	remove_core = SPA
 } # Treaty of San Ildefonso
 1803.4.3 = {

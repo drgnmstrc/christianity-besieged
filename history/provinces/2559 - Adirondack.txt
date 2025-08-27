@@ -31,7 +31,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } # Construction of Fort St. Frédérick
 1755.1.1 = { fort_18th = yes }

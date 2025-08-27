@@ -1,7 +1,7 @@
 government = native
 add_government_reform = native_suomenusko_tribe
 government_rank = 1
-technology_group = western
+technology_group = scandinavian_tech
 religion = suomenusko
 primary_culture = sapmi
 capital = 1777

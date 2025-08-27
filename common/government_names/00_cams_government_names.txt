@@ -238,7 +238,7 @@ iqta_council = {
 		has_reform = iqta_council_reform
 		NOT = {
 			OR = {
-				culture_group = italo_gallic
+				culture_group = occidental
 				culture_group = cisalpin_romisch
 			}
 		}
@@ -267,7 +267,7 @@ italian_iqta_council = {
 	trigger = {
 		has_reform = iqta_council_reform
 		OR = {
-			culture_group = italo_gallic
+			culture_group = occidental
 			culture_group = cisalpin_romisch
 		}
 	}
@@ -320,7 +320,7 @@ roman_emirate = {
 		religion = ashabi
 		government = monarchy
 		OR = {
-			culture_group = italo_gallic
+			culture_group = occidental
 			culture_group = illyro_dalmatian
 		}
 		NOT = { capital_scope = { region = italy_region } }
@@ -425,7 +425,7 @@ venetian_tyranny = {
 	3 = EMPRESS
     }
     trigger = {
-	culture_group = italo_gallic
+	culture_group = occidental
 	has_roman_religion = yes
     }
 }

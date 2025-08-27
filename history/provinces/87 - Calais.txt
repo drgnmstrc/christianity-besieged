@@ -3,7 +3,7 @@
 owner = B01
 controller = B01 
 capital = "Lothara"
-culture = wallonian
+culture = lotharingian
 religion = anglican
 hre = no
 base_tax = 6

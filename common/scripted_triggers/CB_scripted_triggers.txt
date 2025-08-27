@@ -92,7 +92,7 @@ has_roman_religion_province = {
 
 has_roman_culture = {
 	OR = {
-		culture_group = italo_gallic
+		culture_group = occidental
 		culture_group = illyro_dalmatian
 		culture_group = south_slavic
 		culture_group = cisalpin_romisch

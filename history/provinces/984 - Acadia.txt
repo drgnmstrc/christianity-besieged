@@ -23,7 +23,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	is_city = yes
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 	trade_goods = fish
 } # Port Royal
@@ -40,7 +40,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	remove_core = ENG
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } # Treaty of St. Germain-en-Layne, handed back to the French
 1692.1.1 = { controller = ENG } # King William's war

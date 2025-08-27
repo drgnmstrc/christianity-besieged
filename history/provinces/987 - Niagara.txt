@@ -39,7 +39,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } #Great Peace of Montreal
 1763.2.10 = {

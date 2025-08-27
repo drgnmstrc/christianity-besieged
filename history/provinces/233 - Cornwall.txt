@@ -3,7 +3,7 @@
 owner = H01
 controller = H01
 add_core = H01
-culture = breton
+culture = armorican
 religion = walianitas
 hre = no
 base_tax = 3

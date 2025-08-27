@@ -44,7 +44,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Emperor"
 		OR = {
-			culture_group = italo_gallic
+			culture_group = occidental
 			culture = italyan
 		}
 		religion = ashabi

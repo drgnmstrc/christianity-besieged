@@ -13,7 +13,7 @@ country_decisions = {
 			NOT = { exists = G08 }
 			NOT = { exists = FRA }
 			NOT = { tag = HLR }
-			primary_culture = wallonian
+			primary_culture = lotharingian
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

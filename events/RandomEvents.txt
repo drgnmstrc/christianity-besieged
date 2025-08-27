@@ -3827,7 +3827,7 @@ country_event = {
 	trigger = {
 		capital_scope = { continent = europe }
 		any_known_country = {
-			culture_group = italo_gallic
+			culture_group = occidental
 		}
 		NOT = { is_year = 1650 }
 	}
@@ -3835,7 +3835,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_known_country = {
-				limit = { culture_group = italo_gallic }
+				limit = { culture_group = occidental }
 				save_event_target_as = italian_engineer_country
 				root = {
 					set_saved_name = {

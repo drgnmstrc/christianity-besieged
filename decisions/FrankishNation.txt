@@ -64,7 +64,7 @@ country_decisions = {
 					AND = {
 						OR = {
 							culture = flemish
-							culture = wallonian
+							culture = lotharingian
 						}
 						NOT = { owned_by = ROOT }
 					}

@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = tribal_despotism
 religion = norse_pagan_reformed
-technology_group = western
+technology_group = scandinavian_tech
 capital = 1978
 primary_culture = hjallish
 

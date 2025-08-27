@@ -32,7 +32,7 @@ center_of_trade = 2
 	controller = FRA
 	add_core = FRA
 	remove_core = IRO
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } # Great Peace of Montreal and Fort Detroit
 1707.5.12 = { discovered_by = GBR }

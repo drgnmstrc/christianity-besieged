@@ -550,7 +550,7 @@ province_event = { #Romanization effect on a province
 	option = { #Praise Rome!
 		name = venetianEvents.5b
 		trigger = {
-			owner = { culture_group = italo_gallic }
+			owner = { culture_group = occidental }
 			OR = {
 				has_roman_religion = yes
 				religion = noniustian
@@ -566,7 +566,7 @@ province_event = { #Romanization effect on a province
 			limit = {
 				region = british_isles_region
 			}
-			change_culture = breton
+			change_culture = armorican
 		}
 		else_if = { 
 			limit = {

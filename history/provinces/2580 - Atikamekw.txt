@@ -26,6 +26,6 @@ discovered_by = north_american
 	add_core = GBR
 	is_city = yes
 	trade_goods = fur 
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } #French fur traders from Quebec, Wemotaci

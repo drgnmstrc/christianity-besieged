@@ -37,7 +37,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic 
 } #Fort Presqu'Isle
 1763.2.10 = {

@@ -6,8 +6,6 @@ color = { 78  125  207 }
 
 revolutionary_colors = { 5  13  0 }
 
-preferred_religion = nestorian
-
 historical_idea_groups = {
 	administrative_ideas
 	quality_ideas

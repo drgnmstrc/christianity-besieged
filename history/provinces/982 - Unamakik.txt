@@ -25,7 +25,7 @@ tribal_owner = MIK
 	controller = FRA
 	add_core = FRA
 	is_city = yes
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 	trade_goods = naval_supplies
 } # Founding of Fort Ste-Anne

@@ -212,7 +212,7 @@ country_event = {
 				limit = {
 					OR = {
 						tag = U01
-						culture_group = italo_gallic
+						culture_group = occidental
 					}
 				}
 				save_event_target_as = papal_protoge_country

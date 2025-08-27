@@ -217,7 +217,7 @@ estate_burghers = {
 	custom_name = {
 		desc = estate_bourgeoisie
 		trigger = {
-			culture_group = french
+			culture_group = belgican
 		}
 	}
 	custom_name = {

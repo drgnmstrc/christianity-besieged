@@ -172,9 +172,9 @@ wine = {
 			factor = 1.1
 			FROM = {
 				OR = {
-					culture_group = french
+					culture_group = belgican
 					culture_group = iberian
-					culture_group = italo_gallic
+					culture_group = occidental
 				}
 			}
 		}

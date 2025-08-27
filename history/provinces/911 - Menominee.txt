@@ -23,7 +23,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 	is_city = yes
 } # Founding of St. Ignace

@@ -52,7 +52,7 @@ province_event = {
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
-		culture_group = italo_gallic
+		culture_group = occidental
 		owner = {
 			religion_group = muslim
 		}
@@ -189,7 +189,7 @@ province_event = {
 
 	trigger = {
 		OR = {
-			culture_group = french
+			culture_group = belgican
 			culture = gothic
 			culture = ostrogothic
 		}

@@ -313,7 +313,7 @@ rome_king_missions_4 = {
 		trigger = {
 			italy_region = {
 				type = all
-				culture_group = italo_gallic
+				culture_group = occidental
 			}
 		}
 		effect = {

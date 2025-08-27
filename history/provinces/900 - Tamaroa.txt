@@ -21,7 +21,7 @@ tribal_owner = CAO
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic 
 } #Fort Orleans
 1762.1.1 = { owner = SPA controller = SPA add_core = SPA remove_core = FRA }
