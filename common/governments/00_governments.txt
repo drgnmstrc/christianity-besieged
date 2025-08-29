@@ -77,7 +77,7 @@ monarchy = {
 				russian_empire_reform
 				korean_monarchy
 				beylik_government
-				al_andalusia_government
+				al_andalus_government
 				absolute_shogunate_reform
 				japanese_divine_empire
 				land_christian_sun_reform

@@ -1,9 +1,9 @@
 #240 - Marches
 #Shropshire, Herefordshire, Worcestershire
 
-owner = N22
-controller = N22
-add_core = N22
+owner = HWC
+controller = HWC
+add_core = HWC
 culture = welsh
 religion = druidism
 add_claim = WLS

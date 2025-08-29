@@ -72,7 +72,7 @@ historical_rival = HAB
 		mil = 4
 	}
 	queen = {
-        country_of_origin = PRO
+        country_of_origin = CHP
         name = "Marie"
         dynasty = "d'Anjou"
         birth_date = 1404.10.14
@@ -139,7 +139,7 @@ historical_rival = HAB
 		mil = 2
 	}
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Carlotta"
 		dynasty = "di Savoia"
 		birth_date = 1443.1.1

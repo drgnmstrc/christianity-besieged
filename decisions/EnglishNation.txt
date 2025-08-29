@@ -62,8 +62,8 @@ country_decisions = {
 							owns = 236
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -73,8 +73,8 @@ country_decisions = {
 							owns = 4370
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -84,8 +84,8 @@ country_decisions = {
 							owns = 234
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -95,8 +95,8 @@ country_decisions = {
 							owns = 235
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -106,8 +106,8 @@ country_decisions = {
 							owns = 238
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -117,8 +117,8 @@ country_decisions = {
 							owns = 4372
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -127,8 +127,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = B09
-			inherit = B03
-			inherit = B05
+			inherit = ESX
+			inherit = WSX
 			if = {
 				limit = {
 					government = theocracy

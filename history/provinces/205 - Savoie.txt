@@ -1,8 +1,8 @@
 #205 - Savoie
 
-owner = Y22
-controller = Y22
-add_core = Y22
+owner = CMB
+controller = CMB
+add_core = CMB
 culture = pruqoth
 religion = ashabi
 hre = no

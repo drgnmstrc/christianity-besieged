@@ -1,8 +1,8 @@
 #4130 - Somerset
 
-owner = B05
-controller = B05
-add_core = B05
+owner = WSX
+controller = WSX
+add_core = WSX
 culture = saxeish
 religion = saxish
 hre = no
@@ -12,7 +12,7 @@ trade_goods = indigo
 base_manpower = 1
 capital = "Bath"
 is_city = yes
-add_core = H01
+add_core = AMO
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman

@@ -6,10 +6,10 @@
 # Bedfordshire
 # 4370 Bedfordshire - 8/26/2025 5:56:50 PM 
  
-add_core = B03
-add_core = B06
-owner = B03
-controller = B03
+add_core = ESX
+add_core = DIM
+owner = ESX
+controller = ESX
 base_tax = 4
 base_production = 4
 base_manpower = 5

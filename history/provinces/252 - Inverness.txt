@@ -2,7 +2,7 @@
 
 owner = HSC
 controller = HSC
-add_core = N09
+add_core = HJL
 culture = gaidheil
 religion = druidism
 hre = no

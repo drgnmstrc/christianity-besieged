@@ -649,7 +649,7 @@ germanic = {
 british = {
 	graphical_culture = westerngfx
 	northumbrian = {
-		primary = N10
+		primary = JRV
 	}
 	saxeish = {
 		primary = B09
@@ -658,13 +658,13 @@ british = {
 		primary = N14
 	}
 	jelander = {
-		primary = N26
+		primary = RHG
 	}
 	mercian = {
 		primary = N23
 	}
 	lindseyer = {
-		primary = N24
+		primary = LNS
 	}
 	english = {
 		primary = ENG
@@ -1071,7 +1071,7 @@ scandinavian = { #Nordic
 		}
 	}
 	gosborger = {
-		primary = N27
+		primary = BRN
 		male_names = {
 			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
 			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
@@ -1157,7 +1157,7 @@ scandinavian = { #Nordic
 		}
 	}
 	hjallish = {
-		primary = N09
+		primary = HJL
 		male_names = {
 			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
 			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
@@ -1415,7 +1415,7 @@ insular_celtic	= {
 		}
 	}
 	cumbrian = {
-		primary = J15
+		primary = AOP
 		dynasty_names = { 
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
 			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
@@ -1483,16 +1483,16 @@ occidental = { #Occidental
 		primary = AGU
 	}
 	gallien = {
-		primary = G10
+		primary = GLA
 	}
 	gurrean = {
-		primary = FOI
+		primary = GRR
 	}
 	aquitaine = {
 		primary = TOU
 	}
 	occitain = {
-		primary = PRO
+		primary = CHP
 	}
 	gaulish = {
 		male_names = {
@@ -1738,7 +1738,7 @@ occidental = { #Occidental
 		}
 	}
 	hwiccan = {
-		primary = N22
+		primary = HWC
 		dynasty_names = { 
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
 			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
@@ -2503,7 +2503,7 @@ iberian	= {
 belgican = {
 	graphical_culture = westerngfx
 	soisson = {
-		primary = B08
+		primary = SSN
 		male_names = {
 			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
 			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
@@ -5466,7 +5466,7 @@ rumi = {
 			Handan Alime Kńsem Hńma 
 		}
 	}
-	andalusi = {
+	andalucian = {
 		primary = Y01
 		dynasty_names = {
 			Nasrid Ummayad Zirid
@@ -5498,7 +5498,7 @@ rumi = {
 		primary = R01
 	}
 	almani = {
-		primary = Y15
+		primary = ALD
 	}
 	male_names = {
 		Muhammad 'Alń Ahmad Yahyń Zkariyń' 'Abd al-'Aziz 'Abd al-Mu'min Hamńda Husayn 'Usman Salih Sulaiman 
@@ -12825,7 +12825,7 @@ armaic = {
 		}
 		dynasty_names = { "Sargonid" "Ephremid" "Isin" "Mardukid" "Abidaoud" "Abgarid" "Erishumid" "Sharishkun" "Adad" "Nirari" Amorite Larsa Kassite  }
 	}
-	ivrit = { #EU Rome
+	hebrew = { #EU Rome
 		primary = X05
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 

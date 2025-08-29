@@ -6,9 +6,9 @@
 # Lancashire
 # 244 Lancashire - 8/26/2025 5:56:50 PM 
  
-add_core = N26
-owner = N26
-controller = N26
+add_core = RHG
+owner = RHG
+controller = RHG
 base_tax = 4
 base_production = 4
 base_manpower = 2

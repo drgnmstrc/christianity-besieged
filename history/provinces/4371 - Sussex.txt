@@ -1,8 +1,8 @@
 #4371 - Sussex
 
-owner = B05
-controller = B05
-add_core = B05
+owner = WSX
+controller = WSX
+add_core = WSX
 culture = saxeish
 religion = saxish
 hre = no
@@ -12,10 +12,10 @@ trade_goods = cloth
 base_manpower = 4
 capital = "Hastings"
 is_city = yes
-add_core = B04
+add_core = SSX
 discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = western
-add_core = H01
+add_core = AMO

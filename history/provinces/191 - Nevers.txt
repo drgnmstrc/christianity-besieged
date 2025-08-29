@@ -1,8 +1,8 @@
 # 191 Nevers - Principal cities: Nevers
 
-owner = G10
-controller = G10
-add_core = G10
+owner = GLA
+controller = GLA
+add_core = GLA
 capital = "Nevers"
 is_city = yes
 culture = gallien
@@ -12,7 +12,7 @@ base_tax = 5
 base_production = 5
 trade_goods = livestock
 base_manpower = 3
-add_core = B08
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

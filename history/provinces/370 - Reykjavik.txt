@@ -1,7 +1,7 @@
 #370 - Reykjavik
 
-owner = N09
-controller = N09 
+owner = HJL
+controller = HJL 
 culture = hjallish
 religion = norse_pagan_reformed
 hre = no
@@ -12,7 +12,7 @@ base_manpower = 1
 add_local_autonomy = 25
 capital = "Reykjavik"
 is_city = yes 	
-add_core = N09
+add_core = HJL
 add_core = ICE
 discovered_by = western
 discovered_by = eastern

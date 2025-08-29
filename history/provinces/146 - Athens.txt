@@ -3,7 +3,7 @@
 owner = Y17
 controller = Y17
 add_core = Y17
-culture = andalusi
+culture = andalucian
 religion = ashabi
 capital = "Marathuna"
 trade_goods = marble

@@ -6,9 +6,9 @@
 # Leicester
 # 4376 Leicester - 8/26/2025 5:56:50 PM 
  
-add_core = B17
-owner = B17
-controller = B17
+add_core = CLR
+owner = CLR
+controller = CLR
 base_tax = 3
 base_production = 2
 base_manpower = 2

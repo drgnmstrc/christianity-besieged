@@ -6,9 +6,9 @@
 # Gloucester
 # 239 Gloucester - 8/26/2025 5:56:50 PM 
  
-add_core = N22
-owner = N22
-controller = N22
+add_core = HWC
+owner = HWC
+controller = HWC
 base_tax = 3
 base_production = 3
 base_manpower = 3

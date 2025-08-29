@@ -3,7 +3,7 @@
 add_core = N11
 owner = N11
 controller = N11
-add_core = N12
+add_core = DEI
 culture = swedish
 religion = norse_pagan_reformed
 hre = no

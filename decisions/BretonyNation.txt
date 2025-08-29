@@ -117,10 +117,10 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = B10
-			inherit = B02
-			inherit = B04
-			inherit = H29
-			inherit = B06
+			inherit = LOD
+			inherit = SSX
+			inherit = DBR
+			inherit = DIM
 			if = {
 				limit = {
 					government = theocracy

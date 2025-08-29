@@ -1,8 +1,8 @@
 # 204 Dauphiné - Principal cities: Grenoble
 
-owner = Y15
-controller = Y15
-add_core = Y15
+owner = ALD
+controller = ALD
+add_core = ALD
 culture = pruqoth
 religion = ashabi
 capital = "Grenoble"

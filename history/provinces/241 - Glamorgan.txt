@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = J20
-controller = J20
+owner = YST
+controller = YST
 culture = welsh
 religion = druidism
 hre = no
@@ -15,7 +15,7 @@ trade_goods = iron
 base_manpower = 2
 capital = "Swansea"
 is_city = yes
-add_core = J20
+add_core = YST
 discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern

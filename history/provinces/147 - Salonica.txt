@@ -3,7 +3,7 @@
 owner = Y18
 controller = Y18
 add_core = Y18
-culture = andalusi
+culture = andalucian
 religion = ashabi
 capital = "Nyalifhi"
 trade_goods = olive_oil

@@ -1,7 +1,7 @@
 #1978 - Shetlands
 
-owner = N09
-controller = N09
+owner = HJL
+controller = HJL
 culture = hjallish
 religion = norse_pagan_reformed
 hre = no
@@ -11,7 +11,7 @@ trade_goods = slaves
 base_manpower = 5
 capital = "Lerwick"
 is_city = yes # Estimated
-add_core = N09
+add_core = HJL
 extra_cost = 16
 center_of_trade = 1
 

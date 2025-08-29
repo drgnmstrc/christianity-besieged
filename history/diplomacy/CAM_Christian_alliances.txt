@@ -1,13 +1,13 @@
 alliance = {
 	first = LOT
-	second = B08
+	second = SSN
 	start_date = 1444.1.1
 	end_date = 1455.1.1
 }
 
 vassal = {
-	first = B06
-	second = B02
+	first = DIM
+	second = LOD
 	start_date = 1444.1.1
 	end_date = 1455.1.1
 }

@@ -1,7 +1,7 @@
 # 186 Champagne - Principal cities: Reims
 
-owner = B08
-controller = B08
+owner = SSN
+controller = SSN
 capital = "Reims"
 is_city = yes
 culture = soisson
@@ -12,8 +12,8 @@ base_production = 6
 trade_goods = champagne
 base_manpower = 4
 #estate = estate_church
-add_core = B08
-add_claim = PRO
+add_core = SSN
+add_claim = CHP
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

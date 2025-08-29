@@ -5,9 +5,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = N32
-controller = N32
-add_core = N32
+owner = FTF
+controller = FTF
+add_core = FTF
 culture = saxeish
 religion = saxish
 hre = no

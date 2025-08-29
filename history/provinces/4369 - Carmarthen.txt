@@ -1,7 +1,7 @@
 #4366 - Pembrokeshire+Camartenshire+Cardiganshire
 
-owner = J19
-controller = J19
+owner = DEH
+controller = DEH
 culture = welsh
 religion = druidism
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Carmarthen"
 is_city = yes
-add_core = J19
+add_core = DEH
 discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern

@@ -1,7 +1,7 @@
 #1979 - Färöarna
 
-owner = N09
-controller = N09
+owner = HJL
+controller = HJL
 culture = hjallish
 religion = norse_pagan_reformed
 hre = no

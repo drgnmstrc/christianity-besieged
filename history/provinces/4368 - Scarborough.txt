@@ -1,8 +1,8 @@
 #4368 - Yorkshire - North Riding
 
-owner = N10
-controller = N10
-add_core = N10
+owner = JRV
+controller = JRV
+add_core = JRV
 culture = english
 religion = anglic
 hre = no

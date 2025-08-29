@@ -1,8 +1,18 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
-primary_culture = saxon
+technology_group = eastern
+primary_culture = burgundian
 religion = germanic
-technology_group = western
-capital = 4771 #Verden
-fixed_capital = 4771
+capital = 4766
+fixed_capital = 4766
+government_rank = 1
+1399.9.12 = {
+	monarch = {
+		name = "Henrek"
+		dynasty = "Benteverne"
+		birth_date = 1396.4.15
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}

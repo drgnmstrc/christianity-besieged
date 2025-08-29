@@ -1,8 +1,8 @@
 # Forcalquier
 
-owner = U09
-controller = U09
-add_core = U09
+owner = MRT
+controller = MRT
+add_core = MRT
 culture = aquigalli
 religion = walianitas
 capital = "Toulon"

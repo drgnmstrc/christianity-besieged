@@ -461,7 +461,7 @@ national_focus = MIL
 
 1701.11.2 = {
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Maria Luisa"
 		dynasty = "di Savoia"
 		birth_date = 1688.8.17

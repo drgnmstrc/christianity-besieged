@@ -1,6 +1,6 @@
-owner = N31
-controller = N31
-add_core = N31
+owner = DRS
+controller = DRS
+add_core = DRS
 culture = sodor
 religion = norse_pagan_reformed
 capital = "Derrósa"

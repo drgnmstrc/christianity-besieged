@@ -536,7 +536,7 @@ add_government_reform = autocracy_reform }
 
 1666.8.2 = {
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Maria Francisca"
 		dynasty = "di Savoia"
 		birth_date = 1646.9.12
@@ -558,7 +558,7 @@ add_government_reform = autocracy_reform }
 		mil = 4
 	}
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Maria Francisca"
 		dynasty = "di Savoia"
 		birth_date = 1646.9.12

@@ -1,8 +1,8 @@
 #4361 - Central + East March (Roxburghshire+Berwickshire+Selkirkshire)
 
-owner = N27
-controller = N27
-add_core = N27
+owner = BRN
+controller = BRN
+add_core = BRN
 culture = english
 religion = anglic
 hre = no

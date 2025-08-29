@@ -8,7 +8,7 @@ cambridge_ideas = {
 		warscore_cost_vs_other_religion = -0.1
 	}
 	trigger = {
-		tag = B06
+		tag = DIM
 	}
 	free = yes
 	church_of_cambridge = {
@@ -213,7 +213,7 @@ hjallic_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	trigger = {
-		tag = N09
+		tag = HJL
 	}
 	free = yes
 	little_leftfor_us = {
@@ -710,7 +710,7 @@ maritimae_ideas = {
 		yearly_absolutism = 0.15
 	}
 	trigger = {
-		tag = U09
+		tag = MRT
 	}
 	free = yes
 	legacy_roman_uprising = {
@@ -945,7 +945,7 @@ fultons_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	trigger = {
-		tag = N32
+		tag = FTF
 	}
 	free = yes
 	fultons_strong = {
@@ -1030,7 +1030,7 @@ jorvik_ideas = {
 	}
 	
 	trigger = {
-		tag = N10
+		tag = JRV
 	}
 	free = yes
 	jorvik_raiding_heritage = {

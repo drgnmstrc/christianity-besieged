@@ -6,9 +6,9 @@
 # Oxford
 # 237 Oxford - 8/26/2025 5:56:50 PM 
  
-add_core = B06
-owner = B06
-controller = B06
+add_core = DIM
+owner = DIM
+controller = DIM
 base_tax = 4
 base_production = 4
 base_manpower = 3

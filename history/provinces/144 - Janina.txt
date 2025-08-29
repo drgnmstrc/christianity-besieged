@@ -3,7 +3,7 @@
 owner = Y16
 controller = Y16
 add_core = Y16
-culture = andalusi
+culture = andalucian
 religion = ashabi
 capital = "Ypirna"
 trade_goods = citrus

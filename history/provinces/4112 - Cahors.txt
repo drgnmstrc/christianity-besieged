@@ -1,8 +1,8 @@
 # 4112 - Cahors
 
-owner = G15
-controller = G15
-add_core = G15
+owner = VES
+controller = VES
+add_core = VES
 capital = "Cahors"
 is_city = yes
 culture = vestes

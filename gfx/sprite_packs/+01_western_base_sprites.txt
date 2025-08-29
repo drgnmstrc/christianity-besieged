@@ -170,8 +170,8 @@ eng_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
 		OR = {
-			tag = B05
-			tag = B03
+			tag = WSX
+			tag = ESX
 		}
 	}
 
@@ -266,7 +266,7 @@ nor_base_sprite_pack = {
 sco_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = J15
+		tag = AOP
 	}
 
 	sprite_infantry = {
@@ -304,7 +304,7 @@ lei_base_sprite_pack = {
 fra_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = B08
+		tag = SSN
 	}
 
 	sprite_infantry = {

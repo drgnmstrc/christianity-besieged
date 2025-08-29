@@ -67,7 +67,7 @@ defined_text = {
         	localisation_key = string_start_title_ruins_rome
         	trigger = {
 			OR = {
-				tag = H01
+				tag = AMO
 				tag = H28
 			}
 		}
@@ -87,7 +87,7 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_soissony
         	trigger = {
-			tag = B08
+			tag = SSN
 		}
 	}
 	text = {
@@ -121,7 +121,7 @@ defined_text = {
         	localisation_key = string_start_title_cornwall
         	trigger = {
 			OR = {
-				tag = H01
+				tag = AMO
 				tag = CRN
 			}
 		}
@@ -293,7 +293,7 @@ defined_text = {
 	text = {
         localisation_key = string_start_title_provence
         trigger = {
-			tag = PRO
+			tag = CHP
 		}
     }
 	text = {
@@ -1043,7 +1043,7 @@ defined_text = {
 	text = { # Provence
 		localisation_key = string_start_provence
 		trigger = {
-			tag = PRO
+			tag = CHP
 			NOT = {
 				is_year = 1481 # death of Rene
 			}

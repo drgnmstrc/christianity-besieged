@@ -6,10 +6,10 @@
 # Lothian
 # 248 Lothian - 8/26/2025 5:56:50 PM 
  
-add_core = N09
-add_core = J15
-owner = N09
-controller = N09
+add_core = HJL
+add_core = AOP
+owner = HJL
+controller = HJL
 base_tax = 5
 base_production = 4
 base_manpower = 3

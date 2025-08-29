@@ -1,8 +1,8 @@
 # 175 Armagnac - Principal cities: Auch
 
-owner = FOI
-controller = FOI
-add_core = FOI
+owner = GRR
+controller = GRR
+add_core = GRR
 culture = gurrean
 religion = germanic
 capital = "Auch"

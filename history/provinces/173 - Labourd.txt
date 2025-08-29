@@ -1,8 +1,8 @@
 # 173 Labourd - Principal cities: Bayonne (can't change file name)
 
-owner = FOI
-controller = FOI
-add_core = FOI
+owner = GRR
+controller = GRR
+add_core = GRR
 culture = gurrean
 religion = germanic
 capital = "Bayonne"

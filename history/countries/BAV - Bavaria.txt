@@ -351,7 +351,7 @@ capital = 65	# München!
 	}
 
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Henrietta Adelaide"
 		dynasty = "di Savoia"
 		birth_date = 1636.11.6

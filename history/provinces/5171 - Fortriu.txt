@@ -1,7 +1,7 @@
 # No previous file for Fortriu
-owner = J16
-controller = J16
-add_core = J16
+owner = URT
+controller = URT
+add_core = URT
 culture = gaidheil
 religion = druidism
 hre = no

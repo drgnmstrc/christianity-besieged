@@ -1,8 +1,8 @@
 #245 - Yorkshire - East Riding
 
-owner = N12
-controller = N12
-add_core = N12
+owner = DEI
+controller = DEI
+add_core = DEI
 culture = english
 religion = anglic
 hre = no

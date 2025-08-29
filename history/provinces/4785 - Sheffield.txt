@@ -1,8 +1,8 @@
 #4785 - Yorkshire - South Riding
 
-owner = N12
-controller = N12
-add_core = N12
+owner = DEI
+controller = DEI
+add_core = DEI
 culture = english
 religion = anglic
 hre = no
@@ -12,7 +12,7 @@ trade_goods = lead
 base_manpower = 1
 capital = "Sheffield"
 is_city = yes
-add_core = N22
+add_core = HWC
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman

@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = noble_elite_reform
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = armorican
+religion = anglican
+capital = 4371
+historical_friend = DIM
+historical_friend = DBR
+national_focus = DIP
+
+1399.9.12 = {
+	monarch = {
+		name = "Albinus"
+		dynasty = "Jovius"
+		birth_date = 1376.4.15
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

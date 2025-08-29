@@ -6,9 +6,9 @@
 # Dumfries
 # 4362 Dumfries - 8/26/2025 5:56:50 PM 
  
-add_core = J15
-owner = J15
-controller = J15
+add_core = AOP
+owner = AOP
+controller = AOP
 base_tax = 3
 base_production = 3
 base_manpower = 3

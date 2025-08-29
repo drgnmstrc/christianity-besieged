@@ -182,7 +182,7 @@ bogelik_ideas = {
 	free = yes
 	trigger = { 
 		capital_scope = { region = italy_region }
-		NOT = { tag = H01 }
+		NOT = { tag = AMO }
 		religion = ashabi
 	}
 	roman_awakening_islamic = {

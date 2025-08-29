@@ -304,7 +304,7 @@ ai_militarist = {
 		modifier = {
 			factor = 0.5
 			OR = {
-				tag = B08
+				tag = SSN
 				tag = G01
 			}
 		}		
@@ -402,13 +402,13 @@ ai_colonialist = {
 				tag = Y01
 				tag = F01
 				tag = GAL
-				tag = N09
+				tag = HJL
 			}
 		}
 		modifier = {
 			factor = 2
 			OR = {
-				tag = H01
+				tag = AMO
 				tag = AGU
 			}
 		}

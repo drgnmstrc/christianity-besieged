@@ -1,8 +1,8 @@
 # 179 Berry
 
-owner = G10
-controller = G10
-add_core = G10
+owner = GLA
+controller = GLA
+add_core = GLA
 culture = gallien
 religion = germanic
 capital = "Biturgan"
@@ -12,7 +12,7 @@ base_tax = 7
 base_production = 6
 trade_goods = wine
 base_manpower = 5
-add_core = B08
+add_core = SSN
 extra_cost = 8
 center_of_trade = 1
 discovered_by = eastern

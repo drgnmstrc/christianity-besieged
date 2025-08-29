@@ -1,8 +1,8 @@
 # 176 Béarn - Principal cities: Pau
 
-owner = FOI
-controller = FOI
-add_core = FOI
+owner = GRR
+controller = GRR
+add_core = GRR
 culture = gurrean
 religion = germanic
 capital = "Pau"

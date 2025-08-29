@@ -1,7 +1,7 @@
-owner = SAV
-controller = SAV
-add_core = SAV
-add_core = Y15
+owner = LUG
+controller = LUG
+add_core = LUG
+add_core = ALD
 culture = gothic
 religion = germanic
 capital = "Montbrison"

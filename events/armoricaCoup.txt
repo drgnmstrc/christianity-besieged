@@ -6,7 +6,7 @@ country_event = { #We gonna get couped if we dont get shit together!
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
-		tag = H01
+		tag = AMO
 		B05 = { ai = yes }
 	}
 	option = {
@@ -19,7 +19,7 @@ country_event = { #Welp it happened
 	desc = armoricaCoup.1d
 	fire_only_once = yes
 	trigger = {
-		tag = H01
+		tag = AMO
 		is_year = 1448
 		exists = B05
 		B05 = { ai = yes }
@@ -117,7 +117,7 @@ country_event = { #Wessex Revolt
 	picture = DEATH_OF_HEIR_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = H01
+		tag = AMO
 		has_country_flag = axrotalus_deified
 		NOT = { exists = B05 }
 	}
@@ -136,7 +136,7 @@ country_event = { #Wessex Revolt
 					infantry = PREV
 				}
 			}
-			H01 = {
+			AMO = {
 				declare_war = B05
 			}
 		}
