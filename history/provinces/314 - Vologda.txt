@@ -1,6 +1,6 @@
 #314 - Vologda
 
-tribal_owner = Z06
+tribal_owner = ARS
 culture = slovenski
 religion = slavic
 hre = no

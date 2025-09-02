@@ -1,8 +1,8 @@
 #1180 - Transkei
 
-owner = R20
-controller = R20
-add_core = R20
+owner = OKU
+controller = OKU
+add_core = OKU
 trade_goods = spices
 is_city = yes
 culture = okung

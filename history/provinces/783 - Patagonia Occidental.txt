@@ -1,7 +1,7 @@
 #783 - Alacaluf
-owner = M81
-controller = M81
-add_core = M81
+owner = CHN
+controller = CHN
+add_core = CHN
 culture = chono
 religion = animism
 capital = "Alacaluf"

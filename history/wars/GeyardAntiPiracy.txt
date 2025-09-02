@@ -6,13 +6,13 @@ war_goal = {
 }
 
 1426.2.9 = {
-	add_attacker = X17
-	add_attacker = Z21
-	add_defender = U17
+	add_attacker = GEY
+	add_attacker = UNU
+	add_defender = LTL
 }
 
 1427.4.14 = {
-	rem_attacker = X17
-	rem_attacker = Z21
-	rem_defender = U17
+	rem_attacker = GEY
+	rem_attacker = UNU
+	rem_defender = LTL
 }

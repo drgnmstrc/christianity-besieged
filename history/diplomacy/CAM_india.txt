@@ -1,6 +1,6 @@
 vassal = {
-	first = L01
-	second = L05
+	first = COA
+	second = CNC
 	start_date = 1443.12.12
 	end_date = 1457.12.31
 }

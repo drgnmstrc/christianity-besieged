@@ -1,6 +1,6 @@
-owner = R41
-controller = R41
-add_core = R41
+owner = GQH
+controller = GQH
+add_core = GQH
 trade_goods = livestock
 is_city = yes
 culture = ning

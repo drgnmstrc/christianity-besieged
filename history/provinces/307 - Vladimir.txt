@@ -1,7 +1,7 @@
 #307 - Vladimir
 
-owner = Z10
-controller = Z10 
+owner = DDK
+controller = DDK 
 culture = russian
 religion = tengri_pagan_reformed
 hre = no
@@ -11,7 +11,7 @@ trade_goods = slaves
 base_manpower = 1
 capital = "Vladimir"
 is_city = yes
-add_core = Z10
+add_core = DDK
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = eastern

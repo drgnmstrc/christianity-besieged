@@ -3,7 +3,7 @@
 owner = TFL
 controller = TFL
 add_core = TFL
-add_core = R02
+add_core = ALM
 add_core = TLC
 culture = maqil
 religion = mutazila
@@ -18,7 +18,7 @@ is_city = yes
 
 
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african

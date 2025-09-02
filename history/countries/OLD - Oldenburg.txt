@@ -6,8 +6,8 @@ religion = germanic
 technology_group = eastern
 capital = 1865
 historical_rival = LIE
-historical_rival = G09
-historical_friend = G20
+historical_rival = NMR
+historical_friend = FRI
 
 1440.2.14 = {
 	monarch = {

@@ -1,6 +1,6 @@
-add_core = R53
-owner = R53
-controller = R53
+add_core = NRI
+owner = NRI
+controller = NRI
 culture = igbo
 religion = odinani
 capital = "Owerre"
@@ -17,4 +17,4 @@ add_province_modifier = {
 }
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

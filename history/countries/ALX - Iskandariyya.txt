@@ -1,0 +1,22 @@
+government = republic
+add_government_reform = council_iskandaria_reform
+primary_culture = al_misr_arabic
+add_accepted_culture = bedouin_arabic
+religion = sunni
+technology_group = east_african
+capital = 358
+fixed_capital = 358
+add_army_professionalism = 0.1
+religious_school = hanafi_school
+government_rank = 1
+historical_friend = HSH
+
+1444.11.11 = {
+	monarch = {
+		name = "(Shura Council)"
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}

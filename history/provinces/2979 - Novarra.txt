@@ -4,7 +4,7 @@ owner = PAL
 controller = PAL 
 culture = romansh
 religion = walianitas
-add_core = H19
+add_core = TSP
 add_core = PAL
 hre = no
 base_tax = 5
@@ -18,7 +18,7 @@ is_city = yes	# Estimated
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

@@ -1,7 +1,7 @@
 # - Aysen
-owner = M80
-controller = M80
-add_core = M80
+owner = CUN
+controller = CUN
+add_core = CUN
 culture = cunco
 religion = animism
 capital = "Alacaluf"

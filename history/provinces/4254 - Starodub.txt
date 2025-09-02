@@ -1,6 +1,6 @@
 #4254 - Starodub
 
-tribal_owner = Z11
+tribal_owner = NND
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

@@ -1,8 +1,8 @@
 # No previous file for Kodiak
 
-owner = Q09
-add_core = Q09
-controller = Q09
+owner = ALU
+add_core = ALU
+controller = ALU
 culture = aleutian
 religion = totemism
 capital = "Quileute"

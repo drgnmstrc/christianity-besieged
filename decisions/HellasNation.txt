@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = H18 }
+			NOT = { exists = HLS }
 			culture_group = byzantine
 			is_colonial_nation = no
 			OR = {
@@ -45,7 +45,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
-			NOT = { exists = H18 }
+			NOT = { exists = HLS }
 			owns_core_province = 328
 			OR = {
 				owns_core_province = 142		# Corfu
@@ -77,7 +77,7 @@ country_decisions = {
 			}	
 		}
 		effect = {
-			change_tag = H18
+			change_tag = HLS
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -94,31 +94,31 @@ country_decisions = {
 						}
 					}
 				}
-				add_permanent_claim = H18
+				add_permanent_claim = HLS
 			}
 			morea_area = {
 				limit = {
 					NOT = {	owned_by = ROOT }
 				}
-				add_permanent_claim = H18
+				add_permanent_claim = HLS
 			}
 			northern_greece_area = {
 				limit = {
 					NOT = {	owned_by = ROOT }
 				}
-				add_permanent_claim = H18
+				add_permanent_claim = HLS
 			}
 			macedonia_area = {
 				limit = {
 					NOT = {	owned_by = ROOT }
 				}
-				add_permanent_claim = H18
+				add_permanent_claim = HLS
 			}
 			thrace_area = {
 				limit = {
 					NOT = {	owned_by = ROOT }
 				}
-				add_permanent_claim = H18
+				add_permanent_claim = HLS
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

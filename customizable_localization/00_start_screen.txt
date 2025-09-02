@@ -26,7 +26,7 @@ defined_text = {
     text = {
         localisation_key = string_screen_title_papacy
         trigger = {
-			tag = U01
+			tag = BTA
         }
     }
     text = {
@@ -50,9 +50,9 @@ defined_text = {
         	localisation_key = string_start_title_jajatsumis
         	trigger = {
 			OR = {
-				tag = R40
-				tag = R43
-				tag = R52
+				tag = JJA
+				tag = ZDA
+				tag = XUU
 			}
 		}
 	}	
@@ -108,13 +108,13 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_phyrgia
         	trigger = {
-			tag = H10
+			tag = PHR
 		}
 	}
 	text = {
         	localisation_key = string_start_title_syriac
         	trigger = {
-			tag = B12
+			tag = SRY
 		}
 	}
 	text = {
@@ -129,7 +129,7 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_burzafrah
         	trigger = {
-			tag = X07
+			tag = SBK
 		}
 	}
 	#Middle East
@@ -1080,7 +1080,7 @@ defined_text = {
 				tag = HOL
 				tag = BRB
 				tag = FLA
-				tag = FRI
+				tag = DAN
 				tag = UTR
 				tag = GEL
 			}

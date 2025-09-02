@@ -12,9 +12,9 @@ country_decisions = {
 			}
 			NOT = { exists = ROM }
 			NOT = { exists = U02 }
-			NOT = { exists = U15 }
-			NOT = { exists = H25 }
-			NOT = { tag = U01 }
+			NOT = { exists = RMC }
+			NOT = { exists = RME }
+			NOT = { tag = BTA }
 			NOT = { tag = HLR }
 			OR = {
 				primary_culture = italian_turk
@@ -151,9 +151,9 @@ country_decisions = {
 			}
 			NOT = { exists = ROM }
 			NOT = { exists = U02 }
-			NOT = { exists = H25 }
+			NOT = { exists = RME }
 			NOT = { tag = HLR }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			OR = {
 				ai = no
 				AND = {
@@ -231,12 +231,12 @@ country_decisions = {
 				}
 				add_accepted_culture = roman
 			}
-			change_tag = H25
+			change_tag = RME
 			if = {
 				limit = {
 					NOT = { was_tag = H28 }
 				}
-				H25 = { set_capital = 118 }
+				RME = { set_capital = 118 }
 			}
 			if = {
 				limit = { NOT = { has_reform = privilegiis_venetia } }
@@ -246,19 +246,19 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			france_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			iberia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			add_prestige = 25
 			set_country_flag = formed_rome_flag

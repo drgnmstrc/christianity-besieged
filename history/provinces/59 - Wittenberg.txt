@@ -1,8 +1,8 @@
 #59 - Wittenberg
 
-owner = N21
-controller = N21
-add_core = N21
+owner = POB
+controller = POB
+add_core = POB
 culture = polobske
 religion = slavic
 capital = "Wittenberg"
@@ -14,7 +14,7 @@ base_manpower = 2
 is_city = yes
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

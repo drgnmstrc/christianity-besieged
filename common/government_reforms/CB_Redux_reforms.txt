@@ -7,7 +7,7 @@
 frisian_invasion = { # I
 	icon = "castle"
 	potential = {
-		tag = G20
+		tag = FRI
 		current_age = age_of_discovery
 	}
 	allow_normal_conversion = no
@@ -52,7 +52,7 @@ pontic_empire_reform = { # I
 	icon = "castle"
 	potential = {
 		AND = {
-			tag = H06
+			tag = PNT
 			government = monarchy
 		}
 	}
@@ -74,8 +74,8 @@ archduchy_of_lauen_perle = { # I
 	icon = "castle"
 	potential = {
 		OR = {
-			tag = G23
-			was_tag = G23
+			tag = LAU
+			was_tag = LAU
 			has_reform = archduchy_of_lauen_perle
 			have_had_reform = archduchy_of_lauen_perle
 		}
@@ -120,7 +120,7 @@ luwian_tyranny = { # I
 	icon = "castle"
 	potential = {
 		AND = {
-			tag = H31
+			tag = ISA
 			government = monarchy
 		}
 	}
@@ -220,8 +220,8 @@ phrygian_tyranny_reform = { # I
 	potential = {
 		AND = {
 			OR = { 
-				tag = H10
-				was_tag = H10
+				tag = PHR
+				was_tag = PHR
 			}
 			NOT = { has_reform = mekalawia_dynasty_reform }
 			NOT = { has_reform = wittios_dynasty_reform }
@@ -285,7 +285,7 @@ dolgorukovids = { # I
 	potential = {
 		NOT = { has_reform = tsardom }
 		NOT = { have_had_reform = tsardom }
-		tag = Z12
+		tag = RDM
 		OR = {
 			culture_group = east_slavic
 			culture_group = eastern_slavic
@@ -301,7 +301,7 @@ dolgorukovids = { # I
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5
 	nation_designer_trigger = {
-		tag = Z12
+		tag = RDM
 	}
 	modifiers = {
 		monarch_military_power = 1
@@ -385,8 +385,8 @@ batuid_aristocracy = { # I
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			tag = Z01
-			was_tag = Z01
+			tag = BLK
+			was_tag = BLK
 		}
 	}
 	legacy_equivalent = despotic_monarchy
@@ -435,7 +435,7 @@ sebkhemerz_monarchy_reform = { # I
 	potential = {
 		government = monarchy
 		religion = manichaeism
-		tag = X07
+		tag = SBK
 	}
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
@@ -544,7 +544,7 @@ second_axarid_empire = { # I
 		dynasty = "Axarid"
 		OR = {
 			AND = {
-				tag = PER
+				tag = ERS
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -773,13 +773,13 @@ roman_tyranny_reform = { # I
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
 		OR = {
-			tag = H25
+			tag = RME
 			tag = ROM
 		}
 	}
 	trigger = {
 		OR = {
-			tag = H25
+			tag = RME
 			tag = ROM
 		}
 	}
@@ -817,7 +817,7 @@ council_iskandaria_reform = { # I
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 	}
-	potential = { tag = Y08 }
+	potential = { tag = ALX }
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
@@ -925,7 +925,7 @@ east_roman_federation_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		tag = V11
+		tag = RMN
 	}
 	modifiers = {
 		defensiveness = 0.2
@@ -981,7 +981,7 @@ syriac_church_reform = { # I
 	potential = {
 		government = theocracy
 		religion = syriac
-		tag = B12
+		tag = SRY
 	}
 	icon = "religious_leader"
 	valid_for_nation_designer = yes
@@ -1083,7 +1083,7 @@ muftate_reform = { # I
 		curia_powers_cost = -0.25
 	}
 	potential = {
-		tag = Y03
+		tag = IFR
 		religion = ashabi
 	}
 	valid_for_nation_designer = yes
@@ -1152,7 +1152,7 @@ sebkhemerz_order_reform = { # I
 	potential = {
 		government = theocracy
 		religion = manichaeism
-		tag = X07
+		tag = SBK
 	}
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes

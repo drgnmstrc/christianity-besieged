@@ -2,42 +2,42 @@
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V06
+	second = ZDN
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V07
+	second = KRN
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V08
+	second = VRA
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V09
+	second = HRA
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V10
+	second = LNZ
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = V11
+	second = RMN
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
@@ -58,7 +58,7 @@ dependency = {
 dependency = {
 	subject_type = voivode
 	first = MVA
-	second = U16
+	second = SDM
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }

@@ -2,9 +2,9 @@
 is_city = yes
 discovered_by = mesoamerican
 discovered_by = south_american
-owner = M47
-controller = M47
-add_core = M47
+owner = HIG
+controller = HIG
+add_core = HIG
 culture = arawak
 religion = animism
 capital = "Higuey"

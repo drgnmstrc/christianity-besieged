@@ -1,6 +1,6 @@
 #1753 - Kostroma
 
-tribal_owner = Z04
+tribal_owner = YNI
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

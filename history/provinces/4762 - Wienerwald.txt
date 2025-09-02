@@ -1,8 +1,8 @@
 #4762 - Wienerwald 
 
-owner = V07
-controller = V07
-add_core = V07
+owner = KRN
+controller = KRN
+add_core = KRN
 culture = slovene
 religion = slavic
 base_tax = 3
@@ -19,7 +19,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

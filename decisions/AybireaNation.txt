@@ -10,12 +10,12 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = U01 }
-			NOT = { tag = U15 }
+			NOT = { tag = BTA }
+			NOT = { tag = RMC }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = SPA }
-			NOT = { tag = J13 }
+			NOT = { tag = AYI }
 			NOT = { tag = ADU }
 			is_colonial_nation = no
 			OR = {
@@ -32,7 +32,7 @@ country_decisions = {
 			OR = {
 				ai = no
 				AND = {
-					NOT = { exists = J13 }
+					NOT = { exists = AYI }
 					num_of_cities = 6
 					any_owned_province = {
 						OR = {
@@ -79,7 +79,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = J13 }
+			NOT = { exists = AYI }
 			adm_tech = 10
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
@@ -136,7 +136,7 @@ country_decisions = {
 					complete_mission = gra_friends_in_high_places
 				}
 			}
-			change_tag = J13
+			change_tag = AYI
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -167,7 +167,7 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J13
+				add_permanent_claim = AYI
 			}
 			set_country_flag = formed_aybirea_flag
 			if = {

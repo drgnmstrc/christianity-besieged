@@ -1,6 +1,6 @@
-owner = R39
-controller = R39
-add_core = R39
+owner = OMR
+controller = OMR
+add_core = OMR
 trade_goods = spices
 is_city = yes
 culture = julhoan

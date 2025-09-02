@@ -3,5 +3,5 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = yazdi
 religion = zoroastrian
-technology_group = muslim
+technology_group = near_east
 capital = 433 # Kerman

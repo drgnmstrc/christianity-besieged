@@ -1,8 +1,8 @@
 #340 - Constantine
 
-owner = R06
-controller = R06 
-add_core = R06
+owner = SHW
+controller = SHW 
+add_core = SHW
 culture = isawiyen
 religion = mutazila
 capital = "Constantine"
@@ -14,9 +14,9 @@ base_manpower = 2
 is_city = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
 discovered_by = western
 discovered_by = western

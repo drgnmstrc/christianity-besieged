@@ -1,9 +1,9 @@
 # - Santa Cruz de la Sierra
 
 culture = jukuma
-owner = M63
-controller = M63
-add_core = M63
+owner = JUK
+controller = JUK
+add_core = JUK
 is_city = yes
 discovered_by = south_american
 discovered_by = andean

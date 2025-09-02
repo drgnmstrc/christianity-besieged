@@ -29,7 +29,7 @@ march = {
 dependency = {
 	subject_type = tributary_state
 	first = ETH
-	second = R56
+	second = BTY
 	start_date = 1325.4.2
 	end_date = 1514.3.11
 }
@@ -37,7 +37,7 @@ dependency = {
 dependency = {
 	subject_type = tributary_state
 	first = ETH
-	second = R59
+	second = DLQ
 	start_date = 1208.1.1
 	end_date = 1458.9.11
 }

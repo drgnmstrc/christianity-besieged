@@ -1,5 +1,5 @@
-owner = Y03
-controller = Y03
+owner = IFR
+controller = IFR
 culture = graeci
 religion = ashabi
 capital = "Agios Georgios"
@@ -9,14 +9,14 @@ base_tax = 2
 base_production = 1
 base_manpower = 2
 is_city = yes
-add_core = Y03
-add_core = H20
+add_core = IFR
+add_core = LCN
 
 
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

@@ -1,8 +1,8 @@
 #540 - Coromandel 
 
-owner = L05
-controller = L05
-add_core = L05
+owner = CNC
+controller = CNC
+add_core = CNC
 culture = tamil
 religion = hinduism
 capital = "Kuddaluru"
@@ -14,7 +14,7 @@ base_manpower = 3
 is_city = yes
 add_vaisyas_or_burghers_effect = yes
 discovered_by = indian
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese

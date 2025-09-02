@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = G07 }
+			NOT = { exists = SWA }
 			primary_culture = swabian
 			is_colonial_nation = no
 			OR = {
@@ -38,7 +38,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
-			NOT = { exists = G08 }
+			NOT = { exists = GLL }
 			owns_core_province = 57
 			owns_core_province = 79
 			owns_core_province = 81
@@ -46,7 +46,7 @@ country_decisions = {
 			owns_core_province = 78
 		}
 		effect = {
-			change_tag = G07
+			change_tag = SWA
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -61,7 +61,7 @@ country_decisions = {
 						NOT = { owned_by = ROOT }
 					}
 				}
-				add_permanent_claim = G07
+				add_permanent_claim = SWA
 			}
 			add_prestige = 25
 			set_country_flag = formed_swabia_flag

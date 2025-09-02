@@ -1,8 +1,8 @@
 #53 - Lüneburg
 
-owner = N02
-controller = N02
-add_core = N02
+owner = NDM
+controller = NDM
+add_core = NDM
 add_core = LUN
 culture = obotriske
 religion = slavic
@@ -18,7 +18,7 @@ is_city = yes
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

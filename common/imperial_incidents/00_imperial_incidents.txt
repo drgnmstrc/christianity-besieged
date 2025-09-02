@@ -62,7 +62,7 @@ incident_shadow_kingdom = {
 #	
 #	can_stop = {
 #		NOT = {
-#			exists = H25
+#			exists = RME
 #		}
 #	}
 #	
@@ -72,15 +72,15 @@ incident_shadow_kingdom = {
 #			factor = 100
 #			OR = {
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_friendly
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_loyal
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_allied
 #				}
 #			}
@@ -92,27 +92,27 @@ incident_shadow_kingdom = {
 #			factor = 100
 #			OR = {
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_rivalry
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_hostile
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_threatened
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_outraged
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_disloyal
 #				}
 #				ai_attitude = {
-#					who = H25
+#					who = RME
 #					attitude = attitude_rebellious
 #				}
 #			}

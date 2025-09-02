@@ -1,7 +1,7 @@
 #1933 - Bari
 
-owner = H20
-controller = H20
+owner = LCN
+controller = LCN
 culture = graeci 
 religion = ashabi 
 hre = no 
@@ -11,12 +11,12 @@ trade_goods = wine
 base_manpower = 2
 capital = "Bari"
 is_city = yes # Estimated 
-add_core = H20
+add_core = LCN
 
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

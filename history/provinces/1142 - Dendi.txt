@@ -1,9 +1,9 @@
 #1142 - Dendi
 
-owner = R87
-controller = R87
-add_core = R87
-add_core = R55
+owner = KBB
+controller = KBB
+add_core = KBB
+add_core = GAO
 culture = songhai
 is_city = yes
 base_manpower = 1
@@ -14,4 +14,4 @@ hre = no
 base_tax = 3 
 base_production = 3
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

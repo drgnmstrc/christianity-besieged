@@ -1,8 +1,8 @@
 #1186 - Sofala
 
-owner = R32
-controller = R32
-add_core = R32
+owner = TSW
+controller = TSW
+add_core = TSW
 add_core = SFA
 culture = tshwa
 religion = qanumi
@@ -14,7 +14,7 @@ hre = no
 base_tax = 3 
 base_production = 4
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = central_african
 discovered_by = sub_saharan

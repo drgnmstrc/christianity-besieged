@@ -1,8 +1,8 @@
 #1793 - El Djouf
 
-owner = B12
-controller = B12
-add_core = B12
+owner = SRY
+controller = SRY
+add_core = SRY
 culture = aramaic
 religion = syriac
 capital = "Suryayta"
@@ -12,7 +12,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 5
 is_city = yes
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern

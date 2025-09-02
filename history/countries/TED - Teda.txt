@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = toubou
+religion = imohag
+technology_group = near_east
+capital = 4973
+
+1444.1.1 = {
+	monarch = {
+		name = "Oyo"
+		dynasty = "Teda"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

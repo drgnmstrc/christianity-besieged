@@ -1,8 +1,8 @@
 #Tavastland, incl. Tavastehus.
 
-owner = V22
-controller = V22
-add_core = V22
+owner = TAV
+controller = TAV
+add_core = TAV
 culture = finnish
 religion = suomenusko
 hre = no

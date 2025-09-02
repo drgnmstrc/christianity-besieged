@@ -1,8 +1,8 @@
 #41 - Königsberg
 
-owner = N01
-controller = N01
-add_core = N01
+owner = RDJ
+controller = RDJ
+add_core = RDJ
 capital = "Königsberg"
 culture = prussian
 religion = rodoptr
@@ -16,7 +16,7 @@ fort_15th = yes
 add_core = PRU
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

@@ -1,8 +1,8 @@
 #4759 - Oberkärnten
 
-owner = G06
-controller = G06
-add_core = G06
+owner = LOM
+controller = LOM
+add_core = LOM
 culture = langobard
 religion = germanic
 base_tax = 3
@@ -17,7 +17,7 @@ hre = yes
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

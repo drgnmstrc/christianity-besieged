@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = zeneize
-religion = sol_invictus
-technology_group = ottoman
-capital = 101
-government_rank = 1

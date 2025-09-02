@@ -1,6 +1,6 @@
-owner = G04
-controller = G04
-add_core = G04
+owner = GEP
+controller = GEP
+add_core = GEP
 culture = gepidan
 religion = germanic
 capital = "Passau"
@@ -13,7 +13,7 @@ trade_goods = fish
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

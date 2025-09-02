@@ -3,7 +3,7 @@
 owner = BTS
 controller = BTS
 add_core = BTS
-add_claim = R33
+add_claim = NDZ
 culture = madagasque
 religion = hinduism
 capital = "Tsimihety"

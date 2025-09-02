@@ -1,8 +1,8 @@
 #2312 - Wasit
 
-owner = X02
-controller = X02
-add_core = X02
+owner = QTN
+controller = QTN
+add_core = QTN
 culture = kafiri
 religion = manichaeism
 capital = "Wasit"
@@ -13,7 +13,7 @@ base_production = 5
 base_manpower = 4
 is_city = yes
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = indian

@@ -5,22 +5,22 @@ country_event = {
 	desc = hashimiyidFlavor.d #The Hashimiyids call upon us in the war against the Hanafiyyah Caliphate
 	is_triggered_only = yes
 	fire_only_once = yes
-	option = { #We will gladly accept the call to arms, Caliph [Y13.Ruler.GetName]!
+	option = { #We will gladly accept the call to arms, Caliph [HSH.Ruler.GetName]!
 		name = hashimiyidFlavor.a
-		Y13 = { vassalize = MDA }
+		HSH = { vassalize = MDA }
 		add_piety = 25
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 10
-				Y13 = { ai = no }
+				HSH = { ai = no }
 			}
 		}
 	}
-	option = { #We must go our own way, [Y13.Ruler.GetTitle].
+	option = { #We must go our own way, [HSH.Ruler.GetTitle].
 		name = hashimiyidFlavor.a
 		reverse_add_opinion = {
-			who = Y13
+			who = HSH
 			modifier = rejected_the_hashimiyid_call
 		}
 		add_prestige = 10
@@ -37,7 +37,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				Y13 = { ai = no }
+				HSH = { ai = no }
 			}
 		}
 	}

@@ -2,9 +2,9 @@
 discovered_by = central_african
 discovered_by = east_african
 discovered_by = sub_saharan
-owner = R37
-controller = R37
-add_core = R37
+owner = KHL
+controller = KHL
+add_core = KHL
 culture = swahili
 religion = hanafis
 capital = "Khalija"

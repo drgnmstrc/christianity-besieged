@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = andalucian
+religion = ashabi
+technology_group = ottoman
+capital = 4699
+government_rank = 1
+historical_friend = ABN
+
+1444.1.1 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Samarid"
+		birth_date = 1412.3.30
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	queen = {
+		name = "Alya"
+		dynasty = "Samarid"
+		birth_date = 1414.1.9
+		adm = 5
+		dip = 3
+		mil = 0
+	}
+	heir = {
+		name = "Shudjisil ibn Ahmad"
+		monarch_name = "Shudjisil III"
+		dynasty = "Samarid"
+		birth_date = 1435.6.16
+		adm = 5
+		dip = 6
+		mil = 0
+	}
+}

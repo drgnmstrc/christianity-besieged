@@ -1,8 +1,8 @@
 #146 - Athens
 
-owner = Y17
-controller = Y17
-add_core = Y17
+owner = MRN
+controller = MRN
+add_core = MRN
 culture = andalucian
 religion = ashabi
 capital = "Marathuna"
@@ -12,7 +12,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western

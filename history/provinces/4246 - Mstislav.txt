@@ -1,8 +1,8 @@
 #4246 - Mstislav
 
-owner = A05
-controller = A05
-add_core = A05
+owner = BKS
+controller = BKS
+add_core = BKS
 culture = biksteder
 religion = rodoptr
 hre = no

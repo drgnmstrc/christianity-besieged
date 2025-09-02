@@ -4,9 +4,9 @@ country_decisions = {
 			religion = norse_pagan_reformed
 			primary_culture = novgorodian
 			OR = {
-				tag = A01
-				tag = A02
-				tag = A04
+				tag = NVS
+				tag = SVR
+				tag = MMR
 				tag = RUS
 			}
 			NOT = { has_country_flag = silence_settlers }
@@ -26,9 +26,9 @@ country_decisions = {
 			religion = norse_pagan_reformed
 			primary_culture = novgorodian
 			OR = {
-				tag = A01
-				tag = A02
-				tag = A04
+				tag = NVS
+				tag = SVR
+				tag = MMR
 				tag = RUS
 			}
 			has_country_flag = silence_settlers

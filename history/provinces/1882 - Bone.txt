@@ -1,8 +1,8 @@
 #340 - Constantine
 
-owner = R05
-controller = R05 
-add_core = R05
+owner = QRT
+controller = QRT 
+add_core = QRT
 culture = mutawasiti
 religion = ashabi
 capital = "Annaba"
@@ -17,9 +17,9 @@ is_city = yes
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
 discovered_by = western
 discovered_by = western

@@ -1,7 +1,7 @@
 #166 - Schwyz
 
-owner = G24
-controller = G24
+owner = LEV
+controller = LEV
 culture = alemanni
 religion = germanic
 capital = "Schwyz"
@@ -11,13 +11,13 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 is_city = yes
-add_core = G24
-add_core = H19
+add_core = LEV
+add_core = TSP
 
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

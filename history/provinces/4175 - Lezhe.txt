@@ -1,8 +1,8 @@
 #4175 - Lezhe, Scuttari, Northern Albania
 
-owner = X17
-controller = X17
-add_core = X17
+owner = GEY
+controller = GEY
+add_core = GEY
 culture = ghajaz
 religion = manichaeism
 capital = "Lezhë"
@@ -17,11 +17,11 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = east_african
 discovered_by = western
 discovered_by = western
-1393.8.21 = { add_core = Z22 }
+1393.8.21 = { add_core = CRC }

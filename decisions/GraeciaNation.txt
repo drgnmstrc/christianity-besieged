@@ -10,12 +10,12 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = U01 }
-			NOT = { tag = U15 }
+			NOT = { tag = BTA }
+			NOT = { tag = RMC }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = SPA }
-			NOT = { tag = Y23 }
+			NOT = { tag = GRC }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -24,10 +24,10 @@ country_decisions = {
 					ai = no
 				}
 			}
-			NOT = { exists = Y23 }
+			NOT = { exists = GRC }
 			OR = {
 				primary_culture = sicilian
-				tag = H20
+				tag = LCN
 			}
 		}
 		provinces_to_highlight = {
@@ -50,7 +50,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = Y23 }
+			NOT = { exists = GRC }
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -79,7 +79,7 @@ country_decisions = {
 				}
 				set_capital = 125 # Palermo
 			}
-			change_tag = Y23
+			change_tag = GRC
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

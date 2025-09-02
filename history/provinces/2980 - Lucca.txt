@@ -1,8 +1,8 @@
 # Lucca
 
-owner = U08
-controller = U08
-add_core = U08
+owner = LGU
+controller = LGU
+add_core = LGU
 culture = italian_turk
 religion = ashabi
 hre = no
@@ -14,7 +14,7 @@ capital = "Lucca"
 is_city = yes # Estimated
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

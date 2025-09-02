@@ -1,7 +1,7 @@
 #4046 - Lala
-owner = R29
-controller = R29
-add_core = R29
+owner = KLA
+controller = KLA
+add_core = KLA
 culture = bemba
 religion = qanumi
 trade_goods = gold

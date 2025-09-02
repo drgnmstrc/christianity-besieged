@@ -1,6 +1,6 @@
-owner = R54
-controller = R54
-add_core = R54
+owner = DMA
+controller = DMA
+add_core = DMA
 is_city = yes
 culture = kanuri 
 religion = sunni
@@ -15,4 +15,4 @@ native_hostileness = 9
 base_manpower = 3
 discovered_by = sub_saharan
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east

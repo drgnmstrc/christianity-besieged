@@ -1,9 +1,9 @@
 #1188 - Masapa
 
-owner = R31
-controller = R31
-add_core = R31
-add_core = R41
+owner = SNG
+controller = SNG
+add_core = SNG
+add_core = GQH
 culture = ning
 religion = qanumi
 add_core = ZIM

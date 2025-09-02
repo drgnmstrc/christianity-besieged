@@ -86,7 +86,7 @@ mamluk_revolt = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				owned_by = U01
+				owned_by = BTA
 				is_capital = yes
 			}
 		}
@@ -132,7 +132,7 @@ mamluk_revolt = {
 		}
 		if = {
 			limit = {
-				tag = U01
+				tag = BTA
 			}
 			add_stability = -1
 		}

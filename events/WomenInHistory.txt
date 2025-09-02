@@ -2296,7 +2296,7 @@ country_event = {
 	picture = wihgfx_FEMALE_RULER_eventPicture
 
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1524
 		NOT = {
 			is_year = 1578
@@ -5008,7 +5008,7 @@ country_event = {
 	picture = wihgfx_FEMALES_eventPicture
 
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1500
 		NOT = {
 			is_year = 1579

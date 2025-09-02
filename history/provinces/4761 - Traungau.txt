@@ -1,8 +1,8 @@
 #4761 - Traungau
 
-owner = G04
-controller = G04
-add_core = G04
+owner = GEP
+controller = GEP
+add_core = GEP
 culture = gepidan
 religion = germanic
 base_tax = 2
@@ -19,7 +19,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

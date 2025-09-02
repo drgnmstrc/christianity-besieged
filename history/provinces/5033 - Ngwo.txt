@@ -1,6 +1,6 @@
-owner = R80
-controller = R80
-add_core = R80
+owner = AKN
+controller = AKN
+add_core = AKN
 culture = igbo
 religion = odinani
 capital = "Akunanaw"
@@ -13,4 +13,4 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

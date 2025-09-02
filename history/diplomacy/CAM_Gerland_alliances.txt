@@ -1,7 +1,7 @@
 # dependency = {
 # 	subject_type = "norse_tribute"
-# 	first = N01
-# 	second = N20
+# 	first = RDJ
+# 	second = BRM
 # 	start_date = 1433.12.12
 # 	end_date = 1497.12.31
 # }

@@ -16,7 +16,7 @@ government_rank = 1
 		mil = 5
 	}
 }
-
+# add_ruler_personality = immortal_personality # Hahahaha jkjk lol unlesss????
 1444.9.12 = {
 	heir = {
 		name = "Averil"

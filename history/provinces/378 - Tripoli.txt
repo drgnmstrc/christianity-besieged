@@ -1,7 +1,7 @@
 #378 - Tripoli
 
-owner = SYR
-controller = SYR
+owner = PLM
+controller = PLM
 culture = phoenician
 religion = canaanism
 capital = "Trablos" #Tripoli in the East.
@@ -12,8 +12,8 @@ base_production = 7
 base_manpower = 5
 is_city = yes
 add_core = LEB
-add_core = SYR
-discovered_by = muslim
+add_core = PLM
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western

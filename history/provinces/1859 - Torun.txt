@@ -1,8 +1,8 @@
 #1859 - Torun
 
-owner = N01
-controller = N01
-add_core = N01
+owner = RDJ
+controller = RDJ
+add_core = RDJ
 capital = "Torun"
 is_city = yes
 #estate = estate_burghers
@@ -15,7 +15,7 @@ base_production = 4
 base_manpower = 2
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

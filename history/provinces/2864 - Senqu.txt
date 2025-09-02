@@ -1,6 +1,6 @@
-owner = R47
-controller = R47
-add_core = R47
+owner = SWK
+controller = SWK
+add_core = SWK
 culture = shwakhwe
 religion = qanumi
 capital = "Senqu"
@@ -12,6 +12,6 @@ base_manpower = 3
 discovered_by = central_african
 discovered_by = sub_saharan
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }

@@ -1,10 +1,10 @@
 #Galich
 
-owner = Z09
-controller = Z09
+owner = DUL
+controller = DUL
 culture = russian
 religion = tengri_pagan_reformed
-add_core = Z09
+add_core = DUL
 capital = "Galich"
 trade_goods = salt
 hre = no

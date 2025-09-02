@@ -1,8 +1,8 @@
 #355 - Sirt
 
-owner = R07
-controller = R07
-add_core = R07
+owner = BRQ
+controller = BRQ
+add_core = BRQ
 culture = almukhidi
 religion = sunni
 capital = "Ben Jawad"
@@ -18,10 +18,10 @@ add_core = TRP
 
 
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
 discovered_by = western
 discovered_by = western

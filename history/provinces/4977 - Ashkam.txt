@@ -1,6 +1,6 @@
-owner = R40
-controller = R40
-add_core = R40
+owner = JJA
+controller = JJA
+add_core = JJA
 trade_goods = copper
 is_city = yes
 culture = tsiqaleha
@@ -11,8 +11,8 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = sub_saharan

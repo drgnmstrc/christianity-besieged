@@ -1,8 +1,8 @@
 # - Wismar
 
-owner = V17
-controller = V17
-add_core = V17
+owner = WSZ
+controller = WSZ
+add_core = WSZ
 culture = obotriske
 religion = slavic
 hre = no
@@ -17,7 +17,7 @@ is_city = yes
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

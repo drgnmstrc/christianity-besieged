@@ -1,8 +1,8 @@
 #Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Råbyggelaget len)
 
-owner = N08
-controller = N08
-add_core = N08
+owner = RGF
+controller = RGF
+add_core = RGF
 culture = rygir
 religion = norse_pagan_reformed
 hre = no

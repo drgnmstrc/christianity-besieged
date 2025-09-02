@@ -1,8 +1,8 @@
 #1175 - Lesser Namaqualand
-owner = R36
-controller = R36
-add_core = R36
-add_core = R47
+owner = MJI
+controller = MJI
+add_core = MJI
+add_core = SWK
 culture = shwakhwe
 religion = qanumi
 capital = "Lesser Namaqualand"

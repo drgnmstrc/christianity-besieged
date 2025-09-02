@@ -1,18 +1,8 @@
+# No previous file for Frisjelân (G20)
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
-primary_culture = danish
-religion = germanic
+government_rank = 1
 technology_group = eastern
-capital = 100	# Groningen
-elector = yes
-
-1399.1.1 = {
-	monarch = {
-		name = "Otto IV"
-		dynasty = "Scyldingen"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
+religion = germanic
+primary_culture = dutch
+capital = 1860 #Haag

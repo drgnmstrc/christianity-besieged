@@ -1,6 +1,6 @@
 #296 - Kaluga
 
-tribal_owner = Z05
+tribal_owner = BSD
 culture = severian
 religion = slavic
 hre = no

@@ -1842,7 +1842,7 @@ muslim = {
 			ibadi
 		}
 		papacy = {
-			papal_tag = U01
+			papal_tag = BTA
 			election_cost = 5
 			seat_of_papacy = 118 # rome
 			# Papal Actions below!
@@ -1850,10 +1850,10 @@ muslim = {
 			hold_regional_debate = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					is_lacking_institutions = yes
 				}
 				effect = {
@@ -1875,10 +1875,10 @@ muslim = {
 			elevate_sayyids = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { has_country_modifier = elevating_min_ahmat_alshahb }
 					NOT = { has_country_modifier = elevating_sayyids }
 				}
@@ -1895,10 +1895,10 @@ muslim = {
 			elevate_min_ahmat_alshahb = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { has_country_modifier = elevating_min_ahmat_alshahb }
 					NOT = { has_country_modifier = elevating_sayyids }
 				}
@@ -1915,10 +1915,10 @@ muslim = {
 			issue_fatwa_for_mufti = {
 				cost = 100
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { stability = 3 }
 				}
 				effect = {
@@ -1935,10 +1935,10 @@ muslim = {
 			receive_escort_for_umrah = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { has_country_modifier = taken_an_umrah }
 				}
 				effect = {
@@ -1954,10 +1954,10 @@ muslim = {
 			proclaim_jihad = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					any_neighbor_country = {
 						NOT = { religion_group = muslim }
 					}
@@ -1983,11 +1983,11 @@ muslim = {
 			caliphial_mission_subsidies = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 					is_papal_controller = no
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { has_country_modifier = caliphial_mission_subs }
 				}
 				effect = {
@@ -2004,10 +2004,10 @@ muslim = {
 			caliphial_development_subsidies = {
 				cost = 50
 				potential = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				allow = {
-					NOT = { war_with = U01 }
+					NOT = { war_with = BTA }
 					NOT = { has_country_modifier = caliphial_development_subs }
 				}
 				effect = {

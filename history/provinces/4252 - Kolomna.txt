@@ -1,6 +1,6 @@
 #4252 - Kolomna
 
-tribal_owner = Z03
+tribal_owner = MSU
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

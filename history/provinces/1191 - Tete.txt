@@ -1,9 +1,9 @@
 #1191 - Tete
 
-owner = R31
-controller = R31
-add_core = R31
-add_core = R32
+owner = SNG
+controller = SNG
+add_core = SNG
+add_core = TSW
 culture = tshwa
 religion = qanumi
 add_core = ZIM

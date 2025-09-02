@@ -1,10 +1,10 @@
 # 310 - Novgorod
 
-owner = A01
-controller = A01   
+owner = NVS
+controller = NVS   
 culture = novgorodian
 religion = rodoptr
-add_core = A01
+add_core = NVS
 hre = no
 base_tax = 7
 base_production = 7

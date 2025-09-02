@@ -1,6 +1,6 @@
 #4263 - Sol Galitskaya
 
-tribal_owner = Z09
+tribal_owner = DUL
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

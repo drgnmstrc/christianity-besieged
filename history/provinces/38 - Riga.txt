@@ -5,7 +5,7 @@ controller = KUR
 add_core = KUR
 culture = curonian
 religion = rodoptr
-add_core = V13
+add_core = LTG
 hre = no
 base_tax = 5 
 base_production = 5
@@ -19,7 +19,7 @@ center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

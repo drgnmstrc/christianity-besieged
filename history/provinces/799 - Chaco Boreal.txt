@@ -1,5 +1,5 @@
 #799 - Chaco Boreal
-tribal_owner = M64
+tribal_owner = TOB
 culture = chacoan
 
 

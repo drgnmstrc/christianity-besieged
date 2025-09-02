@@ -6,13 +6,13 @@ rome_pagan_missions_1 = {
 		OR = {
 			tag = H28
 			was_tag = H28
-			tag = H25
+			tag = RME
 		}
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			has_country_flag = ven_rom_king_missions
 			has_country_flag = rome_fed_missions
-			tag = H25
+			tag = RME
 		}
 		has_roman_religion = yes
 	}
@@ -186,7 +186,7 @@ rome_king_missions_3 = {
 		required_missions = { venice_conquer_rome }
 		position = 9
 		trigger = {
-			tag = H25
+			tag = RME
 		}
 		effect = {
 			if = {

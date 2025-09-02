@@ -1,5 +1,5 @@
-owner = ULM
-controller = ULM
+owner = ZAU
+controller = ZAU
 capital = "Reutlingen"
 is_city = yes
 culture = ostrogothic
@@ -9,11 +9,11 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 trade_goods = grain
-add_core = ULM
+add_core = ZAU
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

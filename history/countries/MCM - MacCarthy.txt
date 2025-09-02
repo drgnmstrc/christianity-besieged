@@ -9,7 +9,7 @@ add_government_reform = irish_iqta
 government_rank = 1
 primary_culture = irish
 religion = shiite
-technology_group = muslim
+technology_group = near_east
 capital = 4378
 # Specific Effects #
 historical_friend = KSR

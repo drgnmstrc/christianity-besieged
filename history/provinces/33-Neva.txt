@@ -1,8 +1,8 @@
 #Näset + the land around the river Neva, incl. Nöteborg, Nyen and St.Petersburg.
 
-owner = V24
-controller = V24
-add_core = V24
+owner = IZH
+controller = IZH
+add_core = IZH
 culture = izhorian
 religion = suomenusko
 hre = no

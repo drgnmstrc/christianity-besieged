@@ -1,9 +1,9 @@
 #1187 - Sena
 
-owner = R31
-controller = R31
-add_core = R31
-add_core = R32
+owner = SNG
+controller = SNG
+add_core = SNG
+add_core = TSW
 culture = tshwa
 religion = qanumi
 capital = "Sena"

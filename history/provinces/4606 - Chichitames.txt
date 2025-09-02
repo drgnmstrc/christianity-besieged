@@ -3,9 +3,9 @@
 culture = chichimecan
 religion = atzintlicoatl
 is_city = yes
-owner = M03
-controller = M03
-add_core = M03
+owner = PLI
+controller = PLI
+add_core = PLI
 capital = "Chichitames" 
 trade_goods = wool
 hre = no 

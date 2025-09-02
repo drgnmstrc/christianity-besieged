@@ -1,8 +1,8 @@
 #254 - Notec
 
-owner = V14
-controller = V14
-add_core = V14
+owner = NKL
+controller = NKL
+add_core = NKL
 capital = "Naklo"
 culture = kashubian
 religion = slavic
@@ -19,7 +19,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

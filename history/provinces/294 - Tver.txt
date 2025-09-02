@@ -1,8 +1,8 @@
 #294 - Tver
 
-owner = Z08
-controller = Z08
-add_core = Z08
+owner = DUL
+controller = DUL
+add_core = DUL
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

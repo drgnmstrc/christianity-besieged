@@ -3,7 +3,7 @@ sebkhemerz_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -54,7 +54,7 @@ sebkhemerz_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -114,7 +114,7 @@ sebkhemerz_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -202,7 +202,7 @@ sebkhemerz_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -260,7 +260,7 @@ sebkhemerz_missions_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes

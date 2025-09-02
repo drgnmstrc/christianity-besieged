@@ -1,8 +1,8 @@
 #837 - Nicaragua
 
-owner = M52
-controller = M52
-add_core = M52
+owner = CNH
+controller = CNH
+add_core = CNH
 is_city = yes
 culture = miskito
 religion = quetzacoatl

@@ -1,8 +1,8 @@
 #Sjaelland, incl. København, Roskilde, Helsingør, Ringsted
 
-add_core = N03
-owner = N03
-controller = N03
+add_core = HRS
+owner = HRS
+controller = HRS
 culture = heruli
 religion = norse_pagan_reformed
 hre = no

@@ -1,7 +1,7 @@
 # No previous file for Umunchu
-add_core = R71
-owner = R71
-controller = R71
+add_core = ARO
+owner = ARO
+controller = ARO
 culture = igbo
 religion = odinani
 capital = "Umunchu"
@@ -14,4 +14,4 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

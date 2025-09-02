@@ -10,9 +10,9 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				tag = H25
-				tag = H15
-				tag = H18
+				tag = RME
+				tag = BMA
+				tag = HLS
 			}
 			any_owned_province = {
 				OR = {
@@ -106,7 +106,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				tag = U01
+				tag = BTA
 				tag = U02
 				culture_group = rumi
 			}
@@ -138,17 +138,17 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 				}
 				118 = {
 					move_capital_effect = yes
 				}
-				change_tag = U15
+				change_tag = RMC
 				set_government_rank = 3
 			}
 			if = {
 				limit = {
-					tag = U01
+					tag = BTA
 				}
 				override_country_name = RUMCALIPHATE
 				add_stability_or_adm_power = yes

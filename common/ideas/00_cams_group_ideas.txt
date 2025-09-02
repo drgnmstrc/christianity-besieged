@@ -94,12 +94,12 @@ settler_ideas = {
 	free = yes
 	trigger = {
 		OR = {
-			tag = A01
-			tag = A02
-			tag = A03
-			tag = A04
-			tag = A05
-			tag = A06
+			tag = NVS
+			tag = SVR
+			tag = DHR
+			tag = MMR
+			tag = BKS
+			tag = RDR
 		}
 	}
 	norse_birth_by_fire = {
@@ -224,7 +224,7 @@ mediterranean_ideas = {
 		culture_group = rumi
 		NOT = { primary_culture = almukhidi }
 		NOT = { primary_culture = andalucian }
-		NOT = { primary_culture = nabuthi }
+		NOT = { primary_culture = abindari }
 	}
 	free = yes
 	conquerors_farwest = {
@@ -268,9 +268,9 @@ kurudijuha_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = R40
-			tag = R43
-			tag = R21
+			tag = JJA
+			tag = ZDA
+			tag = QAA
 		}
 	}
 	free = yes
@@ -640,9 +640,9 @@ norse_finnic_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = N04
-			tag = N05
-			tag = N11
+			tag = JUL
+			tag = BDJ
+			tag = KVN
 		}
 	}
 	free = yes

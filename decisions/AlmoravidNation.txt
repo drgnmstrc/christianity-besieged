@@ -10,12 +10,12 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = U01 }
-			NOT = { tag = U15 }
+			NOT = { tag = BTA }
+			NOT = { tag = RMC }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = SPA }
-			NOT = { tag = J13 }
+			NOT = { tag = AYI }
 			NOT = { tag = ADU }
 			is_colonial_nation = no
 			OR = {
@@ -27,7 +27,7 @@ country_decisions = {
 			}
 			dynasty = "Almoravid"
 			religion_group = muslim
-			NOT = { exists = J11 }
+			NOT = { exists = LMR }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -65,7 +65,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = J11 }
+			NOT = { exists = LMR }
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -113,7 +113,7 @@ country_decisions = {
 					complete_mission = gra_friends_in_high_places
 				}
 			}
-			change_tag = J11
+			change_tag = LMR
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -145,13 +145,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J11
+				add_permanent_claim = LMR
 			}
 			upper_andalucia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J11
+				add_permanent_claim = LMR
 			}
 			toledo_area = {
 				limit = {
@@ -159,7 +159,7 @@ country_decisions = {
 						owned_by = ROOT
 					}
 				}
-				add_permanent_claim = J11
+				add_permanent_claim = LMR
 			}
 			add_permanent_claim = 218
 			add_permanent_claim = 220

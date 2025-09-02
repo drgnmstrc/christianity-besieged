@@ -3,9 +3,9 @@ rome_rep_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		#tag = H25
+		#tag = RME
 		#NOT = { map_setup = map_setup_random }
-		#NOT = { was_tag = H26 }
+		#NOT = { was_tag = LCA }
 		always = no
 	}
 	has_country_shield = yes
@@ -20,7 +20,7 @@ rome_rep_missions_1 = {
 				any_known_country = {
 					religion = germanic
 					any_owned_province = {
-						is_core = H25
+						is_core = RME
 					}
 				}
 			}
@@ -166,9 +166,9 @@ rome_rep_missions_4_privilegiis_venetia = {
 	ai = yes
 	potential = {
 		always = no
-		#tag = H25
+		#tag = RME
 		#has_reform = privilegiis_venetia
-		#NOT = { 112 = { is_capital_of = H25 } }
+		#NOT = { 112 = { is_capital_of = RME } }
 		#NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -178,7 +178,7 @@ rome_rep_missions_4_privilegiis_venetia = {
 		required_missions = {  } #None
 		position = 1
 		trigger = {
-			NOT = { exists = H25 }
+			NOT = { exists = RME }
 		}
 		effect = { #This is what you get after you finished your mission.
 			add_prestige = 10	
@@ -191,7 +191,7 @@ rome_rep_missions_5_centralized = {
 	ai = yes
 	potential = {
 		always = no
-		#tag = H25
+		#tag = RME
 		#NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes

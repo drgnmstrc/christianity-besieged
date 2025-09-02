@@ -1,6 +1,6 @@
-owner = R16
-controller = R16
-add_core = R16
+owner = SES
+controller = SES
+add_core = SES
 trade_goods = spices
 is_city = yes
 culture = julhoan
@@ -13,6 +13,6 @@ base_manpower = 1
 discovered_by = central_african
 discovered_by = sub_saharan
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }

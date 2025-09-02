@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = H15 }
+			NOT = { tag = BMA }
 			NOT = { exists = GBR }
 			NOT = { tag = HLR }
 			NOT = { tag = B09 }
@@ -44,7 +44,7 @@ country_decisions = {
 			is_nomad = no			
 			NOT = {
 				exists = B09
-				exists = H15
+				exists = BMA
 			}
 			OR = {
 				AND = {

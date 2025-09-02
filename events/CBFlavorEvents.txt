@@ -26,7 +26,7 @@ country_event = {
 	picture = CARIBBEAN_PIRATE_FORT_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = A03
+		tag = DHR
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -995,7 +995,7 @@ country_event = { #Divided and Conquered, or United? Znovuzaty
 	picture = CITY_VIEW_eventPicture
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = { tag = V11}
+	trigger = { tag = RMN}
 	option = {
 		name = CBFlavorEvents.12a
 		add_country_modifier = {
@@ -1081,10 +1081,10 @@ country_event = {#Frisian Invasion of Essex
 	immediate = {
 		hidden_effect = {
 			1860 = {
-				add_core = G20
-				cede_province = G20
+				add_core = FRI
+				cede_province = FRI
 			}
-			G20 = {
+			FRI = {
 				set_government_rank = 1
 				change_government = monarchy
 				add_government_reform = frisian_invasion
@@ -1098,7 +1098,7 @@ country_event = {#Frisian Invasion of Essex
 		trigger = {
 			NOT = { ai = yes }
 		}
-		declare_war = G20
+		declare_war = FRI
 	}
 	option = {
 		name = CBFlavorEvents.15b
@@ -1120,8 +1120,8 @@ country_event = {#Frisian Invasion of Essex
 			change_religion = germanic
 		}
 		capital_scope = { change_religion = germanic }
-		change_tag = G20
-		G20 = { integrate = FROM }
+		change_tag = FRI
+		FRI = { integrate = FROM }
 	}
 }
 country_event = {#Writing conventions of Tuthegacia
@@ -1218,10 +1218,10 @@ country_event = {#Refugees from Leventina
 	immediate = {
 		hidden_effect = {
 			1860 = {
-				add_core = G20
-				cede_province = G20
+				add_core = FRI
+				cede_province = FRI
 			}
-			G20 = {
+			FRI = {
 				set_government_rank = 1
 				change_government = monarchy
 				add_government_reform = frisian_invasion

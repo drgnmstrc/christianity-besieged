@@ -1,8 +1,8 @@
 #1161 - Bauchi
 
-owner = R84
-controller = R84
-add_core = R84
+owner = BAU
+controller = BAU
+add_core = BAU
 culture = hausa 
 religion = bori
 capital = "Bauchi"
@@ -14,6 +14,6 @@ base_manpower = 2
 discovered_by = sub_saharan
 discovered_by = central_african
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 is_city = yes
 

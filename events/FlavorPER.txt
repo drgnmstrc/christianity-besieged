@@ -85,7 +85,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1580
 		owns = 429
 		NOT = {
@@ -122,7 +122,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1590
 		owns = 429
 		NOT = {
@@ -159,7 +159,7 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1580
 		NOT = {
 			has_country_modifier = per_political_turmoil_timer
@@ -214,7 +214,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1635
 		NOT = {
 			has_country_modifier = per_political_fragmentation_timer
@@ -248,7 +248,7 @@ country_event = {
 		add_stability = -1
 		random_owned_province = {
 			limit = {
-				is_core = PER
+				is_core = ERS
 			}
 			add_base_tax = 1
 			add_base_manpower = 1
@@ -266,7 +266,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		NOT = { primary_culture = afghani }
 		NOT = { exists = AFG }
 		any_owned_province = { culture = afghani }
@@ -309,7 +309,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		NOT = { is_year = 1600 }
 	}
 
@@ -337,7 +337,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		is_year = 1620
 		NOT = { is_year = 1635 }
 	}
@@ -439,8 +439,8 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		exists = PER
-		NOT = { tag = PER }
+		exists = ERS
+		NOT = { tag = ERS }
 		is_year = 1450
 		NOT = { is_year = 1580 }
 		num_of_owned_provinces_with = {
@@ -501,7 +501,7 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_capital = no
-					is_core = PER
+					is_core = ERS
 					culture = azerbaijani
 					NOT = { has_province_flag = per_qizilbash }
 				}
@@ -519,7 +519,7 @@ country_event = {
 			spawn_rebels = {
 				type = nationalist_rebels
 				size = 1
-				friend = PER
+				friend = ERS
 			}
 		}
 		every_owned_province = {
@@ -529,7 +529,7 @@ country_event = {
 			spawn_rebels = {
 				type = nationalist_rebels
 				size = 1
-				friend = PER
+				friend = ERS
 			}
 			clr_province_flag = per_qizilbash
 		}
@@ -548,7 +548,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 		had_country_flag = { flag = per_isfahan_construction days = 3650 }
 		owns_core_province = 429
 		429 = {

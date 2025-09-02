@@ -1,26 +1,26 @@
 vassal = {
-	first = Z14
+	first = ILK
 	second = SIS
 	start_date = 1443.12.12
 	end_date = 1447.12.31
 }
 
 vassal = {
-	first = Z14
-	second = Z19
+	first = ILK
+	second = NBN
 	start_date = 1443.12.12
 	end_date = 1447.12.31
 }
 
 vassal = {
-	first = Z14
-	second = Z18
+	first = ILK
+	second = BCT
 	start_date = 1443.12.12
 	end_date = 1447.12.31
 }
 
 vassal = {
-	first = Z14
+	first = ILK
 	second = AFG
 	start_date = 1443.12.12
 	end_date = 1447.12.31
@@ -28,7 +28,7 @@ vassal = {
 
 vassal = {
 	first = CHG
-	second = Z16
+	second = SMR
 	start_date = 1443.12.12
 	end_date = 1457.12.31
 }

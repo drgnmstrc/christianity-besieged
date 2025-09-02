@@ -1,7 +1,7 @@
 #142 - Corfu
 
-owner = Y03
-controller = Y03
+owner = IFR
+controller = IFR
 culture = graeci
 religion = ashabi
 capital = "Corfu"
@@ -13,14 +13,14 @@ base_manpower = 1
 is_city = yes
 fort_15th = yes
 add_core = CEP
-add_core = Y03
-add_core = H20
+add_core = IFR
+add_core = LCN
 
 
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

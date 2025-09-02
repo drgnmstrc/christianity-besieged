@@ -1,7 +1,7 @@
 #1955 - Kholmogory
-owner = V25
-controller = V25
-add_core = V25
+owner = VPS
+controller = VPS
+add_core = VPS
 culture = veps
 religion = suomenusko #Sami Shamanism
 trade_goods = fur

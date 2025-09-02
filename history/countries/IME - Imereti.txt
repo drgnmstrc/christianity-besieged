@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = georgian
 religion = hellenism
-technology_group = muslim
+technology_group = near_east
 capital = 422 # Kutaisi
 government_rank = 1
 

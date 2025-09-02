@@ -2,9 +2,9 @@
 is_city = yes
 discovered_by = mesoamerican
 discovered_by = south_american
-owner = M48
-controller = M48
-add_core = M48
+owner = BOR
+controller = BOR
+add_core = BOR
 culture = arawak
 religion = animism
 capital = "Boriko"

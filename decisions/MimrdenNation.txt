@@ -10,8 +10,8 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = A04 }
-			tag = A03
+			NOT = { exists = MMR }
+			tag = DHR
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -37,14 +37,14 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = A04 
+				exists = MMR 
 			}
 			owns_core_province = 2410
 			owns_core_province = 284
 			owns_core_province = 285
 		}
 		effect = {
-			change_tag = A04
+			change_tag = MMR
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -56,14 +56,14 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = A04
+			add_claim = MMR
 			}
 			2412 = {
 				if = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_claim = A04
+					add_claim = MMR
 				}
 			}
 			2447 = {
@@ -71,7 +71,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_claim = A04
+					add_claim = MMR
 				}
 			}
 			287 = {
@@ -79,7 +79,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_claim = A04
+					add_claim = MMR
 				}
 			}
 			286 = {
@@ -87,7 +87,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_claim = A04
+					add_claim = MMR
 				}
 			}
 			add_prestige = 25

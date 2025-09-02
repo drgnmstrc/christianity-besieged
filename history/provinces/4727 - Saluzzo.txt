@@ -1,7 +1,7 @@
 #4727 - Saluzzo
-owner = H19
-controller = H19
-add_core = H19
+owner = TSP
+controller = TSP
+add_core = TSP
 culture = swiss
 religion = ashabi
 hre = no
@@ -13,7 +13,7 @@ capital = "Saluzzo"
 is_city = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

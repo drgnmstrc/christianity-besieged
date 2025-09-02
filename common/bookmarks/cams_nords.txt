@@ -5,13 +5,13 @@ bookmark =
 	date = "1444.11.11"
 	center = 1268
 	country = HJL
-	country = N02
+	country = NDM
 	country = WSX
 	country = NOL
 	country = HWC
-	country = N05
-	country = N03
+	country = BDJ
+	country = HRS
 	easy_country = HJL
-	easy_country = N02
+	easy_country = NDM
 	easy_country = WSX
 }

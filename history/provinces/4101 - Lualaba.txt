@@ -1,6 +1,6 @@
-owner = R29
-controller = R29
-add_core = R29
+owner = KLA
+controller = KLA
+add_core = KLA
 add_core = KZB
 culture = luba
 religion = bumuntu #Fetishism

@@ -1,8 +1,8 @@
 # No previous file for Azbin
 
-owner = R57
-controller = R57
-add_core = R57
+owner = AZW
+controller = AZW
+add_core = AZW
 add_core = AIR
 is_city = yes
 culture = tuareg
@@ -20,5 +20,5 @@ base_manpower = 2
 
 
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african

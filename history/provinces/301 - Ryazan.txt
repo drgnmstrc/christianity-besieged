@@ -1,6 +1,6 @@
 #301 - Ryazan
 
-tribal_owner = Z02
+tribal_owner = BSA
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

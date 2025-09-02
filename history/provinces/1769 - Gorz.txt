@@ -1,9 +1,9 @@
 # 1769 - Görz
-owner = U06
-controller = U06
+owner = PNN
+controller = PNN
 culture = pannici
 religion = ashabi
-add_core = U06
+add_core = PNN
 base_tax = 5 
 base_production = 5
 trade_goods = lead
@@ -16,13 +16,13 @@ hre = no
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western
 discovered_by = western
 1440.2.27 = {
-	owner = U10
-	controller = U10
-	add_core = U10
+	owner = HSR
+	controller = HSR
+	add_core = HSR
 }

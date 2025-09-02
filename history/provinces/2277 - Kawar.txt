@@ -1,8 +1,8 @@
 # No previous file for Kawar
 
-owner = R54
-controller = R54
-add_core = R54
+owner = DMA
+controller = DMA
+add_core = DMA
 add_core = AIR
 is_city = yes
 culture = tuareg 
@@ -21,7 +21,7 @@ base_manpower = 1
 
 discovered_by = sub_saharan
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 
 1444.1.1 = { add_core = KBO }
 1590.1.1 = {

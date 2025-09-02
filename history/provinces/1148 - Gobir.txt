@@ -1,8 +1,8 @@
 #1148 - Gobir
 
-owner = R51
-controller = R51
-add_core = R51
+owner = GOB
+controller = GOB
+add_core = GOB
 culture = hausa
 is_city = yes
 base_manpower = 3
@@ -16,7 +16,7 @@ base_production = 3
 
 
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east
 
 
 1514.1.1 = { owner = SON controller = SON add_core = SON } #Askiya Muhammad of Songhai seizes control 

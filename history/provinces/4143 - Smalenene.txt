@@ -1,8 +1,8 @@
 #Smålenene, incl. Mossedal, Heggen og Fröland, Vemme, RARMestad, Idd og Marker, Onsöy, Verne Kloster, Moss, Tune og Åbygge and part of Nedre Romerike.
  
-owner = N29
-controller = N29
-add_core = N29
+owner = ALF
+controller = ALF
+add_core = ALF
 culture = alfinge
 religion = norse_pagan_reformed
 hre = no

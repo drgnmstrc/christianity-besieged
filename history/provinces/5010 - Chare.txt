@@ -1,6 +1,6 @@
-owner = R19
-controller = R19
-add_core = R19
+owner = NKU
+controller = NKU
+add_core = NKU
 trade_goods = livestock
 is_city = yes
 culture = npkxaut

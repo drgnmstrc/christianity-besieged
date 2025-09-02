@@ -22,7 +22,7 @@ capital = 77	# Pfalz
 
 1438.10.18 = {
 	queen = {
-		country_of_origin = ULM
+		country_of_origin = ZAU
 		name = "Margeria"
 		dynasty = "Amalung"
 		culture = ostrogothic

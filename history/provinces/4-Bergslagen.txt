@@ -1,8 +1,8 @@
 #Bergslagen, contains Falun, Västerås etc.
 
-add_core = N11
-owner = N11
-controller = N11
+add_core = KVN
+owner = KVN
+controller = KVN
 culture = kven
 religion = norse_pagan_reformed
 hre = no

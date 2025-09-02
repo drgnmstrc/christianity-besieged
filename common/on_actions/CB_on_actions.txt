@@ -99,7 +99,7 @@ on_religion_change = {
 	if = {
 		limit = {
 			religion = ashabi
-			U01 = { has_country_modifier = isilda_reforms }
+			BTA = { has_country_modifier = isilda_reforms }
 		}
 		add_country_modifier = {
 			name = isilda_reforms
@@ -1891,7 +1891,7 @@ on_create_vassal = {
 	}
 	if = {
 		limit = {
-			tag = U01
+			tag = BTA
 		}
 		change_government = theocracy
 		change_religion = ashabi
@@ -1906,11 +1906,11 @@ on_raid_coast = {
 		limit = {
 			FROM = {
 				any_neighbor_province = {
-					owned_by = U01
+					owned_by = BTA
 				}
 			}
 		}
-		U01 = { set_country_flag = kursikan_raided_coasts }
+		BTA = { set_country_flag = kursikan_raided_coasts }
 	}
 }
 
@@ -1918,7 +1918,7 @@ on_raid_coast = {
 on_country_released = {
 	if = {
 		limit = {
-			tag = U01
+			tag = BTA
 		}
 		change_government = theocracy
 		change_religion = ashabi
@@ -1928,7 +1928,7 @@ on_country_released = {
 	if = {
 		limit = {
 			FROM = { has_reform = religious_permanent_revolution_reform }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		change_religion = FROM
 		adopt_reform_progress = FROM
@@ -1975,7 +1975,7 @@ on_conquest = {
 on_country_creation = {
 	if = {
 		limit = {
-			tag = U01
+			tag = BTA
 			OR = {
 				NOT = {
 					religion = ashabi

@@ -1,8 +1,8 @@
 # 4757 - Kolubara
 
-owner = U16
-controller = U16
-add_core = U16
+owner = SDM
+controller = SDM
+add_core = SDM
 culture = marcer
 religion = manichaeism
 capital = "Valjevo"
@@ -19,8 +19,8 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western
-1368.1.1 = { add_core = Z22 }
+1368.1.1 = { add_core = CRC }

@@ -10,7 +10,7 @@ fixed_capital = 112 # Cannot move capital away from this province & no power cos
 national_focus = DIP
 add_army_professionalism = 0.05
 government_rank = 1
-historical_friend = Z21
+historical_friend = UNU
 
 1423.4.5 = {
 	monarch = {

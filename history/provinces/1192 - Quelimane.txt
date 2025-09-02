@@ -1,8 +1,8 @@
 #1192 - Quelimane
 
-owner = R31
-controller = R31
-add_core = R31
+owner = SNG
+controller = SNG
+add_core = SNG
 add_core = SFA
 culture = swahili
 religion = shiite
@@ -14,7 +14,7 @@ hre = no
 base_tax = 3
 base_production = 3
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = central_african
 discovered_by = sub_saharan

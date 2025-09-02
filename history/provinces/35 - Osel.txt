@@ -1,8 +1,8 @@
 #Ösel and Dagö, incl. Sonnenburg and Arensburg.
 
-owner = N03
-controller = N03
-add_core = N03
+owner = HRS
+controller = HRS
+add_core = HRS
 religion = norse_pagan_reformed
 add_core = EST
 culture = heruli

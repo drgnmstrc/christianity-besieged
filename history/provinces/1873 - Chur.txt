@@ -1,8 +1,8 @@
 #1873 - Chur
 
-owner = G27
-controller = G27
-add_core = G27
+owner = GRS
+controller = GRS
+add_core = GRS
 culture = romansh
 religion = walianitas
 capital = "Chur"
@@ -15,7 +15,7 @@ is_city = yes
 fort_15th = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

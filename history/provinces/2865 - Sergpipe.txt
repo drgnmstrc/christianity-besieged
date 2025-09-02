@@ -1,8 +1,8 @@
 # - Puelches
 
-owner = M70
-controller = M70
-add_core = M70
+owner = HET
+controller = HET
+add_core = HET
 culture = het
 discovered_by = south_american
 religion = animism

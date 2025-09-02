@@ -1,9 +1,9 @@
 #145 - Morea
 
-owner = Y14
-controller = Y14
-add_core = Y14
-culture = nabuthi
+owner = ABN
+controller = ABN
+add_core = ABN
+culture = abindari
 religion = ashabi
 capital = "Sabara"
 trade_goods = wine
@@ -14,7 +14,7 @@ base_manpower = 4
 center_of_trade = 1
 extra_cost = 8
 is_city = yes
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western

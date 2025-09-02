@@ -2,7 +2,7 @@
 
 owner = CEY
 controller = CEY
-add_core = L01
+add_core = COA
 culture = sinhala
 religion = buddhism
 capital = "Devinuvara"
@@ -15,7 +15,7 @@ is_city = yes
 #estate = estate_church
 add_core = CEY
 add_local_autonomy = 25
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = chinese

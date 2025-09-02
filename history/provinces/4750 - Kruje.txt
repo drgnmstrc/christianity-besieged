@@ -1,9 +1,9 @@
 # 4750 - Krujë, Tirana, central Albania
 
-owner = Y20
-controller = Y20
-add_core = Y20
-add_claim = X07
+owner = FYT
+controller = FYT
+add_core = FYT
+add_claim = SBK
 culture = fayunlit
 religion = ashabi
 capital = "Krujë"
@@ -19,11 +19,11 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = east_african
 discovered_by = western
 discovered_by = western
-1372.5.18 = { add_core = Z22 }
+1372.5.18 = { add_core = CRC }

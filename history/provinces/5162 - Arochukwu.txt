@@ -1,7 +1,7 @@
 # No previous file for Arochukwu
-add_core = R63
-owner = R63
-controller = R63
+add_core = OBO
+owner = OBO
+controller = OBO
 culture = ibibio
 religion = inam
 capital = "Arochukwu"
@@ -16,4 +16,4 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

@@ -5,9 +5,9 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			OR = { # to prevent countries that can't form a prerequisite nation from seeing this
-				tag = Z01
+				tag = BLK
 				tag = GLH
-				tag = Z14
+				tag = ILK
 				was_never_end_game_tag_trigger = yes
 			}
 			OR = {
@@ -54,7 +54,7 @@ country_decisions = {
 				tag = YUA
 				tag = GLH
 				tag = ILK
-				tag = Z01
+				tag = BLK
 			}
 			custom_trigger_tooltip = {
 				tooltip = mongolia_decision_tooltip

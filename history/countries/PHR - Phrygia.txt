@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = phrygian_tyranny_reform
+government_rank = 2
+primary_culture = phryges
+religion = hellenism
+secondary_religion = cybelism
+technology_group = near_east
+unit_type = eastern
+capital = 326
+historical_rival = BTH
+
+1444.1.1 = {
+	monarch = {
+		name = "Aritus I"
+		dynasty = "Wittios"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

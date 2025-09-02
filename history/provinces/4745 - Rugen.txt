@@ -1,10 +1,10 @@
 # 4745 - Rügen
 
 
-owner = N03
-controller = N03
-add_core = N03
-add_permanent_claim = N01
+owner = HRS
+controller = HRS
+add_core = HRS
+add_permanent_claim = RDJ
 culture = heruli
 religion = norse_pagan_reformed
 hre = no

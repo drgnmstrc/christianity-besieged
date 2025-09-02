@@ -1,7 +1,7 @@
 dan_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = FRI
+		tag = DAN
 	}
 
 	sprite_infantry = {
@@ -29,7 +29,7 @@ dan_base_sprite_pack = {
 pru_base_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = N01
+		tag = RDJ
 	}
 
 	sprite_infantry = {

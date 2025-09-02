@@ -1,9 +1,9 @@
 #344 - Marrakech
 
-owner = R03
-controller = R03
-add_core = R03
-add_core = R02
+owner = BGW
+controller = BGW
+add_core = BGW
+add_core = ALM
 culture = masmuden
 religion = mutazila
 capital = "Marrakech"
@@ -16,7 +16,7 @@ is_city = yes
 fort_15th = yes
 discovered_by = eastern
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = western

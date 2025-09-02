@@ -8,19 +8,19 @@ province_event = {
 	    has_country_flag = silence_settlers
             OR = {
                 AND = {
-                    tag = A01
+                    tag = NVS
                     NOT = {
                         is_year = 1575
                     }
                 }
                 AND = {
-                    tag = A02
+                    tag = SVR
                     NOT = {
                         is_year = 1575
                     }
                 }
                 AND = {
-                    tag = A04
+                    tag = MMR
                     NOT = {
                         is_year = 1575
                     }
@@ -78,19 +78,19 @@ province_event = {
 	    has_country_flag = silence_settlers
             OR = {
                 AND = {
-                    tag = A01
+                    tag = NVS
                     NOT = {
                         is_year = 1575
                     }
                 }
                 AND = {
-                    tag = A02
+                    tag = SVR
                     NOT = {
                         is_year = 1575
                     }
                 }
                 AND = {
-                    tag = A04
+                    tag = MMR
                     NOT = {
                         is_year = 1575
                     }

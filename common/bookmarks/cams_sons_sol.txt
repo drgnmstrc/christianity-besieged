@@ -7,8 +7,8 @@ bookmark =
 	country = MVA
 	country = H28
 	country = AMO
-	country = V11
-	country = H03
-	country = Y20
+	country = RMN
+	country = RHO
+	country = FYT
 	easy_country = MVA
 }

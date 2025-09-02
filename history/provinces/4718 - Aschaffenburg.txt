@@ -1,6 +1,6 @@
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 capital = "Aschaffenburg"
 is_city = yes
 culture = swabian
@@ -14,7 +14,7 @@ add_core = MAI
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

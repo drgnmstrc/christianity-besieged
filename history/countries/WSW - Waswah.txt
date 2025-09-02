@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = siwi
+religion = egyptian
+technology_group = near_east
+capital = 4967
+
+1440.1.1 = {
+	monarch = {
+		name = "Amon"
+		dynasty = "Waswah"
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}

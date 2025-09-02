@@ -1,7 +1,7 @@
 # 4751 - Cilli
-owner = U06
-controller = U06
-add_core = U06
+owner = PNN
+controller = PNN
+add_core = PNN
 culture = pannici
 religion = manichaeism
 base_tax = 5
@@ -13,7 +13,7 @@ is_city = yes
 hre = no
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western
@@ -24,7 +24,7 @@ discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
 1440.2.27 = {
-	owner = Z21
-	controller = Z21
-	add_core = Z21
+	owner = UNU
+	controller = UNU
+	add_core = UNU
 }

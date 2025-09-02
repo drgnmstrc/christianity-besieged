@@ -1,7 +1,7 @@
 # No previous file for Otukpo
-owner = R85
-controller = R85
-add_core = R85
+owner = EBI
+controller = EBI
+add_core = EBI
 is_city = yes
 culture = ebira
 religion = itan
@@ -17,4 +17,4 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
 discovered_by = central_african
-discovered_by = muslim
+discovered_by = near_east

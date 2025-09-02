@@ -1,8 +1,8 @@
 #Nyland, incl. Raseborg, Borgå, Helsingfors.
 
-owner = N06
-controller = N06
-add_core = N06
+owner = NYL
+controller = NYL
+add_core = NYL
 add_core = FIN
 culture = swedish
 religion = norse_pagan_reformed

@@ -3,7 +3,7 @@ bayt_allah_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = U01
+		tag = BTA
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -371,7 +371,7 @@ bayt_allah_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = U01
+		tag = BTA
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -404,7 +404,7 @@ bayt_allah_missions_2 = {
 		required_missions = { stabilize_bayt_allah }
 		position = 2
 		trigger = {
-			NOT = { exists = H20 }
+			NOT = { exists = LCN }
 			owns_core_province = 2983
 			owns_core_province = 1934
 			owns_core_province = 2985
@@ -433,7 +433,7 @@ bayt_allah_missions_2 = {
 		required_missions = { bayt_subjugate_graeci }
 		position = 3
 		trigger = {
-			Y12 = {
+			LRP = {
 				OR = {
 					exists = no
 					is_subject = yes
@@ -441,7 +441,7 @@ bayt_allah_missions_2 = {
 				}
 			}
 			NOT = { owns = 4754 }
-			NOT = { Y12 = { overlord = { tag = ROOT } } }
+			NOT = { LRP = { overlord = { tag = ROOT } } }
 		}
 		effect = { 
 			add_piety = 5

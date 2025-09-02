@@ -1,8 +1,8 @@
 # No previous file for Logone
 
-owner = R18
-controller = R18
-add_core = R18
+owner = QSR
+controller = QSR
+add_core = QSR
 culture = baggara 
 religion = sunni
 capital = "Logone"
@@ -17,7 +17,7 @@ base_manpower = 1
 
 discovered_by = sub_saharan
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 
 1505.1.1 = {
 	owner = KBO

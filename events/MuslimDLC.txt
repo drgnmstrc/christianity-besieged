@@ -714,7 +714,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "muslim_dlc.EVTOPTB10"
+		name = "muslim_dlc.EVTOPTBRY"
 		ai_chance = {
 			factor = 33
 			modifier = {
@@ -897,7 +897,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "muslim_dlc.EVTOPTB12"
+		name = "muslim_dlc.EVTOPTSRY"
 		add_years_of_income = -0.25
 		add_ruler_modifier = {
 			name = mian_mir

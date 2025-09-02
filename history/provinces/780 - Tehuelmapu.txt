@@ -1,8 +1,8 @@
 #780 - Candelaria
 
-owner = M67
-controller = M67
-add_core = M67
+owner = GUN
+controller = GUN
+add_core = GUN
 is_city = yes
 culture = teushen
 religion = animism

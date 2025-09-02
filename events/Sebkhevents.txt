@@ -7,7 +7,7 @@ country_event = { #Spah Burzafrah's Unstoppable Will
 	picture = COMET_SIGHTED_eventPicture
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = { tag = X07 }
+	trigger = { tag = SBK }
 	option = {
 		name = sebkhevents.a
 		add_ruler_modifier = {
@@ -23,7 +23,7 @@ country_event = { #The Tragedy of Burzafrah's Demise
 	picture = KING_SICK_IN_BED_eventPicture
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = { tag = X07 }
+	trigger = { tag = SBK }
 	option = {
 		name = sebkhevents.1a
 		add_country_modifier = {

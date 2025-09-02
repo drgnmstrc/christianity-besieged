@@ -519,7 +519,7 @@ province_event = {
 		owner = {
 			primary_culture = bulgarian
 		}
-		NOT = { exists = Z01 }
+		NOT = { exists = BLK }
 	}
 
 	mean_time_to_happen = {

@@ -1,6 +1,6 @@
-add_core = R46
-owner = R46
-controller = R46
+add_core = TNY
+owner = TNY
+controller = TNY
 culture = duala
 religion = mudarian
 capital = "Tiko"
@@ -12,5 +12,5 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = sub_saharan

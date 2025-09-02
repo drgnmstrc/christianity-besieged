@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = autocracy_reform
-primary_culture = uzbehk
-religion = manichaeism
-technology_group = muslim
-capital = 457 #Tashkent
-government_rank = 1

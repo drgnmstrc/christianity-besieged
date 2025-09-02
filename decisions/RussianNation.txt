@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = RUS }
-			NOT = { exists = Z13 }
+			NOT = { exists = BUL }
 			primary_culture = novgorodian
 			any_owned_province = {
 				region = russia_region
@@ -74,7 +74,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = RUS }
-			NOT = { exists = Z13 }
+			NOT = { exists = BUL }
 			adm_tech = 10
 			if = {
 				limit = { has_dlc = "Dharma" }
@@ -163,7 +163,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = RUS }
-			NOT = { exists = Z13 }
+			NOT = { exists = BUL }
 			primary_culture = russian
 			OR = {
 				ai = no
@@ -196,7 +196,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = RUS }
-			NOT = { exists = Z13 }
+			NOT = { exists = BUL }
 			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -207,7 +207,7 @@ country_decisions = {
 			owns_core_province = 312		# Beloozero			
 		}
 		effect = {
-			change_tag = Z13
+			change_tag = BUL
 			change_technology_group = eastern
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -224,13 +224,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Z13
+				add_permanent_claim = BUL
 			}
 			crimea_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Z13
+				add_permanent_claim = BUL
 			}
 			ural_region = {
 				limit = {
@@ -239,7 +239,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = Z13
+				add_permanent_claim = BUL
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -264,16 +264,16 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = N16 }
+			NOT = { exists = STR }
 			any_owned_province = {
 				region = crimea_region
 			}
 			NOT = {
 				OR = {
 					tag = RUS
-					tag = N16
-					tag = N17
-					tag = N18
+					tag = STR
+					tag = VRG
+					tag = BLR
 				}
 			}
 			primary_culture = novgorodian
@@ -334,7 +334,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = N16 }
+			NOT = { exists = STR }
 			adm_tech = 10
 			if = {
 				limit = { has_dlc = "Dharma" }
@@ -361,7 +361,7 @@ country_decisions = {
 			}			
 		}
 		effect = {
-			change_tag = N16
+			change_tag = STR
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -377,13 +377,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N16
+				add_permanent_claim = STR
 			}
 			crimea_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N16
+				add_permanent_claim = STR
 			}
 			ural_region = {
 				limit = {
@@ -392,7 +392,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N16
+				add_permanent_claim = STR
 			}
 			ruthenia_region = {
 				limit = {
@@ -401,7 +401,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N16
+				add_permanent_claim = STR
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -425,13 +425,13 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = N17 }
+			NOT = { exists = VRG }
 			NOT = {
 				OR = {
 					tag = RUS
-					tag = N16
-					tag = N17
-					tag = N18
+					tag = STR
+					tag = VRG
+					tag = BLR
 				}
 			}
 			any_owned_province = {
@@ -468,7 +468,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = N17 }
+			NOT = { exists = VRG }
 			adm_tech = 10
 			if = {
 				limit = { has_dlc = "Dharma" }
@@ -489,7 +489,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = N17
+			change_tag = VRG
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -505,13 +505,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			poland_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			balkan_region = {
 				limit = {
@@ -520,7 +520,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			ruthenia_region = {
 				limit = {
@@ -529,7 +529,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -554,14 +554,14 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = N18 }
+			NOT = { exists = BLR }
 			NOT = {
 				OR = {
 					tag = RUS
-					tag = N16
-					tag = N17
-					tag = N18
-					tag = N01
+					tag = STR
+					tag = VRG
+					tag = BLR
+					tag = RDJ
 				}
 			}
 			OR = {
@@ -599,7 +599,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = N17 }
+			NOT = { exists = VRG }
 			adm_tech = 10
 			if = {
 				limit = { has_dlc = "Dharma" }
@@ -620,7 +620,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = N17
+			change_tag = VRG
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -636,13 +636,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			poland_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			balkan_region = {
 				limit = {
@@ -651,7 +651,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			ruthenia_region = {
 				limit = {
@@ -660,7 +660,7 @@ country_decisions = {
 					}
 					is_empty = no
 				}
-				add_permanent_claim = N17
+				add_permanent_claim = VRG
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

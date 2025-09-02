@@ -1,8 +1,8 @@
 #782 - Tierra del Fuego
 
-owner = M78
-controller = M78
-add_core = M78
+owner = SLK
+controller = SLK
+add_core = SLK
 culture = selknam
 religion = animism
 capital = "Selk'nam"

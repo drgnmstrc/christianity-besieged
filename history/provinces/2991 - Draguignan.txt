@@ -12,12 +12,12 @@ base_production = 4
 trade_goods = wool
 base_manpower = 2
 add_core = MRT
-add_core = H37
+add_core = AQG
 
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

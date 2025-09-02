@@ -1,6 +1,17 @@
 government = monarchy
 add_government_reform = iqta
 primary_culture = andalucian
-religion = sunni
-technology_group = muslim
-capital = 225	# Cordoba
+religion = ashabi
+technology_group = ottoman
+capital = 145
+government_rank = 2
+
+1444.1.1 = {
+	monarch = {
+		name = "Abdullah II"
+		dynasty = "al-Andalus"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

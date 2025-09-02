@@ -39,7 +39,7 @@ feudalism = {
 						technology_group = western
 						technology_group = eastern
 						technology_group = ottoman
-						technology_group = muslim
+						technology_group = near_east
 						technology_group = indian
 						technology_group = chinese
 						#technology_group = high_american #Is listed below as High Americans get it regardless of if Nation Designer is used.
@@ -100,10 +100,10 @@ feudalism = {
 				owner = {
 					OR = {
 						NOT = { government = tribal }
-						tag = R41
-						tag = R32
-						tag = R22
-						tag = R20
+						tag = GQH
+						tag = TSW
+						tag = XEG
+						tag = OKU
 					}
 				}
 			}
@@ -361,7 +361,7 @@ renaissance = {
 				is_year = 1450
 				OR = {
 					religion = ashabi
-					owner = { tag = Z01 }
+					owner = { tag = BLK }
 				}
 			}
 			AND = {
@@ -964,7 +964,7 @@ printing_press = {
 			}
 			AND = {
 				is_year = 1550
-				exists = H18
+				exists = HLS
 				region = anatolia_region
 			}
 			AND = {
@@ -2002,7 +2002,7 @@ enlightenment = {
 			}
 			AND = {
 				is_year = 1695
-				owner = { tag = H18 }
+				owner = { tag = HLS }
 			}
 			AND = {
 				is_year = 1705

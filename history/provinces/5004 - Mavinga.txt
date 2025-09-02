@@ -1,10 +1,10 @@
 #1793 - El Djouf
 trade_goods = iron
 is_city = yes
-owner = R27
-controller = R27
-add_core = R27
-add_core = R23
+owner = BNH
+controller = BNH
+add_core = BNH
+add_core = QUV
 culture = taa
 capital = "Mavinga"
 religion = qanumi

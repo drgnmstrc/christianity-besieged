@@ -782,7 +782,7 @@ roman_voivodes = {
 		1 = VOIVODE
 	}
 	trigger = {
-		tag = V11
+		tag = RMN
 		overlord = {
 			tag = MVA
 		}

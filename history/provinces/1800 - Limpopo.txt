@@ -1,8 +1,8 @@
 #1800 - Limpopo
 
-owner = R32
-controller = R32
-add_core = R32
+owner = TSW
+controller = TSW
+add_core = TSW
 culture = tshwa
 religion = qanumi
 capital = "Gaza"

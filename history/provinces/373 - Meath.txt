@@ -2,7 +2,7 @@
 
 owner = MTH
 controller = MTH
-add_core = J14
+add_core = NOD
 add_core = MTH
 culture = sodor
 religion = norse_pagan_reformed

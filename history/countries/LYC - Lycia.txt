@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = greek_tyranny_reform
+government_rank = 1
+primary_culture = lykiae
+religion = payidotheos
+technology_group = near_east
+capital = 2298
+
+1444.11.11 = {
+	monarch = {
+		name = "Abidan"
+		dynasty = "Nicodemus"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

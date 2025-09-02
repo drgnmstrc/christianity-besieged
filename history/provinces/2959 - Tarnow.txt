@@ -1,9 +1,9 @@
 #2959 - Tarnow
 
-owner = V04
-controller = V04
-add_core = V04
-add_core = V05
+owner = VST
+controller = VST
+add_core = VST
+add_core = LDZ
 religion = slavic
 culture = ruthenian
 capital = "Tarnów"
@@ -23,7 +23,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

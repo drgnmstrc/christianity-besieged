@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = ottoman
+primary_culture = armani
+religion = manichaeism
+capital = 3001
+government_rank = 1
+historical_friend = SBK
+historical_friend = GEY
+1444.11.11 = {
+	monarch = {
+		name = "Stoimir"
+		dynasty = Vlasho
+		birth_date = 1422.2.11	
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}

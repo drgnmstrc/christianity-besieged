@@ -1,8 +1,8 @@
 #411 - Mosul
 
-owner = X11
-controller = X11
-add_core = X11
+owner = RBY
+controller = RBY
+add_core = RBY
 culture = assyrian
 religion = manichaeism
 capital = "Al Mawsil"
@@ -14,7 +14,7 @@ base_manpower = 5
 is_city = yes
 fort_15th = yes
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = indian
 discovered_by = ottoman
 discovered_by = eastern

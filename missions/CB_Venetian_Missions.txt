@@ -404,10 +404,10 @@ venice_missions_4 = {
 		required_missions = {  }
 		trigger = {
 			reverse_has_opinion = {
-				who = Z21
+				who = UNU
 				value = 100
 			}
-			alliance_with = Z21
+			alliance_with = UNU
 		}
 		effect = {
 			add_prestige = 5
@@ -539,7 +539,7 @@ venice_missions_5 = {
 		trigger = {
 			OR = {
 				religion = noniustian
-				NOT = { alliance_with = Z21 }
+				NOT = { alliance_with = UNU }
 			}
 		}
 		effect = {

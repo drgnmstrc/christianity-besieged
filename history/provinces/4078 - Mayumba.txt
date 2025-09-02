@@ -1,6 +1,6 @@
-owner = R09
-controller = R09
-add_core = R09
+owner = MUT
+controller = MUT
+add_core = MUT
 culture = kongolese
 religion = mudarian
 capital = "Mayumba"
@@ -12,5 +12,5 @@ base_manpower = 4
 is_city = yes
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = sub_saharan

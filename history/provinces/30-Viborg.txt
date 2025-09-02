@@ -1,8 +1,8 @@
 #Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
 
-owner = V23
-controller = V23
-add_core = V23
+owner = KKS
+controller = KKS
+add_core = KKS
 culture = karelian
 religion = suomenusko
 hre = no

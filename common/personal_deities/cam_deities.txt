@@ -42,11 +42,11 @@ saint_michael = {
 		modifier = {
 			factor = 0
 			is_at_war = no
-			NOT = { tag = X07 }
+			NOT = { tag = SBK }
 		}
 		modifier = {
 			factor = 2
-			tag = X07
+			tag = SBK
 		}
 	}
 }
@@ -417,7 +417,7 @@ cybele = {
 		factor = 1
 		modifier = {
 			factor = 10
-			tag = H10
+			tag = PHR
 		}
 	}
 }

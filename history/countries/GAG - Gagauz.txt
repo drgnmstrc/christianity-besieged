@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = gagauz
+religion = manichaeism
+technology_group = near_east
+capital = 4239
+government_rank = 1

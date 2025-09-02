@@ -1,8 +1,8 @@
 #1146 - Ife
 
-owner = R89
-controller = R89
-add_core = R89
+owner = IFE
+controller = IFE
+add_core = IFE
 culture = ife
 religion = itan #Fetishism
 capital = "Ife Ile"
@@ -20,4 +20,4 @@ base_production = 1
 }
 
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

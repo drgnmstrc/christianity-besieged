@@ -1,7 +1,7 @@
-owner = R44
-controller = R44
-add_core = R44
-add_core = R37
+owner = EHM
+controller = EHM
+add_core = EHM
+add_core = KHL
 is_city = yes
 culture = khoemana
 religion = qanumi
@@ -14,8 +14,8 @@ base_manpower = 2
 discovered_by = central_african
 discovered_by = sub_saharan
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 add_province_modifier = {
 	name = liberated_slaving

@@ -16,4 +16,4 @@ add_core = JOL
 
 
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

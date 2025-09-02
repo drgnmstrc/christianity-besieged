@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = berber_tribe
 primary_culture = zenati
 religion = sunni
-technology_group = muslim
+technology_group = near_east
 capital = 4957
 religious_school = shafii_school
 

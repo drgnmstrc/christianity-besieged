@@ -1,8 +1,8 @@
 #9002 - Swazi
 
-owner = R22
-controller = R22
-add_core = R22
+owner = XEG
+controller = XEG
+add_core = XEG
 culture = xegwe
 religion = qanumi
 capital = "Mbabane"

@@ -1,8 +1,8 @@
 # - Sale
 
-owner = R02
-controller = R02
-add_core = R02
+owner = ALM
+controller = ALM
+add_core = ALM
 culture = sahrawi
 religion = sunni
 capital = "Sale"
@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = western

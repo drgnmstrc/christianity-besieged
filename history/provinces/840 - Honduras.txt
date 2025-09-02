@@ -1,9 +1,9 @@
 #840 - Honduras
 is_city = yes
 culture = miskito
-owner = M39
-controller = M39
-add_core = M39
+owner = SSL
+controller = SSL
+add_core = SSL
 religion = quetzacoatl
 capital = "Honduras" 
 trade_goods = fish

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = berber_tribe
+government_rank = 1
+primary_culture = maqil
+religion = mutazila
+technology_group = near_east
+capital = 1127
+
+1444.1.1 = {
+	monarch = {
+		name = "Omeir"
+		dynasty = "Sulyamid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

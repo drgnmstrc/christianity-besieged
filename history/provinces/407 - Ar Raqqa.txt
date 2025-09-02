@@ -1,8 +1,8 @@
 #407 - Ar-Raqqah
 
-owner = X08
-controller = X08
-add_core = X08
+owner = OSR
+controller = OSR
+add_core = OSR
 culture = kurdish
 religion = manichaeism
 capital = "Ar Raqqa"
@@ -15,7 +15,7 @@ is_city = yes
 center_of_trade = 1
 extra_cost = 8
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern

@@ -91,7 +91,7 @@ gepid_ideas = {
 		fort_maintenance_modifier = -0.25
 	}
 	trigger = {
-		tag = G04
+		tag = GEP
 	}
 	free = yes
 	guardians_of_alps = {
@@ -132,7 +132,7 @@ gerlandic_ideas = {
 		drill_gain_modifier = 0.05
 	}
 	trigger = {
-		tag = N01
+		tag = RDJ
 	}
 	free = yes
 	redirecting_germany = {
@@ -297,7 +297,7 @@ house_of_god_ideas = {
 	}
 	free = yes
 	trigger = {
-		tag = U01
+		tag = BTA
 	}
 	caliph_dues = {
 		global_tax_modifier = 0.2
@@ -336,7 +336,7 @@ phrygian_ideas = {
 	}
 	
 	trigger = {
-		tag = H10
+		tag = PHR
 	}
 	free = yes		#will be added at load.
 	anatolian_legacy = {
@@ -425,7 +425,7 @@ pontic_ideas = {
 		num_accepted_cultures = 2
 	}
 	trigger = {
-		tag = H06
+		tag = PNT
 	}
 	free = yes
 	heir_to_anatolia = {
@@ -466,7 +466,7 @@ isaurian_ideas = {
 		culture_conversion_cost = -0.25
 	}
 	trigger = {
-		tag = H31
+		tag = ISA
 	}
 	free = yes
 	time_for_isaurian_expansion = {
@@ -546,7 +546,7 @@ balik_ideas = {
 		state_maintenance_modifier = -0.15
 	}
 	trigger = {
-		tag = Z01
+		tag = BLK
 	}
 	free = yes
 	legacy_balik_khans = {
@@ -586,7 +586,7 @@ sebkhemerzi_ideas = {
 		rebel_support_efficiency = 0.5
 	}
 	trigger = {
-		tag = X07
+		tag = SBK
 	}
 	free = yes
 	legacy_ewarzdagr = {
@@ -616,7 +616,7 @@ sebkhemerzi_ideas = {
 	}
 }
 
-nabuthi_ideas = {
+abindari_ideas = {
 	start = {
 		global_missionary_strength = 0.015
 		papal_influence = 0.5
@@ -628,7 +628,7 @@ nabuthi_ideas = {
 	}
 	free = yes
 	trigger = {
-		tag = Y14
+		tag = ABN
 	}
 	the_first_arabians = {
 		same_culture_advisor_cost = -0.25
@@ -640,7 +640,7 @@ nabuthi_ideas = {
 		galley_power = 0.05
 		naval_morale = 0.05
 	}
-	influence_from_egypt_nabuthia = {
+	influence_from_egypt_abindaria = {
 		culture_conversion_cost = -0.25
 	}
 	weathering_post_haladri_era = {
@@ -651,7 +651,7 @@ nabuthi_ideas = {
 		improve_relation_modifier = 0.15
 		diplomatic_reputation = 1
 	}
-	nabuthia_islamic_educational_center = {
+	abindaria_islamic_educational_center = {
 		advisor_pool = 1
 		development_cost = -0.1
 	}
@@ -669,7 +669,7 @@ saray_turkig_ideas = {
 		global_supply_limit_modifier = 0.1
 	}
 	trigger = {
-		tag = Z21
+		tag = UNU
 	}
 	free = yes
 	legacy_of_the_khaganate = {
@@ -749,7 +749,7 @@ skithi_ideas = {
 		yearly_absolutism = 0.15
 	}
 	trigger = {
-		tag = X20
+		tag = SZK
 	}
 	free = yes
 	skithi_magyar_legacy = {
@@ -870,7 +870,7 @@ palmyrene_ideas = {
 		global_ship_cost = -0.15
 	}
 	trigger = {
-		tag = SYR
+		tag = PLM
 	}
 	free = yes
 	syr_eunuchs = {
@@ -986,7 +986,7 @@ yehudah_ideas = {
 	}
 	
 	trigger = {
-		tag = X05
+		tag = JUD
 	}
 	free = yes
 	surviving_roman_dark_age = {
@@ -1075,7 +1075,7 @@ eransahr_ideas = {
 	}
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 	}
 	free = yes
 	eransahr_thatta_destruction = {
@@ -1117,7 +1117,7 @@ dolgorukov_ideas = {
 	}
 	
 	trigger = {
-		tag = Z12
+		tag = RDM
 	}
 	free = yes
 	dolgorukov_bloodthirst = {

@@ -1,2 +1,2 @@
 discovered_by = indian
-1444.1.1 = { discovered_by = R34 }
+1444.1.1 = { discovered_by = MSH }

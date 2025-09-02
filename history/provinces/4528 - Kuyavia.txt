@@ -1,8 +1,8 @@
 # Kuyavia
 
-owner = V03
-controller = V03
-add_core = V03
+owner = PLN
+controller = PLN
+add_core = PLN
 religion = slavic
 capital = "Brzesc Kujawski"
 culture = polish
@@ -21,7 +21,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

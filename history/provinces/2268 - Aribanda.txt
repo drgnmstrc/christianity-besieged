@@ -1,8 +1,8 @@
 # No previous file for Aribanda
 
-owner = R55
-controller = R55
-add_core = R55
+owner = GAO
+controller = GAO
+add_core = GAO
 is_city = yes
 culture = songhai 
 religion = sunni
@@ -16,4 +16,4 @@ native_ferocity = 4
 native_hostileness = 9
 base_manpower = 1
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

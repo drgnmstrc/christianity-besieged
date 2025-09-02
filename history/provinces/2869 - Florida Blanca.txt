@@ -1,8 +1,8 @@
 # - Florida Blanca
 
-owner = M69
-controller = M69
-add_core = M69
+owner = AEN
+controller = AEN
+add_core = AEN
 culture = teushen
 religion = animism
 capital = "Florida Blanca"

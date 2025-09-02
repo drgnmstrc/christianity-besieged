@@ -1,7 +1,7 @@
 #4774 - Fulda
-owner = G34
-controller = G34
-add_core = G34
+owner = KSS
+controller = KSS
+add_core = KSS
 culture = swabian
 religion = germanic
 base_tax = 2
@@ -15,7 +15,7 @@ hre = yes
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

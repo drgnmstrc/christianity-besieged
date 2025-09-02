@@ -1,7 +1,7 @@
 #Kola
-owner = V21
-controller = V21
-add_core = V21
+owner = SKO
+controller = SKO
+add_core = SKO
 trade_goods = unknown
 native_size = 50
 native_ferocity = 2

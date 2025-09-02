@@ -1,48 +1,48 @@
 vassal = {
-	first = U01
-	second = U12
+	first = BTA
+	second = SMN
 	start_date = 1443.12.12
 	end_date = 1460.11.11
 }
 
 vassal = {
-	first = U01
-	second = U13
+	first = BTA
+	second = PCM
 	start_date = 1443.12.12
 	end_date = 1460.11.11
 }
 
 vassal = {
-	first = Z01
+	first = BLK
 	second = U05
 	start_date = 1443.12.12
 	end_date = 1460.11.11
 }
 
 guarantee = {
-	first = Y03
-	second = Y12
+	first = IFR
+	second = LRP
 	start_date = 1428.3.12
 	end_date = 1624.9.13
 }
 
 guarantee = {
-	first = Y03
-	second = Y17
+	first = IFR
+	second = MRN
 	start_date = 1106.12.12
 	end_date = 1624.9.13
 }
 
 vassal = {
-	first = Y03
-	second = Y19
+	first = IFR
+	second = TSK
 	start_date = 1443.12.12
 	end_date = 1460.11.11
 }
 
 guarantee = {
-	first = U01
-	second = Y14
+	first = BTA
+	second = ABN
 	start_date = 1106.12.12
 	end_date = 1624.9.13
 }

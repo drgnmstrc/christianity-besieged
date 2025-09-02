@@ -1,6 +1,6 @@
-owner = R20
-controller = R20
-add_core = R20
+owner = OKU
+controller = OKU
+add_core = OKU
 trade_goods = iron
 is_city = yes
 culture = okung
@@ -11,8 +11,8 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = sub_saharan

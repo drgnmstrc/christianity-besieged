@@ -1,6 +1,6 @@
-owner = R23
-controller = R23
-add_core = R23
+owner = QUV
+controller = QUV
+add_core = QUV
 trade_goods = silk
 is_city = yes
 culture = taa
@@ -12,9 +12,9 @@ base_production = 7
 base_manpower = 3
 center_of_trade = 2
 1435.11.1 = {
-	owner = R49
-	controller = R49
-	add_core = R49
+	owner = TSM
+	controller = TSM
+	add_core = TSM
 }
 discovered_by = central_african
 discovered_by = sub_saharan

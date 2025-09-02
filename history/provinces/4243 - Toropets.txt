@@ -2,7 +2,7 @@
  
 culture = krivich
 religion = slavic
-tribal_owner = PLT
+tribal_owner = KRV
 hre = no
 base_tax = 3
 base_production = 3

@@ -1,7 +1,7 @@
 #118 - Roma
 
-owner = U01
-controller = U01
+owner = BTA
+controller = BTA
 culture = italian_turk
 religion = ashabi 
 hre = no
@@ -12,10 +12,10 @@ base_manpower = 6
 capital = "Roma"
 is_city = yes
 fort_15th = yes #Castel Sant'Angelo
-add_core = U01
+add_core = BTA
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

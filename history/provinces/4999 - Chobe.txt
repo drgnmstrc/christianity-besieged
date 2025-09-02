@@ -1,6 +1,6 @@
-owner = R23
-controller = R23
-add_core = R23
+owner = QUV
+controller = QUV
+add_core = QUV
 trade_goods = gold
 is_city = yes
 culture = taa
@@ -11,9 +11,9 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 1435.11.1 = {
-	owner = R50
-	controller = R50
+	owner = CHB
+	controller = CHB
 }
-add_core = R50
+add_core = CHB
 discovered_by = central_african
 discovered_by = sub_saharan

@@ -2,9 +2,9 @@
 
 
 culture = lacandon
-owner = M38
-controller = M38
-add_core = M38
+owner = SSA
+controller = SSA
+add_core = SSA
 add_core = LAC
 is_city = yes
 religion = mesoamerican_religion

@@ -4,7 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = inuit_reformed }
-			NOT = { tag = Q11 }
+			NOT = { tag = INM }
 			capital_scope = {
 				continent = north_america
 			}
@@ -38,7 +38,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = Q11
+				exists = INM
 			}
 			owns_core_province = 973
 			owns_core_province = 2597
@@ -52,14 +52,14 @@ country_decisions = {
 			custom_tooltip = inuit_reform_tt
 			hidden_effect = {
 				set_country_flag = inuit_reformed
-				release = Q09
-				release = Q01
-				release = Q02
+				release = ALU
+				release = ISU
+				release = INU
 				release = WCR
-				release = Q04
-				release = Q07
-				release = Q05
-				release = Q06
+				release = VIM
+				release = NUN
+				release = NNV
+				release = QIQ
 			}
 		}
 		ai_will_do = {
@@ -73,7 +73,7 @@ country_decisions = {
 		potential = {
 			has_country_flag = inuit_reformed
 			NOT = { has_country_flag = formed_inuit_empire_flag }
-			NOT = { tag = Q11 }
+			NOT = { tag = INM }
 			religion = ikniksugritism
 			is_colonial_nation = no
 			OR = {
@@ -104,7 +104,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = Q11
+				exists = INM
 			}
 			owns_core_province = 973
 			owns_core_province = 2597
@@ -115,7 +115,7 @@ country_decisions = {
 			owns_core_province = 2576
 		}
 		effect = {
-			change_tag = Q11
+			change_tag = INM
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -127,25 +127,25 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Q11
+				add_permanent_claim = INM
 			}
 			cascadia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Q11
+				add_permanent_claim = INM
 			}
 			great_lakes_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Q11
+				add_permanent_claim = INM
 			}
 			northeast_america_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = Q11
+				add_permanent_claim = INM
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

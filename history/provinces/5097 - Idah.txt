@@ -1,9 +1,9 @@
 # No previous file for Idah
 culture = afenmai
 religion = itan
-owner = R81
-controller = R81
-add_core = R81
+owner = AFE
+controller = AFE
+add_core = AFE
 capital = "Auchi"
 hre = no
 is_city = yes
@@ -15,4 +15,4 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

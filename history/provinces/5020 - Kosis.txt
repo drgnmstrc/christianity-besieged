@@ -1,6 +1,6 @@
-owner = R39
-controller = R39
-add_core = R39
+owner = OMR
+controller = OMR
+add_core = OMR
 trade_goods = livestock
 is_city = yes
 culture = julhoan
@@ -11,8 +11,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = sub_saharan

@@ -1,8 +1,8 @@
 #1951 - Hunyad
 
-owner = V11
-controller = V11
-add_core = V11
+owner = RMN
+controller = RMN
+add_core = RMN
 culture = slavo_romanian
 religion = zamolxism
 capital = "Turda"
@@ -19,7 +19,7 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

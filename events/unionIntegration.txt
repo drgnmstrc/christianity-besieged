@@ -132,15 +132,15 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						J12 = { is_subject_of = ROOT }
-						J12 = { alliance_with = ROOT }
+						CIT = { is_subject_of = ROOT }
+						CIT = { alliance_with = ROOT }
 					}
 				}
-				J12 = {
+				CIT = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
-					inherit = J12
+					inherit = CIT
 				}
 			}
 			if = {
@@ -242,7 +242,7 @@ country_event = {
 						}
 					}
 					add_opinion = {
-						who = J06
+						who = IBE
 						modifier = appreciate_iberian_autonomy
 					}
 				}
@@ -418,7 +418,7 @@ country_event = {
 						}
 					}
 					add_opinion = {
-						who = J06
+						who = IBE
 						modifier = oppressing_aybirean_faithful
 					}
 				}

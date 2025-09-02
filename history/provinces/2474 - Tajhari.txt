@@ -1,7 +1,7 @@
 # - Tajhari (Idehan Murzuq)
-owner = R11
-controller = R11
-add_core = R11
+owner = DZG
+controller = DZG
+add_core = DZG
 is_city = yes
 culture = toubou
 religion = imohag
@@ -17,7 +17,7 @@ native_hostileness = 9
 
 
 
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african

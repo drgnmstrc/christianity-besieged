@@ -2,9 +2,9 @@
 
 culture = inupiat
 religion = ikniksugritism
-owner = Q01
-controller = Q01
-add_core = Q01
+owner = ISU
+controller = ISU
+add_core = ISU
 is_city = yes
 capital = "Manitoba"
 trade_goods = fur

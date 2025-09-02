@@ -3,7 +3,7 @@
 owner = GHD
 controller = GHD 
 add_core = GHD
-add_core = R07
+add_core = BRQ
 add_core = TRP
 culture = isawiyen
 religion = sunni
@@ -18,10 +18,10 @@ is_city = yes
 
 
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
 discovered_by = western
 discovered_by = western

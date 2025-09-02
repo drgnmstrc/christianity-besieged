@@ -10783,7 +10783,7 @@ country_event = {
 		add_dip_power = 75
 	}
 	option = {
-		name = "random_event.EVTOPTB10"
+		name = "random_event.EVTOPTBRY"
 		add_years_of_income = 0.2
 		add_mercantilism = -2
 	}

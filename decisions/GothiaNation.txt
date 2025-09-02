@@ -10,8 +10,8 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = G01 }
-			NOT = { tag = G03 }
+			NOT = { exists = GTH }
+			NOT = { tag = OST }
 			OR = {
 				primary_culture = gothic
 				primary_culture = ostrogothic
@@ -40,7 +40,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = G01
+				exists = GTH
 			}
 			owns_core_province = 4719
 			num_of_cities = 8
@@ -50,7 +50,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = G01
+			change_tag = GTH
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
@@ -61,67 +61,67 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			languedoc_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			provence_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			guyenne_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			massif_central_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			savoy_dauphine_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			orleans_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			west_burgundy_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			ile_de_france_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			loire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			poitou_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = G01
+			add_claim = GTH
 			}
 			add_prestige = 25
 			set_country_flag = formed_gothia_flag

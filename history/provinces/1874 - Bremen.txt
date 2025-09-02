@@ -1,8 +1,8 @@
 #1874 - Bremen
 
-owner = FRI
-controller = FRI
-add_core = FRI
+owner = DAN
+controller = DAN
+add_core = DAN
 culture = danish
 religion = germanic
 capital = "Brema"
@@ -15,7 +15,7 @@ is_city = yes
 fort_15th = yes
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

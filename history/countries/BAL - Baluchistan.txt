@@ -3,7 +3,7 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = baluchi
 religion = manichaeism
-technology_group = muslim
+technology_group = near_east
 capital = 577	# Quetta
 
 #Mirwaris, ancestors of later Kambarani dynasty:

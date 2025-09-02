@@ -1,10 +1,10 @@
 #4148 - Luki
 
-tribal_owner = PLT
+tribal_owner = KRV
 culture = krivich
 religion = slavic
-add_core = PLT
-add_core = A02
+add_core = KRV
+add_core = SVR
 hre = no
 base_tax = 2
 base_production = 2

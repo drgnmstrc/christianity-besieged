@@ -1,8 +1,8 @@
 #410 - Iraq-i-Arab
 
-owner = X04
-controller = X04
-add_core = X04
+owner = ASO
+controller = ASO
+add_core = ASO
 culture = assyrian
 religion = manichaeism
 capital = "Babylon"
@@ -14,7 +14,7 @@ base_manpower = 7
 is_city = yes
 fort_15th = yes
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = indian

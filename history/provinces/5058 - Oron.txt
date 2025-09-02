@@ -1,7 +1,7 @@
 # No previous file for Oron
-add_core = R24
-owner = R24
-controller = R24
+add_core = BLD
+owner = BLD
+controller = BLD
 culture = ibibio
 religion = inam
 capital = "Oron"
@@ -12,5 +12,5 @@ base_production = 1
 base_manpower = 1
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = sub_saharan

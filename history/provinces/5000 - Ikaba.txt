@@ -1,6 +1,6 @@
-owner = R23
-controller = R23
-add_core = R23
+owner = QUV
+controller = QUV
+add_core = QUV
 trade_goods = livestock
 is_city = yes
 culture = taa

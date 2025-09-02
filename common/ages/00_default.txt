@@ -429,7 +429,7 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
-				tag = PER
+				tag = ERS
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3

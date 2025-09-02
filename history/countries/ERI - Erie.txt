@@ -1,19 +1,17 @@
-# No previous file for Erie
-
-government = native
-add_government_reform = native_clan_council_reform
-government_rank = 1
+government = monarchy
+add_government_reform = autocracy_reform
 primary_culture = erie
 religion = totemism
 technology_group = north_american
-capital = 954
+capital = 947
+
 
 1444.11.11 = {
 	monarch = {
-		name = "Native Council"
+		name = "Sak"
+		dynasty = "Tiocha"
 		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
+		dip = 2
+		mil = 6
 	}
 }

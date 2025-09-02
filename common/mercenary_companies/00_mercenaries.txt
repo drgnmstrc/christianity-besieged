@@ -6,7 +6,7 @@ airskhemerz = {
 	home_province = 159
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		exists = X07
+		exists = SBK
 		religion = manichaeism
 	}
 	cost_modifier = 1.25
@@ -85,7 +85,7 @@ tarkhafaris = {
 	cavalry_weight = 1
 	sprites = { dlc048_gol_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		NOT = { exists = Z01 }
+		NOT = { exists = BLK }
 		148 = {
 			NOT = { culture = tarkhagan }
 		}
@@ -214,8 +214,8 @@ turkigs_of_habaspans = {
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		OR = {
-			exists = Z21
-			exists = X07
+			exists = UNU
+			exists = SBK
 			140 = { culture = turkig }
 			OR = {
 				religion_group = slavic_pagan

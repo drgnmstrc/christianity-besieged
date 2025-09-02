@@ -1,8 +1,8 @@
 #4249 - Zubtsov
 
-owner = V27
-controller = V27
-add_core = V27
+owner = VYA
+controller = VYA
+add_core = VYA
 culture = slovenski
 religion = slavic
 hre = no

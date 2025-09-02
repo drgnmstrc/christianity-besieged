@@ -1,8 +1,8 @@
 # No previous file for Xicaque
 
-owner = M39
-controller = M39
-add_core = M39
+owner = SSL
+controller = SSL
+add_core = SSL
 culture = miskito
 religion = quetzacoatl
 is_city = yes

@@ -1,7 +1,20 @@
 government = monarchy
-add_government_reform = iqta
-primary_culture = mongol
-religion = sunni
-technology_group = muslim
-capital = 4338 # soltaniyeh
-add_accepted_culture = persian
+add_government_reform = feudalism_reform
+primary_culture = sindhi
+add_accepted_culture = baluchi
+religion = manichaeism
+technology_group = near_east
+capital = 504 #Thatta
+
+1444.1.1 = {
+	monarch = {
+		name = "Ghodan"
+		dynasty = "Borjigin"
+		birth_date = 1376.9.1
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+}

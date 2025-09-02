@@ -1,8 +1,8 @@
 #Finland, incl. Åbo.
 
-owner = N33
-controller = N33
-add_core = N33
+owner = ABO
+controller = ABO
+add_core = ABO
 culture = swedish
 religion = norse_pagan_reformed
 hre = no

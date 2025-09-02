@@ -1,10 +1,10 @@
 #1875 - Cuneo (can't change filename)
 
-owner = H19
-controller = H19
+owner = TSP
+controller = TSP
 culture = swiss
 religion = ashabi
-add_core = H19
+add_core = TSP
 hre = no
 base_tax = 4
 base_production = 4
@@ -17,7 +17,7 @@ is_city = yes		# Estimated
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

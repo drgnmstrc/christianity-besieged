@@ -1,8 +1,8 @@
 culture = ijebu
 religion = itan
-owner = R66
-controller = R66
-add_core = R66
+owner = IJE
+controller = IJE
+add_core = IJE
 capital = "Ijebu Ode"
 hre = no
 is_city = yes
@@ -14,4 +14,4 @@ base_manpower = 2
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

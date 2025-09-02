@@ -1,11 +1,11 @@
 #1190 - Zumbo
 
-owner = R31
-controller = R31
-add_core = R31
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = ning
 religion = qanumi
-add_core = R41
+add_core = GQH
 is_city = yes
 capital = "Chikova"
 trade_goods = exotic_fur

@@ -1,6 +1,6 @@
-owner = R42
-controller = R42
-add_core = R42
+owner = TST
+controller = TST
+add_core = TST
 trade_goods = spices
 is_city = yes
 culture = taa

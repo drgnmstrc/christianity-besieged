@@ -1,8 +1,8 @@
 #1196 - Kilwa
 
-owner = R61
-controller = R61
-add_core = R61
+owner = KLW
+controller = KLW
+add_core = KLW
 culture = swahili
 religion = shiite
 capital = "Kilwa Kisiwani"
@@ -14,7 +14,7 @@ base_tax = 4
 base_production = 4
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = central_african
 discovered_by = sub_saharan

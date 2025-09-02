@@ -1,9 +1,9 @@
 #489 - Tortuga
 
 culture = arawak
-owner = M41
-controller = M41
-add_core = M41
+owner = OXA
+controller = OXA
+add_core = OXA
 is_city = yes
 discovered_by = mesoamerican
 discovered_by = south_american

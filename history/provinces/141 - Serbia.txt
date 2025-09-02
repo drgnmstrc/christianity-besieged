@@ -1,8 +1,8 @@
 #141 - Serbia
 
-owner = U16
-controller = U16
-add_core = U16
+owner = SDM
+controller = SDM
+add_core = SDM
 culture = marcer
 religion = manichaeism
 capital = "Smederevo"
@@ -16,12 +16,12 @@ fort_15th = yes
 discovered_by = nomad_group
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western
 1440.2.27 = {
-	owner = X07
-	controller = X07
-	add_core = X07
+	owner = SBK
+	controller = SBK
+	add_core = SBK
 }

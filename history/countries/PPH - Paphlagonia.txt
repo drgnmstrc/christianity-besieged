@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = greek_tyranny_reform
+primary_culture = pondii
+religion = hellenism
+technology_group = near_east
+capital = 328
+
+1429.10.29 = {
+	monarch = {
+		name = "Ionia"
+		dynasty = "Komnenos"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

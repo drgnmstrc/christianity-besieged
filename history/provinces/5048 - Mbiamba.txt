@@ -1,6 +1,6 @@
-add_core = R79
-owner = R79
-controller = R79
+add_core = AGB
+owner = AGB
+controller = AGB
 culture = urhobo
 religion = oghene
 capital = "Agbarho"
@@ -13,4 +13,4 @@ base_manpower = 1
 
 discovered_by = central_african
 discovered_by = sub_saharan
-discovered_by = muslim
+discovered_by = near_east

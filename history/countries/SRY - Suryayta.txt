@@ -1,0 +1,15 @@
+government = theocracy
+add_government_reform = syriac_church_reform
+primary_culture = aramaic
+religion = syriac
+technology_group = near_east
+capital = 2313
+government_rank = 1
+1444.1.1 = {
+	monarch = {
+		name = "Simon IX"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

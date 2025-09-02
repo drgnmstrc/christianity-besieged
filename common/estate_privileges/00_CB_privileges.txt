@@ -221,11 +221,11 @@ estate_gangans_ikenga_privileges = {
 	loyalty = 0
 	influence = 0.25
 	is_valid = {
-		tag = R53
+		tag = NRI
 		NOT = {
 			any_known_country = {
 				has_won_war_against = {
-					who = R53
+					who = NRI
 					max_years_since = 1000
 				}
 			}

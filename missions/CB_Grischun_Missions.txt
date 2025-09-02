@@ -4,8 +4,8 @@ grischun_missions_3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = G27
-			was_tag = G27
+			tag = GRS
+			was_tag = GRS
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -19,8 +19,8 @@ grischun_missions_3 = {
 			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
 		effect = { #This is what you get after you finished your mission.
-			1870 = { add_permanent_claim = G27 }
-			166 = { add_permanent_claim = G27 }
+			1870 = { add_permanent_claim = GRS }
+			166 = { add_permanent_claim = GRS }
 		}
 	}
 
@@ -29,7 +29,7 @@ grischun_missions_3 = {
 		required_missions = { grischun_campaign_preparations }
 		position = 2
 		trigger = {
-			war_with = G24
+			war_with = LEV
 		}
 		effect = { #This is what you get after you finished your mission.
 			add_country_modifier = {

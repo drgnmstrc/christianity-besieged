@@ -1,6 +1,6 @@
 #4123 - Birkaland
 
-tribal_owner = V22
+tribal_owner = TAV
 culture = finnish
 religion = suomenusko
 hre = no

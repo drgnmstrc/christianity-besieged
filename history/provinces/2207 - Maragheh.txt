@@ -1,10 +1,10 @@
 #2207 - Maragheh
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = median
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Marageh"
 trade_goods = wool
 hre = no
@@ -12,7 +12,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western

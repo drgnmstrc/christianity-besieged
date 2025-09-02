@@ -1,5 +1,5 @@
 #4260 - Vyshny Volochyok
-tribal_owner = V26
+tribal_owner = ILM
 culture = slovenski
 religion = slavic
 hre = no

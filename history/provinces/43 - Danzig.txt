@@ -1,8 +1,8 @@
 #43 - Danzig
 
-owner = N01
-controller = N01
-add_core = N01
+owner = RDJ
+controller = RDJ
+add_core = RDJ
 capital = "Danzig"
 culture = prussian
 religion = rodoptr
@@ -14,7 +14,7 @@ base_manpower = 5
 is_city = yes
 discovered_by = eastern
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
 discovered_by = western

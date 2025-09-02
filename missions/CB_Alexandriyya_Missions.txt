@@ -3,7 +3,7 @@ alexandriyya_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = Y08
+		tag = ALX
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -14,7 +14,7 @@ alexandriyya_missions_1 = {
 		position = 2
 		trigger = {
 			owns = 4317
-			NOT = { exists = Y05 }
+			NOT = { exists = MUQ }
 		}
 		effect = { #This is what you get after you finished your mission.
 			al_wahat_area = {
@@ -106,7 +106,7 @@ alexandriyya_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = Y08
+		tag = ALX
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -226,7 +226,7 @@ alexandriyya_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = Y08
+		tag = ALX
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -257,7 +257,7 @@ alexandriyya_missions_3 = {
 				type = all
 				owned_by = ROOT
 			}
-			NOT = { exists = X05 }
+			NOT = { exists = JUD }
 		}
 		effect = {
 			palestine_area = {
@@ -398,7 +398,7 @@ alexandriyya_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = Y08
+		tag = ALX
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes

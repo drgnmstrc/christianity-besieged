@@ -1,5 +1,5 @@
 # - Bahia Blanca
-tribal_owner = M70
+tribal_owner = HET
 culture = het
 discovered_by = south_american
 religion = animism

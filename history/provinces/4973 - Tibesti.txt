@@ -1,13 +1,13 @@
 #1793 - El Djouf
-owner = R10
-controller = R10
-add_core = R10
+owner = TED
+controller = TED
+add_core = TED
 trade_goods = camel
 is_city = yes
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = near_east
 culture = toubou
 capital = "Emi Koussi"
 religion = imohag

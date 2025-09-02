@@ -1,8 +1,8 @@
 #4251 - Mozhaisk
 
-owner = Z05
-controller = Z05 
-add_core = Z05 
+owner = BSD
+controller = BSD 
+add_core = BSD 
 culture = russian
 religion = tengri_pagan_reformed
 hre = no

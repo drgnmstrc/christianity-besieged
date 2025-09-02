@@ -269,7 +269,7 @@ germanic = {
 		}
 	}
 	danish = {
-		primary = FRI
+		primary = DAN
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Björn Beorn Bo Christopher Edvard Edward 
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Härik 
@@ -364,11 +364,11 @@ germanic = {
 		}
 	}
 	gothic = {
-		primary = G01
+		primary = GTH
 		
 	}
 	ostrogothic = {
-		primary = G03
+		primary = OST
 		
 	}
 	franconian = {
@@ -378,7 +378,7 @@ germanic = {
 		primary = SWA
 	}
 	gepidan = {
-		primary = G04
+		primary = GEP
 	}
 	bavarian = {
 		primary = BAV
@@ -407,7 +407,7 @@ germanic = {
 		}
 	}
 	marcer = {
-		primary = U16
+		primary = SDM
 		male_names = {
 			Albrecht Wilhelm Johann Ernst Maximilian Emanuel Siegmund Ludwig Anton Christoph Ferdinand  
 			Leopold Philipp Theodor Adalbert Alois Johann Clemens August Friedrich Johann Theodor Joseph  
@@ -655,13 +655,13 @@ british = {
 		primary = B09
 	}
 	anglish = {
-		primary = N14
+		primary = ANG
 	}
 	jelander = {
 		primary = RHG
 	}
 	mercian = {
-		primary = N23
+		primary = MRC
 	}
 	lindseyer = {
 		primary = LNS
@@ -836,7 +836,7 @@ scandinavian = { #Nordic
 	#country = { land_forcelimit_modifier = 0.25}
 	#province = { local_build_cost = -0.10 }
 	jutes = {
-		primary = N25
+		primary = CIM
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
@@ -917,7 +917,7 @@ scandinavian = { #Nordic
 		}
 	}
 	wylfinge = {
-		primary = N28
+		primary = WYL
 		
 		#country = { state_maintenance_modifier = -0.25	}
 		#province = {local_production_efficiency = 0.50	}
@@ -960,7 +960,7 @@ scandinavian = { #Nordic
 		}
 	}
 	alfinge = {
-		primary = N29
+		primary = ALF
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
@@ -997,7 +997,7 @@ scandinavian = { #Nordic
 		}
 	}
 	dalkarlar = {
-		primary = N29
+		primary = ALF
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
@@ -1034,7 +1034,7 @@ scandinavian = { #Nordic
 		}
 	}
 	heruli = {
-		primary = N03
+		primary = HRS
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
@@ -1243,7 +1243,7 @@ scandinavian = { #Nordic
 		}
 	}
 	rygir = {
-		primary = N08
+		primary = RGF
 		male_names = {
 			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
 			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
@@ -1448,7 +1448,7 @@ insular_celtic	= {
 occidental = { #Occidental
 	graphical_culture = westerngfx
 	roman = { #EU Rome
-		primary = H25
+		primary = RME
 		dynasty_names = {
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
 			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
@@ -1474,10 +1474,10 @@ occidental = { #Occidental
 		}
 	}
 	italian_turk = {
-		primary = X14
+		primary = RML
 	}
 	graeci = {
-		primary = H20
+		primary = LCN
 	}
 	vestes = {
 		primary = AGU
@@ -1615,41 +1615,41 @@ occidental = { #Occidental
 		}
 	}
 	hispani = {
-		primary = J14
+		primary = NOD
 	}
 	bretono = {
 		primary = BRO
 	}
 	aquigalli = {
-		primary = H37
+		primary = AQG
 	}
 	nissi = {
-		primary = H38
+		primary = NIC
 	}
 	zeneize = {
-		primary = H39
+		primary = GEN
 	}
 	emaglici = {
-		primary = H32
+		primary = EMI
 	}
 	fiorenorum = {
 		primary = LAN
 	}
 	rumanus = {
-		primary = H35
+		primary = LTM
 	}
 	venixicus = {
 		primary = VEN
 	}
 	ilyicolone = {
-		primary = H40
+		primary = SNS
 	}
 	alemannus = {
 	}
 	illyranus = {
 	}
 	aquilicus = {
-		primary = H37
+		primary = AQG
 	}
 	armorican = {
 		primary = BRI
@@ -1859,7 +1859,7 @@ occidental = { #Occidental
 illyro_dalmatian = {
 	graphical_culture = westerngfx
 	romani = { #EU Rome
-		primary = H25
+		primary = RME
 		dynasty_names = {
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
 			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
@@ -1885,13 +1885,13 @@ illyro_dalmatian = {
 		}
 	}
 	dacian = {
-		primary = H24
+		primary = DAC
 	}
 	istroli = {
-		primary = U10
+		primary = HSR
 	}
 	latinlerin = {
-		primary = U17
+		primary = LTL
 		dynasty_names = {
 			"Osmanoğlu" "Karamaoğlu" "Menteşeoğlu" "Ramazanoğlu" "Saruhanoğlu"
 			"Dulkadiroğlu" "Candaroğlu" "Germiyanoğlu" "Aydınoğlu" "Eretnaoğlu"
@@ -1926,7 +1926,7 @@ illyro_dalmatian = {
 		}
 	}
 	illiri = {
-		primary = Y12
+		primary = LRP
 	}
 	ghajaz = {
 		male_names = {
@@ -1955,10 +1955,10 @@ illyro_dalmatian = {
 		}
 	}
 	armani = {
-		primary = X19
+		primary = RMJ
 	}
 	fayunlit = {
-		primary = Y20
+		primary = FYT
 		male_names = {
 			Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik 
 			Dardan Dhurim Dritëro Elidon Erjon Fatmir Flamur Florin Hekuran Ilir Ismail Klodian Luigj Milaim 
@@ -2064,19 +2064,19 @@ illyro_dalmatian = {
 cisalpin_romisch = {
 	graphical_culture = westerngfx
 	langobard = {
-		primary = G06
+		primary = LOM
 	}
 	fiari = {
 		primary = FER
 	}
 	torino = {
-		primary = H19
+		primary = TSP
 	}
 	alemanni = {
 		primary = PAL
 	}
 	romansh = {
-		primary = G27
+		primary = GRS
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
 			Florian Gerhard Immanuel Johan Leonhard Markus Nikolaus Paul Ruprecht Stefan Thomas Ulrich 
@@ -2885,7 +2885,7 @@ finno_ugric = { #Finno-Permian
 		}
 	}
 	samisk = {
-		primary = N04
+		primary = JUL
 		male_names = {
 			Baeivvet Biejan Bijás Bilzi Dávggon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatëiv 
 			Hoovatëiv Hurmas Hurmetëiv Häimulemb Hävalemb Hävameel Hävatëiv Tänn Uku Vootele Väino Värvo Äigemeel Älo Källelemb 
@@ -2911,7 +2911,7 @@ finno_ugric = { #Finno-Permian
 		}
 	}
 	saemisk = {
-		primary = N05
+		primary = BDJ
 		male_names = {
 			Baeivvet Biejan Bijás Bilzi Dávggon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatëiv 
 			Hoovatëiv Hurmas Hurmetëiv Häimulemb Hävalemb Hävameel Hävatëiv Tänn Uku Vootele Väino Värvo Äigemeel Älo Källelemb 
@@ -3009,7 +3009,7 @@ finno_ugric = { #Finno-Permian
 		}
 	}
 	kven = {
-		primary = N11
+		primary = KVN
 		dynasty_names = {
 			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
 			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
@@ -3129,10 +3129,10 @@ finno_ugric = { #Finno-Permian
 volgaic = {
 	graphical_culture = easterngfx
 	mari = {
-		primary = V16
+		primary = MRL
 	}
 	mokshet = {
-		primary = V15
+		primary = MRD
 	}
 	male_names = {
 		Kahru Kahrulemb Gaktu Henes Järre Jeansa Juvven John Lögon Lövrrohas Leammö Mellet Mihka Igalemb Ihameel Ihar 
@@ -3230,7 +3230,7 @@ south_slavic = {
 		}
 	}
 	avar = {
-		primary = V08
+		primary = VRA
 		male_names = {
 			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
 			Boldizsár Dávid Dömötör Edvárd Ernő Ferenc Gábor György Izsák Jenő József Kálmán Kázmér Lőrinc 
@@ -3328,7 +3328,7 @@ south_slavic = {
 		}
 	}
 	slovene = {
-		primary = V07
+		primary = KRN
 		male_names = {
 			Andrej Albreht Alojzij Anton Adam Avgust Boris Blaz	Davorin	Etbin Filip Franc Friderik
 			Gregorij Henrik Ivan Igor Ignacij Janez Janko Jernej Jozef Karel Konrad	Lovro Luka Ludvik
@@ -3345,7 +3345,7 @@ south_slavic = {
 		}
 	}
 	slavo_romanian = {
-		primary = V11
+		primary = RMN
 		male_names = {
 			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
 			Boldizsár Dávid Dömötör Edvárd Ernő Ferenc Gábor György Izsák Jenő József Kálmán Kázmér Lőrinc 
@@ -3409,7 +3409,7 @@ south_slavic = {
 		}
 	}
 	caicavsci = {
-		primary = V06
+		primary = ZDN
 		male_names = {
 			Kresimir Stjepan Almos Dimitrije Zvonimir Trpimir Goislav Slavic Svetoslav Miroslav Mutimir 
 			Ladislav Karlo Andrej Luj Pero Vladislav Vjenceslav Aleksandar Dragutin Fauszty Franjo Gavrilo Ivan 
@@ -3471,7 +3471,7 @@ south_slavic = {
 		}
 	}
 	serbian = {
-		primary = SER
+		primary = CRP
 		male_names = {
 			Stefan Lazar Djuradj Milosh Djordje Alexa Grgur Petrija Todor Aleksandar Mihailo Milan 
 			Bratislav Darko Dragan Dubravko Dusan Filip Goran Ivan Josif Konstantin Luka Marko Mateja Miroslav 
@@ -3501,7 +3501,7 @@ south_slavic = {
 		}
 	}
 	pannici = {
-		primary = U06
+		primary = PNN
 	}
 	albanian = {
 		primary = ALB
@@ -3515,7 +3515,7 @@ south_slavic = {
 eastern_slavic = {
 	graphical_culture = easterngfx
 	bolokhov = {
-		primary = X23
+		primary = BLZ
 		male_names = {
 			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
@@ -3536,7 +3536,7 @@ eastern_slavic = {
 		}
 	}
 	severian = {
-		primary = Z12
+		primary = RDM
 		male_names = {
 			Vasiliy Ivan Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
@@ -3615,7 +3615,7 @@ eastern_slavic = {
 		}
 	}
 	slovenski = {
-		primary = PLT
+		primary = KRV
 		male_names = {
 			Vasiliy Ivan Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
@@ -3812,7 +3812,7 @@ west_slavic = {
 		}
 	}
 	ruthenian = {
-		primary = V05
+		primary = LDZ
 		male_names = {
 			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
@@ -3825,7 +3825,7 @@ west_slavic = {
 		}
 	}
 	kashubian = {
-		primary = V14
+		primary = NKL
 		male_names = {
 			Boguslaw Barnim Ota Eryk Filip Franciszek Jan Fryderyk Georg Ernest 
 			Ludwik Albrecht Arnt August Bernhard Bodo Carl Emil Fritz Gerhard 
@@ -4105,7 +4105,7 @@ east_slavic = {
 		}
 	}
 	prussian = {
-		primary = N01
+		primary = RDJ
 		male_names = {
 			Christian Christoph Oskar Adolf August Gńran Sigismund Alfred Axel Edvard Gottfrid 
 			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante 
@@ -4181,7 +4181,7 @@ east_slavic = {
 		}
 	}
 	novgorodian = { #Novgorodian and most North Russian dialects.
-		primary = A02
+		primary = SVR
 		male_names = {
 			Vasiliy Ivan Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy 
 			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy 
@@ -4222,7 +4222,7 @@ east_slavic = {
 	}
 	
 	biksteder = {
-		primary = PLT
+		primary = KRV
 		male_names = {
 			Andrei Lubko Olgierd Bryachislav Vasiliy Svyatoslav Vladimir Izyaslav Vseslav Boris Aleksandr Adrian 
 			Afanasiy Daniil Dmitriy Dorofey Faddey Feodosiy Feofil Foma Fyodor Gavriil Grigoriy Igor Ivan 
@@ -4287,7 +4287,7 @@ baltic	= {
 		}
 	}
 	yotvingian = {
-		primary = V18
+		primary = YTV
 	}
 	latvian = {
 		primary = LVA
@@ -4309,7 +4309,7 @@ baltic	= {
 		}
 	}
 	semigallian = {
-		primary = V12
+		primary = SMG
 		male_names = {
 			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
 			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
@@ -4328,7 +4328,7 @@ baltic	= {
 		}
 	}
 	latgalian = {
-		primary = V13
+		primary = LTG
 		male_names = {
 			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
 			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
@@ -4380,40 +4380,40 @@ baltic	= {
 byzantine = {
 	graphical_culture = easterngfx
 	iones = {
-		primary = H12
+		primary = ION
 	}
 	aigaio = {
-		primary = H21
+		primary = DOR
 	}
 	aiolikos = {
-		primary = H13
+		primary = AEO
 	}
 	kares = {
-		primary = H22
+		primary = CRR
 	}
 	lydes = {
-		primary = H14
+		primary = LYD
 	}
 	phryges = {
-		primary = H10
+		primary = PHR
 	}
 	kappadokes = {
-		primary = H05
+		primary = CAP
 	}
 	pondii = {
-		primary = H06
+		primary = PNT
 	}
 	lykaones = {
-		primary = H26
+		primary = LCA
 	}
 	pamphylii = {
-		primary = H11
+		primary = PAM
 	}
 	lykiae = {
-		primary = H04
+		primary = LYC
 	}
 	pisidian = {
-		primary = H27
+		primary = PSD
 	}
 	avandaloi = {
 	}
@@ -4542,10 +4542,10 @@ byzantine = {
 anatolian = {
 	graphical_culture = easterngfx
 	old_phrygian = {
-		primary = H10
+		primary = PHR
 	}
 	isaurian = {
-		primary = H31
+		primary = ISA
 	}
 	armenian = {
 		primary = ARM
@@ -4869,7 +4869,7 @@ caucasian = {
 turko_balikli = {
 	graphical_culture = muslimgfx
 	qashqai = {
-		primary = Z21
+		primary = UNU
 		male_names = {
 			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
 			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
@@ -4888,7 +4888,7 @@ turko_balikli = {
 		}
 	}
 	bulgarian = {
-		primary = BUL
+		primary = CPC
 		male_names = {
 			Iwan Asen Koloman Petar Todor Michael Aleksandar Iwan Kalojan Georgi Konstantin Stepan Stracimir 
 			Simeon Andon Andrei Angel Atanas Bogdan Bogomil Branimir Damyan Dimitar Emil Gavril Hristo Iordan 
@@ -4913,22 +4913,22 @@ turko_balikli = {
 		}
 	}
 	yaliboylu = {
-		primary = Y21
+		primary = YAL
 	}
 	karakalpak = {
-		primary = Z22
+		primary = CRC
 	}
 	maniercler = {
-		primary = X07
+		primary = SBK
 	}
 	mugatac = {
 
 	}
 	gagauz = {
-		primary = U18
+		primary = GAG
 	}
 	turkig = {
-		primary = U16
+		primary = SDM
 		dynasty_names = {
 			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
@@ -4998,7 +4998,7 @@ turko_balikli = {
 		}
 	}
 	tarkhagan = {
-		primary = Z01
+		primary = BLK
 		dynasty_names = {
 			Altan Asanin Bekmambet Ziyaeddin Sarigńl Bektńre Celebicihan  Cobanzade Dńgci Gaspirali Giraybay Hablemitoglu Hilmi 
 			Inalcik Ipci Kirimal Seydahmet Ihsan Kubay Qirimoglu Mamut Mansiz Mehdi Neyazi Ortayli Semizade Soysal Zihni Tarhan 
@@ -5077,7 +5077,7 @@ turko_semitic = { #Levantine
 		}
 	}
 	almukhidi = {
-		primary = R07
+		primary = BRQ
 	}
 	al_misr_arabic = { #Egyptian Arab
 		primary = MAM
@@ -5098,7 +5098,7 @@ turko_semitic = { #Levantine
 		}
 	}
 	al_suryah_arabic = { #Syrian Arab
-		primary = SYR
+		primary = PLM
 		dynasty_names = {
 			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
 			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli 
@@ -5333,7 +5333,7 @@ rumi = {
 	dalmatli = {
 		primary = DAL
 	}
-	nabuthi = {
+	abindari = {
 		primary = NAJ
 		dynasty_names = {
 			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
@@ -5347,7 +5347,7 @@ rumi = {
 		}
 	}
 	balkanli = {
-		primary = U06
+		primary = PNN
 		dynasty_names = {
 			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
@@ -5495,7 +5495,7 @@ rumi = {
 		primary = AGU
 	}
 	mutawasiti = {
-		primary = R01
+		primary = MTN
 	}
 	almani = {
 		primary = ALD
@@ -5593,34 +5593,34 @@ maghrebi = {
 
 berber = {
 	masmuden = {
-		primary = R02
+		primary = ALM
 	}
 	isawiyen = {
-		primary = R06
+		primary = SHW
 	}
 	garamante = {
 		primary = FZA
 	}
 	sahrawi = {
-		primary = R02
+		primary = ALM
 	}
 	siwi = {
-		primary = R12
+		primary = WSW
 	}
 	zenati = {
 		primary = TLC
 	}
 	maqil = {
-		primary = R14
+		primary = SUY
 	}
 	toubou = {
-		primary = R10
+		primary = TED
 	}
 	imraguen = {
-		primary = R08
+		primary = HFH
 	}
 	idaksahak = {
-		primary = R15
+		primary = DWS
 	}
 	tuareg = {
 		primary = AIR
@@ -5665,7 +5665,7 @@ iranian	= {
 	graphical_culture = muslimgfx
 	ebodalo = { }
 	sogdian = {
-		primary = Z15
+		primary = SGD
 		male_names = {
 			Vandak Arshak Maymurg Kesh Chach Xwatenvandak Tarkhun Urak Turghar Yanakk Farnakk Chakr
 			Avyamanyan Avyamanvandak Avyamanfarn Avyamanch 
@@ -5679,7 +5679,7 @@ iranian	= {
 		}
 	}
 	turkmeni = {
-		primary = Z17
+		primary = KHW
 		male_names = { 
 			Abbas Abolhassan Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan 
 			Aram Ardahan Ardahan Ardavan Ardavan Ardeshir Ardeshir Assad Aurang Ayeshah Babak Babak Bahman 
@@ -5711,7 +5711,7 @@ iranian	= {
 		}
 	}
 	saqutran = {
-		primary = X06
+		primary = SAQ
 		male_names = {
 			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
 		}
@@ -5724,7 +5724,7 @@ iranian	= {
 		}
 	}
 	iranian = {
-		primary = PER
+		primary = ERS
 		male_names = { 
 			Abbas Abolhassan Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan 
 			Aram Ardahan Ardahan Ardavan Ardavan Ardeshir Ardeshir Assad Aurang Ayeshah Babak Babak Bahman 
@@ -5969,7 +5969,7 @@ iranian	= {
 		}
 	}
 	kafiri = {
-		primary = X02
+		primary = QTN
 		dynasty_names = { 
 			Khorshidi Bakhtiari Jangardi "Banu Hussayn" Charlang Haftlang
 			Dorikan Babadi Baharvand Dinarini Meyvand
@@ -6022,7 +6022,7 @@ iranian	= {
 		}
 	}
 	bartazig = {
-		primary = X09
+		primary = AWA
 		dynasty_names = { 
 			Khorshidi Bakhtiari Jangardi "Banu Hussayn" Charlang Haftlang
 			Dorikan Babadi Baharvand Dinarini Meyvand
@@ -6167,7 +6167,7 @@ iranian	= {
 		}
 	}
 	bactrian = {
-		primary = Z18
+		primary = BCT
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
 			Behrad Behram Bahram Behrouz Bextńyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
@@ -6332,7 +6332,7 @@ iranian	= {
 		}
 	}
 	median = {
-		primary = PER
+		primary = ERS
 		dynasty_names = { 
 			Hazaraspid "Soran" "Justanid" Bozorg Ardalan Bukhti Ferozkohi Feyli Gewirk Rekani
 			Hadhabani  "Ali Sherwan" Herki Jalilavand
@@ -6398,7 +6398,7 @@ iranian	= {
 		}
 	}
 	taleshi = {
-		primary = X10
+		primary = TAL
 		male_names = {
 			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
 		}
@@ -6650,7 +6650,7 @@ quizan = {
 	hutec = {
 	}
 	atlcotl = {
-		primary = M12
+		primary = TLH
 	}
 	male_names = {
 		Moctezuma Auitzotl Axayacatl Cuauhtemoc Cuitlahuac Huitzilihuitl Itzcoatl Ohimalpopoca Tizoc 
@@ -7035,7 +7035,7 @@ je_tupi = { # Tupi
 		}
 	}
 	jukuma = {
-		primary = M63
+		primary = JUK
 		dynasty_names = {
 			Mbigua Caracara Timbu Tucague Calchagui Quiloazaz Cario Itatine Tarci Bomboi Curupaiti Curumai Caaigua Tape Ciriguana
 		}
@@ -7159,7 +7159,7 @@ mataco = {	#Matacoan
 	graphical_culture = northamericagfx
 	
 	chacoan = {
-		primary = M64
+		primary = TOB
 		male_names = {
 			Sopa Cayo Topa Coyllas Cusichaca Huachuri Huaypalcon Luyes Marcavilca
 		}
@@ -7188,7 +7188,7 @@ araucanian = {
 		}
 	}
 	chango = {
-		primary = M65
+		primary = CNG
 		male_names = {
 			Ancamilla Nampai Cońoepńn Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
 			Aillavilu Catrileo ńanco Melńn Caupolicńn Illangulińn Pinolevi Purrńn Mańil Quilapńn 
@@ -7200,7 +7200,7 @@ araucanian = {
 		}
 	}
 	het = {
-		primary = M70
+		primary = HET
 		male_names = {
 			Ancamilla Nampai Cońoepńn Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
 			Aillavilu Catrileo ńanco Melńn Caupolicńn Illangulińn Pinolevi Purrńn Mańil Quilapńn 
@@ -7212,7 +7212,7 @@ araucanian = {
 		}
 	}
 	huarpe = {
-		primary = M66
+		primary = HRP
 		male_names = {
 			Ancamilla Nampai Cońoepńn Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
 			Aillavilu Catrileo ńanco Melńn Caupolicńn Illangulińn Pinolevi Purrńn Mańil Quilapńn 
@@ -7232,16 +7232,16 @@ patagonian = {
 	graphical_culture = northamericagfx
 	
 	teushen = {
-		primary = M67
+		primary = GUN
 	}
 	selknam = {
-		primary = M78
+		primary = SLK
 	}
 	cunco = {
-		primary = M80
+		primary = CUN
 	}
 	chono = {
-		primary = M81
+		primary = CHN
 	}
 	male_names = {
 		Ancamilla Nampai Cońoepńn Nahueltripai Millarapue Millalelmo Lautaro Paillamachu Huenecura 
@@ -7291,16 +7291,16 @@ carribean = {
 		primary = ARW
 	}
 	betoi = {
-		primary = M83
+		primary = BET
 	}
 	pume = {
-		primary = M82
+		primary = PUM
 	}
 	guayqueri = {
-		primary = M85
+		primary = GUY
 	}
 	yukpa = {
-		primary = M84
+		primary = YUK
 	}
 	male_names = {
 		Wiwakaleme Haubariria Toratora Amorotahe Haubariria Kaigouchi Shoko Laliwa Arah Pirijń Arata Toruń Mbicy 
@@ -7317,7 +7317,7 @@ eskaleut = {
 	graphical_culture = inuitgfx
 
 	aleutian = {
-		primary = Q09
+		primary = ALU
 		male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
 			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Ińuksuk Irniq 
@@ -7329,7 +7329,7 @@ eskaleut = {
 		}
 	}
 	yupik = {
-		primary = Q10
+		primary = YUP
 		male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
 			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Ińuksuk Irniq 
@@ -7341,7 +7341,7 @@ eskaleut = {
 		}
 	}
 	inuvialuit = {
-		primary = Q02
+		primary = INU
 		male_names = {
 			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak 
 			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun 
@@ -7354,7 +7354,7 @@ eskaleut = {
 		}
 	}
 	inupiat = {
-		primary = Q01
+		primary = ISU
 		male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
 			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Ińuksuk Irniq 
@@ -7366,7 +7366,7 @@ eskaleut = {
 		}
 	}
 	nunavit = {
-		primary = Q05
+		primary = NNV
 		male_names = {
 			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak 
 			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun 
@@ -7379,7 +7379,7 @@ eskaleut = {
 		}
 	}
 	kalaallit = {
-		primary = Q05
+		primary = NNV
 		male_names = {
 			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak 
 			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun 
@@ -7392,7 +7392,7 @@ eskaleut = {
 		}
 	}
 	nunatsian = {
-		primary = Q07
+		primary = NUN
 			male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
 			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Ińuksuk Irniq 
@@ -7404,7 +7404,7 @@ eskaleut = {
 		}
 	}
 	qiqik = {
-		primary = Q06
+		primary = QIQ
 			male_names = {
 			Aariak Aassanaaq Aippaq Aklaq Amaqjuaq Ammagaruqnik Anik Apaata Aput Aputi Aqakuktuq Aqillutaq Aqpalibaaqtuq 
 			Aquyittuq Arnauyq Asuilaak Atanarjuat Atiqtalaaq Atuqtuaq Aujaq Aviqming Ila Ilannaq Innugati Ińuksuk Irniq 
@@ -7963,7 +7963,7 @@ iroquoian = {
 		}
 	}
 	chonnon = {
-		primary = Q12
+		primary = CNO
 		dynasty_names = {
 			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon 
 			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
@@ -7986,7 +7986,7 @@ iroquoian = {
 		}
 	}
 	erie = {
-		primary = Q14
+		primary = ERI
 		dynasty_names = {
 			Andiata Angoutenc Anonatea Arendaonatia Arente Arontaen Anioton Ahiragenrega Ahondihronon Andachkhrob Antouaronon 
 			Aondironon Atiaonrek Atirhagenrat Atiraguenrek Attiragenrega Attiuoaisgon
@@ -8117,7 +8117,7 @@ siouan = {
 		}
 	}
 	omahan = {
-		primary = M15
+		primary = OMH
 		dynasty_names = {
 			Wazhaze Tsishu Pasueli Wahakolin Sansueli Wyota Picayune Koholo Neodesha
 			Owasso Pawhuska Niukonska Doppike Neosho Chetopa Hominy Pahusan 
@@ -8167,7 +8167,7 @@ siouan = {
 		}
 	}
 	catawba = {
-		primary = M79
+		primary = CTW
 		dynasty_names = {
 			Owasso Pawhuska Niukonska Doppike Neosho Chetopa Hominy Pahusan Mesquakie Wagosh Asakiwakie Kickapoo Blackhawk 
 			Saukenuk Thakiwakie
@@ -10944,7 +10944,7 @@ sahelian = {
 		}
 	}
 	mandara = {
-		primary = R91
+		primary = MND
 		dynasty_names = {
 			Mahamat Batoa "N'guidjim" Batoa Burwa Dalmawa Tchalmawa Wadawa Djulwa
 			"N'guidjim" Kassawa Gaswa Madawa Fadwa Kiliti Argumba
@@ -11017,7 +11017,7 @@ sahelian = {
 		}
 	}
 	baggara = {
-		primary = R18
+		primary = QSR
 		dynasty_names = {
 			Fodio Denyanke Lih Wan Alfa Garm Ule Kumba Lamu
 			Tabakali Bohi Dundu Jeegi Musa Njai
@@ -11076,7 +11076,7 @@ edoid = {
 		}
 	}
 	urhobo = {
-		primary = R65
+		primary = URH
 		dynasty_names = {
 			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
 			Ajuwa Ezinwa Kanu Opara Rufai
@@ -11098,7 +11098,7 @@ edoid = {
 }
 idomoid = {
 	idoma = {
-		primary = R76
+		primary = IDO
 		dynasty_names = {
 			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
 			Ajuwa Ezinwa Kanu Opara Rufai
@@ -11120,7 +11120,7 @@ idomoid = {
 }
 igboid = {
 	igbo = {
-		primary = R53
+		primary = NRI
 	}
 	ika = {}
 	dynasty_names = {
@@ -11147,7 +11147,7 @@ nupoid = {
 		primary = NUP
 	}
 	ebira = {
-		primary = R85
+		primary = EBI
 	}
 	dynasty_names = {
 		Etsu Ubah Solaja Umaru
@@ -11174,23 +11174,23 @@ yoruboid = {
 		primary = OYO
 	}
 	ife = {
-		primary = R89
+		primary = IFE
 	}
 	ijesha = {}
 	egba = {}
 	awori = {
-		primary = R67
+		primary = AWO
 	}
 	ijebu = {
-		primary = R66
+		primary = IJE
 	}
 	ilaje = { }
 	ijesha = {}
 	ekiti = {
-		primary = R70
+		primary = EKI
 	}
 	itsekiri = {
-		primary = R78
+		primary = OLO
 	}
 	dynasty_names = {
 		Alaafin Eweka Ubah Umaru Aliu Solaja Okara
@@ -11210,7 +11210,7 @@ yoruboid = {
 		Titilayo Yejide Yewande
 	}
 	igala = {
-		primary = R63
+		primary = OBO
 		dynasty_names = {
 			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
 			Ajuwa Ezinwa Kanu Opara Rufai
@@ -11279,7 +11279,7 @@ gbe = {
 guradamawa = {
 	graphical_culture = africangfx
 	bariba = {
-		primary = R86
+		primary = BAB
 	}
 	dagomba = {
 		primary = DGB
@@ -11325,13 +11325,13 @@ guradamawa = {
 	banda = {}
 	zande = {}
 	mbum = {
-		primary = R75
+		primary = BMN
 	}
 }
 ijoid = {
 	graphical_culture = africangfx
 	ijaw = {
-		primary = R60
+		primary = NEM
 		dynasty_names = {
 			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
 			Ajuwa Ezinwa Kanu Opara Rufai
@@ -11363,19 +11363,19 @@ taa-kwi = {
 		"Behati" "G|qhee" "Te'e" "|Q'an" "Tuu" "||'An" "!Qhan" "||quV||ona" "|'Ui" "!xaV Taa Qae"
 	}
 	taa = {
-		primary = R23
+		primary = QUV
 	}
 	ning = {
-		primary = R41
+		primary = GQH
 	}
 	ungkue = {
-		primary = R30
+		primary = UNG
 	}
 	xegwe = {
-		primary = R22
+		primary = XEG
 	}
 	xami = {
-		primary = R38
+		primary = GBB
 	}
 }
 kung = {
@@ -11390,16 +11390,16 @@ kung = {
 		"Ts'aymay" "Ku'u" "|'am" "N!ui" "||'au" "|Omg!u" "!Kui" "||Ari" "!'U" "Doara" "Un!ama"
 	}
 	okung = {
-		primary = R20
+		primary = OKU
 	}
 	julhoan = {
-		primary = R19
+		primary = NKU
 	}
 	npkxaut = {
-		primary = R17
+		primary = KXI
 	}
 	tsiqaleha = {
-		primary = R51
+		primary = GOB
 	}
 }
 khoe = {
@@ -11414,16 +11414,16 @@ khoe = {
 		"!Ammi" "||Khana" "Ani-b" "Kai|gao-b" "Ma|oa" "!Gai" "||Gam-i" "Tsu-xu-b"
 	}
 	khoemana = {
-		primary = R48
+		primary = ZMF
 	}
 	shwakhwe = {
-		primary = R47
+		primary = SWK
 	}
 	tshwa = {
-		primary = R32
+		primary = TSW
 	}
 	xuukhoe = {
-		primary = R52
+		primary = XUU
 	}
 }
 southern_african = {
@@ -11435,7 +11435,7 @@ southern_african = {
 		primary = ZIM
 	}
 	chewa = {
-		primary = R31
+		primary = SNG
 	}
 	makua = {
 		primary = MKU
@@ -11465,7 +11465,7 @@ southern_african = {
 		}
 	}
 	bemba = {
-		primary = R29
+		primary = KLA
 	}
 	tumbukan = {
 		primary = TBK
@@ -11506,7 +11506,7 @@ southern_african = {
 kongo_group = {
 	graphical_culture = africangfx
 	ibibio = {
-		primary = R63
+		primary = OBO
 		dynasty_names = {
 			Alaafin Eweka Ubah Umaru Aliu Solaja Okara
 			Ajuwa Ezinwa Kanu Opara Rufai
@@ -11577,7 +11577,7 @@ kongo_group = {
 		primary = SOK
 	}
 	duala = {
-		primary = R46
+		primary = TNY
 	}
 	sawabantu = {
 	
@@ -11608,7 +11608,7 @@ bantoid = {
 		Jetta Vandana Zody Lishan Lolovivi Gavivi Gobad Gimbya Hazina Hidi Baina
 	}
 	mbum = {
-		primary = R75
+		primary = BMN
 	}
 	tiv = {
 		dynasty_names = {
@@ -11684,7 +11684,7 @@ great_lakes_group = {
 		}
 	}
 	mekelti = { #EU Rome
-		primary = X05
+		primary = JUD
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 
 			Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid
@@ -11794,7 +11794,7 @@ african = {	#Eastern Bantu Groups
 cushitic = {
 	graphical_culture = africangfx
 	banu = {
-		primary = R09
+		primary = MUT
 		male_names = {
 			Abadir Abdale Abdirahman Abdulah Abdullah Abram Abu-Bakr Adan Adeer Ahmed Ali Amlale Aul Awe
 			Aydahis Balad Baraka Barakat Ciise Dagale Dhidhin Hamalmal Hamar Hamid Hantale Haqq Harire
@@ -12148,13 +12148,13 @@ kamchatkan_g = {
 northern_iranian = {
 	graphical_culture = muslimgfx
 	jasz = {
-		primary = X22
+		primary = JSZ
 	}
 	alan = {
 
 	}
 	szkithi = {
-		primary = X20
+		primary = SZK
 		dynasty_names = {
 			Bńthory Hunyadi Szapolyai Rńkńczy Bocskai Bethlen Almńsy Andrńssy Batthyńny Csńky Dessewffy
 			Erdody Eszterhńzy Festetics Hajdń Kńrolyi Kun Magyary Perńnyi Rńnai Szńchenyi Szepessy 
@@ -12320,7 +12320,7 @@ tartar	= {
 		}
 	}
 	kuzarim = {
-		primary = X21
+		primary = QRQ
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 
 			Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid
@@ -12741,7 +12741,7 @@ lost_cultures_group = {
 
 armaic = {
 	aramean = { #EU Rome
-		primary = SYR
+		primary = PLM
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
 			Milkiramid Philosirid
@@ -12756,7 +12756,7 @@ armaic = {
 		}
 	}
 	cilician = {
-		primary = X03
+		primary = CLC
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
 			Milkiramid Philosirid
@@ -12797,7 +12797,7 @@ armaic = {
 		}
 	}
 	aramaic = {
-		primary = SYR
+		primary = PLM
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
 			Milkiramid Philosirid
@@ -12812,7 +12812,7 @@ armaic = {
 		}
 	}
 	assyrian = {
-		primary = X04
+		primary = ASO
 		male_names = {
 			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
 			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
@@ -12826,7 +12826,7 @@ armaic = {
 		dynasty_names = { "Sargonid" "Ephremid" "Isin" "Mardukid" "Abidaoud" "Abgarid" "Erishumid" "Sharishkun" "Adad" "Nirari" Amorite Larsa Kassite  }
 	}
 	hebrew = { #EU Rome
-		primary = X05
+		primary = JUD
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 
 			Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid

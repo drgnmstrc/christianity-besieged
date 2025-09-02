@@ -1,8 +1,8 @@
 #Oplandene, incl. Hamar
 
-add_core = N05
-owner = N05
-controller = N05
+add_core = BDJ
+owner = BDJ
+controller = BDJ
 culture = saemisk
 religion = norse_pagan_reformed
 hre = no

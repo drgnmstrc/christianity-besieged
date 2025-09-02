@@ -1,8 +1,8 @@
 # - Meknes
 
-owner = R02
-controller = R02
-add_core = R02
+owner = ALM
+controller = ALM
+add_core = ALM
 culture = sahrawi
 religion = sunni
 capital = "Meknes"
@@ -15,10 +15,10 @@ is_city = yes
 
 
 
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = east_african
 discovered_by = western
 discovered_by = western

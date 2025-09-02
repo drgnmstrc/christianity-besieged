@@ -1,12 +1,12 @@
 #109 - Mantua
  
-owner = U14
-controller = U14
-add_core = U14
+owner = FLB
+controller = FLB
+add_core = FLB
 culture = langobard
 religion = germanic
-add_core = G06
-add_core = BLG
+add_core = LOM
+add_core = AEM
 hre = no
 base_tax = 5
 base_production = 5
@@ -16,7 +16,7 @@ capital = "Mantova"
 is_city = yes
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
 discovered_by = western

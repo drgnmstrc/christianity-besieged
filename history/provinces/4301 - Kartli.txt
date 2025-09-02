@@ -1,7 +1,7 @@
 #4301 - Kartli
 
-owner = X13
-controller = X13
+owner = KAK
+controller = KAK
 culture = georgian
 religion = zoroastrian
 capital = "Gori"
@@ -11,9 +11,9 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = X13
+add_core = KAK
 fort_15th = yes #Gori
-discovered_by = muslim
+discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western

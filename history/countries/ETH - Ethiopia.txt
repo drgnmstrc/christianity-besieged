@@ -9,7 +9,7 @@ religion = shiite
 technology_group = east_african
 unit_type = muslim
 capital = 1227
-historical_friend = X05
+historical_friend = JUD
 religious_school = ismaili_school
 
 1434.6.2 = {

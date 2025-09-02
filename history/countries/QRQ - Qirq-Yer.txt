@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = near_east
+primary_culture = kuzarim
+religion = karaite
+capital = 284
+fixed_capital = 284
+government_rank = 1
+
+1444.11.11 = {
+	monarch = {
+		name = "David"
+		dynasty = "Taman"
+		birth_date = 1414.3.19
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}

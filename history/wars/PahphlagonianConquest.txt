@@ -6,17 +6,17 @@ war_goal = {
 }
 
 1441.4.8 = {
-	add_attacker = H05
-	add_defender = H06
-	add_defender = H07
-	add_defender = H11
-	add_defender = H26
+	add_attacker = CAP
+	add_defender = PNT
+	add_defender = PPH
+	add_defender = PAM
+	add_defender = LCA
 }
 
 1441.11.13 = {
-	rem_attacker = H05
-	rem_defender = H06
-	rem_defender = H07
-	rem_defender = H26
-	rem_defender = H11
+	rem_attacker = CAP
+	rem_defender = PNT
+	rem_defender = PPH
+	rem_defender = LCA
+	rem_defender = PAM
 }

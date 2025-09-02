@@ -1,8 +1,8 @@
 #4059 - Shaga
 
-owner = R58
-controller = R58
-add_core = R58
+owner = MEK
+controller = MEK
+add_core = MEK
 culture = mekelti
 religion = rabbinic
 trade_goods = grain

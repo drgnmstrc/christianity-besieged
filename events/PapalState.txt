@@ -12,7 +12,7 @@ country_event = {
 		religion = ashabi
 		NOT = { tag = U01 }
 		NOT = { tag = ROM }
-		NOT = { tag = U15 }
+		NOT = { tag = RMC }
 		NOT = { exists = U02 }
 		NOT = { has_country_flag = no_support }
 	}
@@ -65,7 +65,7 @@ country_event = {
 		set_country_flag = no_support
 	}
 	option = {
-		name = "EVTOPTB1081" # Rome is rightfully theirs
+		name = "EVTOPTBRY81" # Rome is rightfully theirs
 		ai_chance = { 
 			factor = 75 
 			modifier = {
@@ -98,7 +98,7 @@ country_event = {
 		papacy_active = yes
 		NOT = { exists = U01 }
 		NOT = { exists = U02 }
-		NOT = { exists = U15 }
+		NOT = { exists = RMC }
 		religion = ashabi
 		NOT = { has_ruler_flag = refused_papacy }
 		is_at_war = no
@@ -196,7 +196,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB1082"
+		name = "EVTOPTBRY82"
 		ai_chance = { factor = 0 }
 		set_ruler_flag = refused_papacy
 		add_prestige = -25
@@ -268,7 +268,7 @@ country_event = {
 		add_treasury = -25
 	}
 	option = {
-		name = "EVTOPTB1083"		# Just try to prove them wrong
+		name = "EVTOPTBRY83"		# Just try to prove them wrong
 		ai_chance = { factor = 45 }
 		set_country_flag = unsupportive_cardinals
 		random_list = {
@@ -334,7 +334,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB1084"		# Ask for some proof
+		name = "EVTOPTBRY84"		# Ask for some proof
 		ai_chance = { factor = 45 }
 		set_country_flag = cardinal_infiltrator
 		add_country_modifier = {

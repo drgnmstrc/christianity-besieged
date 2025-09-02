@@ -1,7 +1,7 @@
-owner = R36
-controller = R36
-add_core = R36
-add_claim = R40
+owner = MJI
+controller = MJI
+add_core = MJI
+add_claim = JJA
 trade_goods = slaves
 is_city = yes
 culture = tsiqaleha
@@ -12,8 +12,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = sub_saharan
