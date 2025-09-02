@@ -12,6 +12,9 @@ pontou_missions_1 = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			owns = 328
 		}

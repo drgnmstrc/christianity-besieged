@@ -4,8 +4,8 @@ venice_missions_1 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -58,9 +58,9 @@ venice_missions_1 = {
 				add_nationalism = -10
 				if = {
 					limit = {
-						NOT = { is_core = H28 }
+						NOT = { is_core = VEN }
 					}
-					add_core = H28
+					add_core = VEN
 				}
 				else = {
 					owner = { add_adm_power = 25 }
@@ -70,9 +70,9 @@ venice_missions_1 = {
 				add_nationalism = -10
 				if = {
 					limit = {
-						NOT = { is_core = H28 }
+						NOT = { is_core = VEN }
 					}
-					add_core = H28
+					add_core = VEN
 				}
 				else = {
 					owner = { add_adm_power = 25 }
@@ -82,9 +82,9 @@ venice_missions_1 = {
 				add_nationalism = -10
 				if = {
 					limit = {
-						NOT = { is_core = H28 }
+						NOT = { is_core = VEN }
 					}
-					add_core = H28
+					add_core = VEN
 				}
 				else = {
 					owner = { add_adm_power = 25 }
@@ -146,8 +146,8 @@ venice_missions_2 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -182,7 +182,7 @@ venice_missions_2 = {
 			add_prestige = 5
 			add_mil_power = 25
 			4729 = {
-				change_culture = venixicus
+				change_culture = venixus
 				change_religion = ROOT
 			}
 			if = {
@@ -258,8 +258,8 @@ venice_missions_3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -392,8 +392,8 @@ venice_missions_4 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -526,8 +526,8 @@ venice_missions_5 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 	}

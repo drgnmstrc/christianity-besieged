@@ -1,6 +1,6 @@
 government = theocracy
 add_government_reform = papacy_reform
-primary_culture = italian_turk
+primary_culture = italo_turk
 add_accepted_culture = roman
 religion = ashabi
 technology_group = ottoman

@@ -17,7 +17,7 @@ country_decisions = {
 			NOT = { tag = BTA }
 			NOT = { tag = HLR }
 			OR = {
-				primary_culture = italian_turk
+				primary_culture = italo_turk
 				primary_culture = roman
 				primary_culture = graeci
 			}
@@ -101,7 +101,7 @@ country_decisions = {
 				every_owned_province = {
 					limit = {
 						OR = {
-							culture = italian_turk
+							culture = italo_turk
 							culture = roman
 						}
 						religion = ashabi
@@ -234,7 +234,7 @@ country_decisions = {
 			change_tag = RME
 			if = {
 				limit = {
-					NOT = { was_tag = H28 }
+					NOT = { was_tag = VEN }
 				}
 				RME = { set_capital = 118 }
 			}

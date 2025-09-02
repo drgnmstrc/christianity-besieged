@@ -867,8 +867,8 @@ country_event = {
 		has_government_attribute = lottery_election
 		NOT = { has_disaster =  bonfire_of_the_vanities_disaster }
 		NOT = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 	}
 	

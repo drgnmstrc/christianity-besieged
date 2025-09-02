@@ -28,6 +28,7 @@ capital = 1752
 		adm = 3
 		dip = 1
 		mil = 5
+		birth_date = 1441.1.1
 	}
 }
 

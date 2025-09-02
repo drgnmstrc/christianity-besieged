@@ -672,7 +672,7 @@ country_event = {
 		OR = {
 			tag = USA
 			AND = {
-				culture_group = western_nordic
+				culture_group = anglo_saxon_group
 				any_owned_province = {
 					continent = north_america
 				}

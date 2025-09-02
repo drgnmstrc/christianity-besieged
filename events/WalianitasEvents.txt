@@ -65,7 +65,8 @@ country_event = { #Glorious Sacrifice to Jupiter
                         }
                         if = {
                             limit = { NOT = { has_country_modifier = wl_gs_enemies_within } }
-                        country_event = { id = walianitasEvents.9 } #Enemies Within
+                            country_event = { id = walianitasEvents.9 } #Enemies Within
+                        }
                     }
                     10 = {
                         if = {

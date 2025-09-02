@@ -10,7 +10,7 @@ country_event = {
 		owns = 118		# Rome
 		normal_or_historical_nations = yes
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		NOT = { tag = ROM }
 		NOT = { tag = RMC }
 		NOT = { exists = U02 }
@@ -74,8 +74,8 @@ country_event = {
 			}
 		}
 		118 = {
-			add_core = U01
-			cede_province = U01
+			add_core = BTA
+			cede_province = BTA
 			if = {
 				limit = {
 					is_core = ROOT
@@ -96,7 +96,7 @@ country_event = {
 	
 	trigger = {
 		papacy_active = yes
-		NOT = { exists = U01 }
+		NOT = { exists = BTA }
 		NOT = { exists = U02 }
 		NOT = { exists = RMC }
 		religion = ashabi
@@ -126,7 +126,7 @@ country_event = {
 		months = 6
 		modifier = {
 			factor = 0.5
-			tag = Y03
+			tag = IFR
 		}
 		modifier = {
 			factor = 2.0
@@ -185,13 +185,13 @@ country_event = {
 				has_province_flag = papal_province
 			}
 			remove_core = ROOT
-			add_core = U01
-			cede_province = U01
+			add_core = BTA
+			cede_province = BTA
 			clr_province_flag = papal_province
 		}
 		add_papal_influence = 20
 		add_prestige = 25
-		U01 = {
+		BTA = {
 			change_religion = ashabi
 		}
 	}

@@ -178,7 +178,7 @@ muhammad_deity = {
 			OR = {
 				culture_group = turko_semitic
 				culture_group = rumi
-				culture = italian_turk
+				culture = italo_turk
 			}
 		}
 		religion = manichaeism

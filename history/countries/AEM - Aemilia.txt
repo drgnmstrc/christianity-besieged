@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = italian_iqta
 government_rank = 1
-primary_culture = italian_turk
+primary_culture = italo_turk
 add_accepted_culture = emaglici
 religion = ashabi
 technology_group = ottoman

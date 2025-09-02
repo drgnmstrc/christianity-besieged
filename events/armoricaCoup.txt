@@ -7,7 +7,7 @@ country_event = { #We gonna get couped if we dont get shit together!
 	is_triggered_only = yes
 	trigger = {
 		tag = AMO
-		B05 = { ai = yes }
+		WSX = { ai = yes }
 	}
 	option = {
 		name = armoricaCoup.a
@@ -21,8 +21,8 @@ country_event = { #Welp it happened
 	trigger = {
 		tag = AMO
 		is_year = 1448
-		exists = B05
-		B05 = { ai = yes }
+		exists = WSX
+		WSX = { ai = yes }
 		NOT = { is_year = 1450 }
 	}
 	mean_time_to_happen = {
@@ -31,9 +31,9 @@ country_event = { #Welp it happened
 	immediate = {
 		hidden_effect = {
 			if = {
-				limit = { B05 = { ai = yes } }
-				white_peace = B05
-				inherit = B05
+				limit = { WSX = { ai = yes } }
+				white_peace = WSX
+				inherit = WSX
 			}
 			set_country_flag = axrotalus_rules
 		}
@@ -119,37 +119,37 @@ country_event = { #Wessex Revolt
 	trigger = {
 		tag = AMO
 		has_country_flag = axrotalus_deified
-		NOT = { exists = B05 }
+		NOT = { exists = WSX }
 	}
 	mean_time_to_happen = {
 		months = 12
 	}
 	immediate = {
 		hidden_effect = {
-			4373 = { cede_province = B05 }
-			4130 = { cede_province = B05 }
+			4373 = { cede_province = WSX }
+			4130 = { cede_province = WSX }
 			4374 = {
-				cede_province = B05
-				B05 = {
+				cede_province = WSX
+				WSX = {
 					infantry = PREV
 					infantry = PREV
 					infantry = PREV
 				}
 			}
 			AMO = {
-				declare_war = B05
+				declare_war = WSX
 			}
 		}
 	}
 	option = { #We lose too many in these hapless wars as it is.
 		name = armoricaCoup.2a
 		add_prestige = -5
-		white_peace = B05
+		white_peace = WSX
 		hidden_effect = {
-			4371 = { cede_province = B04 }
+			4371 = { cede_province = SSX }
 			234 = {
-				cede_province = B04
-				add_core = B04
+				cede_province = SSX
+				add_core = SSX
 			}
 		}
 		ai_chance = {

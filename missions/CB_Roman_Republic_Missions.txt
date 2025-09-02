@@ -14,6 +14,9 @@ rome_rep_missions_1 = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			#incident: roman_resurgence
 			NOT = {
@@ -47,6 +50,9 @@ rome_rep_missions_1 = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			savoy_dauphine_area = {
 				type = all
@@ -100,6 +106,9 @@ rome_rep_missions_1 = {
 		icon = mission_conquer_50_development
 		required_missions = { rome_rep_alpine_security } #None
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			holland_area = {
 				type = all
@@ -177,6 +186,9 @@ rome_rep_missions_4_privilegiis_venetia = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			NOT = { exists = RME }
 		}
@@ -200,6 +212,9 @@ rome_rep_missions_5_centralized = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			baleares_area = {
 				type = all
@@ -224,6 +239,9 @@ rome_rep_missions_5_centralized = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			baleares_area = {
 				type = all

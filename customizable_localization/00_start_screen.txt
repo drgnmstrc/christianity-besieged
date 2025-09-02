@@ -68,7 +68,7 @@ defined_text = {
         	trigger = {
 			OR = {
 				tag = AMO
-				tag = H28
+				tag = VEN
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 
 owner = BTA
 controller = BTA
-culture = italian_turk
+culture = italo_turk
 religion = ashabi 
 hre = no
 base_tax = 8

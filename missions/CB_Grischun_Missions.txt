@@ -15,6 +15,9 @@ grischun_missions_3 = {
 		icon = mission_build_up_to_force_limit
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
@@ -28,6 +31,9 @@ grischun_missions_3 = {
 		icon = mission_cossack_cavalry
 		required_missions = { grischun_campaign_preparations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			war_with = LEV
 		}
@@ -42,6 +48,9 @@ grischun_missions_3 = {
 		icon = mission_have_two_subjects
 		required_missions = { grischun_leventina_campaign }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			owns = 166
 			owns = 1870

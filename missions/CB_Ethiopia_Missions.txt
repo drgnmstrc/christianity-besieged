@@ -12,6 +12,9 @@ ethiopia_missions_1 = {
 		icon = mission_luther_theses
 		required_missions = {  } #None
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			adm_power = 50
 			dip_power = 50
@@ -40,6 +43,9 @@ ethiopia_missions_2 = {
 		icon = mission_assemble_an_army
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			army_size_percentage = 1
 		}
@@ -54,6 +60,9 @@ ethiopia_missions_2 = {
 		icon = mission_invade_island
 		required_missions = { eth_raise_army } #None
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			tihama_al_yemen_area = {
 				type = all
@@ -91,6 +100,9 @@ ethiopia_missions_2 = {
 		icon = mission_unite_home_region
 		required_missions = { eth_secure_arab_coast } #None
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			arabia_region = {
 				type = all
@@ -121,6 +133,9 @@ ethiopia_missions_3 = {
 		icon = mission_conquer_50_development
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			southern_ethiopia_area = {
 				type = all
@@ -150,6 +165,9 @@ ethiopia_missions_3 = {
 		icon = mission_sea_battles
 		required_missions = { eth_secure_highlands } #None
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			majarteen_area = {
 				type = all
@@ -183,6 +201,9 @@ ethiopia_missions_3 = {
 		icon = mission_market_place_with_asian_traders
 		required_missions = { eth_wealth_of_somalia } #None
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			504 = { is_strongest_trade_power = ROOT }
 			1340 = { is_strongest_trade_power = ROOT }
@@ -211,6 +232,9 @@ ethiopia_missions_4 = {
 		icon = mission_mosque
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			359 = { owned_by = ROOT }
 			4318 = { owned_by = ROOT }
@@ -227,6 +251,9 @@ ethiopia_missions_4 = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { eth_integrating_egyptians } #None
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			2771 = { owned_by = ROOT }
 			2769 = { owned_by = ROOT }
@@ -245,6 +272,9 @@ ethiopia_missions_4 = {
 		icon = mission_dominate_home_trade_node
 		required_missions = { eth_dominating_egyptian_affairs } #None
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			maghreb_region = {
 				type = all
@@ -278,6 +308,9 @@ ethiopia_missions_5 = {
 		icon = mission_hanseatic_city
 		required_missions = {  } #None
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			2772 = { num_of_times_improved = 3 }
 			1223 = { num_of_times_improved = 3 }
@@ -304,6 +337,9 @@ ethiopia_missions_5 = {
 		icon = mission_african_soldier
 		required_missions = { eth_develop_tana_jeberti } #None
 		position = 5
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			2771 = {
 				owned_by = ROOT

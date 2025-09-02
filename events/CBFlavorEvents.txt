@@ -187,14 +187,14 @@ country_event = { #Triggers Random Event 4
 		modifier = {
 			factor = 0.5
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 50
 			}
 		}
 		modifier = {
 			factor = 0.75
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 150
 			}
 		}
@@ -202,7 +202,7 @@ country_event = { #Triggers Random Event 4
 			factor = 10
 			NOT = {
 				reverse_has_opinion = {
-					who = U01
+					who = BTA
 					value = -100
 				}
 			}
@@ -1011,7 +1011,7 @@ country_event = {
 	picture = COMET_SIGHTED_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = H28
+		tag = VEN
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -1131,7 +1131,7 @@ country_event = {#Writing conventions of Tuthegacia
 	picture = DIPLOMACY_eventPicture
 	is_triggered_only = yes
 	trigger = {
-		tag = G10
+		tag = GLA
 		OR = {
 			dynasty = "Donreritter"
 			dynasty = "Donerrite"

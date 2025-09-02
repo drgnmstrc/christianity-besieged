@@ -167,7 +167,7 @@ country_event = { #Albalupus dies
 	fire_only_once = yes
 	trigger = {
 		NOT = { has_leader = "Albalupus ex Helvetica" }
-		tag = H28
+		tag = VEN
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -221,12 +221,12 @@ country_event = { #The Question of Mithraism
 			religion = noniustian
 		}
 		112 = { change_religion = noniustian }
-		Z21 = { change_religion = noniustian }
+		UNU = { change_religion = noniustian }
 		140 = {
 			change_religion = noniustian
 			add_reform_center = noniustian
 		}
-		create_union = Z21
+		create_union = UNU
 		add_stability_or_adm_power = yes
 	}
 	option = { #The Sun has always preferred the Empire of Rome.
@@ -430,7 +430,7 @@ province_event = { #Romanization effect on a province
 			AND = {
 				OR = {
 					NOT = { religion = noniustian }
-					NOT = { religion = manichaean }
+					NOT = { religion = manichaeism }
 					NOT = { has_roman_religion = yes }
 				}
 				owner = { religion = noniustian }
@@ -620,9 +620,9 @@ country_event = { #Respecting the Privilegiis Venetia
 			name = rome_respecting_venetia
 			duration = -1
 		}
-		112 = { cede_province = H28 }
-		1774 = { cede_province = H28 }
-		vassalize = H28
+		112 = { cede_province = VEN }
+		1774 = { cede_province = VEN }
+		vassalize = VEN
 		ai_chance = {
 			factor = 25
 		}

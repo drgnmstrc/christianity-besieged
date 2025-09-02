@@ -187,14 +187,14 @@ country_event = { #Triggers Random Event 4
 		modifier = {
 			factor = 0.5
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 50
 			}
 		}
 		modifier = {
 			factor = 0.75
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 150
 			}
 		}
@@ -202,7 +202,7 @@ country_event = { #Triggers Random Event 4
 			factor = 10
 			NOT = {
 				reverse_has_opinion = {
-					who = U01
+					who = BTA
 					value = -100
 				}
 			}
@@ -305,7 +305,7 @@ country_event = { #Random Hellenic religion preacher selection (7)
 			if = {
 				limit = {
 					OR = {
-						primary_culture = phyrgian
+						primary_culture = phryges
 						secondary_religion = cybelism
 					}
 				}
@@ -1130,7 +1130,7 @@ country_event = {#Writing conventions of Tuthegacia
 	desc = camsRandomEvents.16d
 	picture = DIPLOMACY_eventPicture
 	trigger = {
-		tag = G10
+		tag = GLA
 		OR = {
 			NOT = { has_heir = yes }
 			heir_has_ruler_dynasty = yes

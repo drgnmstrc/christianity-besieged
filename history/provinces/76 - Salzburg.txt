@@ -3,7 +3,7 @@
 owner = GEP
 controller = GEP
 add_core = GEP
-culture = gepidan
+culture = gepidian
 religion = germanic
 capital = "Salzburg"
 trade_goods = beer

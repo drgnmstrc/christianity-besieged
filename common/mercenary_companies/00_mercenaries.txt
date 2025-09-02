@@ -141,8 +141,8 @@ restoration_legion = {
 	cavalry_weight = 0.3
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = H28
-		H28 = {
+		tag = VEN
+		VEN = {
 			num_of_cities = 5
 		}
 	}
@@ -237,7 +237,7 @@ local_roman_legion = {
     cavalry_cap = 2
     cost_modifier = 0.5
     trigger = {
-        tag = H28
+        tag = VEN
     }
     # No home province means local mercenary company
 }

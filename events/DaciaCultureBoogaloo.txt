@@ -15,7 +15,7 @@ province_event = {
 				}
 			}
 			AND = {
-				culture = transylvanian
+				culture = slavo_romanian
 				NOT = {
 					OR = {
 						religion = slavic
@@ -49,7 +49,7 @@ province_event = {
 				religion = norse_pagan_reformed
 			}
 		}
-		change_culture = transylvanian
+		change_culture = slavo_romanian
 	}
 	option = {
 		trigger = {

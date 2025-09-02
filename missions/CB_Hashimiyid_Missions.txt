@@ -12,6 +12,9 @@ hashimiyid_missions_1 = {
 		icon = mission_mosque
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			reverse_has_opinion = {
 				who = MDA

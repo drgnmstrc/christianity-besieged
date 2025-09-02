@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = italian_turk
+primary_culture = italo_turk
 add_accepted_culture = langobard
 religion = ashabi
 technology_group = ottoman

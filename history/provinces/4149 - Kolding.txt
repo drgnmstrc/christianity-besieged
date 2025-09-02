@@ -3,7 +3,7 @@
 owner = CIM
 controller = CIM
 add_core = CIM
-culture = jutes
+culture = cimbrian
 religion = norse_pagan_reformed
 hre = no
 base_tax = 3

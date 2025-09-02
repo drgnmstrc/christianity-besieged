@@ -247,11 +247,11 @@ country_event = {
 					}
 				}
 				reverse_add_opinion = {
-					who = U01
+					who = BTA
 					modifier = appreciate_iberian_autonomy
 				}
 				reverse_add_opinion = {
-					who = Y03
+					who = IFR
 					modifier = appreciate_iberian_autonomy
 				}
 				if = {

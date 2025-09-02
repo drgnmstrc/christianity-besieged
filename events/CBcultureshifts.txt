@@ -119,11 +119,11 @@ province_event = {
 		years = 50
 		modifier = {
 			factor = 0.5
-			owner = { tag = U16 }
+			owner = { tag = SDM }
 		}
 		modifier = {
 			factor = 2
-			owner = { tag = Z21 }
+			owner = { tag = UNU }
 		}
 	}
 
@@ -468,8 +468,8 @@ province_event = {
 		OR = {
 			culture = swiss
 			culture = alemanni
-			culture = lombard
-			culture = gepidan
+			culture = langobard
+			culture = gepidian
 			culture = burgundian
 			culture = swabian
 			culture = bavarian

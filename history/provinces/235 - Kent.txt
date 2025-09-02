@@ -2,7 +2,7 @@
 
 owner = DBR
 controller = DBR
-culture = jelander
+culture = jutish
 religion = anglican
 hre = no
 base_tax = 4

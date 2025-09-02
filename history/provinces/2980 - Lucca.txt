@@ -3,7 +3,7 @@
 owner = LGU
 controller = LGU
 add_core = LGU
-culture = italian_turk
+culture = italo_turk
 religion = ashabi
 hre = no
 base_tax = 6

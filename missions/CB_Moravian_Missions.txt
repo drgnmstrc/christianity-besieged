@@ -12,6 +12,9 @@ moravia_missions_1 = {
 		icon = mission_italian_condottiere
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			153 = {
 				base_manpower = 6

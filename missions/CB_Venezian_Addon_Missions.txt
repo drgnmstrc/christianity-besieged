@@ -5,8 +5,8 @@ ven_pagan_missions_1 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		OR = {
@@ -21,6 +21,9 @@ ven_pagan_missions_1 = {
 		icon = mission_early_modern_university
 		position = 6
 		required_missions = { }
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			112 = { country_or_non_sovereign_subject_holds = ROOT }
 			if = {
@@ -49,6 +52,9 @@ ven_pagan_missions_1 = {
 		icon = mission_hands_praying
 		position = 8
 		required_missions = { }
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			102 = { country_or_non_sovereign_subject_holds = ROOT }
 			if = {
@@ -81,8 +87,8 @@ venice_conquest_missions_2 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_conq_missions
@@ -93,6 +99,9 @@ venice_conquest_missions_2 = {
 		icon = mission_assemble_an_army
 		required_missions = { venice_conquer_ferrara }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			po_valley_area = {
 				type = all
@@ -122,6 +131,9 @@ venice_conquest_missions_2 = {
 		icon = mission_early_modern_university
 		required_missions = { venice_conquer_valley }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			lombardy_area = {
 				type = all
@@ -156,8 +168,8 @@ venice_conquest_missions_3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_conq_missions
@@ -168,6 +180,9 @@ venice_conquest_missions_3 = {
 		icon = mission_cossack_cavalry
 		required_missions = { venice_conquer_ferrara }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			emilia_romagna_area = {
 				type = all
@@ -186,6 +201,9 @@ venice_conquest_missions_3 = {
 		icon = mission_unite_home_region
 		required_missions = { venice_conquer_aemilia }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			tuscany_area = {
 				type = all
@@ -218,11 +236,14 @@ venice_conquest_missions_3 = {
 		icon = mission_empire
 		required_missions = { }
 		position = 8
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			owns = 118
 		}
 		effect = {
-			118 = { add_core = H28 }
+			118 = { add_core = VEN }
 			118 = { add_nationalism = -10 }
 			country_event = { id = venetianEvents.2 }
 			add_country_modifier = {
@@ -241,8 +262,8 @@ venice_conquest_missions_4 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_conq_missions
@@ -253,6 +274,9 @@ venice_conquest_missions_4 = {
 		icon = mission_impaled_soldies
 		required_missions = { venice_conquer_ferrara }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			4758 = {
 				owned_by = ROOT
@@ -279,7 +303,7 @@ venice_conquest_missions_4 = {
 			add_mil_power = 50
 			every_owned_province = {
 				limit = {
-					culture = lombard
+					culture = langobard
 				}
 				add_nationalism = -5
 			}
@@ -289,6 +313,9 @@ venice_conquest_missions_4 = {
 		icon = mission_sea_battles
 		required_missions = { venice_conquer_lombards }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			carinthia_area = {
 				type = all
@@ -328,8 +355,8 @@ venice_fed_missions_2 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_feds_missions
@@ -340,6 +367,9 @@ venice_fed_missions_2 = {
 		icon = mission_have_two_subjects
 		required_missions = { venice_subjugate_ferrara }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			emilia_romagna_area = {
 				type = all
@@ -368,6 +398,9 @@ venice_fed_missions_2 = {
 		icon = mission_eastern_european_city
 		required_missions = { venice_turcia_aemilia }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			lombardy_area = {
 				type = all
@@ -407,8 +440,8 @@ venice_fed_missions_3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_feds_missions
@@ -419,6 +452,9 @@ venice_fed_missions_3 = {
 		icon = mission_landsknecht_soldier
 		required_missions = { venice_subjugate_ferrara }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			po_valley_area = {
 				type = all
@@ -470,6 +506,9 @@ venice_fed_missions_3 = {
 		icon = mission_cannons_firing
 		required_missions = { venice_bardia }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			central_italy_area = {
 				type = all
@@ -491,11 +530,14 @@ venice_fed_missions_3 = {
 		icon = mission_empire
 		required_missions = { }
 		position = 8
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			owns = 118
 		}
 		effect = {
-			118 = { add_core = H28 }
+			118 = { add_core = VEN }
 			118 = { add_nationalism = -10 }
 			country_event = { id = venetianEvents.2 }
 			add_country_modifier = {
@@ -514,8 +556,8 @@ venice_fed_missions_4 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_feds_missions

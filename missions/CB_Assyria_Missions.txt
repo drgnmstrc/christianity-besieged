@@ -12,6 +12,9 @@ assyrian_missions_2 = {
 		icon = mission_persian_soldiers
 		required_missions = {}
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			grown_by_development = 100
 		}
@@ -50,6 +53,9 @@ assyrian_missions_2 = {
 		icon = mission_steppe_warriors
 		required_missions = { asyr_dominance }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			414 = { 
 				owned_by = ROOT
@@ -84,6 +90,9 @@ assyrian_missions_3 = {
 		icon = mission_arabian_fort
 		required_missions = {}
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			owns_all_provinces = {
 				culture = assyrian
@@ -100,6 +109,9 @@ assyrian_missions_3 = {
 		icon = mission_unite_home_region
 		required_missions = { asyr_united }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			mashriq_region = {
 				type = all
@@ -118,6 +130,9 @@ assyrian_missions_3 = {
 		icon = mission_crusade_for_varna
 		required_missions = { asyr_dominance }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			379 = {
 				owned_by = ROOT
@@ -133,6 +148,9 @@ assyrian_missions_3 = {
 		icon = mission_egyptian_mamluk_soldier
 		required_missions = { asyr_jerusalem }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			delta_area = {
 				type = all
@@ -164,6 +182,9 @@ assyrian_missions_3 = {
 		icon = mission_market_place_with_asian_traders
 		required_missions = { asyr_nile_beyond }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 3
@@ -196,6 +217,9 @@ assyrian_missions_4 = {
 		icon = mission_steppe_warriors
 		required_missions = { }
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 3
@@ -220,6 +244,9 @@ assyrian_missions_4 = {
 		icon = mission_sea_battles
 		required_missions = { asyr_eastern_port }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			1334 = { is_strongest_trade_power = ROOT }
 		}
@@ -232,6 +259,9 @@ assyrian_missions_4 = {
 		icon = mission_assemble_an_army
 		required_missions = { asyr_dominance }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			army_size_percentage = 1
 			OR = {
@@ -255,6 +285,9 @@ assyrian_missions_4 = {
 		icon = mission_colonial
 		required_missions = { asyr_indonesian_communities }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			any_known_country = {
 				capital_scope = { region = australia_region }
@@ -284,6 +317,9 @@ assyrian_missions_5 = {
 		icon = mission_persian_soldiers
 		required_missions = {}
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			any_owned_province = {
 				has_port = yes
@@ -306,6 +342,9 @@ assyrian_missions_5 = {
 		icon = mission_indian_stateman
 		required_missions = { asyr_eastern_port }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			any_known_country = {
 				capital_scope = { superregion = india_superregion }
@@ -327,6 +366,9 @@ assyrian_missions_5 = {
 		icon = mission_trade_company_region_abroad
 		required_missions = { asyr_indian_relations }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			any_owned_province = {
 				OR = {
@@ -346,6 +388,9 @@ assyrian_missions_5 = {
 		icon = mission_invade_island
 		required_missions = { asyr_indonesian_communities }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 6
@@ -364,6 +409,9 @@ assyrian_missions_5 = {
 		icon = mission_settlers_north_america
 		required_missions = { asyr_claim_pacific }
 		position = 5
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			any_owned_province = {
 				is_colony = yes
@@ -385,6 +433,9 @@ assyrian_missions_5 = {
 		icon = mission_settlers_north_america
 		required_missions = { asyr_new_world_mission }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 6

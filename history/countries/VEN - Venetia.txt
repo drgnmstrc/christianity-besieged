@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = venice_merchants_reform
 mercantilism = 25
-primary_culture = venixicus
+primary_culture = venixus
 add_accepted_culture = ilyicolone
 religion = sol_invictus
 technology_group = ottoman

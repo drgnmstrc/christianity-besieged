@@ -20,7 +20,7 @@ make_locus_conventus = {
 				FROM = {
 					is_subject_of_type = vassal
 					is_subject_of = ROOT
-					tag = H28
+					tag = VEN
 				}
 			}
 		}

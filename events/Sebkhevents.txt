@@ -77,25 +77,25 @@ country_event = { #Sebkhemerz Vassalize Ghajaz and Moglena
 	fire_only_once = yes
 	trigger = {
 		OR = {
-			exists = X17
-			exists = X18
+			exists = GEY
+			exists = MOG
 		}
 	}
 	option = { #Fear not, for you have our protection.
 		name = sebkhevents.3a
 		if = {
 			limit = {
-				exists = X17
-				X17 = { NOT = { is_subject = yes } }
+				exists = GEY
+				GEY = { NOT = { is_subject = yes } }
 			}
-			vassalize = X17
+			vassalize = GEY
 		}
 		if = {
 			limit = {
-				exists = X18
-				X18 = { NOT = { is_subject = yes } }
+				exists = MOG
+				MOG = { NOT = { is_subject = yes } }
 			}
-			vassalize = X18
+			vassalize = MOG
 		}
 	}
 }

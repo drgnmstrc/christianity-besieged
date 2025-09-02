@@ -1627,7 +1627,7 @@ country_event = {
 	trigger = {
 		has_estate = estate_church
 		religion_group = muslim
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 
 	mean_time_to_happen = {

@@ -4,8 +4,8 @@ rome_pagan_missions_1 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 			tag = RME
 		}
 		NOT = { map_setup = map_setup_random }
@@ -22,6 +22,9 @@ rome_pagan_missions_1 = {
 		icon = mission_hands_praying
 		position = 10
 		required_missions = { }
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			118 = { country_or_non_sovereign_subject_holds = ROOT }
 			if = {
@@ -52,6 +55,9 @@ rome_pagan_missions_1 = {
 		icon = mission_hands_praying
 		position = 12
 		required_missions = { }
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			125 = { country_or_non_sovereign_subject_holds = ROOT }
 			if = {
@@ -84,8 +90,8 @@ rome_king_missions_2 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_rom_king_missions
@@ -96,6 +102,9 @@ rome_king_missions_2 = {
 		icon = mission_cannons_firing
 		required_missions = { ven_rome_italian_affairs }
 		position = 10
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			adm_power = 50
 			stability = 1
@@ -108,7 +117,7 @@ rome_king_missions_2 = {
 			}
 			every_owned_province = {
 				limit = {
-					culture = italian_turk
+					culture = italo_turk
 				}
 				add_province_modifier = {
 					name = ven_rom_new_aristocracy
@@ -122,6 +131,9 @@ rome_king_missions_2 = {
 		icon = mission_cannons_firing
 		required_missions = { ven_rome_redistribute_land }
 		position = 11
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 12
@@ -151,6 +163,9 @@ rome_king_missions_2 = {
 		icon = mission_cannons_firing
 		required_missions = { ven_rome_industria}
 		position = 12
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 12
@@ -173,8 +188,8 @@ rome_king_missions_3 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_rom_king_missions
@@ -185,6 +200,9 @@ rome_king_missions_3 = {
 		icon = mission_empire
 		required_missions = { venice_conquer_rome }
 		position = 9
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			tag = RME
 		}
@@ -201,6 +219,9 @@ rome_king_missions_3 = {
 		icon = mission_empire
 		required_missions = { ven_rome_italian_affairs }
 		position = 10
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			calabria_area = {
 				type = all
@@ -228,6 +249,9 @@ rome_king_missions_3 = {
 		icon = mission_empire
 		required_missions = { ven_rome_uniting_peninsula }
 		position = 11
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			western_sicily_area = {
 				type = all
@@ -247,6 +271,9 @@ rome_king_missions_3 = {
 		icon = mission_empire
 		required_missions = { ven_rome_conquest_of_sicily }
 		position = 12
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			po_valley_area = {
 				type = all
@@ -280,8 +307,8 @@ rome_king_missions_4 = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_rom_king_missions
@@ -292,6 +319,9 @@ rome_king_missions_4 = {
 		icon = mission_empire
 		required_missions = { ven_rome_italian_affairs }
 		position = 10
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 5
@@ -310,6 +340,9 @@ rome_king_missions_4 = {
 		icon = mission_empire
 		required_missions = { ven_rome_culture }
 		position = 11
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			italy_region = {
 				type = all
@@ -327,6 +360,9 @@ rome_king_missions_4 = {
 		icon = mission_empire
 		required_missions = { ven_rome_anizing_italy }
 		position = 12
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			prestige = 100
 		}

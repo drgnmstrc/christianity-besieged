@@ -45,7 +45,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = B09
+				exists = SXE
 				exists = BMI
 			}
 			owns_core_province = 236		# London

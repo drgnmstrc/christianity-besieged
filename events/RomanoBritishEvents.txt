@@ -14,7 +14,7 @@ country_event = { #Surge of Refugees
 		OR = {
 			NOT = {
 				exists = LOT
-				exists = B08
+				exists = SSN
 			}
 			NOT = {
 				exists = GAL

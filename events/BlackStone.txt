@@ -41,14 +41,14 @@ country_event = {
 		if = {
 			limit = {
 				religion = ashabi
-				exists = U01
+				exists = BTA
 				118 = {
-					owned_by = U01
+					owned_by = BTA
 					NOT = { has_province_modifier = the_black_stone }
 				}
 			}
 			reverse_add_opinion = {
-				who = U01
+				who = BTA
 				modifier = didnt_give_us_stone
 			}
 		}
@@ -75,7 +75,7 @@ country_event = {
 					AND = {
 						religion = ashabi
 						has_opinion = {
-							who = U01
+							who = BTA
 							value = 0
 						}
 					}
@@ -143,7 +143,7 @@ country_event = {
 					AND = {
 						religion = ashabi
 						NOT = { has_opinion = {
-							who = U01
+							who = BTA
 							value = 0
 						} }
 					}
@@ -160,8 +160,8 @@ country_event = {
 		name = blackstone.c
 		trigger = {
 			religion =  ashabi
-			exists = U01
-			U01 = { capital_scope = { NOT = { has_province_modifier = the_black_stone} } }
+			exists = BTA
+			BTA = { capital_scope = { NOT = { has_province_modifier = the_black_stone} } }
 		}
 		hidden_effect = {
 			every_province = {
@@ -180,7 +180,7 @@ country_event = {
 			}
 		}
 		add_prestige = 15
-		U01 = {
+		BTA = {
 			add_opinion = {
 				who = FROM
 				modifier = returned_the_stone
@@ -200,7 +200,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				NOT = { has_opinion = {
-					who = U01
+					who = BTA
 					value = 1
 				} }
 			}
@@ -271,7 +271,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				1306 = { owner = { NOT = { reverse_has_opinion = {
-					who = U01
+					who = BTA
 					value = 1
 				} } } }
 			}

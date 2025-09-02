@@ -211,7 +211,7 @@ country_event = {
 			random_country = {
 				limit = {
 					OR = {
-						tag = U01
+						tag = BTA
 						culture_group = occidental
 					}
 				}
