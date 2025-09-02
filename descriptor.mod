@@ -16,5 +16,5 @@ tags={
 	"Technologies"
 	"Trade"
 }
-name="Christianity Besieged 1444"
+name="Christianity Besieged: Redux"
 supported_version="v1.37.5.0"
