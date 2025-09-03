@@ -12,4 +12,4 @@ base_production = 4
 base_manpower = 2
 center_of_trade = 1
 discovered_by = central_african
-discovered_by = sub_saharan
+discovered_by = south_african

@@ -14,4 +14,4 @@ center_of_trade = 1
 extra_cost = 8
 discovered_by = central_african
 discovered_by = east_african
-discovered_by = sub_saharan
+discovered_by = south_african

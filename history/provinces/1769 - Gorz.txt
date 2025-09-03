@@ -12,15 +12,14 @@ capital = "Gorizia"
 is_city = yes
 hre = no
 
-
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = east_african
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
+
 1440.2.27 = {
 	owner = HSR
 	controller = HSR

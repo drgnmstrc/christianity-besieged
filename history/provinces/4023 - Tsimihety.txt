@@ -15,4 +15,4 @@ base_manpower = 1
 is_city = yes
 add_local_autonomy = 50 #Almost no central control prior to the late 18th century.
 discovered_by = east_african
-discovered_by = sub_saharan
+discovered_by = south_african

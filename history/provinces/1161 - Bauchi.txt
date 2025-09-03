@@ -14,6 +14,6 @@ base_manpower = 2
 discovered_by = sub_saharan
 discovered_by = central_african
 discovered_by = east_african
-discovered_by = near_east
+discovered_by = saharan
 is_city = yes
 

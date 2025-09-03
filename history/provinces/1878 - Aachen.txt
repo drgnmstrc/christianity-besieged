@@ -22,8 +22,8 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = western
-discovered_by = western
+discovered_by = eirun
+discovered_by = scandinavian_tech
 
 
 1690.1.1 = { base_manpower = 1 }

@@ -15,5 +15,5 @@ base_production = 1
 add_local_autonomy = 25
 discovered_by = east_african
 discovered_by = near_east
-discovered_by = near_east
+discovered_by = saharan
 

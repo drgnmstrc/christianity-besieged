@@ -15,5 +15,5 @@ base_production = 5
 
 
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan
 discovered_by = east_african

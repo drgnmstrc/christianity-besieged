@@ -18,7 +18,7 @@ add_core = KBU #Subject province within the empire
 
 
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan
 
 
 1490.1.1 = { unrest = 3 } #Fulani uprisings under Koly Tengella wreak havoc before moving down Senegal River

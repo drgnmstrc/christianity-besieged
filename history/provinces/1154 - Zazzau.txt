@@ -10,6 +10,6 @@ hre = no
 base_tax = 3 
 base_production = 3
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan
 owner = ZZZ
 controller = ZZZ

@@ -17,7 +17,7 @@ base_manpower = 1
 
 
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan
 
 
 1471.1.1 = { owner = SON controller = SON add_core = SON } # Conquered by Sunni Ali Ber of Songhai

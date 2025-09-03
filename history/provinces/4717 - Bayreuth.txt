@@ -16,6 +16,6 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
 #copied from Ansbach but I think it is accurate

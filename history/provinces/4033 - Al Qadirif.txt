@@ -16,7 +16,7 @@ add_local_autonomy = 50
 discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = near_east
+discovered_by = saharan
 
 1503.1.1 = {
 	owner = NUB

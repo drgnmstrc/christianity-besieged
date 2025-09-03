@@ -15,4 +15,4 @@ capital = "Wayao"
 
 discovered_by = east_african
 discovered_by = central_african
-discovered_by = sub_saharan
+discovered_by = south_african

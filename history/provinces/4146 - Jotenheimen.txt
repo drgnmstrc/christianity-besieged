@@ -2,6 +2,6 @@
 
 discovered_by = eastern
 discovered_by = western
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
 discovered_by = ottoman

@@ -18,7 +18,7 @@ discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = indian
-discovered_by = near_east
+discovered_by = saharan
 
 
 1486.1.1 = { capital = "Badeqe" } # Debre Birhan abandoned

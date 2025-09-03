@@ -19,7 +19,7 @@ discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = indian
-discovered_by = near_east
+discovered_by = saharan
 
 
 1533.1.1 = { unrest = 7 } # Raids by Ahmad Gran

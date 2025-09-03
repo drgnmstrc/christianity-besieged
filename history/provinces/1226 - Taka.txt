@@ -16,4 +16,4 @@ is_city = yes
 discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = near_east
+discovered_by = saharan

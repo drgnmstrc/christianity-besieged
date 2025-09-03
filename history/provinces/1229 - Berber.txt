@@ -14,7 +14,7 @@ base_production = 1
 discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = near_east
+discovered_by = saharan
 
 
 1444.1.1 = {

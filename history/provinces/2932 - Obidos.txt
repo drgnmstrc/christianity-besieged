@@ -17,4 +17,4 @@ discovered_by = near_east
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan

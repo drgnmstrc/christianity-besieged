@@ -20,8 +20,8 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = east_african
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
 
 
 1555.1.1 = { unrest = 5 } # General discontent with the Janissaries' dominance

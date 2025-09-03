@@ -22,6 +22,6 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = east_african
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
 1393.8.21 = { add_core = CRC }

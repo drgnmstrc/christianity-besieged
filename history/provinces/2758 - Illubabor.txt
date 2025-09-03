@@ -14,7 +14,7 @@ base_tax = 2
 base_production = 3
 discovered_by = east_african
 discovered_by = near_east
-discovered_by = near_east
+discovered_by = saharan
 
 1650.1.1 = {
 	culture = oromo

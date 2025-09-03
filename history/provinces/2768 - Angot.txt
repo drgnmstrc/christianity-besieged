@@ -17,7 +17,7 @@ discovered_by = east_african
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = indian
-discovered_by = near_east
+discovered_by = saharan
 
 
 1493.1.1 = { unrest = 6 } # Uprising among the Arho against crown overlordship

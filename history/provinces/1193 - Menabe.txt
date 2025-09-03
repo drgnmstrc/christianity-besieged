@@ -13,6 +13,6 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 discovered_by = east_african
-discovered_by = sub_saharan
+discovered_by = south_african
 extra_cost = 8
 center_of_trade = 1

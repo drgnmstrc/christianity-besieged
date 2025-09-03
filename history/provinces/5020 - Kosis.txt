@@ -15,4 +15,4 @@ base_manpower = 2
 	discovered_by = KHL
 }
 discovered_by = central_african
-discovered_by = sub_saharan
+discovered_by = south_african

@@ -16,10 +16,10 @@ discovered_by = western
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
-discovered_by = western
-discovered_by = western
+discovered_by = scandinavian_tech
+discovered_by = eirun
 discovered_by = east_african
-discovered_by = near_east
+discovered_by = saharan
 extra_cost = 26
 center_of_trade = 2
 

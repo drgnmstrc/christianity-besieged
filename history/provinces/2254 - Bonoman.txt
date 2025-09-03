@@ -14,7 +14,7 @@ base_manpower = 1
 
 
 discovered_by = sub_saharan
-discovered_by = near_east
+discovered_by = saharan
 
 
 1735.1.1 = {

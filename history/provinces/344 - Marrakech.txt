@@ -18,5 +18,5 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = near_east
 discovered_by = east_african
-discovered_by = near_east
-discovered_by = western
+discovered_by = saharan
+discovered_by = scandinavian_tech

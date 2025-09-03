@@ -1,7 +1,7 @@
 # - Mtetwa
 discovered_by = central_african
 discovered_by = east_african
-discovered_by = sub_saharan
+discovered_by = south_african
 owner = XEG
 controller = XEG
 add_core = XEG
