@@ -7,7 +7,7 @@
 government = tribal
 add_government_reform = tribal_federation
 government_rank = 1
-primary_culture = anglish
+primary_culture = ynglis
 religion = anglic
 technology_group = western
 capital = 4361
@@ -17,7 +17,7 @@ fixed_capital = 4361
 1441.2.5 = {
 	monarch = {
 		name = "Uhtric"
-		dynasty = "Sæhulfson"
+		dynasty = "Sï¿½hulfson"
 		birth_date = 1411.12.9
 		ADM = 2
 		DIP = 6

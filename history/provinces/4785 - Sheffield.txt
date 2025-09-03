@@ -16,7 +16,7 @@ base_manpower = 1
 
 trade_goods = lead
 
-culture = anglish
+culture = ynglis
 religion = anglic
 capital = "Sheffield"
 

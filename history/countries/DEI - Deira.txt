@@ -6,7 +6,7 @@
 # DEI (Deira)
 government = tribal
 add_government_reform = tribal_kingdom
-primary_culture = anglish
+primary_culture = ynglis
 religion = anglic
 technology_group = western
 capital = 4367
@@ -14,7 +14,7 @@ capital = 4367
 
 1440.4.9 = {
 	monarch = {
-		name = "Wiþig"
+		name = "Wiï¿½ig"
 		dynasty = "Brentensson"
 		birth_date = 1425.2.26
 		ADM = 2

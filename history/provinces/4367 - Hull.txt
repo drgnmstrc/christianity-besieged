@@ -15,7 +15,7 @@ base_manpower = 2
 
 trade_goods = naval_supplies
 
-culture = anglish
+culture = ynglis
 religion = anglic
 capital = "Hull"
 
