@@ -1,4 +1,4 @@
-version="1.3.2.2"
+version="1.3.3"
 tags={
 	"Alternative History"
 	"Map"
@@ -13,3 +13,4 @@ tags={
 }
 name="Christianity Besieged: Redux"
 supported_version="v1.37.5.0"
+remote_file_id="3561095154"
