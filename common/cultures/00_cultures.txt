@@ -1565,42 +1565,43 @@ occidental = { #Occidental
 	}
 	cambrian = {
 		male_names = {
-			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
-			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
-			Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco 
-			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
-			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
-			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
-			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
-			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
-			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
-			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
-			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
-			Corentin Deniel Dinan Erwan Gaël Gwenaël Gwenneg 
+			Ábiu Áulu Célu Décimu Déciu Drúsu Fáustu Gáiu Néu Lúciu Mámarcu Mániu Márcu Méziu Numáriu Públicu Cíntu Secúndu Sétimu Sárfiu Séstu Sebúriu Tártiu Títu Tibáriu Títu
+			Álbinu Álbu Agrícula Agríba Áratu Asína Áusebe Bálbu Barbátu Bíbulu Brútu Búbu Búteu 
+			Cálfu Cálfinu Cátu Catúlu Céthágu Cícaru Cínna Cútta Crísbia Cúriu Dáma Damásu Dentátu Dífe Dulabélla Dúnatu Drácu 
+			Émaritu Eugéniu Eubhémiu Fálcu Fál Féli Fímbria Fláccu Flúru Frúntu 
+			Gála Gálaru Gemállu Gurgóniu Grácchu Gracíli Hábitu Hérma Hiláríu Horátíu 
+			Ignátiu Iúba Lábeu Láenas Lépidu Lépti Léntulu Líbu Longínuf Lónigu Lúcan Lucúllu Lúbiu 
+			Mácru Marziális Marúllu Máximu Mémmiu Mercátur Mesállá Múntanu Muréna Mú Násica Óceanu Octuániu Ápi 
+			Óbtatu Óthu Paénula Pántira Báuu Paragrínu Pertináx Petrónáx Píctru Bílatu Púlu Prísca Prímu Próciun Púlcha 
+			Quártu Quíricu Régillu Rému Románu Rú Rúfu Rúsu Sábinu Salinátur Scáefula Scísiu Scrúfa Sénéca Sénna 
+			Séfru Sórá Statiú Strábu Súper Súfurbu Tácitu Tértulu Trebúniu Tibúllu Túlliu Ursínu Úrsu Válenz Fárru Várru Váru 
+			Fergíliu Viátor Víctur Víndex Virílis Vitális Vítu Zénu Zóilu Zósimu 
+			Córentin Déniaul Dínan Érwan Gáil Guenáel Guénne
 		}
+
 		female_names = {
-			Aanor Abrelda Adela Adelaïda Adelaide Adelindis Adeltrudis Aedoc Aeluit Aelwyd Agnes Alana 
-			Alis Anne Claudine Alice Anaguistl Anaudat Anaudrec Anauhouguel Anauprost Andrea Anna Aourcen Aouregan Aourell 
-			Aouren Argantan Argantdrec Arganteila Arganteilin Argantguistl Arganthael Argantlon 
-			Artaca Avandrec Avenie Beladora Beladore Berchet Brigid Berengaria Bernegarda Berta 
-			Bertha Bertissa Bleutuen Blodwen Brendana Bronuen Bronwen Buriana Canna Cateline Catherine 
-			Catguistl Cecilia Ceindrec Cagintria Ceinguled Cleirui Creirwy Condeleu Constansa Constance 
-			Cristen Christina Dengel Deniela Denise Diuset Dreanau Drebiu Dreguoreth Drelouguen 
-			Drilego Duihon Elara Eleina Elaine Elena Helen Elesbed Elizabeth Elisaued Elizabeth Elwen 
-			Emma Endellion Ennoguent Enoguen Enora Eonnecte Joan Erouana Yvonne Ewsannec Fuandrec Gaëla 
-			Geberga Geberga Glades Claudia Gloiucen Gloiumed Guelet Guenbrith Guencen Guencenedl Guencor 
-			Guenguerthlon Guenguistl Guenguiu Guenmon Guenna Guenneret Guennguar Gueruel Gwerfyl 
-			Guillemecte Williamette Gwenn Gwen Halbiu Hawis Hawise Herannuen Hodierne Igerna Ignoguen 
-			Ildegarda Hildegarde Iofa Iouenna Joan Isabelle Elizabeth Iseult Hersilia Iudhent Iudlouguen 
-			Iudprost Janed Joan Judhael Judith Languoret Leonore Eleanor Leueer Leuhemel Leuoc Louhelic 
-			Luncen Maben Magdalene Magdalena Marguarite Margaret Mari Maria Medguistl Meduil Melita 
-			Milian Mona Mona Morganne Morganna Morguetel Moruen Murron Moruith Morvana Neulenna Neulenna 
-			Nodguoret Nodiunet Nolwenne Nonne Nonna Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic 
-			Proscen Prosguetel Prostlon Rannoeu Riguistl Rimoet Rioanon Rioanon Rhiannon Rioantcen 
-			Rioantdrec Rioantdrec Rioantel Rioantguellt Regina Roenhael Roinoc Ronana Rozenn Rum Rumun 
-			Stefania Stephania Steren Sulcar Sulcen Sulgubri Sulgwen Sulleisoc Sulmed Susanne Susanna 
-			Tandrec Tanetbiu Tanetlowen Tanguistl Tancostyla Tedvil Tephaine Thomine Tibourge Tiburge 
-			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
+			Áanu Abrélda Adéla Adeláïda Adeláidá Adelíndis Adeltrúdis Áedu Aélui Aélwyd Ágnes Álana 
+			Ális Ánne Claudíne Álice Anáguistl Anaudát Anaudréc Anauhuuguél Anáubrust Andréa Ánna Aúurcen Aúuregan Aúurel 
+			Aúuren Argantán Argantdrec Arganteíla Arganteílin Argantguístl Argánthael Argantlón 
+			Ártaca Avándrec Aveníe Beladóra Beladóre Bérchet Brígid Berengária Bernegárda Bérta 
+			Bértha Bértissa Bleutuén Blódwen Brendána Brónuen Brónwen Buríana Cánna Catelíná Catharíne 
+			Catguístl Cecília Ceíndrec Cágíntria Ceínguléd Cléirui Créirwy Condeléu Constánsa Constánce 
+			Crísten Christína Déngel Deníela Deníse Díuset Dréanau Drébiu Dréguoreth Drelóuguen 
+			Drílego Duíhun Elára Eleína Eláiná Eléna Hélan Elésbed Elízabeth Elisáued Elízabeth Elwén 
+			Émma Endellíon Ennoguént Enóguen Enóra Éonnecte Jóan Eruána Yvónne Ewsánnec Fuándrec Gáëla 
+			Géberga Géberga Cláde Claudía Glóiucen Glóiumed Guélet Guénbrith Guéncen Guencénedl Guéncor 
+			Guenguéthlon Guenguístl Guenguíu Guénmon Guénna Guénneret Guénnguar Guéruel Gwérfyl 
+			Guillemécte Williámette Gwénn Gwén Hálbiu Háwis Háwise Heránnuen Hódierne Ígerna Ínnoguen 
+			Ildegárda Híldegarde Iófa Iouénna Jóan Isabélle Elízabeth Iséult Hersília Iúdhent Iúdlouguen 
+			Iúdpróst Jáned Jóan Júdhael Júdith Languorét Leónore Eléanor Leuéer Leúhemel Leúoc Louhélic 
+			Lúncen Mábén Magdaléne Magdaléna Marguárite Margáret Marí María Medguístl Medúil Melíta 
+			Mílián Móna Móna Morgánne Morgánna Morguétel Moruén Múrron Morúith Morvána Néulenna Néulenna 
+			Nódguoret Nodiúnet Nólwenne Nónne Nónna Oncenédl Oncúm Ongúen Ordguydél Ourcén Ourdílic 
+			Próscen Prósguetél Próstlon Ránnoeu Ríguistl Rímoet Ariána Ríoanon Ríannon Ríoantcen 
+			Ríoantdrec Ríoantdrec Ríoantel Ríoantguellt Régina Roénhael Roínoc Ronána Rozénn Rúm Rúmun 
+			Stefánia Stephánia Stéren Súlcar Súlcén Sulgúbri Sulgwén Sulleísoc Sulméd Susánne Susánna 
+			Tándrec Tánetbiu Tánetlowen Tánguistl Táncostyla Tédvil Téphaine Thómine Tibóurge Tibúrge 
+			Trifíne Tristána Uriéll Séva Perénn Méonre Ílcum Guigoëdón Dríchglur Berthíldis Argantmóet
 		}
 	}
 	britannian = {

@@ -1,0 +1,27 @@
+alliance = {
+	first = PAL
+	second = ZAU
+	start_date = 1301.5.12
+	end_date = 1501.11.11
+}
+
+royal_marriage = {
+	first = PAL
+	second = ZAU
+	start_date = 1301.5.12
+	end_date = 1501.11.11
+}
+
+march = {
+	first = VES
+	second = GRR
+	start_date = 1278.5.12
+	end_date = 1635.11.11
+}
+
+vassal = {
+	first = BUR
+	second = CMP
+	start_date = 1442.4.10
+	end_date = 1465.11.11
+}

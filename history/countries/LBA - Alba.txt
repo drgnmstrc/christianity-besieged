@@ -9,12 +9,34 @@ fixed_capital = 4391
 
 1434.2.5 = {
 	monarch = {
-		name = "Karl"
-		dynasty = "der Alba"
-		culture = swabian
+		name = "Träpest"
+		dynasty = "von Alba"
+		culture = gothic
 		birth_date = 1403.3.2
-		adm = 0
+		adm = 6
+		dip = 6
+		mil = 1
+	}
+	queen = {
+		name = "Qusuwa"
+		dynasty = "al-Kursi"
+		country_of_origin = COR
+		culture = mutawasiti
+		religion = ashabi
+		birth_date = 1400.3.2
+		death_date = 1480.12.21
+		adm = 4
 		dip = 3
 		mil = 6
+	}
+	heir = {
+		name = "Klädes"
+		dynasty = "von Alba"
+		culture = gothic
+		birth_date = 1433.3.2
+		death_date = 1500.12.21
+		adm = 1
+		dip = 3
+		mil = 5
 	}
 }

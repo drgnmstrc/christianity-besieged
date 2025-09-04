@@ -1,0 +1,53 @@
+march = {
+	first = KHL
+	second = MJI
+	start_date = 1441.4.12
+	end_date = 1558.1.1
+}
+
+#Hafsids - Fezzan
+guarantee = {
+	first = TUN
+	second = FZA
+	start_date = 1444.1.1
+	end_date = 1558.1.1
+}
+
+#Ajuuran Vassal
+
+vassal = {
+	first = AJU
+	second = MDI
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}
+
+#Kongo
+
+vassal = {
+	first = MUT
+	second = LOA
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}
+
+vassal = {
+	first = MUT
+	second = MBM
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}
+
+vassal = {
+	first = BLD
+	second = TNY
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}
+
+vassal = {
+	first = BLD
+	second = NEM
+	start_date = 1444.1.1
+	end_date = 1615.1.1
+}

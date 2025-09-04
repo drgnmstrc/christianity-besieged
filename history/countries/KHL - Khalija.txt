@@ -3,7 +3,7 @@
 ########################################
 
 ### Modified 8/26/2025 12:26:30 PM ###
-# R37 (Khalija)
+# KHL (Khalija)
 government = monarchy
 add_government_reform = iqta
 primary_culture = swahili

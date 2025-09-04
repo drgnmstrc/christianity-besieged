@@ -14,4 +14,13 @@ government_rank = 1
 		dip = 5
 		mil = 4
 	}
+	hire_advisor = {
+		type = commandant
+		name = "Tigris"
+		skill = 3
+		culture = szkithi
+		religion = syriac
+		age = 20
+		cost_multiplier = 0.0
+	}
 }

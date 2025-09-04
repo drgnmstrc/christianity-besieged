@@ -15,4 +15,14 @@ government_rank = 1
 		mil = 0
 		adm = 1
 	}
+	hire_advisor = {
+		type = natural_scientist
+		name = "Mujarad Fata"
+		female = yes
+		skill = 3
+		culture = ghajaz
+		religion = neopythagorean
+		age = 24
+		cost_multiplier = 0.0
+	}
 }

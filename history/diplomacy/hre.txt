@@ -1,0 +1,2 @@
+1419.8.16 = { emperor = LOM }
+1437.12.9 = { emperor = ZAU }
