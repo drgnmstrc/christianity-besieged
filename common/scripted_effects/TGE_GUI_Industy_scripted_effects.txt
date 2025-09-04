@@ -1,0 +1,179 @@
+Industy_Goods_Bonus = {
+	[[fish]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 8 }
+		set_variable = { which = bonus_slot1 value = 15 }
+		set_variable = { which = bonus_Pro_slot1 value = 1 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[seafood]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 10 }
+		set_variable = { which = bonus_slot1 value = 10 }
+		set_variable = { which = bonus_Pro_slot1 value = 1 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[naval_supplies]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 9 }
+		set_variable = { which = bonus_slot1 value = 0.25 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.03 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[iron]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 14 }
+		set_variable = { which = bonus_slot1 value = 15 }
+		set_variable = { which = bonus_Pro_slot1 value = 1 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[tin]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 22 }
+		set_variable = { which = bonus_slot1 value = 7.5 }
+		set_variable = { which = bonus_Pro_slot1 value = 1.25 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[marble]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 16 }
+		set_variable = { which = bonus_slot1 value = 2.5 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.25 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[copper]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 18 }
+		set_variable = { which = bonus_slot1 value = 0.05 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.01 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[lead]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 20 }
+		set_variable = { which = bonus_slot1 value = 7.5 }
+		set_variable = { which = bonus_Pro_slot1 value = 1.25 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[livestock]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 13 }
+		set_variable = { which = bonus_slot1 value = 30.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 3.0 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[lumber]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 17 }
+		set_variable = { which = bonus_slot1 value = 15.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.75 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[apiculture]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 15 }
+		set_variable = { which = bonus_slot1 value = 10.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.75 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[wool]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 6 }
+		set_variable = { which = bonus_slot1 value = 5.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.625 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[salt]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 12 }
+		set_variable = { which = bonus_slot1 value = 10.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 1.0 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[whaling]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 11 }
+		set_variable = { which = bonus_slot1 value = 7.5 }
+		set_variable = { which = bonus_Pro_slot1 value = 1.25 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[grain]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 3 }
+		set_variable = { which = bonus_slot1 value = 0.20 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.05 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[amber]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 3 }
+		set_variable = { which = bonus_slot1 value = 0.20 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.05 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[fur]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 19 }
+		set_variable = { which = bonus_slot1 value = 10 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.5 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[wine]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 23 }
+		set_variable = { which = bonus_slot1 value = 1.0 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.075 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+	[[horses]
+		export_to_variable = { variable_name = Slot_1_Production value = base_production }	
+		set_variable = { which = Slot_1_balance value = 0 }
+		set_variable = { which = Slot_1_ind value = 24 }
+		set_variable = { which = bonus_slot1 value = 15 }
+		set_variable = { which = bonus_Pro_slot1 value = 0.75 }
+		multiply_variable = { which = bonus_Pro_slot1 which = Slot_1_Production }	
+		change_variable = { which = bonus_slot1 which = bonus_Pro_slot1 }
+	]
+}
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+setup_Cost_Rural = {
+	[[grain]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 25 } ## Fish Price 2.50 X 10
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[livestock]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 20 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[wine]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 25 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[apiculture]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 25 }
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[wool]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 25 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[horses]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 32.5 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[lumber]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 20 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[fur]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 20 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[olive_oil]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 32.5 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[citrus]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 32.5 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+}

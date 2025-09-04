@@ -1,0 +1,87 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+naval_supplies_1 = {
+	naval_forcelimit = 0.03
+}
+
+naval_supplies_2 = {
+	naval_forcelimit = 0.06
+}
+
+naval_supplies_3 = {
+	naval_forcelimit = 0.09
+}
+
+naval_supplies_4 = {
+	naval_forcelimit = 0.12
+}
+
+naval_supplies_5 = {
+	naval_forcelimit = 0.15
+}
+
+naval_supplies_6 = {
+	naval_forcelimit = 0.18
+}
+
+naval_supplies_7 = {
+	naval_forcelimit = 0.21
+}
+
+naval_supplies_8 = {
+	naval_forcelimit = 0.24
+}
+
+naval_supplies_9 = {
+	naval_forcelimit = 0.27
+}
+
+naval_supplies_10 = {
+	naval_forcelimit = 0.30
+}
+
+naval_supplies_11 = {
+	naval_forcelimit = 0.33
+}
+
+naval_supplies_12 = {
+	naval_forcelimit = 0.36
+}
+
+naval_supplies_13 = {
+	naval_forcelimit = 0.39
+}
+
+naval_supplies_14 = {
+	naval_forcelimit = 0.42
+}
+
+naval_supplies_15 = {
+	naval_forcelimit = 0.45
+}
+
+naval_supplies_16 = {
+	naval_forcelimit = 0.48
+}
+
+naval_supplies_17 = {
+	naval_forcelimit = 0.51
+}
+
+naval_supplies_18 = {
+	naval_forcelimit = 0.54
+}
+
+naval_supplies_19 = {
+	naval_forcelimit = 0.57
+}
+
+naval_supplies_20 = {
+	naval_forcelimit = 0.60
+}
+
+
+
+

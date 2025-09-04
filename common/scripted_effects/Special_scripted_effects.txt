@@ -1,0 +1,973 @@
+#effect for exporting trading part of a trade good "$GOODS$"
+#Country Scope
+#
+#Usage export_trade_goods_produced_amount = { GOODS = grain } will give you trading_part_grain variable to work with since there is no export to variable
+# 
+	
+#Binary Search for value
+
+bonus_remove = {
+	if = {	
+		limit = { base_production = 8 }
+		if = {	
+			limit = { base_production = 14 }
+			if = {	
+				limit = { base_production = 17 }
+				if = {	
+					limit = { base_production = 19 }
+					if = {	
+						limit = { base_production = 20 }
+						remove_province_modifier = $modifier_name$_20
+					}
+					else = {
+						remove_province_modifier = $modifier_name$_19
+					}
+				}
+				else = {
+					if = {	
+						limit = { base_production = 18 }
+						remove_province_modifier = $modifier_name$_18
+					}
+					else = {
+						remove_province_modifier = $modifier_name$_17
+					}
+				}
+			}
+			else = {	
+				if = { 
+					limit = { base_production = 15 }
+					if = { 
+						limit = { base_production = 16 } 
+						remove_province_modifier = $modifier_name$_16
+					} 
+					else = { 
+						remove_province_modifier = $modifier_name$_15
+					}
+				} 
+				else = { 
+					remove_province_modifier = $modifier_name$_14
+				}
+			}	
+		}
+		else = {
+			if = { limit = { base_production = 11 }
+				if = { limit = { base_production = 12 }
+					if = { limit = { base_production = 13 } 
+						remove_province_modifier = $modifier_name$_13
+					} 
+					else = { 
+						remove_province_modifier = $modifier_name$_12
+					} 
+				} 
+				else = { 
+					remove_province_modifier = $modifier_name$_11
+				} 
+			} 
+			else = {
+				if = { 
+					limit = { base_production = 9 }
+					if = { 
+						limit = { base_production = 10 } 
+						remove_province_modifier = $modifier_name$_10  
+					} 
+					else = { 
+						remove_province_modifier = $modifier_name$_9 
+					} 
+				} 
+				else = { 
+					remove_province_modifier = $modifier_name$_8 
+				}
+			}
+		}	
+	}
+	else = {
+		if = {	
+			limit = { base_production = 4 }
+			if = {	
+				limit = { base_production = 7 }
+				remove_province_modifier = $modifier_name$_7
+			}
+			else = {	
+				if = { 
+					limit = { base_production = 5 }
+					if = { 
+						limit = { base_production = 6 } 
+						remove_province_modifier = $modifier_name$_6
+					} 
+					else = { 
+						remove_province_modifier = $modifier_name$_5
+					}
+				} 
+				else = { 
+					remove_province_modifier = $modifier_name$_4
+				}
+			}	
+		}
+		else = {
+			if = { limit = { base_production = 1 }
+				if = { limit = { base_production = 2 }
+					if = { limit = { base_production = 3 } 
+						remove_province_modifier = $modifier_name$_3
+					} 
+					else = { 
+						remove_province_modifier = $modifier_name$_2
+					} 
+				} 
+				else = { 
+					remove_province_modifier = $modifier_name$_1
+				} 
+			} 
+		}
+	}
+}
+
+trade_goods_bonus_remove_Port = {
+	if = {
+		limit = { trade_goods = fish }
+		bonus_remove = { 
+			modifier_name = fish
+		}
+	}
+	else_if = {
+		limit = { trade_goods = seafood }
+		bonus_remove = { 
+			modifier_name = seafood
+		}
+	}
+	else_if = {
+		limit = { trade_goods = naval_supplies }
+		bonus_remove = { 
+			modifier_name = naval_supplies
+		}
+	}
+	else_if = {
+		limit = { trade_goods = whaling }
+		bonus_remove = { 
+			modifier_name = whaling
+		}
+	}
+	else_if = {
+		limit = { trade_goods = amber }
+		bonus_remove = { 
+			modifier_name = amber
+		}
+	}
+	else_if = {
+		limit = { trade_goods = salt }
+		bonus_remove = { 
+			modifier_name = salt
+		}
+	}
+	else_if = {
+		limit = { trade_goods = pearls }
+		bonus_remove = { 
+			modifier_name = pearls
+		}
+	}
+	else_if = {
+		limit = { trade_goods = sea_turtle }
+		bonus_remove = { 
+			modifier_name = sea_turtle
+		}
+	}
+}
+
+
+trade_goods_bonus_check = {
+	if = {	
+		limit = { base_production = 8 }
+		if = {	
+			limit = { base_production = 14 }
+			if = {	
+				limit = { base_production = 17 }
+				if = {	
+					limit = { base_production = 19 }
+					if = {	
+						limit = { base_production = 20 }
+						add_province_modifier = { 
+							name = $modifier_name$_20
+							duration = -1  
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = $modifier_name$_19
+							duration = -1  
+						}
+					}
+				}
+				else = {
+					if = {	
+						limit = { base_production = 18 }
+						add_province_modifier = { 
+							name = $modifier_name$_18
+							duration = -1  
+						}
+					}
+					else = {
+						add_province_modifier = { 
+							name = $modifier_name$_17
+							duration = -1  
+						}
+					}
+				}
+			}
+			else = {	
+				if = { 
+					limit = { base_production = 15 }
+					if = { 
+						limit = { base_production = 16 } 
+						add_province_modifier = { 
+							name = $modifier_name$_16
+							duration = -1  
+						}
+					} 
+					else = { 
+						add_province_modifier = { 
+							name = $modifier_name$_15
+							duration = -1  
+						}
+					}
+				} 
+				else = { 
+					add_province_modifier = { 
+						name = $modifier_name$_14
+						duration = -1  
+					}
+				}
+			}	
+		}
+		else = {
+			if = { limit = { base_production = 11 }
+				if = { limit = { base_production = 12 }
+					if = { limit = { base_production = 13 } 
+						add_province_modifier = { 
+							name = $modifier_name$_13
+							duration = -1  
+						}
+					} 
+					else = { 
+						add_province_modifier = { 
+							name = $modifier_name$_12
+							duration = -1  
+						}
+					} 
+				} 
+				else = { 
+					add_province_modifier = { 
+						name = $modifier_name$_11
+						duration = -1  
+					}  
+				} 
+			} 
+			else = {
+				if = { 
+					limit = { base_production = 9 }
+					if = { 
+						limit = { base_production = 10 } 
+						add_province_modifier = { 
+							name = $modifier_name$_10
+							duration = -1  
+						}   
+					} 
+					else = { 
+						add_province_modifier = { 
+							name = $modifier_name$_9
+							duration = -1  
+						}  
+					} 
+				} 
+				else = { 
+					add_province_modifier = { 
+						name = $modifier_name$_8
+						duration = -1  
+					}  
+				}
+			}
+		}	
+	}
+	else = {
+		if = {	
+			limit = { base_production = 4 }
+			if = {	
+				limit = { base_production = 7 }
+				add_province_modifier = { 
+					name = $modifier_name$_7
+					duration = -1  
+					hidden = yes
+				}
+			}
+			else = {	
+				if = { 
+					limit = { base_production = 5 }
+					if = { 
+						limit = { base_production = 6 } 
+						add_province_modifier = { 
+							name = $modifier_name$_6
+							duration = -1  
+							hidden = yes
+						}
+					} 
+					else = { 
+						add_province_modifier = { 
+							name = $modifier_name$_5
+							duration = -1  
+							hidden = yes
+						}
+					}
+				} 
+				else = { 
+					add_province_modifier = { 
+						name = $modifier_name$_4
+						duration = -1  
+						hidden = yes
+					}
+				}
+			}	
+		}
+		else = {
+			if = { limit = { base_production = 1 }
+				if = { limit = { base_production = 2 }
+					if = { limit = { base_production = 3 } 
+						add_province_modifier = { 
+							name = $modifier_name$_3
+							duration = -1  
+							hidden = yes
+						}
+					} 
+					else = { 
+						add_province_modifier = { 
+							name = $modifier_name$_2
+							duration = -1  
+							hidden = yes
+						}
+					} 
+				} 
+				else = { 
+					add_province_modifier = { 
+						name = $modifier_name$_1
+						duration = -1  
+						hidden = yes
+					}
+				} 
+			} 
+		}
+	}
+}
+
+
+export_trade_goods_produced_amount_two = {
+	if = { 
+		limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.5 } }
+		if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.6 } }
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.7 } }
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.8 } }
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.9 } }
+						change_variable = { which = amount_$GOODS$ value = 0.9 } 
+					} 
+					else = { 
+						change_variable = { which = amount_$GOODS$ value = 0.8 }
+					}
+				}
+				else = {
+					change_variable = { which = amount_$GOODS$ value = 0.7 }
+				}
+			}
+			else = {
+				change_variable = { which = amount_$GOODS$ value = 0.6 }
+			}
+		} 
+		else = { 
+				change_variable = { which = amount_$GOODS$ value = 0.5 }
+		} 
+    }
+	else = {
+		if = {
+			limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.2 } }
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.3 } }
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.4 } }
+					change_variable = { which = amount_$GOODS$ value = 0.4 } 
+				} 
+				else = { 
+					change_variable = { which = amount_$GOODS$ value = 0.3 }
+				} 
+			} 
+			else = { 
+				change_variable = { which = amount_$GOODS$ value = 0.2 }
+			} 
+		}
+		else_if = {
+			limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.1 } }
+			change_variable = { which = amount_$GOODS$ value = 0.1 }
+		}
+	}
+}
+
+
+
+export_trade_goods_produced_amount = { #GOODS
+	if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 50 }}
+		if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 75 }}
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 88 }}
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 94 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 97 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 99 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 100 }} 
+								set_variable = { which = amount_$GOODS$ value = 100 } 
+								
+							} 
+							else = { set_variable = { which = amount_$GOODS$ value = 99 }} 
+						} 
+						else = {
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 98 }} 
+								set_variable = { which = amount_$GOODS$ value = 98 } } 
+							else = { set_variable = { which = amount_$GOODS$ value = 97 }}
+						}
+					} 				
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 95 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 96 }} 
+								set_variable = { which = amount_$GOODS$ value = 96 } 
+							} 
+							else = { set_variable = { which = amount_$GOODS$ value = 95 }}
+						} 
+						else = { set_variable = { which = amount_$GOODS$ value = 94 }}
+					}
+				} 	
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 91 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 92 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 93 }} 
+								set_variable = { which = amount_$GOODS$ value = 93 } } 
+							else = { set_variable = { which = amount_$GOODS$ value = 92 }} 
+						} 
+						else = { set_variable = { which = amount_$GOODS$ value = 91 }} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 89 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 90 }} 
+								set_variable = { which = amount_$GOODS$ value = 90 } } 
+							else = { set_variable = { which = amount_$GOODS$ value = 89 }} 
+						} 
+						else = { set_variable = { which = amount_$GOODS$ value = 88 }}
+					}
+				}
+			} 
+			else = {
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 81 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 84 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 86 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 87 }} 
+								set_variable = { which = amount_$GOODS$ value = 87 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 86 }
+							} 
+						} 
+						else = {
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 85 }} 
+								set_variable = { which = amount_$GOODS$ value = 85 } } 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 84 }
+							}
+						} 	
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 82 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 83 }} 
+								set_variable = { which = amount_$GOODS$ value = 83 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 82 }
+							} 
+						}
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 81 }
+						}
+					} 
+				}
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 78 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 79 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 80 }} 
+								set_variable = { which = amount_$GOODS$ value = 80 } 
+							} 
+							else = { set_variable = { which = amount_$GOODS$ value = 79 }} 
+						} 
+						else = { set_variable = { which = amount_$GOODS$ value = 78 }} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 76 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 77 }} 
+								set_variable = { which = amount_$GOODS$ value = 77 } 
+							} 
+							else = { set_variable = { which = amount_$GOODS$ value = 76 } } 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 75 }
+						}
+					}
+				}
+			} 
+		} 
+		else = {
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 62 }}
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 68 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 71 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 73 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 74 }} 
+								set_variable = { which = amount_$GOODS$ value = 74 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 73 } 
+							} 
+						} 
+						else = {
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 72 }} 
+								set_variable = { which = amount_$GOODS$ value = 72 } 
+							} 
+							else = { 
+							set_variable = { which = amount_$GOODS$ value = 71 }
+							}
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 69 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 70 }} 
+								set_variable = { which = amount_$GOODS$ value = 70 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 69 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 68 }
+						}
+					} 
+				}
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 65 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 66 }}	
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 67 }} 
+								set_variable = { which = amount_$GOODS$ value = 67 } 
+							} 				
+							else = { set_variable = { which = amount_$GOODS$ value = 66 }} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 65 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 63 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 64 }} 
+								set_variable = { which = amount_$GOODS$ value = 64 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 63 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 62 }
+						}
+					}
+				} 
+			}
+			else = {
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 56 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 59 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 60 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 61 }} 
+								set_variable = { which = amount_$GOODS$ value = 61 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 60 }
+							} 
+						}
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 59 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 57 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 58 }} 
+								set_variable = { which = amount_$GOODS$ value = 58 } 
+							}
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 57 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 56 }
+						}
+					} 
+				} 
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 53 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 54 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 55 }} 
+								set_variable = { which = amount_$GOODS$ value = 55 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 54 }
+							} 
+						}
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 53 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 51 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 52 }} 
+								set_variable = { which = amount_$GOODS$ value = 52 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 51 }
+							} 
+						} 
+						else = { set_variable = { which = amount_$GOODS$ value = 50 }}
+					}
+				}
+			}
+		} 
+	} 
+	else = {
+		if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 25 }}
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 37 }}
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 43 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 46 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 48 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 49 }} 
+								set_variable = { which = amount_$GOODS$ value = 49 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 48 }
+							} 
+						} 
+						else = {
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 47 }} 
+								set_variable = { which = amount_$GOODS$ value = 47 } } 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 46 }
+							}
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 44 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 45 }} 
+								set_variable = { which = amount_$GOODS$ value = 45 } 
+							} 		
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 44 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 43 }
+						}
+					} 
+				} 
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 40 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 41 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 42 }} 
+								set_variable = { which = amount_$GOODS$ value = 42 } 
+							} 
+							else = { set_variable = { which = amount_$GOODS$ value = 41 }} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 40 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 38 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 39 }} 
+								set_variable = { which = amount_$GOODS$ value = 39 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 38 }
+							} 
+						}
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 37 }
+						}
+					}
+				} 
+			} 
+			else = {
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 31 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 34 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 35 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 36 }} 
+								set_variable = { which = amount_$GOODS$ value = 36 } 
+							} 			
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 35 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 34 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 32 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 33 }} 
+								set_variable = { which = amount_$GOODS$ value = 33 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 32 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 31 }
+						}
+					} 
+				} 
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 28 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 29 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 30 }} 
+								set_variable = { which = amount_$GOODS$ value = 30 } } 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 29 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 28 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 26 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 27 }} 
+								set_variable = { which = amount_$GOODS$ value = 27 } } 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 26 }
+							}
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 25 }
+						}
+					}
+				}
+			} 
+		} 
+		else = {
+			if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 12 }}
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 18 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 21 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 23 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 24 }} 
+								set_variable = { which = amount_$GOODS$ value = 24 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 23 }
+							} 
+						} 
+						else = {
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 22 }} 
+								set_variable = { which = amount_$GOODS$ value = 22 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 21 }
+							}
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 19 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 20 }} 
+								set_variable = { which = amount_$GOODS$ value = 20 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 19 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 18 }
+						}
+					} 
+				} 
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 15 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 16 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 17 }} 
+								set_variable = { which = amount_$GOODS$ value = 17 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 16 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 15 }
+						} 
+					}
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 13 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 14 }} 
+								set_variable = { which = amount_$GOODS$ value = 14 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 13 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 12 }
+						}
+					}
+				} 
+			} 
+			else = {
+				if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 6 }}
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 9 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 10 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 11 }} 
+								set_variable = { which = amount_$GOODS$ value = 11 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 10 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 9 }
+						} 
+					} 
+					else = {
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 7 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 8 }} 
+								set_variable = { which = amount_$GOODS$ value = 8 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 7 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 6 }
+						}
+					} 
+				} 
+				else = {
+					if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 3 }}
+						if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 4 }}
+							if = { limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 5 }} 
+								set_variable = { which = amount_$GOODS$ value = 5 } 
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 4 }
+							} 
+						} 
+						else = { 
+							set_variable = { which = amount_$GOODS$ value = 3 }
+							export_trade_goods_produced_amount_two = { GOODS = $GOODS$ GOODSVAR = 3 }
+						} 
+					} 
+					else = {
+						if = { limit = {  trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 1 }  }
+							if = { limit = {  trade_goods_produced_amount = { trade_goods = $GOODS$ amount = 2 }  } 
+								set_variable = { which = amount_$GOODS$ value = 2 } 
+								export_trade_goods_produced_amount_two = { GOODS = $GOODS$ GOODSVAR = 2 }
+							} 
+							else = { 
+								set_variable = { which = amount_$GOODS$ value = 1 }
+								export_trade_goods_produced_amount_two = { GOODS = $GOODS$ GOODSVAR = 1 }
+							} 
+						}
+						else = { 			
+							set_variable = { which = amount_$GOODS$ value = 0 }
+							export_trade_goods_produced_amount_two = { GOODS = $GOODS$ GOODSVAR = 0 }
+						}						
+					}
+				}
+			}
+		}
+	}
+}
+
+###var_effect = { effect = add_treasury variable = StockInvestment }
+###
+###
+###set_variable = { which = StockInvestmentCost which = StockInvestment }
+###multiply_variable = { which = StockInvestmentCost value = -0.01 }
+###var_effect = { effect = add_adm_power variable = StockInvestmentCost }
+
+var_effect_h = {
+	if = {
+		limit = {
+			check_variable = { which = temp value = $num$ }
+		}
+		subtract_variable = { which = temp value = $num$ }
+		$effect_h$ = $num$
+	}
+}
+var_effect_h_min = {
+	if = {
+		limit = {
+			check_variable = { which = temp value = $num$ }
+		}
+		subtract_variable = { which = temp value = $num$ }
+		$effect_h$ = -$num$
+	}
+}
+
+var_effect = { #effect #variable
+	set_variable = { which = temp which = $variable$ }
+	if = {
+		limit = {
+			check_variable = { which = temp value = 0 }
+		}
+		var_effect_h = { effect_h = $effect$ num = 83886.08 }
+		var_effect_h = { effect_h = $effect$ num = 41943.04 }
+		var_effect_h = { effect_h = $effect$ num = 20971.52 }
+		var_effect_h = { effect_h = $effect$ num = 10485.76 }
+		var_effect_h = { effect_h = $effect$ num = 5242.88 }
+		var_effect_h = { effect_h = $effect$ num = 2621.44 }
+		var_effect_h = { effect_h = $effect$ num = 1310.72 }
+		var_effect_h = { effect_h = $effect$ num = 655.36 }
+		var_effect_h = { effect_h = $effect$ num = 327.68 }
+		var_effect_h = { effect_h = $effect$ num = 163.84 }
+		var_effect_h = { effect_h = $effect$ num = 81.92 }
+		var_effect_h = { effect_h = $effect$ num = 40.96 }
+		var_effect_h = { effect_h = $effect$ num = 20.48 }
+		var_effect_h = { effect_h = $effect$ num = 10.24 }
+		var_effect_h = { effect_h = $effect$ num = 5.12 }
+		var_effect_h = { effect_h = $effect$ num = 2.56 }
+		var_effect_h = { effect_h = $effect$ num = 1.28 }
+		var_effect_h = { effect_h = $effect$ num = 0.64 }
+		var_effect_h = { effect_h = $effect$ num = 0.32 }
+		var_effect_h = { effect_h = $effect$ num = 0.16 }
+		var_effect_h = { effect_h = $effect$ num = 0.08 }
+		var_effect_h = { effect_h = $effect$ num = 0.04 }
+		var_effect_h = { effect_h = $effect$ num = 0.02 }
+		var_effect_h = { effect_h = $effect$ num = 0.01 }
+	}
+	else = {
+		multiply_variable = { which = temp value = -1 }
+		var_effect_h_min = { effect_h = $effect$ num = 83886.08 }
+		var_effect_h_min = { effect_h = $effect$ num = 41943.04 }
+		var_effect_h_min = { effect_h = $effect$ num = 20971.52 }
+		var_effect_h_min = { effect_h = $effect$ num = 10485.76 }
+		var_effect_h_min = { effect_h = $effect$ num = 5242.88 }
+		var_effect_h_min = { effect_h = $effect$ num = 2621.44 }
+		var_effect_h_min = { effect_h = $effect$ num = 1310.72 }
+		var_effect_h_min = { effect_h = $effect$ num = 655.36 }
+		var_effect_h_min = { effect_h = $effect$ num = 327.68 }
+		var_effect_h_min = { effect_h = $effect$ num = 163.84 }
+		var_effect_h_min = { effect_h = $effect$ num = 81.92 }
+		var_effect_h_min = { effect_h = $effect$ num = 40.96 }
+		var_effect_h_min = { effect_h = $effect$ num = 20.48 }
+		var_effect_h_min = { effect_h = $effect$ num = 10.24 }
+		var_effect_h_min = { effect_h = $effect$ num = 5.12 }
+		var_effect_h_min = { effect_h = $effect$ num = 2.56 }
+		var_effect_h_min = { effect_h = $effect$ num = 1.28 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.64 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.32 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.16 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.08 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.04 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.02 }
+		var_effect_h_min = { effect_h = $effect$ num = 0.01 }
+	}
+}
+
+
+
+
+
+
+

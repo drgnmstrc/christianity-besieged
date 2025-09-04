@@ -172,9 +172,9 @@ wine = {
 			factor = 1.1
 			FROM = {
 				OR = {
-					culture_group = belgican
+					culture_group = french
 					culture_group = iberian
-					culture_group = occidental
+					culture_group = latin
 				}
 			}
 		}
@@ -335,7 +335,7 @@ fish = {
 		global_sailors_modifier = 0.25
 	}
 	province = {
-		local_sailors_modifier = 0.25
+		local_sailors_modifier = 0.15
 	}
 	chance = {
 		factor = 20
@@ -992,10 +992,6 @@ slaves = {
 		modifier = {
 			factor = 0
 			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			religion = qanumi
 		}
 		modifier = {
 			factor = 0
@@ -2470,9 +2466,7 @@ coal = {
 	}
 }
 
-unknown = {
-	color = { 0.5 0.5 0.5 }
-}
+
 
 beer = {
 	is_valuable = yes
@@ -3784,9 +3778,10 @@ tin = {
 				has_terrain = grasslands
 				has_terrain = savannah
 				has_terrain = coastline
+				has_terrain = farmlands
 				has_terrain = glacier
 				has_terrain = jungle
-				has_terrain = farmlands
+				
 				has_terrain = woods
 			}
 		}
@@ -5616,6 +5611,10 @@ String_Instruments = {
 	chance = {
 		factor = 0
 	}
+}
+
+unknown = {
+	color = { 0.5 0.5 0.5 }
 }
 
 

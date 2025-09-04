@@ -1,0 +1,16 @@
+Quality_tier_TGE_1 = {
+    trade_value = -0.5
+}
+
+Quality_tier_TGE_2 = {
+    trade_value = -0.25
+}
+
+Quality_tier_TGE_3 = {
+    trade_value_modifier = 0.10
+}
+
+Quality_tier_TGE_4 = {
+    trade_value_modifier = 0.10
+}
+

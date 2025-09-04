@@ -1,0 +1,69 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+seafood_1 = {
+	local_sailors_modifier = 0.01
+}
+seafood_2 = {
+	local_sailors_modifier = 0.02
+}
+seafood_3 = {
+	local_sailors_modifier = 0.03
+}
+seafood_4 = {
+	local_sailors_modifier = 0.04
+}
+seafood_5 = {
+	local_sailors_modifier = 0.05
+}
+seafood_6 = {
+	local_sailors_modifier = 0.06
+}
+seafood_7 = {
+	local_sailors_modifier = 0.07
+}
+seafood_8 = {
+	local_sailors_modifier = 0.08
+}
+seafood_9 = {
+	local_sailors_modifier = 0.09
+}
+seafood_10 = {
+	local_sailors_modifier = 0.10
+}
+seafood_11 = {
+	local_sailors_modifier = 0.11
+}
+seafood_12 = {
+	local_sailors_modifier = 0.12
+}
+seafood_13 = {
+	local_sailors_modifier = 0.13
+}
+seafood_14 = {
+	local_sailors_modifier = 0.14
+}
+seafood_15 = {
+	local_sailors_modifier = 0.15
+}
+seafood_16 = {
+	local_sailors_modifier = 0.16
+}
+seafood_17 = {
+	local_sailors_modifier = 0.17
+}
+seafood_18 = {
+	local_sailors_modifier = 0.18
+}
+seafood_19 = {
+	local_sailors_modifier = 0.19
+}
+seafood_20 = {
+	local_sailors_modifier = 0.20
+}
+
+
+
+
+

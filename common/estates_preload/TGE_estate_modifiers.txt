@@ -1,0 +1,44 @@
+
+#For special scripted modifiers which are not in the code base.
+estate_special_tge = {
+	#For everyone
+	modifier_definition = {
+		type = influence
+		key = trade_good_camel
+		trigger = {
+			always = yes
+		}
+	}
+	
+	modifier_definition = {
+		type = influence
+		key = trade_good_lama
+		trigger = {
+			always = yes
+		}
+	}
+	
+	modifier_definition = {
+		type = loyalty
+		key = trade_good_indigo
+		trigger = {
+			always = yes
+		}
+	}
+	
+	modifier_definition = {
+		type = loyalty
+		key = trade_good_chocolate
+		trigger = {
+			always = yes
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = trade_good_cigars
+		trigger = {
+			always = yes
+		}
+	}
+}

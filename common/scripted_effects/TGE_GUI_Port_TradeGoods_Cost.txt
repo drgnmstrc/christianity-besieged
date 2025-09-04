@@ -1,0 +1,50 @@
+setup_Cost_Port = {
+	[[fish]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 25 } ## Fish Price 2.50 X 10
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[seafood]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 27.5 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[naval_supplies]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 20 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[salt]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 30 }
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[whaling]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 30 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[amber]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 35 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[pearls]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 40 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+	[[sea_turtle]
+		ROOT = { 
+			set_variable = { which = Ducats_price value = 30 } 
+			change_variable = { which = Ducats_price which = Ducats_price_base }
+		}
+	]
+}
