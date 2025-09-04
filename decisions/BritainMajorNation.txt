@@ -18,7 +18,11 @@ country_decisions = {
 				exists = BTV
 				exists = ENG
 			}
-			primary_culture = armorican
+			OR = {
+				primary_culture = armorican
+				primary_culture = brittanian
+				primary_culture = cambrian
+			}
 			NOT = { religion_group = christian }
 			OR = {
 				ai = no
