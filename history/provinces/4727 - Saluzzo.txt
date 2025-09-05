@@ -2,7 +2,7 @@
 owner = TSP
 controller = TSP
 add_core = TSP
-culture = swiss
+culture = helvetian
 religion = ashabi
 hre = no
 base_tax = 3

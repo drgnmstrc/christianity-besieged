@@ -3,7 +3,7 @@
 owner = SZK
 controller = SZK
 add_core = SZK
-culture = szkithi
+culture = scythian
 religion = manichaeism
 hre = no
 base_tax = 6

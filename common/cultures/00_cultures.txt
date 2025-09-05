@@ -1567,15 +1567,15 @@ occidental = { #Occidental
 		male_names = {
 			Ábiu Áulu Célu Décimu Déciu Drúsu Fáustu Gáiu Nû Lûciu Lûziu Mámarcu Mániu Márcu Méziu Numáriu Búblicu Cíntu Secúndu Sétimu Sárfiu Séstu Sebúriu Tártiu Títu Tibáriu Títu
 			Álbinu Álbu Agrícula Agríba Áratu Asína Áusebe Bálbu Barbátu Bíbulu Brútu Búbu Bútu 
-			Cálfu Cálfinu Cátu Catúlu Céthágu Cícaru Cína Cusánti Cusántinu Cútta Crísbia Cúriu Dáma Damásu Dentátu Dífe Dûlabéla Dûnátu Drágu 
+			Cálfu Cálfinu Cátu Catúlu Céthágu Cícaru Cína Cusánti Cusántinu Cúta Crísbia Cúriu Dáma Damásu Dentátu Dífe Dûlabéla Dûnátu Drágu 
 			Émaritu Uzéniu Eubémiu Fálcu Fála Féli Fímbria Flácu Flúru Frúntu 
 			Gála Gálaru Gemálu Gurgúniu Grácu Gracíli Hábitu Hérma Hiláríu Hurázíu 
 			Ignáziu Iúba Labú Léna Lébidu Lébti Léntulu Líbu Lûngínu Lúnigu Lúca Lûcúlu Lûbiu 
 			Mácru Marziáli Marúlu Másimu Mémiu Mercátu Mesáliá Muntánu Muréna Mú Násica Úceanu Uctuániu Ábi 
 			Úbtatu Úthu Bénula Bántira Báu Baragrínu Bertinása Betrúnása Bíctru Bílatu Búlu Brísca Brímu Brúciu Búlca 
 			Quártu Quíricu Régilu Rému Rumánu Rú Rúfu Rúsu Sábinu Salinátu Scéfula Scísiu Scrúfa Sénéca Séna 
-			Séfru Súrá Statiú Strábu Súbe Súfurbu Tácitu Tértulu Trebúniu Tibúlu Túliu Ursínu Úrsu Válenza Fáru Váru Váru 
-			Fergíliu Viátû Víctûriu Vínde Viríli Vitáli Vítu Zénu Zúilu Zúsimu 
+			Séfru Súrá Statiú Strábu Súbe Súfurbu Tácitu Tértulu Trebúniu Tibúlu Túliu Ursínu Úrsu Fálenza Fáru Fáru Fáru 
+			Fergíliu Fiátû Fíctûriu Fínde Firíli Fitáli Fítu Zénu Zúilu Zúsimu 
 			Cûrenti Déniau Dína Ruá Géla Guená Guéna
 		}
 
@@ -1591,7 +1591,7 @@ occidental = { #Occidental
 			Émma Endelíu Enugué Enúgue Enúra Éunecte Júa Eruána Yfúne Esáne Fuándre Gáëla 
 			Géberga Géberga Cláde Claudía Glûce Glûme Guéle Guénbri Guénce Guencénedla Guéncu 
 			Guenguéthlu Guenguístla Guenguíu Guénmu Guéna Guénere Guéngua Guéruela Gérfíla 
-			Guilemécte Wiliámette Gé Gé Hálbiu Hái Háise Heránue Húdierne Ígerna Ínugue 
+			Guilemécte Ulámete Gé Gé Hálbiu Hái Háise Heránue Húdierne Ígerna Ínugue 
 			Ildegárda Híldegarde Iúfa Iuéna Júa Isabéle Elízabe Isûla Hersília Iúdhe Iúdlugue 
 			Iúdbrús Jáne Júa Júdhela Júdi Languré Lûnure Eléanu Lué Lûhemela Lû Luhéli 
 			Lúnce Mábé Magdaléne Magdaléna Marguárite Margáre Marí María Medguístla Medúila Melíta 
@@ -1606,42 +1606,43 @@ occidental = { #Occidental
 	}
 	britannian = {
 		male_names = {
-			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
-			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
-			Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco 
-			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
-			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
-			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
-			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
-			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
-			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
-			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
-			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
-			Corentin Deniel Dinan Erwan Gaël Gwenaël Gwenneg 
+			Ábiu Áulu Célu Décimu Déciu Drúsu Fáustu Gáiu Nû Lûciu Lûziu Mámarcu Mániu Márcu Méziu Numáriu Búblicu Cíntu Secúndu Sétimu Sárfiu Séstu Sebúriu Tártiu Títu Tibáriu Títu
+			Álbinu Álbu Agrícula Agríba Áratu Asína Áusebe Bálbu Barbátu Bíbulu Brútu Búbu Bútu 
+			Cálfu Cálfinu Cátu Catúlu Céthágu Cícaru Cína Cusánti Cusántinu Cúta Crísbia Cúriu Dáma Damásu Dentátu Dífe Dûlabéla Dûnátu Drágu 
+			Émaritu Uzéniu Eubémiu Fálcu Fála Féli Fímbria Flácu Flúru Frúntu 
+			Gála Gálaru Gemálu Gurgúniu Grácu Gracíli Hábitu Hérma Hiláríu Hurázíu 
+			Ignáziu Iúba Labú Léna Lébidu Lébti Léntulu Líbu Lûngínu Lúnigu Lúca Lûcúlu Lûbiu 
+			Mácru Marziáli Marúlu Másimu Mémiu Mercátu Mesáliá Muntánu Muréna Mú Násica Úceanu Uctuániu Ábi 
+			Úbtatu Úthu Bénula Bántira Báu Baragrínu Bertinása Betrúnása Bíctru Bílatu Búlu Brísca Brímu Brúciu Búlca 
+			Quártu Quíricu Régilu Rému Rumánu Rú Rúfu Rúsu Sábinu Salinátu Scéfula Scísiu Scrúfa Sénéca Séna 
+			Séfru Súrá Statiú Strábu Súbe Súfurbu Tácitu Tértulu Trebúniu Tibúlu Túliu Ursínu Úrsu Fálenza Fáru Fáru Fáru 
+			Fergíliu Fiátû Fíctûriu Fínde Firíli Fitáli Fítu Zénu Zúilu Zúsimu 
+			Cûrenti Déniau Dína Ruá Géla Guená Guéna
 		}
+
 		female_names = {
-			Aanor Abrelda Adela Adelaïda Adelaide Adelindis Adeltrudis Aedoc Aeluit Aelwyd Agnes Alana 
-			Alis Anne Claudine Alice Anaguistl Anaudat Anaudrec Anauhouguel Anauprost Andrea Anna Aourcen Aouregan Aourell 
-			Aouren Argantan Argantdrec Arganteila Arganteilin Argantguistl Arganthael Argantlon 
-			Artaca Avandrec Avenie Beladora Beladore Berchet Brigid Berengaria Bernegarda Berta 
-			Bertha Bertissa Bleutuen Blodwen Brendana Bronuen Bronwen Buriana Canna Cateline Catherine 
-			Catguistl Cecilia Ceindrec Cagintria Ceinguled Cleirui Creirwy Condeleu Constansa Constance 
-			Cristen Christina Dengel Deniela Denise Diuset Dreanau Drebiu Dreguoreth Drelouguen 
-			Drilego Duihon Elara Eleina Elaine Elena Helen Elesbed Elizabeth Elisaued Elizabeth Elwen 
-			Emma Endellion Ennoguent Enoguen Enora Eonnecte Joan Erouana Yvonne Ewsannec Fuandrec Gaëla 
-			Geberga Geberga Glades Claudia Gloiucen Gloiumed Guelet Guenbrith Guencen Guencenedl Guencor 
-			Guenguerthlon Guenguistl Guenguiu Guenmon Guenna Guenneret Guennguar Gueruel Gwerfyl 
-			Guillemecte Williamette Gwenn Gwen Halbiu Hawis Hawise Herannuen Hodierne Igerna Ignoguen 
-			Ildegarda Hildegarde Iofa Iouenna Joan Isabelle Elizabeth Iseult Hersilia Iudhent Iudlouguen 
-			Iudprost Janed Joan Judhael Judith Languoret Leonore Eleanor Leueer Leuhemel Leuoc Louhelic 
-			Luncen Maben Magdalene Magdalena Marguarite Margaret Mari Maria Medguistl Meduil Melita 
-			Milian Mona Mona Morganne Morganna Morguetel Moruen Murron Moruith Morvana Neulenna Neulenna 
-			Nodguoret Nodiunet Nolwenne Nonne Nonna Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic 
-			Proscen Prosguetel Prostlon Rannoeu Riguistl Rimoet Rioanon Rioanon Rhiannon Rioantcen 
-			Rioantdrec Rioantdrec Rioantel Rioantguellt Regina Roenhael Roinoc Ronana Rozenn Rum Rumun 
-			Stefania Stephania Steren Sulcar Sulcen Sulgubri Sulgwen Sulleisoc Sulmed Susanne Susanna 
-			Tandrec Tanetbiu Tanetlowen Tanguistl Tancostyla Tedvil Tephaine Thomine Tibourge Tiburge 
-			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
+			Áanu Abrélda Adéla Adeláida Adelíndi Adeltrúdi Áedu Aélui Aélí Ágne Álana 
+			Áli Áne Claudíne Álice Anáguistla Anaudá Anaudré Anauhuguéla Anáubrus Andréa Ána Aurce Aurega Aurela 
+			Aure Argantá Argantdre Arganteíla Arganteíli Argantguístla Argánthela Argantlú 
+			Ártaca Afándre Afeníe Beladúra Beladúre Bérche Brígi Berengária Bernegárda Bérta 
+			Bértha Bértissa Bluzé Blúde Brendána Brúnue Brúne Buríana Cána Catelíná Catharíne 
+			Catguístla Cecília Ceíndre Cágíntria Ceíngulé Cléirui Créirí Cundelû Cunstánsa Cunstánce 
+			Críste Christína Déngela Deníela Deníse Díuse Dréanau Drébiu Drégure Drelugue 
+			Drílegu Duíhu Elára Eleína Eláiná Eléna Héla Elésbe Elíza Elisá Elízabe Elé 
+			Émma Endelíu Enugué Enúgue Enúra Éunecte Júa Eruána Yfúne Esáne Fuándre Gáëla 
+			Géberga Géberga Cláde Claudía Glûce Glûme Guéle Guénbri Guénce Guencénedla Guéncu 
+			Guenguéthlu Guenguístla Guenguíu Guénmu Guéna Guénere Guéngua Guéruela Gérfíla 
+			Guilemécte Ulámete Gé Gé Hálbiu Hái Háise Heránue Húdierne Ígerna Ínugue 
+			Ildegárda Híldegarde Iúfa Iuéna Júa Isabéle Elízabe Isûla Hersília Iúdhe Iúdlugue 
+			Iúdbrús Jáne Júa Júdhela Júdi Languré Lûnure Eléanu Lué Lûhemela Lû Luhéli 
+			Lúnce Mábé Magdaléne Magdaléna Marguárite Margáre Marí María Medguístla Medúila Melíta 
+			Míliá Múna Múna Murgáne Murgána Murguéte Múru Múruna Muríta Murfá Nûlena Nûlena 
+			Núdgure Nudiúne Núlene Núne Núna Uncenédla Uncú Ungúe Urdguídéla Uurcé Uurdíli 
+			Brúsce Brúsguetéla Brústlu Ránu Ríguistla Rímue Ariána Ríuanu Ríanu Ríuantce 
+			Ríuantdre Ríuantdre Ríuantela Ríuantguela Régina Ruénhela Ruínu Runána Ruzé Rú Rúmu 
+			Stefánia Stebánia Stére Súlca Súlcé Sulgúbri Sulgé Suleísu Sulmé Susáne Susána 
+			Tándre Tánetibu Tánezu Tánguistla Táncustíla Tédfila Tébaine Thúmine Tiburge Tibúrge 
+			Trifíne Tristána Uriéla Séfa Beré Mûnre Ílcu Guiguedú Dríchglu Berthíldi Argántu
 		}
 	}
 	hispani = {
@@ -2088,7 +2089,7 @@ cisalpin_romisch = {
 			Angela Marlene Hanna Anastasia Christina Adelina Adriana Afina Alexandra Alexia Ana Anna Arina 
 		}
 	}
-	swiss = {
+	helvetian = {
 		primary = SWI
 		male_names = {
 			Friedrich Otto Heinrich Werner Ferdinand Karl Alfred Benedikt Christoph Dietrich Engelbert 
@@ -12154,7 +12155,7 @@ northern_iranian = {
 	alan = {
 
 	}
-	szkithi = {
+	scythian = {
 		primary = SZK
 		dynasty_names = {
 			Bńthory Hunyadi Szapolyai Rńkńczy Bocskai Bethlen Almńsy Andrńssy Batthyńny Csńky Dessewffy

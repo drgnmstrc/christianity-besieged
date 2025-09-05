@@ -8,6 +8,7 @@ government = tribal
 add_government_reform = berber_tribe
 government_rank = 1
 primary_culture = maqil
+religion = mutazila
 technology_group = saharan
 capital = 1127
 # Specific Effects #

@@ -2,7 +2,7 @@
 
 owner = TSP
 controller = TSP
-culture = swiss
+culture = helvetian
 religion = ashabi
 add_core = LOM
 hre = no

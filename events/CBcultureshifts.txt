@@ -466,7 +466,7 @@ province_event = {
 
 	trigger = {
 		OR = {
-			culture = swiss
+			culture = helvetian
 			culture = alemanni
 			culture = langobard
 			culture = gepidian
