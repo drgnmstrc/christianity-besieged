@@ -2,7 +2,7 @@
 owner = PAD
 controller = PAD
 culture = saxon
-religion = germanic
+religion = german_pagan
 trade_goods = wool
 capital = "Paderborn"
 base_tax = 5

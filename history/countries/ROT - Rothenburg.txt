@@ -6,7 +6,7 @@ technology_group = eastern
 primary_culture = swabian
 capital = 4715	# Rothenburg
 fixed_capital = 4715 # Cannot move capital away from this province & no power cost to move to it
-religion = germanic
+religion = german_pagan
 
 1444.1.1 = {
 	monarch = {

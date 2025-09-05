@@ -2,7 +2,7 @@
 
 capital = "Bergheim"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = wine
 owner = BGN
 base_tax = 6

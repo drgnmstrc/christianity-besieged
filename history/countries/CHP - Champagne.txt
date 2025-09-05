@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = burgundian
 add_accepted_culture = gallien
-religion = germanic
+religion = german_pagan
 technology_group = eastern
 capital = 187 # Barrois
 

@@ -16,7 +16,7 @@ base_manpower = 3
 trade_goods = livestock
 
 culture = britannian
-religion = anglican
+religion = theodolian
 capital = "Oxford"
 
 is_city = yes

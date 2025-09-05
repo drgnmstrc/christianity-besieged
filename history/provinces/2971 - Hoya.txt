@@ -3,7 +3,7 @@
 owner = HOY
 controller = HOY
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Hoyaberg"
 trade_goods = livestock
 hre = yes

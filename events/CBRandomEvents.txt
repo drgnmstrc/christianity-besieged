@@ -1089,7 +1089,7 @@ country_event = {#Frisian Invasion of Essex
 				change_government = monarchy
 				add_government_reform = frisian_invasion
 				change_primary_culture = dutch
-				change_religion = germanic
+				change_religion = german_pagan
 			}
 		}
 	}
@@ -1104,7 +1104,7 @@ country_event = {#Frisian Invasion of Essex
 		name = camsRandomEvents.15b
 		1860 = {
 			change_culture = dutch
-			change_religion = germanic
+			change_religion = german_pagan
 		}
 		add_adm_power = 50
 		add_dip_power = 50
@@ -1117,9 +1117,9 @@ country_event = {#Frisian Invasion of Essex
 		}
 		1860 = {
 			change_culture = dutch
-			change_religion = germanic
+			change_religion = german_pagan
 		}
-		capital_scope = { change_religion = germanic }
+		capital_scope = { change_religion = german_pagan }
 		change_tag = FRI
 		FRI = { inherit = FROM }
 	}

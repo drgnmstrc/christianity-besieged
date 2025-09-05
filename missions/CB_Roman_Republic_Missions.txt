@@ -21,7 +21,7 @@ rome_rep_missions_1 = {
 			#incident: roman_resurgence
 			NOT = {
 				any_known_country = {
-					religion = germanic
+					religion = german_pagan
 					any_owned_province = {
 						is_core = RME
 					}

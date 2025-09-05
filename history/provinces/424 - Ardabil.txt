@@ -3,7 +3,7 @@
 owner = ERS
 controller = ERS
 culture = azerbaijani
-religion = manichaeism
+religion = zoroastrian
 add_core = ERS
 capital = "Ardabil"
 trade_goods = mercury

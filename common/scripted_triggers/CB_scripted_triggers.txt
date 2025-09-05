@@ -50,7 +50,7 @@ can_pax_deiorum_base = {
 			religion_group = hellenic
 			NOT = { has_roman_religion = yes }
 		}
-		religion_group = german_pagan
+		religion_group = germanic_pagan
 		religion = norse_pagan_reformed
 		religion = tengri_pagan_reformed
 		religion_group = slavic_pagan

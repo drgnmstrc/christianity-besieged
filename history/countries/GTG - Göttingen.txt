@@ -5,7 +5,7 @@ primary_culture = saxon
 technology_group = eastern
 capital = 4773
 fixed_capital = 4773
-religion = germanic
+religion = german_pagan
 
 1444.11.11 = {
 	monarch = {

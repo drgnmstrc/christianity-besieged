@@ -12,7 +12,7 @@ country_event = {
 
 	trigger = {
 		is_year = 1516
-		culture_group = germanic
+		culture_group = germanic_group
 		NOT = { has_global_flag = beerislove }
 	}
 	

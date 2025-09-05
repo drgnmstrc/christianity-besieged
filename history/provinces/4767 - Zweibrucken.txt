@@ -2,7 +2,7 @@
 
 capital = "Zweibrücken"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = cloth
 owner = ZWB
 base_tax = 3

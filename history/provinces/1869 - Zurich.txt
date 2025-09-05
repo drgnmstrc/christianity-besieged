@@ -3,7 +3,7 @@
 owner = ZUR
 controller = ZUR
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Zürich"
 trade_goods = wool
 hre = yes

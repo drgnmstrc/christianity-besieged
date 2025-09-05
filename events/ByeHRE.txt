@@ -6,7 +6,7 @@ country_event = {
 	picture = HRE_eventPicture
 	trigger = {
 		is_part_of_hre = yes
-		NOT = { religion_group = german_pagan }
+		NOT = { religion_group = germanic_pagan }
 	}
 	mean_time_to_happen = {
 		months = 4
@@ -49,9 +49,9 @@ country_event = {
 		name = byeHRE.b
 		add_prestige = -20
 		add_stability = -1
-		change_religion = germanic
+		change_religion = german_pagan
 		capital_scope = {
-			change_religion = germanic
+			change_religion = german_pagan
 		}
 		reverse_add_opinion = {
 			who = emperor
@@ -59,7 +59,7 @@ country_event = {
 		}
 		every_known_country = {
 			limit = {
-				religion = germanic
+				religion = german_pagan
 				is_emperor = no
 			}
 			add_opinion = {

@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = ottoman
 primary_culture = gaulish
-religion = anglican
+religion = theodolian
 capital = 1879

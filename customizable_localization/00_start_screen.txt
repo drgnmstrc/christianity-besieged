@@ -100,7 +100,7 @@ defined_text = {
         	localisation_key = string_start_title_islamic_germans
         	trigger = {
 			AND = {
-				culture_group = germanic
+				culture_group = germanic_group
 				religion_group = muslim
 			}
 		}

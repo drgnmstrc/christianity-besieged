@@ -3,7 +3,7 @@
 owner = GTG
 controller = GTG
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Göttingen"
 trade_goods = cloth
 hre = yes

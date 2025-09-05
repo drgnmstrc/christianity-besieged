@@ -2,7 +2,7 @@
 
 capital = "Worms"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = wine
 owner = WRM
 base_tax = 6 

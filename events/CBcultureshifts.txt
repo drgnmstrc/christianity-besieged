@@ -228,9 +228,9 @@ province_event = {
 	trigger = {
 		culture = pruqoth
 		owner = {
-			religion = germanic
+			religion = german_pagan
 		}
-		religion = germanic
+		religion = german_pagan
 	}
 
 	mean_time_to_happen = {

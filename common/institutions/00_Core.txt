@@ -960,7 +960,7 @@ printing_press = {
 			}
 			AND = {
 				is_year = 1560
-				religion = germanic
+				religion = german_pagan
 			}
 			AND = {
 				is_year = 1550
@@ -1078,7 +1078,7 @@ printing_press = {
 						OR = {
 							religion = protestant
 							religion = reformed
-							religion = anglican
+							religion = theodolian
 						}
 					}
 				}
@@ -1091,7 +1091,7 @@ printing_press = {
 						OR = {
 							religion = protestant
 							religion = reformed
-							religion = anglican
+							religion = theodolian
 						}
 					}
 				}
@@ -1108,7 +1108,7 @@ printing_press = {
 					OR = {
 						religion = reformed
 						religion = protestant
-						religion = anglican
+						religion = theodolian
 					}
 				}
 			}
@@ -1118,7 +1118,7 @@ printing_press = {
 					OR = {
 						religion = reformed
 						religion = protestant
-						religion = anglican
+						religion = theodolian
 					}
 				}
 			}

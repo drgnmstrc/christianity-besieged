@@ -3,7 +3,7 @@
 owner = LEV
 controller = LEV
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Leventina"
 trade_goods = livestock
 hre = yes

@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 mercantilism = 0.1
 technology_group = ottoman
 primary_culture = lotharingian
-religion = anglican
+religion = theodolian
 capital = 87
 
 national_focus = MIL

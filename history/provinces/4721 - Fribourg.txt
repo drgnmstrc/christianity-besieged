@@ -1,7 +1,7 @@
 owner = PAL
 controller = PAL 
 culture = alemanni
-religion = germanic
+religion = german_pagan
 add_core = PAL
 capital = "Fribourg"
 trade_goods = cheese

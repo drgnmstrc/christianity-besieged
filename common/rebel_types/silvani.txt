@@ -1,17 +1,17 @@
 ######################################################################
-# Ikniksugrit rebels. Disgruntled fanatics.
+# silvani rebels. Disgruntled fanatics.
 ######################################################################
-ikniksugritism_rebels = {
+silvani_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = ikniksugritism
-	defection = none				# Will not defect
+	religion = silvani
+	defection = religion			# Defects to countries of their religion
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
-	unit_transfer = no
+	unit_transfer = yes
 	gfx_type = culture_province
 	will_relocate = yes	
 	
@@ -45,7 +45,7 @@ ikniksugritism_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = ikniksugritism }
+			NOT = { religion = silvani }
 		}
 		modifier = {
 			factor = 0.001
@@ -90,21 +90,21 @@ ikniksugritism_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = ikniksugritism
-			owner = { religion = ikniksugritism }
+			religion = silvani
+			owner = { religion = silvani }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = ikniksugritism }
+			NOT = { religion = silvani }
 			any_neighbor_province = {
-	 			religion = ikniksugritism
+	 			religion = silvani
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 5
 			has_missionary = yes
-			religion = ikniksugritism
+			religion = silvani
 		}
 		modifier = {
 			factor = 1.5
@@ -135,9 +135,9 @@ ikniksugritism_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = ikniksugritism
+						religion = silvani
 						is_reformation_center = yes
-						owner = { religion = ikniksugritism }
+						owner = { religion = silvani }
 					}
 				}
 				add_province_modifier = {
@@ -147,15 +147,22 @@ ikniksugritism_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = ikniksugritism }
+					NOT = { religion = silvani }
 					is_reformation_center = no
-					NOT = { owner = { religion = ikniksugritism } }
+					NOT = { owner = { religion = silvani } }
 				}
-				change_religion = ikniksugritism
+				change_religion = silvani
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
 				}
+			}
+		}
+		owner = {
+			change_estate_land_share = {
+				estate = estate_church
+				share = 10.0
+				province = ROOT
 			}
 		}
 	}
@@ -171,13 +178,20 @@ ikniksugritism_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "ikniksugritism_rebels_demand"
+	demands_description = "silvani_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
+		hidden_effect = {
+			add_country_modifier = {
+				name = just_lost_to_rebels
+				duration = 10
+				hidden = yes
+			}
+		}
 		if = {
 			limit = {
-				NOT = { religion_group = germanic_pagan }
+				NOT = { religion_group = pagan }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -193,18 +207,30 @@ ikniksugritism_rebels = {
 			}
 			add_stability = -1
 		}
-		if = {
+		else_if = {
 			limit = {
-				religion = ikniksugritism
+				religion = silvani
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
 				duration = 3650
 			}
 		}
+		else_if = {
+			limit = {
+				OR = {
+					religion_group = pagan
+					dominant_religion = silvani
+				}
+				NOT = { religion = silvani }
+			}
+			change_religion = silvani
+			force_converted = yes
+		}
+		else = { add_stability = -1 } #Should probably never get here
 		if = {
 			limit = {
-				religion = ikniksugritism
+				religion = silvani
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
@@ -220,13 +246,9 @@ ikniksugritism_rebels = {
 				influence = 15
 			}
 		}
-		if = {
-			limit = {
-				dominant_religion = ikniksugritism
-				NOT = { religion = ikniksugritism }
-			}
-			change_religion = ikniksugritism
-			force_converted = yes
+		change_estate_land_share = {
+			estate = estate_church
+			share = 10.0
 		}
 	}
 }

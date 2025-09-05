@@ -9325,7 +9325,7 @@ country_event = {
 		advisor = theologian
 		any_owned_province = {
 			OR = {
-				religion = anglican
+				religion = theodolian
 				religion = liritism
 			}
 			printing_press = 1
@@ -9338,7 +9338,7 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					OR = {
-						religion = anglican
+						religion = theodolian
 						religion = liritism
 					}
 					continent = europe
@@ -9354,7 +9354,7 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 5.0
-			culture_group = germanic
+			culture_group = germanic_group
 		}
 	}
 	

@@ -313,7 +313,7 @@ christian = {
 		}
 	}
 
-	anglican = {
+	theodolian = {
 		color = { 135 77 255 }
 		icon = 50
 		allow_female_defenders_of_the_faith = yes
@@ -856,7 +856,7 @@ christian = {
 			global_missionary_strength = 0.02
 		}
 		allowed_conversion = {
-			anglican
+			theodolian
 			liritism
 		}
 		country_as_secondary = {
@@ -1126,8 +1126,8 @@ christian = {
 		icon = 6
 		allowed_conversion = {
 			riothemism
-			anglican
-			germanic
+			theodolian
+			german_pagan
 			druidism
 			manichaeism
 			ashabi
@@ -4242,7 +4242,7 @@ hellenic = {
 		icon = 27
 		allowed_conversion = {
 			shiite
-			anglican
+			theodolian
 			riothemism
 			norse_pagan_reformed
 			walianitas
@@ -4675,7 +4675,7 @@ slavic_pagan = {
 	crusade_name = CRUSADE
 }
 
-german_pagan = {
+germanic_pagan = {
 	defender_of_faith = yes
 	flags_with_emblem_percentage = 10
 	flag_emblem_index_range = { 83 96 }
@@ -4699,7 +4699,7 @@ german_pagan = {
 		heretic = { OLD_NORSE }	
 	}
 
-	germanic = {
+	german_pagan = {
 		color = { 180 180 180 }
 		icon = 32
 		province = {

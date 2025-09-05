@@ -3,6 +3,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-religion = germanic
+religion = german_pagan
 primary_culture = dutch
 capital = 1860 #Haag

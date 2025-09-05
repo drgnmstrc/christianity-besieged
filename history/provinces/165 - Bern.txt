@@ -18,7 +18,7 @@ trade_goods = iron
 extra_cost = 8
 
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Bärn"
 
 hre = yes

@@ -5,7 +5,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = bavarian
-religion = germanic
+religion = german_pagan
 capital = 64	# Landshut
 
 1417.2.23 = {

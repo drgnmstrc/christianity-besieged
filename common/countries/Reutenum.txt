@@ -6,7 +6,7 @@ color = { 80  80  211 }
 
 historical_score = 30
 
-preferred_religion = germanic
+preferred_religion = german_pagan
 
 historical_idea_groups = {
 	diplomatic_ideas

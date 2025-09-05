@@ -9,6 +9,7 @@ add_government_reform = berber_tribe
 government_rank = 1
 primary_culture = toubou
 technology_group = saharan
+religion = imohag
 capital = 2474
 # Specific Effects #
 

@@ -46,10 +46,10 @@ incident_shadow_kingdom = {
 			factor = 0
 			OR = {
 				NOT = {
-					religion = germanic
+					religion = german_pagan
 				}
 				NOT = {
-					culture_group = germanic
+					culture_group = germanic_group
 				}
 			}
 		}

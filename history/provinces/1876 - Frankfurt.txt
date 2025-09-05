@@ -1,7 +1,7 @@
 # 1876 - Frankfurt
 capital = "Gotefurt"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = paper
 owner = RHI
 controller = RHI

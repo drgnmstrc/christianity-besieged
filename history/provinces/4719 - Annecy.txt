@@ -1,7 +1,7 @@
 owner = LUG
 controller = LUG
 culture = gothic
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3
 base_production = 2

@@ -8,7 +8,7 @@ country_event = { #Surge of Refugees
 	
 	trigger = {
 		OR = {
-			religion = anglican
+			religion = theodolian
 			religion = riothemism
 		}
 		OR = {
@@ -57,7 +57,7 @@ country_event = { #Pretender Romans colonizing
 	
 	trigger = {
 		OR = {
-			religion = anglican
+			religion = theodolian
 			religion = riothemism
 		}
 		NOT = {

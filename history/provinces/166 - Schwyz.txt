@@ -3,7 +3,7 @@
 owner = LEV
 controller = LEV
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Schwyz"
 trade_goods = iron
 hre = yes

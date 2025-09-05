@@ -2,7 +2,7 @@ government = theocracy
 add_government_reform = free_city
 government_rank = 1
 primary_culture = swabian
-religion = germanic
+religion = german_pagan
 technology_group = eastern
 capital = 81	# Kassel
 

@@ -250,7 +250,7 @@ aboriginal_australian = {
 	}
 }
 
-germanic = {
+germanic_group = {
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }

@@ -442,7 +442,7 @@ high_druid = {
 	}
 	trigger = {
 		government = theocracy
-		religion = germanic
+		religion = german_pagan
 	}
 }
 
