@@ -3,7 +3,7 @@
 owner = ALD
 controller = ALD
 add_core = ALD
-culture = pruqoth
+culture = juthudi
 religion = ashabi
 capital = "Grenoble"
 is_city = yes

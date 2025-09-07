@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = mutawasiti
+primary_culture = bahrumi
 add_accepted_culture = isawiyen
 religion = ashabi
 technology_group = ottoman

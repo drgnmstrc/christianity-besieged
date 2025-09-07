@@ -27,7 +27,7 @@ discovered_by = nomad_group
 	controller = RUS 
 	add_core = RUS
 	remove_core = KZH
-	culture = russian
+	culture = bolghar
 	religion = hellenism
 	capital = "Nizhny Yaitsky Gorodok" 
 } # Yaik Cossacks settle the area

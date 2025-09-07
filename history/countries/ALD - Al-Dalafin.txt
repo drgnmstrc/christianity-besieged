@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = iqta_council_reform
 government_rank = 1
-primary_culture = pruqoth
+primary_culture = juthudi
 religion = ashabi
 technology_group = ottoman
 capital = 205

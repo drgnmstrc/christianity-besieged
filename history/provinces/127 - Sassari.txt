@@ -3,7 +3,7 @@
 owner = IFR
 controller = IFR
 add_core = IFR
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 hre = no 
 base_tax = 3 

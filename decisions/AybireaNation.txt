@@ -27,7 +27,7 @@ country_decisions = {
 			}
 			OR = {
 				primary_culture = aybirean
-				primary_culture = mutawasiti
+				primary_culture = bahrumi
 			}
 			OR = {
 				ai = no

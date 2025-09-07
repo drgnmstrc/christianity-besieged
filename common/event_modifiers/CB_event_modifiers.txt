@@ -185,7 +185,7 @@ chosen_bacchic_one = {
 	naval_morale = 0.15
 	tolerance_own = 3
 }
-mutawasiti_admirals = {
+bahrumi_admirals = {
 	navy_tradition = 1
 	admiral_cost = -0.5
 }

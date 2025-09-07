@@ -3,7 +3,7 @@
 owner = KAZ
 controller = KAZ
 capital = "Bilär"
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 trade_goods = zinc
 hre = no
@@ -26,7 +26,7 @@ discovered_by = scandinavian_tech
 	remove_core = KAZ 
 } # Russian conquest of Kazan
 1648.1.1 = {
-	culture = russian
+	culture = bolghar
 	religion = hellenism
 	capital = "Simbirsk" 
 } # Simbirsk founded as a strongpoint to defend Russia's southern front

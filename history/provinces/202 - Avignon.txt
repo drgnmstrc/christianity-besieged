@@ -2,7 +2,7 @@
 
 owner = MRT
 controller = MRT
-culture = pruqoth
+culture = juthudi
 religion = ashabi
 capital = "Avik"
 is_city = yes

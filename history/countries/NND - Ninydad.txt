@@ -1,7 +1,7 @@
 government = native
 add_government_reform = native_bulgar_khanate_reform
 government_rank = 1
-primary_culture = russian
+primary_culture = bolghar
 religion = tengri_pagan_reformed
 technology_group = nomad_group
 capital = 306

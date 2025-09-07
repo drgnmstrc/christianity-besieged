@@ -3,7 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = nomad_group
 religion = tengri_pagan_reformed
-primary_culture = russian
+primary_culture = bolghar
 capital = 308	# Yaroslavl
 fixed_capital = 308 # Cannot move capital away from this province & no power cost to move to it
 

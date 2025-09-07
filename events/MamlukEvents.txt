@@ -78,7 +78,7 @@ country_event = {
 			random_province = { #If Circassians are available we prefer those, this check is also less strict.
 				limit = {
 					NOT = { owned_by = ROOT }
-					culture = mutawasiti
+					culture = bahrumi
 					owner = {
 						NOT = { war_with = ROOT }
 						NOT = { is_rival = ROOT }

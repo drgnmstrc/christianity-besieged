@@ -663,9 +663,6 @@ anglo_saxon_group = {
 	mercian = {
 		primary = MRC
 	}
-	lindseyer = {
-		primary = LNS
-	}
 	english = {
 		primary = ENG
 		dynasty_names = { 
@@ -997,7 +994,7 @@ scandinavian = { #Nordic
 		}
 	}
 	dalkarlar = {
-		primary = ALF
+		primary = DLR
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
@@ -3154,15 +3151,15 @@ volgaic = {
 		Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
 		Nyal'ka 
 	}
-dynasty_names = {
-	# CKII - Lappish (kept authentic clan forms)
-	"Ubmeje" "Nuoröne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
-	
-	# Komi / Permic
-	"Azegin" "Gachegin" "Zhebegin" "Lunegin" "Zhunegin" "Irtegin" "Moshegin" 
-	"Nydogin" "Nylogin" "Ozhegin" "Odegin" "Rategin"
-	"Permyakov" "Yugrin" "Syktyvkar"
-}
+	dynasty_names = {
+		# CKII - Lappish (kept authentic clan forms)
+		"Ubmeje" "Nuoröne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
+		
+		# Komi / Permic
+		"Azegin" "Gachegin" "Zhebegin" "Lunegin" "Zhunegin" "Irtegin" "Moshegin" 
+		"Nydogin" "Nylogin" "Ozhegin" "Odegin" "Rategin"
+		"Permyakov" "Yugrin" "Syktyvkar"
+	}
 }
 
 ugric = {
@@ -5028,7 +5025,7 @@ turko_balikli = {
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
 			"Artukoglu" "Mutahhartenoglu" "Tekeoglu" "Hamidoglu" "Tacettinoglu"
 			"Oguzoglu" "Haciemiroglu" "Kubatoglu" "Bafraoglu" "Alaiyeoglu"
-		}
+	}
 	male_names = {
 			Mehmet Mustafa Murat Ahmet Selim Osman Mahmut Sńleyman Bayezid Orhan Abdulaziz Abdńlhamit Ibrahim 
 			Abdńlmecit Abdullah Cem Cihangir Alaattin Isa Musa ńmer Seyfettin Yakup Yusuf Giyasettin Numan 
@@ -5045,7 +5042,7 @@ turko_balikli = {
 			Saruca Savtekin Savur Sehinsah Selńuk Selim Sencer Sinan Tanrivermis Tekin Timurtas Togay 
 			Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluń Umur Yakut Yaman Yinal 
 			Yunus
-		}
+	}
 	female_names = {
 			ńińek ńilen ńiltanesi ńzgul ńzlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu 
 			Bozńin Canan Ceylan Dunya Dilber Dilek Emine Esin Fatma Firuze Gulńińek Gulay Gulbahar Gulfem 
@@ -5054,8 +5051,8 @@ turko_balikli = {
 			Sati Sehnaz Serap Serife Sevilay Sevindik Sibel Sibylla Sirin Sirma Songul Sumru Tekńe Tura 
 			Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal Hatice Safiye Zeynep Hńrrem Mihrimah Nurbanu 
 			Handan Alime Kńsem Hńma 
-		}
 	}
+}
 turko_semitic = { #Levantine
 	graphical_culture = muslimgfx
 	jeberti = {
@@ -5329,7 +5326,7 @@ rumi = {
 	ifri = {
 		primary = SIC
 	}
-	mutawasiti = {
+	bahrumi = {
 		primary = COR
 	}
 	dalmatli = {
@@ -5490,13 +5487,13 @@ rumi = {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
-	pruqoth = {
+	juthudi = {
 		primary = MAM
 	}
 	aybirean = {
 		primary = AGU
 	}
-	mutawasiti = {
+	bahrumi = {
 		primary = MTN
 	}
 	almani = {
@@ -5725,7 +5722,7 @@ iranian	= {
 			Bavandid Eshaqvand
 		}
 	}
-	iranian = {
+	uni_iranian = {
 		primary = ERS
 		male_names = { 
 			Abbas Abolhassan Afshar Afshar Ahmad Ahmad Akbar Akbar Allahyar Amin Anushirvan Anushirvan 
@@ -8096,7 +8093,7 @@ siouan = {
 		}
 	}
 	ofo = {
-		primary = M49
+		primary = MSP
 		dynasty_names = {
 			Mesquakie Wagosh Asakiwakie Kickapoo Blackhawk Saukenuk Thakiwakie
 			Tama Osakis Etnataek Kickapougwoi Kithlipecanuk
@@ -11394,7 +11391,7 @@ kung = {
 	okung = {
 		primary = OKU
 	}
-	julhoan = {
+	juhoan = {
 		primary = NKU
 	}
 	npkxaut = {
@@ -11608,9 +11605,6 @@ bantoid = {
 	}
 	female_names = {
 		Jetta Vandana Zody Lishan Lolovivi Gavivi Gobad Gimbya Hazina Hidi Baina
-	}
-	mbum = {
-		primary = BMN
 	}
 	tiv = {
 		dynasty_names = {
@@ -12339,7 +12333,7 @@ tartar	= {
 			Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
 		}
 	}
-	russian = {
+	bolghar = {
 		primary = MOS
 		male_names = {
 			Basiliy Iban Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Arkadiy 
@@ -12647,34 +12641,34 @@ lost_cultures_group = {
 	}
 	anglosaxon = { #CK2
 		dynasty_names = {
-			Godhelming Beorming Eorling ńbbing Hństing ńlling Eadricing Eadwulfing Leodwalding
-			ńthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmńr Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornrńd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenrńd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthrńd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmńr Eadric
-			Eadrńd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdrńd Ealdwine
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
 			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwńr Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mńrleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osrńd Osulf Osweald Oswine Oswulf Peter Rńdwulf_Ralph Rńgenweald Scule
-			Sigeberht Sigehelm Sigeric Sigerńd Sighere Siweard Stigand Swegn Swithelm Swithrńd Swńfrńd Sńbert Sńlrńd Sńweald
-			Sńxbald Sńxrńd Thorńd Thurcytel Thurfrith Tostig Uhtrńd Ulfcytel Waltheof Werestan Wiglaf Wihtrńd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmńr Wulfnoth Wulfstan ńlfgar ńlfmńr ńlfnoth ńlfric ńlfrńd_Alfred ńlfsige
-			ńlfstan ńlfwald ńlfweard ńlfwig ńlfwine ńlle ńthelbald ńthelberht ńthelfrith ńthelhere ńthelmńr
-			ńthelric ńthelrńd_Ailred ńthelsige ńthelstan ńthelweald ńthelweard ńthelwine ńthelwold ńthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rńdwald
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric ÆlfrÆd Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere ÆthelmÆr
+			Æthelric ÆthelrÆd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald RÆdwald
 		}
 		female_names = {
-			Agatha Balthild Beorhtflńd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflńd Beorngyth Blńja Burgflńd Ceolflńd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflńd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflńd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflńd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflńd Sigrid Sńthryth Wulfflńd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflńd Wńrburg ńbba ńlfflńd ńlfgifu ńlfgyth ńlflńda_ńlflńda ńlfrida
-			ńlfswith ńlfthryth ńlfwynn ńthelburg ńthelflńd ńthelgifu ńthelhild ńthelrńda_ńthelreda ńthelswith ńthelthryth
-			ńthelburh Seaxburh Wihtburh
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth ÆlflÆda Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
 		}
 	}
 	babylonian = {

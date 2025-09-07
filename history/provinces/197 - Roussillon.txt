@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 add_core = MAM
-culture = pruqoth
+culture = juthudi
 religion = ashabi
 capital = "Perpignan"
 is_city = yes

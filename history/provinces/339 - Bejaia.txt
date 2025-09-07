@@ -2,7 +2,7 @@
 
 owner = MTN
 controller = MTN
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 capital = "Bugya"
 trade_goods = lead

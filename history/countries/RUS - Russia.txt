@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = tsardom
-primary_culture = russian
+primary_culture = bolghar
 religion = orthodox
 technology_group = western
 unit_type = western

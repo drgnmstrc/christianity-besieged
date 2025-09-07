@@ -3,7 +3,7 @@
 owner = QRT
 controller = QRT 
 add_core = QRT
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 capital = "Annaba"
 trade_goods = olive_oil

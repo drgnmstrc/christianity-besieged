@@ -205,14 +205,14 @@ province_event = {
 
 	option = {
 		name = culture.5a
-		change_culture = pruqoth
+		change_culture = juthudi
 		hidden_effect = {
 			if = {
 				limit = {
 					is_capital = yes
 					owner = { ai = yes }
 				}
-				owner = { change_primary_culture = pruqoth }
+				owner = { change_primary_culture = juthudi }
 			}
 		}
 	}
@@ -226,7 +226,7 @@ province_event = {
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
-		culture = pruqoth
+		culture = juthudi
 		owner = {
 			religion = german_pagan
 		}
@@ -769,14 +769,14 @@ province_event = { #Unity of the Iranians
 	}
 	option = {
 		name = culture.12a
-		change_culture = iranian
+		change_culture = uni_iranian
 		hidden_effect = {
 			if = {
 				limit = {
 					is_capital = yes
 					owner = { ai = yes }
 				}
-				owner = { change_primary_culture = iranian }
+				owner = { change_primary_culture = uni_iranian }
 			}
 		}
 	}

@@ -26,5 +26,5 @@ discovered_by = nomad_group
 	controller = RUS
 	add_core = RUS
 	remove_core = PRM
-	culture = russian 
+	culture = bolghar 
 }

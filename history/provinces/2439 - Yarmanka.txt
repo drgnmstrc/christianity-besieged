@@ -26,7 +26,7 @@ discovered_by = KMC }
 	owner = RUS
 	controller = RUS
 	religion = hellenism
-	culture = russian
+	culture = bolghar
 	is_city = yes
 	trade_goods = gold
 }

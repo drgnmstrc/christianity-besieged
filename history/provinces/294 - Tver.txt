@@ -3,7 +3,7 @@
 owner = DUL
 controller = DUL
 add_core = DUL
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

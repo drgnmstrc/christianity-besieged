@@ -25,5 +25,5 @@ center_of_trade = 1
 	controller = RUS
 	add_core = RUS 
 	remove_core = PRM
-	culture = russian 
+	culture = bolghar 
 }

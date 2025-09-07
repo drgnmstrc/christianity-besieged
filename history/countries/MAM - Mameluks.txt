@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = mamluk_government
-primary_culture = pruqoth
+primary_culture = juthudi
 add_accepted_culture = aybirean
 religion = ashabi
 technology_group = ottoman
@@ -20,7 +20,7 @@ change_estate_land_share = {
 	monarch = {
 		name = "al-Nasr Faraj"
 		dynasty = "Mazymas"
-		culture = pruqoth
+		culture = juthudi
 		adm = 2
 		dip = 2
 		mil = 3

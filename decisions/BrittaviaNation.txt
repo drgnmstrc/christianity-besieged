@@ -19,7 +19,6 @@ country_decisions = {
 			}
 			OR = {
 				primary_culture = hwiccan
-				primary_culture = lindseyer
 				primary_culture = mercian
 				primary_culture = northumbrian
 			}

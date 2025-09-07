@@ -3,7 +3,7 @@
 owner = ALM
 controller = ALM
 add_core = ALM
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 capital = "Mostaganem"
 trade_goods = grain

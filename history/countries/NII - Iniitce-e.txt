@@ -7,7 +7,7 @@
 government = tribal
 add_government_reform = tribal_theocracy
 government_rank = 1
-primary_culture = julhoan
+primary_culture = juhoan
 religion = qanumi
 technology_group = south_african
 capital = 5013

@@ -1302,10 +1302,10 @@ native_baltic_chiefdom_reform = { # I
 native_bulgar_khanate_reform = { # I
 	icon = "shaman"
 	potential = {
-		primary_culture = russian
+		primary_culture = bolghar
 	}
 	trigger = {
-		primary_culture = russian
+		primary_culture = bolghar
 	}
 	allow_normal_conversion = no
 	valid_for_nation_designer = yes

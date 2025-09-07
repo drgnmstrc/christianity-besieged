@@ -444,7 +444,7 @@ country_event = { #Takeover of Kursika
 		trigger = { tag = BTA }
 		vassalize = COR
 		add_country_modifier = {
-			name = mutawasiti_admirals
+			name = bahrumi_admirals
 			duration = 3650
 		}
 	}
@@ -492,7 +492,7 @@ country_event = { #The Kursika Coup
 		}
 		vassalize = COR
 		add_country_modifier = {
-			name = mutawasiti_admirals
+			name = bahrumi_admirals
 			duration = 3650
 		}
 	}

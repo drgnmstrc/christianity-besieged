@@ -2,7 +2,7 @@
 
 owner = DUL
 controller = DUL
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 add_core = DUL
 capital = "Galich"

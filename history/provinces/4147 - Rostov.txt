@@ -2,7 +2,7 @@
 
 owner = YNI
 controller = YNI
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 add_core = YNI
 hre = no

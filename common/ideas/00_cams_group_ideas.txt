@@ -364,7 +364,7 @@ kung_ideas = {
 		global_unrest = -2
 		culture_conversion_cost = -0.25
 	}
-	rich_julhoan_literacy = {
+	rich_juhoan_literacy = {
 		technology_cost = -0.1
 		reform_progress_growth = 0.1
 	}

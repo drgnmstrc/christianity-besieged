@@ -1,7 +1,7 @@
 #4252 - Kolomna
 
 tribal_owner = MSU
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 2

@@ -1,7 +1,7 @@
 #1956 - Suzdal
 
 tribal_owner = YNI
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 4

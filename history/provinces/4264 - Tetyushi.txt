@@ -2,7 +2,7 @@
 
 owner = KAZ
 controller = KAZ
-culture = russian
+culture = bolghar
 religion = tengri_pagan_reformed
 capital = "Tetyushi"
 trade_goods = horses
@@ -25,4 +25,4 @@ discovered_by = scandinavian_tech
 	add_core = RUS 
 	remove_core = KAZ 
 } # Russian conquest of Kazan
-1616.4.5 = { culture = russian religion = hellenism capital = "Cheboksary" }
+1616.4.5 = { culture = bolghar religion = hellenism capital = "Cheboksary" }
