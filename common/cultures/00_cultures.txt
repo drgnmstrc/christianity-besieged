@@ -5466,7 +5466,7 @@ rumi = {
 		}
 	}
 	italyan = {
-		primary = U02
+		primary = TLY
 		dynasty_names = {
 			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
