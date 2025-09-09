@@ -13,7 +13,7 @@ country_event = {
 		NOT = { tag = BTA }
 		NOT = { tag = ROM }
 		NOT = { tag = RMC }
-		NOT = { exists = U02 }
+		NOT = { exists = TLY }
 		NOT = { has_country_flag = no_support }
 	}
 	
@@ -97,7 +97,7 @@ country_event = {
 	trigger = {
 		papacy_active = yes
 		NOT = { exists = BTA }
-		NOT = { exists = U02 }
+		NOT = { exists = TLY }
 		NOT = { exists = RMC }
 		religion = ashabi
 		NOT = { has_ruler_flag = refused_papacy }

@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ROM }
-			NOT = { exists = U02 }
+			NOT = { exists = TLY }
 			NOT = { exists = RMC }
 			NOT = { exists = RME }
 			NOT = { tag = BTA }
@@ -93,7 +93,7 @@ country_decisions = {
 				}
 				set_government_rank = 2
 			}
-			change_tag = U02
+			change_tag = TLY
 			if = {
 				limit = {
 					religion = ashabi
@@ -126,10 +126,10 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = U02
+				add_permanent_claim = TLY
 			}
 			add_prestige = 25
-			U02 = {
+			TLY = {
 				set_capital = 118
 			}
 			set_country_flag = formed_italy_flag
@@ -150,7 +150,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ROM }
-			NOT = { exists = U02 }
+			NOT = { exists = TLY }
 			NOT = { exists = RME }
 			NOT = { tag = HLR }
 			NOT = { tag = BTA }

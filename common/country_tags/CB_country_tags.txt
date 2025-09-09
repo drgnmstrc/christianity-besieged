@@ -415,7 +415,7 @@ VYA = "countries/Vyatihs.txt"
 
 #Turkish/Ashabi
 BTA = "countries/Bayt Allah.txt"
-U02 = "countries/Italya.txt"
+TLY = "countries/Italya.txt"
 U03 = "countries/Makedonya.txt" #SE EUROPE TODO - CHANGE TO ILLYRIAN FORMABLE (ILLYRI)
 U04 = "countries/Mora.txt"
 U05 = "countries/Attika.txt"

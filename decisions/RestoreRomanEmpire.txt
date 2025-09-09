@@ -107,10 +107,10 @@ country_decisions = {
 			}
 			OR = {
 				tag = BTA
-				tag = U02
+				tag = TLY
 				culture_group = rumi
 			}
-			NOT = { exists = ROM }
+			NOT = { exists = RMC }
 			religion = ashabi
 		}
 		provinces_to_highlight = {
