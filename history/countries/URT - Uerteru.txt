@@ -9,7 +9,7 @@ add_government_reform = tribal_kingdom
 primary_culture = gaidheil
 religion = druidism
 technology_group = western
-capital = 5019
+capital = 5171
 # Specific Effects #
 
 1444.11.11 = {
