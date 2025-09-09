@@ -67,7 +67,7 @@ province_event = {
 			factor = 2
 			owner = { 
 				OR = {
-					primary_culture = roman
+					primary_culture = italo_turk
 					primary_culture = graeci
 				}
 			}

@@ -4,8 +4,8 @@ government_rank = 1
 technology_group = ottoman
 primary_culture = bretono
 religion = liritism
-capital = 5020
-fixed_capital = 5020
+capital = 5172
+fixed_capital = 5172
 unit_type = roman_units
 
 1399.9.12 = {
