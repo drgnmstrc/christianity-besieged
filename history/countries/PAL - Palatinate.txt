@@ -5,7 +5,7 @@ primary_culture = alemanni
 religion = german_pagan
 elector = yes
 technology_group = eastern
-capital = 77	# Pfalz
+capital = 165	# Bern
 
 1428.8.7 = {
 	monarch = {
