@@ -55,7 +55,7 @@ christian = {
 	}
 
 	theodolian = {
-		color = { 135 77 255 }
+		color = { 227 218 54 }
 		icon = 50
 		allow_female_defenders_of_the_faith = yes
 
