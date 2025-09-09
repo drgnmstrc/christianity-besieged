@@ -943,11 +943,11 @@ reconvene_the_roman_senate = { # III
 	icon = "parliament"
 	allow_normal_conversion = no
 	potential = {
-		# has_roman_religion = yes
+		has_roman_religion = yes
 		government = republic
 	}
 	trigger = {
-		# has_roman_religion = yes
+		has_roman_religion = yes
 	}
 	modifiers = {
 		diplomatic_upkeep = 1
