@@ -1088,7 +1088,7 @@ country_event = {#Frisian Invasion of Essex
 				set_government_rank = 1
 				change_government = monarchy
 				add_government_reform = frisian_invasion
-				change_primary_culture = dutch
+				change_primary_culture = frisian
 				change_religion = german_pagan
 			}
 		}
@@ -1103,7 +1103,7 @@ country_event = {#Frisian Invasion of Essex
 	option = {
 		name = CBFlavorEvents.15b
 		1860 = {
-			change_culture = dutch
+			change_culture = frisian
 			change_religion = german_pagan
 		}
 		add_adm_power = 50
@@ -1116,7 +1116,7 @@ country_event = {#Frisian Invasion of Essex
 			NOT = { ai = yes }
 		}
 		1860 = {
-			change_culture = dutch
+			change_culture = frisian
 			change_religion = german_pagan
 		}
 		capital_scope = { change_religion = german_pagan }
@@ -1225,7 +1225,7 @@ country_event = {#Refugees from Leventina
 				set_government_rank = 1
 				change_government = monarchy
 				add_government_reform = frisian_invasion
-				change_primary_culture = dutch
+				change_primary_culture = frisian
 				change_religion = german_pagan
 			}
 		}

@@ -2,8 +2,8 @@
 
  # Anatolian
  anatolian: "Anatolian"
- isaurian: "Isaurian"
- old_phrygian: "Phrygian"
+ isaurian: "Ishawrili"
+ old_phrygian: "Vrekun"
 
  # Anglo-Saxon
  anglo_saxon_group: "Anglo-Saxon"
@@ -16,13 +16,14 @@
  # Arabic
  almukhidi: "Haladri"
  jeberti: "Jeberti"
- palestinian: "Palestinian"
+ palestinian: "Filastini"
 
  # Aramaic
+ aramaic_group: "Aramaic"
  aramaic: "Aramaic"
- aramean: "Aramean"
- assyrian: "Assyrian"
- cilician: "Cilician"
+ aramean: "Aramaye"
+ assyrian: "Suroye"
+ cilician: "Qiliqaye"
 
  # Araucanian
  chango: "Chango"
@@ -31,7 +32,7 @@
  latgalian: "Latgali"
  prus: "Prusai"
  semigallian: "Zemgali"
- yotvingian: "Yotvingian"
+ yotvingian: "Suduva"
 
  # Bantoid
  tikar: "Tikar"
@@ -76,8 +77,8 @@
 
  # East Slavic
  bolokhov: "Bolokhov"
- krivich: "Krivich"
- severian: "Severian"
+ krivich: "Krivichý"
+ severian: "Siveriany"
  slovenski: "Slovenski"
 
  # Edoid
@@ -308,10 +309,13 @@
  mazowiska: "Mazowiska"
 
  # Rumi
+ rumi: "Rumi"
  abindari: "Abindári"
  almani: "Almani"
  aybirean: "Aybiriun"
+ bahrumi: "Bahrumiun"
  balkanli: "Balkanli"
+ ifri: "Ifri"
  italyan: "Italyan"
  trakyali: "Trakyali"
 
@@ -359,6 +363,7 @@
  bayandur: "Bayandur"
  kuzarim: "Kuzarim"
  qumular: "Qumular"
+ ukek: "Ükäkli"
  yiva: "Yiva"
 
  # Tatar

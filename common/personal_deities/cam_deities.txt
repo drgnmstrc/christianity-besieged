@@ -5,7 +5,7 @@ jesus_of_nazareth = {
 		OR = {
 			AND = {
 				any_owned_province = {
-					culture_group = armaic
+					culture_group = aramaic_group
 				}
 				religion = manichaeism
 			}	
@@ -201,7 +201,7 @@ baptist_john = {
 	potential = { 
 			any_owned_province = {
 				OR = {
-					culture_group = armaic
+					culture_group = aramaic_group
 					religion = mandaeism
 					religion_group = christian
 				}

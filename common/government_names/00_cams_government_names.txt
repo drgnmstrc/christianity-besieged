@@ -575,7 +575,7 @@ aramaic_kingdom = {
     }
     
 	trigger = {
-		culture_group = armaic
+		culture_group = aramaic_group
 		NOT = { primary_culture = hebrew }
 		government = monarchy
 	}

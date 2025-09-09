@@ -251,7 +251,7 @@ trade_company_indonesia = {
 	# Specific (Removed for potential confusion)
 	#names = {
 	#	trigger = {
-	#		primary_culture = dutch
+	#		primary_culture = frisian
 	#	}
 	#	name = "TRADE_COMPANY_INDONESIA_Dutch_East_Indies_Company"
 	#}

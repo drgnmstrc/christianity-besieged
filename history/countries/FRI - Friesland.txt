@@ -4,5 +4,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = german_pagan
-primary_culture = dutch
+primary_culture = frisian
 capital = 1860 #Haag

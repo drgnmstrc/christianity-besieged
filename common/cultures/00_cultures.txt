@@ -500,6 +500,57 @@ germanic_group = {
 			"van Serooskerken"
 		}
 	}
+	frisian = {
+		primary = NED
+		male_names = {
+			Adriaen Albrecht Albert Alwin Ambroos Antoon Arnold Arnold Arnulf Arnulf Balderik Barend 
+			Barnaerd Bernard Bartolomeus Bartolomeus
+			Bavo Bertold Boudewijn Baldwin Claes Nicholas Claeuwaert Daevit David Damaes Diederick 
+			Thierry Dirk Thierry Douwe Eduard Edward Egmund Ekbert
+			Emmo Engelbrecht Filips Philip Floris Folbert Frans Francis Frederik Frederick Gerard Gerolt 
+			Gerulf
+			Gerrit Gijsbrecht Giselbert Gilbert Godfried Godfrey Godschalk Gozewijn Guij Guy Gwijde 
+			Gwijde Hendrik Henry Herman Herman Hubert
+			Hugo Hugh Ijsbrand Ijsbrecht Jacco Jacob Jan John Karel Charles Koenraad Konrad
+			Kristof Christopher Lambert Lambert Lodewijk Louis Ludewijn Lutbert Luthard Maertijn Martin
+			Marquart Niclaes Nicholas
+			Olivier Oliver Otto Otto Otwin Onno Pieter Peter Reinaerd Reinoud Reinhold Reginar Robrecht
+			Robert Robert Robert Rodulf 
+			Roelof Roland Rutger Sebastiaen Sebastian Sicco Simon Steven Stephen Steyn Sten Theodolf
+			Waelram Walter Walter
+			Wicher Willem William Wolfard Hendrik Maurits
+			Adriaan Andries Antonius Gaspar Isaac Johan Laurens Paul Abraham Barthout Christiaan
+			Christoffel Constantijn Cornelis Daniel Eise Gabriel Gerben Hans Jeroen Joost Nicolaas 
+			Roeland Rogier Thomas Vincent Zacharias
+		}
+		female_names = {
+			Ada Adela Adelheid Adelaide Aechte Agaete Aleid Alijse Alice Aliken Anna Annelies
+			Badeloge Bava Beatrijs Beatrice Benedicta
+			Blanca Blanche Blanceflore Cecily Cecilia Cille Clara Clementia 
+			Ellijnore Eleanor Emma Ermingarde Ermengarde Fenne
+			Filippa Philippa Frida Gheertrude Gertrude Gerda Godila Haduwijn Helena Helen Herlinda 
+			Hilligonda Ide Ida Imagina Irene Isabelle Iudith
+			Jacoba Jaccobijn Jasminne Johanna Joan Jolanda Juliana Jutte Kathrijne 
+			Katrien Catherine Liedwin Lisebet Elisabeth Machtelt Margareta Margaret
+			Maria Mathilde Matilda Oda Odelt Olinde Onna Pieternelle Petronilla Reynilde Sanne 
+			Sigerda Sophie Sophia Swanhildis Thetburga Tiburge Waltrud
+			Wila Wendelmoet Wenna Willemine Yonefij Yvonne Zoete Margaretha Rosanne Tamara
+		}
+		dynasty_names = {
+			"van Oranje" Nassau "van Wassenberg" "van Henegouwen" "de Friesland"
+			"van Haspinga" "van Limburg" "van Lotharingen"  "von der Mark"
+			"van Leuven" "van Brabant" "van Egmont" "de Reginar" "van J�lich-Hengebach"
+			# CKII
+			"van Loon" "von Geldern" "van Sulzbach" "von Salm"
+			"van Bergh" "van Heinsberg" "van de Veluwe" "De Graeff"
+			"van Brederode" "van Breda" "van Heemskerk" "van Glymes" "van Grimberghe"
+			"van Renesse" "van Wassenaer" "van Bronckhorst"
+			"van Keppel" "Van Voorst tot Voorst" "van Wisch" "van Kamerijk" "Cirksena"
+			"van Diest" "van Montfoort"
+			# Frisian
+			"van Serooskerken"
+		}
+	}
 	flemish = {
 		primary = FLA
 			dynasty_names = {
@@ -12152,42 +12203,42 @@ northern_iranian = {
 	scythian = {
 		primary = SZK
 		dynasty_names = {
-			Bńthory Hunyadi Szapolyai Rńkńczy Bocskai Bethlen Almńsy Andrńssy Batthyńny Csńky Dessewffy
-			Erdody Eszterhńzy Festetics Hajdń Kńrolyi Kun Magyary Perńnyi Rńnai Szńchenyi Szepessy 
-			Thńkńly Tisza Zrńnyi Teleki
-			Majlńth Dńczy Dobń Kohńry Orczy Frankopan Garay Mikes Szńcsi Imreffy Nńdasdy Rhńdey
+			Bæthory Hunyadi Szapolyai Rækæczy Bocskai Bethlen Almæsy Andræssy Batthyæny Csæky Dessewffy
+			Erdody Eszterhæzy Festetics Hajdæ Kærolyi Kun Magyary Perænyi Rænai Szæchenyi Szepessy 
+			Thækæly Tisza Zrænyi Teleki
+			Majlæth Dæczy Dobæ Kohæry Orczy Frankopan Garay Mikes Szæcsi Imreffy Nædasdy Rhædey
 			
 			#CK2
-			Zrinski Hadik Both "Rńkńczi" Forgńch Cseszneky Derencsńnyi Dńcsey Rńvay Esterhńzy
-			Kńllay Kemńny Thurzń Zichy
+			Zrinski Hadik Both "Rækæczi" Forgæch Cseszneky Derencsænyi Dæcsey Rævay Esterhæzy
+			Kællay Kemæny Thurzæ Zichy
 		}
 		male_names = {
-			Ulńszlń Lńszlń Lajos Albert Jńnos Mńtyńs Zsigmond Andrńs Kńroly Istvńn Bńla Anasztńz Barnabńs 
-			Boldizsńr Dńvid Dńmńtńr Edvńrd Ernń Ferenc Gńbor Gyńrgy Izsńk Jenń Jńzsef Kńlmńn Kńzmńr Lńrinc 
-			Miklńs Oszkńr Ottń Patrik Pńter Simon Tamńs Vencel
-			ńbel ńdńrn ńgoston ńlmos ńrpńd ńdńn Otto Alajos Ambrus Andrńs Andrew Antal Attila Bńlint 
-			Albert Balńzs Benedek Benedict Bernńt Bernard Bertńk Bertalan Boldizsńr Bonuslo
-			Borisz Boris Csńk Csaba Csongor Dńnes Dńmńtńr Dezsń Domoszlń Donńt Elek Elemńr Endre Ernń 
-			Philip Ferenc Francis Frigyes Gńbor Gńbriel Gabriel Gńspńr Caspar Gńza Gazsi
-			Gellńrt Gergely Gyńrgy George Gyula Imre Istvńn Stephen Izsńk Jńkob Jacob Jńnos John Jńzsef 
-			Joseph Jenń Kńlmńn Kńroly Charles Konrńd Konrad Kornńl Kristńf Lńszlń Lńzńr Lńrinc Lajos 
-			Lampert Levente Lukńcs Mńrk Marcus Mńrton Martin Mńtń Mńtyńs Matthew Mńric Mńzes Mihńly 
-			Michael Louis Fulńp Bńla
-			Miklńs Nńndor Orbńn Oszkńr Pńl Paul Pńter Peter Sńmuel Samuel Sńndor Alexander Salamon 
-			Szilveszter Silvester Tńdor Tacsony Tamńs Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
-			Zoltńn Zsigmond Sigmund Zsolt Saul Soma
+			Ulæszlæ Læszlæ Lajos Albert Jænos Mætyæs Zsigmond Andræs Kæroly Istvæn Bæla Anasztæz Barnabæs 
+			Boldizsær Dævid Dæmætær Edværd Ernæ Ferenc Gæbor Gyærgy Izsæk Jenæ Jæzsef Kælmæn Kæzmær Lærinc 
+			Miklæs Oszkær Ottæ Patrik Pæter Simon Tamæs Vencel
+			æbel ædærn ægoston ælmos ærpæd ædæn Otto Alajos Ambrus Andræs Andrew Antal Attila Bælint 
+			Albert Balæzs Benedek Benedict Bernæt Bernard Bertæk Bertalan Boldizsær Bonuslo
+			Borisz Boris Csæk Csaba Csongor Dænes Dæmætær Dezsæ Domoszlæ Donæt Elek Elemær Endre Ernæ 
+			Philip Ferenc Francis Frigyes Gæbor Gæbriel Gabriel Gæspær Caspar Gæza Gazsi
+			Gellært Gergely Gyærgy George Gyula Imre Istvæn Stephen Izsæk Jækob Jacob Jænos John Jæzsef 
+			Joseph Jenæ Kælmæn Kæroly Charles Konræd Konrad Kornæl Kristæf Læszlæ Læzær Lærinc Lajos 
+			Lampert Levente Lukæcs Mærk Marcus Mærton Martin Mætæ Mætyæs Matthew Mæric Mæzes Mihæly 
+			Michael Louis Fulæp Bæla
+			Miklæs Nændor Orbæn Oszkær Pæl Paul Pæter Peter Sæmuel Samuel Sændor Alexander Salamon 
+			Szilveszter Silvester Tædor Tacsony Tamæs Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
+			Zoltæn Zsigmond Sigmund Zsolt Saul Soma
 		}
 		female_names = {
-			ńgnes Agnes ńva Eva Adelaida Adelaide Agńta Agatha Amńlia Amelia Angyalka Anikń Aranka 
-			Bertha Borbńla Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emńke Emese Erika Erzsńbet 
+			Ægnes Agnes Æva Eva Adelaida Adelaide Agæta Agatha Amælia Amelia Angyalka Anikæ Aranka 
+			Bertha Borbæla Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emæke Emese Erika Erzsæbet 
 			Elisabeth Eszter Berta Anna
-			Etel Euphemia Euphemia Gizella Gisela Gyńrgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikń 
-			Irńn Irene Jńcinta Jńzsa Jńlia Juliana Jolńn Judith Judith Kamilla Camilla Katalin 
-			Kinga Klńra Clara Catherine Illona
-			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mńria Maria Mńrta Martha 
-			Magdolna Magdalena Margarńta Margaret Margit Matild Matilda Natńlia Natalia Odola Orsolya 
-			Panni Piroska Rńzsa Rosa Sńra Sarah Sarolt Zsuzsa Zsanett
-			Skolasztika Sophia Sophia Tundńr Terezia Teresa Viola Viola Virńg Zoltńna Zsńfia Sophia
+			Etel Euphemia Euphemia Gizella Gisela Gyærgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikæ 
+			Iræn Irene Jæcinta Jæzsa Jælia Juliana Jolæn Judith Judith Kamilla Camilla Katalin 
+			Kinga Klæra Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mæria Maria Mærta Martha 
+			Magdolna Magdalena Margaræta Margaret Margit Matild Matilda Natælia Natalia Odola Orsolya 
+			Panni Piroska Ræzsa Rosa Særa Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Tundær Terezia Teresa Viola Viola Viræg Zoltæna Zsæfia Sophia
 		}
 	}
 
@@ -12735,7 +12786,7 @@ lost_cultures_group = {
 	}
 }
 
-armaic = {
+aramaic_group = {
 	aramean = { #EU Rome
 		primary = PLM
 		dynasty_names = {

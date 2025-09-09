@@ -1,7 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = scottish
-add_accepted_culture = gaidheil
+primary_culture = gaidheil
 religion = catholic
 technology_group = western
 capital = 248 # Edinburgh
