@@ -187,7 +187,7 @@ aboriginal_australian = {
 		}
 	}
 	gamilaraay = { #interior
-		primary = GMI
+		primary = GAR
 		male_names = {
 			#pre-mandala names
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 

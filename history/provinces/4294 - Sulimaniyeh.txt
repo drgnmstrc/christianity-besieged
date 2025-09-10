@@ -1,8 +1,8 @@
 #4394 - Sulimaniyeh
 
-owner = GMI
-controller = GMI
-add_core = GMI
+owner = GAR
+controller = GAR
+add_core = GAR
 culture = kurdish
 religion = syriac
 capital = "Sulimaniyeh"

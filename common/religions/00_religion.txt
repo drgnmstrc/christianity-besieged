@@ -862,6 +862,141 @@ christian = {
 		date = 867.1.1
 	}
 
+	insular_syriac = {
+		color = { 219 173 29 }
+		icon = 54
+		country = {
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
+			global_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
+		}
+
+		province = {
+			local_missionary_strength = -0.02
+		}
+		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		
+		has_patriarchs = yes		# Uses patriarch authority
+		misguided_heretic = yes		# Other christians hate them less
+		
+		orthodox_icons = {
+			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
+
+			icon_michael = {
+				discipline = 0.05
+				manpower_recovery_speed = 0.1
+				
+				visible = {
+					always = yes
+				}
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+
+			icon_peter = {
+				development_cost = -0.10
+				build_cost = -0.1
+				visible = {
+					always = yes
+				}
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = yes
+					}
+					modifier = {
+						factor = 2
+						personality = ai_diplomat
+					}
+				}
+			}
+
+			icon_pancreator = {
+				missionaries = 1
+				missionary_maintenance_cost = -0.2
+				
+				visible = {
+					always = yes
+				}
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0
+				}
+			}
+			icon_thomas = {
+				improve_relation_modifier = 0.25
+				global_missionary_strength = 0.01
+				visible = {
+					always = yes
+				}
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0.5
+				}
+			}
+			icon_ignatius = {
+				global_unrest = -3
+				harsh_treatment_cost = -0.25
+				
+				visible = {
+					always = yes
+				}
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = {
+							calc_true_if = {
+								all_owned_province = {
+									unrest = 1
+								}
+								amount = 2
+							}
+						}
+					}
+					modifier = {
+						factor = 3
+						calc_true_if = {
+							all_owned_province = {
+								unrest = 1
+							}
+							amount = 5
+						}
+					}
+				}
+			}
+		}
+
+		date = 867.1.1
+	}
+
 	liritism = {
 		color = { 245 255 54 }
 		icon = 6

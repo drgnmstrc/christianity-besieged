@@ -1,8 +1,8 @@
 #415 - Sharazor
 
-owner = GMI
-controller = GMI
-add_core = GMI
+owner = GAR
+controller = GAR
+add_core = GAR
 culture = assyrian
 religion = syriac
 capital = "Kirkuk"
