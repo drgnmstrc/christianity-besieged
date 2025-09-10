@@ -12932,3 +12932,81 @@ carpathian = {
 		}
 	}
 }
+germanic = {
+	culture_for_compatability_3 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
+gaelic = {
+	culture_for_compatability_3 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
+slavic = {
+	culture_for_compatability_4 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
+british = {
+	culture_for_compatability_5 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
+french = {
+	culture_for_compatability_6 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
+west_african = {
+	culture_for_compatability_7 = {
+		dynasty_names = {
+			CleansUpErrorlog
+		}
+		male_names = {
+			JustHelpsCrashes
+		}
+		female_names = {
+			JustUseCisarstvo
+		}
+	}
+}
