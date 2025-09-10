@@ -3146,6 +3146,31 @@ pagan = {
 	crusade_name = CRUSADE
 }
 
+pagan = {
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+
+	
+	basque_pagan = {
+		color = { 141 17 30 }
+		icon = 103
+		country = {
+			tolerance_heathen = 2
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			loot_amount = 0.25
+		}
+		heretic = { GOAT_SKULL }
+	}
+	
+	harmonized_modifier = harmonized_pagan
+	
+	crusade_name = HOLY_WAR
+}
+
 # Christianity Besieged Redux New
 iranian = {
 	flag_emblem_index_range = { 110 110 }

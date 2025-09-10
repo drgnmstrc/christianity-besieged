@@ -842,3 +842,74 @@ province_event = { #Rise of Dalmatli Culture
 		}
 	}
 }
+
+#Juthudi to Vasconian / Vasconians Descend from the Pyrenees
+province_event = {
+	id = cultureshift.7
+	title = cultureshift.7t
+	desc = cultureshift.7d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = juthudi
+		OR = {
+			AND = {
+				owner = { religion_group = christian }
+				religion_group = owner
+			}
+			owner = { basque_pagan = 0 }
+
+		}
+		OR = {
+			area = basque_country
+			area = aragon_area
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_neighbor_province = {
+					religion = ROOT
+				}
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				any_neighbor_province = {
+					owner = { religion = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					OR = {
+						culture_group = iberian
+						religion_group = christian
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = culture.7a
+		change_culture = vasconian
+		add_core = NAV
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = vasconian }
+			}
+		}
+	}
+}
+
