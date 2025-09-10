@@ -30,7 +30,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.1a
+		name = cultureshift.1a
 		change_culture = al_suryah_arabic
 		hidden_effect = {
 			if = {
@@ -75,7 +75,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.2a
+		name = cultureshift.2a
 		change_culture = italyan
 		hidden_effect = {
 			if = {
@@ -128,7 +128,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.3a
+		name = cultureshift.3a
 		change_culture = turkig
 		hidden_effect = {
 			if = {
@@ -166,7 +166,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.4a
+		name = cultureshift.4a
 		change_culture = balkanli
 		hidden_effect = {
 			if = {
@@ -204,7 +204,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.5a
+		name = cultureshift.5a
 		change_culture = juthudi
 		hidden_effect = {
 			if = {
@@ -238,7 +238,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.6a
+		name = cultureshift.6a
 		change_culture = gothic
 		hidden_effect = {
 			if = {
@@ -272,7 +272,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.7a
+		name = cultureshift.7a
 		change_culture = andeberean
 		add_core = ARA
 		hidden_effect = {
@@ -307,7 +307,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.8a
+		name = cultureshift.8a
 		change_culture = aybirean
 		hidden_effect = {
 			if = {
@@ -345,7 +345,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.9a
+		name = cultureshift.9a
 		change_culture = palestinian
 		hidden_effect = {
 			if = {
@@ -384,7 +384,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.10a
+		name = cultureshift.10a
 		change_culture = al_misr_arabic
 	}
 }
@@ -418,7 +418,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.11a
+		name = cultureshift.11a
 		change_culture = jeberti
 	}
 }
@@ -443,7 +443,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.12a
+		name = cultureshift.12a
 		change_culture = al_iraqiya_arabic
 		hidden_effect = {
 			if = {
@@ -493,7 +493,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.2a
+		name = cultureshift.2a
 		change_culture = almani
 		hidden_effect = {
 			if = {
@@ -526,7 +526,7 @@ province_event = {
 		years = 2
 	}
 	option = {
-		name = culture.14a
+		name = cultureshift.14a
 		change_culture = bulgarian
 	}
 }
@@ -556,7 +556,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.15a
+		name = cultureshift.15a
 		change_culture = trakyali
 		hidden_effect = {
 			if = {
@@ -627,7 +627,7 @@ province_event = {
 	}
 
 	option = {
-		name = culture.17a
+		name = cultureshift.17a
 		trigger = {
 			region = mashriq_region
 		}
@@ -643,7 +643,7 @@ province_event = {
 		}
 	}
 	option = {
-		name = culture.17a
+		name = cultureshift.17a
 		trigger = {
 			region = arabia_region
 		}
@@ -685,7 +685,7 @@ province_event = { #Turkhen/Turkig to Latinlerin
 	}
 
 	option = {
-		name = culture.3a
+		name = cultureshift.3a
 		change_culture = latinlerin
 		hidden_effect = {
 			if = {
@@ -723,7 +723,7 @@ province_event = { #Rise of the Kurds
 		}
 	}
 	option = {
-		name = culture.19a
+		name = cultureshift.19a
 		change_culture = kurdish
 		hidden_effect = {
 			if = {
@@ -768,7 +768,7 @@ province_event = { #Unity of the Iranians
 		}
 	}
 	option = {
-		name = culture.12a
+		name = cultureshift.12a
 		change_culture = uni_iranian
 		hidden_effect = {
 			if = {
@@ -845,9 +845,9 @@ province_event = { #Rise of Dalmatli Culture
 
 #Juthudi to Vasconian / Vasconians Descend from the Pyrenees
 province_event = {
-	id = cultureshift.7
-	title = cultureshift.7t
-	desc = cultureshift.7d
+	id = cultureshift.23
+	title = cultureshift.23t
+	desc = cultureshift.23d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -898,8 +898,9 @@ province_event = {
 	}
 
 	option = {
-		name = culture.7a
+		name = cultureshift.23a
 		change_culture = vasconian
+		change_religion = basque_pagan
 		add_core = NAV
 		hidden_effect = {
 			if = {

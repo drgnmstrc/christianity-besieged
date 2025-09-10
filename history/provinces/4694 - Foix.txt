@@ -1,7 +1,7 @@
 owner = GRR
 controller = GRR
 add_core = GRR
-culture = gurrean
+culture = vasconian
 religion = basque_pagan
 capital = "Foix"
 is_city = yes
