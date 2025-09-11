@@ -13,12 +13,76 @@ province_event = {
 		days = 1
 	}
 	option = {
-		remove_core = MVA
 		if = {
 			limit = {
 				culture = slovak
 			}
 			add_core = SLO
+		}
+		if = {
+			limit = {
+				culture = czech
+			}
+			add_core = BOH
+		}
+		if = {
+			limit = {
+				culture = slovene
+			}
+			add_core = KRN
+		}
+		if = {
+			limit = {
+				culture = serbian
+			}
+			add_core = HRA
+		}
+		if = {
+			limit = {
+				OR = {
+					area = bohemia_area
+					area = moravia_area
+				}
+				culture = moravian
+			}
+			change_culture = czech
+			add_core = BOH
+		}
+		if = {
+			limit = {
+				OR = {
+					area = slovakia_area
+					area = malopolska_area
+				}
+				culture = moravian
+			}
+			change_culture = slovak
+			add_core = SLO
+		}
+		if = {
+			limit = {
+				area = austria_proper_area
+				culture = moravian
+			}
+			change_culture = slovene
+			add_core = KRN
+		}
+		if = {
+			limit = {
+				OR = {
+					area = transdanubia_area
+					area = alfold_area
+				}
+				culture = moravian
+			}
+			change_culture = serbian
+			add_core = HRA
+		}
+		if = {
+			limit = {
+				NOT = { culture = moravian }
+			}
+			remove_core = MVA
 		}
 	}
 }
