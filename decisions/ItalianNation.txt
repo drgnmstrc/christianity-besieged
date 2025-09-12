@@ -227,9 +227,33 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { accepted_culture = roman }
+					culture_group = occidental
 				}
-				add_accepted_culture = roman
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = roman
+				}
+				change_primary_culture = roman
+			}
+			if = {
+				limit = {
+					culture_group = illyro_dalmatian
+				}
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = romani
+				}
+				change_primary_culture = romani
+			}
+			if = {
+				limit = {
+					culture_group = cisalpin_romisch
+				}
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = romansh
+				}
+				change_primary_culture = romansh
 			}
 			change_tag = RME
 			if = {
