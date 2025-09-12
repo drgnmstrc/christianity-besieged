@@ -150,7 +150,6 @@
  lusitanian: "Lûsitan"
  turdulian: "Túrdulês"
  vaccaeian: "Vaquelláno"
- vasconian: "Baskoi"
  vettonian: "Betoñés"
 
  # Idmoid
@@ -377,6 +376,11 @@
  # Ugric
  khanty: "Khanty"
  mansi: "Mansi"
+
+ # Vasconic
+ vasconic: "Ebroiak"
+ vasconian: "Baskoi"
+
 
  # Volgaic
  mari: "Mari"

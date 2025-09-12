@@ -2519,32 +2519,6 @@ iberian	= {
 			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
-	vasconian = {
-		primary = NAV
-		dynasty_names = {
-			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
-			# CKII
-			"de Haro"
-		}
-		male_names = {
-			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
-			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
-			Alfontso Alphonse Álvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
-			Bernardo Diego Diaco Donato Donatus Egidio Egidius Eneko Íñigo Erramun Raymond Fernando 
-			Fortún Galindo Galindo Gartzia García Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
-			Ordóño Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simón 
-			Zentulo Centule Ladrón Fernando Bernart
-		}
-		female_names = {
-			Juana Catalina Leonor Blanca
-			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
-			Blanche Elbira Elvira Eliza Emili Emily Estefanía Stephania Joana Joan Konstantzia Constance 
-			Maior Mayor María Maria Mentzia Mencía Munia Munia Nuña Oneka Oneka Oria Plazentzia 
-			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
-		}
-	}
 	lusitanian = {
 		primary = LUS
 		dynasty_names = {
@@ -2576,6 +2550,35 @@ iberian	= {
 	}
 }
 	
+vasconic = {
+	vasconian = {
+		primary = BSK
+		dynasty_names = {
+			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
+			# CKII
+			"de Haro"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
+			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
+			Alfontso Alphonse Álvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernardo Diego Diaco Donato Donatus Egidio Egidius Eneko Íñigo Erramun Raymond Fernando 
+			Fortún Galindo Galindo Gartzia García Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
+			Ordóño Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simón 
+			Zentulo Centule Ladrón Fernando Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefanía Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor María Maria Mentzia Mencía Munia Munia Nuña Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
+	}
+}
+
 belgican = {
 	graphical_culture = westerngfx
 	soisson = {

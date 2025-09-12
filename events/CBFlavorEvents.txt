@@ -1237,3 +1237,21 @@ country_event = {#Refugees from Leventina
 		}
 	}
 }
+country_event = { # Vasconians depart for the coast
+	id = CBFlavorEvents.18
+	title = CBFlavorEvents.18t
+	desc = CBFlavorEvents.18d
+	picture = STREET_SPEECH_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	option = {
+		name = CBFlavorEvents.18a
+		trigger = {
+			NOT = { ai = yes }
+		}
+	}
+}

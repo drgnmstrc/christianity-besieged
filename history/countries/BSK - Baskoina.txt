@@ -1,0 +1,7 @@
+religion = basque_pagan
+capital = 210
+technology_group = western
+primary_culture = vasconian
+government = republic
+add_government_reform = euskal_herria
+government_rank = 1

@@ -7213,7 +7213,7 @@ courts_of_navarra = {
 	potential = {
 		OR = { 
 			primary_culture = basque 
-			tag = NAV 
+			tag = BSK 
 		}
 	}
 	modifiers = {

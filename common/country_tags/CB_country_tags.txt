@@ -515,3 +515,6 @@ CMB = "countries/Cambrias.txt"
 GRC = "countries/Graecia.txt" #south italy formable
 
 #East Asian
+
+#Rebels
+BSK	= "countries/Baskoina.txt" # Vasconian Settler Rebels

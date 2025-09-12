@@ -863,6 +863,7 @@ province_event = {
 		OR = {
 			area = basque_country
 			area = aragon_area
+			area = pyrenees_area
 		}
 	}
 
@@ -897,11 +898,11 @@ province_event = {
 		}
 	}
 
-	option = {
+	option = { # So the Legends *were* true!
 		name = cultureshift.23a
 		change_culture = vasconian
 		change_religion = basque_pagan
-		add_core = NAV
+		add_core = BSK
 		hidden_effect = {
 			if = {
 				limit = {
@@ -909,6 +910,28 @@ province_event = {
 					owner = { ai = yes }
 				}
 				owner = { change_primary_culture = vasconian }
+			}
+		}
+	}
+
+	option = { # From the mountains you came, and hence you shall return!
+		name = cultureshift.23a
+		random_list = {
+			50 = {} # Nothing
+			25 = { # The Vascones Rise up in Rebellion
+				spawn_rebels = {
+					size = 3
+					type = vasconian_settlers
+					culture = vasconian
+					religion = basque_pagan
+				}
+			}
+			25 = { #They depart instead for the coast, never to be seen again...
+				owner = {
+					country_event = {
+						id = CBFlavorEvents.18
+					}
+				}
 			}
 		}
 	}

@@ -47,7 +47,7 @@ capital = 172
 
 1386.9.11 = {
 	queen = {
-		country_of_origin = NAV
+		country_of_origin = BSK
 		name = "Jeanne"
 		dynasty = "d'Évreux"
 		birth_date = 1370.1.1

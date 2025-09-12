@@ -1145,7 +1145,7 @@ country_event = {
 	picture = wihgfx_FEMALE_RULER_eventPicture
 
 	trigger = {
-		tag = NAV
+		tag = BSK
 		is_year = 1550
 		NOT = {
 			is_year = 1600
