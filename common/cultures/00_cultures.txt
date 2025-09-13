@@ -2241,6 +2241,7 @@ cisalpin_romisch = {
 
 iberian	= {
 	graphical_culture = westerngfx
+	province = { local_has_tercio = yes local_has_caravel = yes local_has_galleon = yes }
 	galician = {
 		primary = GAL
 		dynasty_names = {
