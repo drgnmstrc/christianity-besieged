@@ -572,11 +572,11 @@ reconvene_the_roman_senate_monarchy = { # III
 	icon = "parliament"
 	allow_normal_conversion = no
 	potential = {
-		# has_roman_religion = yes
+		has_roman_religion = yes
 		government = monarchy
 	}
 	trigger = {
-		# has_roman_religion = yes
+		has_roman_religion = yes
 	}
 	modifiers = {
 		diplomatic_upkeep = 1
@@ -747,7 +747,11 @@ venetian_tyranny_reform = { # I
 		naval_forcelimit_modifier = 0.125
 		naval_morale = 0.125
 	}
-
+	factions = {
+		ven_patricians
+		ven_plebians
+		ven_adlorians
+	}
 	custom_attributes = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
@@ -784,9 +788,9 @@ roman_tyranny_reform = { # I
 		}
 	}
 	factions = {
-		ven_patricians
-		ven_plebians
-		ven_adlorians
+		roman_popularis
+		roman_susceptors
+		roman_militantis
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -882,17 +886,14 @@ privilegiis_dynastia = { # III
 			tag = VEN
 			was_tag = VEN
 		}
-		# has_roman_religion = yes
+		has_roman_religion = yes
 	}
 	trigger = {
 		OR = {
 			tag = VEN
 			was_tag = VEN
 		}
-		OR = {
-			# has_roman_religion = yes
-			religion = noniustian
-		}
+		has_roman_religion = yes
 	}
 	modifiers = {
 		max_absolutism = 10
@@ -914,17 +915,14 @@ privilegiis_venetia = { # III
 			tag = VEN
 			was_tag = VEN
 		}
-		# has_roman_religion = yes
+		has_roman_religion = yes
 	}
 	trigger = {
 		OR = {
 			tag = VEN
 			was_tag = VEN
 		}
-		OR = {
-			# has_roman_religion = yes
-			religion = noniustian
-		}
+		has_roman_religion = yes
 	}
 	modifiers = {
 		governing_capacity = 200
