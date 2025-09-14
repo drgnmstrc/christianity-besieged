@@ -1531,7 +1531,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "government_reform_aghustean_sultanate"
+		name = "government_reform_aghustean_sultanate_reform"
 		texturefile = "gfx/interface/government_reform_icons/aghustead_sultanate.dds"
 	}
 

@@ -22,6 +22,10 @@ country_event = {#Foreign warrior-princess arrives from faraway land to Rygir sh
         add_stability = -2
         set_ruler_religion = shiite
         change_religion = shiite
+        set_religious_school = {
+            group = muslim
+            school = jafari_school
+        }
         change_government = monarchy
         add_government_reform = iqta
         change_technology_group = western

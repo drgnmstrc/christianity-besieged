@@ -29,7 +29,7 @@ historical_units = {
 	napoleonic_lancers
 }
 monarch_names = { 
-	"Adθle #0" = -1
+	"Ad�le #0" = -1
 	"Ailbhe #0" = -1
 	"Alfonso #1" = 10
 	"Alice #0" = -1
@@ -72,7 +72,7 @@ monarch_names = {
 leader_names = { 
 	"Bergera" "Elizalde" "Goyeneche" "Jimeno" "Jimenez de Rada" "Navarro" "Palafox" "Perez de Zabalza" "de Aguirre" "de Albret"
 	"de Antillon" "de Aranda" "de Armendariz" "de Azagra" "de Azpilcueta" "de Beaumont" "de Beortegui" "de Borbon" "de Carranza" "de Garay"
-	"de Gori" "de Heredia" "de Hijar" "de Jaso" "de Landuvar" "de Salazar" "de Uribe" "de Ursϊa" "de Yanguas" "de Zorate"
+	"de Gori" "de Heredia" "de Hijar" "de Jaso" "de Landuvar" "de Salazar" "de Uribe" "de Urs?a" "de Yanguas" "de Zorate"
 }
 ship_names = { 
 	"Atlontida" "Conde de Evreux" "Conde de Foix" "Conde de Guenduloin" "Conde de Lerun" "Don Jimeno" "Duque de Armagnac" "Duque de Champara" "El Agramontes" "El Beaomontes"

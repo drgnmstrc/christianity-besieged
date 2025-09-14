@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = aghustean_sultanate
+add_government_reform = aghustean_sultanate_reform
 technology_group = ottoman
 primary_culture = aybirean
 add_accepted_culture = juthudi

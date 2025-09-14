@@ -137,7 +137,7 @@ monarchy = {
 				archduchy_of_lauen_perle
 				greek_tyranny_reform
 				luwian_tyranny
-				aghustean_sultanate
+				aghustean_sultanate_reform
 				almoravid_emirate_reform
 				phrygian_tyranny_reform
 				mekalawia_dynasty_reform

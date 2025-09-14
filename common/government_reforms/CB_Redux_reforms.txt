@@ -138,7 +138,7 @@ luwian_tyranny = { # I
 	}
 }
 
-aghustean_sultanate = { # I
+aghustean_sultanate_reform = { # I
 	icon = "muslim"
 	allow_normal_conversion = no
 	potential = {
@@ -823,6 +823,32 @@ council_iskandaria_reform = { # I
 		government_abilities = {
 			iqta_mechanic
 		}
+	}
+}
+
+euskal_herria = { # I
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 2
+	legacy_equivalent = oligarchic_republic
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	republican_name = no
+	royal_marriage = yes
+	modifiers = {
+		merchants = 1
+		global_tax_modifier = 0.05
+		global_trade_power = 0.05
+		max_absolutism = -40
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	potential = { tag = BSK }
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
 	}
 }
 

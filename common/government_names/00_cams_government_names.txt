@@ -293,7 +293,7 @@ aghustid_sultanate = {
 	}
 
 	trigger = {
-		has_reform = aghustean_sultanate
+		has_reform = aghustean_sultanate_reform
 	}
 }
 

@@ -927,9 +927,12 @@ province_event = {
 				}
 			}
 			25 = { #They depart instead for the coast, never to be seen again...
-				owner = {
-					country_event = {
-						id = CBFlavorEvents.18
+				hidden_effect = {
+					owner = {
+						country_event = {
+							id = CBFlavorEvents.18
+							days = 30
+						}
 					}
 				}
 			}
