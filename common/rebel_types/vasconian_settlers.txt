@@ -254,7 +254,7 @@ vasconian_settlers = {
 			change_tag = BSK
 			on_change_tag_effect = yes
 			change_government_to_republic = yes
-			add_government_reform = euskal_herria
+			add_government_reform = euskal_herria_reform
 		}
 		else = { add_stability = -1 } #Should probably never get here
 		if = {

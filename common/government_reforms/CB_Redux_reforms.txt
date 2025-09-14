@@ -830,7 +830,7 @@ council_iskandaria_reform = { # I
 	}
 }
 
-euskal_herria = { # I
+euskal_herria_reform = { # I
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	duration = 2

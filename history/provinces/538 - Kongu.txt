@@ -1,8 +1,8 @@
 #538 - Karur
 
-owner = MIS
-controller = MIS
-add_core = MIS
+owner = MSN
+controller = MSN
+add_core = MSN
 add_core = MYS
 culture = malayalam
 religion = syriac

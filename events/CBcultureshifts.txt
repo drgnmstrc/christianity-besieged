@@ -868,7 +868,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		years = 50
+		years = 25
 		modifier = {
 			factor = 0.5
 			NOT = {
@@ -915,7 +915,7 @@ province_event = {
 	}
 
 	option = { # From the mountains you came, and hence you shall return!
-		name = cultureshift.23a
+		name = cultureshift.23b
 		random_list = {
 			50 = {} # Nothing
 			25 = { # The Vascones Rise up in Rebellion

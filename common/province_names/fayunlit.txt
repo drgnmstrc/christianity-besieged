@@ -1,0 +1,46 @@
+# RULES
+# -ia -> -ë
+# u -> o
+# -m -> _
+# c -> k
+# si -> sh
+# w -> v
+# Format: ID = { "Province" "Capital" } # Origin
+
+# Macedonia
+3001 = { "Skopë" "Skopë" } # Scupi
+4780 = { "Orrída" "Orrída" } # Achrida
+1853 = { "Kastórre" "Shnídivët" } # Kastoria, Sindiwiat
+4702 = { "Serro" "Kivtat Serrano" } # Serrum, Civitatem Serranum
+148 = { "Tessalonika" "Ëmkalis" } # Thessalonica, Aiyum Qalis
+
+# South Turgazar/Albania
+4175 = { "Lesho" "Lesho" } # Lissum
+4750 = { "Karráro" "Karráro" } # Croarum
+4174 = { "Dorreksho" "Dorreksho" } # Dyrrachium
+143 = { "Valórri" "Valórri" } # Aulon
+
+# North Turgazar/Serbia
+1766 = { "Dardenë" "Dardenë" } # Dardania
+1827 = { "Rësh" "Varrin" } # Rascia, Vranje
+138 = { "Orbs" "Munikipo" } # Urbs, Municipum
+4754 = { "Krívo" "Ilirropolë" } # Ascrivium, Illiropoli
+
+# Dalmatia
+137 = { "Rosha" "Rosha" } # Ragusium
+136 = { "Ëspláto" "Ëspláto" } # Aspalathum
+4753 = { "Shadër" "Shadër" } # Iader
+4942 = { "Shëno" "Shëno" } # Sinusea
+
+# Dalmatici/Bosnia
+1831 = { "Refogo" "Refogo" } # Refugium
+4755 = { "Doklëto" "Doklëto" } # Docletae
+140 = { "Kovë Solvorë" "Kovë Solvorë" } # Aquae Suphurae
+3002 = { "Desitë" "Desitë" } # Daesitiates
+139 = { "Kelma" "Kelma" } # Terra Chelmi
+
+# Ustdalmat/Croatia
+1826 = { "Apodë" "Otosho" } # Iapodia, Ottocium
+4752 = { "Flomë" "Flomë" } # Flumen
+131 = { "Agrano" "Mon Grëk" } # Agranum, Mons Graecensis
+1828 = { "Shëno" "Shëno" } # Sinusea

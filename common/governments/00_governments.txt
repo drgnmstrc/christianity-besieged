@@ -698,6 +698,7 @@ republic = {
 				council_iskandaria_reform
 				locus_conventus_reform
 				east_roman_federation_reform
+				euskal_herria_reform
 			}
 		}
 		republican_virtues = {

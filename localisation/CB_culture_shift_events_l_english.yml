@@ -1,5 +1,5 @@
 ﻿l_english:
- cultureshift.1t:  "Syrian Culture Spreading"
+ cultureshift.1t: "Syrian Culture Spreading"
  cultureshift.1d: "With the Muslim conquest of Syria, the Aramaic population has adopted Islam, hegemonizing with Arabic traditions. Now, the Aramaic culture has become Syrian."
  cultureshift.1a: "An interesting development."
  cultureshift.2t: "Italyan Culture Develops"
@@ -59,3 +59,4 @@
  cultureshift.23t: "Old Vasconians Descend from the Pyrenees"
  cultureshift.23d: "The Vascones—old inhabitants of northeast Iberia—were last heard about around the rise of the Muslim Iberians, who tried to suppress them in the mid-8th century. After a series of lossy battles, they and their families retreated into the Pyrenees, largely never to be heard from again.....Until now.\nRecently in the province of [Root.GetName], a large group of commoners, emboldened by recent changes in administration, moved into the countryside, bearing the symbols of these fabled people and calling themselves 'Baskoi.'"
  cultureshift.23a: "So the legends *were* true!"
+ cultureshift.23b: "From the mountains you came, and hence you must return. We simply cannot have you here."
