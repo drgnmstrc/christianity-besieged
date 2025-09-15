@@ -2429,6 +2429,7 @@ plantations = {
 		vanilla
 		nutmeg
 		chocolate
+		silphium
 	}
 	onmap = yes
 	on_built = {

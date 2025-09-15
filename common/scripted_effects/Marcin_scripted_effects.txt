@@ -1246,6 +1246,10 @@ goods_save = {
 		limit = { trade_goods = String_Instruments}
 		set_variable = { which = goods_num value = 91 }
 	}
+	else_if = {
+		limit = { trade_goods = silphium}
+		set_variable = { which = goods_num value = 92 }
+	}
 }
 
 goods_back = {

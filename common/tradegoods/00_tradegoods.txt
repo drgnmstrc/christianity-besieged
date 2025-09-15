@@ -5618,15 +5618,16 @@ unknown = {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+silphium = { # From Imperator: Rome Invictus
+	is_valuable = yes
+	color = { 0.4 0.9 0.7 }
+	modifier = {
+		global_unrest = -3.00
+	}
+	province = {	
+		local_unrest = -2.00
+	}
+	chance = {
+		factor = 0
+	}
+}

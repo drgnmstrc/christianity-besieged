@@ -76,6 +76,7 @@ cinnamon = { base_price = 3.5 }
 saffron = { base_price = 4.25 }
 cloves = { base_price = 3.5 }
 nutmeg = { base_price = 4.5 }
+silphium = { base_price = 5.0 }
 
 #Special
 leather = { base_price = 3.50 }

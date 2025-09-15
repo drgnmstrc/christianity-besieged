@@ -1714,6 +1714,7 @@ manufactories = {
 					trade_goods = opium
 					trade_goods = dates
 					trade_goods = vanilla
+					trade_goods = silphium
 					trade_goods = nutmeg
 					trade_goods = chocolate
 				}
@@ -1915,6 +1916,7 @@ manufactories = {
 					trade_goods = opium
 					trade_goods = dates
 					trade_goods = vanilla
+					trade_goods = silphium
 					trade_goods = nutmeg
 					trade_goods = chocolate
 				}
@@ -2726,6 +2728,7 @@ industrialization = {
 					trade_goods = opium
 					trade_goods = dates
 					trade_goods = vanilla
+					trade_goods = silphium
 					trade_goods = nutmeg
 					trade_goods = chocolate
 				}
@@ -2920,6 +2923,7 @@ industrialization = {
 					trade_goods = opium
 					trade_goods = dates
 					trade_goods = vanilla
+					trade_goods = silphium
 					trade_goods = nutmeg
 					trade_goods = chocolate
 				}

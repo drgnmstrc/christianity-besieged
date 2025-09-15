@@ -1059,3 +1059,21 @@ defined_text = {
         }
     }
 }
+        
+
+defined_text = {
+    name = GetSilphiumTGE
+
+    text = {
+        localisation_key = string_GOODS_Marcin_Silphium
+        trigger = {
+            NOT = { has_global_flag = No_Silphium }
+        }
+    }
+    text = {
+        localisation_key = string_GOODS_Marcin_Silphium_NO
+        trigger = {
+            has_global_flag = No_Silphium
+        }
+    }
+}

@@ -121,6 +121,8 @@
  exotic_furDESC: "As early as the 11 th century, fur was worn as a symbol of wealth and social status rather than just out of the need for warmth. European royalty regularly wore fur coats, fur capes and fur accessories"
  String_Instruments: "String Instruments"
  String_InstrumentsDESC: "Bowed instruments include the string section instruments of the orchestra in Western classical music (violin, viola, cello and double bass) and a number of other instruments."
+ silphium: "Silphium"
+ silphiumDESC: "An aphrodesiac whose use dates back to classical Greece, silphium is considered by some to be the origin of the modern heart insignia. Experiencing a brief supply scare in the second century, the discovery of new growing methods and the perfection of a new transportation method enabled the plant to outlast its Roman patrons."
  
  
  string_GOODS_Marcin_Beer: "§GBeer§!"
@@ -245,6 +247,8 @@
  string_GOODS_Marcin_Exotic_fur_NO: "§RExotic Fur§!"
  string_GOODS_Marcin_String_instruments: "§GString Instruments§!"
  string_GOODS_Marcin_String_instruments_NO: "§RString Instruments§!"
+ string_GOODS_Marcin_silphium: "§GSilphium§!"
+ string_GOODS_Marcin_silphium_NO: "§RSilphium§!"
  
  mod_options_title: "Trade Goods Expanded Setup"
  mod_options_desc: "Trade Goods Configuration Setup"
