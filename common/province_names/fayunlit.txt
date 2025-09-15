@@ -43,4 +43,4 @@
 1826 = { "Apodë" "Otosho" } # Iapodia, Ottocium
 4752 = { "Flomë" "Flomë" } # Flumen
 131 = { "Agrano" "Mon Grëk" } # Agranum, Mons Graecensis
-1828 = { "Shëno" "Shëno" } # Sinusea
+1828 = { "Akë" "Akë" } # Sinusea
