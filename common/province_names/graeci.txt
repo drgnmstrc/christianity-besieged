@@ -1,0 +1,73 @@
+# RULES
+# -ia -> -ea
+# -io -> -eo
+# -ium -> -eon
+# long o/u -> ou
+# v -> u
+# c -> k
+# w/b -> v
+# i- -> hi-
+# ph -> f
+# l -> ll
+# Format: ID = { "Province" "Capital" } # Origin
+
+## ITALY 
+
+# Eastern Sicily
+126 = { "Melite" "Melite" } # Meliti
+2982 = { "Sirakousa" "Sirakousa" } # Consentia
+124 = { "Messane" "Messane" } # Messana, Rhigion/Reggium
+
+# Western Sicily
+4737 = { "Akriganton" "Akriganton" } # Lucania, Potentia
+4736 = { "Trepaneon" "Trepaneon" } # Drepanon
+125 = { "Panormous" "Panormous" } # Panormos
+
+# Calabria
+1934 = { "Loukanea" "Potentea" } # Lucania, Potentia
+2984 = { "Kousentea" "Kousentea" } # Consentia
+123 = { "Kalavrea" "Regeon" } # Calabria, Rhigion/Reggium
+
+# Apulia
+122 = { "Sallentou" "Tarentous" } # Sallentium, Tarantos
+1933 = { "Vareon" "Vareon" } # Barion
+2985 = { "Foukeas" "Foukeas" } # Phocaea/Focias
+4733 = { "Moulizeon" "Kampovason" } # Molisium, Rhigion/Reggium
+
+# Campania
+4734 = { "Auellinon" "Auellinon" } # Avellinum
+2983 = { "Sallerneon" "Sallerneon" } # Salernum
+121 = { "Neapoles" "Neapoles" } # Neapolis
+
+# Marche-Abruzzo
+119 = { "Aprouzeon" "Ameternon" } # Aprutium, Amiternum
+2977 = { "Hourbenon" "Hourbenon" } # Urbinum
+120 = { "Ankouna" "Ankouna" } # Ankon
+
+# Lazio-Umbria
+118 = { "Roumi" "Roumi" } # Rhomi
+2976 = { "Perouzea" "Perouzea" } # Perusia
+4732 = { "Terrakenon" "Terrakenon" } # Tarracina
+4731 = { "Spouleteon" "Spouleteon" } # Spoletium
+
+# Tuscany
+117 = { "Senna" "Senna" } # Saena
+116 = { "Flourenzea" "Flourenzea" } # Florentia
+115 = { "Piza" "Piza" } # Pisa
+2978 = { "Harezeon" "Harezeon" } # Arretium
+2980 = { "Louka" "Louka" } # Lucca
+
+# Tyrrhenian Isles
+127 = { "Touris" "Touris" } # Turris
+2986 = { "Karales" "Karales" } # Caralis
+4735 = { "Thares" "Thares" } # Tharros
+1247 = { "Koursika" "Allea" } # Spoletium
+
+## BALKANS
+
+# Northern Greece/Upper Pelgazar
+142 = { "Kourkira" "Kourkira" } # Corcyra
+144 = { "Epirous" "Paramithea" } # Epirus, Paramythia
+147 = { "Thesallea" "Trikka" } # Thessalia, Trikke
+4699 = { "Amvrakea" "Amvrakea" } # Ambracia
+4698 = { "Kefallounea" "Hiouanes" } # Cephallenia, Ioannes
