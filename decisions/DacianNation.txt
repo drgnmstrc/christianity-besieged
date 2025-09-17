@@ -5,7 +5,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_andalusia_flag }
+			NOT = { has_country_flag = formed_dacia_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -26,10 +26,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = DAC }
-			is_nomad = no
-			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			is_tribal = no
 			owns_core_province = 157
 			owns_core_province = 1951
 		}
@@ -71,13 +68,13 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = ADU
+				add_permanent_claim = DAC
 			}
 			wallachia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = ADU
+				add_permanent_claim = DAC
 			}
 			alfold_area = {
 				limit = {
@@ -85,7 +82,7 @@ country_decisions = {
 						owned_by = ROOT
 					}
 				}
-				add_permanent_claim = ADU
+				add_permanent_claim = DAC
 			}
 			transdanubia_area = {
 				limit = {
@@ -93,7 +90,7 @@ country_decisions = {
 						owned_by = ROOT
 					}
 				}
-				add_permanent_claim = ADU
+				add_permanent_claim = DAC
 			}
 			add_permanent_claim = 162
 			set_country_flag = formed_dacia_flag

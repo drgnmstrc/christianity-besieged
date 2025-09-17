@@ -117,7 +117,7 @@ estate_church_pax_deiorum = {
 					}
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
 					religion = noniustian
 				}

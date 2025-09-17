@@ -44,20 +44,57 @@ owned_by_christian_ally_or_vassal = {
 	}
 }
 
-can_pax_deiorum_base = {
-	OR = {
-		AND = {
-			religion_group = hellenic
-			NOT = { has_roman_religion = yes }
+can_use_pax_deiorum = {
+	has_roman_religion = yes
+	if = {
+		limit = {
+			religion = cisarstvo
 		}
-		religion_group = germanic_pagan
-		religion = norse_pagan_reformed
-		religion = tengri_pagan_reformed
-		religion_group = slavic_pagan
-		religion_group = eastern
-		religion_group = dharmic
-		religion_group = american_pagan
-		religion_group = african_pagan
+		any_owned_province = {
+			NOT = { religion = root }
+			OR = {
+				has_roman_religion = yes
+				religion = slavic
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			religion = noniustian
+		}
+		any_owned_province = {
+			NOT = { religion = root }
+			OR = {
+				has_roman_religion = yes
+				religion_group = iranian
+			}
+		}
+	}
+	else = {
+		any_owned_province = {
+			NOT = { religion = root }
+			has_roman_religion = yes
+		}
+	}
+}
+
+pax_deiorum_province_check = {
+	owner = { has_roman_religion = yes }
+	if = {
+		limit = {
+			owner = { religion = cisarstvo }
+		}
+		religion = slavic
+	}
+	else_if = {
+		limit = {
+			owner = { religion = noniustian }
+		}
+		religion_group = iranian
+	}
+	else = {
+		has_roman_religion = yes
+		NOT = { religion = owner }
 	}
 }
 
@@ -93,6 +130,7 @@ has_roman_religion_province = {
 has_roman_culture = {
 	OR = {
 		culture_group = occidental
+		culture_group = oriental
 		culture_group = illyro_dalmatian
 		culture_group = south_slavic
 		culture_group = cisalpin_romisch

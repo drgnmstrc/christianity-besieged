@@ -941,89 +941,62 @@ province_event = {
 }
 
 
-#Juthudi to Vasconian / Vasconians Descend from the Pyrenees
+# Dacian to Vychromisci
 province_event = {
-	id = cultureshift.23
-	title = cultureshift.23t
-	desc = cultureshift.23d
+	id = cultureshift.24
+	title = cultureshift.24t
+	desc = cultureshift.24d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
-		culture = juthudi
-		OR = {
-			AND = {
-				owner = { religion_group = christian }
-				religion_group = owner
-			}
-			owner = { basque_pagan = 0 }
-
+		culture = dacian
+		owner = {
+			religion_group = slavic_pagan
+			culture_group = south_slavic
 		}
-		OR = {
-			area = basque_country
-			area = aragon_area
-			area = pyrenees_area
-		}
+		religion_group = owner
 	}
 
 	mean_time_to_happen = {
 		years = 25
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			NOT = {
 				any_neighbor_province = {
-					religion = ROOT
-				}
-			}
-		}
-		modifier = {
-			factor = 0.75
-			NOT = {
-				any_neighbor_province = {
-					owner = { religion = ROOT }
+					OR = {
+						culture_group = oriental
+						religion = zamolxism
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0.9
-			NOT = {
-				any_neighbor_province = {
-					OR = {
-						culture_group = iberian
-						religion_group = christian
-					}
+			any_neighbor_province = {
+				OR = {
+					culture = slavo_romanian
 				}
 			}
 		}
 	}
 
-	option = { # From the mountains you came, and hence you shall return!
-		name = cultureshift.23b
-		random_list = {
-			50 = {} # Nothing
-			25 = { # The Vascones Rise up in Rebellion
-				spawn_rebels = {
-					size = 3
-					type = vasconian_settlers
-					culture = vasconian
-					religion = basque_pagan
+	option = {
+		name = cultureshift.24a
+		change_culture = slavo_romanian
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
 				}
-			}
-			25 = { #They depart instead for the coast, never to be seen again...
-				hidden_effect = {
-					owner = {
-						country_event = {
-							id = CBFlavorEvents.18
-							days = 30
-						}
-					}
-				}
+				owner = { change_primary_culture = slavo_romanian }
 			}
 		}
 	}
 }
 
 
-#Turkhen to Balkanli
+#Panunauri to Avarisci
 province_event = {
 	id = cultureshift.25
 	title = cultureshift.25t
@@ -1060,3 +1033,176 @@ province_event = {
 	}
 }
 
+
+# South Slavic to Panisi
+province_event = {
+	id = cultureshift.26
+	title = cultureshift.26t
+	desc = cultureshift.26d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = caicavsci
+			culture = slovene
+			culture = pannici
+			culture = serbian
+		}
+		owner = {
+			culture_group = oriental
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = south_slavic
+							religion_group = slavic_pagan
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				OR = {
+					culture = pannonian_latin
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.26a
+		change_culture = pannonian_latin
+		add_core = PNN
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = pannonian_latin }
+			}
+		}
+	}
+}
+
+# South Slavic to Dacian
+province_event = {
+	id = cultureshift.27
+	title = cultureshift.27t
+	desc = cultureshift.27d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = slavo_romanian
+			culture = serbian
+		}
+		owner = {
+			culture_group = oriental
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = south_slavic
+							religion_group = slavic_pagan
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				culture = dacian
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.27a
+		change_culture = dacian
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = dacian }
+			}
+		}
+	}
+}
+
+# Avarisci to Panunauris
+province_event = {
+	id = cultureshift.28
+	title = cultureshift.28t
+	desc = cultureshift.28d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = avar
+		}
+		owner = {
+			culture_group = oriental
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = south_slavic
+							religion_group = slavic_pagan
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				culture = pannonian_avar
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.28a
+		change_culture = pannonian_avar
+		add_core = VRA
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = pannonian_avar }
+			}
+		}
+	}
+}

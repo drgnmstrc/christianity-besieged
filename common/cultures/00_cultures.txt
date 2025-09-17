@@ -1908,13 +1908,16 @@ occidental = { #Occidental
 
 oriental = { #Occidental
 	graphical_culture = westerngfx
-	dacian = { #EU Rome
+	dacian = {
 		primary = RMN
 	}
-	pannonian_latin = { #EU Rome
+	pannonian_avar = {
+		primary = VRA
+	}
+	pannonian_latin = {
 		primary = PNN
 	}
-	wallachian = { #EU Rome
+	wallachian = {
 		primary = WAL
 	}
 	dynasty_names = {
@@ -12276,9 +12279,6 @@ northern_iranian = {
 	graphical_culture = muslimgfx
 	jasz = {
 		primary = JSZ
-	}
-	pannonian_avar = {
-		primary = VRA
 	}
 	alan = {
 
