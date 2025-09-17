@@ -110,6 +110,7 @@ SNS = "countries/Sinusea.txt"
 #H43 = "countries/Arberteke.txt" #Arbërteke formable by Faynitia
 BRO = "countries/Bretona.txt"
 AEM = "countries/Aemilia.txt"
+PNN = "countries/Pannonia.txt"
 
 #Iberian/Celtic
 CNT = "countries/Cantabria.txt"
@@ -419,7 +420,7 @@ TLY = "countries/Italya.txt"
 U03 = "countries/Makedonya.txt" #SE EUROPE TODO - CHANGE TO ILLYRIAN FORMABLE (ILLYRI)
 U04 = "countries/Mora.txt"
 U05 = "countries/Attika.txt"
-PNN = "countries/Panonya.txt"
+PNY = "countries/Panonya.txt"
 U07 = "countries/Dalmacya.txt"
 LGU = "countries/Liguria.txt"
 MRT = "countries/Maritimae.txt"

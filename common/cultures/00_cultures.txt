@@ -1906,6 +1906,42 @@ occidental = { #Occidental
 	}
 }
 
+oriental = { #Occidental
+	graphical_culture = westerngfx
+	dacian = { #EU Rome
+		primary = RMN
+	}
+	pannonian_latin = { #EU Rome
+		primary = PNN
+	}
+	wallachian = { #EU Rome
+		primary = WAL
+	}
+	dynasty_names = {
+		Emila Adonia Atilia Atia Aufidia Aurelia Cecilia Calpurnia Cassia Cladia
+		Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+		Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+		Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+		Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+	}
+	male_names = {
+		Apus Alus Celus Decumus Decus Drus Fastus Gais Nes Lucus Mamercus Manus Marcus Mettus Numerus Publus Quidus Secundus Septimus Servus Sextus Spurus Tertus Titus Tiberus Titus
+		Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+		Cesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Costel Cotta Crispian Curio Dama Damasus Dedatus Dives Dolabella Donatus Draco
+		Emerutus Uginus Uphemus Falco Falx Felix Fimbria Flaccus Florus Frodo 
+		Gala Galerus Gemellus Gorgonus Gracchus Gracilis Habitus Herma Hilarus Horatus
+		Ignatus Iuba Labeo Lenas Lepidus Leptis Ledulus Libo Longinus Longus Lucan Lucullus Lupus
+		Macro Martialis Marullus Maximus Memmus Mercator Messalla Modanus Murena Mus Nasica Oceanus Octavianus Opis
+		Optatus Otho Penula Padera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Prumus Procun Pulcher 
+		Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scevola Scipio Scrofa Seneca Senna 
+		Severus Sorex Status Strabo Super Superbus Tacitus Tertulus Trebonus Tibullus Tullus Ursinus Ursus Vales Varro Varus 
+		Vergilus Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+	}
+	female_names = {
+		Prima Secunda Tertia Quarta Quida Septa Septima Octava Nona Decima Undecima Duodecima
+	}
+}
+
 illyro_dalmatian = {
 	graphical_culture = westerngfx
 	romani = { #EU Rome
@@ -1933,9 +1969,6 @@ illyro_dalmatian = {
 		female_names = {
 			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
 		}
-	}
-	dacian = {
-		primary = DAC
 	}
 	istroli = {
 		primary = HSR
@@ -3294,17 +3327,17 @@ south_slavic = {
 	czech = {
 		primary = BOH
 		dynasty_names = {
-			"Jankovský z Vlašimi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
-			"Kounic" "Vítkovec" "Žerotín" "?ernín" "von Harrach" Kinský Rosenberg
+			"Jankovský z Vlajimi" Chotek Lichnowsky Lobkowicz Nostitz Kutscha 
+			"Kounic" "Vítkovec" "Žerotín" "rernín" "von Harrach" Kinský Rosenberg
 			Waldstein Jeszenszky
 		}
 		male_names = {
-			Václav Ji?í Karel P?emysl P?emysl Zikmund František Jind?ich Josef František Josef Bo?ek Ji?í 
-			Vladislav Vladimír Petr Petr Viktorín Jan Václav Josef Václav Karel Josef Matyáš Ferdinand 
+			Václav Jirí Karel Premysl Premysl Zikmund Frantijek Jindrich Josef Frantijek Josef Borek Jirí 
+			Vladislav Vladimír Petr Petr Viktorín Jan Václav Josef Václav Karel Josef Matyáj Ferdinand 
 			Vratislav Boleslav Vilém Viktor Jaromír Jaroslav Ludvík Otakar
 		}
 		female_names = {
-			Anežka Eliška Kate?ina Marie Ludmila Alžb?ta Agnieszka Agnes Alžb?ta And?la Anna Anna Berta Bohuslava Božena 
+			Anejka Elijka Katerina Marie Ludmila Alibrta Agnieszka Agnes Alebrta Andrla Anna Anna Berta Bohuslava Borena 
 			Branislava Dagmar Danuta Dobrava
 		}
 	}
@@ -3312,34 +3345,34 @@ south_slavic = {
 		primary = VRA
 		male_names = {
 			Ulászló László Lajos Albert János Mátyás Zsigmond András Károly István Béla Anasztáz Barnabás 
-			Boldizsár Dávid Dömötör Edvárd Ern? Ferenc Gábor György Izsák Jen? József Kálmán Kázmér L?rinc 
+			Boldizsár Dávid Dömötör Edvárd Ernr Ferenc Gábor György Izsák Jenr József Kálmán Kázmér Lrrinc 
 			Miklós Oszkár Ottó Patrik Péter Simon Tamás Vencel
 			Ábel Ádám Ágoston Álmos Árpád Ödön Otto Alajos Ambrus András Andrew Antal Attila Bálint 
 			Albert Balázs Benedek Benedict Bernát Bernard Bertók Bertalan Boldizsár Bonuslo
-			Borisz Boris Csák Csaba Csongor Dénes Dömötör Dezs? Domoszló Donát Elek Elemér Endre Ern? 
+			Borisz Boris Csák Csaba Csongor Dénes Dömötör Dezsr Domoszló Donát Elek Elemér Endre Ernr 
 			Philip Ferenc Francis Frigyes Gábor Gábriel Gabriel Gáspár Caspar Géza Gazsi
 			Gellért Gergely György George Gyula Imre István Stephen Izsák Jákob Jacob János John József 
-			Joseph Jen? Kálmán Károly Charles Konrád Konrad Kornél Kristóf László Lázár L?rinc Lajos 
+			Joseph Jenr Kálmán Károly Charles Konrád Konrad Kornél Kristóf László Lázár Lrrinc Lajos 
 			Lampert Levente Lukács Márk Marcus Márton Martin Máté Mátyás Matthew Móric Mózes Mihály 
 			Michael Louis Fülöp Béla
 			Miklós Nándor Orbán Oszkár Pál Paul Péter Peter Sámuel Samuel Sándor Alexander Salamon 
 			Szilveszter Silvester Tódor Tacsony Tamás Thomas Tibor Tivadar Vazul Vencel Václav Vilmos 
 			Zoltán Zsigmond Sigmund Zsolt Saul Soma
 			Alexandru Radu Vlad Constantin Mihail Mircea George Grigore Mihnea Nicolae Basarab Vladislav Mattia 
-			Radu Ilias Scarlat ?tefan Dan Alexandru Ilias Gabriel Ioan George Leon Moise Neagoe Basarab 
-			Leon Radu Mihnea ?erban Simeon Teodosiu Vintil? Vl?du? Miloš Corneliu Flaviu Iuliu Octavian Sergiu 
-			Valeriu Petru Petra?cu Radu 
-			Adrian Alexandru Alexander Anghel Angel Aron Bajan Balc B?rbat Basarab Bogdan Bogdan Carol 
+			Radu Ilias Scarlat rtefan Dan Alexandru Ilias Gabriel Ioan George Leon Moise Neagoe Basarab 
+			Leon Radu Mihnea rerban Simeon Teodosiu Vintilr Vlrdur Miloj Corneliu Flaviu Iuliu Octavian Sergiu 
+			Valeriu Petru Petrarcu Radu 
+			Adrian Alexandru Alexander Anghel Angel Aron Bajan Balc Brrbat Basarab Bogdan Bogdan Carol 
 			Ciprian Ciubar Claudiu
-			Corneliu Cornelius Costin Damjan Dan Drago? Dumitru Emerik Florin Franjo Francis Gavril 
+			Corneliu Cornelius Costin Damjan Dan Dragor Dumitru Emerik Florin Franjo Francis Gavril 
 			Gheorghe George Grigore Gregory Iacob Gabriel
-			Iancu Ieremia Ilie Ioan John Iorghu Iosif Iuga János John Ladislau La?cu Lauren?iu Laurence 
+			Iancu Ieremia Ilie Ioan John Iorghu Iosif Iuga János John Ladislau Larcu Laurenriu Laurence 
 			Litovoi Lucian Lucius Marin Marius
-			Mihai Miloš Milosz Mircea Moise Nicolaie Petre Pîrvu Radovan Radu Roman Sas Seneslav 
+			Mihai Miloj Milosz Mircea Moise Nicolaie Petre Pîrvu Radovan Radu Roman Sas Seneslav 
 			Sergiu Simion Simon
-			?tefan Stephen Stelian Teodor Theodore ?epe? Tibor Tihomir Timotei Tudor Thierry Valentin 
-			Valentin Valeriu Vasile Basil Vea?eslav
-			Victor Vilhelm William Vintil? Vlad
+			rtefan Stephen Stelian Teodor Theodore reper Tibor Tihomir Timotei Tudor Thierry Valentin 
+			Valentin Valeriu Vasile Basil Veareslav
+			Victor Vilhelm William Vintilr Vlad
 		}
 		female_names = {
 			Ágnes Agnes Éva Eva Adelaida Adelaide Ágota Agatha Amália Amelia Angyalka Anikó Aranka 
@@ -3375,35 +3408,35 @@ south_slavic = {
 	slovak = {
 		primary = MVA
 		male_names = {
-			Matej Ján Lukáš Štefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
-			Hugolín Tomáš ?udovít Viliam Mikuláš Ignác Jaroslav Jaromír Miroslav Drahoslav Svätopluk Mojmír
+			Matej Ján Lukász Stefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
+			Hugolín Tomász ?udovít Viliam Mikulász Ignác Jaroslav Jaromír Miroslav Drahoslav Svätopluk Mojmír
 			Dobroslav Radoslav Radomír Kazimír Vlastimil Vítazoslav Blahoslav Svetozár Bonifác Vratislav
-			Vladislav Vladimír Cyril Konštantín Metod Bohuslav Drahomír Prokop Jerguš Tichomír Bartolomej
+			Vladislav Vladimír Cyril Konsztantín Metod Bohuslav Drahomír Prokop Jergusz Tichomír Bartolomej
 			?uboslav ?ubomír ?evoslav Stanislav
 		}
 		female_names = {
-			Mária Anna Alžbeta ?udmila Eva Jaroslava Jarmila Amália Margaréta Hana			 
+			Mária Anna Alrbeta ?udmila Eva Jaroslava Jarmila Amália Margaréta Hana			 
 		}
 		dynasty_names = {
-			Stibor Bel Kollár Podmanický Hatnanský Pongrác Bosniak Veselíni Zichy Turzo Andráši
-			Zápolský Pálfi Czáki Balaža Báthory
+			Stibor Bel Kollár Podmanický Hatnanský Pongrác Bosniak Veselíni Zichy Turzo Andrászi
+			Zápolský Pálfi Czáki Balara Báthory
 		}
 	}
 	moravian = {
 		primary = MVA
 		male_names = {
-			Matej Ján Lukáš Štefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
-			Hugolín Tomáš ?udovít Viliam Mikuláš Ignác Jaroslav Jaromír Miroslav Drahoslav Svätopluk Mojmír
+			Matej Ján Lukász Stefan Pavol Peter Juraj Jozef Marek Daniel Moric Samuel Martin Ondrej Anton Karol
+			Hugolín Tomász ?udovít Viliam Mikulász Ignác Jaroslav Jaromír Miroslav Drahoslav Svätopluk Mojmír
 			Dobroslav Radoslav Radomír Kazimír Vlastimil Vítazoslav Blahoslav Svetozár Bonifác Vratislav
-			Vladislav Vladimír Cyril Konštantín Metod Bohuslav Drahomír Prokop Jerguš Tichomír Bartolomej
+			Vladislav Vladimír Cyril Konsztantín Metod Bohuslav Drahomír Prokop Jergusz Tichomír Bartolomej
 			?uboslav ?ubomír ?evoslav Stanislav
 		}
 		female_names = {
-			Mária Anna Alžbeta ?udmila Eva Jaroslava Jarmila Amália Margaréta Hana			 
+			Mária Anna Alrbeta ?udmila Eva Jaroslava Jarmila Amália Margaréta Hana			 
 		}
 		dynasty_names = {
-			Stibor Bel Kollár Podmanický Hatnanský Pongrác Bosniak Veselíni Zichy Turzo Andráši
-			Zápolský Pálfi Czáki Balaža Báthory
+			Stibor Bel Kollár Podmanický Hatnanský Pongrác Bosniak Veselíni Zichy Turzo Andrászi
+			Zápolský Pálfi Czáki Balara Báthory
 		}
 	}
 	slovene = {
@@ -3442,7 +3475,7 @@ south_slavic = {
 			Zoltán Zsigmond Sigmund Zsolt Saul Soma
 			Alexandru Radu Vlad Constantin Mihail Mircea George Grigore Mihnea Nicolae Basarab Vladislav Mattia 
 			Radu Ilias Scarlat ?tefan Dan Alexandru Ilias Gabriel Ioan George Leon Moise Neagoe Basarab 
-			Leon Radu Mihnea ?erban Simeon Teodosiu Vintil? Vl?du? Miloš Corneliu Flaviu Iuliu Octavian Sergiu 
+			Leon Radu Mihnea ?erban Simeon Teodosiu Vintil? Vl?du? Milosz Corneliu Flaviu Iuliu Octavian Sergiu 
 			Valeriu Petru Petra?cu Radu 
 			Adrian Alexandru Alexander Anghel Angel Aron Bajan Balc B?rbat Basarab Bogdan Bogdan Carol 
 			Ciprian Ciubar Claudiu
@@ -3450,7 +3483,7 @@ south_slavic = {
 			Gheorghe George Grigore Gregory Iacob Gabriel
 			Iancu Ieremia Ilie Ioan John Iorghu Iosif Iuga János John Ladislau La?cu Lauren?iu Laurence 
 			Litovoi Lucian Lucius Marin Marius
-			Mihai Miloš Milosz Mircea Moise Nicolaie Petre Pîrvu Radovan Radu Roman Sas Seneslav 
+			Mihai Milosz Milosz Mircea Moise Nicolaie Petre Pîrvu Radovan Radu Roman Sas Seneslav 
 			Sergiu Simion Simon
 			?tefan Stephen Stelian Teodor Theodore ?epe? Tibor Tihomir Timotei Tudor Thierry Valentin 
 			Valentin Valeriu Vasile Basil Vea?eslav
@@ -3541,10 +3574,10 @@ south_slavic = {
 			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
 		}
 		dynasty_names = {
-			"Kulini?" "Trpimirovi?" "Mihaljevi?" "Šubi?" "Hrvatini?" 
-			"Kosa?a" "Vuk?i?" "Vukašin" "Dukašin" "Baboni?" "Frankopan" "Ka?i?" "Draškovi?" 
-			"Bebek" "Svetoslavi?" "Krešimirovi?" "Domagojevi?" "Fešteti?" "Gorjanski"
-			"Sva?i?" "Kobili?" "Lackovi?" "Šubi?"
+			"Kulini?" "Trpimirovi?" "Mihaljevi?" "Subi?" "Hrvatini?" 
+			"Kosa?a" "Vuk?i?" "Vukaszin" "Dukaszin" "Baboni?" "Frankopan" "Ka?i?" "Draszkovi?" 
+			"Bebek" "Svetoslavi?" "Kreszimirovi?" "Domagojevi?" "Feszteti?" "Gorjanski"
+			"Sva?i?" "Kobili?" "Lackovi?" "Subi?"
 			"Berislavi?" "Nepili?" "Jela?i?" "Zrinski" "Garaj" "Eltz" "Kaboga" 
 			"Crnkovi?" "Cerva" "Rubido"
 		}
@@ -3580,7 +3613,7 @@ south_slavic = {
 		}
 	}
 	pannici = {
-		primary = PNN
+		primary = PNY
 	}
 	albanian = {
 		primary = ALB
@@ -5444,7 +5477,7 @@ rumi = {
 		}
 	}
 	balkanli = {
-		primary = PNN
+		primary = PNY
 		dynasty_names = {
 			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
 			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
@@ -12244,48 +12277,51 @@ northern_iranian = {
 	jasz = {
 		primary = JSZ
 	}
+	pannonian_avar = {
+		primary = VRA
+	}
 	alan = {
 
 	}
 	scythian = {
 		primary = SZK
 		dynasty_names = {
-			Bæthory Hunyadi Szapolyai Rækæczy Bocskai Bethlen Almæsy Andræssy Batthyæny Csæky Dessewffy
-			Erdody Eszterhæzy Festetics Hajdæ Kærolyi Kun Magyary Perænyi Rænai Szæchenyi Szepessy 
-			Thækæly Tisza Zrænyi Teleki
-			Majlæth Dæczy Dobæ Kohæry Orczy Frankopan Garay Mikes Szæcsi Imreffy Nædasdy Rhædey
+			Báthory Hunyadi Szapolyai Rákáczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy
+			Erdody Eszterházy Festetics Hajdá Károlyi Kun Magyary Perányi Ránai Száchenyi Szepessy 
+			Thákály Tisza Zrányi Teleki
+			Majláth Dáczy Dobá Koháry Orczy Frankopan Garay Mikes Szácsi Imreffy Nádasdy Rhádey
 			
 			#CK2
-			Zrinski Hadik Both "Rækæczi" Forgæch Cseszneky Derencsænyi Dæcsey Rævay Esterhæzy
-			Kællay Kemæny Thurzæ Zichy
+			Zrinski Hadik Both "Rákáczi" Forgách Cseszneky Derencsányi Dácsey Rávay Esterházy
+			Kállay Kemány Thurzá Zichy
 		}
 		male_names = {
-			Ulæszlæ Læszlæ Lajos Albert Jænos Mætyæs Zsigmond Andræs Kæroly Istvæn Bæla Anasztæz Barnabæs 
-			Boldizsær Dævid Dæmætær Edværd Ernæ Ferenc Gæbor Gyærgy Izsæk Jenæ Jæzsef Kælmæn Kæzmær Lærinc 
-			Miklæs Oszkær Ottæ Patrik Pæter Simon Tamæs Vencel
-			æbel ædærn ægoston ælmos ærpæd ædæn Otto Alajos Ambrus Andræs Andrew Antal Attila Bælint 
-			Albert Balæzs Benedek Benedict Bernæt Bernard Bertæk Bertalan Boldizsær Bonuslo
-			Borisz Boris Csæk Csaba Csongor Dænes Dæmætær Dezsæ Domoszlæ Donæt Elek Elemær Endre Ernæ 
-			Philip Ferenc Francis Frigyes Gæbor Gæbriel Gabriel Gæspær Caspar Gæza Gazsi
-			Gellært Gergely Gyærgy George Gyula Imre Istvæn Stephen Izsæk Jækob Jacob Jænos John Jæzsef 
-			Joseph Jenæ Kælmæn Kæroly Charles Konræd Konrad Kornæl Kristæf Læszlæ Læzær Lærinc Lajos 
-			Lampert Levente Lukæcs Mærk Marcus Mærton Martin Mætæ Mætyæs Matthew Mæric Mæzes Mihæly 
-			Michael Louis Fulæp Bæla
-			Miklæs Nændor Orbæn Oszkær Pæl Paul Pæter Peter Sæmuel Samuel Sændor Alexander Salamon 
-			Szilveszter Silvester Tædor Tacsony Tamæs Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
-			Zoltæn Zsigmond Sigmund Zsolt Saul Soma
+			Ulászlá Lászlá Lajos Albert János Mátyás Zsigmond András Károly István Bála Anasztáz Barnabás 
+			Boldizsár Dávid Dámátár Edvárd Erná Ferenc Gábor Gyárgy Izsák Jená Jázsef Kálmán Kázmár Lárinc 
+			Miklás Oszkár Ottá Patrik Páter Simon Tamás Vencel
+			ábel ádárn ágoston álmos árpád ádán Otto Alajos Ambrus András Andrew Antal Attila Bálint 
+			Albert Balázs Benedek Benedict Bernát Bernard Berták Bertalan Boldizsár Bonuslo
+			Borisz Boris Csák Csaba Csongor Dánes Dámátár Dezsá Domoszlá Donát Elek Elemár Endre Erná 
+			Philip Ferenc Francis Frigyes Gábor Gábriel Gabriel Gáspár Caspar Gáza Gazsi
+			Gellárt Gergely Gyárgy George Gyula Imre István Stephen Izsák Jákob Jacob János John Jázsef 
+			Joseph Jená Kálmán Károly Charles Konrád Konrad Kornál Kristáf Lászlá Lázár Lárinc Lajos 
+			Lampert Levente Lukács Márk Marcus Márton Martin Mátá Mátyás Matthew Máric Mázes Mihály 
+			Michael Louis Fuláp Bála
+			Miklás Nándor Orbán Oszkár Pál Paul Páter Peter Sámuel Samuel Sándor Alexander Salamon 
+			Szilveszter Silvester Tádor Tacsony Tamás Thomas Tibor Tivadar Vazul Vencel Vaclav Vilmos 
+			Zoltán Zsigmond Sigmund Zsolt Saul Soma
 		}
 		female_names = {
-			Ægnes Agnes Æva Eva Adelaida Adelaide Agæta Agatha Amælia Amelia Angyalka Anikæ Aranka 
-			Bertha Borbæla Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emæke Emese Erika Erzsæbet 
+			Ægnes Agnes Æva Eva Adelaida Adelaide Agáta Agatha Amália Amelia Angyalka Aniká Aranka 
+			Bertha Borbála Csilla Csillag Czenzi Dorottya Dorothy Edit Edith Emáke Emese Erika Erzsábet 
 			Elisabeth Eszter Berta Anna
-			Etel Euphemia Euphemia Gizella Gisela Gyærgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildikæ 
-			Iræn Irene Jæcinta Jæzsa Jælia Juliana Jolæn Judith Judith Kamilla Camilla Katalin 
-			Kinga Klæra Clara Catherine Illona
-			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mæria Maria Mærta Martha 
-			Magdolna Magdalena Margaræta Margaret Margit Matild Matilda Natælia Natalia Odola Orsolya 
-			Panni Piroska Ræzsa Rosa Særa Sarah Sarolt Zsuzsa Zsanett
-			Skolasztika Sophia Sophia Tundær Terezia Teresa Viola Viola Viræg Zoltæna Zsæfia Sophia
+			Etel Euphemia Euphemia Gizella Gisela Gyárgyi Georgia Hajnal Hedwig Hedwig Ibolya Ildiká 
+			Irán Irene Jácinta Jázsa Jália Juliana Jolán Judith Judith Kamilla Camilla Katalin 
+			Kinga Klára Clara Catherine Illona
+			Konstancia Constance Krisztina Christina Kunigunda Kunigunde Luca Mária Maria Márta Martha 
+			Magdolna Magdalena Margaráta Margaret Margit Matild Matilda Natália Natalia Odola Orsolya 
+			Panni Piroska Rázsa Rosa Sára Sarah Sarolt Zsuzsa Zsanett
+			Skolasztika Sophia Sophia Tundár Terezia Teresa Viola Viola Virág Zoltána Zsáfia Sophia
 		}
 	}
 

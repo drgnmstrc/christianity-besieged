@@ -1,8 +1,8 @@
 #128 - Kärnten
 
-owner = PNN
-controller = PNN
-add_core = PNN
+owner = PNY
+controller = PNY
+add_core = PNY
 culture = langobard
 religion = german_pagan
 add_core = LOM

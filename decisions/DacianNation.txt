@@ -1,0 +1,109 @@
+country_decisions = {
+
+	dacian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_andalusia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			primary_culture = dacian
+		}
+		provinces_to_highlight = {
+			NOT = { owned_by = ROOT }
+			is_core = ROOT
+		}
+		allow = {
+			NOT = { exists = DAC }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 157
+			owns_core_province = 1951
+		}
+		effect = {
+			change_tag = DAC
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			if = {
+				limit = {
+					NOT = { accepted_culture = pannonian_latin }
+				}
+				add_accepted_culture = pannonian_latin
+			}
+			if = {
+				limit = {
+					NOT = { accepted_culture = wallachian }
+				}
+				add_accepted_culture = wallachian
+			}
+			if = {
+				limit = {
+					government = monarchy
+				}
+				change_government_to_republic = yes
+				add_government_reform = east_roman_federation_reform
+			}
+			southern_transylvania_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ADU
+			}
+			wallachia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ADU
+			}
+			alfold_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ADU
+			}
+			transdanubia_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = ADU
+			}
+			add_permanent_claim = 162
+			set_country_flag = formed_dacia_flag
+			# if = {
+			# 	limit = { has_custom_ideas = no }
+			# 	country_event = { id = ideagroups.1 } #Swap Ideas
+			# }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

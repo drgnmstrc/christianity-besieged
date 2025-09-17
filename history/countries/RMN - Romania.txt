@@ -1,16 +1,16 @@
 government = republic
 add_government_reform = east_roman_federation_reform
 government_rank = 1
-primary_culture = slavo_romanian
-religion = cisarstvo
+primary_culture = dacian
+religion = zamolxism
 technology_group = ottoman
 capital = 4128
 
 
 1444.1.1 = {
 	monarch = {
-		name = "Vucina"
-		dynasty = "Hrmacojevi"
+		name = "Bureviš"
+		dynasty = "Costeleš"
 		adm = 2
 		dip = 5
 		mil = 5

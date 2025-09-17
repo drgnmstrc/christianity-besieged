@@ -949,7 +949,12 @@ east_roman_federation_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		tag = RMN
+		OR = {
+			tag = RMN
+			tag = DAC
+			tag = PNN
+			tag = WAL
+		}
 	}
 	modifiers = {
 		defensiveness = 0.2

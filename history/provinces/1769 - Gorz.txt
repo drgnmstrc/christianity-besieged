@@ -1,9 +1,9 @@
 # 1769 - Görz
-owner = PNN
-controller = PNN
+owner = PNY
+controller = PNY
 culture = pannici
 religion = ashabi
-add_core = PNN
+add_core = PNY
 base_tax = 5 
 base_production = 5
 trade_goods = lead

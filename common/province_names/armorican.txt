@@ -1,0 +1,79 @@
+# Format: ID = { "Province" "Capital" } # Origin
+## Lt.
+# f -> p
+# in -> en
+# v -> u
+# gi/ci/ti/? -> ch
+# -um -> _
+# mn -> nn
+# -sis -> éc
+# pagus -> pau
+# portus -> porth
+# civitatem -> ceutad
+## Brt.
+# w -> _
+# -ad/ed/id/od/ud -> -at/et/it/ot/ut
+# z -> th
+# -magos/us -> máu
+
+## GAUL
+
+# Brittany
+169 = { "Armôr" "Rejinéc" } # Armorica, Reginca
+170 = { "Penstér" "Penstér" } # Finis Terrae
+171 = { "Pauenet" "Dareoret" } # Pagus Venetius, Darioritum
+172 = { "Nannéto" "Porth" } # Namnetum, Portus
+4384 = { "Pauráthon" "Roathon" } # Pagus + Roazhon, Roazhon
+
+# Normandy
+167 = { "Paucaletôr" "Rothomáu" } # Pagus Caletorum, Rotomagus
+168 = { "Catomáu" "Catomáu" } # Catumagos
+1879 = { "Sajénec" "Sajénec" } # Sagiensis
+4385 = { "Coreáu" "Coreáu" } # Coriallo
+
+# Loire Valley
+177 = { "Undyne" "Undyne" } # Cinomanus, Vindinium
+178 = { "Anjocáu" "Yulomáu" } # Andecavia, Juliomagus
+4389 = { "Turonéc" "Ceutad Turonéc" } # Turones, Civitatem Turonensis
+
+# Poitou
+180 = { "Pitonéc" "Ceutad Pitonéc" } # Pictones, Civitatem Pictonensis
+4111 = { "Sentáu" "Sentáunéc" } # Santones, Santonensis
+4386 = { "Páuendo" "Páuendo" } # Pagus Venetus
+4387 = { "Aculéc" "Aculéc" } # Iculisma
+
+## BRITAIN
+
+# London
+236 = { "Londéni" "Londéni" } # Londinium
+4371 = { "Anderet" "Anderet" } # Anderita
+235 = { "Cént" "Dobréc" } # Cantium, Dubris/Durovernum
+237 = { "Áubeda" "Casella Blenca" } # Oppidum, Castrum Blancum
+
+# East Anglia
+238 = { "Cláuja" "Cólcasell" } # Colonia Claudia, Colenceaster
+1860 = { "Nôrtháuc" "Páuenta Cenôr" } # Norþfolc, Venta Icenorum
+4370 = { "Elizapols" "Lycentáu" } # Ecclesia-polis, Lygetun
+
+# East Midlands
+243 = { "Lendaséc" "Lendáu" } # Lindesege, Lindum Colonia
+1861 = { "Deruénet" "Chiyôrabi" } # Derventio, Djúra-by
+4376 = { "Coreltáura" "Rati" } # Corieltauvorum, Ratae
+
+# Somerset
+234 = { "Náuimáu" "Amto" } # Noviomagus, Hamtun
+4374 = { "Durnoar" "Dôrensét" } # Durnovaria, Dornsæte
+4373 = { "Duen" "Ascon" } # Devena, Isca
+233 = { "Cerneu" "Penér" } # Kernow, Penrynn
+4130 = { "Acue Sóles" "Somernsét" } # Aquae Sulis, Sumorsæte
+
+# West Midlands
+240 = { "Urocónec" "Marsháu" } # Viroconium, Mierce
+239 = { "Gluia" "Gluo" } # Glouvia, Glevum
+4372 = { "Bágent" "Cáuentrét" } # Bagintum, Cofentreo
+
+# Wales
+241 = { "Clannórgan" "Cerdíf" } # Glamorgan, Cardiff
+242 = { "Uenedét" "Segént" } # Venedotia, Segontium
+4366 = { "Páus" "Trifáldin" } # Pagus, Trefaldwyn
+4369 = { "Demetéc" "Môridunáu" } # Demetae, Moridunum

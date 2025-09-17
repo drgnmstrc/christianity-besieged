@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = italian_iqta
+primary_culture = pannonian_latin
+add_accepted_culture = latinlerin
+religion = ashabi
+technology_group = ottoman
+capital = 129
+national_focus = MIL
+add_army_professionalism = 0.1
+	
+1444.1.1 = {
+	monarch = {
+		name = "Denk"
+		dynasty = "Kizilirmak"
+		birth_date = 1432.3.30
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	#add_ruler_personality = lawgiver_personality
+	add_piety = -0.2
+}

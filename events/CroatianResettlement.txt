@@ -15,7 +15,7 @@ country_event = {
     
     trigger = {
         NOT = {
-            exists = PNN
+            exists = PNY
             exists = U07
         }
         any_owned_province = {

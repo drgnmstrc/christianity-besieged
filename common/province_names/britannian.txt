@@ -1,4 +1,14 @@
 # Format: ID = { "Province" "Capital" } # Origin
+# mp -> p
+# e -> a before r
+# ae -> e
+# ks/x -> s
+# o -> u
+# consonants are lost at the end
+# e_e -> e\_á
+# gn -> n
+# v -> f
+# tio -> ziu
 # London
 236 = { "Lûndínu" "Lûndínu" } # Londinium
 4371 = { "Andritu" "Andritu" } # Anderita

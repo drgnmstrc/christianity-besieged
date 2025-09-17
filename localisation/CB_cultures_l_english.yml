@@ -262,6 +262,7 @@
  alan: "Alan"
  jasz: "Jaszy"
  northern_iranian: "Northern Iranian"
+ pannonian_avar: "Panunauris"
 
  # Nupoid
  ebira: "Ebira"
@@ -278,7 +279,7 @@
  emaglici: "Emaglici"
  fiorenorum: "Fiorenorum"
  gallien: "Gallien"
- gaulish: "Gâulec"
+ gaulish: "Gâulo"
  graeci: "Greki"
  gurrean: "Agurreak"
  hispani: "Ispañol"
@@ -290,6 +291,12 @@
  venixus: "Venixus"
  vestes: "Vést"
  zeneize: "Zeneize"
+
+ # Oreçale
+ dacian: "Dašiš"
+ oriental: "Oreçale"
+ pannonian_latin: "Panisi"
+ wallachian: "Rumânes"
 
  # Patagonian
  chono: "Chono"
