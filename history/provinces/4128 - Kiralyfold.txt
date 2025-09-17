@@ -20,7 +20,6 @@ religion = zamolxism
 capital = "Sibiu"
 
 is_city = yes
-fort_15th = yes
 
 discovered_by = KAZ
 discovered_by = CRI

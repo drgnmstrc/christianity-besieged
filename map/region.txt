@@ -291,6 +291,9 @@ carpathia_region = {
 		southern_transylvania_area
 		wallachia_area
 		moldavia_area
+		abulens_area
+		porolesh_area
+		medriparia_area
 	}
 }
 

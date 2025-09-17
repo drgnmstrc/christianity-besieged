@@ -1,0 +1,33 @@
+add_core = MVA
+owner = MVA
+controller = MVA
+base_tax = 1
+base_production = 3
+base_manpower = 1
+
+trade_goods = gunpowder
+
+culture = serbian
+religion = manichaeism
+capital = "Sopianae"
+
+is_city = yes
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+
+
+
+
+
+
+

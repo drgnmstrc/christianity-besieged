@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = dacian
 religion = zamolxism
 technology_group = ottoman
-capital = 4128
+capital = 3005
 
 
 1444.1.1 = {

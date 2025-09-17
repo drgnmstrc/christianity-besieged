@@ -16,7 +16,7 @@ base_manpower = 3
 
 trade_goods = cloth
 
-culture = caicavsci
+culture = slovene
 religion = cisarstvo
 capital = "Sopron"
 

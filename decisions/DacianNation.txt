@@ -29,6 +29,7 @@ country_decisions = {
 			is_at_war = no
 			owns_core_province = 157
 			owns_core_province = 1951
+			owns_core_province = 3013
 		}
 		effect = {
 			change_tag = DAC
@@ -65,34 +66,29 @@ country_decisions = {
 				add_government_reform = east_roman_federation_reform
 			}
 			southern_transylvania_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
+				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = DAC
 			}
 			wallachia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
+				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = DAC
 			}
 			alfold_area = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
+				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = DAC
 			}
 			transdanubia_area = {
-				limit = {
-					NOT = {
-						owned_by = ROOT
-					}
-				}
+				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = DAC
 			}
-			add_permanent_claim = 162
+			slavonia_area = {
+				limit = { NOT = { owned_by = ROOT } }
+				add_permanent_claim = DAC
+			}
+			medriparia_area = {
+				limit = { NOT = { owned_by = ROOT } }
+				add_permanent_claim = DAC
+			}
 			set_country_flag = formed_dacia_flag
 			# if = {
 			# 	limit = { has_custom_ideas = no }
