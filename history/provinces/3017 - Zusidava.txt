@@ -15,7 +15,7 @@ base_manpower = 1
 
 trade_goods = grain
 
-culture = wallachian
+culture = romanian
 religion = manichaeism
 capital = "Zusidava"
 

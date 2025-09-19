@@ -1607,6 +1607,19 @@ locus_conventus = {
 
 voivode = {
 	copy_from = appanage
+
+	can_fight = {
+		same_overlord = voivode
+	}
+	can_rival = {
+		same_overlord = voivode
+	}
+	can_ally = {
+		same_overlord = voivode
+	}
+	can_marry = {
+		same_overlord = voivode
+	}
 }
 
 dummy =

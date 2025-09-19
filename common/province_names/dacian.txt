@@ -1,0 +1,68 @@
+# Format: ID = { "Province" "Capital" } # Origin
+## Lt.
+# i/a -> e occasionally
+## Brt.
+# -dava -> -dau
+# source: https://en.wikipedia.org/wiki/List_of_reconstructed_Dacian_words# 
+
+## CARPATHIA
+
+# Abulens
+3004 = { "Rametat" "Ramidau" } # Ramitauta, Ramidava
+3005 = { "Costidau" "Costidau" } # Costeldava "Costel's City"
+3007 = { "Peçradau" "Peçradau" } # Petrodava
+4128 = { "Saçedau" "Saçedau" } # Sacidava
+
+# Porolesh
+158 = { "Sendau" "Sendau" } # Sandava
+3006 = { "Utat" "Udau" } # Utitauta, Utidava
+3008 = { "Actat" "Acedau" } # Akitauta, Akidava
+3009 = { "Albodau" "Albodau" } # Albodava "White City"
+3010 = { "Nardau" "Nardau" } # Naradava "River City"
+
+# Ançem/Northern Transylvania
+157 = { "Behar" "Berdau" } # Biharata, Bihar-dava
+1952 = { "Çetat" "Kašdau" } # Cetatea, "Castle City"
+3012 = { "Çukdau" "Çukdau" } # Chukodava "Summit City"
+4127 = { "Putauis" "Putauis" } # Patavissa
+
+# Maluans/Southern Transylvania
+156 = { "Tems" "Tems" } # Timis
+1951 = { "Zerdau" "Zerdau" } # Ziridava
+3011 = { "Sengidau" "Sengidau" } # Singidava
+3013 = { "Reçidau" "Reçidau" } # Recidau
+
+# Panunea Oreçal/Alföld
+155 = { "Rabudau" "Rabudau" } # Rabodava
+1953 = { "Tiš" "Tiš" } # Tissa
+1954 = { "Audenis" "Audenis" } # Vojvodina
+3020 = { "Gorš" "Gorš" } # Gorizia
+4125 = { "Belau" "Belau" } # Bjelovar
+
+# Transdanubia
+153 = { "Piš" "Piš" } # Pest
+3014 = { "Dresdau" "Dresdau" } # Drasdadava
+3015 = { "Sopiau" "Sopiau" } # Sopianae
+4126 = { "Pacaš" "Pacaš" } # Pagatsion
+
+# Medriparia
+135 = { "Suprau" "Suprau" } # Sopron
+1864 = { "Pelš" "Pelš" } # Pelso
+3016 = { "Sauar" "Sauar" } # Sopianae
+4240 = { "Anmaç" "Anmaç" } # Annamatia
+
+# Rumânea/Wallachia
+160 = { "Auluçen" "Auluçen" } # Alutus
+161 = { "Pašedau" "Pašedau" } # "Country City"
+2998 = { "Muçes" "Muçes" } # Mouseos
+3017 = { "Susidau" "Susidau" } # Zusidava
+4531 = { "Iulau" "Iulau" } # Iulia
+4532 = { "Seuer" "Seuer" } # Severinus
+
+## BALKANS
+
+# Slavonia
+152 = { "Berež" "Berež" } # Varasd
+1767 = { "Morça" "Morça" } # Mursa
+4173 = { "Serma" "Serma" } # Sirmium
+4756 = { "Belau" "Belau" } # Bjelovar

@@ -16,7 +16,7 @@ base_manpower = 3
 
 trade_goods = livestock
 
-culture = wallachian
+culture = romanian
 religion = manichaeism
 capital = "Buzau"
 

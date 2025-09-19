@@ -54,9 +54,9 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { accepted_culture = wallachian }
+					NOT = { accepted_culture = romanian }
 				}
-				add_accepted_culture = wallachian
+				add_accepted_culture = romanian
 			}
 			if = {
 				limit = {
