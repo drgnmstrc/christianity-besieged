@@ -26,7 +26,7 @@ country_decisions = {
 			}
 			NOT = { exists = GRC }
 			OR = {
-				primary_culture = sicilian
+				primary_culture = graeci
 				tag = LCN
 			}
 		}

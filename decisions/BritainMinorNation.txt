@@ -16,7 +16,7 @@ country_decisions = {
 			NOT = { religion_group = christian }
 			OR = {
 				primary_culture = armorican
-				primary_culture = brittanian
+				primary_culture = britannian
 				primary_culture = cambrian
 			}
 			is_colonial_nation = no

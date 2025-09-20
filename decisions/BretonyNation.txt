@@ -16,7 +16,7 @@ country_decisions = {
 			NOT = { tag = SXE }
 			OR = {
 				primary_culture = armorican
-				primary_culture = brittanian
+				primary_culture = britannian
 				primary_culture = cambrian
 			}
 			religion_group = christian
