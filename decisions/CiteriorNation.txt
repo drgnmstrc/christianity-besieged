@@ -19,6 +19,7 @@ country_decisions = {
 			NOT = { tag = ADU }
 			NOT = { tag = LMR }
 			NOT = { tag = IBE }
+			NOT = { tag = MAM }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -31,6 +32,7 @@ country_decisions = {
 			OR = {
 				culture_group = iberian
 				culture = gurrean
+				religion = ashabi
 			}
 			any_owned_province = {
 				OR = {

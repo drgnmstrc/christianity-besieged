@@ -21,11 +21,18 @@ on_startup = {
 	}
 	if = {
 		limit = { religion = druidism }
-		set_estate_privilege = estate_druids_land_consecration
 		set_estate_privilege = estate_druids_leading_sacred_rituals
-		set_estate_privilege = estate_druids_supremacy_of_court
-		set_estate_privilege = estate_druids_legal_immunity
 		set_estate_privilege = estate_druids_sacred_armies
+	}
+	if = {
+		limit = {
+			religion = druidism
+			NOT = { tag = HWC }
+			NOT = { tag = AOP }
+		}
+		set_estate_privilege = estate_druids_land_consecration
+		set_estate_privilege = estate_druids_legal_immunity
+		set_estate_privilege = estate_druids_supremacy_of_court
 	}
 	emperor = {
 		save_global_event_target_as = Emperor

@@ -5,7 +5,7 @@
 ### Modified 8/26/2025 9:30:06 AM ###
 # TYR (Tír Eoghain)
 government = tribal
-add_government_reform = tribal_kingdom
+add_government_reform = irish_kingdom
 government_rank = 1
 primary_culture = irish
 religion = druidism

@@ -5,7 +5,7 @@
 ### Modified 8/26/2025 9:30:06 AM ###
 # LEI (Laighean)
 government = tribal
-add_government_reform = tribal_kingdom
+add_government_reform = irish_kingdom
 government_rank = 1
 primary_culture = irish
 religion = druidism
@@ -100,8 +100,8 @@ capital = 374
 
 1512.1.1 = {
 	heir = {
-		name = "Gearóid"
-		monarch_name = "Gearóid I"
+		name = "Gear id"
+		monarch_name = "Gear id I"
 		dynasty = "MacMurrough-Kavanagh"
 		birth_date = 1492.1.1
 		death_date = 1523.1.1
@@ -114,7 +114,7 @@ capital = 374
 
 1517.1.1 = {
 	monarch = {
-		name = "Gearóid I"
+		name = "Gear id I"
 		dynasty = "MacMurrough-Kavanagh"
 		ADM = 2
 		DIP = 3

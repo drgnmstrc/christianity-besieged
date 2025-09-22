@@ -1,3 +1,5 @@
+namespace = CBPirateEvents
+
 country_event = {#Foreign warrior-princess arrives from faraway land to Rygir shores
 	id = CBPirateEvents.0
 	title = CBPirateEvents.0t

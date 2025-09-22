@@ -18,3 +18,7 @@
  locus_conventus_desc:0 "A locus conventus is a semi self governing body under full allegience to the Roman state."
  locus_conventus_title_plural:0 "Locus Conventibus"
  locus_conventus_is_our:0 "$NAME|Y$ is a local assembly under allegience to Rome."
+ voivode_title:0 "Voivode"
+ voivode_desc:0 "A voivode is a self-governing polity under the suzerainty of Grand Morava."
+ voivode_title_plural:0 "Voivodes"
+ voivode_is_our:0 "$NAME|Y$ is a voivode of the Car."

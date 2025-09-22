@@ -310,7 +310,6 @@ estate_druids_land_consecration = {
 		}
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_land_consecration
 			duration = -1
@@ -346,7 +345,6 @@ estate_druids_leading_sacred_rituals = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_sacremented_rituals
 			duration = -1
@@ -382,7 +380,6 @@ estate_druids_supremacy_of_court = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = temple_court_payments
 			duration = -1
@@ -420,7 +417,6 @@ estate_druids_legal_immunity = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_druid_regulations
 			duration = -1
@@ -456,7 +452,6 @@ estate_druids_sacred_armies = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = religious_army_divisions
 			duration = -1
