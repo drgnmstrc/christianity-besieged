@@ -4,8 +4,8 @@ estate_nobles_moravian_strong_duchies = {
 	loyalty = 0.1
 	influence = 0.1
 	is_valid = {
-		tag = SLO
-		NOT = { has_estate_privilege = estate_nobles_strong_duchies }
+		tag = MVA
+		has_estate_privilege = estate_nobles_moravian_strong_duchies
 		OR = {
 			any_subject_country = {
 				is_march = yes
@@ -117,7 +117,7 @@ estate_church_pax_deiorum = {
 					}
 				}
 			}
-			if = {
+			else_if = {
 				limit = {
 					religion = noniustian
 				}
@@ -221,11 +221,11 @@ estate_gangans_ikenga_privileges = {
 	loyalty = 0
 	influence = 0.25
 	is_valid = {
-		tag = R53
+		tag = NRI
 		NOT = {
 			any_known_country = {
 				has_won_war_against = {
-					who = R53
+					who = NRI
 					max_years_since = 1000
 				}
 			}
@@ -310,7 +310,6 @@ estate_druids_land_consecration = {
 		}
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_land_consecration
 			duration = -1
@@ -346,7 +345,6 @@ estate_druids_leading_sacred_rituals = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_sacremented_rituals
 			duration = -1
@@ -382,7 +380,6 @@ estate_druids_supremacy_of_court = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = temple_court_payments
 			duration = -1
@@ -420,7 +417,6 @@ estate_druids_legal_immunity = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = state_druid_regulations
 			duration = -1
@@ -456,7 +452,6 @@ estate_druids_sacred_armies = {
 		change_government_reform_progress = -500
 	}
 	on_revoked = {
-		add_stability = -3
 		add_country_modifier = {
 			name = religious_army_divisions
 			duration = -1

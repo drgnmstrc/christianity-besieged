@@ -1,9 +1,9 @@
 #530 - South Konkan (Dabhol, Rajapur, up to and including Bankot)
 
-owner = L09
-controller = L09
-add_core = L09
-add_core = L02
+owner = KUM
+controller = KUM
+add_core = KUM
+add_core = HYS
 culture = marathi
 religion = hinduism
 capital = "Dabhol"

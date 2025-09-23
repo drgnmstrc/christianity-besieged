@@ -1,9 +1,9 @@
 # - Pore
 
 culture = betoi
-owner = M83
-controller = M83
-add_core = M83
+owner = BET
+controller = BET
+add_core = BET
 is_city = yes
 religion = chiminigagua
 discovered_by = south_american

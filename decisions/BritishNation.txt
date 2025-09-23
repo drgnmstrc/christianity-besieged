@@ -12,10 +12,10 @@ country_decisions = {
 			}
 			NOT = {
 				exists = GBR
-				exists = H15
-				exists = H16
-				exists = N14
-				exists = N15
+				exists = BMA
+				exists = BMI
+				exists = ANG
+				exists = BTV
 				exists = ENG
 			}
 			primary_culture = saxeish

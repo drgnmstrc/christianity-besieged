@@ -4,7 +4,7 @@ estate_cossacks = {
 	# Used for when declaring independence
 	independence_government = republic
 	starting_reform = cossacks_reform
-	independence_tech_group = western
+	independence_tech_group = eastern
 
 	province_independence_weight = {
 		factor = 1
@@ -16,12 +16,12 @@ estate_cossacks = {
 			factor = 2
 			OR = {
 				culture_group = east_slavic
-				culture_group = eastern_slavic
+				culture_group = slavic
 			}
 		}
 		modifier = {
 			factor = 0.75
-			NOT = { religion = rodoptr }
+			NOT = { religion_group = christian }
 		}
 		modifier = {
 			factor = 1.5
@@ -42,17 +42,22 @@ estate_cossacks = {
 	trigger = {	
 		has_dlc = "The Cossacks"
 		NOT = { has_government_attribute = disables_estate_cossacks }
-		NOT = { has_country_flag = disables_estate_cossacks_flag }
+		NOT = { has_disabled_estate = { estate = estate_cossacks } }
 		OR = {
 			has_government_attribute = enables_estate_cossacks
-			has_country_flag = enables_estate_cossacks_flag
+			has_enabled_estate = { estate = estate_cossacks }
 			AND = {
-				unit_type = western
-				religion = rodoptr
 				OR = {
-					has_estate = estate_cossacks
-					any_owned_province = {
-						has_terrain = steppe
+					has_unlocked_estate = { estate = estate_cossacks }
+					AND = {
+						unit_type = eastern
+						religion_group = christian
+						OR = {
+							has_estate = estate_cossacks
+							any_owned_province = {
+								has_terrain = steppe
+							}
+						}
 					}
 				}
 				NOT = { has_government_attribute = is_pirate_republic_reform }
@@ -104,14 +109,8 @@ estate_cossacks = {
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_cossacks }
 		}
 		influence = -40
 	}
@@ -121,14 +120,8 @@ estate_cossacks = {
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			OR = {
-				has_disaster = estate_nobility_disaster
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_cossacks }
 		}
 		loyalty = -20
 	}

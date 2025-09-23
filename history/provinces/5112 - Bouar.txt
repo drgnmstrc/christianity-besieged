@@ -1,5 +1,5 @@
 # No previous file for Bouar
-tribal_owner = R75
+tribal_owner = BMN
 culture = tikar
 religion = byeri
 capital = "Bouar"

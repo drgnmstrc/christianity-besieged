@@ -1,10 +1,10 @@
 #1752 - Rzhev
 
-owner = A02
-controller = A02  
+owner = SVR
+controller = SVR  
 culture = novgorodian
 religion = rodoptr
-add_core = A02
+add_core = SVR
 hre = no
 base_tax = 7
 base_production = 5

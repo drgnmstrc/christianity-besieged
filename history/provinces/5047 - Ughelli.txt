@@ -7,9 +7,9 @@ trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 2
-owner = R64
-controller = R64
-add_core = R64
+owner = UGH
+controller = UGH
+add_core = UGH
 
 discovered_by = central_african
 discovered_by = sub_saharan

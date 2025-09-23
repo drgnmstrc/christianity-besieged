@@ -28,119 +28,119 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						J01 = { is_subject_of = ROOT }
-						J01 = { alliance_with = ROOT }
+						CNT = { is_subject_of = ROOT }
+						CNT = { alliance_with = ROOT }
 					}
 					NOT = { has_country_flag = central_iberian_union }
 				}
-				J01 = {
+				CNT = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = J01
+				inherit = CNT
 			}
 			if = {
 				limit = {
 					OR = {
-						LON = { is_subject_of = ROOT }
-						LON = { alliance_with = ROOT }
+						LUS = { is_subject_of = ROOT }
+						LUS = { alliance_with = ROOT }
 					}
 					NOT = { has_country_flag = callaeci_iberian_union }
 				}
-				LON = {
+				LUS = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = LON
+				inherit = LUS
 			}
 			if = {
 				limit = {
 					OR = {
-						J02 = { is_subject_of = ROOT }
-						J02 = { alliance_with = ROOT }
+						ASU = { is_subject_of = ROOT }
+						ASU = { alliance_with = ROOT }
 					}
 				}
-				J02 = {
+				ASU = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
-				inherit = J02
+				inherit = ASU
 				}
 			}
 			if = {
 				limit = {
 					OR = {
-						J03 = { is_subject_of = ROOT }
-						J03 = { alliance_with = ROOT }
+						VCC = { is_subject_of = ROOT }
+						VCC = { alliance_with = ROOT }
 					}
 					NOT = { has_country_flag = callaeci_iberian_union }
 				}
-				J03 = {
+				VCC = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = J03
+				inherit = VCC
 			}
 			if = {
 				limit = {
 					OR = {
-						J04 = { is_subject_of = ROOT }
-						J04 = { alliance_with = ROOT }
+						VTT = { is_subject_of = ROOT }
+						VTT = { alliance_with = ROOT }
 					}
 					NOT = { has_country_flag = north_iberian_union }
 				}
-				J04 = {
+				VTT = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = J04
+				inherit = VTT
 			}
 			if = {
 				limit = {
 					OR = {
-						J05 = { is_subject_of = ROOT }
-						J05 = { alliance_with = ROOT }
+						TRD = { is_subject_of = ROOT }
+						TRD = { alliance_with = ROOT }
 					}
 					NOT = { has_country_flag = north_iberian_union }
 					NOT = { has_country_flag = central_iberian_union }
 				}
-				J05 = {
+				TRD = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = J05
+				inherit = TRD
 			}
 			if = {
 				limit = {
 					OR = {
-						J08 = { is_subject_of = ROOT }
-						J08 = { alliance_with = ROOT }
+						INT = { is_subject_of = ROOT }
+						INT = { alliance_with = ROOT }
 					}
 				}
-				J08 = {
+				INT = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
 				}
-				inherit = J08
+				inherit = INT
 			}
 			if = {
 				limit = {
 					OR = {
-						J12 = { is_subject_of = ROOT }
-						J12 = { alliance_with = ROOT }
+						CIT = { is_subject_of = ROOT }
+						CIT = { alliance_with = ROOT }
 					}
 				}
-				J12 = {
+				CIT = {
 					every_owned_province = {
 						set_local_autonomy = 95
 					}
-					inherit = J12
+					inherit = CIT
 				}
 			}
 			if = {
@@ -172,15 +172,15 @@ country_event = {
 				limit = {
 					has_country_flag = north_iberian_union
 				}
-				release = J04
-				create_march = J04
-				release = J05
+				release = VTT
+				create_march = VTT
+				release = TRD
 				reverse_add_opinion = {
-					who = J05
+					who = TRD
 					modifier = appreciate_iberian_autonomy
 				}
 				reverse_add_opinion = {
-					who = J04
+					who = VTT
 					modifier = appreciate_iberian_autonomy
 				}
 			}
@@ -188,15 +188,15 @@ country_event = {
 				limit = {
 					has_country_flag = central_iberian_union
 				}
-				release = J05
-				create_march = J05
-				release = J01
+				release = TRD
+				create_march = TRD
+				release = CNT
 				reverse_add_opinion = {
-					who = J05
+					who = TRD
 					modifier = appreciate_iberian_autonomy
 				}
 				reverse_add_opinion = {
-					who = J01
+					who = CNT
 					modifier = appreciate_iberian_autonomy
 				}
 			}
@@ -214,18 +214,18 @@ country_event = {
 				limit = {
 					has_country_flag = callaeci_iberian_union
 				}
-				release = LON
-				release = J03
+				release = LUS
+				release = VCC
 				create_subject = {
 					subject_type = march
-					subject = LON
+					subject = LUS
 				}
 				reverse_add_opinion = {
-					who = LON
+					who = LUS
 					modifier = appreciate_iberian_autonomy
 				}
 				reverse_add_opinion = {
-					who = J03
+					who = VCC
 					modifier = appreciate_iberian_autonomy
 				}
 			}
@@ -242,22 +242,22 @@ country_event = {
 						}
 					}
 					add_opinion = {
-						who = J06
+						who = IBE
 						modifier = appreciate_iberian_autonomy
 					}
 				}
 				reverse_add_opinion = {
-					who = U01
+					who = BTA
 					modifier = appreciate_iberian_autonomy
 				}
 				reverse_add_opinion = {
-					who = Y03
+					who = IFR
 					modifier = appreciate_iberian_autonomy
 				}
 				if = {
 					limit = {
-						exists = G02
-						is_neighbor_of = G02
+						exists = AGU
+						is_neighbor_of = AGU
 					}
 					every_owned_province = {
 						limit = {
@@ -269,13 +269,13 @@ country_event = {
 								area = galicia_area
 							}
 						}
-						cede_province = G02
+						cede_province = AGU
 					}
 				}
 				if = {
 					limit = {
-						exists = J10
-						is_neighbor_of = J10
+						exists = TLD
+						is_neighbor_of = TLD
 					}
 					every_owned_province = {
 						limit = {
@@ -286,13 +286,13 @@ country_event = {
 								area = toledo_area
 							}
 						}
-						cede_province = J10
+						cede_province = TLD
 					}
 				}
 				if = {
 					limit = {
-						exists = R04
-						is_neighbor_of = R04
+						exists = KSR
+						is_neighbor_of = KSR
 					}
 					every_owned_province = {
 						limit = {
@@ -303,13 +303,13 @@ country_event = {
 								area = beieras_area
 							}
 						}
-						cede_province = R04
+						cede_province = KSR
 					}
 				}
 				if = {
 					limit = {
-						exists = J09
-						is_neighbor_of = J09
+						exists = CRD
+						is_neighbor_of = CRD
 					}
 					every_owned_province = {
 						limit = {
@@ -320,20 +320,20 @@ country_event = {
 								area = toledo_area
 							}
 						}
-						cede_province = J09
+						cede_province = CRD
 					}
 				}
 				if = {
 					limit = {
-						exists = Y02
-						is_neighbor_of = Y02
+						exists = MRS
+						is_neighbor_of = MRS
 					}
 					every_owned_province = {
 						limit = {
 							religion_group = muslim
 							area = valencia_area
 						}
-						cede_province = Y02
+						cede_province = MRS
 					}
 				}
 			}
@@ -348,35 +348,35 @@ country_event = {
 				limit = {
 					has_country_flag = north_iberian_union
 				}
-				J05 = {
+				TRD = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				J04 = {
+				VTT = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				inherit = J04
-				inherit = J05
+				inherit = VTT
+				inherit = TRD
 			}
 			if = {
 				limit = {
 					has_country_flag = central_iberian_union
 				}
-				J05 = {
+				TRD = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				J01 = {
+				CNT = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				inherit = J05
-				inherit = J01
+				inherit = TRD
+				inherit = CNT
 			}
 			if = {
 				limit = {
@@ -393,18 +393,18 @@ country_event = {
 				limit = {
 					has_country_flag = callaeci_iberian_union
 				}
-				LON = {
+				LUS = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				J03 = {
+				VCC = {
 					every_owned_province = {
 						add_unrest = 10
 					}
 				}
-				inherit = LON
-				inherit = J03
+				inherit = LUS
+				inherit = VCC
 			}
 			if = {
 				limit = {
@@ -418,7 +418,7 @@ country_event = {
 						}
 					}
 					add_opinion = {
-						who = J06
+						who = IBE
 						modifier = oppressing_aybirean_faithful
 					}
 				}

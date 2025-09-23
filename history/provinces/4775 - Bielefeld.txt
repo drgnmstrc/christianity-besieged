@@ -1,10 +1,10 @@
 # 4775 - Bielefeld
 
-owner = G26
-controller = G26
-add_core = G26
+owner = RVB
+controller = RVB
+add_core = RVB
 culture = saxon
-religion = germanic
+religion = german_pagan
 trade_goods = cloth #linen
 capital = "Bielefeld"
 base_tax = 4

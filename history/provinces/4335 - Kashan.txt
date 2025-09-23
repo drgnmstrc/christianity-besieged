@@ -1,10 +1,10 @@
 #4335 - Kashan
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = yazdi
 religion = manichaeism
-add_core = PER
+add_core = ERS
 add_core = ISF
 capital = "Kashan"
 trade_goods = silk

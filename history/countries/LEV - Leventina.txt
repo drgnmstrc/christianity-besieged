@@ -1,0 +1,19 @@
+government = republic
+add_government_reform = united_cantons_reform
+government_rank = 1
+primary_culture = alemanni
+religion = german_pagan
+technology_group = eastern
+capital = 1870
+fixed_capital = 1870
+
+1444.11.11 = {
+	monarch = {
+		name = "Aeldrich"
+		dynasty = "von Ravensburg"
+		birth_date = 1422.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

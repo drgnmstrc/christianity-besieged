@@ -1,8 +1,8 @@
 #54 - Stade
 
-owner = N02
-controller = N02
-add_core = N02
+owner = NDM
+controller = NDM
+add_core = NDM
 culture = heruli
 religion = norse_pagan_reformed
 capital = "Bremervörde"

@@ -1,8 +1,8 @@
 #1130 - Tadimekket
 
-owner = R57
-controller = R57
-add_core = R57
+owner = AZW
+controller = AZW
+add_core = AZW
 culture = tuareg
 is_city = yes
 base_manpower = 2

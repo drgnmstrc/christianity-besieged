@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = italo_turk
+add_accepted_culture = rumanus
+capital = 120
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Quentiya"
+		dynasty = "Unal"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}

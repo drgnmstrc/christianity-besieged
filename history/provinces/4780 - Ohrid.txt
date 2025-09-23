@@ -1,9 +1,9 @@
 # 4780 - Ohrid
 
-owner = Y20
-controller = Y20
-add_core = Y20
-add_claim = X07
+owner = FYT
+controller = FYT
+add_core = FYT
+add_claim = SBK
 culture = fayunlit
 religion = silvani
 capital = "Ohrid"
@@ -26,4 +26,4 @@ discovered_by = nomad_group
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
-1372.5.18 = { add_core = Z22 }
+1372.5.18 = { add_core = CRC }

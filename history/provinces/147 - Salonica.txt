@@ -1,8 +1,8 @@
 #147 - Salonica
 
-owner = Y18
-controller = Y18
-add_core = Y18
+owner = JLM
+controller = JLM
+add_core = JLM
 culture = andalucian
 religion = ashabi
 capital = "Nyalifhi"

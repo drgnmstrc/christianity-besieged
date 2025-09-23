@@ -1,8 +1,8 @@
 #339 - Bejaia
 
-owner = R01
-controller = R01
-culture = mutawasiti
+owner = MTN
+controller = MTN
+culture = bahrumi
 religion = ashabi
 capital = "Bugya"
 trade_goods = lead
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = R01
+add_core = MTN
 
 
 

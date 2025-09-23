@@ -1,8 +1,8 @@
 #529 - North Konkan (Thana, Mahim, Bombay, Bassein, up to Daman)
 
-owner = L08
-controller = L08
-add_core = L08
+owner = AVY
+controller = AVY
+add_core = AVY
 culture = marathi
 religion = syriac
 capital = "Thana"

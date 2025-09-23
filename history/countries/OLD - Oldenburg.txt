@@ -2,12 +2,14 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = flemish
-religion = germanic
+religion = german_pagan
 technology_group = eastern
 capital = 1865
 historical_rival = LIE
-historical_rival = G09
-historical_friend = G20
+historical_rival = NMR
+historical_friend = FRI
+add_army_tradition = 25
+add_army_professionalism = 0.1
 
 1440.2.14 = {
 	monarch = {

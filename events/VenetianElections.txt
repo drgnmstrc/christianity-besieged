@@ -12,8 +12,8 @@ country_event = {
 	trigger = {
 		has_government_attribute = lottery_election
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 	}
 	

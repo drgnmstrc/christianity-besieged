@@ -1,8 +1,8 @@
 #533 - Mysore
 
-owner = L10
-controller = L10
-add_core = L10
+owner = MSN
+controller = MSN
+add_core = MSN
 culture = malayalam
 religion = syriac
 capital = "Ummatur"
@@ -18,4 +18,4 @@ discovered_by = indian
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = chinese
-add_core = L02
+add_core = HYS

@@ -1,9 +1,9 @@
 # - Guasipati
 
 culture = guayqueri
-owner = M85
-controller = M85
-add_core = M85
+owner = GUY
+controller = GUY
+add_core = GUY
 is_city = yes
 religion = animism
 discovered_by = south_american

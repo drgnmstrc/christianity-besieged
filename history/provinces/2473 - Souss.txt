@@ -1,9 +1,9 @@
 # - Susa
 
-owner = R05
-controller = R05 
-add_core = R05
-culture = sicilian
+owner = QRT
+controller = QRT 
+add_core = QRT
+culture = ifri
 religion = ashabi
 capital = "Susa"
 trade_goods = sugar

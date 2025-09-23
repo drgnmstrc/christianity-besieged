@@ -1,17 +1,17 @@
 # 4766 - Verdun
 
-owner = G32
-controller = G32
+owner = VER
+controller = VER
 capital = "Verdun"
 is_city = yes
 culture = burgundian
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3
 base_production = 3
 trade_goods = grain
 base_manpower = 3
-add_core = G32
+add_core = VER
 fort_15th = yes
 
 

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = istroli
+add_accepted_culture = pannici
+capital = 4738
+government_rank = 1
+add_army_tradition = 30
+add_army_professionalism = 0.1
+1444.11.1 = {
+	monarch = { 
+		name = "Mäometto"
+		dynasty = "Antico"
+		dip = 3
+		mil = 5
+		adm = 1
+	}
+}

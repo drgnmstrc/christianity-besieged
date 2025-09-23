@@ -1,10 +1,10 @@
 #433 - Yadz
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = yazdi
 religion = zoroastrian
-add_core = PER
+add_core = ERS
 add_core = YZD
 capital = "Yazd"
 trade_goods = camel

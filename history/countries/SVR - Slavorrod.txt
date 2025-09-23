@@ -1,0 +1,44 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = novgorodian
+add_accepted_culture = krivich
+add_accepted_culture = slovenski
+religion = rodoptr
+technology_group = western
+historical_rival = OKA
+capital = 1752
+
+1429.1.1 = {
+	monarch = {
+		name = "Thoros"
+		dynasty = "Hringr"
+		culture = prussian
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Sigund"
+		dynasty = "Hringr"
+		culture = novgorodian
+		adm = 3
+		dip = 1
+		mil = 5
+		birth_date = 1441.1.1
+	}
+}
+
+1444.1.1 = {
+	leader = {
+	name = "Erik den Mäktiga"
+	type = general
+	fire = 3
+	shock = 6
+	manuever = 2
+	siege = 1
+	}
+}

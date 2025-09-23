@@ -4,7 +4,6 @@ monarch_power = DIP
 ahead_of_time = {
 	trade_efficiency = 0.2
 	monthly_russian_modernization = 0.05
-
 	yearly_corruption = -0.05
 }
 
@@ -16,8 +15,43 @@ technology = { #Early Ships
 	naval_morale			=	2.0
 	range					=	60
 	may_fabricate_claims = yes
-
+	
+	canal_system = yes
+	road_network = yes
+	
+	import_from_subjects = yes
+	off = yes
+	off_2 = yes
+	off_3 = yes
+	off_4 = yes
+	off_5 = yes
+	off_6 = yes
+	off_7 = yes
+	fur_workshop = yes
+	chocolate_factory = yes
+	cigars_factory = yes
+	cannon_foundry = yes
+	metalworking_workshop = yes
+	wood_workshop = yes
+	leather_workshop = yes
+	jewellery_workshop = yes
+	uniforms_workshop = yes
+	Instruments_workshop = yes
+	stop_import_from_subjects = yes
+	spectacle_factory = yes
+	sculpture_workshop = yes
+	steam_engine_manu = yes
+	spy_agency = yes
+	post_office = yes
 	enable = war_canoe
+	
+
+	
+    armory = yes
+    
+	steam_factory = yes	
+	mine = yes
+	
 
 
 }
@@ -32,7 +66,6 @@ technology = { #Merchants & Trade
 	merchants = yes
 	trade_range				=	100
 	global_colonial_growth	= 	10
-	allow_client_states		=	yes
 }
 
 technology = { #The Barque
@@ -411,6 +444,7 @@ technology = { #Heavy Frigates
 	
 	global_colonial_growth  = 	25	
 	range					=	150
+	allow_client_states = yes		
 
 	
 	enable = heavy_frigate

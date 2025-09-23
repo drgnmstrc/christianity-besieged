@@ -1,9 +1,9 @@
 #4789 - Segovia
 
-owner = J08		#Juan II of Castille
-controller = J08
-add_core = J08
-add_core = J03
+owner = INT		#Juan II of Castille
+controller = INT
+add_core = INT
+add_core = VCC
 culture = vaccaeian
 religion = liritism
 hre = no

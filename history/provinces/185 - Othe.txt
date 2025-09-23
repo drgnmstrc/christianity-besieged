@@ -1,19 +1,19 @@
 # 185 Nemours
 
-owner = G10
-controller = G10
-add_core = G10
+owner = GLA
+controller = GLA
+add_core = GLA
 capital = "Nemours"
 is_city = yes
-culture = cosmopolitan_french
-religion = anglican
+culture = soisson
+religion = theodolian
 hre = no
 base_tax = 4
 base_production = 4
 trade_goods = livestock
 base_manpower = 4
 #estate = estate_church
-add_core = B08
+add_core = SSN
 add_local_autonomy = 50
 discovered_by = eastern
 discovered_by = western

@@ -1627,7 +1627,7 @@ country_event = {
 	trigger = {
 		has_estate = estate_church
 		religion_group = muslim
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 
 	mean_time_to_happen = {
@@ -3827,7 +3827,7 @@ country_event = {
 	trigger = {
 		capital_scope = { continent = europe }
 		any_known_country = {
-			culture_group = italo_gallic
+			culture_group = occidental
 		}
 		NOT = { is_year = 1650 }
 	}
@@ -3835,7 +3835,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_known_country = {
-				limit = { culture_group = italo_gallic }
+				limit = { culture_group = occidental }
 				save_event_target_as = italian_engineer_country
 				root = {
 					set_saved_name = {
@@ -4219,9 +4219,9 @@ country_event = {
 		reduce_estate_church_loyalty_effect = yes
 		if = {
 			limit = {
-				exists = J08
+				exists = INT
 			}
-			J08 = {
+			INT = {
 				add_opinion = {
 					who = root
 					modifier = opinion_heretical_philosopher
@@ -9325,7 +9325,7 @@ country_event = {
 		advisor = theologian
 		any_owned_province = {
 			OR = {
-				religion = anglican
+				religion = theodolian
 				religion = liritism
 			}
 			printing_press = 1
@@ -9338,7 +9338,7 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					OR = {
-						religion = anglican
+						religion = theodolian
 						religion = liritism
 					}
 					continent = europe
@@ -9354,7 +9354,7 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 5.0
-			culture_group = germanic
+			culture_group = germanic_group
 		}
 	}
 	
@@ -10783,7 +10783,7 @@ country_event = {
 		add_dip_power = 75
 	}
 	option = {
-		name = "random_event.EVTOPTB10"
+		name = "random_event.EVTOPTBRY"
 		add_years_of_income = 0.2
 		add_mercantilism = -2
 	}

@@ -2,10 +2,10 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = alemanni
-religion = germanic
+religion = german_pagan
 elector = yes
 technology_group = eastern
-capital = 77	# Pfalz
+capital = 165	# Bern
 
 1428.8.7 = {
 	monarch = {
@@ -22,7 +22,7 @@ capital = 77	# Pfalz
 
 1438.10.18 = {
 	queen = {
-		country_of_origin = ULM
+		country_of_origin = ZAU
 		name = "Margeria"
 		dynasty = "Amalung"
 		culture = ostrogothic

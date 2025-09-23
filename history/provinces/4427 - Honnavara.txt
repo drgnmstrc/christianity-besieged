@@ -1,9 +1,9 @@
 #4427 - Honnavara
 
-owner = L09
-controller = L09
-add_core = L09
-add_core = L02
+owner = KUM
+controller = KUM
+add_core = KUM
+add_core = HYS
 culture = kannada
 religion = hinduism
 capital = "Honnavara"

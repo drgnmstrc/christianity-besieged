@@ -1,9 +1,9 @@
-owner = R16
-controller = R16
-add_core = R16
+owner = SES
+controller = SES
+add_core = SES
 trade_goods = elephants
 is_city = yes
-culture = julhoan
+culture = juhoan
 capital = "Berseba"
 religion = qanumi
 hre = no
@@ -13,6 +13,6 @@ base_manpower = 2
 discovered_by = central_african
 discovered_by = south_african
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }

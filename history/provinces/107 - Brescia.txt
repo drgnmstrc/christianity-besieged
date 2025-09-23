@@ -1,11 +1,11 @@
 #107 - Brescia
 
-owner = U14
-controller = U14
-add_core = U14
-culture = lombard
-religion = germanic
-add_core = G06
+owner = FLB
+controller = FLB
+add_core = FLB
+culture = langobard
+religion = german_pagan
+add_core = LOM
 hre = yes
 base_tax = 5
 base_production = 5   

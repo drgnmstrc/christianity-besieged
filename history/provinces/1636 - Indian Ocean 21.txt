@@ -1,3 +1,3 @@
 1444.1.1 = { 
-	discovered_by = R35
+	discovered_by = MSR
 }

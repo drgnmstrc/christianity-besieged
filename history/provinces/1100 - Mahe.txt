@@ -1,7 +1,7 @@
 #1100 - Mahe
-owner = R34
-controller = R34
-add_core = R34
+owner = MSH
+controller = MSH
+add_core = MSH
 culture = swahili
 religion = shiite
 is_city = yes
@@ -11,6 +11,6 @@ hre = no
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_permanent_claim = R35
+add_permanent_claim = MSR
 discovered_by = east_african
 discovered_by = south_african

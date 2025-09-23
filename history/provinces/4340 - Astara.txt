@@ -1,10 +1,10 @@
 #4340 - Astara
 
-owner = X10
-controller = X10
+owner = TAL
+controller = TAL
 culture = taleshi
-religion = manichaeism
-add_core = X10
+religion = zoroastrian
+add_core = TAL
 capital = "Astara"
 trade_goods = fish
 hre = no

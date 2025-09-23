@@ -58,7 +58,7 @@ province_event = {
 			owner = {
 				any_neighbor_country = {
 					OR = {
-						religion = anglican
+						religion = theodolian
 						religion = sunni
 						religion = shiite
 						religion = ashabi
@@ -365,7 +365,7 @@ province_event = {
 
 # Pagan to Manichaean
 province_event = {
-	id = 5005
+	id = 5007
 	title = "EVTNAME5003"
 	desc = "EVTDESC5003"
 	picture = PRAYING_eventPicture

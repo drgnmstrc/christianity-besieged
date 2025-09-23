@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = nunavit
+religion = ikniksugritism
+technology_group = north_american
+unit_type = north_american
+capital = 994
+historical_rival = CRE
+historical_rival = INU
+historical_rival = NUN
+historical_rival = NNV
+
+1444.11.11 = {
+	monarch = {
+		name = "Patuktuq"
+		dynasty = "Titauruq"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

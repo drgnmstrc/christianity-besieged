@@ -1,18 +1,18 @@
 # 4388 Chartres
 
-owner = B08
-controller = B08
+owner = SSN
+controller = SSN
 capital = "Chartres"
 is_city = yes
-culture = cosmopolitan_french
-religion = anglican
+culture = soisson
+religion = theodolian
 hre = no
 base_tax = 5
 base_production = 5
 trade_goods = cloth
 base_manpower = 6
 fort_15th = yes
-add_core = B08
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

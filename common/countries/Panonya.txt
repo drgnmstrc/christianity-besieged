@@ -4,7 +4,7 @@ graphical_culture = muslimgfx
 
 color = { 167  179  162 }
 
-revolutionary_colors = { 51  181  0 }
+revolutionary_colors = { 2  6  0 }
 
 historical_score = 5500
 

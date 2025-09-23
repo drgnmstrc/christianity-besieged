@@ -1,8 +1,8 @@
 # No previous file for Kawar
 
-owner = R54
-controller = R54
-add_core = R54
+owner = DMA
+controller = DMA
+add_core = DMA
 add_core = AIR
 is_city = yes
 culture = tuareg 

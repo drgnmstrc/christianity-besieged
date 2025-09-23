@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = mekelti
+religion = rabbinic
+technology_group = central_african
+unit_type = sub_saharan
+capital = 4059
+1444.1.1 = {
+	monarch = {
+		name = "Isaiah II"
+		dynasty = "Mekeltes"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}

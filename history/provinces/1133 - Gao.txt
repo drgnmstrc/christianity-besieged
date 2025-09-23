@@ -1,7 +1,7 @@
 #1133 - Gao
 
-owner = R55
-controller = R55
+owner = GAO
+controller = GAO
 culture = songhai
 is_city = yes
 base_manpower = 2
@@ -11,7 +11,7 @@ trade_goods = cloth
 hre = no
 base_tax = 7 
 base_production = 7
-add_core = R55
+add_core = GAO
 discovered_by = sub_saharan
 discovered_by = saharan
 fort_15th = yes

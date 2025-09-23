@@ -1,6 +1,6 @@
 #770 - Braslaw
 
-tribal_owner = V12
+tribal_owner = SMG
 culture = semigallian
 religion = romuva
 capital = "Breslauja"

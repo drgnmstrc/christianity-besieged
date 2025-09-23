@@ -1,8 +1,8 @@
 #534 - Calicut
 
-owner = L10
-controller = L10
-add_core = L10
+owner = MSN
+controller = MSN
+add_core = MSN
 culture = malayalam
 religion = syriac
 capital = "Calicut"
@@ -20,4 +20,4 @@ discovered_by = ottoman
 discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
-add_core = L02
+add_core = HYS

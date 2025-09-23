@@ -1,8 +1,8 @@
 #454 - Samarkand
 
-owner = Z16
-controller = Z16
-add_core = Z16
+owner = SMR
+controller = SMR
+add_core = SMR
 culture = sogdian
 religion = manichaeism
 capital = "Samarkand"

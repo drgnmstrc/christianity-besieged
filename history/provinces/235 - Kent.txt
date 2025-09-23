@@ -1,9 +1,9 @@
 #235 - Kent
 
-owner = H29
-controller = H29
-culture = jelander
-religion = anglican
+owner = DBR
+controller = DBR
+culture = jutish
+religion = theodolian
 hre = no
 base_tax = 4
 base_production = 4
@@ -11,7 +11,7 @@ trade_goods = beer
 base_manpower = 2
 capital = "Dubris"
 is_city = yes
-add_core = H29
+add_core = DBR
 extra_cost = 8
 center_of_trade = 1
 discovered_by = western
@@ -19,4 +19,4 @@ discovered_by = eastern
 discovered_by = ottoman
 discovered_by = eirun
 discovered_by = scandinavian_tech
-add_permanent_claim = H01
+add_permanent_claim = AMO

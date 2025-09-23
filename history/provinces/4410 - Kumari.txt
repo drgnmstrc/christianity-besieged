@@ -1,8 +1,8 @@
 #4410 - Kumari
 
-owner = L01
-controller = L01
-add_core = L01
+owner = COA
+controller = COA
+add_core = COA
 culture = malayalam
 religion = hinduism
 capital = "Kumari"

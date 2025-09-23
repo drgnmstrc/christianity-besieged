@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = iqta_council_reform
+government_rank = 1
+primary_culture = juthudi
+religion = ashabi
+technology_group = ottoman
+capital = 205
+fixed_capital = 205
+
+1434.2.5 = {
+	monarch = {
+		name = "Tahir Mazzanul"
+		birth_date = 1409.5.23
+		adm = 4
+		dip = 2
+		mil = 6
+	}
+}

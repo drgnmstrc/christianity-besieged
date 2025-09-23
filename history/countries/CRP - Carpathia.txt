@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = serbian
+religion = slavic
+technology_group = eastern
+capital = 153
+historical_friend = TRA
+government_rank = 1
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Sverid III"
+		dynasty = "Kavoltar"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

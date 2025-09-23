@@ -1,12 +1,12 @@
 #111 - Friuli
 
-owner = U10
-controller = U10
-add_core = U10
-add_core = G06
+owner = HSR
+controller = HSR
+add_core = HSR
+add_core = LOM
 culture = aquilicus
 religion = procuveric
-add_core = H28
+add_core = VEN
 hre = no 
 base_tax = 4
 base_production = 4 

@@ -1,8 +1,8 @@
 # 4743 - Weimar
 
-owner = N21
-controller = N21
-add_core = N21
+owner = POB
+controller = POB
+add_core = POB
 add_core = THU
 culture = thuringen
 religion = slavic

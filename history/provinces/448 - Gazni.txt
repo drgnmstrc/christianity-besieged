@@ -48,14 +48,14 @@ discovered_by = nomad_group
 1707.5.12 = { discovered_by = GBR }
 
 1737.1.1 = {
-	controller = PER
+	controller = ERS
 } # Captured by Persia, Nadir Shah
-1739.5.1 = {	owner = PER
-	add_core = PER
+1739.5.1 = {	owner = ERS
+	add_core = ERS
 	remove_core = MUG
 } # Captured by Persia, Nadir Shah
 1747.6.1 = {
 	owner = AFG
 	controller = AFG
-	remove_core = PER
+	remove_core = ERS
 } # Ahmad Shah established the Durrani empire

@@ -1,8 +1,8 @@
 #148 - Macedonia
 
-owner = Y21
-controller = Y21
-add_core = Y21
+owner = YAL
+controller = YAL
+add_core = YAL
 culture = yaliboylu
 religion = ashabi
 capital = "Aiyum Qalis"
@@ -24,7 +24,7 @@ discovered_by = eirun
 extra_cost = 8
 center_of_trade = 1
 1438.6.12 = {
-	owner = X07
-	controller = X07
-	add_core = X07
+	owner = SBK
+	controller = SBK
+	add_core = SBK
 }

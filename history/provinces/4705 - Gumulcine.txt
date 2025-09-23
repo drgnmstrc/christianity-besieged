@@ -1,6 +1,6 @@
-owner = Y21
-controller = Y21
-add_core = Y21
+owner = YAL
+controller = YAL
+add_core = YAL
 culture = yaliboylu
 religion = ashabi
 capital = "Gumulcine"

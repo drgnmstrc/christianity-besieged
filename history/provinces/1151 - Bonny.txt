@@ -1,7 +1,7 @@
 #1151 - Bonny
-add_core = R63
-owner = R63
-controller = R63
+add_core = OBO
+owner = OBO
+controller = OBO
 culture = ibibio
 religion = inam
 capital = "Obot Okon Ita"

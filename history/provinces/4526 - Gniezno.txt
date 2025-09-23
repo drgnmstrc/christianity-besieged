@@ -1,8 +1,8 @@
 #4526 - Gniezno
 
-owner = V03
-controller = V03
-add_core = V03
+owner = PLN
+controller = PLN
+add_core = PLN
 religion = slavic
 culture = polish
 capital = "Gniezno"

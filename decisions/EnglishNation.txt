@@ -10,10 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = H15 }
+			NOT = { tag = BMA }
 			NOT = { exists = GBR }
 			NOT = { tag = HLR }
-			NOT = { tag = B09 }
+			NOT = { tag = SXE }
 			primary_culture = saxeish
 			is_colonial_nation = no
 			OR = {
@@ -43,8 +43,8 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = B09
-				exists = H15
+				exists = SXE
+				exists = BMA
 			}
 			OR = {
 				AND = {
@@ -62,8 +62,8 @@ country_decisions = {
 							owns = 236
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -73,8 +73,8 @@ country_decisions = {
 							owns = 4370
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -84,8 +84,8 @@ country_decisions = {
 							owns = 234
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -95,8 +95,8 @@ country_decisions = {
 							owns = 235
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -106,8 +106,8 @@ country_decisions = {
 							owns = 238
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -117,8 +117,8 @@ country_decisions = {
 							owns = 4372
 							ai = yes
 							OR = {
-								tag = B03
-								tag = B05
+								tag = ESX
+								tag = WSX
 							}
 						}
 					}
@@ -126,9 +126,9 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = B09
-			inherit = B03
-			inherit = B05
+			change_tag = SXE
+			inherit = ESX
+			inherit = WSX
 			if = {
 				limit = {
 					government = theocracy
@@ -148,43 +148,43 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			yorkshire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			east_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			west_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			east_anglia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			wales_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			wessex_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B09
+				add_permanent_claim = SXE
 			}
 			#Cumbria
 			247 = {
@@ -192,7 +192,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = B09
+					add_permanent_claim = SXE
 				}
 			}
 			#Northumberland
@@ -201,7 +201,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = B09
+					add_permanent_claim = SXE
 				}
 			}
 			add_country_modifier = {

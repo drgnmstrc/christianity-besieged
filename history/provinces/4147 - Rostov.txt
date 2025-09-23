@@ -1,10 +1,10 @@
 #4147 - Rostov (includes Uglich)
 
-owner = Z04
-controller = Z04
-culture = russian
+owner = YNI
+controller = YNI
+culture = bolghar
 religion = tengri_pagan_reformed
-add_core = Z04
+add_core = YNI
 hre = no
 base_tax = 3
 base_production = 3

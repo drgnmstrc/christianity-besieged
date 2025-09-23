@@ -1,6 +1,6 @@
 # - Bezhetsk
 
-tribal_owner = Z04
+tribal_owner = YNI
 culture = slovenski
 religion = slavic
 hre = no

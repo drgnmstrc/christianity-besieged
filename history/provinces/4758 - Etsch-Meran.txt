@@ -1,9 +1,9 @@
 #4758 - Etsch (Meran)
-owner = G06
-controller = G06
-add_core = G06
-culture = lombard
-religion = germanic
+owner = LOM
+controller = LOM
+add_core = LOM
+culture = langobard
+religion = german_pagan
 base_tax = 2
 base_production = 2
 trade_goods = wool

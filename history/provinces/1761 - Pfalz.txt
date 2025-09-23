@@ -2,15 +2,15 @@
 
 capital = "Worms"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = wine
-owner = G28
+owner = WRM
 base_tax = 6 
 base_production = 6
 base_manpower = 3
 is_city = yes
-controller = G28
-add_core = G28
+controller = WRM
+add_core = WRM
 hre = yes
 discovered_by = eastern
 discovered_by = western

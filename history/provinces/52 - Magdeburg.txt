@@ -1,9 +1,9 @@
 #52 - Altmark
 
-owner = N20
-controller = N20
-add_core = N20
-add_core = MAG
+owner = BRM
+controller = BRM
+add_core = BRM
+add_core = GRB
 culture = polobske
 religion = slavic
 hre = no

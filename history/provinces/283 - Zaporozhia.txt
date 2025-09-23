@@ -1,8 +1,8 @@
 #283 - Zaporozhia
 
-owner = Z23
-controller = Z23
-add_core = Z23
+owner = ZLT
+controller = ZLT
+add_core = ZLT
 religion = manichaeism
 culture = hungarian
 hre = no

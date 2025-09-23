@@ -6,11 +6,11 @@ war_goal = {
 }
 
 1441.6.8 = {
-	add_attacker = H31
-	add_defender = H05
+	add_attacker = ISA
+	add_defender = CAP
 }
 
 1441.8.13 = {
-	rem_attacker = H31
-	rem_defender = H05
+	rem_attacker = ISA
+	rem_defender = CAP
 }

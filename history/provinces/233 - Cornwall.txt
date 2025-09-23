@@ -1,9 +1,9 @@
 #233 - Cornwall
 
-owner = H01
-controller = H01
-add_core = H01
-culture = breton
+owner = AMO
+controller = AMO
+add_core = AMO
+culture = armorican
 religion = walianitas
 hre = no
 base_tax = 3

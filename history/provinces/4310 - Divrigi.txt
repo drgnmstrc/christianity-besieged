@@ -1,17 +1,17 @@
 #4308 - Divrigi
 
-owner = H05
-controller = H05
+owner = CAP
+controller = CAP
 culture = kappadokes
 religion = mandaeism
 capital = "Sebastia"
-trade_goods = wool
+trade_goods = silphium
 hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = H05
+add_core = CAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

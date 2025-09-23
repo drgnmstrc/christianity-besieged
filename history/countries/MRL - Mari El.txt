@@ -1,0 +1,6 @@
+government = native
+government_rank = 1
+primary_culture = mari
+religion = suomenusko
+technology_group = nomad_group
+capital = 1778

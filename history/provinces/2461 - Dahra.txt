@@ -1,9 +1,9 @@
 # - Dahra
 
-owner = R02
-controller = R02
-add_core = R02
-culture = mutawasiti
+owner = ALM
+controller = ALM
+add_core = ALM
+culture = bahrumi
 religion = ashabi
 capital = "Mostaganem"
 trade_goods = grain

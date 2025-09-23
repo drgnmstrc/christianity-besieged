@@ -1,8 +1,8 @@
 #4174 - Durres
 
-owner = Y19
-controller = Y19
-add_core = Y19
+owner = TSK
+controller = TSK
+add_core = TSK
 culture = toskout
 religion = ashabi
 capital = "Durrës"

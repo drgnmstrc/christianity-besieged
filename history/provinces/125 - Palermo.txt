@@ -1,8 +1,8 @@
 #125 - Palermo
 
-owner = Y03
-controller = Y03
-culture = sicilian 
+owner = IFR
+controller = IFR
+culture = ifri 
 religion = ashabi
 hre = no 
 base_tax = 8 
@@ -12,7 +12,7 @@ base_manpower = 5
 capital = "Bal'harm"
 is_city = yes
 add_core = SIC
-add_core = Y03
+add_core = IFR
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

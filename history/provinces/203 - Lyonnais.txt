@@ -1,11 +1,11 @@
 # 203 Lyonnais - Principal cities: Lyon
 
-owner = SAV
-controller = SAV
-add_core = SAV
-add_core = Y15
+owner = LUG
+controller = LUG
+add_core = LUG
+add_core = ALD
 culture = gothic
-religion = germanic
+religion = german_pagan
 capital = "Lugun"
 is_city = yes
 hre = yes

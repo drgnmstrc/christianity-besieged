@@ -3,7 +3,7 @@
 owner = CHG
 controller = CHG
 add_core = CHG
-add_core = Z20
+add_core = TSH
 culture = sogdian
 religion = manichaeism
 capital = "Shymkent"

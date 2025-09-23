@@ -3,7 +3,7 @@
 owner = MAZ
 controller = MAZ
 add_core = MAZ
-add_core = V18
+add_core = YTV
 culture = yotvingian
 religion = romuva
 hre = no

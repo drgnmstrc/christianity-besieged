@@ -1,8 +1,8 @@
 # 4748 - Brandenburg
 
-owner = N20
-controller = N20
-add_core = N20
+owner = BRM
+controller = BRM
+add_core = BRM
 culture = polobske
 religion = rodoptr
 hre = no

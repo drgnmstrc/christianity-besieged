@@ -1,9 +1,9 @@
 #216 - Avila
 
-owner = J10
-controller = J10
-add_core = J10
-add_core = J03
+owner = TLD
+controller = TLD
+add_core = TLD
+add_core = VCC
 culture = vaccaeian
 religion = liritism
 hre = no

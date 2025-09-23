@@ -1,8 +1,8 @@
 # No previous file for Moshi
 
-owner = R86
-controller = R86
-add_core = R86
+owner = BAB
+controller = BAB
+add_core = BAB
 is_city = yes
 culture = bariba 
 religion = itan #Fetishism

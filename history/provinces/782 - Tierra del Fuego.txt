@@ -1,8 +1,8 @@
 #782 - Tierra del Fuego
 
-owner = M78
-controller = M78
-add_core = M78
+owner = SLK
+controller = SLK
+add_core = SLK
 culture = selknam
 religion = animism
 capital = "Selk'nam"
@@ -14,7 +14,4 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 2
 native_hostileness = 9
-
-1520.1.1 = { discovered_by = SPA } # Ferdinand Magellan
-1577.1.1 = { discovered_by = ENG } # Drake
-1786.1.1 = { discovered_by = FRA } # Jean Francois la Perouse
+discovered_by = south_american

@@ -7,7 +7,7 @@ seize_property_aspect = {
 		}
 		any_owned_province = {
 			NOT = {
-				religion = anglican
+				religion = theodolian
 			}
 		}
 	}
@@ -87,7 +87,7 @@ proselytism_aspect = {
 	trigger = {
 		any_owned_province = {
 			NOT = {
-				religion = anglican
+				religion = theodolian
 			}
 		}
 	}

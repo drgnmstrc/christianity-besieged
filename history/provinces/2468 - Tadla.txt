@@ -1,9 +1,9 @@
 # - Tadla
 
-owner = R03
-controller = R03
-add_core = R03
-add_core = R02
+owner = BGW
+controller = BGW
+add_core = BGW
+add_core = ALM
 culture = masmuden
 religion = mutazila
 capital = "Tadla"

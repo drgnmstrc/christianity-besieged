@@ -10,14 +10,14 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = U01 }
-			NOT = { tag = U15 }
+			NOT = { tag = BTA }
+			NOT = { tag = RMC }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = SPA }
-			NOT = { tag = J13 }
+			NOT = { tag = AYI }
 			NOT = { tag = ADU }
-			NOT = { tag = J11 }
+			NOT = { tag = LMR }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

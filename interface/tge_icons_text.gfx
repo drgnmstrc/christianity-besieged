@@ -1,0 +1,95 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_grain_text"
+		texturefile = "gfx//interface//ideas_EU4//grain_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fish_text"
+		texturefile = "gfx//interface//ideas_EU4//fish_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_iron_text"
+		texturefile = "gfx//interface//ideas_EU4//iron_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_tin_text"
+		texturefile = "gfx//interface//ideas_EU4//tin_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_apiculture_text"
+		texturefile = "gfx//interface//ideas_EU4//apiculture_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_livestock_text"
+		texturefile = "gfx//interface//ideas_EU4//livestock_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_lead_text"
+		texturefile = "gfx//interface//ideas_EU4//lead_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_copper_text"
+		texturefile = "gfx//interface//ideas_EU4//copper_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_marble_text"
+		texturefile = "gfx//interface//ideas_EU4//marble_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_salt_text"
+		texturefile = "gfx//interface//ideas_EU4//salt_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_seafood_text"
+		texturefile = "gfx//interface//ideas_EU4//seafood_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_supplies_text"
+		texturefile = "gfx//interface//ideas_EU4//naval_supplies_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_wool_text"
+		texturefile = "gfx//interface//ideas_EU4//wool_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_whaling_text"
+		texturefile = "gfx//interface//ideas_EU4//whaling_text.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_beer_text"
+		texturefile = "gfx//interface//ideas_EU4//beer_text.dds"
+		loadType = "INGAME"
+	}
+}
+	
+
+	

@@ -1,9 +1,9 @@
 #450 - Balkh
 
-owner = Z18
-controller = Z18
-add_core = Z18
-add_core = Z26
+owner = BCT
+controller = BCT
+add_core = BCT
+add_core = TKR
 culture = ebodalo
 religion = manichaeism
 capital = "Balkh"

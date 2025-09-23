@@ -3,7 +3,7 @@
 owner = HED
 controller = HED
 add_core = HED
-add_core = Y13
+add_core = HSH
 culture = hejazi_culture
 religion = sunni
 capital = "Jiddah"

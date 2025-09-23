@@ -2,9 +2,9 @@
 
 culture = guamares
 religion = quetzacoatl
-owner = M01
-controller = M01
-add_core = M01
+owner = MEC
+controller = MEC
+add_core = MEC
 is_city = yes
 capital = "Zacatecas" 
 trade_goods = gold

@@ -1,10 +1,10 @@
 #424 - Ardabil
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = azerbaijani
-religion = manichaeism
-add_core = PER
+religion = zoroastrian
+add_core = ERS
 capital = "Ardabil"
 trade_goods = mercury
 hre = no

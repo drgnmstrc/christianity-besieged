@@ -1,8 +1,8 @@
 #4732 - Terracina
 
-owner = U01
-controller = U01
-culture = italian_turk 
+owner = BTA
+controller = BTA
+culture = italo_turk 
 religion = ashabi 
 hre = no
 base_tax = 3
@@ -11,7 +11,7 @@ trade_goods = fish
 base_manpower = 1		# Pontine Marshes
 capital = "Teyrasina"
 is_city = yes
-add_core = U01
+add_core = BTA
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

@@ -1,8 +1,8 @@
 #115 - Pisa
 
-owner = U11
-controller = U11
-culture = italian_turk
+owner = TUS
+controller = TUS
+culture = italo_turk
 religion = ashabi
 hre = no
 base_tax = 6
@@ -11,7 +11,7 @@ trade_goods = olive_oil
 base_manpower = 3
 capital = "Pisa"
 is_city = yes	# Estimated
-add_core = U11
+add_core = TUS
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

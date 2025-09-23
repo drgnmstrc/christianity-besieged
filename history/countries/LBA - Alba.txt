@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = gothic
+religion = german_pagan
+technology_group = eastern
+capital = 4391
+fixed_capital = 4391
+
+1434.2.5 = {
+	monarch = {
+		name = "Träpest"
+		dynasty = "von Alba"
+		culture = gothic
+		birth_date = 1403.3.2
+		adm = 6
+		dip = 6
+		mil = 1
+	}
+	queen = {
+		name = "Qusuwa"
+		dynasty = "al-Kursi"
+		country_of_origin = COR
+		culture = bahrumi
+		religion = ashabi
+		birth_date = 1400.3.2
+		death_date = 1480.12.21
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+	heir = {
+		name = "Klädes"
+		dynasty = "von Alba"
+		culture = gothic
+		birth_date = 1433.3.2
+		death_date = 1500.12.21
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+}

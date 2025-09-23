@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = swabian
-religion = germanic
+religion = german_pagan
 technology_group = eastern
 capital = 85	# Köln
 fixed_capital = 85 # Cannot move capital away from this province & no power cost to move to it

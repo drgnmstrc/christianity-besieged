@@ -1,8 +1,8 @@
 #151 - Constantinople
 
-owner = Z01
-controller = Z01
-add_core = Z01
+owner = BLK
+controller = BLK
+add_core = BLK
 culture = tarkhagan
 religion = manichaeism
 capital = "Balikópli"

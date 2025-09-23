@@ -144,7 +144,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
-				limit = { religion_group = german_pagan }
+				limit = { religion_group = germanic_pagan }
 				save_event_target_as = german_pagan_province
 			}
 			clr_country_flag = harmonization_shangdi_conflict

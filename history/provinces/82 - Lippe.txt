@@ -3,10 +3,10 @@
 latent_trade_goods = {
 	coal
 }
-owner = G35
-controller = G35
+owner = RNS
+controller = RNS
 culture = saxon
-religion = germanic
+religion = german_pagan
 trade_goods = apiculture
 capital = "Arnsberg"
 base_tax = 3 
@@ -14,7 +14,7 @@ base_production = 3
 base_manpower = 1
 hre = yes
 is_city = yes
-add_core = G35
+add_core = RNS
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

@@ -1,8 +1,0 @@
-# No previous file for Frisjelân (G20)
-government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
-technology_group = eastern
-religion = germanic
-primary_culture = dutch
-capital = 1860 #Haag

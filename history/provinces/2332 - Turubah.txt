@@ -3,7 +3,7 @@
 owner = MFL
 controller = MFL
 add_core = MFL
-add_core = Y13
+add_core = HSH
 culture = hejazi_culture
 religion = sunni
 capital = "Truba"

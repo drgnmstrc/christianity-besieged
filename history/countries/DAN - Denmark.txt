@@ -1,7 +1,18 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = jutes
-religion = catholic
-technology_group = western
-historical_friend = NOR
-capital = 4149 #Kolding
+government_rank = 2
+primary_culture = danish
+religion = german_pagan
+technology_group = eastern
+capital = 100	# Groningen
+elector = yes
+
+1399.1.1 = {
+	monarch = {
+		name = "Otto IV"
+		dynasty = "Scyldingen"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

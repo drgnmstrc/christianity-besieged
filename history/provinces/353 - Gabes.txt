@@ -3,7 +3,7 @@
 owner = GHD
 controller = GHD 
 add_core = GHD
-add_core = R07
+add_core = BRQ
 add_core = TRP
 culture = isawiyen
 religion = sunni

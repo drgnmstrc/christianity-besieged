@@ -1,7 +1,7 @@
 #316 - Izmit
 
-owner = H09
-controller = H09
+owner = BTH
+controller = BTH
 culture = phryges
 religion = orphism
 capital = "Chalcedon"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 5
 is_city = yes
 fort_15th = yes
-add_core = H09
+add_core = BTH
 extra_cost = 8
 center_of_trade = 1
 discovered_by = western

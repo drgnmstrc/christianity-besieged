@@ -23,7 +23,7 @@ discovered_by = north_american
 	add_core = FRA
 	is_city = yes
 	capital = "Sept-Îles"
-	culture = cosmopolitan_french
+	culture = soisson
 	trade_goods = fish
 	religion = catholic
 }

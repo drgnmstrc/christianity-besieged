@@ -7,18 +7,17 @@ estate_nobles = {
 		#NOT = { has_reform = veche_republic }
 		#NOT = { has_reform = trading_city }
 		NOT = { has_government_attribute = disables_estate_nobles }
-		NOT = { has_country_flag = disables_estate_nobles_flag }
+		NOT = { has_disabled_estate = { estate = estate_nobles } }
 		OR = {
 			has_government_attribute = enables_estate_nobles
-			has_country_flag = enables_estate_nobles_flag
+			has_enabled_estate = { estate = estate_nobles }
+			has_unlocked_estate = { estate = estate_nobles }
 			AND = {
 				NOT = { has_government_attribute = is_pirate_republic_reform }
 				NOT = { government = native }
 				NOT = { has_reform = siberian_tribe }
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { has_reform = revolutionary_empire_reform }
-				NOT = { has_reform = reconvene_the_roman_senate_monarchy }
-				NOT = { has_reform = reconvene_the_roman_senate }
 				is_nomad = no
 				is_colonial_nation = no
 				if = {
@@ -103,13 +102,8 @@ estate_nobles = {
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
-			OR = {
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_nobles }
 		}	
 		influence = -40
 	}
@@ -117,13 +111,8 @@ estate_nobles = {
 	loyalty_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
-			OR = {
-				has_disaster = estate_church_disaster
-				has_disaster = estate_burghers_disaster
-				has_disaster = estate_brahmins_disaster
-				has_disaster = estate_vaisyas_disaster
-				has_disaster = estate_jains_disaster
-			}
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_nobles }
 		}
 		loyalty = -20
 	}
@@ -213,6 +202,12 @@ estate_nobles = {
 	
 	#Alternative naming of estates
 	custom_name = {
+		desc = estate_mamluks
+		trigger = {
+			tag = MAM
+		}
+	}
+	custom_name = {
 		desc = estate_imperial_nobility
 		trigger = {
 			has_reform = revolutionary_empire_reform
@@ -222,6 +217,13 @@ estate_nobles = {
 		desc = estate_oyo_mesi
 		trigger = {
 			tag = OYO
+		}
+	}
+	custom_name = {
+		desc = estate_eugeneis
+		trigger = {
+			tag = BYZ
+			culture_group = byzantine
 		}
 	}
 	custom_name = {
@@ -250,7 +252,9 @@ estate_nobles = {
 				culture_group = east_slavic
 				primary_culture = bulgarian
 				primary_culture = romanian
+				culture_group = slavic
 			}
+			NOT = { primary_culture = polish_new }
 		}
 	}
 	custom_name = {
@@ -258,6 +262,7 @@ estate_nobles = {
 		trigger = {
 			OR = {
 				primary_culture = polish
+				primary_culture = polish_new
 				primary_culture = lithuanian
 			}
 		}
@@ -299,6 +304,18 @@ estate_nobles = {
 				tag = MUG
 				has_government_attribute = enable_mansabdar_privileges
 			}
+		}
+	}
+	custom_name = {
+		desc = estate_pakoyoq
+		trigger = {
+			primary_culture = inca
+		}
+	}
+	custom_name = {
+		desc = estate_almahen
+		trigger = {
+			is_mayan_society_trigger = yes
 		}
 	}
 	custom_name = {
@@ -344,18 +361,16 @@ estate_nobles = {
 		trigger = {
 			OR = {
 				has_reform = prussian_republic_reform
+				has_reform = prussian_monarchy_base
 				has_reform = prussian_monarchy
-				tag = GER
+				AND = {
+					primary_culture = prussian 
+					tag = GER
+				}
 			}
 		}
 	}
 	custom_name = {
-		desc = estate_kurudiju
-		trigger = {
-			religion = qanumi
-		}
-	}
-		custom_name = {
 		desc = estate_alii
 		trigger = {
 			OR = {
@@ -474,6 +489,40 @@ estate_nobles = {
 		estate_nobles_force_conscription
 		estate_nobles_noble_officer_right
 		estate_nobles_expedition_rights
+		estate_nobles_highland_fortifications
+		estate_nobles_emirs_of_baghdad
+		estate_nobles_deteriorating_army
+		estate_nobles_defensive_policy
+		estate_nobles_tofangchi_regiment
+		estate_nobles_tupchi_artillery_corps
+		estate_nobles_qurchi_service
+		estate_nobles_mamlukian_administration
+		estate_nobles_enlist_the_mamluks
+		estate_nobles_vegvar_system
+		estate_nobles_ITA_military_governors
+		estate_nobles_GER_diploma_andreanum
+		estate_nobles_orangist_privileges
+		estate_nobles_MAY_arm_nobles_with_obsidian_blades
+		estate_nobles_MAY_spread_dynastic_influence
+		estate_nobles_AZT_triple_alliance
+		estate_nobles_AZT_warrior_culture
+		estate_nobles_reformatio_sigismundi
+		estate_nobles_basqaq_autonomy
+		estate_nobles_habsburg_disunity
+		estate_nobles_hab_habsburg_connections
+		estate_nobles_imperial_war_leader
+		estate_nobles_melting_pot_of_cultures
+		estate_nobles_hab_von_raab_restructions
+		estate_nobles_TIM_soyurghal_grants
+		estate_nobles_TIM_chagatai_warriors
+		estate_nobles_TIM_appease_the_elites
+		estate_nobles_MUG_development_of_the_subah
+		estate_nobles_four_class_system
+		estate_nobles_hungarian_nobility_privileges
+		estate_nobles_austrian_nobility_privileges
+		
+		# Christianity Besieged Redux
+		estate_nobles_moravian_strong_duchies
 	}
 
 	agendas = {
@@ -505,6 +554,12 @@ estate_nobles = {
 		estate_nobles_improve_prestige
 		estate_nobles_hire_advisor
 		estate_nobles_fire_advisor
+		estate_nobles_mam_three_privileges 
+		estate_nobles_mam_recruit_mamluks 
+		estate_nobles_mam_develop_military_infrastructure 
+		estate_nobles_mam_increase_army_tradition 
+		estate_nobles_mam_increase_army_professionalism 
+		estate_nobles_mam_focus_on_military_matters
 	}
 	
 	influence_from_dev_modifier = 1.0

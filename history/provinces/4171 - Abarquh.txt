@@ -1,8 +1,8 @@
 #4171 - Abarquh
 
-owner = PER
-controller = PER
-add_core = PER
+owner = ERS
+controller = ERS
+add_core = ERS
 add_core = YZD
 culture = persian
 religion = zoroastrian

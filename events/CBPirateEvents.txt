@@ -1,0 +1,51 @@
+namespace = CBPirateEvents
+
+country_event = {#Foreign warrior-princess arrives from faraway land to Rygir shores
+	id = CBPirateEvents.0
+	title = CBPirateEvents.0t
+	desc = CBPirateEvents.0d
+	picture = SHIP_SAILING_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = RGF
+        NOT = { is_year = 1465 }
+        has_consort = no
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = { #Get out of here!
+		name = CBPirateEvents.0a
+		add_prestige = 10
+        ai_chance = { factor = 2 }
+	}
+	option = { #Together we can achieve greatness.
+		name = CBPirateEvents.0b
+        add_stability = -2
+        set_ruler_religion = shiite
+        change_religion = shiite
+        set_religious_school = {
+            group = muslim
+            school = jafari_school
+        }
+        change_government = monarchy
+        add_government_reform = iqta
+        change_technology_group = western
+        define_consort = {
+            name = "Ariel"
+            dynasty = "Sayid"
+            culture = shamali
+            age = 32
+            adm = 3
+            dip = 6
+            mil = 6
+            female = yes
+        }
+        add_casus_belli = {
+            target = BDJ
+            type = cb_crusade
+            months = 120
+        }
+        ai_chance = { factor = 1 }
+	}
+}

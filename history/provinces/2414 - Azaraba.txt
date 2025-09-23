@@ -1,9 +1,9 @@
 #2414 - Azaraba
 
-owner = X20
-controller = X20
-add_core = X20
-culture = szkithi
+owner = SZK
+controller = SZK
+add_core = SZK
+culture = scythian
 religion = manichaeism
 hre = no
 base_tax = 3
@@ -25,6 +25,6 @@ discovered_by = nomad_group
 	add_core = RUS
 	controller = RUS
 	remove_core = TUR
-	culture = russian
+	culture = bolghar
 	religion = hellenism 
 }# Treaty of Kuchuk-Kainarji

@@ -3,9 +3,9 @@
 is_city = yes
 discovered_by = mesoamerican
 discovered_by = south_american
-owner = M45
-controller = M45
-add_core = M45
+owner = MGU
+controller = MGU
+add_core = MGU
 culture = arawak
 religion = animism
 capital = "Magua"

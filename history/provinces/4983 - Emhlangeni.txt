@@ -1,6 +1,6 @@
-owner = R44
-controller = R44
-add_core = R44
+owner = EHM
+controller = EHM
+add_core = EHM
 culture = khoemana
 religion = qanumi
 trade_goods = iron
@@ -11,8 +11,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = south_african

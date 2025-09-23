@@ -1,7 +1,28 @@
 government = monarchy
-add_government_reform = iqta
-primary_culture = al_misr_arabic
-add_accepted_culture = al_suryah_arabic
-religion = sunni
-technology_group = near_east
-capital = 361 # Cairo
+add_government_reform = mamluk_government
+primary_culture = juthudi
+add_accepted_culture = aybirean
+religion = ashabi
+technology_group = ottoman
+capital = 197
+add_army_professionalism = 0.1
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+
+1424.1.1 = {
+	monarch = {
+		name = "al-Nasr Faraj"
+		dynasty = "Mazymas"
+		culture = juthudi
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

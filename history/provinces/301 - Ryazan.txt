@@ -1,7 +1,7 @@
 #301 - Ryazan
 
-tribal_owner = Z02
-culture = russian
+tribal_owner = BSA
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

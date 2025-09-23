@@ -1,0 +1,84 @@
+graphical_culture = westerngfx
+color = { 204 140 172 }
+historical_idea_groups = {
+	exploration_ideas
+	expansion_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	quality_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	prussian_uhlan
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+monarch_names = { 
+	"Adéle #0" = -1
+	"Ailbhe #0" = -1
+	"Alfonso #1" = 10
+	"Alice #0" = -1
+	"Antso #6" = 10
+	"Aubinn #0" = -1
+	"Bouchard #1" = 10
+	"Beatrice #1" = -1
+	"Charles #1" = 10
+	"Crundmoel #0" = 0
+	"Eneko #1" = 10
+	"Eogan #0" = 0
+	"Feidlimid #0" = 0
+	"Fortun #1" = 10
+	"Gabron #0" = 0
+	"Gartzea #6" = 10
+	"Gelduin #1" = 10
+	"Geoffroy #2" = 10
+	"Gilla-Coluim #0" = 0
+	"Gilla-na-Noem #0" = 0
+	"Guichard #1" = 10
+	"Henri #1" = 10
+	"Isabella #0" = -1
+	"Jean #1" = 10
+	"Jeanne #2" = -1
+	"John #0" = 0
+	"Louis #3" = 10
+	"Munio #0" = 0
+	"Moel-Morda #1" = 10
+	"Pedro #1" = 10
+	"Philippe #3" = 10
+	"Raoul #0" = 0
+	"Sancho #1" = 10
+	"Stephen #0" = 0
+	"Thibault #2" = 10
+	"Toda #0" = -1
+	"Tota #0" = -1
+	"Iicnechon #1" = 10
+	"Elchobar #0" = 0
+}
+leader_names = { 
+	"Bergera" "Elizalde" "Goyeneche" "Jimeno" "Jimenez de Rada" "Navarro" "Palafox" "Perez de Zabalza" "de Aguirre" "de Albret"
+	"de Antillon" "de Aranda" "de Armendariz" "de Azagra" "de Azpilcueta" "de Beaumont" "de Beortegui" "de Borbon" "de Carranza" "de Garay"
+	"de Gori" "de Heredia" "de Hijar" "de Jaso" "de Landuvar" "de Salazar" "de Uribe" "de Urs?a" "de Yanguas" "de Zorate"
+}
+ship_names = { 
+	"Atlontida" "Conde de Evreux" "Conde de Foix" "Conde de Guenduloin" "Conde de Lerun" "Don Jimeno" "Duque de Armagnac" "Duque de Champara" "El Agramontes" "El Beaomontes"
+	"El Bearnes" "El Cruzado Navarro" "El Montares" "El Navarro" "El Salvador" "El Trobador" "El Virador" "Emperador Hisponico" "Europa" "Mar de Navarra"
+	"Nuestra Sra de Leyre" "Pruncipe de Viana" "Reina Juana" "Rey Enrique" "Rey Garcua" "Rey Sancho" "Reyno de Navarra" "Reyno de Pamplona" "San Agustun" "San Andres"
+	"San Antonio" "San Carlos" "San Enrique" "San Esteban" "San Fermun" "San Francisco" "San Francisco Xabier" "San Gregorio" "San Juan" "San Leon"
+	"San Miguel Arcongel" "San Raimundo" "San Virila" "Santa Ana" "Santa Catalina" "Santa Juana" "Santa Leonor" "Santusima Trinidad" "Seror de Tudela" "Lapurdi"
+	"Nafarroa" "Rioxa" "Gipuzkoa" "Bizkaia" "Baskoniako" 
+}

@@ -1,10 +1,10 @@
 #2222 - Ardakan
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = yazdi
 religion = manichaeism
-add_core = PER
+add_core = ERS
 add_core = ISF
 capital = "Ardakan"
 trade_goods = incense

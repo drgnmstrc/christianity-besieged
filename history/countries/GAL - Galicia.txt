@@ -4,9 +4,9 @@ primary_culture = galician
 religion = liritism
 technology_group = ottoman
 capital = 206	# Galicia
-historical_friend = J05
-historical_friend = LON
-historical_friend = J08
+historical_friend = TRD
+historical_friend = LUS
+historical_friend = INT
 
 1444.1.1 = {
 	monarch = {

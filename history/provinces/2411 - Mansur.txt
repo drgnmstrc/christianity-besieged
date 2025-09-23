@@ -1,10 +1,10 @@
 #2411 - Mansur
 
-owner = X20
-controller = X20
-add_core = X20
+owner = SZK
+controller = SZK
+add_core = SZK
 add_core = QAR
-culture = szkithi
+culture = scythian
 religion = manichaeism
 hre = no
 base_tax = 3 

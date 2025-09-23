@@ -1,6 +1,6 @@
-owner = R60
-controller = R60
-add_core = R60
+owner = NEM
+controller = NEM
+add_core = NEM
 is_city = yes
 culture = ijaw 
 religion = mudarian

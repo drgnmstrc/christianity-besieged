@@ -1,0 +1,1095 @@
+Rural_Setup_one_six = {
+	ROOT = {  
+		set_variable = { which = Slot_amount_3 which = 0 }
+		
+		while = {
+			limit = {
+				ROOT = {
+					AND = {
+						NOT = { is_variable_equal = { which = Slot_amount value = 0 } }
+						NOT = { is_variable_equal = { which = Slot_amount_3 value = 6 } }
+					}
+				}
+			}
+			
+			if = {
+				limit = { 
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_1 }
+						}
+					}
+				}	
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_grain 
+								NOT = { trade_goods = grain }
+								NOT = { has_province_flag = Rural_grain_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_grain_Slot_1
+						setup_Cost_Rural = { grain = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_grain  
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_livestock 
+								NOT = { trade_goods = livestock }
+								NOT = { has_province_flag = Rural_livestock_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_livestock_Slot_1
+						setup_Cost_Rural = { livestock = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_livestock 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_wine 
+								NOT = { trade_goods = wine }
+								NOT = { has_province_flag = Rural_wine_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wine_Slot_1
+						setup_Cost_Rural = { wine = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_wine 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_apiculture 
+								NOT = { trade_goods = apiculture }
+								NOT = { has_province_flag = Rural_apiculture_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_apiculture_Slot_1
+						setup_Cost_Rural = { apiculture = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_apiculture 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_wool 
+								NOT = { trade_goods = wool }
+								NOT = { has_province_flag = Rural_wool_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wool_Slot_1
+						setup_Cost_Rural = { wool = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_wool 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_1
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_1
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_1
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_1
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_1
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_1
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_2 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_livestock 
+								NOT = { trade_goods = livestock }
+								NOT = { has_province_flag = Rural_livestock_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_livestock_Slot_2
+						setup_Cost_Rural = { livestock = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_livestock 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_wine 
+								NOT = { trade_goods = wine }
+								NOT = { has_province_flag = Rural_wine_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wine_Slot_2
+						setup_Cost_Rural = { wine = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_wine 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_apiculture
+								NOT = { trade_goods = apiculture }
+								NOT = { has_province_flag = Rural_apiculture_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_apiculture_Slot_2
+						setup_Cost_Rural = { apiculture = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_apiculture 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_wool 
+								NOT = { trade_goods = wool }
+								NOT = { has_province_flag = Rural_wool_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wool_Slot_2
+						setup_Cost_Rural = { wool = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_wool 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_2
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_2
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_2
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_2
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_2
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_2
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_3 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_wine 
+								NOT = { trade_goods = wine }
+								NOT = { has_province_flag = Rural_wine_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wine_Slot_3
+						setup_Cost_Rural = { wine = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_wine 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_apiculture 
+								NOT = { trade_goods = apiculture }
+								NOT = { has_province_flag = Rural_apiculture_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_apiculture_Slot_3
+						setup_Cost_Rural = { apiculture = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_apiculture 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_wool 
+								NOT = { trade_goods = wool }
+								NOT = { has_province_flag = Rural_wool_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wool_Slot_3
+						setup_Cost_Rural = { wool = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_wool 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_3
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_3
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_3
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_3
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_3
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_3
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_4 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_apiculture 
+								NOT = { trade_goods = apiculture }
+								NOT = { has_province_flag = Rural_apiculture_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_apiculture_Slot_4
+						setup_Cost_Rural = { apiculture = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_apiculture 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_wool 
+								NOT = { trade_goods = wool }
+								NOT = { has_province_flag = Rural_wool_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wool_Slot_4
+						setup_Cost_Rural = { wool = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_wool 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_4
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_4
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_4
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_4
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_4
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_4
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_5 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_wool 
+								NOT = { trade_goods = wool }
+								NOT = { has_province_flag = Rural_wool_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_wool_Slot_5
+						setup_Cost_Rural = { wool = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_wool 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_5
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_5
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_5
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_5
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_5
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_5
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_6 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Rural_horses
+								NOT = { trade_goods = horses }	
+								NOT = { has_province_flag = Rural_horses_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_horses_Slot_6
+						setup_Cost_Rural = { horses = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Rural_horses 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_6
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_6
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_6
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_6
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_6
+			}
+			change_variable = { which = Slot_amount_3 value = 1 }
+			subtract_variable = { which = Slot_amount value = 1 }
+		}
+	}
+}
+
+
+Rural_Setup_six_tl = {
+	ROOT = {
+		set_variable = { which = Slot_amount_4 which = 0 }
+		
+		while = {
+			limit = {
+				ROOT = {
+					AND = {
+						NOT = { is_variable_equal = { which = Slot_amount value = 0 } }
+						NOT = { is_variable_equal = { which = Slot_amount_4 value = 6 } }
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_7 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_lumber
+								NOT = { trade_goods = lumber }
+								NOT = { has_province_flag = Rural_lumber_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_lumber_Slot_7
+						setup_Cost_Rural = { lumber = yes }
+						set_variable = { which = Ducats_price_7 which = Ducats_price }
+						clr_province_flag = Rural_lumber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_7
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_7 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_7
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_7 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_7
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_7 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_7
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_8 }
+						}
+					}
+				}
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_fur
+								NOT = { trade_goods = fur  }
+								NOT = { has_province_flag = Rural_fur_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_fur_Slot_8
+						setup_Cost_Rural = { fur = yes }
+						set_variable = { which = Ducats_price_8 which = Ducats_price }
+						clr_province_flag = Rural_fur 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_8
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_8 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_8
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_8 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_8
+				
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_9 }
+						}
+					}
+				}
+				if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Rural_olive_oil
+								NOT = { trade_goods = olive_oil }
+								NOT = { has_province_flag = Rural_olive_oil_Slot_9 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_olive_oil_Slot_9
+						setup_Cost_Rural = { olive_oil = yes }
+						set_variable = { which = Ducats_price_9 which = Ducats_price }
+						clr_province_flag = Rural_olive_oil 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_9 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_9
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_9 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_9
+				
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Rural  
+							NOT = { has_province_flag = Rural_Slot_10 }
+						}
+					}
+				}
+				if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Rural_citrus
+								NOT = { trade_goods = citrus  }
+								NOT = { has_province_flag = Rural_citrus_Slot_10 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Rural_citrus_Slot_10
+						setup_Cost_Rural = { citrus = yes }
+						set_variable = { which = Ducats_price_10 which = Ducats_price }
+						clr_province_flag = Rural_citrus 
+					}
+				}
+				set_province_flag = Rural_Slot_10
+				
+			}
+			
+			change_variable = { which = Slot_amount_4 value = 1 }
+			subtract_variable = { which = Slot_amount value = 1 }
+		}
+	}
+}

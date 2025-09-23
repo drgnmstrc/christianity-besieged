@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = wabanaki
+primary_culture = abenaki
 religion = totemism
 technology_group = north_american
 capital = 968
-historical_friend = Q03
+historical_friend = TRF
 
 1444.11.11 = {
 	monarch = {

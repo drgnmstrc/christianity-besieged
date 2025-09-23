@@ -1,8 +1,8 @@
 #1148 - Gobir
 
-owner = R51
-controller = R51
-add_core = R51
+owner = GOB
+controller = GOB
+add_core = GOB
 culture = hausa
 is_city = yes
 base_manpower = 3

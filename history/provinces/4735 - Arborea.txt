@@ -1,10 +1,10 @@
 # 4725 - Arborea
 
-owner = Y03
-controller = Y03
-add_core = Y03
+owner = IFR
+controller = IFR
+add_core = IFR
 religion = ashabi
-culture = mutawasiti 
+culture = bahrumi 
 hre = no 
 base_tax = 2
 base_production = 2

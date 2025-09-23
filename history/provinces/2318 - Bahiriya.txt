@@ -1,8 +1,8 @@
 #2318 - Bahariya
 
-owner = Y05
-controller = Y05
-add_core = Y05
+owner = MUQ
+controller = MUQ
+add_core = MUQ
 culture = al_misr_arabic
 religion = sunni
 capital = "el Qasr"

@@ -3,7 +3,7 @@
 owner = GRA
 controller = GRA
 add_core = GRA
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 capital = "Melilla"
 trade_goods = fish

@@ -1,9 +1,9 @@
 owner = PAL
 controller = PAL 
 culture = alemanni
-religion = germanic
+religion = german_pagan
 add_core = PAL
-add_core = Y15
+add_core = ALD
 capital = "Geneva"
 trade_goods = cloth
 hre = yes

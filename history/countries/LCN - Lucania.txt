@@ -1,0 +1,16 @@
+government = republic
+add_government_reform = iqta_council_reform
+technology_group = ottoman
+religion = ashabi
+primary_culture = graeci
+capital = 1934 # Lucania
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Ladislao I"
+		dynasty = "Durazzo"
+		dip = 5
+		mil = 5
+		adm = 4
+	}
+}

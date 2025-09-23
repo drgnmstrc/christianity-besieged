@@ -11,13 +11,13 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ROM }
-			NOT = { exists = U02 }
-			NOT = { exists = U15 }
-			NOT = { exists = H25 }
-			NOT = { tag = U01 }
+			NOT = { exists = TLY }
+			NOT = { exists = RMC }
+			NOT = { exists = RME }
+			NOT = { tag = BTA }
 			NOT = { tag = HLR }
 			OR = {
-				primary_culture = italian_turk
+				primary_culture = italo_turk
 				primary_culture = roman
 				primary_culture = graeci
 			}
@@ -93,7 +93,7 @@ country_decisions = {
 				}
 				set_government_rank = 2
 			}
-			change_tag = U02
+			change_tag = TLY
 			if = {
 				limit = {
 					religion = ashabi
@@ -101,7 +101,7 @@ country_decisions = {
 				every_owned_province = {
 					limit = {
 						OR = {
-							culture = italian_turk
+							culture = italo_turk
 							culture = roman
 						}
 						religion = ashabi
@@ -126,10 +126,10 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = U02
+				add_permanent_claim = TLY
 			}
 			add_prestige = 25
-			U02 = {
+			TLY = {
 				set_capital = 118
 			}
 			set_country_flag = formed_italy_flag
@@ -150,10 +150,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ROM }
-			NOT = { exists = U02 }
-			NOT = { exists = H25 }
+			NOT = { exists = TLY }
+			NOT = { exists = RME }
 			NOT = { tag = HLR }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			OR = {
 				ai = no
 				AND = {
@@ -227,16 +227,40 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { accepted_culture = roman }
+					culture_group = occidental
 				}
-				add_accepted_culture = roman
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = roman
+				}
+				change_primary_culture = roman
 			}
-			change_tag = H25
 			if = {
 				limit = {
-					NOT = { was_tag = H28 }
+					culture_group = illyro_dalmatian
 				}
-				H25 = { set_capital = 118 }
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = romani
+				}
+				change_primary_culture = romani
+			}
+			if = {
+				limit = {
+					culture_group = cisalpin_romisch
+				}
+				every_owned_province = {
+					limit = { has_owner_culture = yes }
+					change_culture = romansh
+				}
+				change_primary_culture = romansh
+			}
+			change_tag = RME
+			if = {
+				limit = {
+					NOT = { was_tag = VEN }
+				}
+				RME = { set_capital = 118 }
 			}
 			if = {
 				limit = { NOT = { has_reform = privilegiis_venetia } }
@@ -246,19 +270,19 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			france_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			iberia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H25
+				add_permanent_claim = RME
 			}
 			add_prestige = 25
 			set_country_flag = formed_rome_flag

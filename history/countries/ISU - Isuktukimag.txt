@@ -1,0 +1,19 @@
+government = native
+add_government_reform = native_ikniksugrit_priests_reform
+primary_culture = inupiat
+religion = ikniksugritism
+technology_group = north_american
+unit_type = north_american
+capital = 1008
+historical_rival = ALU
+historical_rival = INU
+
+1444.11.11 = {
+	monarch = {
+		name = "Aput"
+		dynasty = "Arnakaw"
+		adm = 3
+		dip = 1
+		mil = 5
+	}
+}

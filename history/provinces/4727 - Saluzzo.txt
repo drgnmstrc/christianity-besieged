@@ -1,8 +1,8 @@
 #4727 - Saluzzo
-owner = H19
-controller = H19
-add_core = H19
-culture = swiss
+owner = TSP
+controller = TSP
+add_core = TSP
+culture = helvetian
 religion = ashabi
 hre = no
 base_tax = 3

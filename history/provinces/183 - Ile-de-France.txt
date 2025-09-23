@@ -1,17 +1,17 @@
 # 183 Île-de-France - Principal cities: Paris
 
-owner = B08
-controller = B08
+owner = SSN
+controller = SSN
 capital = "Lutetia"
 is_city = yes
-culture = cosmopolitan_french
-religion = anglican
+culture = soisson
+religion = theodolian
 hre = no
 base_tax = 4
 base_production = 4
 trade_goods = apiculture
 base_manpower = 4
-add_core = B08
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

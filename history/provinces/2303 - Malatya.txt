@@ -1,8 +1,8 @@
 #2303 - Malatya
 
-owner = H23
-controller = H23
-add_core = H23
+owner = SOP
+controller = SOP
+add_core = SOP
 add_core = ARM
 culture = kurdish
 religion = mandaeism

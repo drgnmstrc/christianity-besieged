@@ -1,5 +1,5 @@
 government = republic
 technology_group = western
-religion = viatorism
+religion = sol_invictus
 primary_culture = roman
 capital = 1090	# Sidney

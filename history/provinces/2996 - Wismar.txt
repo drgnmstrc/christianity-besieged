@@ -1,8 +1,8 @@
 # - Wismar
 
-owner = V17
-controller = V17
-add_core = V17
+owner = WSZ
+controller = WSZ
+add_core = WSZ
 culture = obotriske
 religion = slavic
 hre = no

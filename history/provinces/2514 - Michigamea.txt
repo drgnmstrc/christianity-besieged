@@ -31,7 +31,7 @@ discovered_by = north_american
 	is_city = yes
 	trade_goods = grain
 	religion = catholic
-	culture = cosmopolitan_french
+	culture = soisson
 }
 1762.1.1 = {
 	owner = SPA
@@ -44,7 +44,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	remove_core = SPA
-	culture = cosmopolitan_french
+	culture = soisson
 } # Treaty of San Ildefonso
 1803.4.3 = {
 	owner = USA

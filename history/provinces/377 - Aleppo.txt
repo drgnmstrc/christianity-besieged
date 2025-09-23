@@ -1,8 +1,8 @@
 #377 - Aleppo
 
-owner = X03
-controller = X03
-add_core = X03
+owner = CLC
+controller = CLC
+add_core = CLC
 culture = cilician
 religion = mandaeism
 capital = "Halab"

@@ -1,8 +1,8 @@
 #395 - Qatar
 
-owner = Y13
-controller = Y13
-add_core = Y13
+owner = HSH
+controller = HSH
+add_core = HSH
 culture = gulf_arabic
 religion = sunni
 capital = "Qatar"
@@ -30,16 +30,16 @@ discovered_by = east_african
 	add_core = POR
 } # Occupied by the Portuguese
 1622.5.3 = {
-	owner = PER
-	controller = PER
-	add_core = PER
+	owner = ERS
+	controller = ERS
+	add_core = ERS
 	remove_core = POR
 } # Taken by Abbas I of Safavid
 1783.1.1 = {
 	owner = NAJ
 	controller = NAJ
 	add_core = NAJ
-	remove_core = PER
+	remove_core = ERS
 } # Reconquered by the Bani Utubs
 1799.1.1 = {
 	owner = OMA

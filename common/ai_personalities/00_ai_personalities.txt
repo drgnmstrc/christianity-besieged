@@ -292,20 +292,20 @@ ai_militarist = {
 		modifier = {
 			factor = 2
 			OR = {
-				tag = A01
-				tag = A02
-				tag = A03
-				tag = A04
-				tag = N01
-				tag = G04
-				tag = H10
+				tag = NVS
+				tag = SVR
+				tag = DHR
+				tag = MMR
+				tag = RDJ
+				tag = GEP
+				tag = PHR
 			}
 		}			
 		modifier = {
 			factor = 0.5
 			OR = {
-				tag = B08
-				tag = G01
+				tag = SSN
+				tag = GTH
 			}
 		}		
 		modifier = {
@@ -398,25 +398,25 @@ ai_colonialist = {
 		modifier = {
 			factor = 3
 			OR = {
-				tag = LON
-				tag = Y01
+				tag = LUS
+				tag = ADU
 				tag = F01
 				tag = GAL
-				tag = N09
+				tag = HJL
 			}
 		}
 		modifier = {
 			factor = 2
 			OR = {
-				tag = H01
-				tag = G02
+				tag = AMO
+				tag = AGU
 			}
 		}
 		modifier = {
 			factor = 0.5
 			OR = {
-				tag = G01
-				tag = U01
+				tag = GTH
+				tag = BTA
 			}
 		}
 	}

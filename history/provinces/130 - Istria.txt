@@ -1,11 +1,11 @@
 #130 - Istria
 
-owner = U10
-controller = U10
-add_core = U10
+owner = HSR
+controller = HSR
+add_core = HSR
 culture = istroli
 religion = ashabi
-add_core = G06
+add_core = LOM
 capital = "Trieste"
 trade_goods = salt
 hre = no

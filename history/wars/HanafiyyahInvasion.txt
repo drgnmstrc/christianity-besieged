@@ -8,30 +8,30 @@ war_goal = {
 1442.1.11 = {
 	add_attacker = ETH
 	add_attacker = MAK
-	add_attacker = R56
-	add_attacker = X05
+	add_attacker = BTY
+	add_attacker = JUD
 	add_defender = MAM
 }
 
 1442.5.18 = {
-	add_defender = Y05
-	add_defender = Y10
-	add_defender = Y04
-	add_defender = Y08
-	add_defender = Y07
-	add_defender = Y06
+	add_defender = MUQ
+	add_defender = RSG
+	add_defender = CAI
+	add_defender = ALX
+	add_defender = MRM
+	add_defender = BRD
 	rem_defender = MAM
 }
 
 1442.6.13 = {
 	rem_attacker = ETH
 	rem_attacker = MAK
-	rem_attacker = R56
-	rem_attacker = X05
-	rem_defender = Y05
-	rem_defender = Y10
-	rem_defender = Y04
-	rem_defender = Y08
-	rem_defender = Y07
-	rem_defender = Y06
+	rem_attacker = BTY
+	rem_attacker = JUD
+	rem_defender = MUQ
+	rem_defender = RSG
+	rem_defender = CAI
+	rem_defender = ALX
+	rem_defender = MRM
+	rem_defender = BRD
 }

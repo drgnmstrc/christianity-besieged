@@ -1,9 +1,9 @@
 #306 - Nijni-Novgorod
 
-owner = Z11
-controller = Z11
-add_core = Z11
-culture = russian
+owner = NND
+controller = NND
+add_core = NND
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

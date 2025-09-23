@@ -1,0 +1,42 @@
+march = {
+	first = ARM
+	second = KAK
+	start_date = 1444.11.1
+	end_date = 1465.1.1
+}
+
+vassal = {
+	first = ERS
+	second = SRV
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+vassal = {
+	first = ERS
+	second = KRY
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+guarantee = {
+	first = ERS
+	second = AWA
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = CLC
+	second = SRY
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+alliance = {
+	first = ARM
+	second = ERS
+	start_date = 1408.9.7
+	end_date = 1746.9.9
+}

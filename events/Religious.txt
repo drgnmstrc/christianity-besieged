@@ -1635,8 +1635,8 @@ country_event = {
 	option = {
 		name = "religious_events.18.a" #
 		ai_chance = { factor = 100 }
-		trigger = { any_owned_province = { religion = anglican } }
-		change_religion = anglican
+		trigger = { any_owned_province = { religion = theodolian } }
+		change_religion = theodolian
 		add_stability = -4
 	}
 	option = {

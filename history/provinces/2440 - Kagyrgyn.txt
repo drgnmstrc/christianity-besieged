@@ -30,6 +30,6 @@ discovered_by = KMC }
 	owner = RUS
 	controller = RUS
 	religion = hellenism
-	culture = russian
+	culture = bolghar
 }
 1788.1.1 = { add_core = RUS }

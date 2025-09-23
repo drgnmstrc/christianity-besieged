@@ -1,8 +1,8 @@
 # 4741 - Halle
 
-owner = N21
-controller = N21
-add_core = N21
+owner = POB
+controller = POB
+add_core = POB
 culture = polobske
 religion = slavic
 hre = no

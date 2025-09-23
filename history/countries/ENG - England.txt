@@ -30,7 +30,7 @@ national_focus = DIP
 
 1445.4.23 = {
 	queen = {
-		country_of_origin = PRO
+		country_of_origin = CHP
 		name = "Margaret"
 		dynasty = "d'Anjou"
 		birth_date = 1430.3.23
@@ -859,7 +859,7 @@ national_focus = DIP
 1689.2.15 = {
 	monarch = {
 		name = "William III"
-		culture = dutch
+		culture = frisian
 		dynasty = "van Oranje"
 		birth_date = 1650.11.4
 		adm = 3

@@ -1,13 +1,13 @@
 # 1879 - Alençon
 
-owner = B15
-controller = B15
-add_core = B15
-add_claim = B08
+owner = SGN
+controller = SGN
+add_core = SGN
+add_claim = SSN
 capital = "Sagien"
 is_city = yes
 culture = gaulish
-religion = anglican
+religion = theodolian
 hre = no
 base_tax = 5
 base_production = 4

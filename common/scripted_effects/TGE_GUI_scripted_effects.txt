@@ -1,0 +1,1913 @@
+base_button_clear_flags = {
+	if = {
+		limit = {
+			ROOT = { has_province_flag = TGE_GUI_open }
+		}
+		ROOT = { 
+			clr_province_flag = TGE_GUI_Pick_Window  
+			clr_province_flag = TGE_GUI_Pick_Window_TradeGood 
+			clr_province_flag = TGE_GUI_Pick_Window_Infrastructure
+			clr_province_flag = TGE_GUI_Pick_Window_Infrastructure_TradeGood 
+			clr_province_flag = TGE_GUI_open 
+		}
+		FROM = {
+			every_owned_province = { 
+				limit = {
+					has_province_flag = TGE_GUI_open 
+				}
+				clr_province_flag = TGE_GUI_open 
+				clr_province_flag = TGE_GUI_Pick_Window  
+				clr_province_flag = TGE_GUI_Pick_Window_TradeGood 
+				clr_province_flag = TGE_GUI_Pick_Window_Infrastructure
+				clr_province_flag = TGE_GUI_Pick_Window_Infrastructure_TradeGood   
+			}
+		} 
+	}
+	
+	else = {	
+		FROM = {
+			every_owned_province = { 
+				limit = {
+					has_province_flag = TGE_GUI_open 
+				}
+				clr_province_flag = TGE_GUI_open 
+				clr_province_flag = TGE_GUI_Pick_Window  
+				clr_province_flag = TGE_GUI_Pick_Window_TradeGood 
+				clr_province_flag = TGE_GUI_Pick_Window_Infrastructure
+				clr_province_flag = TGE_GUI_Pick_Window_Infrastructure_TradeGood   
+			}
+		}
+		ROOT = { set_province_flag = TGE_GUI_open }
+	}
+}
+
+close_button_clear_flags = {
+	ROOT = { 
+		clr_province_flag = TGE_GUI_Pick_Window  
+		clr_province_flag = TGE_GUI_Pick_Window_TradeGood 
+		clr_province_flag = TGE_GUI_Pick_Window_Infrastructure
+		clr_province_flag = TGE_GUI_Pick_Window_Infrastructure_TradeGood 
+		clr_province_flag = TGE_GUI_Pick_Window_Building
+		clr_province_flag = TGE_GUI_open 
+	}
+	FROM = {
+		every_owned_province = { 
+			clr_province_flag = TGE_GUI_open 
+			clr_province_flag = TGE_GUI_Pick_Window  
+			clr_province_flag = TGE_GUI_Pick_Window_TradeGood 
+			clr_province_flag = TGE_GUI_Pick_Window_Infrastructure
+			clr_province_flag = TGE_GUI_Pick_Window_Infrastructure_TradeGood  
+			clr_province_flag = TGE_GUI_Pick_Window_Building				
+		}
+	} 
+}
+
+Setup_goods_Slots_Rural = {
+	ROOT = {
+		set_variable = { which = Slot_amount value = 0 }
+	}
+	if = {	
+		limit = {
+			ROOT = {
+				NOT = { has_terrain = glacier }
+				NOT = { has_terrain = desert }
+				NOT = { has_terrain = coastal_desert }
+				NOT = { has_terrain = forest }
+			}
+		}
+		
+		if = {
+			limit = {
+				ROOT = { 
+					NOT = { has_climate = arctic }
+				}
+			}
+			set_province_flag = Rural_grain
+			set_province_flag = Rural_livestock
+			set_province_flag = Rural_apiculture
+			set_province_flag = Rural_horses
+			set_province_flag = Rural_grain_show
+			set_province_flag = Rural_livestock_show
+			set_province_flag = Rural_apiculture_show
+			set_province_flag = Rural_horses_show
+			change_variable = { which = Slot_amount value = 4 }
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							trade_goods = grain
+							trade_goods = livestock
+							trade_goods = apiculture
+							trade_goods = horses
+						}
+					}
+				}
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					NOT = {
+						has_winter = severe_winter
+						has_climate = arctic
+						has_climate = arid
+						has_climate = tropical
+						has_terrain = jungle
+						has_terrain = steppe
+						has_terrain = marsh
+						has_terrain = savannah
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							religion_group = muslim
+						}
+					}
+				}
+				set_province_flag = Rural_wine
+				set_province_flag = Rural_wine_show
+				change_variable = { which = Slot_amount value = 1 }
+			}
+			
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							has_winter = severe_winter
+							has_winter = mild_winter
+							has_winter = normal_winter
+							has_terrain = woods
+						}
+					}
+				}
+				set_province_flag = Rural_olive_oil
+				set_province_flag = Rural_citrus
+				set_province_flag = Rural_olive_oil_show
+				set_province_flag = Rural_citrus_show
+				change_variable = { which = Slot_amount value = 2 }
+			}
+			
+			
+			
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							trade_goods = olive_oil
+							trade_goods = citrus
+							trade_goods = wine
+						}
+					}
+				}
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+		
+		if = {
+			limit = {	
+				ROOT = { 
+					NOT = {
+						has_climate = tropical
+						has_terrain = jungle
+					}
+				}
+			}
+			set_province_flag = Rural_wool
+			set_province_flag = Rural_wool_show
+			change_variable = { which = Slot_amount value = 1 }
+			
+			if = {
+				limit = {
+					ROOT = {
+						trade_goods = wool
+					}
+				}
+				ROOT = {
+					subtract_variable = { which = Slot_amount value = 1 }
+				}
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Lumber
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Rural_lumber_show
+		set_province_flag = Rural_lumber
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = lumber
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				AND = {
+					OR = {
+						has_terrain = forest
+						has_terrain = woods
+						has_terrain = hills
+						has_terrain = mountain
+						has_terrain = grasslands
+						has_terrain = steppe
+						has_winter = normal_winter
+						has_winter = severe_winter
+					}
+					NOT = { has_terrain = glacier }
+					NOT = { has_terrain = desert }
+					NOT = { has_terrain = coastal_desert }
+				}
+			}
+		}
+		
+		set_province_flag = Rural_fur
+		set_province_flag = Rural_fur_show
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = fur
+				}
+			}
+			
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+}
+
+Setup_goods_Slots_Port = {
+	set_variable = { which = Slot_amount value = 0 }
+	
+	if = {
+		limit = {
+			ROOT = { 
+				has_port = yes
+			}
+		}
+		set_province_flag = Port_fish_show
+		set_province_flag = Port_fish
+		set_province_flag = Port_naval_supplies_show
+		set_province_flag = Port_naval_supplies
+		set_province_flag = Port_salt_show
+		set_province_flag = Port_salt
+		set_province_flag = Port_seafood_show
+		set_province_flag = Port_seafood
+		change_variable = { which = Slot_amount value = 4 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					OR = {
+						trade_goods = fish
+						trade_goods = naval_supplies
+						trade_goods = salt
+						trade_goods = seafood
+					}
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Amber
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Port_amber_show
+		set_province_flag = Port_amber
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = amber
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Pearls
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Port_pearls_show
+		set_province_flag = Port_pearls
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = pearls
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Sea_turtle
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Port_sea_turtle_show
+		set_province_flag = Port_sea_turtle
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = sea_turtle
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Whaling
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Port_whaling_show
+		set_province_flag = Port_whaling
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = whaling
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+
+}
+
+Setup_goods_Slots_Urban = {
+	set_variable = { which = Slot_amount value = 0 }	
+	if = {
+		limit = {
+			
+		}
+		set_province_flag = Urban_Cloth_show
+		set_province_flag = Urban_Cloth
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = Cloth
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+}
+
+Setup_goods_Slots_Mine = {
+	set_variable = { which = Slot_amount value = 0 }	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Iron
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_iron_show
+		set_province_flag = Mine_iron
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = iron
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Copper
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_copper_show
+		set_province_flag = Mine_copper
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = copper
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Tin
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_tin_show
+		set_province_flag = Mine_tin
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = tin
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Zinc
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_zinc_show
+		set_province_flag = Mine_zinc
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = zinc
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Lead
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_lead_show
+		set_province_flag = Mine_lead
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = lead
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Gold
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_gold_show
+		set_province_flag = Mine_gold
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = gold
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Silver
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_silver_show
+		set_province_flag = Mine_silver
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = silver
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Marble
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_marble_show
+		set_province_flag = Mine_marble
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = marble
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Gems
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_gems_show
+		set_province_flag = Mine_gems
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = gems
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+	
+	if = {
+		limit = {
+			ROOT = { 
+				check_variable = {
+					which = NR_goods_Coal
+					value = 1
+				}
+			}
+		}
+		set_province_flag = Mine_coal_show
+		set_province_flag = Mine_coal
+		change_variable = { which = Slot_amount value = 1 }
+		
+		if = {
+			limit = {
+				ROOT = {
+					trade_goods = coal
+				}
+			}
+			ROOT = {
+				subtract_variable = { which = Slot_amount value = 1 }
+			}
+		}
+	}
+}
+
+
+base_button_Setup = {
+	if = {
+		limit = {
+			ROOT = {
+				check_variable = {
+					which = Inf_lvl
+					value = 0
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				ROOT = {	
+					OR = {
+						trade_goods = fish
+						trade_goods = whaling
+						trade_goods = naval_supplies
+						trade_goods = seafood	
+						trade_goods = amber
+						trade_goods = sea_turtle
+						trade_goods = pearls
+						AND = {
+							trade_goods = salt
+							has_port = yes
+						}
+					}
+					has_port = yes
+				}
+			}
+			set_province_flag = Port
+			
+			ROOT = {
+				if = {
+					limit = {
+						OR = {
+							has_winter = severe_winter
+							has_climate = arctic
+						}
+					}
+					set_variable = {   
+						which = Inf_lvl
+						value = 1
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							area = finland_area
+							area = gotaland_area
+							area = skaneland_area
+							area = denmark_area
+							area = karelia_area
+							area = hinter_pommern_area
+							area = vorpommern_area
+							area = mecklenburg_area
+							region = baltic_region
+							province_id = 1775
+							province_id = 4149
+							province_id = 4142
+						}
+					}
+					set_variable = {   
+						which = Inf_lvl
+						value = 1.1
+					}
+				}
+				else_if = {
+					limit = {
+						superregion = europe_superregion
+						NOT = { is_variable_equal = { which = Inf_lvl value = 1.1 } }
+						OR = {
+							has_winter = normal_winter
+							has_winter = mild_winter
+						}
+					}
+					set_variable = {   
+						which = Inf_lvl
+						value = 1.2
+					}
+				}
+				else_if = {
+					limit = {
+						superregion = europe_superregion
+						NOT = { is_variable_equal = { which = Inf_lvl value = 1.1 } }
+						NOT = { is_variable_equal = { which = Inf_lvl value = 1.2 } }
+						OR = {
+							NOT = { has_winter = normal_winter }
+							NOT = { has_winter = mild_winter }
+						}
+					}
+					set_variable = {   
+						which = Inf_lvl
+						value = 1.3
+					}
+				}
+				
+				trigger_switch = {
+					on_trigger = trade_goods
+					fish = { setup_PRICE_Port = { fish = yes } }
+					whaling = { setup_PRICE_Port = { whaling = yes } }
+					naval_supplies = { setup_PRICE_Port = { naval_supplies = yes } }
+					seafood = { setup_PRICE_Port = { seafood = yes } }
+					salt = { setup_PRICE_Port = { salt = yes } }
+					amber = { setup_PRICE_Port = { amber = yes } }
+					pearls = { setup_PRICE_Port = { pearls = yes } }
+					sea_turtle = { setup_PRICE_Port = { sea_turtle = yes } }
+				}
+				
+				Setup_goods_Slots_Port = yes
+				
+			}
+		}
+		
+		else_if = {
+			limit = {
+				ROOT = {
+					OR = {
+						trade_goods = grain
+						trade_goods = fur
+						trade_goods = lumber
+						trade_goods = wine
+						trade_goods = citrus
+						trade_goods = horses
+						trade_goods = olive_oil
+						trade_goods = livestock	
+						trade_goods = potato
+						trade_goods = apiculture
+						trade_goods = wool 
+					}
+				}
+			}
+			ROOT = {
+				set_province_flag = Rural
+				
+				trigger_switch = {
+					on_trigger = has_terrain
+					grasslands = { 
+						set_variable = { which = Inf_lvl value = 4 } 
+						if = {
+							limit = { ROOT = { region = iberia_region } }
+							change_variable = { which = Inf_lvl value = 0.01 }
+						}
+					}
+					farmlands = { set_variable = { which = Inf_lvl value = 4 } }
+					marsh = { set_variable = { which = Inf_lvl value = 4 } }
+					forest = { set_variable = { which = Inf_lvl value = 4.1 } }
+					woods = { set_variable = { which = Inf_lvl value = 4.1 } 
+						if = {
+							limit = { ROOT = { region = iberia_region } }
+							change_variable = { which = Inf_lvl value = 0.01 }
+						}
+					}
+					mountain = { 
+						set_variable = { which = Inf_lvl value = 4.2 } 
+						if = {
+							limit = { ROOT = { region = iberia_region } }
+							change_variable = { which = Inf_lvl value = 0.01 }
+						}
+					}
+					highlands = { 
+						set_variable = { which = Inf_lvl value = 4.2 } 
+						if = {
+							limit = { ROOT = { region = iberia_region } }
+							change_variable = { which = Inf_lvl value = 0.01 }
+						}
+					}
+					hills = { 
+						set_variable = { which = Inf_lvl value = 4.2 } 
+						if = {
+							limit = { ROOT = { region = iberia_region } }
+							change_variable = { which = Inf_lvl value = 0.01 }
+						}
+					}
+					coastline = { set_variable = { which = Inf_lvl value = 4.3 } }
+					drylands = { set_variable = { which = Inf_lvl value = 4.4 } }
+				}
+				
+				if = {
+					limit = {
+						is_island = yes 
+					}
+					set_variable = { which = Inf_lvl value = 4.3 } 
+					
+					
+				}
+				
+				trigger_switch = {
+					on_trigger = trade_goods
+					grain = { setup_PRICE_Rural = { grain = yes } }
+					wine = {  setup_PRICE_Rural = { wine = yes } }
+					citrus = { setup_PRICE_Rural = { citrus = yes } }  
+					olive_oil = { setup_PRICE_Rural = { olive_oil = yes } }		
+					fur = { setup_PRICE_Rural = { fur = yes } }		
+					lumber = { setup_PRICE_Rural = { lumber = yes } } 
+					livestock = { setup_PRICE_Rural = { livestock = yes } }
+					apiculture = { setup_PRICE_Rural = { apiculture = yes } }
+					wool = { setup_PRICE_Rural = { wool = yes } } ## sheep
+					horses = { setup_PRICE_Rural = { horses = yes } } 
+					potato = { ROOT = { set_variable = { which = price_tge value = 2.5  } } }
+				}
+				
+				Setup_goods_Slots_Rural = yes
+			}
+			
+		}
+		
+		else_if = {
+			limit = {
+				ROOT = {
+					OR = {
+						trade_goods = iron
+						trade_goods = copper
+						trade_goods = zinc
+						trade_goods = tin
+						trade_goods = lead
+						trade_goods = marble
+						trade_goods = gold 
+						trade_goods = silver
+					}
+				}
+			}
+			
+			ROOT = {
+				set_province_flag = Mine
+				
+				
+				trigger_switch = {
+					on_trigger = trade_goods
+					iron = { setup_PRICE_Mine = { iron = yes } }
+					copper = { setup_PRICE_Mine = { copper = yes } }
+					zinc = { setup_PRICE_Mine = { zinc = yes } }
+					tin = { setup_PRICE_Mine = { tin = yes } }
+					lead = { setup_PRICE_Mine = { lead = yes } }
+					marble = { setup_PRICE_Mine = { marble = yes } }
+					gold = { setup_PRICE_Mine = { gold = yes } }
+					silver = { setup_PRICE_Mine = { silver = yes } }
+					gems = { setup_PRICE_Mine = { gems = yes } }
+					coal = { setup_PRICE_Mine = { coal = yes } }
+				}
+				
+				set_variable = {   
+					which = Inf_lvl
+					value = 3
+				}
+				
+				Setup_goods_Slots_Mine = yes
+			}
+		}
+	}
+}
+
+
+Mine_Setup_one_six = {
+	ROOT = {  
+		set_variable = { which = Slot_amount_3 which = 0 }
+		
+		while = {
+			limit = {
+				ROOT = {
+					AND = {
+						NOT = { is_variable_equal = { which = Slot_amount value = 0 } }
+						NOT = { is_variable_equal = { which = Slot_amount_3 value = 6 } }
+					}
+				}
+			}
+			
+			if = {
+				limit = { 
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_1 }
+						}
+					}
+				}	
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_iron 
+								NOT = { trade_goods = iron }
+								NOT = { has_province_flag = Mine_iron_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_iron_Slot_1
+						clr_province_flag = Mine_iron  
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_copper 
+								NOT = { trade_goods = copper }
+								NOT = { has_province_flag = Mine_copper_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_copper_Slot_1
+						clr_province_flag = Mine_copper 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_tin 
+								NOT = { trade_goods = tin }
+								NOT = { has_province_flag = Mine_tin_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_tin_Slot_1
+						clr_province_flag = Mine_tin 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_zinc
+								NOT = { trade_goods = zinc }
+								NOT = { has_province_flag = Mine_zinc_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_zinc_Slot_1
+						clr_province_flag = Mine_zinc 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_lead 
+								NOT = { trade_goods = lead }
+								NOT = { has_province_flag = Mine_lead_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_lead_Slot_1
+						clr_province_flag = Mine_lead 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_horses_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_1
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_1
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_1
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_1
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_1
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_1
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_2 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_copper 
+								NOT = { trade_goods = copper }
+								NOT = { has_province_flag = Mine_copper_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_copper_Slot_2
+						clr_province_flag = Mine_copper 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_tin 
+								NOT = { trade_goods = tin }
+								NOT = { has_province_flag = Mine_tin_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_tin_Slot_2
+						clr_province_flag = Mine_tin 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_zinc
+								NOT = { trade_goods = zinc }
+								NOT = { has_province_flag = Mine_zinc_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_zinc_Slot_2
+						clr_province_flag = Mine_zinc 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_lead 
+								NOT = { trade_goods = lead }
+								NOT = { has_province_flag = Mine_lead_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_lead_Slot_2
+						clr_province_flag = Mine_lead 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_gold_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_2
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_2
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_2
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_2
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_2
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_2
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_3 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_tin 
+								NOT = { trade_goods = tin }
+								NOT = { has_province_flag = Mine_tin_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_tin_Slot_3
+						clr_province_flag = Mine_tin 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_zinc 
+								NOT = { trade_goods = zinc }
+								NOT = { has_province_flag = Mine_zinc_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_zinc_Slot_3
+						clr_province_flag = Mine_zinc 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_lead 
+								NOT = { trade_goods = lead }
+								NOT = { has_province_flag = Mine_lead_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_lead_Slot_3
+						clr_province_flag = Mine_lead 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_gold_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_3
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_3
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_3
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_3
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_3
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_3
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_4 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_zinc 
+								NOT = { trade_goods = zinc }
+								NOT = { has_province_flag = Mine_zinc_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_zinc_Slot_4
+						clr_province_flag = Mine_zinc 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_lead 
+								NOT = { trade_goods = lead }
+								NOT = { has_province_flag = Mine_lead_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_lead_Slot_4
+						clr_province_flag = Mine_lead 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_gold_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_4
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_4
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_4
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_4
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_4
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_4
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_5 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_lead 
+								NOT = { trade_goods = lead }
+								NOT = { has_province_flag = Mine_lead_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_lead_Slot_5
+						clr_province_flag = Mine_lead 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_gold_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_5
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_5
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_5
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_5
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_5
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_5
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_6 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Mine_gold
+								NOT = { trade_goods = gold }	
+								NOT = { has_province_flag = Mine_gold_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gold_Slot_6
+						clr_province_flag = Mine_gold 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_6
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_6
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_6
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_6
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_6
+			}
+			change_variable = { which = Slot_amount_3 value = 1 }
+			subtract_variable = { which = Slot_amount value = 1 }
+		}
+	}
+}
+
+Mine_Setup_six_tl = {
+	ROOT = {
+		set_variable = { which = Slot_amount_4 which = 0 }
+		
+		while = {
+			limit = {
+				ROOT = {
+					AND = {
+						NOT = { is_variable_equal = { which = Slot_amount value = 0 } }
+						NOT = { is_variable_equal = { which = Slot_amount_4 value = 6 } }
+					}
+				}
+			}
+			
+			if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_7 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_silver
+								NOT = { trade_goods = silver }
+								NOT = { has_province_flag = Mine_silver_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_silver_Slot_7
+						clr_province_flag = Mine_silver 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_7
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_7
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_7 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_7
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_7
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_8 }
+						}
+					}
+				}
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_marble
+								NOT = { trade_goods = marble  }
+								NOT = { has_province_flag = Mine_marble_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_marble_Slot_8
+						clr_province_flag = Mine_marble 
+					}
+				}
+				else_if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_8
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_8 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_8
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_8
+				
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_9 }
+						}
+					}
+				}
+				if = {
+					limit = { 			
+						ROOT = { 
+							AND = {
+								has_province_flag = Mine_gems
+								NOT = { trade_goods = gems }
+								NOT = { has_province_flag = Mine_gems_Slot_9 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_gems_Slot_9
+						clr_province_flag = Mine_gems 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_9 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_9
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_9
+				
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Mine  
+							NOT = { has_province_flag = Mine_Slot_10 }
+						}
+					}
+				}
+				if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Mine_coal
+								NOT = { trade_goods = coal  }
+								NOT = { has_province_flag = Mine_coal_Slot_10 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Mine_coal_Slot_10
+						clr_province_flag = Mine_coal 
+					}
+				}
+				set_province_flag = Mine_Slot_10
+				
+			}
+			
+			change_variable = { which = Slot_amount_4 value = 1 }
+			subtract_variable = { which = Slot_amount value = 1 }
+		}
+	}
+}
+

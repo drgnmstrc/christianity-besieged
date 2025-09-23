@@ -1,7 +1,7 @@
 # 4731 - Spoleto
 
-owner = U12
-controller = U12
+owner = SMN
+controller = SMN
 culture = rumanus
 religion = ashabi 
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Spoleto" 
 is_city = yes
-add_core = U12
+add_core = SMN
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east
@@ -19,4 +19,4 @@ discovered_by = ottoman
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
-add_core = H35
+add_core = LTM

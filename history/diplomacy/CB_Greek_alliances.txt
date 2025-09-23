@@ -1,0 +1,20 @@
+vassal = {
+	first = CAP
+	second = PPH
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+vassal = {
+	first = CAP
+	second = SOP
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+vassal = {
+	first = CAP
+	second = CMG
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}

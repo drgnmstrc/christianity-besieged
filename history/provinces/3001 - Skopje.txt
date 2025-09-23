@@ -1,8 +1,8 @@
 # - Skopje
 
-owner = X18
-controller = X18
-add_core = X18
+owner = MOG
+controller = MOG
+add_core = MOG
 culture = armani
 religion = manichaeism
 capital = "Skopje"

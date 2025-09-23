@@ -1,6 +1,6 @@
 march = {
-	first = R37
-	second = R36
+	first = KHL
+	second = MJI
 	start_date = 1441.4.12
 	end_date = 1558.1.1
 }
@@ -25,29 +25,29 @@ vassal = {
 #Kongo
 
 vassal = {
-	first = R09
+	first = MUT
 	second = LOA
 	start_date = 1444.1.1
 	end_date = 1615.1.1
 }
 
 vassal = {
-	first = R09
-	second = R28
+	first = MUT
+	second = MBM
 	start_date = 1444.1.1
 	end_date = 1615.1.1
 }
 
 vassal = {
-	first = R24
-	second = R46
+	first = BLD
+	second = TNY
 	start_date = 1444.1.1
 	end_date = 1615.1.1
 }
 
 vassal = {
-	first = R24
-	second = R60
+	first = BLD
+	second = NEM
 	start_date = 1444.1.1
 	end_date = 1615.1.1
 }

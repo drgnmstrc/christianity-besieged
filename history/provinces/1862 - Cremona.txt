@@ -1,10 +1,10 @@
 #1862 - Cremona
 
-owner = H19
-controller = H19
-culture = swiss
+owner = TSP
+controller = TSP
+culture = helvetian
 religion = ashabi
-add_core = G06
+add_core = LOM
 hre = no
 base_tax = 7
 base_production = 7
@@ -12,7 +12,7 @@ trade_goods = grain
 base_manpower = 4
 capital = "Cremona"
 is_city = yes	# Estimated
-add_core = H19
+add_core = TSP
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

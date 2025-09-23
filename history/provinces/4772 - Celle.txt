@@ -1,10 +1,11 @@
 #4772 - Celle
 
-owner = N02
-controller = N02
-add_core = N02
+owner = NDM
+controller = NDM
+add_core = NDM
+add_core = CEL
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Celle"
 trade_goods = livestock
 hre = yes

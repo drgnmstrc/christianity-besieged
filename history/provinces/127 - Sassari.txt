@@ -1,9 +1,9 @@
 #127 - Sardinia
 
-owner = Y03
-controller = Y03
-add_core = Y03
-culture = mutawasiti
+owner = IFR
+controller = IFR
+add_core = IFR
+culture = bahrumi
 religion = ashabi
 hre = no 
 base_tax = 3 

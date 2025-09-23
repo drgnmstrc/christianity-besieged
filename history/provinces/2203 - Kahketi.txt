@@ -1,7 +1,7 @@
 #2203 - Kahketi
 
-owner = X13
-controller = X13
+owner = KAK
+controller = KAK
 culture = georgian
 religion = zoroastrian
 capital = "Telavi"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = X13
+add_core = KAK
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern

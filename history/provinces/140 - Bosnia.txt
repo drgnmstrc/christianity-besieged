@@ -1,10 +1,10 @@
 #140 - Core of Bosnian kingdom, Soli+Usora+Most of Vrhbosna
 
-owner = Z21
-controller = Z21
+owner = UNU
+controller = UNU
 culture = qashqai
 religion = manichaeism
-add_core = Z21
+add_core = UNU
 capital = "Saray" #From Turkish saray, derived from Persian
 trade_goods = salt
 hre = no

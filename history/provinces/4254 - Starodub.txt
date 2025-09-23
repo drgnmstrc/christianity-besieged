@@ -1,7 +1,7 @@
 #4254 - Starodub
 
-tribal_owner = Z11
-culture = russian
+tribal_owner = NND
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

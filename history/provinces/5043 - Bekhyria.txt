@@ -1,7 +1,7 @@
-owner = X12
-controller = X12
-add_core = X12
-add_core = H06
+owner = KLC
+controller = KLC
+add_core = KLC
+add_core = PNT
 culture = georgian
 religion = syriac
 capital = "Rhizos"

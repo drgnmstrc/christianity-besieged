@@ -1,0 +1,13 @@
+alliance = {
+	first = LOT
+	second = SSN
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}
+
+vassal = {
+	first = DIM
+	second = LOD
+	start_date = 1444.1.1
+	end_date = 1455.1.1
+}

@@ -1,11 +1,11 @@
 #63 - Erfurt
 
-owner = N21
-controller = N21
-add_core = N21
+owner = POB
+controller = POB
+add_core = POB
 add_core = THU
 culture = thuringen
-religion = germanic
+religion = german_pagan
 hre = no
 capital = "Erfurt"
 trade_goods = indigo #Woad, also a center for glassmaking

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = swabian
+religion = german_pagan
+capital = 1761
+fixed_capital = 1761
+government_rank = 1
+
+1399.9.12 = {
+	monarch = {
+		name = "Dietrich II"
+		dynasty = "von Worms"
+		birth_date = 1389.4.15
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

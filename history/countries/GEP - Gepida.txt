@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = gepidian
+religion = german_pagan
+capital = 2957
+elector = yes
+add_army_tradition = 30
+add_army_professionalism = 0.1
+1444.1.1 = {
+	monarch = {
+		name = "Gepidarius IV"
+		dynasty = "Herminafrid"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}

@@ -1,8 +1,8 @@
 #1195 - Mozambique
 
-owner = R33
-controller = R33
-add_core = R33
+owner = NDZ
+controller = NDZ
+add_core = NDZ
 add_core = ZAN
 culture = swahili
 religion = shiite

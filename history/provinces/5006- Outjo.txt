@@ -1,6 +1,6 @@
-owner = R26
-controller = R26
-add_core = R26
+owner = OTJ
+controller = OTJ
+add_core = OTJ
 trade_goods = gold
 is_city = yes
 culture = npkxaut

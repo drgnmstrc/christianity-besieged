@@ -1,12 +1,12 @@
 # 195 Limousin - Principal cities: Limoges
 
-owner = G15
-controller = G15
-add_core = G15
+owner = VES
+controller = VES
+add_core = VES
 capital = "Limoges"
 is_city = yes
 culture = gallien
-religion = germanic
+religion = german_pagan
 add_local_autonomy = 50
 hre = yes
 base_tax = 4

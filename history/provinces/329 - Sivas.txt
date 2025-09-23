@@ -1,7 +1,7 @@
 #329 - Sivas
 
-owner = H05
-controller = H05
+owner = CAP
+controller = CAP
 culture = kappadokes
 religion = mandaeism
 capital = "Eusebia"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 6
 is_city = yes
-add_core = H05
+add_core = CAP
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

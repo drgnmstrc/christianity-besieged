@@ -1,8 +1,8 @@
 #312 - Beloozero
 
-owner = Z06
-controller = Z06
-add_core = Z06
+owner = ARS
+controller = ARS
+add_core = ARS
 culture = veps
 religion = tengri_pagan_reformed
 hre = no

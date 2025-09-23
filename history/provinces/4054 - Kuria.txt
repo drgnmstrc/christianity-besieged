@@ -1,10 +1,10 @@
 #4054 - Kikuyu
 
-owner = R58
-controller = R58
-add_core = R58
+owner = MEK
+controller = MEK
+add_core = MEK
 culture = mekelti
-religion = hussite
+religion = rabbinic
 trade_goods = grain
 hre = no
 base_tax = 4

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+primary_culture = bolghar
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 4245
+
+1432.1.1 = {
+	monarch = {
+		name = "Cinguz"
+		dynasty = "Rashmanid"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

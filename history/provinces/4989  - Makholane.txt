@@ -1,7 +1,7 @@
 #1793 - El Djouf
-owner = R21
-controller = R21
-add_core = R21
+owner = QAA
+controller = QAA
+add_core = QAA
 trade_goods = grain
 is_city = yes
 culture = tsiqaleha
@@ -12,8 +12,8 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = south_african

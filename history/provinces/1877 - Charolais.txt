@@ -1,8 +1,8 @@
-owner = SAV
-controller = SAV
-add_core = SAV
+owner = LUG
+controller = LUG
+add_core = LUG
 culture = gothic
-religion = germanic
+religion = german_pagan
 capital = "Tsarolles"
 is_city = yes
 hre = yes

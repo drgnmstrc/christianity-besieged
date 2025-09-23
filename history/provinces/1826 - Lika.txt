@@ -1,8 +1,8 @@
 #1826 - Lika
 
-owner = U17
-controller = U17
-add_core = U17
+owner = LTL
+controller = LTL
+add_core = LTL
 culture = latinlerin
 religion = ashabi
 capital = "Rijeka"
@@ -29,7 +29,7 @@ discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
 1427.4.14 = {
-	owner = Z21
-	controller = Z21
-	add_core = Z21
+	owner = UNU
+	controller = UNU
+	add_core = UNU
 }

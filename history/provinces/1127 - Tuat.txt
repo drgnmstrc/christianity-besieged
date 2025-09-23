@@ -1,8 +1,8 @@
 #1127 - Tuat
 
-owner = R14
-controller = R14
-add_core = R14
+owner = SUY
+controller = SUY
+add_core = SUY
 is_city = yes
 culture = maqil
 capital = "Tawat"

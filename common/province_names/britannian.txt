@@ -1,0 +1,44 @@
+# Format: ID = { "Province" "Capital" } # Origin
+# mp -> p
+# e -> a before r
+# ae -> e
+# ks/x -> s
+# o -> u
+# consonants are lost at the end
+# e_e -> e\_á
+# gn -> n
+# v -> f
+# tio -> ziu
+# London
+236 = { "Lûndínu" "Lûndínu" } # Londinium
+4371 = { "Andritu" "Andritu" } # Anderita
+235 = { "Cántu" "Duférnu" } # Cantium, Dubris/Durovernum
+237 = { "Úbida" "Castru Bláncu" } # Oppidum, Castrum Blancum
+
+# East Anglia
+238 = { "Cláziu" "Culcástru" } # Colonia Claudia, Colenceaster
+1860 = { "Nûrfulca" "Fentacenùru" } # Norþfolc, Venta Icenorum
+4370 = { "Iglézapuli" "Lucentu" } # Ecclesia-polis, Lygetun
+
+# East Midlands
+243 = { "Lensíga" "Lindu" } # Lindesege, Lindum Colonia
+1861 = { "Daraféntu" "Dûráfia" } # Derventio, Djúra-by
+4376 = { "Curiltafùra" "Raté" } # Corieltauvorum, Ratae
+
+# Somerset
+234 = { "Náfimàgu" "Antùna" } # Noviomagus, Hamtun
+4374 = { "Dûrnafia" "Dûrsé" } # Durnovaria, Dornsæte
+4373 = { "Défena" "Esca" } # Devena, Isca
+233 = { "Carnu" "Benári" } # Kernow, Penrynn
+4130 = { "Ácesula" "Sûmersétu" } # Aquae Sulis, Sumorsæte
+
+# West Midlands
+240 = { "Firucúni" "Marzia" } # Viroconium, Mierce
+239 = { "Glufia" "Glefu" } # Glouvia, Glevum
+4372 = { "Bagéntu" "Cuféntra" } # Bagintum, Cofentreo
+
+# Wales
+241 = { "Clamurgána" "Cardífa" } # Glamorgan, Cardiff
+242 = { "Fenidûta" "Segéntu" } # Venedotia, Segontium
+4366 = { "Bagis" "Trefála" } # Pagus, Trefaldwyn
+4369 = { "Deméte" "Maredùna" } # Demetae, Moridunum

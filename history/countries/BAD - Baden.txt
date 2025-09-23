@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = swabian
-religion = germanic
+religion = german_pagan
 technology_group = eastern
 capital = 74	# Baden	
 
@@ -322,7 +322,8 @@ capital = 74	# Baden
 		dynasty = "von Zähringen"		
 		leader = { 
 			name = "Ludwig-Wilhelm I"
-			type = general
+			type = general
+
 			fire = 2
 			shock = 3
 			manuever = 2

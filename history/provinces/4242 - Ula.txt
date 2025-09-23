@@ -1,6 +1,6 @@
 #4242 - Ula
 
-tribal_owner = V13
+tribal_owner = LTG
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

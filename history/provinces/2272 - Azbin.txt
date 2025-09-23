@@ -1,8 +1,8 @@
 # No previous file for Azbin
 
-owner = R57
-controller = R57
-add_core = R57
+owner = AZW
+controller = AZW
+add_core = AZW
 add_core = AIR
 is_city = yes
 culture = tuareg

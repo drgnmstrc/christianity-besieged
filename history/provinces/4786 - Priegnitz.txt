@@ -1,10 +1,10 @@
 #4786 - Prignitz
 
-owner = G23
-controller = G23
-add_core = G23
+owner = LAU
+controller = LAU
+add_core = LAU
 culture = saxon
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3 
 base_production = 3

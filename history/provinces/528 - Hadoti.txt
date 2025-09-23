@@ -1,8 +1,8 @@
 #528 - Hadoti
 
-owner = L07
-controller = L07
-add_core = L07
+owner = AAD
+controller = AAD
+add_core = AAD
 culture = rajput
 religion = hinduism
 capital = "Kota"

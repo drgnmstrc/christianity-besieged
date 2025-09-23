@@ -1,9 +1,9 @@
 #221 - Murcia
 
-owner = Y02
-controller = Y02
-add_core = Y02
-culture = mutawasiti
+owner = MRS
+controller = MRS
+add_core = MRS
+culture = bahrumi
 religion = ashabi
 hre = no
 base_tax = 5

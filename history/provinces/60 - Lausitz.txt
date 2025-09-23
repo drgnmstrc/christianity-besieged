@@ -3,7 +3,7 @@
 owner = SIL
 controller = SIL
 add_core = SIL
-add_core = N21
+add_core = POB
 capital = "Budysin"
 culture = polobske
 religion = slavic

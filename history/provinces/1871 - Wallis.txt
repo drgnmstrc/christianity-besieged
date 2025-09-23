@@ -3,7 +3,7 @@
 owner = PAL
 controller = PAL 
 culture = alemanni
-religion = germanic
+religion = german_pagan
 add_core = PAL
 capital = "Sion"
 trade_goods = cheese

@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = batuid_aristocracy
+primary_culture = tarkhagan
+religion = manichaeism
+technology_group = near_east
+unit_type = eastern
+capital = 151
+government_rank = 1
+1433.1.1 = {
+	monarch = {
+		name = "Oublu"
+		dynasty = "Batuid"
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	hire_advisor = {
+		type = commandant
+		name = "Tigris"
+		skill = 3
+		culture = scythian
+		religion = syriac
+		age = 20
+		cost_multiplier = 0.0
+	}
+}

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = lombard
+primary_culture = langobard
 religion = catholic
 technology_group = western
 capital = 104 # Milano
@@ -95,7 +95,7 @@ add_army_professionalism = 0.05
 }
 1412.7.24 = {
 	queen = {
-		country_of_origin = SAV #Ventimiglia, Albenga/Nizza province
+		country_of_origin = LUG #Ventimiglia, Albenga/Nizza province
 		name = "Beatrice"
 		dynasty = "Lascaris"
 		birth_date = 1372.1.1
@@ -111,7 +111,7 @@ add_army_professionalism = 0.05
 
 1427.12.2 = {
 	queen = {
-		country_of_origin = SAV 
+		country_of_origin = LUG 
 		name = "Maria"
 		dynasty = "di Savoia"
 		birth_date = 1411.1.1

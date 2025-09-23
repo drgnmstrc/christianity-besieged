@@ -1,8 +1,8 @@
 #504 - Thatta
 
-owner = Z14
-controller = Z14
-add_core = Z14
+owner = ILK
+controller = ILK
+add_core = ILK
 culture = sindhi
 religion = manichaeism
 capital = "Daibul"

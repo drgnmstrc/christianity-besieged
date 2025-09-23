@@ -1,8 +1,8 @@
 #332 - Marash
 
-owner = X15
-controller = X15
-add_core = X15
+owner = CMG
+controller = CMG
+add_core = CMG
 add_core = ARM
 culture = kurdish
 religion = mandaeism

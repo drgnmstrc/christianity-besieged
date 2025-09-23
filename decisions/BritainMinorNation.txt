@@ -10,11 +10,15 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = H16 }
+			NOT = { tag = BMI }
 			NOT = { exists = GBR }
-			NOT = { exists = H15 }
+			NOT = { exists = BMA }
 			NOT = { religion_group = christian }
-			primary_culture = breton
+			OR = {
+				primary_culture = armorican
+				primary_culture = britannian
+				primary_culture = cambrian
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -45,8 +49,8 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = B09
-				exists = H16
+				exists = SXE
+				exists = BMI
 			}
 			owns_core_province = 236		# London
 			owns_core_province = 234		# Wessex
@@ -57,7 +61,7 @@ country_decisions = {
 			owns_core_province = 247		# Cumbria
 		}
 		effect = {
-			change_tag = H16
+			change_tag = BMI
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -69,43 +73,43 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			yorkshire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			east_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			west_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			east_anglia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			wales_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 			wessex_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H16
+				add_permanent_claim = BMI
 			}
 
 			add_country_modifier = {

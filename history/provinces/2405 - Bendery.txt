@@ -1,9 +1,9 @@
 #2405 - Bender
 
-owner = Z23
-controller = Z23
-add_core = Z23
-add_core = U18
+owner = ZLT
+controller = ZLT
+add_core = ZLT
+add_core = GAG
 culture = gagauz
 religion = manichaeism
 capital = "Bender"

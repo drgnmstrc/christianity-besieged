@@ -1,0 +1,13 @@
+	spriteType = {
+		name = "GFX_great_project_library_of_baghdad"	
+		texturefile = "gfx//interface//great_projects//great_project_library_of_baghdad.dds"
+	}
+
+	spriteType = {
+		name = "GFX_great_project_third_temple_jreusalem"	
+		texturefile = "gfx//interface//great_projects//great_project_third_temple_jerusalem.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_hill_of_tara"	
+		texturefile = "gfx//interface//great_projects//great_project_hill_of_tara.dds"
+	}

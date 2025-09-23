@@ -1,7 +1,7 @@
 # No previous file for Ekiti
-owner = R70
-controller = R70
-add_core = R70
+owner = EKI
+controller = EKI
+add_core = EKI
 culture = ekiti 
 religion = itan #Fetishism
 capital = "Awori"

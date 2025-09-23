@@ -1,8 +1,8 @@
 #4413 - Cannanore
 
-owner = L10
-controller = L10
-add_core = L10
+owner = MSN
+controller = MSN
+add_core = MSN
 culture = malayalam
 religion = syriac
 capital = "Cannanore"
@@ -20,4 +20,4 @@ discovered_by = ottoman
 discovered_by = chinese
 extra_cost = 8
 center_of_trade = 1
-add_core = L02
+add_core = HYS

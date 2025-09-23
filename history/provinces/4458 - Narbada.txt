@@ -1,8 +1,8 @@
 #4458 - Narbada
 
-owner = L06
-controller = L06
-add_core = L06
+owner = BHP
+controller = BHP
+add_core = BHP
 culture = gondi
 religion = hinduism
 capital = "Chauragar"

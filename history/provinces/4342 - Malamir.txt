@@ -3,7 +3,7 @@
 owner = LRI
 controller = LRI
 add_core = LRI
-add_core = PER
+add_core = ERS
 culture = luri
 religion = zoroastrian
 capital = "Malamir"

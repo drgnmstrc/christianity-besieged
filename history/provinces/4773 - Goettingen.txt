@@ -1,9 +1,9 @@
 #4773 - Göttingen
 
-owner = G33
-controller = G33
+owner = GTG
+controller = GTG
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Göttingen"
 trade_goods = cloth
 hre = yes
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = G33
+add_core = GTG
 
 
 

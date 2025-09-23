@@ -1,0 +1,654 @@
+Port_Setup_one_six = {
+	ROOT = {  
+		##GUI Can have Max 6 slots Slot_amount_3 is used to check that only 6 goods are assigned
+		set_variable = { which = Slot_amount_3 which = 0 }
+		
+		while = {
+			limit = {
+				ROOT = {
+					AND = {
+						## Slot_amount is Amount of assigned slots to a province based on possibilities like climate and terrain
+						NOT = { is_variable_equal = { which = Slot_amount value = 0 } } 
+						NOT = { is_variable_equal = { which = Slot_amount_3 value = 6 } }
+					}
+				}
+			}
+			
+			##Slot 1
+			if = {
+				limit = { 
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_1 }
+						}
+					}
+				}	
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								NOT = { trade_goods = fish }
+								has_province_flag = Port_fish 
+								NOT = { has_province_flag = Port_fish_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_fish_Slot_1
+						setup_Cost_Port = { fish = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_fish  
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								NOT = { trade_goods = seafood }
+								has_province_flag = Port_seafood
+								NOT = { has_province_flag = Port_seafood_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_seafood_Slot_1
+						setup_Cost_Port = { seafood = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_seafood 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								NOT = { trade_goods = naval_supplies }
+								has_province_flag = Port_naval_supplies 
+								NOT = { has_province_flag = Port_naval_supplies_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_naval_supplies_Slot_1
+						setup_Cost_Port = { naval_supplies = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_naval_supplies 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_ 
+								NOT = { trade_goods = whaling }
+								NOT = { has_province_flag = Port_whaling_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_whaling_Slot_1
+						setup_Cost_Port = { whaling = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_whaling 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Port_amber 
+								NOT = { trade_goods = amber }
+								NOT = { has_province_flag = Port_amber_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_amber_Slot_1
+						setup_Cost_Port = { amber = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_amber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_1
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_1
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_1 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_1
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_1 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_1
+			}
+			else_if = { ##Slot 2 if Slot 1 is already assigned
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_2 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_seafood 
+								NOT = { trade_goods = seafood }
+								NOT = { has_province_flag = Port_seafood_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_seafood_Slot_2
+						setup_Cost_Port = { seafood = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_seafood 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_naval_supplies 
+								NOT = { trade_goods = naval_supplies }
+								NOT = { has_province_flag = Port_naval_supplies_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_naval_supplies_Slot_2
+						setup_Cost_Port = { naval_supplies = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_naval_supplies 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_whaling
+								NOT = { trade_goods = whaling }
+								NOT = { has_province_flag = Port_whaling_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_whaling_Slot_2
+						setup_Cost_Port = { whaling = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_whaling 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Port_amber 
+								NOT = { trade_goods = amber }
+								NOT = { has_province_flag = Port_amber_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_amber_Slot_2
+						setup_Cost_Port = { amber = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_amber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_2
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_2
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_2 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_2
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_2 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_2
+			}
+			else_if = { ##Slot 3 if Slot 1 and 2 is already assigned
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_3 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_naval_supplies 
+								NOT = { trade_goods = naval_supplies }
+								NOT = { has_province_flag = Port_naval_supplies_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_naval_supplies_Slot_3
+						setup_Cost_Port = { naval_supplies = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_naval_supplies 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_whaling 
+								NOT = { trade_goods = whaling }
+								NOT = { has_province_flag = Port_whaling_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_whaling_Slot_3
+						setup_Cost_Port = { whaling = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_whaling 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Port_amber 
+								NOT = { trade_goods = amber }
+								NOT = { has_province_flag = Port_amber_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_amber_Slot_3
+						setup_Cost_Port = { amber = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_amber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_3
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_3
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_3 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_3
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_3 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_3
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_4 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_whaling 
+								NOT = { trade_goods = whaling }
+								NOT = { has_province_flag = Port_whaling_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_whaling_Slot_4
+						setup_Cost_Port = { whaling = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Port_whaling 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Port_amber 
+								NOT = { trade_goods = amber }
+								NOT = { has_province_flag = Port_amber_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_amber_Slot_4
+						setup_Cost_Port = { amber = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Port_amber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_4
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_4
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_4 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_4
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_4 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_4
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_5 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = {
+								has_province_flag = Port_amber 
+								NOT = { trade_goods = amber }
+								NOT = { has_province_flag = Port_amber_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_amber_Slot_5
+						setup_Cost_Port = { amber = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Port_amber 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_5
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_5
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_5 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_5
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_5 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_5
+			}
+			else_if = {
+				limit = {
+					ROOT = { 
+						AND = {
+							has_province_flag = Port  
+							NOT = { has_province_flag = Port_Slot_6 }
+						}
+					}
+				}
+				
+				if = {
+					limit = { 
+						ROOT = {
+							AND = { 
+								has_province_flag = Port_salt
+								NOT = { trade_goods = salt }	
+								NOT = { has_province_flag = Port_salt_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_salt_Slot_6
+						setup_Cost_Port = { salt = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Port_salt 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_pearls
+								NOT = { trade_goods = pearls }
+								NOT = { has_province_flag = Port_pearls_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_pearls_Slot_6
+						setup_Cost_Port = { pearls = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Port_pearls 
+					}
+				}
+				else_if = {
+					limit = { 
+						ROOT = { 
+							AND = {
+								has_province_flag = Port_sea_turtle
+								NOT = { trade_goods = sea_turtle  }
+								NOT = { has_province_flag = Port_sea_turtle_Slot_6 }
+							}
+						}
+					}
+					ROOT = {
+						set_province_flag = Port_sea_turtle_Slot_6
+						setup_Cost_Port = { sea_turtle = yes }
+						set_variable = { which = Ducats_price_6 which = Ducats_price }
+						clr_province_flag = Port_sea_turtle 
+					}
+				}
+				set_province_flag = Port_Slot_6
+			}
+			change_variable = { which = Slot_amount_3 value = 1 }
+			subtract_variable = { which = Slot_amount value = 1 }
+		}
+	}
+}

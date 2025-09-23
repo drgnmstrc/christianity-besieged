@@ -1,9 +1,9 @@
 #337 - Oran
 
-owner = R02
-controller = R02
-add_core = R02
-culture = mutawasiti
+owner = ALM
+controller = ALM
+add_core = ALM
+culture = bahrumi
 religion = ashabi
 capital = "Mers el Kebir"
 trade_goods = gunpowder

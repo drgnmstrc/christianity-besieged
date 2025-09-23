@@ -3,7 +3,7 @@ bayt_allah_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = U01
+		tag = BTA
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -12,6 +12,9 @@ bayt_allah_missions_1 = {
 		icon = mission_high_income
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			stability = 2
 			manpower = 9.075
@@ -40,6 +43,9 @@ bayt_allah_missions_1 = {
 		icon = mission_dominate_home_trade_node
 		required_missions = { stabilize_bayt_allah }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			AND = {
 				emilia_romagna_area = {
@@ -95,6 +101,9 @@ bayt_allah_missions_1 = {
 		icon = mission_landsknecht_soldier
 		required_missions = { bayt_unite_italian_turks }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			AND = {
 				piedmont_area = {
@@ -137,6 +146,9 @@ bayt_allah_missions_1 = {
 		icon = mission_invade_island
 		required_missions = { bayt_helveti_and_alemanni_faithful }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			venetia_area = {
 				type = all
@@ -148,7 +160,7 @@ bayt_allah_missions_1 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			NOT = { exists = H28 }
+			NOT = { exists = VEN }
 		}
 		effect = { 
 			add_country_modifier = {
@@ -162,6 +174,9 @@ bayt_allah_missions_1 = {
 		icon = mission_italian_condottiere
 		required_missions = { bayt_end_venetian_dream }
 		position = 5
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			italy_region = {
 				type = all
@@ -229,6 +244,9 @@ bayt_allah_missions_1 = {
 		icon = mission_eastern_european_city
 		required_missions = { unite_italya }
 		position = 6
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			bosnia_area = {
 				type = all
@@ -331,6 +349,9 @@ bayt_allah_missions_1 = {
 		icon = mission_mosque
 		required_missions = { invite_balkan_turks_to_islam }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			albania_area = {
 				type = all
@@ -371,7 +392,7 @@ bayt_allah_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = U01
+		tag = BTA
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -380,6 +401,9 @@ bayt_allah_missions_2 = {
 		icon = mission_sea_battles
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			exists = COR
 			custom_trigger_tooltip = {
@@ -403,8 +427,11 @@ bayt_allah_missions_2 = {
 		icon = mission_italian_condottiere
 		required_missions = { stabilize_bayt_allah }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
-			NOT = { exists = H20 }
+			NOT = { exists = LCN }
 			owns_core_province = 2983
 			owns_core_province = 1934
 			owns_core_province = 2985
@@ -432,8 +459,11 @@ bayt_allah_missions_2 = {
 		icon = mission_conquer_50_development
 		required_missions = { bayt_subjugate_graeci }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
-			Y12 = {
+			LRP = {
 				OR = {
 					exists = no
 					is_subject = yes
@@ -441,7 +471,7 @@ bayt_allah_missions_2 = {
 				}
 			}
 			NOT = { owns = 4754 }
-			NOT = { Y12 = { overlord = { tag = ROOT } } }
+			NOT = { LRP = { overlord = { tag = ROOT } } }
 		}
 		effect = { 
 			add_piety = 5
@@ -453,6 +483,9 @@ bayt_allah_missions_2 = {
 		icon = mission_cossack_cavalry
 		required_missions = { invite_balkan_turks_to_islam }
 		position = 7
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			bulgaria_area = {
 				owned_by = ROOT

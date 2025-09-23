@@ -1,7 +1,7 @@
 #1793 - El Djouf
-owner = R13
-controller = R13
-add_core = R13
+owner = SAY
+controller = SAY
+add_core = SAY
 culture = zaghawa
 capital = "Oasis"
 religion = shiite

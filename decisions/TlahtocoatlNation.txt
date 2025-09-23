@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = tlahtocoatl_formed }
-			NOT = { tag = M12 }
+			NOT = { tag = TLH }
 			religion = atzintlicoatl
 			primary_culture = atlcotl
 			is_colonial_nation = no
@@ -33,7 +33,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = M12
+				exists = TLH
 			}
 			owns_core_province = 893
 			owns_core_province = 2530
@@ -42,7 +42,7 @@ country_decisions = {
 			owns_core_province = 939
 		}
 		effect = {
-			change_tag = M12
+			change_tag = TLH
 			remove_non_electors_emperors_from_empire_effect = yes
 			add_authority = 50
 			if = {
@@ -55,19 +55,19 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = M12
+				add_permanent_claim = TLH
 			}
 			great_lakes_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = M12
+				add_permanent_claim = TLH
 			}
 			great_plains_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = M12
+				add_permanent_claim = TLH
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

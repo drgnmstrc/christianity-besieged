@@ -1,8 +1,8 @@
 #106 - Modena
 
-owner = BLG
-controller = BLG
-add_core = BLG
+owner = AEM
+controller = AEM
+add_core = AEM
 culture = emaglici 
 religion = ashabi 
 hre = no

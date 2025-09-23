@@ -2,9 +2,9 @@
 culture = gbaya
 religion = byeri
 capital = "Paoua"
-owner = R92
-controller = R92
-add_core = R92
+owner = MBK
+controller = MBK
+add_core = MBK
 hre = no
 base_tax = 1
 base_production = 1

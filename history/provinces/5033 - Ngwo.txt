@@ -1,6 +1,6 @@
-owner = R80
-controller = R80
-add_core = R80
+owner = AKN
+controller = AKN
+add_core = AKN
 culture = igbo
 religion = odinani
 capital = "Akunanaw"

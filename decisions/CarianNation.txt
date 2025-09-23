@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = H22 }
+			NOT = { exists = CRR }
 			primary_culture = kares
 			is_colonial_nation = no
 			OR = {
@@ -38,7 +38,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = H22
+				exists = CRR
 			}
 			owns_core_province = 319
 			owns_core_province = 323
@@ -46,7 +46,7 @@ country_decisions = {
 			owns_core_province = 2302
 		}
 		effect = {
-			change_tag = H22
+			change_tag = CRR
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -58,25 +58,25 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H22
+				add_permanent_claim = CRR
 			}
 			aydin_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H22
+				add_permanent_claim = CRR
 			}
 			germiyan_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H22
+				add_permanent_claim = CRR
 			}
 			karaman_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H22
+				add_permanent_claim = CRR
 			}
 
 			add_prestige = 25

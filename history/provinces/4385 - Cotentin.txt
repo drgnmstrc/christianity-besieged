@@ -1,12 +1,12 @@
 # 4385 Cotentin Peninsula - Principal cities: Cherbourg, Avranches
 
-owner = B14
-controller = B14 
-add_core = B14
-add_claim = H01
+owner = CRL
+controller = CRL 
+add_core = CRL
+add_claim = AMO
 capital = "Coriallo"
 is_city = yes
-culture = breton
+culture = armorican
 religion = walianitas
 hre = no
 base_tax = 6

@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = castillian
-add_accepted_culture = sicilian
+add_accepted_culture = ifri
 add_accepted_culture = leonese
 add_accepted_culture = neapolitan
-add_accepted_culture = wallonian
+add_accepted_culture = lotharingian
 religion = catholic
 technology_group = western
 historical_friend = POR
@@ -54,7 +54,7 @@ national_focus = MIL
 	monarch = {
 		name = "Carlos V"	# Name change to reflect becoming Emperor of HRE
 		dynasty = "von Habsburg"
-		culture = flemish #or burgundian, or dutch, or castilian
+		culture = flemish #or burgundian, or frisian, or castilian
 		adm = 4
 		dip = 5
 		mil = 5
@@ -65,7 +65,7 @@ national_focus = MIL
 
 1519.9.21 = { leader = { name = "Fernão de Magalhães"   type = explorer	fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 1521.4.27 } }
 
-1520.1.1 = { add_accepted_culture = lombard }
+1520.1.1 = { add_accepted_culture = langobard }
 
 1521.1.1 = { leader = {	name = "Antonio de Leyva"      	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1536.1.1 } }
 
@@ -355,7 +355,7 @@ national_focus = MIL
 
 1636.1.1 = { leader = {	name = "Francisco de Melo"     		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1651.1.1 } }
 
-1640.1.1 = { remove_accepted_culture = sicilian remove_accepted_culture = lombard }
+1640.1.1 = { remove_accepted_culture = ifri remove_accepted_culture = langobard }
 
 1649.10.7 = {
 	queen = {
@@ -422,7 +422,7 @@ national_focus = MIL
 	heir = {
 		name = "Felipe"
 		monarch_name = "Felipe V"
-		culture = cosmopolitan_french
+		culture = soisson
 		dynasty = "de Bourbon"
 		birth_date = 1683.12.19
 		death_date = 1746.7.9
@@ -450,7 +450,7 @@ national_focus = MIL
 1700.11.1 = {
 	monarch = {
 		name = "Felipe V"
-		culture = cosmopolitan_french
+		culture = soisson
 		dynasty = "de Bourbon"
 		adm = 3
 		dip = 1
@@ -461,7 +461,7 @@ national_focus = MIL
 
 1701.11.2 = {
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Maria Luisa"
 		dynasty = "di Savoia"
 		birth_date = 1688.8.17

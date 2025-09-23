@@ -1,7 +1,7 @@
 #2298 - Tekke
 
-owner = H04
-controller = H04
+owner = LYC
+controller = LYC
 culture = lykiae
 religion = payidotheos
 capital = "Patara"
@@ -11,7 +11,7 @@ base_tax = 8
 base_production = 6
 base_manpower = 5
 is_city = yes
-add_core = H04
+add_core = LYC
 
 
 

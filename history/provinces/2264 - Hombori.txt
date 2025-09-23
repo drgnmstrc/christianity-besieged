@@ -1,8 +1,8 @@
 # 2264 - Hombori
 
-owner = R55
-controller = R55
-add_core = R55
+owner = GAO
+controller = GAO
+add_core = GAO
 is_city = yes
 culture = songhai #Dogon
 religion = sunni

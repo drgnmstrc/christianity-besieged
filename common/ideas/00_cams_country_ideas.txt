@@ -8,7 +8,7 @@ cambridge_ideas = {
 		warscore_cost_vs_other_religion = -0.1
 	}
 	trigger = {
-		tag = B06
+		tag = DIM
 	}
 	free = yes
 	church_of_cambridge = {
@@ -91,7 +91,7 @@ gepid_ideas = {
 		fort_maintenance_modifier = -0.25
 	}
 	trigger = {
-		tag = G04
+		tag = GEP
 	}
 	free = yes
 	guardians_of_alps = {
@@ -132,7 +132,7 @@ gerlandic_ideas = {
 		drill_gain_modifier = 0.05
 	}
 	trigger = {
-		tag = N01
+		tag = RDJ
 	}
 	free = yes
 	redirecting_germany = {
@@ -213,7 +213,7 @@ hjallic_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	trigger = {
-		tag = N09
+		tag = HJL
 	}
 	free = yes
 	little_leftfor_us = {
@@ -256,7 +256,7 @@ great_moravian_ideas = {
 		years_of_nationalism = -5
 	}
 	trigger = {
-		tag = SLO
+		tag = MVA
 	}
 	free = yes
 	incorporating_carpathians = {
@@ -297,7 +297,7 @@ house_of_god_ideas = {
 	}
 	free = yes
 	trigger = {
-		tag = U01
+		tag = BTA
 	}
 	caliph_dues = {
 		global_tax_modifier = 0.2
@@ -336,7 +336,7 @@ phrygian_ideas = {
 	}
 	
 	trigger = {
-		tag = H10
+		tag = PHR
 	}
 	free = yes		#will be added at load.
 	anatolian_legacy = {
@@ -380,8 +380,8 @@ venetian_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = H28
-			was_tag = H28
+			tag = VEN
+			was_tag = VEN
 		}
 	}
 	free = yes
@@ -425,7 +425,7 @@ pontic_ideas = {
 		num_accepted_cultures = 2
 	}
 	trigger = {
-		tag = H06
+		tag = PNT
 	}
 	free = yes
 	heir_to_anatolia = {
@@ -444,7 +444,7 @@ pontic_ideas = {
 		diplomatic_reputation = 1
 		diplomats = 1
 	}
-	the_lessons_of_the_cappadocian_wars = {
+	the_lessons_of_the_kappadokes_wars = {
 		land_morale = 0.1
 		reinforce_speed = 0.15
 	}
@@ -466,7 +466,7 @@ isaurian_ideas = {
 		culture_conversion_cost = -0.25
 	}
 	trigger = {
-		tag = H31
+		tag = ISA
 	}
 	free = yes
 	time_for_isaurian_expansion = {
@@ -507,7 +507,7 @@ aghustid_ideas = {
 		yearly_army_professionalism = 0.01
 	}
 	trigger = {
-		tag = G02
+		tag = AGU
 	}
 	free = yes
 	renaissance_of_aybirea = {
@@ -546,7 +546,7 @@ balik_ideas = {
 		state_maintenance_modifier = -0.15
 	}
 	trigger = {
-		tag = Z01
+		tag = BLK
 	}
 	free = yes
 	legacy_balik_khans = {
@@ -586,7 +586,7 @@ sebkhemerzi_ideas = {
 		rebel_support_efficiency = 0.5
 	}
 	trigger = {
-		tag = X07
+		tag = SBK
 	}
 	free = yes
 	legacy_ewarzdagr = {
@@ -616,7 +616,7 @@ sebkhemerzi_ideas = {
 	}
 }
 
-nabuthi_ideas = {
+abindari_ideas = {
 	start = {
 		global_missionary_strength = 0.015
 		papal_influence = 0.5
@@ -628,7 +628,7 @@ nabuthi_ideas = {
 	}
 	free = yes
 	trigger = {
-		tag = Y14
+		tag = ABN
 	}
 	the_first_arabians = {
 		same_culture_advisor_cost = -0.25
@@ -640,7 +640,7 @@ nabuthi_ideas = {
 		galley_power = 0.05
 		naval_morale = 0.05
 	}
-	influence_from_egypt_nabuthia = {
+	influence_from_egypt_abindaria = {
 		culture_conversion_cost = -0.25
 	}
 	weathering_post_haladri_era = {
@@ -651,7 +651,7 @@ nabuthi_ideas = {
 		improve_relation_modifier = 0.15
 		diplomatic_reputation = 1
 	}
-	nabuthia_islamic_educational_center = {
+	abindaria_islamic_educational_center = {
 		advisor_pool = 1
 		development_cost = -0.1
 	}
@@ -669,7 +669,7 @@ saray_turkig_ideas = {
 		global_supply_limit_modifier = 0.1
 	}
 	trigger = {
-		tag = Z21
+		tag = UNU
 	}
 	free = yes
 	legacy_of_the_khaganate = {
@@ -710,7 +710,7 @@ maritimae_ideas = {
 		yearly_absolutism = 0.15
 	}
 	trigger = {
-		tag = U09
+		tag = MRT
 	}
 	free = yes
 	legacy_roman_uprising = {
@@ -749,7 +749,7 @@ skithi_ideas = {
 		yearly_absolutism = 0.15
 	}
 	trigger = {
-		tag = X20
+		tag = SZK
 	}
 	free = yes
 	skithi_magyar_legacy = {
@@ -870,7 +870,7 @@ palmyrene_ideas = {
 		global_ship_cost = -0.15
 	}
 	trigger = {
-		tag = SYR
+		tag = PLM
 	}
 	free = yes
 	syr_eunuchs = {
@@ -945,7 +945,7 @@ fultons_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	trigger = {
-		tag = N32
+		tag = FTF
 	}
 	free = yes
 	fultons_strong = {
@@ -986,7 +986,7 @@ yehudah_ideas = {
 	}
 	
 	trigger = {
-		tag = X05
+		tag = JUD
 	}
 	free = yes
 	surviving_roman_dark_age = {
@@ -1030,7 +1030,7 @@ jorvik_ideas = {
 	}
 	
 	trigger = {
-		tag = N10
+		tag = JRV
 	}
 	free = yes
 	jorvik_raiding_heritage = {
@@ -1075,7 +1075,7 @@ eransahr_ideas = {
 	}
 	
 	trigger = {
-		tag = PER
+		tag = ERS
 	}
 	free = yes
 	eransahr_thatta_destruction = {
@@ -1117,7 +1117,7 @@ dolgorukov_ideas = {
 	}
 	
 	trigger = {
-		tag = Z12
+		tag = RDM
 	}
 	free = yes
 	dolgorukov_bloodthirst = {
@@ -1194,7 +1194,7 @@ kasrashi_ideas = {
 		dip_advisor_cost = -0.05
 	}
 	trigger = {
-		tag = R04
+		tag = KSR
 	}
 	free = yes
 	kasra_eirun_friendship = {
@@ -1218,7 +1218,7 @@ kasrashi_ideas = {
 	}
 	kasra_great_bounties = {
 		treasure_fleet_income = 0.1
-		global_tarrifs = 0.1
+		global_tariffs = 0.1
 	}
 	kasra_every_soldier_a_king = {
 		nobles_loyalty_modifier = 0.1	

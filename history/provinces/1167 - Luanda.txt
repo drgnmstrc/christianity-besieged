@@ -1,8 +1,8 @@
 #1167 - Luanda
 
-owner = R27
-controller = R27
-add_core = R27
+owner = BNH
+controller = BNH
+add_core = BNH
 culture = banu
 religion = mudarian
 capital = "Luanda"

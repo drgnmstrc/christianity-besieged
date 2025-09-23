@@ -1,0 +1,21 @@
+government = republic
+add_government_reform = noble_elite_reform
+mercantilism = 0.1
+technology_group = ottoman
+primary_culture = jutish
+religion = theodolian
+capital = 235
+national_focus = DIP
+historical_friend = DIM
+historical_friend = SSX
+
+1399.9.12 = {
+	monarch = {
+		name = "Haimrik"
+		dynasty = "Quentins"
+		birth_date = 1394.4.15
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

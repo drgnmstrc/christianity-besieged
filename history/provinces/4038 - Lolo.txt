@@ -1,7 +1,7 @@
 #Lolo
-owner = R31
-controller = R31
-add_core = R31
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = chewa
 religion = qanumi
 capital = "Lolo"

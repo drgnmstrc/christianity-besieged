@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = italian_iqta
+government_rank = 1
+primary_culture = italo_turk
+add_accepted_culture = emaglici
+religion = ashabi
+technology_group = ottoman
+capital = 4730
+
+
+1443.1.1 = {
+	monarch = {
+		name = "Annibale"
+		dynasty = "Bentivoglio"
+		birth_date = 1415.8.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

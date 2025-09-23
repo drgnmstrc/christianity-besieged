@@ -8,22 +8,26 @@ country_event = { #Surge of Refugees
 	
 	trigger = {
 		OR = {
-			religion = anglican
+			religion = theodolian
 			religion = riothemism
 		}
 		OR = {
 			NOT = {
-				exists = B01
-				exists = B08
+				AND = {
+					exists = LOT
+					exists = SSN
+				}
 			}
 			NOT = {
-				exists = GAL
-				exists = J05
-				exists = LON
-				exists = J01
-				exists = J08
-				exists = J03
-				exists = J02
+				AND = {
+					exists = GAL
+					exists = TRD
+					exists = LUS
+					exists = CNT
+					exists = INT
+					exists = VCC
+					exists = ASU
+				}
 			}
 		}
 		NOT = {
@@ -57,7 +61,7 @@ country_event = { #Pretender Romans colonizing
 	
 	trigger = {
 		OR = {
-			religion = anglican
+			religion = theodolian
 			religion = riothemism
 		}
 		NOT = {

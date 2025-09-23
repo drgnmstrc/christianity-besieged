@@ -1,8 +1,8 @@
 #141 - Serbia
 
-owner = U16
-controller = U16
-add_core = U16
+owner = SDM
+controller = SDM
+add_core = SDM
 culture = marcer
 religion = manichaeism
 capital = "Smederevo"
@@ -21,7 +21,7 @@ discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
 1440.2.27 = {
-	owner = X07
-	controller = X07
-	add_core = X07
+	owner = SBK
+	controller = SBK
+	add_core = SBK
 }

@@ -1,7 +1,7 @@
 #369 - Orkney
 
-owner = N09
-controller = N09
+owner = HJL
+controller = HJL
 culture = hjallish
 religion = norse_pagan_reformed
 hre = no
@@ -11,7 +11,7 @@ trade_goods = seafood
 base_manpower = 3
 capital = "Kirkwall"
 is_city = yes
-add_core = N09
+add_core = HJL
 
 
 

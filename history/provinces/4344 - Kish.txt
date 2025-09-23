@@ -1,8 +1,8 @@
 #4344 - Kish
 
-owner = Z16
-controller = Z16
-add_core = Z16
+owner = SMR
+controller = SMR
+add_core = SMR
 culture = sogdian
 religion = manichaeism
 capital = "Shahrisabz" #Renamed by Timur, but both names in use for most our era.

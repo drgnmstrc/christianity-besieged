@@ -11,7 +11,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Emperor"
-		tag = U01
+		tag = BTA
 		NOT = { has_country_modifier = restoring_curia_treasury }
 	}
 	
@@ -44,14 +44,14 @@ country_event = {
 	trigger = {
 		has_dlc = "Emperor"
 		OR = {
-			culture_group = italo_gallic
+			culture_group = occidental
 			culture = italyan
 		}
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		is_at_war = yes
 		war_exhaustion = 3
-		U01 = {
+		BTA = {
 			NOT = { war_with = ROOT }
 			NOT = { is_rival = ROOT }
 		}
@@ -71,9 +71,9 @@ country_event = {
 		name = curia.4.a
 		if = {
 			limit = {
-				exists = U01
+				exists = BTA
 			}
-			U01 = { country_event = { id = curia.5 days = 3 } }
+			BTA = { country_event = { id = curia.5 days = 3 } }
 		}
 		add_prestige = -5
 		reduce_curia_treasury_huge_effect = yes
@@ -222,7 +222,7 @@ country_event = {
 		has_dlc = "Emperor"
 		religion = ashabi
 		curia_treasury_contribution = 1
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		NOT = { num_of_loans = 1 }
 		is_bankrupt = no
 		NOT = {
@@ -301,7 +301,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Emperor"
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		has_estate = estate_church
 		OR = {
 			num_of_loans = 5
@@ -361,7 +361,7 @@ country_event = {
 		religion = ashabi
 		NOT = { curia_treasury_income = 5 }
 		curia_treasury_contribution = 1
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		is_year = 1500
 		NOT = { has_country_modifier = increased_tithing }
 	}
@@ -391,15 +391,15 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Emperor"
-		tag = U01
+		tag = BTA
 		any_country = {
 			is_in_war = {
 				attacker_leader = THIS
 				casus_belli = cb_crusade
 			}
 			religion = ashabi
-			NOT = { tag = U01 }
-			NOT = { war_with = U01 }
+			NOT = { tag = BTA }
+			NOT = { war_with = BTA }
 			NOT = {
 				has_opinion_modifier = {
 					who = ROOT
@@ -419,7 +419,7 @@ country_event = {
 						casus_belli = cb_crusade
 					}
 					religion = ashabi
-					NOT = { tag = U01 }
+					NOT = { tag = BTA }
 					NOT = {
 						has_opinion_modifier = {
 							who = ROOT

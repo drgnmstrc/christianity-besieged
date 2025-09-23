@@ -2,8 +2,8 @@
 
 owner = YOR
 controller = YOR
-add_core = L05
-add_core = L02
+add_core = CNC
+add_core = HYS
 add_core = YOR
 culture = telegu
 religion = hinduism

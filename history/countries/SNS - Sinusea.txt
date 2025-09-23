@@ -1,0 +1,6 @@
+government = republic
+primary_culture = ilyicolone
+religion = silvani
+technology_group = ottoman
+capital = 4942 # Sinus
+add_army_professionalism = 0.05

@@ -1,11 +1,11 @@
 #128 - Kärnten
 
-owner = U06
-controller = U06
-add_core = U06
-culture = lombard
-religion = germanic
-add_core = G06
+owner = PNY
+controller = PNY
+add_core = PNY
+culture = langobard
+religion = german_pagan
+add_core = LOM
 base_tax = 4
 base_production = 5
 trade_goods = iron 
@@ -23,7 +23,7 @@ discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
 1440.2.27 = {
-	owner = Z21
-	controller = Z21
-	add_core = Z21
+	owner = UNU
+	controller = UNU
+	add_core = UNU
 }

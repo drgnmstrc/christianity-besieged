@@ -1,6 +1,6 @@
-owner = R36
-controller = R36
-add_core = R36
+owner = MJI
+controller = MJI
+add_core = MJI
 trade_goods = slaves
 is_city = yes
 culture = banu

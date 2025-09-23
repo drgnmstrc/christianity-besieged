@@ -1,6 +1,6 @@
-owner = R47
-controller = R47
-add_core = R47
+owner = SWK
+controller = SWK
+add_core = SWK
 trade_goods = gold
 is_city = yes
 culture = shwakhwe
@@ -11,8 +11,8 @@ base_tax = 5
 base_production = 5
 base_manpower = 5
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = south_african

@@ -1,10 +1,10 @@
 #1767 - Veroce
 
-owner = Z21
-controller = Z21
+owner = UNU
+controller = UNU
 culture = qashqai
 religion = manichaeism
-add_core = Z21
+add_core = UNU
 capital = "Osijek"
 trade_goods = livestock
 hre = no

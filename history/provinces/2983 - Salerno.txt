@@ -1,7 +1,7 @@
 # - Salerno
 
-owner = H20
-controller = H20
+owner = LCN
+controller = LCN
 culture = graeci 
 religion = ashabi 
 hre = no 
@@ -12,7 +12,7 @@ base_manpower = 5
 capital = "Salerno" 
 #estate = estate_nobles
 is_city = yes	# Estimated
-add_core = H20
+add_core = LCN
 
 
 

@@ -3,7 +3,7 @@
 owner = AIR
 controller = AIR
 add_core = AIR
-add_core = R54
+add_core = DMA
 is_city = yes
 culture = tuareg 
 religion = sunni

@@ -1,9 +1,9 @@
 #Kovno
 
-owner = V18
-controller = V18
+owner = YTV
+controller = YTV
 add_core = PRU
-add_core = V18
+add_core = YTV
 culture = yotvingian
 religion = romuva
 capital = "Kovno"

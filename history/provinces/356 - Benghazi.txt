@@ -1,12 +1,12 @@
 #356 - Cyrenaica
 
-owner = R07
-controller = R07
-add_core = R07
+owner = BRQ
+controller = BRQ
+add_core = BRQ
 culture = almukhidi
 religion = sunni
 capital = "Benghazi"
-trade_goods = cloth
+trade_goods = silphium
 hre = no
 base_tax = 5
 base_production = 4

@@ -1,6 +1,6 @@
 #Torzhok
 
-tribal_owner = Z08
+tribal_owner = DUL
 culture = slovenski
 religion = slavic
 hre = no

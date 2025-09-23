@@ -1,12 +1,12 @@
 #357 - Libya
 
-owner = R07
-controller = R07
-add_core = R07
+owner = BRQ
+controller = BRQ
+add_core = BRQ
 culture = almukhidi
 religion = sunni
 capital = "Derna"
-trade_goods = livestock
+trade_goods = silphium
 hre = no
 base_tax = 1 
 base_production = 1

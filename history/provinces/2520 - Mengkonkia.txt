@@ -24,7 +24,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	is_city = yes
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic 
 } #French settlement at Vincennes (really across the river in Wea, represented here for gameplay reasons)
 1763.2.10 = {

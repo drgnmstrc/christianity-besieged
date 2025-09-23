@@ -1,6 +1,6 @@
-add_core = R24
-owner = R24
-controller = R24
+add_core = BLD
+owner = BLD
+controller = BLD
 culture = ibibio
 religion = inam
 capital = "Ndealiche"

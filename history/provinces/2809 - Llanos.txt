@@ -1,9 +1,9 @@
 # - Llanos
 
 culture = pume
-owner = M82
-controller = M82
-add_core = M82
+owner = PUM
+controller = PUM
+add_core = PUM
 is_city = yes
 religion = animism
 discovered_by = south_american

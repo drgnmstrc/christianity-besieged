@@ -27,7 +27,7 @@ discovered_by = scandinavian_tech
 	add_core = RUS
 	remove_core = CRI
 } # Battle of Molodi
-1600.1.1 = { culture = russian }
+1600.1.1 = { culture = bolghar }
 1650.1.1 = { religion = hellenism }
 1773.9.13 = { revolt = { type = anti_tax_rebels size = 1 name = "Yemelyan Pugachev" } controller = REB unrest = 6 } # Pugachev rebellion
 1775.2.1 = { revolt = {} controller = RUS unrest = 0 } # Pugachev is captured

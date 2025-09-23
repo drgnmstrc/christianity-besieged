@@ -1,7 +1,7 @@
 # Urbino
 
-owner = U13
-controller = U13
+owner = PCM
+controller = PCM
 culture = rumanus 
 religion = ashabi
 hre = no 
@@ -11,7 +11,7 @@ trade_goods = grain
 base_manpower = 2
 capital = "Urbino" 
 is_city = yes
-add_core = U13
+add_core = PCM
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east
@@ -21,4 +21,4 @@ discovered_by = scandinavian_tech
 discovered_by = eirun
 extra_cost = 8
 center_of_trade = 1
-add_core = H35
+add_core = LTM

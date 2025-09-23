@@ -1,6 +1,6 @@
-add_core = R53
-owner = R53
-controller = R53
+add_core = NRI
+owner = NRI
+controller = NRI
 culture = igbo
 religion = odinani
 capital = "Owerre"

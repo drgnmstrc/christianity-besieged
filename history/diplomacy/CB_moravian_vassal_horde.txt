@@ -1,0 +1,50 @@
+#Great Moravia and the Eight Voivevoides
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = ZDN
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = KRN
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = VRA
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = HRA
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = LNZ
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = RMN
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+dependency = {
+	subject_type = voivode
+	first = MVA
+	second = BOH
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}

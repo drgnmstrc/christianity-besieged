@@ -1,6 +1,6 @@
-owner = R30
-controller = R30
-add_core = R30
+owner = UNG
+controller = UNG
+add_core = UNG
 trade_goods = livestock
 is_city = yes
 culture = ungkue

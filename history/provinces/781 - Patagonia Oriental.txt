@@ -1,8 +1,8 @@
 #781 - Patagonia Oriental
 
-owner = M68
-controller = M68
-add_core = M68
+owner = MCR
+controller = MCR
+add_core = MCR
 culture = teushen
 religion = animism
 capital = "Puerto Desaedo"
@@ -14,3 +14,4 @@ base_manpower = 1
 native_size = 8
 native_ferocity = 1
 native_hostileness = 3
+discovered_by = south_american

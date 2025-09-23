@@ -15,7 +15,7 @@ country_event = {
     
     trigger = {
         NOT = {
-            exists = U06
+            exists = PNY
             exists = U07
         }
         any_owned_province = {
@@ -24,7 +24,7 @@ country_event = {
                 culture = latinlerin
             }
         }
-		tag = SLO
+		tag = MVA
    croatia_area = {
    type = all
    owned_by = ROOT
@@ -69,7 +69,7 @@ country_event = {
                     culture = latinlerin
                 }
             }
-            add_core = SLO
+            add_core = MVA
         }
 	}
     option = {
@@ -99,7 +99,7 @@ country_event = {
                 culture = latinlerin
             }
         }
-		tag = SLO
+		tag = MVA
     }
 	    mean_time_to_happen = {
         days = 100
@@ -260,7 +260,7 @@ country_event = {
                 culture = latinlerin
             }
         }
-		tag = SLO
+		tag = MVA
     }
 	option = {
 	name = Assassination.EVTOPT1
@@ -367,7 +367,7 @@ country_event = {
                 culture = latinlerin
             }
         }
-		tag = SLO
+		tag = MVA
     }
 	option = {
 	name = slavicreplacementend.EVTOPT0

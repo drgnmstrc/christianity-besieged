@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = helvetian
+add_accepted_culture = roman
+capital = 104
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Ladyus"
+		dynasty = "Qelebi"
+		dip = 5
+		mil = 5
+		adm = 4
+	}
+}

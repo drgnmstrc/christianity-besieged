@@ -132,7 +132,7 @@ annexationaction = {
 		potential = {
 			FROM = {
 				vassal_of = ROOT
-				tag = H28
+				tag = VEN
 			}
 			ROOT = {
 				has_country_modifier = rome_respecting_venetia

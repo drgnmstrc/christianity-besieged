@@ -1,6 +1,6 @@
-owner = R38
-controller = R38
-add_core = R38
+owner = GBB
+controller = GBB
+add_core = GBB
 trade_goods = gems
 is_city = yes
 culture = xami

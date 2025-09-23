@@ -1,9 +1,9 @@
 # 1872 - Ulm
-owner = ULM
-controller = ULM
-add_core = ULM
+owner = ZAU
+controller = ZAU
+add_core = ZAU
 culture = ostrogothic
-religion = germanic
+religion = german_pagan
 base_tax = 7 
 base_production = 7
 trade_goods = cloth	#fustians

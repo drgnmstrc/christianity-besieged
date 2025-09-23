@@ -1,7 +1,7 @@
 #328 - Sinope
 
-owner = H07
-controller = H07
+owner = PPH
+controller = PPH
 culture = pondii
 religion = hellenism
 capital = "Sinop"
@@ -11,8 +11,8 @@ base_tax = 6
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = H07
-add_core = H06
+add_core = PPH
+add_core = PNT
 fort_15th = yes
 discovered_by = western
 discovered_by = eastern

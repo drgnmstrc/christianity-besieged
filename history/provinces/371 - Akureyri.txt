@@ -1,8 +1,8 @@
 #371 - Akureyri
 
-owner = N09
-controller = N09
-add_core = N09
+owner = HJL
+controller = HJL
+add_core = HJL
 add_core = ICE
 culture = hjallish
 religion = norse_pagan_reformed

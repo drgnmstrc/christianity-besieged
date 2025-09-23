@@ -3,7 +3,7 @@
 owner = KLN
 controller = KLN
 add_core = KLN
-add_core = L02
+add_core = HYS
 culture = kannada
 religion = hinduism
 capital = "Dharwar"

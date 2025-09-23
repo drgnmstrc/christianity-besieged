@@ -1,8 +1,8 @@
 #2314 - Rahba
 
-owner = B13
-controller = B13
-add_core = B13
+owner = ANB
+controller = ANB
+add_core = ANB
 culture = assyrian
 religion = syriac
 capital = "Anbar"

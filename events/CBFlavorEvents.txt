@@ -6,7 +6,7 @@ country_event = {
 	picture = COMET_SIGHTED_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = H01
+		tag = AMO
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -26,7 +26,7 @@ country_event = {
 	picture = CARIBBEAN_PIRATE_FORT_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = A03
+		tag = DHR
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -187,14 +187,14 @@ country_event = { #Triggers Random Event 4
 		modifier = {
 			factor = 0.5
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 50
 			}
 		}
 		modifier = {
 			factor = 0.75
 			reverse_has_opinion = {
-				who = U01
+				who = BTA
 				value = 150
 			}
 		}
@@ -202,7 +202,7 @@ country_event = { #Triggers Random Event 4
 			factor = 10
 			NOT = {
 				reverse_has_opinion = {
-					who = U01
+					who = BTA
 					value = -100
 				}
 			}
@@ -995,7 +995,7 @@ country_event = { #Divided and Conquered, or United? Znovuzaty
 	picture = CITY_VIEW_eventPicture
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = { tag = V11}
+	trigger = { tag = RMN}
 	option = {
 		name = CBFlavorEvents.12a
 		add_country_modifier = {
@@ -1011,7 +1011,7 @@ country_event = {
 	picture = COMET_SIGHTED_eventPicture
 	fire_only_once = yes
 	trigger = {
-		tag = H28
+		tag = VEN
 	}
 	mean_time_to_happen = {
 		months = 12
@@ -1081,15 +1081,15 @@ country_event = {#Frisian Invasion of Essex
 	immediate = {
 		hidden_effect = {
 			1860 = {
-				add_core = G20
-				cede_province = G20
+				add_core = FRI
+				cede_province = FRI
 			}
-			G20 = {
+			FRI = {
 				set_government_rank = 1
 				change_government = monarchy
 				add_government_reform = frisian_invasion
-				change_primary_culture = dutch
-				change_religion = germanic
+				change_primary_culture = frisian
+				change_religion = german_pagan
 			}
 		}
 	}
@@ -1098,13 +1098,13 @@ country_event = {#Frisian Invasion of Essex
 		trigger = {
 			NOT = { ai = yes }
 		}
-		declare_war = G20
+		declare_war = FRI
 	}
 	option = {
 		name = CBFlavorEvents.15b
 		1860 = {
-			change_culture = dutch
-			change_religion = germanic
+			change_culture = frisian
+			change_religion = german_pagan
 		}
 		add_adm_power = 50
 		add_dip_power = 50
@@ -1116,12 +1116,12 @@ country_event = {#Frisian Invasion of Essex
 			NOT = { ai = yes }
 		}
 		1860 = {
-			change_culture = dutch
-			change_religion = germanic
+			change_culture = frisian
+			change_religion = german_pagan
 		}
-		capital_scope = { change_religion = germanic }
-		change_tag = G20
-		G20 = { integrate = FROM }
+		capital_scope = { change_religion = german_pagan }
+		change_tag = FRI
+		FRI = { integrate = FROM }
 	}
 }
 country_event = {#Writing conventions of Tuthegacia
@@ -1131,7 +1131,7 @@ country_event = {#Writing conventions of Tuthegacia
 	picture = DIPLOMACY_eventPicture
 	is_triggered_only = yes
 	trigger = {
-		tag = G10
+		tag = GLA
 		OR = {
 			dynasty = "Donreritter"
 			dynasty = "Donerrite"
@@ -1215,14 +1215,43 @@ country_event = {#Refugees from Leventina
 	picture = STREET_SPEECH_eventPicture
 	fire_only_once = yes
 	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			1860 = {
+				add_core = FRI
+				cede_province = FRI
+			}
+			FRI = {
+				set_government_rank = 1
+				change_government = monarchy
+				add_government_reform = frisian_invasion
+				change_primary_culture = frisian
+				change_religion = german_pagan
+			}
+		}
+	}
 	option = {
 		name = CBFlavorEvents.17a
-		capital_scope = {
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 1
+		trigger = {
+			NOT = { ai = yes }
 		}
-		add_claim = 166
-		add_claim = 1870
+	}
+}
+country_event = { # Vasconians depart for the coast
+	id = CBFlavorEvents.18
+	title = CBFlavorEvents.18t
+	desc = CBFlavorEvents.18d
+	picture = STREET_SPEECH_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	option = {
+		name = CBFlavorEvents.18a
+		trigger = {
+			NOT = { ai = yes }
+		}
 	}
 }

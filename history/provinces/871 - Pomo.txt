@@ -27,6 +27,6 @@ discovered_by = north_american
 	add_core = RUS
 	is_city = yes
 	trade_goods = wool
-	culture = russian
+	culture = bolghar
 	religion = orthodox
 } # Fort Ross

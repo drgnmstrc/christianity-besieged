@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = vestes
+add_accepted_culture = gallien
+religion = german_pagan
+technology_group = ottoman
+capital = 174
+add_army_professionalism = 0.1
+
+1444.11.11 = {
+	monarch = {
+		name = "Garoden"
+		dynasty = "Freiavuns"
+		birth_date = 1412.1.11
+		adm = 4
+		dip = 4
+		mil = 6
+		leader = { name = "Garoden"   	type = general	fire = 3	shock = 4	manuever = 3	siege = 2 }
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = bold_fighter_personality
+}

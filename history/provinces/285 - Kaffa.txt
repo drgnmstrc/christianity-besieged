@@ -1,7 +1,7 @@
 #285 - Kaffa
 
-owner = H30
-controller = H30 
+owner = BSP
+controller = BSP 
 culture = pondii
 religion = hellenism
 hre = no
@@ -11,7 +11,7 @@ trade_goods = wine
 base_manpower = 2
 capital = "Bosporopolis"
 is_city = yes
-add_core = H30
+add_core = BSP
 add_core = CRI
 discovered_by = western
 discovered_by = eastern

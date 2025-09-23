@@ -1,6 +1,6 @@
-owner = R45
-controller = R45
-add_core = R45
+owner = BPH
+controller = BPH
+add_core = BPH
 culture = khoemana
 religion = qanumi
 trade_goods = ivory
@@ -11,8 +11,8 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }
 discovered_by = central_african
 discovered_by = south_african

@@ -1,8 +1,8 @@
 #Östergötland, contains Norrköping, Linköping etc.
 
-add_core = N13
-owner = N13
-controller = N13
+add_core = LGP
+owner = LGP
+controller = LGP
 culture = swedish
 religion = norse_pagan_reformed
 hre = no

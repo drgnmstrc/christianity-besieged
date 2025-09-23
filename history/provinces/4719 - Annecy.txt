@@ -1,7 +1,7 @@
-owner = SAV
-controller = SAV
+owner = LUG
+controller = LUG
 culture = gothic
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3
 base_production = 2
@@ -9,8 +9,8 @@ trade_goods = cloth
 base_manpower = 2
 capital = "Bourg-en-Bresse"
 is_city = yes	
-add_core = SAV
-add_core = Y15
+add_core = LUG
+add_core = ALD
 
 
 discovered_by = eastern

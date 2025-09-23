@@ -1,6 +1,6 @@
-owner = Y16
-controller = Y16
-add_core = Y16
+owner = TSR
+controller = TSR
+add_core = TSR
 culture = andalucian
 religion = ashabi
 capital = "Thrasanan"

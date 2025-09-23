@@ -124,7 +124,7 @@ samaritan_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				owned_by = U01
+				owned_by = BTA
 				is_capital = yes
 			}
 		}
@@ -203,7 +203,7 @@ samaritan_rebels = {
 		}
 		if = {
 			limit = {
-				tag = U01
+				tag = BTA
 			}
 			add_stability = -1
 		}

@@ -1,8 +1,8 @@
 #295 - Moskva
 
-owner = Z03
-controller = Z03 
-culture = russian
+owner = MSU
+controller = MSU 
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3
@@ -11,7 +11,7 @@ trade_goods = iron
 base_manpower = 2
 capital = "Moskva"
 is_city = yes
-add_core = Z03
+add_core = MSU
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

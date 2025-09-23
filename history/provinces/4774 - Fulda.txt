@@ -1,9 +1,9 @@
 #4774 - Fulda
-owner = G34
-controller = G34
-add_core = G34
+owner = KSS
+controller = KSS
+add_core = KSS
 culture = swabian
-religion = germanic
+religion = german_pagan
 base_tax = 2
 base_production = 2
 trade_goods = grain

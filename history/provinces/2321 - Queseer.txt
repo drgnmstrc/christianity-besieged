@@ -1,11 +1,11 @@
 #2321 - Queseer
 
-owner = R56
-controller = R56
-add_core = R56
+owner = BTY
+controller = BTY
+add_core = BTY
 culture = hebrew
-religion = hussite
-add_permanent_claim = Y05
+religion = rabbinic
+add_permanent_claim = MUQ
 capital = "Kisrh"
 is_city = yes
 base_manpower = 2

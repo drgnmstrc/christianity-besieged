@@ -1,5 +1,5 @@
 #4152 - Kuusamo incl Maanselkä and Kitka
-tribal_owner = V22
+tribal_owner = TAV
 trade_goods = unknown
 native_size = 50
 native_ferocity = 2

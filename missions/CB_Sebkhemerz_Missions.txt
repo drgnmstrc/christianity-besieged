@@ -3,7 +3,7 @@ sebkhemerz_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -11,6 +11,9 @@ sebkhemerz_missions_1 = {
 		icon = mission_hands_praying
 		required_missions = { sebk_new_foundations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = obj_convert_10_provinces_tooltip
@@ -33,6 +36,9 @@ sebkhemerz_missions_1 = {
 		icon = mission_mosque
 		required_missions = { sebk_proliferate_faith }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			temple = 9
 		}
@@ -54,7 +60,7 @@ sebkhemerz_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -62,6 +68,9 @@ sebkhemerz_missions_2 = {
 		icon = mission_eastern_european_city
 		required_missions = { sebk_new_foundations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			4754 = {
 				owned_by = ROOT
@@ -79,16 +88,19 @@ sebkhemerz_missions_2 = {
 		icon = mission_conquer_50_development
 		required_missions = { sebk_seize_iliropolis }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
-			4174 = {
+			143 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			4750 = {
+			144 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			4780 = {
+			147 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
@@ -96,8 +108,7 @@ sebkhemerz_missions_2 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			northern_greece_area = {
-				type = all
+			4699 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
@@ -114,7 +125,7 @@ sebkhemerz_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -122,6 +133,9 @@ sebkhemerz_missions_3 = {
 		icon = mission_persian_soldiers
 		required_missions = { }
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			army_size_percentage = 1
 			treasury = 25
@@ -135,6 +149,9 @@ sebkhemerz_missions_3 = {
 		icon = mission_galleys_in_port
 		required_missions = { sebk_new_foundations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			bulgaria_area = {
 				type = all
@@ -159,6 +176,9 @@ sebkhemerz_missions_3 = {
 		icon = mission_hanseatic_city
 		required_missions = { sebk_black_sea_expansion }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			151 = {
 				owned_by = ROOT
@@ -173,6 +193,9 @@ sebkhemerz_missions_3 = {
 		icon = mission_crusade_for_varna
 		required_missions = { sebk_western_temples sebk_andalucian_hinterland sebk_jewel_bosphorus sebk_dismantling_morava sebk_feeding_thinkers }
 		position = 4
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 
 		}
@@ -187,6 +210,9 @@ sebkhemerz_missions_3 = {
 		icon = mission_noble_council
 		required_missions = { sebk_through_storm }
 		position = 5
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 
 		}
@@ -202,7 +228,7 @@ sebkhemerz_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -210,9 +236,12 @@ sebkhemerz_missions_4 = {
 		icon = mission_have_two_subjects
 		required_missions = { sebk_new_foundations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			has_won_war_against = {
-				who = SLO
+				who = MVA
 				max_years_since = 5
 			}
 		}
@@ -228,6 +257,9 @@ sebkhemerz_missions_4 = {
 		icon = mission_cossack_cavalry
 		required_missions = { sebk_reassert_dominance }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			alfold_area = {
 				type = all
@@ -260,7 +292,7 @@ sebkhemerz_missions_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = X07
+		tag = SBK
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -268,6 +300,9 @@ sebkhemerz_missions_5 = {
 		icon = mission_early_game_buildings
 		required_missions = { sebk_new_foundations }
 		position = 2
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				num_of_times_improved_by_owner = 1
@@ -286,6 +321,9 @@ sebkhemerz_missions_5 = {
 		icon = mission_have_manufactories
 		required_missions = { sebk_connecting_communities }
 		position = 3
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			num_of_owned_provinces_with = {
 				trade_goods = grain

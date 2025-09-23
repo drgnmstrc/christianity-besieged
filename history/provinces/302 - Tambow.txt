@@ -30,4 +30,4 @@ discovered_by = scandinavian_tech
 	add_core = RUS
 	remove_core = CRI
 } # Battle of Molodi
-1650.1.1 = { culture = russian religion = hellenism }
+1650.1.1 = { culture = bolghar religion = hellenism }

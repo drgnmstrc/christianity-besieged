@@ -1,8 +1,8 @@
 # No previous file for Kebbi
 
-owner = R87
-controller = R87
-add_core = R87
+owner = KBB
+controller = KBB
+add_core = KBB
 is_city = yes
 culture = hausa 
 religion = bori #Fetishism

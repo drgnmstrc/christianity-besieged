@@ -1,7 +1,7 @@
 # No previous file for Otukpo
-owner = R85
-controller = R85
-add_core = R85
+owner = EBI
+controller = EBI
+add_core = EBI
 is_city = yes
 culture = ebira
 religion = itan

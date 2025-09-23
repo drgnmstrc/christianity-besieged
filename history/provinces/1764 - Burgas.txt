@@ -1,9 +1,9 @@
 #1764 - Burgas
 
-owner = BUL
-controller = BUL
-add_core = Z01
-add_core = BUL
+owner = CPC
+controller = CPC
+add_core = BLK
+add_core = CPC
 culture = bulgarian
 religion = manichaeism
 capital = "Baldos"

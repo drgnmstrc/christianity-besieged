@@ -1,11 +1,11 @@
 #85 - Köln
 
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 add_core = KOL
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = paper
 capital = "Köln"
 base_tax = 6 

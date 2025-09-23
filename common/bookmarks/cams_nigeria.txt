@@ -5,16 +5,16 @@ bookmark =
 	date = "1444.11.11"
 	center = 5031
 	country = BEN
-	country = R53
+	country = NRI
 	country = SOK
-	country = R24
+	country = BLD
 	country = OYO
 	country = DAH
-	country = R62
+	country = ORH
 	country = KBO
-	country = R91
+	country = MND
 	easy_country = BEN
-	easy_country = R53
+	easy_country = NRI
 	easy_country = SOK
 }
 

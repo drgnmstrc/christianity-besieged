@@ -12,13 +12,17 @@ country_decisions = {
 			}
 			NOT = {
 				exists = GBR
-				exists = H01
-				exists = H15
-				exists = N14
-				exists = N15
+				exists = AMO
+				exists = BMA
+				exists = ANG
+				exists = BTV
 				exists = ENG
 			}
-			primary_culture = breton
+			OR = {
+				primary_culture = armorican
+				primary_culture = britannian
+				primary_culture = cambrian
+			}
 			NOT = { religion_group = christian }
 			OR = {
 				ai = no
@@ -54,7 +58,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			NOT = { exists = H01 }
+			NOT = { exists = AMO }
 			owns_core_province = 236		# London
 			owns_core_province = 237		# Oxfordshire
 			owns_core_province = 234		# Wessex
@@ -63,7 +67,7 @@ country_decisions = {
 			owns_core_province = 4379
 		}
 		effect = {
-			change_tag = H15
+			change_tag = BMA
 			add_accepted_culture = saxeish
 			add_accepted_culture = hwiccan
 			add_accepted_culture = irish
@@ -79,7 +83,7 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H15
+				add_permanent_claim = BMA
 			}
 			add_prestige = 25
 			add_country_modifier = {
@@ -88,20 +92,20 @@ country_decisions = {
 			}
 			set_country_flag = formed_britain_major_flag
 			369 = {
-				add_permanent_claim = H15
+				add_permanent_claim = BMA
 			}
 			1978 = {
-				add_permanent_claim = H15
+				add_permanent_claim = BMA
 			}
 			1979 = {
-			add_permanent_claim = H15
+			add_permanent_claim = BMA
 			}
 			subarctic_islands_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
 				}
-			add_claim = H15
+			add_claim = BMA
 			}
 		}
 		ai_will_do = {

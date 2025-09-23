@@ -1,7 +1,7 @@
 # - Tajhari (Idehan Murzuq)
-owner = R11
-controller = R11
-add_core = R11
+owner = DZG
+controller = DZG
+add_core = DZG
 is_city = yes
 culture = toubou
 religion = imohag

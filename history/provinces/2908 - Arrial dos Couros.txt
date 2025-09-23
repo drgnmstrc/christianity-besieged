@@ -1,9 +1,9 @@
 # - Arrial dos Couros
 
 is_city = yes
-owner = M74
-controller = M74
-add_core = M74
+owner = AUW
+controller = AUW
+add_core = AUW
 culture = ge
 discovered_by = south_american
 religion = animism

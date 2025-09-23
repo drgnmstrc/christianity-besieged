@@ -1,8 +1,8 @@
 #351 - Biskra
 
-owner = R06
-controller = R06 
-add_core = R06
+owner = SHW
+controller = SHW 
+add_core = SHW
 culture = isawiyen
 religion = mutazila
 capital = "Biskra"

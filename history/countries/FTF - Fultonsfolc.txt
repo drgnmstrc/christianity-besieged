@@ -1,0 +1,29 @@
+government = tribal
+add_government_reform = tribal_kingdom
+technology_group = western
+primary_culture = saxeish
+religion = saxish
+capital = 1861
+government_rank = 1
+
+1399.9.12 = {
+	monarch = {
+		name = "Fulton"
+		dynasty = "Þe Strang"
+		birth_date = 1376.4.15
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+# add_ruler_personality = immortal_personality # Hahahaha jkjk lol unlesss????
+1444.9.12 = {
+	heir = {
+		name = "Averil"
+		dynasty = "Fultsonna"
+		birth_date = 1439.3.25
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+}

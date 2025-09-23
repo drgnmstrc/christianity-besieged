@@ -1,0 +1,14 @@
+base_gui_open = {
+	ROOT = {
+		has_province_flag = TGE_GUI_open
+	} 
+}
+
+
+Quality_tier_check = {
+	ROOT = { is_variable_equal = { which = Quality_tier_TGE value = $LvL$ } }
+}
+
+TGE_size_check = {
+	ROOT = { is_variable_equal = { which = size_tier_TGE value = $LvL$ } }
+}

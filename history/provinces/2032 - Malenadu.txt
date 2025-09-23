@@ -1,8 +1,8 @@
 #2032 - Malenadu
 
-owner = L02
-controller = L02
-add_core = L02
+owner = HYS
+controller = HYS
+add_core = HYS
 culture = kannada
 religion = hinduism
 capital = "Ikkeri"

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = aghustean_sultanate_reform
+technology_group = ottoman
+primary_culture = aybirean
+add_accepted_culture = juthudi
+religion = ashabi
+government_rank = 1
+capital = 1746
+
+1444.1.1 = {
+	monarch = {
+		name = "Mazymus"
+		dynasty = "Aghustid"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}

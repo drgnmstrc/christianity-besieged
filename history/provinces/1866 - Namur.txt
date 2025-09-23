@@ -4,14 +4,14 @@ latent_trade_goods = {
 	coal
 }
 
-owner = G09
-controller = G09
-add_core = G09
+owner = NMR
+controller = NMR
+add_core = NMR
 add_core = OLD
 capital = "Namür"
 is_city = yes
 culture = flemish
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 7 
 base_production = 7

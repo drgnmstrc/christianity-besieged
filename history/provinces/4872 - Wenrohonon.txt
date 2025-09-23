@@ -22,7 +22,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	religion = catholic
-	culture = cosmopolitan_french	
+	culture = soisson	
 } # Construction of Fort Niagara
 1763.2.10 = {
 	owner = GBR

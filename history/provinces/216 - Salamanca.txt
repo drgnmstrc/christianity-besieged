@@ -1,8 +1,8 @@
 #216 - Salamanca
 
-owner = LON
-controller = LON
-add_core = LON
+owner = LUS
+controller = LUS
+add_core = LUS
 culture = lusitanian
 religion = liritism
 hre = no

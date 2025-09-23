@@ -1,8 +1,8 @@
 #Dalaskogen, northwesten part of Dalarna, including Mora and entire Siljan area.
 
-add_core = N30
-owner = N30
-controller = N30
+add_core = DLR
+owner = DLR
+controller = DLR
 culture = dalkarlar
 religion = norse_pagan_reformed
 hre = no

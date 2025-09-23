@@ -1,10 +1,10 @@
 #1875 - Cuneo (can't change filename)
 
-owner = H19
-controller = H19
-culture = swiss
+owner = TSP
+controller = TSP
+culture = helvetian
 religion = ashabi
-add_core = H19
+add_core = TSP
 hre = no
 base_tax = 4
 base_production = 4

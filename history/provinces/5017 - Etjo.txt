@@ -1,6 +1,6 @@
-owner = R25
-controller = R25
-add_core = R25
+owner = NII
+controller = NII
+add_core = NII
 trade_goods = iron
 is_city = yes
 culture = npkxaut

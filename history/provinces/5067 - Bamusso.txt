@@ -1,6 +1,6 @@
-add_core = R46
-owner = R46
-controller = R46
+add_core = TNY
+owner = TNY
+controller = TNY
 culture = duala
 religion = mudarian
 capital = "Bamusso"

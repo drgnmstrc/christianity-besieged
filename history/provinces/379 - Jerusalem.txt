@@ -1,9 +1,9 @@
 #379 - Judea
 
-owner = X05
-controller = X05
+owner = JUD
+controller = JUD
 culture = hebrew
-religion = hussite
+religion = rabbinic
 capital = "Yerushalayim"
 trade_goods = olive_oil
 hre = no
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
-add_core = X05
+add_core = JUD
 
 discovered_by = near_east
 discovered_by = ottoman

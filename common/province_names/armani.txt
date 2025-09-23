@@ -1,0 +1,40 @@
+# RULES
+# Format: ID = { "Province" "Capital" } # Origin
+
+# Macedonia
+3001 = { "Scopia" "Scopia" } # Scupi
+4780 = { "Ocrida" "Ocrida" } # Achrida
+1853 = { "Kusturea" "Sindeviata" } # Kastoria, Sindiwiat
+4702 = { "Siar" "Tsitãti Siarevi" } # Serrum, Civitatem Serranum
+148 = { "Sãrunã" "Ãim Calis" } # Thessalonica, Aiyum Qalis
+
+# South Turgazar/Albania
+4175 = { "Lezha" "Lezha" } # Lissum
+4750 = { "Kruja" "Kruja" } # Croarum
+4174 = { "Durus" "Durus" } # Dyrrachium
+143 = { "Avlona" "Avlona" } # Aulon
+
+# North Turgazar/Serbia
+1766 = { "Lipian" "Lipian" } # Ulpiana
+1827 = { "Rasia" "Varrãn" } # Rascia, Vranje
+138 = { "Polipol" "Municia" } # Polis-Polis, Municipum
+4754 = { "Ascrivea" "Ilirepoli" } # Ascrivium, Illiropoli
+
+# Dalmatia
+137 = { "Rãgusã" "Rãgusã" } # Ragusium
+136 = { "Spalãt" "Spalãt" } # Aspalathum
+4753 = { "Iadãr" "Iadãr" } # Iader
+4942 = { "Sinsea" "Sinsea" } # Sinusea
+
+# Dalmatici/Bosnia
+1831 = { "Refugi" "Refugi" } # Refugium
+4755 = { "Diãcletã" "Diãcletã" } # Docletae
+140 = { "Api Supuri" "Api Supuri" } # Aquae Suphurae
+3002 = { "Dãsites" "Dãsites" } # Daesitiates
+139 = { "Cãlms" "Cãlms" } # Terra Chelmi
+
+# Ustdalmat/Croatia
+1826 = { "Apodia" "Otocãc" } # Iapodia, Ottocium
+4752 = { "Flumea" "Flumea" } # Flumen
+131 = { "Agrãna" "Munt Grec" } # Agranum, Mons Graecensis
+1828 = { "Ãcea" "Ãcea" } # Jajce

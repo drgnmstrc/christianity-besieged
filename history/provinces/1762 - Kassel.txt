@@ -1,8 +1,8 @@
-owner = G34
-controller = G34
-add_core = G34
+owner = KSS
+controller = KSS
+add_core = KSS
 culture = swabian
-religion = germanic
+religion = german_pagan
 capital = "Kassel"
 trade_goods = glass
 base_tax = 2 

@@ -1,7 +1,7 @@
 #Ume, Åsele, Piteå Lappmarks
-owner = V19
-controller = V19
-add_core = V19
+owner = UME
+controller = UME
+add_core = UME
 trade_goods = unknown
 native_size = 50
 native_ferocity = 2

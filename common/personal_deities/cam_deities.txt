@@ -5,7 +5,7 @@ jesus_of_nazareth = {
 		OR = {
 			AND = {
 				any_owned_province = {
-					culture_group = armaic
+					culture_group = aramaic_group
 				}
 				religion = manichaeism
 			}	
@@ -42,11 +42,11 @@ saint_michael = {
 		modifier = {
 			factor = 0
 			is_at_war = no
-			NOT = { tag = X07 }
+			NOT = { tag = SBK }
 		}
 		modifier = {
 			factor = 2
-			tag = X07
+			tag = SBK
 		}
 	}
 }
@@ -178,7 +178,7 @@ muhammad_deity = {
 			OR = {
 				culture_group = turko_semitic
 				culture_group = rumi
-				culture = italian_turk
+				culture = italo_turk
 			}
 		}
 		religion = manichaeism
@@ -201,7 +201,7 @@ baptist_john = {
 	potential = { 
 			any_owned_province = {
 				OR = {
-					culture_group = armaic
+					culture_group = aramaic_group
 					religion = mandaeism
 					religion_group = christian
 				}
@@ -417,7 +417,7 @@ cybele = {
 		factor = 1
 		modifier = {
 			factor = 10
-			tag = H10
+			tag = PHR
 		}
 	}
 }
@@ -745,7 +745,7 @@ cernos = {
 		religion = walianitas
 		any_owned_province = {
 			OR = {
-				culture_group = french
+				culture_group = belgican
 				culture = gaulish
 			}
 		}

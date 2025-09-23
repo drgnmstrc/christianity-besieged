@@ -1,7 +1,7 @@
 #251 - Aberdeen
 
-owner = N09
-controller = N09
+owner = HJL
+controller = HJL
 culture = hjallish #Mix of Highland and Lowland Scotts 
 religion = norse_pagan_reformed
 hre = no
@@ -11,7 +11,7 @@ trade_goods = fish
 base_manpower = 3
 capital = "Aberdeen"
 is_city = yes
-add_core = N09
+add_core = HJL
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman

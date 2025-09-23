@@ -1,8 +1,8 @@
 #4539 - Kremenets
 
-owner = X23
-controller = X23
-add_core = X23
+owner = BLZ
+controller = BLZ
+add_core = BLZ
 culture = bolokhov
 religion = slavic
 hre = no

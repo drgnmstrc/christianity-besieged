@@ -1,8 +1,8 @@
 #2034 - Pune (Northern Desh)
 
-owner = L08
-controller = L08
-add_core = L08
+owner = AVY
+controller = AVY
+add_core = AVY
 culture = marathi
 religion = hinduism
 capital = "Pune"

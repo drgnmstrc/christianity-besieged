@@ -1,24 +1,24 @@
 # Order here is the priority for taking them, if trigger is true.
 
-R40 = {
+JJA = {
 	always = yes
 }
 
-R31 = {
+SNG = {
 	always = yes
 }
-A04 = {
+MMR = {
 	always = yes
 }
-R09 = {
+MUT = {
 	always = yes
 }
-Q01 = {
+ISU = {
 	always = yes
 }
-M61 = {
+QIA = {
 	always = yes
 }
-M21 = {
+COY = {
 	always = yes
 }

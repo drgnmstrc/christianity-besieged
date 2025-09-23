@@ -1,6 +1,18 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = romanian
-religion = orthodox
-technology_group = eastern
-capital = 161	# Tîrgoviste
+government = republic
+add_government_reform = east_roman_federation_reform
+government_rank = 1
+primary_culture = dacian
+religion = zamolxism
+technology_group = ottoman
+capital = 3005
+add_army_tradition = 30
+
+1444.1.1 = {
+	monarch = {
+		name = "Bureviš"
+		dynasty = "Costeleš"
+		adm = 2
+		dip = 5
+		mil = 5
+	}
+}

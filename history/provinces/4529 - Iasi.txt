@@ -1,8 +1,8 @@
 #4529 - Iasi
 
-owner = X22
-controller = X22
-add_core = X22
+owner = JSZ
+controller = JSZ
+add_core = JSZ
 culture = jasz
 religion = manichaeism
 capital = "Jaszi"

@@ -1,18 +1,18 @@
 # 167 Caux - Principal cities: Rouen
 
-owner = B08
-controller = B08
+owner = SSN
+controller = SSN
 capital = "Rouen"
 is_city = yes
 #estate = estate_burghers
-culture = cosmopolitan_french
-religion = anglican
+culture = soisson
+religion = theodolian
 hre = no
 base_tax = 5
 base_production = 5
 trade_goods = glass
 base_manpower = 5
-add_core = B08
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

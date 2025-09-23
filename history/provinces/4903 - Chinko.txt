@@ -24,7 +24,7 @@ discovered_by = north_american
 	remove_core = ILL
 	remove_core = IRO
 	religion = catholic
-	culture = cosmopolitan_french
+	culture = soisson
 } # Construction of Fort Crèvecoeur
 1707.5.12 = { discovered_by = GBR }
 1763.2.10 = {

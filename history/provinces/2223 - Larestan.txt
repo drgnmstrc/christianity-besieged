@@ -1,9 +1,9 @@
 #2223 - Larestan
 
-owner = Z19
-controller = Z19
-add_core = Z19
-add_core = PER
+owner = NBN
+controller = NBN
+add_core = NBN
+add_core = ERS
 culture = persian
 religion = manichaeism
 capital = "Lar"

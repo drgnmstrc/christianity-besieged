@@ -2,8 +2,8 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-religion = germanic
-primary_culture = dutch
+religion = german_pagan
+primary_culture = frisian
 capital = 4383 #Haag
 
 1417.5.31 = {

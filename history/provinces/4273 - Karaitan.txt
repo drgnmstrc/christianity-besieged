@@ -1,8 +1,8 @@
 #4273 - Karaitan
 
-owner = Y13
-controller = Y13
-add_core = Y13
+owner = HSH
+controller = HSH
+add_core = HSH
 culture = bedouin_arabic
 religion = sunni
 capital = "Kariatan"

@@ -1,8 +1,8 @@
 #126 - Malta
 
-owner = Y03
-controller = Y03
-culture = sicilian
+owner = IFR
+controller = IFR
+culture = ifri
 religion = ashabi 
 hre = no 
 base_tax = 3 
@@ -11,7 +11,7 @@ trade_goods = seafood
 base_manpower = 2
 capital = "Mdina" 
 is_city = yes
-add_core = Y03
+add_core = IFR
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

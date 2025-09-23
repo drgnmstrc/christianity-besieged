@@ -1,160 +1,11 @@
-grischun_missions_1 = {
-	slot = 1
-	generic = no
-	ai = yes
-	potential = {
-		OR = {
-			tag = G27
-			was_tag = G27
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-
-	grischun_our_allegiences = {
-		icon = mission_build_up_to_force_limit
-		required_missions = { grischun_finish_conquest }
-		position = 4
-		provinces_to_highlight = {
-			OR = {
-				is_capital_of = ULM
-				is_capital_of = H28
-				is_capital_of = U01
-			}
-			NOT = {
-				ROOT = {
-					OR = {
-						alliance_with = ULM
-						alliance_with = U01
-						alliance_with = H28
-					}
-				}
-			}
-		}
-		trigger = {
-			OR = {
-				AND = {
-					alliance_with = ULM
-					NOT = {
-						OR  = {
-						alliance_with = U01
-						alliance_with = H28
-						}
-					}
-				}
-				AND = {
-					alliance_with = U01
-					NOT = {
-						OR = {
-							alliance_with = ULM
-							alliance_with = H28
-						}
-					}
-				}
-				AND = {
-					alliance_with = H28
-					NOT = {
-						OR  = {
-							alliance_with = U01
-							alliance_with = ULM
-						}
-					}
-				}
-			}
-		}
-		effect = { #This is what you get after you finished your mission.
-			if = {
-				limit = { alliance_with = U01 }
-				change_religion = ashabi
-			}
-			if = {
-				limit = { alliance_with = H28 }
-				change_religion = walianitas
-			}
-			country_event = { id = CBFlavorEvents.18 }
-		}
-	}
-	grischun_a_new_era_of_worship = {
-		icon = mission_cossack_cavalry
-		required_missions = { grischun_our_allegiences grischun_secure_alpine_gates }
-		position = 6
-		provinces_to_highlight = {
-			province_id = 1873
-			NOT = {
-				has_building = temple
-			}
-		}
-		trigger = {
-			1873 = { has_building = temple }
-		}
-		effect = { #This is what you get after you finished your mission.
-			if = {
-				limit = { religion = germanic }
-				every_owned_province = {
-					limit = { area = switzerland_area }
-					change_religion = germanic
-				}
-			}
-			if = {
-				limit = { religion = ashabi }
-				every_owned_province = {
-					limit = { area = switzerland_area }
-					change_religion = ashabi
-				}
-			}
-			if = {
-				limit = { religion = walianitas }
-				every_owned_province = {
-					limit = { area = switzerland_area }
-					change_religion = walianitas
-				}
-			}
-		}	
-	}
-}
-
-grischun_missions_2 = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = {
-		OR = {
-			tag = G27
-			was_tag = G27
-		}
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-
-	grischun_prepare_for_new_wars = {
-		icon = mission_build_up_to_force_limit
-		required_missions = { grischun_finish_conquest }
-		position = 4
-		trigger = {
-			mil_tech = 4
-			mil_power = 100
-		}
-		effect = { #This is what you get after you finished your mission.
-			add_mil_power = -100
-			1873 = {
-				add_building_construction = {
-    				building = training_fields
-    				speed = 2
-    				cost = 0
-				}
-			}
-		}
-	}
-}
-
 grischun_missions_3 = {
 	slot = 3
 	generic = no
 	ai = yes
 	potential = {
 		OR = {
-			tag = G27
-			was_tag = G27
+			tag = GRS
+			was_tag = GRS
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -164,12 +15,15 @@ grischun_missions_3 = {
 		icon = mission_build_up_to_force_limit
 		required_missions = {  } #None
 		position = 1
+		provinces_to_highlight = {
+			
+		}
 		trigger = {
 			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
 		effect = { #This is what you get after you finished your mission.
-			1870 = { add_permanent_claim = G27 }
-			166 = { add_permanent_claim = G27 }
+			1870 = { add_permanent_claim = GRS }
+			166 = { add_permanent_claim = GRS }
 		}
 	}
 
@@ -178,13 +32,10 @@ grischun_missions_3 = {
 		required_missions = { grischun_campaign_preparations }
 		position = 2
 		provinces_to_highlight = {
-			is_capital_of = G24
-			NOT = {
-				owner = { war_with = G27 }
-			}
+			
 		}
 		trigger = {
-			war_with = G24
+			war_with = LEV
 		}
 		effect = { #This is what you get after you finished your mission.
 			add_country_modifier = {
@@ -198,13 +49,7 @@ grischun_missions_3 = {
 		required_missions = { grischun_leventina_campaign }
 		position = 3
 		provinces_to_highlight = {
-			OR = {
-				province_id = 1870
-				province_id = 166
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			
 		}
 		trigger = {
 			owns = 166
@@ -214,22 +59,15 @@ grischun_missions_3 = {
 			add_core = 166
 			add_core = 1870
 			166 = {
-				change_culture = romansh
-				if = {
-					limit = { 1873 = { religion = walianitas }}
-					change_religion = walianitas
-				}
+				change_culture = 1873
+				change_religion = 1873
 				add_base_tax = -1
 				add_base_production = -1
 				add_base_manpower = -1
 			}
 			1870 = {
-				change_culture = romansh
+				change_culture = 4722
 				change_religion = 4722
-				if = {
-					limit = { 4722 = { religion = walianitas }}
-					change_religion = walianitas
-				}
 				add_base_tax = -1
 				add_base_production = -1
 				add_base_manpower = -1
@@ -238,75 +76,6 @@ grischun_missions_3 = {
 				country_event = {
 					id = CBFlavorEvents.17
 				}
-			}
-		}	
-	}
-	grischun_affirm_our_rights = {
-		icon = mission_build_up_to_force_limit
-		required_missions = { grischun_finish_conquest }
-		position = 4
-		provinces_to_highlight = {
-			province_id = 1869
-			NOT = {
-				is_claim = G27
-			}
-		}
-		trigger = {
-			is_claim = 1869 #What you need to complete the mission, displayed for mission tooltip
-		}
-		effect = { #This is what you get after you finished your mission.
-			1869 = { add_permanent_claim = G27 }
-			4712 = { add_permanent_claim = G27 }
-			4740 = { add_permanent_claim = G27 }
-			2969 = { add_permanent_claim = G27 }
-		}
-	}
-	grischun_secure_alpine_gates = {
-		icon = mission_build_up_to_force_limit
-		required_missions = { grischun_affirm_our_rights }
-		position = 5
-		provinces_to_highlight = {
-			OR = {
-				province_id = 4712
-				province_id = 2979
-				province_id = 4740
-				area = switzerland_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			owns_all_provinces = {
-				area = switzerland_area
-			}
-			owns = 4712
-			owns = 4740
-			owns = 2979
-		}
-		effect = { #This is what you get after you finished your mission.
-			add_prestige = 15
-			add_stability_or_adm_power = yes
-		}
-	}
-	grischun_seal_alpine_gates = {
-		icon = mission_cossack_cavalry
-		required_missions = { grischun_secure_alpine_gates }
-		position = 6
-		provinces_to_highlight = {
-			country_or_non_sovereign_subject_holds = ROOT
-			fort_level = 2
-		}
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 5
-				fort_level = 2
-			}
-		}
-		effect = { #This is what you get after you finished your mission.
-			add_country_modifier = {
-				name = alpine_gatekeepers
-				duration = -1
 			}
 		}	
 	}

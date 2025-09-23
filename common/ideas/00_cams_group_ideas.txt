@@ -94,12 +94,12 @@ settler_ideas = {
 	free = yes
 	trigger = {
 		OR = {
-			tag = A01
-			tag = A02
-			tag = A03
-			tag = A04
-			tag = A05
-			tag = A06
+			tag = NVS
+			tag = SVR
+			tag = DHR
+			tag = MMR
+			tag = BKS
+			tag = RDR
 		}
 	}
 	norse_birth_by_fire = {
@@ -182,7 +182,7 @@ bogelik_ideas = {
 	free = yes
 	trigger = { 
 		capital_scope = { region = italy_region }
-		NOT = { tag = H01 }
+		NOT = { tag = AMO }
 		religion = ashabi
 	}
 	roman_awakening_islamic = {
@@ -224,7 +224,7 @@ mediterranean_ideas = {
 		culture_group = rumi
 		NOT = { primary_culture = almukhidi }
 		NOT = { primary_culture = andalucian }
-		NOT = { primary_culture = nabuthi }
+		NOT = { primary_culture = abindari }
 	}
 	free = yes
 	conquerors_farwest = {
@@ -268,9 +268,9 @@ kurudijuha_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = R40
-			tag = R43
-			tag = R21
+			tag = JJA
+			tag = ZDA
+			tag = QAA
 		}
 	}
 	free = yes
@@ -364,7 +364,7 @@ kung_ideas = {
 		global_unrest = -2
 		culture_conversion_cost = -0.25
 	}
-	rich_julhoan_literacy = {
+	rich_juhoan_literacy = {
 		technology_cost = -0.1
 		reform_progress_growth = 0.1
 	}
@@ -640,9 +640,9 @@ norse_finnic_ideas = {
 	}
 	trigger = {
 		OR = {
-			tag = N04
-			tag = N05
-			tag = N11
+			tag = JUL
+			tag = BDJ
+			tag = KVN
 		}
 	}
 	free = yes

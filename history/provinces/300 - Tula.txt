@@ -1,8 +1,8 @@
 #300 - Tula
 
-owner = Z02
-controller = Z02 
-culture = russian
+owner = BSA
+controller = BSA 
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3
@@ -11,7 +11,7 @@ trade_goods = iron
 base_manpower = 2
 capital = "Tula"
 is_city = yes
-add_core = Z02
+add_core = BSA
 
 discovered_by = eastern
 discovered_by = western

@@ -1,8 +1,8 @@
 # - Syracusa
 
-owner = Y03
-controller = Y03
-culture = sicilian 
+owner = IFR
+controller = IFR
+culture = ifri 
 religion = ashabi
 hre = no 
 base_tax = 3
@@ -11,7 +11,7 @@ trade_goods = sulfur
 base_manpower = 2
 capital = "Girgenti"
 is_city = yes
-add_core = Y03
+add_core = IFR
 
 
 

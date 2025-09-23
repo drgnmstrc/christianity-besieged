@@ -1,7 +1,7 @@
 # No previous file for Maroua
-owner = R18
-controller = R18
-add_core = R18
+owner = QSR
+controller = QSR
+add_core = QSR
 culture = baggara
 religion = sunni
 capital = "Maroua"

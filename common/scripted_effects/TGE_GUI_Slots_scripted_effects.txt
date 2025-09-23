@@ -1,0 +1,868 @@
+Setup_Slot_Tradegood = {
+	if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_1$_Slot_$SlotVar$
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_1 which = ROOT }
+			multiply_variable = { which = Ducats_price_1 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_1 }
+		}
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_1$
+				setup_PRICE_$TypeINF$ = { $GOODS_1$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+
+				Industy_Goods_Bonus = { 
+					$GOODS_1$ = yes 
+				}
+				Set_Goods_Production = { GOODS = $GOODS_1$ }
+				goods_save = yes
+				
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_1$
+				}
+				
+			}	
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_2$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_2 which = ROOT }
+			multiply_variable = { which = Ducats_price_2 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_2 }
+		}
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_2$
+				setup_PRICE_$TypeINF$ = { $GOODS_2$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_2$ = yes 
+				}
+				Set_Goods_Production = { GOODS = $GOODS_2$ }
+				goods_save = yes
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_2$
+				}
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_3$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_3 which = ROOT }
+			multiply_variable = { which = Ducats_price_3 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_3 }
+		}
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_3$
+				setup_PRICE_$TypeINF$ = { $GOODS_3$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+			
+				Industy_Goods_Bonus = { 
+					$GOODS_3$ = yes 
+				}
+				Set_Goods_Production = { GOODS = $GOODS_3$ }
+				goods_save = yes
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_3$
+				}
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_4$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_4 which = ROOT }
+			multiply_variable = { which = Ducats_price_4 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_4 }
+		}
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_4$
+				setup_PRICE_$TypeINF$ = { $GOODS_4$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				var_effect = { effect = add_treasury variable = Ducats_price_4 }
+				Industy_Goods_Bonus = { 
+					$GOODS_4$ = yes 
+				}
+				Set_Goods_Production = { GOODS = $GOODS_4$ }
+				goods_save = yes
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_4$
+				}
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_5$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_5 which = ROOT }
+			multiply_variable = { which = Ducats_price_5 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_5 }
+		}
+		
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_5$
+				setup_PRICE_$TypeINF$ = { $GOODS_5$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Industy_Goods_Bonus = { 
+					$GOODS_5$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_5$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_5$
+				}
+			}
+			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_6$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_6 which = ROOT }
+			multiply_variable = { which = Ducats_price_6 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_6 }
+		}
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_6$
+				setup_PRICE_$TypeINF$ = { $GOODS_6$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_6$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_6$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_6$
+				}			
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_7$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_7 which = ROOT }
+			multiply_variable = { which = Ducats_price_7 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_7 }
+		}
+		
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_7$
+				setup_PRICE_$TypeINF$ = { $GOODS_7$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_7$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_7$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_7$
+				}			
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_8$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_8 which = ROOT }
+			multiply_variable = { which = Ducats_price_8 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_8 }
+		}
+		
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_8$
+				setup_PRICE_$TypeINF$ = { $GOODS_8$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_8$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_8$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_8$
+				}			
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_9$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_9 which = ROOT }
+			multiply_variable = { which = Ducats_price_9 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_9 }
+		}
+		
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_9$
+				setup_PRICE_$TypeINF$ = { $GOODS_9$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_9$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_9$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_9$
+				}			
+			}			
+		}
+	}
+	else_if = {
+		limit = { 
+			ROOT = { 
+				has_province_flag = $TypeINF$_$GOODS_10$_Slot_$SlotVar$ 
+			}
+		}
+		FROM = {
+			set_variable = { which = Ducats_price_10 which = ROOT }
+			multiply_variable = { which = Ducats_price_10 value = -1 }
+			var_effect = { effect = add_treasury variable = Ducats_price_10 }
+		}
+		
+		ROOT = {
+			hidden_effect = {
+				trade_goods_bonus_remove_$TypeINF$ = yes
+				
+				change_trade_goods = $GOODS_10$
+				setup_PRICE_$TypeINF$ = { $GOODS_10$ = yes }
+				set_variable = { which = Quality_tier_TGE value = 1 }
+				add_province_modifier = { 
+					name = Quality_tier_TGE_1
+					hidden = yes
+					duration = -1  
+				}
+				Setup_goods_Slots_$TypeINF$ = yes
+				
+				Industy_Goods_Bonus = { 
+					$GOODS_10$ = yes 
+				}
+				goods_save = yes
+				Set_Goods_Production = { GOODS = $GOODS_10$ }
+				Setup_goods_Slots_$TypeINF$ = yes	
+				
+				trade_goods_bonus_check = { 
+					modifier_name = $GOODS_10$
+				}			
+			}			
+		}
+	}
+}
+
+Rural_Slot_1_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 1
+			GOODS_1 = grain
+			GOODS_2 = livestock
+			GOODS_3 = wine
+			GOODS_4 = apiculture
+			GOODS_5 = wool
+			GOODS_6 = horses
+			GOODS_7 = lumber
+			GOODS_8 = fur
+			GOODS_9 = olive_oil
+			GOODS_10 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	} 
+}
+
+Port_Slot_1_Setup = {
+	Setup_Slot_Tradegood = {
+		TypeINF = Port
+		SlotVar = 1
+		GOODS_1 = fish
+		GOODS_2 = seafood
+		GOODS_3 = naval_supplies
+		GOODS_4 = whaling
+		GOODS_5 = amber
+		GOODS_6 = salt
+		GOODS_7 = pearls
+		GOODS_8 = sea_turtle
+	}
+	Remove_old_flags_two = { Port_Goods = yes }
+}
+
+Mine_Slot_1_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 1
+			GOODS_1 = iron
+			GOODS_2 = copper
+			GOODS_3 = tin
+			GOODS_4 = zinc
+			GOODS_5 = lead
+			GOODS_6 = gold
+			GOODS_7 = silver
+			GOODS_8 = marble
+			GOODS_9 = gems
+			GOODS_10 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+
+Rural_Slot_2_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 2
+			GOODS_1 = livestock
+			GOODS_2 = wine
+			GOODS_3 = apiculture
+			GOODS_4 = wool
+			GOODS_5 = horses
+			GOODS_6 = lumber
+			GOODS_7 = fur
+			GOODS_8 = olive_oil
+			GOODS_9 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Port_Slot_2_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Port } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Port
+			SlotVar = 2
+			GOODS_1 = seafood
+			GOODS_2 = naval_supplies
+			GOODS_3 = whaling
+			GOODS_4 = amber
+			GOODS_5 = salt
+			GOODS_6 = pearls
+			GOODS_7 = sea_turtle
+		}
+		
+		Remove_old_flags_two = { Port_Goods = yes }
+	} 
+}
+
+
+Mine_Slot_2_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 2
+			GOODS_1 = copper
+			GOODS_2 = tin
+			GOODS_3 = zinc
+			GOODS_4 = lead
+			GOODS_5 = gold
+			GOODS_6 = silver
+			GOODS_7 = marble
+			GOODS_8 = gems
+			GOODS_9 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+Rural_Slot_3_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 3
+			GOODS_1 = wine
+			GOODS_2 = apiculture
+			GOODS_3 = wool
+			GOODS_4 = horses
+			GOODS_5 = lumber
+			GOODS_6 = fur
+			GOODS_7 = olive_oil
+			GOODS_8 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Port_Slot_3_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Port } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Port
+			SlotVar = 3
+			GOODS_1 = naval_supplies
+			GOODS_2 = whaling
+			GOODS_3 = amber
+			GOODS_4 = salt
+			GOODS_5 = pearls
+			GOODS_6 = sea_turtle
+		}
+		
+		Remove_old_flags_two = { Port_Goods = yes }
+	} 
+}
+
+Mine_Slot_3_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 3
+			GOODS_1 = tin
+			GOODS_2 = zinc
+			GOODS_3 = lead
+			GOODS_4 = gold
+			GOODS_5 = silver
+			GOODS_6 = marble
+			GOODS_7 = gems
+			GOODS_8 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+
+Rural_Slot_4_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 4
+			GOODS_1 = apiculture
+			GOODS_2 = wool
+			GOODS_3 = horses
+			GOODS_4 = lumber
+			GOODS_5 = fur
+			GOODS_6 = olive_oil
+			GOODS_7 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Port_Slot_4_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Port } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Port
+			SlotVar = 4
+			GOODS_1 = whaling
+			GOODS_2 = amber
+			GOODS_3 = salt
+			GOODS_4 = pearls
+			GOODS_5 = sea_turtle
+		}
+		
+		Remove_old_flags_two = { Port_Goods = yes }
+	} 
+}
+
+Mine_Slot_4_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 4
+			GOODS_1 = zinc
+			GOODS_2 = lead
+			GOODS_3 = gold
+			GOODS_4 = silver
+			GOODS_5 = marble
+			GOODS_6 = gems
+			GOODS_7 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+
+
+Rural_Slot_5_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 5
+			GOODS_1 = wool
+			GOODS_2 = horses
+			GOODS_3 = lumber
+			GOODS_4 = fur
+			GOODS_5 = olive_oil
+			GOODS_6 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Port_Slot_5_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Port } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Port
+			SlotVar = 5
+			GOODS_1 = amber
+			GOODS_2 = salt
+			GOODS_3 = pearls
+			GOODS_4 = sea_turtle
+		}
+		
+		Remove_old_flags_two = { Port_Goods = yes }
+	} 
+}
+
+Mine_Slot_5_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 5
+			GOODS_1 = lead
+			GOODS_2 = gold
+			GOODS_3 = silver
+			GOODS_4 = marble
+			GOODS_5 = gems
+			GOODS_6 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+Rural_Slot_6_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 6
+			GOODS_1 = horses
+			GOODS_2 = lumber
+			GOODS_3 = fur
+			GOODS_4 = olive_oil
+			GOODS_5 = citrus
+		}
+
+	
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Port_Slot_6_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Port } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Port
+			SlotVar = 6
+			GOODS_1 = salt
+			GOODS_2 = pearls
+			GOODS_3 = sea_turtle
+		}
+		
+		Remove_old_flags_two = { Port_Goods = yes }
+	} 
+}
+
+Mine_Slot_6_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 6
+			GOODS_1 = gold
+			GOODS_2 = silver
+			GOODS_3 = marble
+			GOODS_4 = gems
+			GOODS_5 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+
+Rural_Slot_7_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 7
+			GOODS_1 = lumber
+			GOODS_2 = fur
+			GOODS_3 = olive_oil
+			GOODS_4 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Mine_Slot_7_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 7
+			GOODS_1 = silver
+			GOODS_2 = marble
+			GOODS_3 = gems
+			GOODS_4 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+Rural_Slot_8_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 8
+			GOODS_1 = fur
+			GOODS_2 = olive_oil
+			GOODS_3 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Mine_Slot_8_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 8
+			GOODS_1 = marble
+			GOODS_2 = gems
+			GOODS_3 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+Rural_Slot_9_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 9
+			GOODS_1 = olive_oil
+			GOODS_2 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Mine_Slot_9_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 9
+			GOODS_1 = gems
+			GOODS_2 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+
+Rural_Slot_10_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Rural } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Rural
+			SlotVar = 10
+			GOODS_1 = citrus
+		}
+		
+		Remove_old_flags_two = { Rural_Goods = yes }
+	}
+}
+
+Mine_Slot_10_Setup = {
+	if = {
+		limit = { ROOT = { has_province_flag = Mine } }
+		
+		Setup_Slot_Tradegood = {
+			TypeINF = Mine
+			SlotVar = 10
+			GOODS_1 = coal
+		}
+		
+		Remove_old_flags_two = { Mine_Goods = yes }
+	} 
+}
+

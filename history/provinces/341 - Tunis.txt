@@ -1,8 +1,8 @@
 #341 - Tunis
 
-owner = R05
-controller = R05 
-culture = sicilian
+owner = QRT
+controller = QRT 
+culture = ifri
 religion = ashabi
 capital = "Tunis"
 trade_goods = cloth
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 7
 base_manpower = 3
 is_city = yes
-add_core = R05
+add_core = QRT
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

@@ -1,7 +1,7 @@
 # No previous file for Awori
-owner = R67
-controller = R67
-add_core = R67
+owner = AWO
+controller = AWO
+add_core = AWO
 culture = awori 
 religion = itan #Fetishism
 capital = "Awori"

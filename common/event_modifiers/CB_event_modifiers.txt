@@ -185,7 +185,7 @@ chosen_bacchic_one = {
 	naval_morale = 0.15
 	tolerance_own = 3
 }
-mutawasiti_admirals = {
+bahrumi_admirals = {
 	navy_tradition = 1
 	admiral_cost = -0.5
 }
@@ -443,8 +443,8 @@ estate_church_pax_deiorumin = {
 	local_religious_unity_contribution = -1
 }
 venetian_pax_deiorum = {
-	ven_patricians_influence = -0.05
-	ven_plebians_influence = 0.05
+	# ven_patricians_influence = -0.05
+	# ven_plebians_influence = 0.05
 }
 burzafrah_unstoppable = {
 	land_morale = 0.2
@@ -724,7 +724,7 @@ albayt_caliph_dues = {
 	global_tax_modifier = 0.05
 }
 burning_ember_of_zhongguo = {
-	core_creation_cost = -0.75
+	core_creation = -0.75
 	land_morale = 0.1
 	discipline = 0.05
 }
@@ -766,4 +766,142 @@ tukholma_large_swedish_minority = {
 	local_state_maintenance_modifier = 0.25
 	technology_cost = -0.025
 	embracement_cost = -0.025
+}
+naghali_discontent = {
+	local_unrest = 4
+	culture_conversion_cost = -0.25
+}
+naghali_influx = {
+	production_efficiency = 0.25
+	trade_value_modifier = 2
+}
+##################################################
+# Harmonized Modifiers
+##################################################
+
+# Religions
+harmonized_vajrayana = {
+	production_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_buddhism = { #Theravada
+	advisor_cost = -0.05
+	religion = yes
+}
+
+harmonized_mahayana = {
+	idea_cost = -0.07
+	religion = yes
+}
+
+harmonized_shinto = {
+	infantry_power = 0.05
+	religion = yes
+}
+
+harmonized_tengri_pagan_reformed = {
+	cavalry_power = 0.1
+	religion = yes
+}
+
+# Religion Groups
+harmonized_pagan = {
+	global_unrest = -0.5
+	religion = yes
+}
+
+harmonized_jewish_group = {
+	global_institution_spread = 0.15
+	religion = yes
+}
+
+harmonized_zoroastrian_group = {
+	trade_efficiency = 0.1
+	religion = yes
+}
+
+harmonized_dharmic = {
+	tolerance_own = 1
+	religion = yes
+}
+
+harmonized_muslim = {
+	trade_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_hellenic = {
+	idea_cost = -0.1
+	religion = yes
+}
+
+harmonized_christian = {
+	stability_cost_modifier = -0.05
+	religion = yes
+}
+
+harmonized_american = {
+	movement_speed = 0.1
+	religion = yes
+}
+
+harmonized_slavic_pagan = {
+	prestige_decay = -0.01
+	religion = yes
+}
+
+harmonized_german_pagan = {
+	discipline = 0.025
+	religion = yes
+}
+
+harmonized_african_pagan = {
+	num_accepted_cultures = 1
+	religion = yes
+}
+
+harmonized_moism = {
+	diplomatic_reputation = 1
+	religion = yes
+}
+
+harmonized_muism = {
+	tolerance_heretic = 1
+	religion = yes
+}
+
+harmonized_monjiao = {
+	administrative_efficiency = 0.05
+	religion = yes
+}
+
+harmonized_bon = {
+	land_attrition = -0.1
+	religion = yes
+}
+
+harmonized_hmong = {
+	development_cost = -0.05
+	religion = yes
+}
+
+harmonized_bimoism = {
+	tolerance_heretic = 1
+	religion = yes
+}
+
+harmonized_satsana_phi = {
+	defensiveness = 0.1
+	religion = yes
+}
+
+harmonized_nahuatl = {
+	siege_ability = 0.1
+	religion = yes
+}
+
+harmonized_mesopotamian = {
+	fort_maintenance_modifier = -0.1
+	religion = yes
 }

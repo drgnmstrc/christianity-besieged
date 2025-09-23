@@ -2,9 +2,9 @@
 
 owner = YOR
 controller = YOR
-add_core = L05
+add_core = CNC
 add_core = YOR
-add_core = L02
+add_core = HYS
 culture = telegu
 religion = hinduism
 capital = "Adanki"

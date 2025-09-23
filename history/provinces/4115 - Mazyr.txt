@@ -1,8 +1,8 @@
 # - Mazyr
 
-owner = Z25
-controller = Z25
-add_core = Z25
+owner = MZR
+controller = MZR
+add_core = MZR
 culture = novgorodian
 religion = rodoptr
 hre = no

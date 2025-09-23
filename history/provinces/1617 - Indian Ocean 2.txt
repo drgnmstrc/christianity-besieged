@@ -1,5 +1,5 @@
 discovered_by = indian
 1444.1.1 = { 
-	discovered_by = R34
-	discovered_by = R35
+	discovered_by = MSH
+	discovered_by = MSR
 }

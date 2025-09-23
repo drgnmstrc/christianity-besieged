@@ -1,9 +1,9 @@
 #1869 - Zurich
 
-owner = G37
-controller = G37
+owner = ZUR
+controller = ZUR
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Zürich"
 trade_goods = wool
 hre = yes
@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 #estate = estate_burghers
-add_core = G37
+add_core = ZUR
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

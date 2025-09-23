@@ -1,7 +1,7 @@
 #2410 - Theodoro
 
-owner = A03
-controller = A03
+owner = DHR
+controller = DHR
 culture = kuzarim
 religion = karaite
 hre = no
@@ -11,8 +11,8 @@ trade_goods = wine
 base_manpower = 3
 capital = "Mangul"
 is_city = yes
-add_core = A03
-add_core = X21
+add_core = DHR
+add_core = QRQ
 
 
 discovered_by = western

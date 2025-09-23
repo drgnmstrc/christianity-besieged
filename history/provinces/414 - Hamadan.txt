@@ -1,10 +1,10 @@
 #414 - Hamadan
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = median
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Ecbatana"
 trade_goods = cloth
 hre = no

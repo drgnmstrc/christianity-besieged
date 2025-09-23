@@ -1,8 +1,8 @@
 #4331 - Kazerun
 
-owner = PER
-controller = PER
-add_core = PER
+owner = ERS
+controller = ERS
+add_core = ERS
 add_core = LRI
 culture = luri
 religion = manichaeism

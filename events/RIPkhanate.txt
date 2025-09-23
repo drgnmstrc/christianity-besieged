@@ -7,7 +7,7 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
-		tag = Z14
+		tag = ILK
 		NOT = { is_year = 1500 }
 	}
 	immediate = {
@@ -21,7 +21,7 @@ country_event = {
 			}
 			release = SIS
 			release_all_subjects = yes
-			Z19 = {
+			NBN = {
 				country_event = {
 					id = ripkhanate.1
 				}
@@ -51,7 +51,7 @@ country_event = {
 			casus_belli = cb_disloyal_vassal
 		}
 		declare_war_with_cb = {
-			who = Z18
+			who = BCT
 			casus_belli = cb_disloyal_vassal
 		}
 		declare_war_with_cb = {
@@ -85,8 +85,8 @@ country_event = {
 		if = {
 			limit = {
 				was_player = yes
-				PER = {
-					is_neighbor_of = Z19
+				ERS = {
+					is_neighbor_of = NBN
 				}
 			}
 			country_event = {
@@ -95,12 +95,12 @@ country_event = {
 		}
 		if = {
 			limit = {
-				PER = {
+				ERS = {
 					was_player = yes
-					is_neighbor_of = Z19
+					is_neighbor_of = NBN
 				}
 			}
-			PER = {
+			ERS = {
 				country_event = {
 					id = ripkhanate.3
 				}
@@ -109,39 +109,39 @@ country_event = {
 		if = {
 			limit = {
 				was_player = no
-				PER = {
+				ERS = {
 					was_player = no
-					is_neighbor_of = Z19
+					is_neighbor_of = NBN
 				}
 				SND = {
 					was_player = no
 				}
-				Z14 = {
+				ILK = {
 					was_player = no
 				}
 			}
 			every_owned_province = {
-				cede_province = PER
+				cede_province = ERS
 			}
 		}
 		if = {
 			limit = {
 				was_player = no
-				PER = {
+				ERS = {
 					was_player = no
-					is_neighbor_of = Z19
+					is_neighbor_of = NBN
 				}
 				OR = {
 					SND = {
 						was_player = yes
 					}
-					Z14 = {
+					ILK = {
 						was_player = yes
 					}
 				}
 			}
-			PER = {
-				vassalize = Z19
+			ERS = {
+				vassalize = NBN
 			}
 		}
 	}
@@ -154,16 +154,16 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "ripkhanate.2a"
-		PER = {
-			vassalize = Z19
+		ERS = {
+			vassalize = NBN
 		}
 		add_stability = 1
 	}
 	option = {
 		name = "ripkhanate.2b"
-		PER = {
+		ERS = {
 			add_opinion = {
-				who = Z19
+				who = NBN
 				modifier = resisting_glorious_reunion
 			}
 		}
@@ -177,18 +177,18 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "ripkhanate.3a"
-		vassalize = Z19
+		vassalize = NBN
 	}
 	option = {
 		name = "ripkhanate.3b"
-		inherit = Z19
+		inherit = NBN
 		add_stability = -1
 	}
 	option = {
 		name = "ripkhanate.3c"
-		Z19 = {
+		NBN = {
 			add_opinion = {
-				who = PER
+				who = ERS
 				modifier = abandoned_ancient_suzerainty
 			}
 		}

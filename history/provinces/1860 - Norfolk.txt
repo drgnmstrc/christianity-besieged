@@ -1,8 +1,8 @@
 #1860 - Norfolk
 #Includes Suffolk
 
-owner = B03
-controller = B03
+owner = ESX
+controller = ESX
 culture = saxeish
 religion = saxish
 hre = no
@@ -12,7 +12,7 @@ trade_goods = beer
 base_manpower = 3
 capital = "Norwich"
 is_city = yes
-add_core = B03
+add_core = ESX
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman

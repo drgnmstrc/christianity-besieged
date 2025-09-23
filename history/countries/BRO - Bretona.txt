@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = county_of_bretono
+government_rank = 1
+technology_group = ottoman
+primary_culture = bretono
+religion = liritism
+capital = 5172
+fixed_capital = 5172
+unit_type = roman_units
+
+1399.9.12 = {
+	monarch = {
+		name = "Judicael"
+		dynasty = "Gwilherms"
+		religion = walianitas
+		birth_date = 1376.4.15
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}

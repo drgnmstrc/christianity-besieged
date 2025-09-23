@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = cosmopolitan_french
+primary_culture = soisson
 add_accepted_culture = gascon
 add_accepted_culture = occitain
 religion = catholic
@@ -72,7 +72,7 @@ historical_rival = HAB
 		mil = 4
 	}
 	queen = {
-        country_of_origin = PRO
+        country_of_origin = CHP
         name = "Marie"
         dynasty = "d'Anjou"
         birth_date = 1404.10.14
@@ -139,7 +139,7 @@ historical_rival = HAB
 		mil = 2
 	}
 	queen = {
-		country_of_origin = SAV
+		country_of_origin = LUG
 		name = "Carlotta"
 		dynasty = "di Savoia"
 		birth_date = 1443.1.1
@@ -211,7 +211,7 @@ historical_rival = HAB
 
 1488.7.27 = { leader = { name = "Louis de la Trémoille"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1525.2.24 } }
 
-1488.9.10 = { add_accepted_culture = breton }
+1488.9.10 = { add_accepted_culture = armorican }
 
 1495.1.1 = { leader = {	name = "Jacques de La Palice"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1525.2.24 } }
 
@@ -670,7 +670,7 @@ add_government_reform = autocracy_reform }
 	add_ruler_personality = expansionist_personality
 }
 
-1643.5.15 = { remove_accepted_culture = burgundian remove_accepted_culture = breton }
+1643.5.15 = { remove_accepted_culture = burgundian remove_accepted_culture = armorican }
 
 1648.10.24 = {
 	leave_league = protestant

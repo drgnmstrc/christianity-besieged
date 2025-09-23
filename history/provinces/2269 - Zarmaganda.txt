@@ -1,8 +1,8 @@
 # No previous file for Zarmaganda
 
-owner = R57
-controller = R57
-add_core = R57
+owner = AZW
+controller = AZW
+add_core = AZW
 is_city = yes
 culture = songhai
 religion = sunni

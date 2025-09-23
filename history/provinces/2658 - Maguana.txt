@@ -3,9 +3,9 @@
 is_city = yes
 discovered_by = mesoamerican
 discovered_by = south_american
-owner = M46
-controller = M46
-add_core = M46
+owner = MGN
+controller = MGN
+add_core = MGN
 culture = arawak
 religion = animism
 capital = "Maguana"

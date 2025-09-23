@@ -1,5 +1,5 @@
 #979 - Aleut
-tribal_owner = Q09
+tribal_owner = ALU
 culture = aleutian
 religion = totemism
 capital = "Aleut"
@@ -23,7 +23,7 @@ discovered_by = north_american
 	owner = RUS
 	controller = RUS
 	add_core = RUS
-	culture = russian
+	culture = bolghar
 	religion = orthodox
 	is_city = yes
 	trade_goods = fur

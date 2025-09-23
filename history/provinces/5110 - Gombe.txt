@@ -1,7 +1,7 @@
 # No previous file for Gombe
-owner = R84
-controller = R84
-add_core = R84
+owner = BAU
+controller = BAU
+add_core = BAU
 culture = hausa 
 religion = bori
 capital = "Bauchi"

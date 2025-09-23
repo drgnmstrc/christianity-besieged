@@ -1,9 +1,9 @@
 #1854 - Negev
 
-owner = X05
-controller = X05
+owner = JUD
+controller = JUD
 culture = hebrew
-religion = hussite
+religion = rabbinic
 capital = "Shekhem"
 trade_goods = sugar
 hre = no
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 #estate = estate_nobles
-add_core = X05
+add_core = JUD
 
 discovered_by = western
 discovered_by = near_east

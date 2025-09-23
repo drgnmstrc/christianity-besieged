@@ -1,8 +1,8 @@
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 culture = flemish
-religion = germanic
+religion = german_pagan
 trade_goods = grain
 capital = "Treverorus"
 base_tax = 5

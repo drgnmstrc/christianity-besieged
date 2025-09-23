@@ -3,7 +3,7 @@
 owner = MUN
 controller = MUN
 culture = saxon
-religion = germanic
+religion = german_pagan
 trade_goods = cloth
 capital = "Meppen"
 base_tax = 4

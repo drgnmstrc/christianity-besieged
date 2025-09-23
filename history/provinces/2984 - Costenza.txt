@@ -1,8 +1,8 @@
 # - Cosenza
 
-owner = Y03
-controller = Y03
-culture = sicilian 
+owner = IFR
+controller = IFR
+culture = ifri 
 religion = ashabi
 hre = no 
 base_tax = 2
@@ -11,8 +11,8 @@ trade_goods = citrus
 base_manpower = 1
 capital = "Cosenza"
 is_city = yes 
-add_core = Y03
-add_core = H20
+add_core = IFR
+add_core = LCN
 
 
 

@@ -17,7 +17,7 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
-discovered_by = south_african
+discovered_by = sub_saharan
 
 1480.1.1 = { discovered_by = TUR }
 1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
@@ -33,13 +33,13 @@ discovered_by = south_african
 } # Rule restored
 1679.1.1 = { unrest = 5 } # Internal unrest upon Imam's death
 1741.1.1 = {
-	owner = PER
-	controller = PER	
-	add_core = PER
+	owner = ERS
+	controller = ERS	
+	add_core = ERS
 } # Invaded by Persia
 1749.1.1 = { unrest = 0 }
 1749.6.10 = {
 	owner = OMA
 	controller = OMA
-	remove_core = PER
+	remove_core = ERS
 }

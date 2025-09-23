@@ -1,17 +1,17 @@
 # 169 Armor
 
-owner = H01
-controller = H01
+owner = AMO
+controller = AMO
 capital = "Saint-Malo"
 is_city = yes
-culture = breton
+culture = armorican
 religion = walianitas
 hre = no
 base_tax = 5
 base_production = 5
 trade_goods = tin
 base_manpower = 4
-add_core = H01
+add_core = AMO
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

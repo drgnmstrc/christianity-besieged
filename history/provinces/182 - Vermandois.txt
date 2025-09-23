@@ -1,11 +1,11 @@
 # 182 Vermandois - Principal cities: Compiègne + Soissons
 
-owner = B08
-controller = B08
+owner = SSN
+controller = SSN
 capital = "Soissons"
 is_city = yes
-culture = cosmopolitan_french
-religion = anglican
+culture = soisson
+religion = theodolian
 hre = no
 base_tax = 8
 base_production = 8
@@ -14,7 +14,7 @@ base_manpower = 7
 extra_cost = 8
 center_of_trade = 1
 #fort_15th = yes
-add_core = B08
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

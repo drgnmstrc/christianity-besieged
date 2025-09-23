@@ -1,9 +1,9 @@
 #Eastern Jutland, incl. Vejle, Skanderborg, Kolding, and Fredericia.
 
-owner = N25
-controller = N25
-add_core = N25
-culture = jutes
+owner = CIM
+controller = CIM
+add_core = CIM
+culture = cimbrian
 religion = norse_pagan_reformed
 hre = no
 base_tax = 3

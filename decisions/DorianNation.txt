@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = H21 }
+			NOT = { exists = DOR }
 			primary_culture = aigaio
 			is_colonial_nation = no
 			OR = {
@@ -39,7 +39,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = H21
+				exists = DOR
 			}
 			owns_core_province = 142
 			owns_core_province = 1773
@@ -48,7 +48,7 @@ country_decisions = {
 			owns_core_province = 320
 		}
 		effect = {
-			change_tag = H21
+			change_tag = DOR
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -60,19 +60,19 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H21
+				add_permanent_claim = DOR
 			}
 			northern_greece_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = H21
+				add_permanent_claim = DOR
 			}
 			aegean_archipelago_area = {
 				limit = {
 					NOT = {	owned_by = ROOT }
 				}
-				add_permanent_claim = H21
+				add_permanent_claim = DOR
 			}
 			add_prestige = 25
 			set_country_flag = formed_aigaio_flag

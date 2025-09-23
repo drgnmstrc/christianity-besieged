@@ -2,7 +2,6 @@
 culture = gbaya
 religion = byeri
 capital = "Mser"
-trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1

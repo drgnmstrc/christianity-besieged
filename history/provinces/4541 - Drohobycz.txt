@@ -1,8 +1,8 @@
 #4541 - Drohobycz
 
-owner = V05
-controller = V05
-add_core = V05
+owner = LDZ
+controller = LDZ
+add_core = LDZ
 religion = slavic
 culture = ruthenian
 hre = no

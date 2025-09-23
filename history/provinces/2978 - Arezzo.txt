@@ -1,9 +1,9 @@
 # 2978 - Arezzo
 
-owner = U11
-controller = U11
+owner = TUS
+controller = TUS
 add_core = LAN
-add_core = U11
+add_core = TUS
 culture = fiorenorum
 religion = ashabi
 hre = no

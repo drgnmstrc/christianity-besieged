@@ -2,9 +2,9 @@
 
 culture = chango
 is_city = yes
-owner = M65
-controller = M65
-add_core = M65
+owner = CNG
+controller = CNG
+add_core = CNG
 
 
 discovered_by = south_american

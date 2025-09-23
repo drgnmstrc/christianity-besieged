@@ -1,8 +1,8 @@
 #146 - Athens
 
-owner = Y17
-controller = Y17
-add_core = Y17
+owner = MRN
+controller = MRN
+add_core = MRN
 culture = andalucian
 religion = ashabi
 capital = "Marathuna"

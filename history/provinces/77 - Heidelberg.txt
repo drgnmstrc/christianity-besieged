@@ -2,15 +2,15 @@
 
 capital = "Bergheim"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = wine
-owner = G13
+owner = BGN
 base_tax = 6
 base_production = 6
 base_manpower = 2
 is_city = yes
-controller = G13
-add_core = G13
+controller = BGN
+add_core = BGN
 hre = yes
 
 discovered_by = eastern

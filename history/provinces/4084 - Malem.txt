@@ -1,7 +1,7 @@
-owner = R27
-controller = R27
-add_core = R27
-add_core = R23
+owner = BNH
+controller = BNH
+add_core = BNH
+add_core = QUV
 trade_goods = gems
 is_city = yes
 culture = taa

@@ -1,8 +1,8 @@
 #43 - Danzig
 
-owner = N01
-controller = N01
-add_core = N01
+owner = RDJ
+controller = RDJ
+add_core = RDJ
 capital = "Danzig"
 culture = prussian
 religion = rodoptr

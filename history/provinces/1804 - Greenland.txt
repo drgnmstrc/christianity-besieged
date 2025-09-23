@@ -1,4 +1,4 @@
 #1804 - Greenland
 
-1444.1.1 = { discovered_by = N09 }
+1444.1.1 = { discovered_by = HJL }
  

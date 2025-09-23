@@ -19,7 +19,7 @@ grant_sacredgrove = {
 			NOT = {
 				num_of_cities = 2
 			}
-			religion = germanic
+			religion = german_pagan
 		}
 		NOT = {
 			calc_true_if = {

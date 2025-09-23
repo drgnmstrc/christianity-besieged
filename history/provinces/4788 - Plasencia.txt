@@ -1,9 +1,9 @@
 #4788 - Plasencia
 
-owner = R04
-controller = R04
-add_core = R04
-add_core = J04
+owner = KSR
+controller = KSR
+add_core = KSR
+add_core = VTT
 culture = vettonian
 religion = shiite
 hre = no

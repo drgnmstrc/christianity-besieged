@@ -3,7 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 religion = tengri_pagan_reformed
 technology_group = nomad_group
-primary_culture = russian
+primary_culture = bolghar
 capital = 301	# Ryazan
 fixed_capital = 301 # Cannot move capital away from this province & no power cost to move to it
 

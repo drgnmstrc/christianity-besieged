@@ -385,7 +385,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB10"	# It is not in our interest
+		name = "colonial_nation.EVTOPTBRY"	# It is not in our interest
 		ai_chance = {
 			factor = 75
 			modifier = {
@@ -552,7 +552,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB12"	# Let them expand freely
+		name = "colonial_nation.EVTOPTSRY"	# Let them expand freely
 		ai_chance = { factor = 25 }
 		event_target:restricted_colonial_expansion_country = {
 			every_neighbor_country = {
@@ -1126,7 +1126,7 @@ country_event = {
 		set_country_flag = tariffs_on_grain
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_grain
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1217,7 +1217,7 @@ country_event = {
 		set_country_flag = tariffs_on_wine
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_wine
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1309,7 +1309,7 @@ country_event = {
 		set_country_flag = tariffs_on_wool
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_wool
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1400,7 +1400,7 @@ country_event = {
 		set_country_flag = tariffs_on_cloth
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_cloth
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1492,7 +1492,7 @@ country_event = {
 		set_country_flag = tariffs_on_fish
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_fish
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1584,7 +1584,7 @@ country_event = {
 		set_country_flag = tariffs_on_fur
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_fur
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1675,7 +1675,7 @@ country_event = {
 		set_country_flag = tariffs_on_salt
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_salt
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1766,7 +1766,7 @@ country_event = {
 		set_country_flag = tariffs_on_naval_supplies
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_naval_supplies
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1857,7 +1857,7 @@ country_event = {
 		set_country_flag = tariffs_on_copper
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_copper
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -1948,7 +1948,7 @@ country_event = {
 		set_country_flag = tariffs_on_iron
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_iron
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2039,7 +2039,7 @@ country_event = {
 		set_country_flag = tariffs_on_ivory
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_ivory
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2130,7 +2130,7 @@ country_event = {
 		set_country_flag = tariffs_on_tea
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_tea
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2221,7 +2221,7 @@ country_event = {
 		set_country_flag = tariffs_on_chinaware
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_chinaware
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2312,7 +2312,7 @@ country_event = {
 		set_country_flag = tariffs_on_spices
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_spices
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2402,7 +2402,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_coffee
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2493,7 +2493,7 @@ country_event = {
 		set_country_flag = tariffs_on_cotton
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_cotton
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2584,7 +2584,7 @@ country_event = {
 		set_country_flag = tariffs_on_sugar
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_sugar
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2675,7 +2675,7 @@ country_event = {
 		set_country_flag = tariffs_on_tobacco
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_tobacco
 		random_list = {
 			33 = { add_adm_power = 10 }
@@ -2766,7 +2766,7 @@ country_event = {
 		set_country_flag = tariffs_on_cocoa
 	}
 	option = {
-		name = "colonial_nation.EVTOPTB100"	# Better leave it be
+		name = "colonial_nation.EVTOPTBRY0"	# Better leave it be
 		set_country_flag = tariffs_on_cocoa
 		random_list = {
 			33 = { add_adm_power = 10 }

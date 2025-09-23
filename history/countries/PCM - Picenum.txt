@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = italo_turk
+add_accepted_culture = rumanus
+capital = 119
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Tunc"
+		dynasty = "Togay"
+		dip = 2
+		mil = 1
+		adm = 2
+	}
+}# No previous file for Picenum

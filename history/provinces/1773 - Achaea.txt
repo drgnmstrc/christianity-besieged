@@ -1,9 +1,9 @@
 #1773 - Achaea
 
-owner = Y14
-controller = Y14
-add_core = Y14
-culture = nabuthi
+owner = ABN
+controller = ABN
+add_core = ABN
+culture = abindari
 religion = ashabi
 capital = "Batradid"
 trade_goods = olive_oil

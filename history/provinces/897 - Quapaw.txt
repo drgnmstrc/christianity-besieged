@@ -37,7 +37,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	remove_core = SPA
-	culture = cosmopolitan_french
+	culture = soisson
 } # Treaty of San Ildefonso
 1803.4.3 = {
 	owner = USA

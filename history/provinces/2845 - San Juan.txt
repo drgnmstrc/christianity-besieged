@@ -1,9 +1,9 @@
 # - San Juan
 
 culture = huarpe
-owner = M66
-controller = M66
-add_core = M66
+owner = HRP
+controller = HRP
+add_core = HRP
 is_city = yes
 
 discovered_by = south_american

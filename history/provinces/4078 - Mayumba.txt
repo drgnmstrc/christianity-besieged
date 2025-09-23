@@ -1,6 +1,6 @@
-owner = R09
-controller = R09
-add_core = R09
+owner = MUT
+controller = MUT
+add_core = MUT
 culture = kongolese
 religion = mudarian
 capital = "Mayumba"

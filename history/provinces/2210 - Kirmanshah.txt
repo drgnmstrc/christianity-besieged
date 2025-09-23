@@ -1,10 +1,10 @@
 #2210 - Kirmanshah
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = median
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Kirmanshah"
 trade_goods = cloth
 hre = no

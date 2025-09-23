@@ -1,9 +1,9 @@
 #381 - Ajlun
 
-owner = X05
-controller = X05
+owner = JUD
+controller = JUD
 culture = hebrew
-religion = hussite
+religion = rabbinic
 capital = "Aglun"
 trade_goods = olive_oil
 hre = no
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = X05
+add_core = JUD
 
 discovered_by = near_east
 discovered_by = ottoman

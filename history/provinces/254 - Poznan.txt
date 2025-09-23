@@ -3,7 +3,7 @@
 owner = SIL
 controller = SIL
 add_core = SIL
-add_core = V03
+add_core = PLN
 capital = "Poznan"
 culture = polish
 religion = slavic

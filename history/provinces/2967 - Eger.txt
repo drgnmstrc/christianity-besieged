@@ -1,11 +1,11 @@
 # - Eger
 
-owner = G04
-controller = G04
-add_core = G04
+owner = GEP
+controller = GEP
+add_core = GEP
 add_core = BOH
-culture = gepidan
-religion = germanic
+culture = gepidian
+religion = german_pagan
 capital = "Eger"
 trade_goods = gold #Joachimstal mines
 hre = yes

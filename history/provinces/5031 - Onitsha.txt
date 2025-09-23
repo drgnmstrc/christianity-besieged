@@ -1,8 +1,8 @@
 culture = igbo
 religion = odinani
-owner = R53
-controller = R53
-add_core = R53
+owner = NRI
+controller = NRI
+add_core = NRI
 capital = "Onitsha"
 trade_goods = ivory
 hre = no

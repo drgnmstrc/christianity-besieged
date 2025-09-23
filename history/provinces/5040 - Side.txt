@@ -1,5 +1,5 @@
-owner = H11
-controller = H11
+owner = PAM
+controller = PAM
 culture = pamphylii
 religion = payidotheos
 capital = "Side"
@@ -10,7 +10,7 @@ base_production = 6
 base_manpower = 5
 is_city = yes
 fort_15th = yes
-add_core = H11
+add_core = PAM
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

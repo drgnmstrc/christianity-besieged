@@ -1,6 +1,6 @@
 #Karelen, incl. Sordavala and Keksholm.
 
-tribal_owner = V23
+tribal_owner = KKS
 culture = karelian
 religion = suomenusko
 hre = no

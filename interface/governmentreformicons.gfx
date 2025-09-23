@@ -802,7 +802,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//self_governing_colony_government.dds"
 	}
 
-	### LON // 1.34 Reforms
+	### LUS // 1.34 Reforms
 
 	spriteType = {
 		name = "government_reform_allotment_system"
@@ -1530,10 +1530,8 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//dlc//king_of_kings//turkoman_ottoman_institutions.dds"
 	}
 
-}
-
 	spriteType = {
-		name = "government_reform_aghustean_sultanate"
+		name = "government_reform_aghustean_sultanate_reform"
 		texturefile = "gfx/interface/government_reform_icons/aghustead_sultanate.dds"
 	}
 

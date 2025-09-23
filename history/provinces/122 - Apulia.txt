@@ -1,7 +1,7 @@
 #122 - Apulia
 
-owner = Y03
-controller = Y03
+owner = IFR
+controller = IFR
 culture = graeci 
 religion = ashabi
 hre = no 
@@ -12,8 +12,8 @@ base_manpower = 2
 capital = "Taranto"
 #estate = estate_nobles
 is_city = yes 
-add_core = H20
-add_core = Y03
+add_core = LCN
+add_core = IFR
 
 
 

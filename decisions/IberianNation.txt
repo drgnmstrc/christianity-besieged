@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = J06 }
+			NOT = { exists = IBE }
 			culture_group = iberian
 			religion = liritism
 			is_colonial_nation = no
@@ -42,7 +42,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = J06
+				exists = IBE
 			}
 			OR = {
 				owns_core_province = 227
@@ -118,8 +118,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J01
-							tag = J02
+							tag = CNT
+							tag = ASU
 						}
 					}
 					set_country_flag = north_iberian_union
@@ -127,8 +127,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J03
-							tag = LON
+							tag = VCC
+							tag = LUS
 						}
 					}
 					set_country_flag = central_iberian_union
@@ -136,15 +136,15 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							tag = J04
-							tag = J05
+							tag = VTT
+							tag = TRD
 						}
 					}
 					set_country_flag = south_iberian_union
 				}
 				if = {
 					limit = {
-						tag = J08
+						tag = INT
 					}
 					set_country_flag = intercacia_iberian_union
 					change_government = monarchy
@@ -157,7 +157,7 @@ country_decisions = {
 					set_country_flag = callaeci_iberian_union
 				}
 			}
-			change_tag = J06
+			change_tag = IBE
 			hidden_effect = { country_event = { id = unionIntegration.0 } }
 			custom_tooltip = inheriting_christian_allies_tt
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -171,7 +171,7 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J06
+				add_permanent_claim = IBE
 			}
 
 			add_prestige = 20

@@ -6,7 +6,7 @@ airskhemerz = {
 	home_province = 159
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		exists = X07
+		exists = SBK
 		religion = manichaeism
 	}
 	cost_modifier = 1.25
@@ -24,7 +24,7 @@ latins = {
 	home_province = 87
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		religion = anglican
+		religion = theodolian
 		NOT = { exists = FRA }
 	}
 	cost_modifier = 0.7
@@ -42,7 +42,7 @@ car_guard = {
 	home_province = 265
 	sprites = { dlc061_boh_sprite_pack dlc028_boh_sprite_pack easterngfx_sprite_pack }
 	trigger = {
-		NOT = { exists = SLO }
+		NOT = { exists = MVA }
 	}
 	modifier = {
 		discipline = 0.05
@@ -72,7 +72,7 @@ free_saxons = {
 	sprites = { dlc061_sax_sprite_pack dlc028_sax_sprite_pack dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		NOT = { exists = SAX }
-		religion = germanic
+		religion = german_pagan
 	}
 	modifier = {
 		land_attrition = -0.15
@@ -85,7 +85,7 @@ tarkhafaris = {
 	cavalry_weight = 1
 	sprites = { dlc048_gol_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		NOT = { exists = Z01 }
+		NOT = { exists = BLK }
 		148 = {
 			NOT = { culture = tarkhagan }
 		}
@@ -141,8 +141,8 @@ restoration_legion = {
 	cavalry_weight = 0.3
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
-		tag = H28
-		H28 = {
+		tag = VEN
+		VEN = {
 			num_of_cities = 5
 		}
 	}
@@ -162,7 +162,7 @@ legio_nabatea = {
 			religion_group = hellenic
 			religion_group = iranian
 			religion_group = slavic_pagan
-			religion_group = german_pagan
+			religion_group = germanic_pagan
 		}}}
 	}
 	cost_modifier = 0.8
@@ -214,12 +214,12 @@ turkigs_of_habaspans = {
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
 		OR = {
-			exists = Z21
-			exists = X07
+			exists = UNU
+			exists = SBK
 			140 = { culture = turkig }
 			OR = {
 				religion_group = slavic_pagan
-				religion_group = german_pagan
+				religion_group = germanic_pagan
 				religion_group = hellenic
 				religion_group = iranian
 			}
@@ -237,7 +237,7 @@ local_roman_legion = {
     cavalry_cap = 2
     cost_modifier = 0.5
     trigger = {
-        tag = H28
+        tag = VEN
     }
     # No home province means local mercenary company
 }

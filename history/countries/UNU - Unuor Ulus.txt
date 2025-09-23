@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudal_monarchy
+primary_culture = qashqai
+add_accepted_culture = latinlerin
+add_accepted_culture = pannici
+religion = manichaeism
+technology_group = ottoman
+capital = 140
+national_focus = MIL
+add_army_professionalism = 0.1
+add_army_tradition = 30
+historical_friend = VEN
+	
+1444.1.1 = {
+	monarch = {
+		name = "Allamid"
+		dynasty = "Khaeser"
+		birth_date = 1432.3.30
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}

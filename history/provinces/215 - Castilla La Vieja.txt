@@ -1,9 +1,9 @@
 #215 - Valladolid
 
-owner = J08
-controller = J08
-add_core = J08
-add_core = J03
+owner = INT
+controller = INT
+add_core = INT
+add_core = VCC
 culture = vaccaeian
 religion = liritism
 hre = no

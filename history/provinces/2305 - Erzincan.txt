@@ -1,8 +1,8 @@
 #2305 - Erzincan
 
-owner = H05
-controller = H05
-add_core = H05
+owner = CAP
+controller = CAP
+add_core = CAP
 culture = kurdish
 religion = manichaeism
 capital = "Erzindjan"

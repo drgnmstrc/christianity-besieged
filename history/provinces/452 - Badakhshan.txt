@@ -1,8 +1,8 @@
 #452 - Badakhshan
 
-owner = Z26
-controller = Z26
-add_core = Z26
+owner = TKR
+controller = TKR
+add_core = TKR
 culture = ebodalo #Hephalites/White Huns
 religion = vajrayana
 capital = "Munjan"

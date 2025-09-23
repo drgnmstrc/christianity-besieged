@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = ottoman_government
 add_accepted_culture = nubian
-add_accepted_culture = amharan
+add_accepted_culture = amhara
 add_accepted_culture = tigray
 government_rank = 3
 primary_culture = jeberti
@@ -9,7 +9,7 @@ religion = shiite
 technology_group = east_african
 unit_type = muslim
 capital = 1227
-historical_friend = X05
+historical_friend = JUD
 religious_school = ismaili_school
 
 1434.6.2 = {

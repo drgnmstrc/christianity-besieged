@@ -1,8 +1,8 @@
 #4552 - Palencia
 
-owner = G02
-controller = G02
-add_core = G02
+owner = AGU
+controller = AGU
+add_core = AGU
 culture = aybirean
 religion = ashabi
 hre = no

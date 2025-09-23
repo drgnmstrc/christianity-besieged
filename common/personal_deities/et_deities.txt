@@ -161,7 +161,7 @@ perun =
 			factor = 0
 			NOT = {
 				any_owned_province = {
-					has_terrain = mountains
+					has_terrain = mountain
 				}
 			}
 		}
@@ -434,7 +434,7 @@ tiwaz =
 	discipline = 0.05
 	infantry_power = 0.10
 	
-	potential = { religion = germanic }
+	potential = { religion = german_pagan }
 	sprite = 31
 	trigger = {}
 	effect = {}
@@ -462,10 +462,10 @@ wodan =
 	
 	potential = {
 		OR = {
-			religion = germanic
+			religion = german_pagan
 			AND = {
 				religion = manichaeism
-				any_owned_province = { culture_group = germanic }
+				any_owned_province = { culture_group = germanic_group }
 			}
 		}
 	}
@@ -492,7 +492,7 @@ dunar =
 	defensiveness = 0.2
 	leader_land_shock = 1
 	
-	potential = { religion = germanic }
+	potential = { religion = german_pagan }
 	sprite = 33
 	trigger = {}
 	effect = {}
@@ -516,7 +516,7 @@ frijjo =
 	diplomatic_upkeep = 1
 	improve_relation_modifier = 0.10
 	
-	potential = { religion = germanic }
+	potential = { religion = german_pagan }
 	sprite = 34
 	trigger = {}
 	effect = {}
@@ -536,7 +536,7 @@ austro =
 	production_efficiency = 0.1
 	manpower_recovery_speed = 0.20
 	
-	potential = { religion = germanic }
+	potential = { religion = german_pagan }
 	sprite = 35
 	trigger = {}
 	effect = {}
@@ -560,7 +560,7 @@ fraujaz =
 	global_trade_goods_size_modifier = 0.1
 	land_attrition = -0.10
 	
-	potential = { religion = germanic }
+	potential = { religion = german_pagan }
 	sprite = 36
 	trigger = {}
 	effect = {}

@@ -1,7 +1,7 @@
 #4252 - Kolomna
 
-tribal_owner = Z03
-culture = russian
+tribal_owner = MSU
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 2

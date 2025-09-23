@@ -1,8 +1,8 @@
 # - Nsoyo
 
-owner = R28
-controller = R28 
-add_core = R28
+owner = MBM
+controller = MBM 
+add_core = MBM
 culture = mbundu
 religion = mudarian
 capital = "Nsoyo"

@@ -1,0 +1,36 @@
+government = republic
+add_government_reform = venice_merchants_reform
+mercantilism = 25
+primary_culture = venixus
+add_accepted_culture = ilyicolone
+religion = sol_invictus
+technology_group = ottoman
+capital = 112 # Venezia
+fixed_capital = 112 # Cannot move capital away from this province & no power cost to move to it
+national_focus = DIP
+add_army_professionalism = 0.05
+government_rank = 1
+historical_friend = UNU
+
+1423.4.5 = {
+	monarch = {
+		name = "Accius"
+		dynasty = "Irenaeus"
+		birth_date = 1387.1.13
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	leader = {
+		name = "Albalupus ex Helvetica"
+		type = admiral
+		fire = 4
+		shock = 4
+		manuever = 6
+		siege = 0
+		birth_date = 1398.6.2
+	}
+}

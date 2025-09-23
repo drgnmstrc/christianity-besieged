@@ -1,8 +1,8 @@
 #4533 - Weielun
 
-owner = V04
-controller = V04
-add_core = V04
+owner = VST
+controller = VST
+add_core = VST
 religion = slavic
 culture = polish
 capital = "Wielun"

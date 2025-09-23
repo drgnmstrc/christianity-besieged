@@ -1,0 +1,89 @@
+#ZOLTANIDS
+dependency = {
+	subject_type = "tributary_state"
+	first = ZLT
+	second = DHR
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = ZLT
+	second = QRQ
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = ZLT
+	second = BLZ
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+
+#YANI ULUS
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = DUL
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = MSU
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = DUL
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = DDK
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = DUL
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = NND
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = YNI
+	second = DUL
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+
+#ULUG ULUS
+dependency = {
+	subject_type = "tributary_state"
+	first = GOL
+	second = QAS
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = GOL
+	second = BSH
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}

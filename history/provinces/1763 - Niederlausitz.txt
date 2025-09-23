@@ -3,7 +3,7 @@
 owner = SIL
 controller = SIL
 add_core = SIL
-add_core = N20
+add_core = BRM
 culture = polobske
 religion = slavic
 capital = "Chósebuz"

@@ -1,8 +1,8 @@
 #4394 - Sulimaniyeh
 
-owner = B11
-controller = B11
-add_core = B11
+owner = GAR
+controller = GAR
+add_core = GAR
 culture = kurdish
 religion = syriac
 capital = "Sulimaniyeh"

@@ -1,10 +1,10 @@
 #1774 - Treviso
-owner = H28
-controller = H28
-culture = venixicus
+owner = VEN
+controller = VEN
+culture = venixus
 religion = sol_invictus
-add_core = G06
-add_core = H28
+add_core = LOM
+add_core = VEN
 hre = no
 base_tax = 3
 base_production = 3

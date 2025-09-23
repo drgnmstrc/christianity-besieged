@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = leading_clergy_reform
 technology_group = eastern
-religion = germanic
+religion = german_pagan
 primary_culture = flemish
 capital = 80	# Trier
 fixed_capital = 80 # Cannot move capital away from this province & no power cost to move to it

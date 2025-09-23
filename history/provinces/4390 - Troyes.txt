@@ -1,18 +1,18 @@
 # 4390 - Troyes
 
-owner = PRO
-controller = PRO 
+owner = CHP
+controller = CHP 
 capital = "Troyes"
 is_city = yes
 culture = gallien
-religion = germanic
+religion = german_pagan
 hre = no
 base_tax = 5
 base_production = 5
 trade_goods = iron
 base_manpower = 4
-add_core = PRO
-add_core = B08
+add_core = CHP
+add_core = SSN
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

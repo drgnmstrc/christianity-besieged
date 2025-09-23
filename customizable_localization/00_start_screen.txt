@@ -26,7 +26,7 @@ defined_text = {
     text = {
         localisation_key = string_screen_title_papacy
         trigger = {
-			tag = U01
+			tag = BTA
         }
     }
     text = {
@@ -50,9 +50,9 @@ defined_text = {
         	localisation_key = string_start_title_jajatsumis
         	trigger = {
 			OR = {
-				tag = R40
-				tag = R43
-				tag = R52
+				tag = JJA
+				tag = ZDA
+				tag = XUU
 			}
 		}
 	}	
@@ -67,15 +67,15 @@ defined_text = {
         	localisation_key = string_start_title_ruins_rome
         	trigger = {
 			OR = {
-				tag = H01
-				tag = H28
+				tag = AMO
+				tag = VEN
 			}
 		}
 	}
 	text = {
         	localisation_key = string_start_title_mamluks
         	trigger = {
-			tag = J07
+			tag = MAM
 		}
 	}
 	text = {
@@ -87,20 +87,20 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_soissony
         	trigger = {
-			tag = B08
+			tag = SSN
 		}
 	}
 	text = {
         	localisation_key = string_start_title_lothar
         	trigger = {
-			tag = B01
+			tag = LOT
 		}
 	}
 	text = {
         	localisation_key = string_start_title_islamic_germans
         	trigger = {
 			AND = {
-				culture_group = germanic
+				culture_group = germanic_group
 				religion_group = muslim
 			}
 		}
@@ -108,20 +108,20 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_phyrgia
         	trigger = {
-			tag = H10
+			tag = PHR
 		}
 	}
 	text = {
         	localisation_key = string_start_title_syriac
         	trigger = {
-			tag = B12
+			tag = SRY
 		}
 	}
 	text = {
         	localisation_key = string_start_title_cornwall
         	trigger = {
 			OR = {
-				tag = H01
+				tag = AMO
 				tag = CRN
 			}
 		}
@@ -129,7 +129,7 @@ defined_text = {
 	text = {
         	localisation_key = string_start_title_burzafrah
         	trigger = {
-			tag = X07
+			tag = SBK
 		}
 	}
 	#Middle East
@@ -293,7 +293,7 @@ defined_text = {
 	text = {
         localisation_key = string_start_title_provence
         trigger = {
-			tag = PRO
+			tag = CHP
 		}
     }
 	text = {
@@ -1043,7 +1043,7 @@ defined_text = {
 	text = { # Provence
 		localisation_key = string_start_provence
 		trigger = {
-			tag = PRO
+			tag = CHP
 			NOT = {
 				is_year = 1481 # death of Rene
 			}
@@ -1080,7 +1080,7 @@ defined_text = {
 				tag = HOL
 				tag = BRB
 				tag = FLA
-				tag = FRI
+				tag = DAN
 				tag = UTR
 				tag = GEL
 			}

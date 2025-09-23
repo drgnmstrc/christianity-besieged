@@ -1,9 +1,9 @@
 #1793 - El Djouf
 
-owner = B12
-controller = B12
-add_core = B12
-culture = old_aramaic
+owner = SRY
+controller = SRY
+add_core = SRY
+culture = aramaic
 religion = syriac
 capital = "Suryayta"
 trade_goods = cloth

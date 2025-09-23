@@ -1,6 +1,6 @@
-add_core = R79
-owner = R79
-controller = R79
+add_core = AGB
+owner = AGB
+controller = AGB
 culture = urhobo
 religion = oghene
 capital = "Agbarho"

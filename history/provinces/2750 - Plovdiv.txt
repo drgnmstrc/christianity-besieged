@@ -1,8 +1,8 @@
 #2750 - Plovdiv / Upper Thrace
 
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = CPC
+controller = CPC
+add_core = CPC
 culture = bulgarian
 religion = manichaeism
 capital = "Plovdiv"
@@ -12,7 +12,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = Z01
+add_core = BLK
 
 discovered_by = western
 discovered_by = eastern

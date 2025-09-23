@@ -10,11 +10,15 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = H15 }
+			NOT = { tag = BMA }
 			NOT = { exists = GBR }
 			NOT = { tag = HLR }
-			NOT = { tag = B09 }
-			primary_culture = breton
+			NOT = { tag = SXE }
+			OR = {
+				primary_culture = armorican
+				primary_culture = britannian
+				primary_culture = cambrian
+			}
 			religion_group = christian
 			is_colonial_nation = no
 			OR = {
@@ -44,9 +48,9 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
 			NOT = {
-				exists = B09
-				exists = H15
-				exists = B10
+				exists = SXE
+				exists = BMA
+				exists = BRY
 			}
 			OR = {
 				AND = {
@@ -116,11 +120,11 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = B10
-			inherit = B02
-			inherit = B04
-			inherit = H29
-			inherit = B06
+			change_tag = BRY
+			inherit = LOD
+			inherit = SSX
+			inherit = DBR
+			inherit = DIM
 			if = {
 				limit = {
 					government = theocracy
@@ -140,43 +144,43 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			yorkshire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			east_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			west_midlands_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			east_anglia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			wales_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			wessex_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = B10
+				add_permanent_claim = BRY
 			}
 			#Cumbria
 			247 = {
@@ -184,7 +188,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = B10
+					add_permanent_claim = BRY
 				}
 			}
 			#Northumberland
@@ -193,7 +197,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = B10
+					add_permanent_claim = BRY
 				}
 			}
 			add_country_modifier = {

@@ -6,8 +6,8 @@ war_goal = {
 }
 
 1443.9.12 = {
-	add_attacker = H01
-	add_defender = B05
+	add_attacker = AMO
+	add_defender = WSX
 }
 
 1450.1.1 = {

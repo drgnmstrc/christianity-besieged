@@ -1,8 +1,8 @@
 #53 - Lüneburg
 
-owner = N02
-controller = N02
-add_core = N02
+owner = NDM
+controller = NDM
+add_core = NDM
 add_core = LUN
 culture = obotriske
 religion = slavic

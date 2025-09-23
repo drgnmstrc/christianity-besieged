@@ -1,7 +1,7 @@
 #1851 - Coimbra
 
-owner = J05
-controller = J05
+owner = TRD
+controller = TRD
 culture = turdulian
 religion = liritism
 capital = "Coimbra"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 4
 is_city = yes
 #estate = estate_nobles
-add_core = J05
+add_core = TRD
 1444.11.11 = { unrest = 5 }
 discovered_by = western
 discovered_by = near_east

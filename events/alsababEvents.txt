@@ -145,7 +145,7 @@ country_event = { #Preparing the Kursikan Diyt
 	desc = "alsababDebateEvent.2d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
-		tag = U01
+		tag = BTA
 	}
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -210,7 +210,7 @@ country_event = { #The Kursikan Diyt
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
@@ -220,7 +220,7 @@ country_event = { #The Kursikan Diyt
 		}
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt }
@@ -231,7 +231,7 @@ country_event = { #The Kursikan Diyt
 				NOT = {
 					has_opinion = {
 						value = 0
-						who = U01
+						who = BTA
 					}
 				}
 			}
@@ -240,11 +240,11 @@ country_event = { #The Kursikan Diyt
 	option = { #Not Ifriqya: Contest interference within Kursika's borders.
 		name = "alsababDebateEvent.3b"
 		trigger = {
-			NOT = { tag = Y03 }
+			NOT = { tag = IFR }
 		}
 		add_prestige = 10
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt }
@@ -254,7 +254,7 @@ country_event = { #The Kursikan Diyt
 				factor = 0
 				has_opinion = {
 					value = 0
-					who = U01
+					who = BTA
 				}
 			}
 		}
@@ -262,7 +262,7 @@ country_event = { #The Kursikan Diyt
 	option = { #Ifriqya: Contest the Bayt Allah's influence in Kursika.
 		name = "alsababDebateEvent.3c"
 		trigger = {
-			tag = Y03
+			tag = IFR
 		}
 		add_mil_power = 25
 		add_dip_power = -25
@@ -273,12 +273,12 @@ country_event = { #The Kursikan Diyt
 		}
 		hidden_effect = { 
 			add_claim = 1247
-			U01 = { add_claim = 1247 }
+			BTA = { add_claim = 1247 }
 			set_country_flag = contested_bayt_diyt
 		}
 		custom_tooltip = bayt_ifriqya_kursika_claims
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt
 		}
 		ai_chance = {
@@ -287,18 +287,18 @@ country_event = { #The Kursikan Diyt
 				factor = 0.5
 				has_opinion = {
 					value = 50
-					who = U01
+					who = BTA
 				}
 			}
 			modifier = {
 				factor = 0.5
-				alliance_with = U01
+				alliance_with = BTA
 			}
 		}
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.9
 					days = 14
@@ -366,12 +366,12 @@ country_event = { #Kursika contested in the Diyt
 	fire_only_once = yes
 	option = { #Give up the attempt
 		name = alsababDebateEvent.5a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		if = {
 			limit = {
-				Y03 = { has_country_flag = contested_bayt_diyt }
+				IFR = { has_country_flag = contested_bayt_diyt }
 			}
-			Y03 = { vassalize = COR }
+			IFR = { vassalize = COR }
 		}
 		add_ruler_modifier = { #Peace of the Caliph
 			name = salam_alkhalifa
@@ -383,20 +383,20 @@ country_event = { #Kursika contested in the Diyt
 	}
 	option = { #Denounce these corrupt Muftis and leave the Diyt with tensions high.
 		name = alsababDebateEvent.5b
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		corsica_sardinia_area = {
 			if = {
 				limit = {
-					NOT = { country_or_non_sovereign_subject_holds = U01 }
+					NOT = { country_or_non_sovereign_subject_holds = BTA }
 				}
-				add_permanent_claim = U01
+				add_permanent_claim = BTA
 			}
 		}
 		if = {
 			limit = {
-				Y03 = { has_country_flag = contested_bayt_diyt }
+				IFR = { has_country_flag = contested_bayt_diyt }
 			}
-			Y03 = { add_claim = 1247 }
+			IFR = { add_claim = 1247 }
 		}
 		add_country_modifier = {
 			name = strong_waves_on_horizon
@@ -410,7 +410,7 @@ country_event = { #Kursika contested in the Diyt
 		name = alsababDebateEvent.5c
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_papal_influence = 5
 	}
@@ -418,8 +418,8 @@ country_event = { #Kursika contested in the Diyt
 		name = alsababDebateEvent.5e
 		trigger = { 
 			has_country_flag = contested_bayt_diyt
-			NOT = { tag = U01 }
-			NOT = { tag = Y12 }
+			NOT = { tag = BTA }
+			NOT = { tag = LRP }
 		}
 		add_prestige = 5
 	}
@@ -427,7 +427,7 @@ country_event = { #Kursika contested in the Diyt
 		name = alsababDebateEvent.5f
 		trigger = { 
 			has_country_flag = contested_bayt_diyt
-			tag = Y12
+			tag = LRP
 		}
 		add_prestige = 10
 	}
@@ -441,10 +441,10 @@ country_event = { #Takeover of Kursika
 	is_triggered_only = yes
 	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
 		name = alsababDebateEvent.6a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		vassalize = COR
 		add_country_modifier = {
-			name = mutawasiti_admirals
+			name = bahrumi_admirals
 			duration = 3650
 		}
 	}
@@ -459,7 +459,7 @@ country_event = { #Takeover of Kursika
 		name = alsababDebateEvent.6c
 		trigger = {
 			NOT = { has_country_flag = contested_bayt_diyt }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			NOT = { tag = COR }
 		}
 		add_papal_influence = 5
@@ -469,7 +469,7 @@ country_event = { #Takeover of Kursika
 		trigger = {
 			has_country_flag = contested_bayt_diyt
 			NOT = { tag = COR }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_papal_influence = -5
 	}
@@ -488,11 +488,11 @@ country_event = { #The Kursika Coup
 	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
 		name = alsababDebateEvent.7a
 		trigger = {
-			tag = U01
+			tag = BTA
 		}
 		vassalize = COR
 		add_country_modifier = {
-			name = mutawasiti_admirals
+			name = bahrumi_admirals
 			duration = 3650
 		}
 	}
@@ -523,7 +523,7 @@ country_event = { #Death of Abdullah ibn Balfaqr al-Bahrjawt
 	is_triggered_only = yes
 	option = { #Bayt Allah: Horror!
 		name = alsababDebateEvent.8a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		add_country_modifier = {
 			name = strong_waves_on_horizon
 			duration = 3650
@@ -547,8 +547,8 @@ country_event = { #Hidden event: measure Caliph support
 			limit = {
 				OR = {
 					AND = {
-						Y03 = { has_country_flag = contested_bayt_diyt }
-						Y03 = { land_forcelimit = U01 }
+						IFR = { has_country_flag = contested_bayt_diyt }
+						IFR = { land_forcelimit = BTA }
 					}
 					calc_true_if = {
 						all_country = {
@@ -588,21 +588,21 @@ country_event = { #Preparing the Illeropoli Diyt
 	desc = "alsababDebateEvent.10d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
-		tag = U01
+		tag = BTA
 	}
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = { #We must protect Illeropoli and grant it autonomy directly under the Caliph.
 		name = "alsababDebateEvent.10a"
 		trigger = {
-			Y12 = { is_subject = yes }
+			LRP = { is_subject = yes }
 		}
 		add_dip_power = -5
 		add_piety = 10
 		custom_tooltip = preparingIlleropoliDiytA #This is a benefitial solution but might be harder to pass off in the debate.
 		hidden_effect = {
 			set_country_flag = transfer_illeropoli
-			Y12 = {
+			LRP = {
 				overlord = {
 					save_global_event_target_as = illeropoliOwner
 				}
@@ -624,7 +624,7 @@ country_event = { #Preparing the Illeropoli Diyt
 	option = { #We must free Illeropoli and grant them complete independence.
 		name = "alsababDebateEvent.10b"
 		trigger = {
-			Y12 = { is_subject = yes }
+			LRP = { is_subject = yes }
 		}
 		add_dip_power = -5
 		add_piety = 10
@@ -653,7 +653,7 @@ country_event = { #Preparing the Illeropoli Diyt
 	option = { #We must free Illeropoli and grant them autonomy under the Caliph.
 		name = "alsababDebateEvent.10c"
 		trigger = {
-			NOT = { exists = Y12 }
+			NOT = { exists = LRP }
 		}
 		add_dip_power = -5
 		add_piety = 10
@@ -682,7 +682,7 @@ country_event = { #Preparing the Illeropoli Diyt
 	option = { #We must incoporate Illeropoli directly under al-Bayt authority.
 		name = "alsababDebateEvent.10e"
 		trigger = {
-			NOT = { exists = Y12 }
+			NOT = { exists = LRP }
 		}
 		add_dip_power = -5
 		add_piety = 10
@@ -710,9 +710,9 @@ country_event = { #Preparing the Illeropoli Diyt
 	option = { #We must strictly enforce the faith in Illeropoli.
 		name = "alsababDebateEvent.10f"
 		trigger = {
-			NOT = { Y12 = { religion = ashabi } }
-			Y12 = { is_subject = no }
-			Y12 = { exists = yes }
+			NOT = { LRP = { religion = ashabi } }
+			LRP = { is_subject = no }
+			LRP = { exists = yes }
 		}
 		add_dip_power = -5
 		add_piety = 10
@@ -736,9 +736,9 @@ country_event = { #Preparing the Illeropoli Diyt
 	option = { #We must force the Illeropoli court into reconversion.
 		name = "alsababDebateEvent.10g"
 		trigger = {
-			NOT = { Y12 = { religion = ashabi } }
-			Y12 = { is_subject = no }
-			Y12 = { exists = yes }
+			NOT = { LRP = { religion = ashabi } }
+			LRP = { is_subject = no }
+			LRP = { exists = yes }
 		}
 		add_dip_power = -5
 		add_piety = 10
@@ -766,14 +766,14 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -784,7 +784,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 				NOT = {
 					has_opinion = {
 						value = 0
-						who = U01
+						who = BTA
 					}
 				}
 			}
@@ -794,7 +794,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 			}
 			modifier = {
 				factor = 0
-				tag = Y12
+				tag = LRP
 				ai_attitude = {
 					who = event_target:illeropoliOwner
 					attitude = attitude_loyal
@@ -825,7 +825,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 				factor = 1.5
 				has_opinion = {
 					value = 50
-					who = U01
+					who = BTA
 				}
 			}
 			modifier = {
@@ -838,7 +838,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 		name = "alsababDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -848,16 +848,16 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
 				NOT = { is_core = 4754 }
-				NOT = { tag = Y12 }
+				NOT = { tag = LRP }
 				NOT = { event_target:illeropoliOwner = { tag = ROOT } }
 				NOT = { alliance_with = event_target:illeropoliOwner }
 			}
 			modifier = {
 				factor = 0
-				tag = Y12
+				tag = LRP
 				ai_attitude = {
 					who = event_target:illeropoliOwner
 					attitude = attitude_disloyal
@@ -867,7 +867,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -883,14 +883,14 @@ country_event = { #The Illeropoli Diyt - Independence
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -901,7 +901,7 @@ country_event = { #The Illeropoli Diyt - Independence
 				NOT = {
 					has_opinion = {
 						value = -100
-						who = U01
+						who = BTA
 					}
 				}
 			}
@@ -911,7 +911,7 @@ country_event = { #The Illeropoli Diyt - Independence
 			}
 			modifier = {
 				factor = 0
-				tag = Y12
+				tag = LRP
 				ai_attitude = {
 					who = event_target:illeropoliOwner
 					attitude = attitude_loyal
@@ -934,7 +934,7 @@ country_event = { #The Illeropoli Diyt - Independence
 				factor = 1.5
 				has_opinion = {
 					value = 0
-					who = U01
+					who = BTA
 				}
 			}
 			modifier = {
@@ -955,7 +955,7 @@ country_event = { #The Illeropoli Diyt - Independence
 		name = "alsababDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -965,16 +965,16 @@ country_event = { #The Illeropoli Diyt - Independence
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
 				NOT = { is_core = 4754 }
-				NOT = { tag = Y12 }
+				NOT = { tag = LRP }
 				NOT = { event_target:illeropoliOwner = { tag = ROOT } }
 				NOT = { alliance_with = event_target:illeropoliOwner }
 			}
 			modifier = {
 				factor = 0
-				tag = Y12
+				tag = LRP
 				ai_attitude = {
 					who = event_target:illeropoliOwner
 					attitude = attitude_disloyal
@@ -984,7 +984,7 @@ country_event = { #The Illeropoli Diyt - Independence
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -1000,14 +1000,14 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -1018,7 +1018,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 				NOT = {
 					has_opinion = {
 						value = -100
-						who = U01
+						who = BTA
 					}
 				}
 			}
@@ -1051,7 +1051,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 				factor = 1.5
 				has_opinion = {
 					value = 0
-					who = U01
+					who = BTA
 				}
 			}
 		}
@@ -1060,7 +1060,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 		name = "alsababDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -1070,7 +1070,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
 				NOT = { is_core = 4754 }
 				NOT = { alliance_with = event_target:illeropoliOwner }
@@ -1085,7 +1085,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -1101,14 +1101,14 @@ country_event = { #The Illeropoli Diyt - Reconquest
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -1119,7 +1119,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 				NOT = {
 					has_opinion = {
 						value = 0
-						who = U01
+						who = BTA
 					}
 				}
 			}
@@ -1150,7 +1150,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 				factor = 1.5
 				has_opinion = {
 					value = 50
-					who = U01
+					who = BTA
 				}
 			}
 		}
@@ -1159,7 +1159,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 		name = "alsababDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -1169,7 +1169,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
 				NOT = { is_core = 4754 }
 				NOT = { alliance_with = event_target:illeropoliOwner }
@@ -1184,7 +1184,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -1200,14 +1200,14 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -1218,13 +1218,13 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 				NOT = {
 					has_opinion = {
 						value = 0
-						who = U01
+						who = BTA
 					}
 				}
 			}
 			modifier = {
 				factor = 0
-				alliance_with = Y12
+				alliance_with = LRP
 			}
 			modifier = {
 				factor = 0
@@ -1238,14 +1238,14 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 				factor = 0.5
 				has_opinion = {
 					value = 50
-					who = Y12
+					who = LRP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				has_opinion = {
 					value = 50
-					who = U01
+					who = BTA
 				}
 			}
 		}
@@ -1254,7 +1254,7 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 		name = "alsababDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -1264,10 +1264,10 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
 				NOT = { is_core = 4754 }
-				NOT = { alliance_with = Y12 }
+				NOT = { alliance_with = LRP }
 			}
 			modifier = {
 				factor = 0.5
@@ -1279,7 +1279,7 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -1295,14 +1295,14 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
 		name = "alsababDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = supported_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = supported_bayt_diyt2 }
@@ -1313,26 +1313,26 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 				NOT = {
 					has_opinion = {
 						value = -100
-						who = U01
+						who = BTA
 					}
 				}
 			}
 			modifier = {
 				factor = 0
-				alliance_with = Y12
+				alliance_with = LRP
 			}
 			modifier = {
 				factor = 0.5
 				has_opinion = {
 					value = 100
-					who = Y12
+					who = LRP
 				}
 			}
 			modifier = {
 				factor = 1.5
 				has_opinion = {
 					value = 0
-					who = U01
+					who = BTA
 				}
 			}
 		}
@@ -1341,7 +1341,7 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 		name = "alsababDebateEvent.11b"
 		add_prestige = 10
 		reverse_add_opinion = {
-			who = U01
+			who = BTA
 			modifier = contested_bayt_in_diyt2
 		}
 		hidden_effect = { set_country_flag = contested_bayt_diyt2 }
@@ -1351,15 +1351,15 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 				factor = 0
 				has_opinion = {
 					value = 100
-					who = U01
+					who = BTA
 				}
-				NOT = { alliance_with = Y12 }
+				NOT = { alliance_with = LRP }
 			}
 		}
 	}
 	after = {
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = { #Measures support in the Diyt
 					id = alsababDebateEvent.17
 					days = 14
@@ -1413,7 +1413,7 @@ country_event = { #Diyt Faces Heavy Resistance
 	fire_only_once = yes
 	option = { #Placate the opposition and drop the claims.
 		name = alsababDebateEvent.18a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		if = {
 			limit = {
 				has_ruler_modifier = salam_alkhalifa
@@ -1436,24 +1436,24 @@ country_event = { #Diyt Faces Heavy Resistance
 	}
 	option = { #Leave in a huff amidst the chaotic argument in the court.
 		name = alsababDebateEvent.18b
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		if = {
 			limit = {
-				NOT = { exists = Y12 }
+				NOT = { exists = LRP }
 			}
 			add_permanent_claim = 4753
 		}
 		if = {
 			limit = {
-				exists = Y12
-					Y12 = {
+				exists = LRP
+					LRP = {
 						is_subject = no
 						NOT = {	religion = ashabi }
 					}
 			}
 			add_casus_belli = {
 				type = cb_religious_conformance
-				target = Y12
+				target = LRP
 			}
 		}
 		if = {
@@ -1497,7 +1497,7 @@ country_event = { #Diyt Faces Heavy Resistance
 		name = alsababDebateEvent.5c
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt2 }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_papal_influence = 5
 	}
@@ -1505,7 +1505,7 @@ country_event = { #Diyt Faces Heavy Resistance
 		name = alsababDebateEvent.18c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_prestige = 5
 	}
@@ -1523,18 +1523,18 @@ country_event = { #Diyt Reaches Agreement
 	option = { #Our claim is now enforced by religious law. (Illeropoli or their owner are Alsababi)
 		name = alsababDebateEvent.19a
 		trigger = {
-			tag = U01
+			tag = BTA
 			if = {
 				limit = {
-					Y12 = { exists = yes }
+					LRP = { exists = yes }
 				}
-				Y12 = { is_subject = yes }
+				LRP = { is_subject = yes }
 			}
 			if = {
 				limit = {
 					OR = {
-						Y12 = { is_subject = yes }
-						Y12 = { exists = no }
+						LRP = { is_subject = yes }
+						LRP = { exists = no }
 					}
 				}
 				event_target:illeropoliOwner = { religion = ashabi }
@@ -1542,18 +1542,18 @@ country_event = { #Diyt Reaches Agreement
 		}
 		if = {
 			limit = {
-				NOT = { exists = Y12 }
+				NOT = { exists = LRP }
 			}
 			4754 = {
-				cede_province = U01
+				cede_province = BTA
 			}
 			if = {
 				limit = {
 					has_country_flag = free_illeropoli
 				}
-				release = Y12
-				vassalize = Y12
-				Y12 = {
+				release = LRP
+				vassalize = LRP
+				LRP = {
 					capital_scope = {
 						add_base_tax = 2
 						add_province_modifier = {
@@ -1569,9 +1569,9 @@ country_event = { #Diyt Reaches Agreement
 			limit = {
 				has_country_flag = transfer_illeropoli
 			}
-			free_vassal = Y12
-			vassalize = Y12
-			Y12 = {
+			free_vassal = LRP
+			vassalize = LRP
+			LRP = {
 				capital_scope = {
 					add_base_tax = 2
 					add_province_modifier = {
@@ -1586,8 +1586,8 @@ country_event = { #Diyt Reaches Agreement
 			limit = {
 				has_country_flag = liberate_illeropoli
 			}
-			free_vassal = Y12
-			Y12 = {
+			free_vassal = LRP
+			LRP = {
 				capital_scope = {
 					add_base_tax = 2
 					add_province_modifier = {
@@ -1609,15 +1609,15 @@ country_event = { #Diyt Reaches Agreement
 	option = { #Send Illeropoli the ultimatium. (Religious war/vassalization)
 		name = alsababDebateEvent.19b
 		trigger = {
-			tag = U01
+			tag = BTA
 			AND = {
-				Y12 = { is_subject = no }
-				Y12 = { exists = yes }
-				Y12 = { NOT = { religion = ashabi } }
+				LRP = { is_subject = no }
+				LRP = { exists = yes }
+				LRP = { NOT = { religion = ashabi } }
 			}
 		}
 		add_prestige = 15
-		Y12 = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
+		LRP = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
 		ai_chance = {
 			factor = 1
 		}
@@ -1625,10 +1625,10 @@ country_event = { #Diyt Reaches Agreement
 	option = { #Send [event_target:illeropoliOwner.GetName] the ultimatium. (Illeropoli is a subject or doesn't exist)
 		name = alsababDebateEvent.19c
 		trigger = {
-			tag = U01
+			tag = BTA
 			OR = {
-				Y12 = { is_subject = yes }
-				Y12 = { exists = no }
+				LRP = { is_subject = yes }
+				LRP = { exists = no }
 			}
 			event_target:illeropoliOwner = { NOT = { religion = ashabi } }
 		}
@@ -1642,7 +1642,7 @@ country_event = { #Diyt Reaches Agreement
 		name = alsababDebateEvent.19e
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt2 }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_papal_influence = 5
 	}
@@ -1650,7 +1650,7 @@ country_event = { #Diyt Reaches Agreement
 		name = alsababDebateEvent.19f
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_prestige = 5
 	}
@@ -1662,42 +1662,42 @@ country_event = { #The Illeropoli Ultimatium
 	desc = {
 		trigger = { #Transfer Illeropoli to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
-			U01 = { has_country_flag = transfer_illeropoli }
+			BTA = { has_country_flag = transfer_illeropoli }
 		}
 		desc = alsababDebateEvent.20da
 	}
 	desc = {
 		trigger = { #Release Illeropoli from subject status
 			event_target:illeropoliOwner = { tag = ROOT }
-			U01 = { has_country_flag = liberate_illeropoli }
+			BTA = { has_country_flag = liberate_illeropoli }
 		}
 		desc = alsababDebateEvent.20db
 	}
 	desc = {
 		trigger = { #Release Illeropoli and transfer to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
-			U01 = { has_country_flag = free_illeropoli }
+			BTA = { has_country_flag = free_illeropoli }
 		}
 		desc = alsababDebateEvent.20dc
 	}
 	desc = {
 		trigger = { #Cede Illeropoli to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
-			NOT = { U01 = { has_country_flag = free_illeropoli } }
+			NOT = { BTA = { has_country_flag = free_illeropoli } }
 		}
 		desc = alsababDebateEvent.20dd
 	}
 	desc = {
 		trigger = { #Illeropoli: Convert and submit to Bayt Allah
-			tag = Y12
-			U01 = { has_country_flag = enforce_illeropoli_convert }
+			tag = LRP
+			BTA = { has_country_flag = enforce_illeropoli_convert }
 		}
 		desc = alsababDebateEvent.20de
 	}
 	desc = {
 		trigger = { #Illeropoli: Convert to Alsababi Islam
-			tag = Y12
-			NOT = { U01 = { has_country_flag = enforce_illeropoli_convert } }
+			tag = LRP
+			NOT = { BTA = { has_country_flag = enforce_illeropoli_convert } }
 		}
 		desc = alsababDebateEvent.20df
 	}
@@ -1728,23 +1728,23 @@ country_event = { #The Illeropoli Ultimatium
 			modifier = {
 				factor = 0
 				ai_attitude = {
-					who = U01
+					who = BTA
 					attitude = attitude_threatened
 				}
 			}
 			modifier = {
 				factor = 100
-				total_development = U01
+				total_development = BTA
 			}
 		}
 	}
 	option = { #Transfer Illeropoli to Bayt Allah
 		name = alsababDebateEvent.20b
 		trigger = {
-			U01 = { has_country_flag = transfer_illeropoli }
+			BTA = { has_country_flag = transfer_illeropoli }
 		}
-		free_vassal = Y12
-		U01 = { vassalize = Y12 }
+		free_vassal = LRP
+		BTA = { vassalize = LRP }
 		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
@@ -1764,15 +1764,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -1782,9 +1782,9 @@ country_event = { #The Illeropoli Ultimatium
 	option = { #Release Illeropoli
 		name = alsababDebateEvent.20c
 		trigger = {
-			U01 = { has_country_flag = liberate_illeropoli }
+			BTA = { has_country_flag = liberate_illeropoli }
 		}
-		free_vassal = Y12
+		free_vassal = LRP
 		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
@@ -1804,15 +1804,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -1822,11 +1822,11 @@ country_event = { #The Illeropoli Ultimatium
 	option = { #Release Illeropoli as vassal of Bayt Allah
 		name = alsababDebateEvent.20d
 		trigger = {
-			U01 = { has_country_flag = free_illeropoli }
+			BTA = { has_country_flag = free_illeropoli }
 			owns = 4754
 		}
-		4754 = { cede_province = Y12 }
-		U01 = { vassalize = Y12 }
+		4754 = { cede_province = LRP }
+		BTA = { vassalize = LRP }
 		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
@@ -1846,15 +1846,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -1864,11 +1864,11 @@ country_event = { #The Illeropoli Ultimatium
 	option = { #Cede Illeropoli to Bayt Allah
 		name = alsababDebateEvent.20e
 		trigger = {
-			NOT = { U01 = { has_country_flag = free_illeropoli } }
-			NOT = { exists = Y12 }
+			NOT = { BTA = { has_country_flag = free_illeropoli } }
+			NOT = { exists = LRP }
 			owns = 4754
 		}
-		4754 = { cede_province = U01 }
+		4754 = { cede_province = BTA }
 		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
@@ -1888,15 +1888,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -1906,11 +1906,11 @@ country_event = { #The Illeropoli Ultimatium
 	option = { #Submit to Bayt Allah as a vassal
 		name = alsababDebateEvent.20f
 		trigger = {
-			tag = Y12
-			U01 = { has_country_flag = enforce_illeropoli_convert }
+			tag = LRP
+			BTA = { has_country_flag = enforce_illeropoli_convert }
 		}
 		change_religion = ashabi
-		U01 = { vassalize = Y12 }
+		BTA = { vassalize = LRP }
 		capital_scope = {
 			change_religion = ashabi
 			add_base_production = 2
@@ -1939,15 +1939,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -1957,8 +1957,8 @@ country_event = { #The Illeropoli Ultimatium
 	option = { #Convert to Alsababi Islam
 		name = alsababDebateEvent.20g
 		trigger = {
-			tag = Y12
-			U01 = { NOT = { has_country_flag = enforce_illeropoli_convert } }
+			tag = LRP
+			BTA = { NOT = { has_country_flag = enforce_illeropoli_convert } }
 			NOT = { religion = ashabi }
 			is_subject = no
 		}
@@ -1991,15 +1991,15 @@ country_event = { #The Illeropoli Ultimatium
 				factor = 0
 				OR = {
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_domineering
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_rivalry
 					}
 					ai_attitude = {
-						who = U01
+						who = BTA
 						attitude = attitude_outraged
 					}
 				}
@@ -2014,31 +2014,31 @@ country_event = { #Diyt Ultimatium Rejected!
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			tag = U01
+			tag = BTA
 			has_country_flag = supported_bayt_diyt2
 			has_country_flag = contested_bayt_diyt2
 		}
 	}
 	option = { #They will pay.
 		name = alsababDebateEvent.21a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		if = {
 			limit = {
-				NOT = { exists = Y12 }
+				NOT = { exists = LRP }
 			}
 			add_permanent_claim = 4753
 		}
 		if = {
 			limit = {
-				exists = Y12
-					Y12 = {
+				exists = LRP
+					LRP = {
 						is_subject = no
 						NOT = {	religion = ashabi }
 					}
 			}
 			add_casus_belli = {
 				type = cb_religious_conformance
-				target = Y12
+				target = LRP
 			}
 		}
 		if = {
@@ -2076,7 +2076,7 @@ country_event = { #Diyt Ultimatium Rejected!
 		name = alsababDebateEvent.21b
 		trigger = { 
 			has_country_flag = supported_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_papal_influence = 10
 		add_opinion = {
@@ -2088,7 +2088,7 @@ country_event = { #Diyt Ultimatium Rejected!
 		name = alsababDebateEvent.18c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_prestige = 5
 		reverse_add_opinion = {
@@ -2104,14 +2104,14 @@ country_event = { #Diyt Ultimatium Accepted!
 	is_triggered_only = yes
 	trigger = {
 		OR = {
-			tag = U01
+			tag = BTA
 			has_country_flag = supported_bayt_diyt2
 			has_country_flag = contested_bayt_diyt2
 		}
 	}
 	option = { #Praise Allah for granting us this civilized victory!
 		name = alsababDebateEvent.22a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		add_stability_or_adm_power = yes
 		add_prestige = 20
 		add_opinion = {
@@ -2126,7 +2126,7 @@ country_event = { #Diyt Ultimatium Accepted!
 		name = alsababDebateEvent.22b
 		trigger = { 
 			has_country_flag = supported_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_opinion = {
 			who = event_target:illeropoliOwner
@@ -2138,7 +2138,7 @@ country_event = { #Diyt Ultimatium Accepted!
 		name = alsababDebateEvent.22c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 		}
 		add_prestige = 5
 	}
@@ -2202,7 +2202,7 @@ country_event = { #Isilda Nojua (In Ferrara)
 			duration = 730
 		}
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = {
 					id = isildaDiyt.2 #Isilda Nojua (in Rome)
 					days = 65
@@ -2244,7 +2244,7 @@ country_event = { #Eminence of Isilda
 			duration = -1
 		}
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = {
 					id = isildaDiyt.3 #Ferrara's Reforms
 					days = 90
@@ -2263,7 +2263,7 @@ country_event = { #Eminence of Isilda
 			duration = 1825
 		}
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				country_event = {
 					id = isildaDiyt.2 #Isilda Nojua (in Rome)
 					days = 65
@@ -2343,7 +2343,7 @@ country_event = { #Isilda Nojua (In Rome)
 			modifier = supportive_ferrara
 		}
 		hidden_effect = {
-			H28 = {
+			VEN = {
 				country_event = {
 					id = isildaDiyt.8 #Isilda Nojua (In Venetia)
 					days = 125
@@ -2432,13 +2432,13 @@ country_event = { #The Diyt of Isilda Nojua
 	option = { #General: She has crafted a strong case for herself.
 		name = isildaDiyt.4a
 		trigger = {
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			NOT = { tag = FER }
 		}
 		custom_tooltip = supported_isilda_tt
 		hidden_effect = {
 			set_country_flag = supported_isilda_diyt
-			U01 = {
+			BTA = {
 				change_variable = {
 					which = isildaDiytVote
 					value = 1
@@ -2480,12 +2480,12 @@ country_event = { #The Diyt of Isilda Nojua
 	option = { #General: I've never seen a woman so thoroughly twist the Quran!
 		name = isildaDiyt.4b
 		trigger = {
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			NOT = { tag = FER }
 		}
 		custom_tooltip = contested_isilda_tt
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				subtract_variable = {
 					which = isildaDiytVote
 					value = 1
@@ -2528,7 +2528,7 @@ country_event = { #The Diyt of Isilda Nojua
 			NOT = { has_country_modifier = stamping_out_al_nasawiat }
 		}
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				change_variable = {
 					which = isildaDiytVote
 					value = 2
@@ -2544,7 +2544,7 @@ country_event = { #The Diyt of Isilda Nojua
 			has_country_modifier = stamping_out_al_nasawiat
 		}
 		hidden_effect = {
-			U01 = {
+			BTA = {
 				subtract_variable = {
 					which = isildaDiytVote
 					value = 2
@@ -2554,11 +2554,11 @@ country_event = { #The Diyt of Isilda Nojua
 	}
 	option = { #Bayt Allah: Observe the progressions.
 		name = isildaDiyt.4e
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		add_prestige = 5
 	}
 	after = {
-		U01 = {
+		BTA = {
 			country_event = {
 				id = isildaDiyt.5 #Hidden event: counting votes
 				days = 60
@@ -2610,7 +2610,7 @@ country_event = { #Isilda is Victorious
 	is_triggered_only = yes
 	option = { #Bayt Allah: What an interesting development.
 		name = isildaDiyt.6a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		add_reform_desire = 10
 		add_country_modifier = {
 			name = isilda_reforms
@@ -2643,7 +2643,7 @@ country_event = { #Isilda is Victorious
 		name = isildaDiyt.6c
 		trigger = {
 			NOT = { tag = FER }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			has_country_flag = supported_isilda_diyt
 		}
 		add_prestige = 5
@@ -2656,7 +2656,7 @@ country_event = { #Isilda is Victorious
 		name = isildaDiyt.6e
 		trigger = {
 			NOT = { tag = FER }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			NOT = { has_country_flag = supported_isilda_diyt }
 		}
 		add_prestige = -5
@@ -2675,9 +2675,9 @@ country_event = { #Isilda is Defeated
 	is_triggered_only = yes
 	option = { #Bayt Allah: A fairly predictable outcome.
 		name = isildaDiyt.7a
-		trigger = { tag = U01 }
+		trigger = { tag = BTA }
 		hidden_effect = {
-			H28 = {
+			VEN = {
 				country_event = {
 					id = isildaDiyt.8
 					days = 7
@@ -2706,7 +2706,7 @@ country_event = { #Isilda is Defeated
 		name = isildaDiyt.6e
 		trigger = {
 			NOT = { tag = FER }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			has_country_flag = supported_isilda_diyt
 		}
 		add_prestige = -5
@@ -2715,7 +2715,7 @@ country_event = { #Isilda is Defeated
 		name = isildaDiyt.6c
 		trigger = {
 			NOT = { tag = FER }
-			NOT = { tag = U01 }
+			NOT = { tag = BTA }
 			NOT = { has_country_flag = supported_isilda_diyt }
 		}
 		add_prestige = 5

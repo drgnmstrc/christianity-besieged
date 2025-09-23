@@ -1,8 +1,8 @@
-owner = FOI
-controller = FOI
-add_core = FOI
-culture = gurrean
-religion = germanic
+owner = GRR
+controller = GRR
+add_core = GRR
+culture = vasconian
+religion = basque_pagan
 capital = "Foix"
 is_city = yes
 hre = yes

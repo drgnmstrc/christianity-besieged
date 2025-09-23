@@ -3,7 +3,7 @@
 owner = CHG
 controller = CHG
 add_core = CHG
-add_core = Z16
+add_core = SMR
 culture = sogdian
 religion = manichaeism
 capital = "Kulob"

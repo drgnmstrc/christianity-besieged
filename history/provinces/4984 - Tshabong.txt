@@ -1,7 +1,7 @@
 #1793 - El Djouf
-owner = R40
-controller = R40
-add_core = R40
+owner = JJA
+controller = JJA
+add_core = JJA
 trade_goods = iron
 is_city = yes
 culture = tsiqaleha

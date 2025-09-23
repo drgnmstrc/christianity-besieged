@@ -1,8 +1,8 @@
 culture = ijebu
 religion = itan
-owner = R66
-controller = R66
-add_core = R66
+owner = IJE
+controller = IJE
+add_core = IJE
 capital = "Ijebu Ode"
 hre = no
 is_city = yes

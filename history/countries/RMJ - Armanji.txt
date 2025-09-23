@@ -1,0 +1,8 @@
+# No previous file for Yaliboylu
+government = monarchy
+add_government_reform = iqta
+primary_culture = armani
+religion = manichaeism
+technology_group = ottoman
+capital = 148
+government_rank = 1

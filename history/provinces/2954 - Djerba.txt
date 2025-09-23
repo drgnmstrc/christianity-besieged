@@ -1,8 +1,8 @@
 #2954 - Djerba
 
-owner = Y03
-controller = Y03 
-culture = sicilian
+owner = IFR
+controller = IFR 
+culture = ifri
 religion = ashabi
 capital = "Djerba"
 trade_goods = grain
@@ -13,7 +13,7 @@ base_manpower = 1
 fort_15th = yes #Borj El K'bir
 is_city = yes
 add_core = TRP
-add_core = Y03
+add_core = IFR
 discovered_by = western
 discovered_by = near_east
 discovered_by = ottoman

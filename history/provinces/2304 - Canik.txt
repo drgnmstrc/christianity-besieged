@@ -1,7 +1,7 @@
 #2304 - Canik
 
-owner = H06
-controller = H06
+owner = PNT
+controller = PNT
 culture = pondii
 religion = hellenism
 capital = "Sonlos"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = H06
+add_core = PNT
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

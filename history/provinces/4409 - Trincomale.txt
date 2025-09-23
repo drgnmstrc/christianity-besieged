@@ -2,7 +2,7 @@
 
 owner = KND
 controller = KND
-add_core = L01
+add_core = COA
 culture = sinhala
 religion = buddhism
 capital = "Trincomale"

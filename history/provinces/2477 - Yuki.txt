@@ -2,9 +2,9 @@
 
 culture = mictan
 religion = atzintlicoatl
-owner = M32
-controller = M32
-add_core = M32
+owner = EZP
+controller = EZP
+add_core = EZP
 is_city = yes
 capital = "Yuki"
 trade_goods = wool

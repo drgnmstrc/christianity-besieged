@@ -1,9 +1,9 @@
 # 4738 - Trieste
 
-owner = U10
-controller = U10
-add_core = U10
-add_core = G06
+owner = HSR
+controller = HSR
+add_core = HSR
+add_core = LOM
 culture = istroli
 religion = ashabi
 hre = no

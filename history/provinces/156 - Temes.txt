@@ -1,8 +1,8 @@
 #156 - Temes
 
-owner = V10
-controller = V10
-add_core = V10
+owner = LNZ
+controller = LNZ
+add_core = LNZ
 culture = serbian
 religion = slavic
 capital = "Temesvár"
@@ -20,4 +20,4 @@ discovered_by = near_east
 discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
-1394.5.18 = { add_core = Z22 }
+1394.5.18 = { add_core = CRC }

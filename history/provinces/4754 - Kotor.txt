@@ -1,7 +1,7 @@
 # 4754 - Kotor
 
-owner = Y12
-controller = Y12
+owner = LRP
+controller = LRP
 culture = illiri
 religion = ashabi
 capital = "Iliropoli"
@@ -14,7 +14,7 @@ base_production = 7
 base_manpower = 5
 is_city = yes
 fort_15th = yes
-add_core = Y12
+add_core = LRP
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

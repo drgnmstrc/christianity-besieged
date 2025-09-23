@@ -1,12 +1,12 @@
 #81 - Hessen
 
-owner = G34
-controller = G34
-add_core = G34
+owner = KSS
+controller = KSS
+add_core = KSS
 capital = "Marburg"
 trade_goods = cheese
 culture = swabian
-religion = germanic
+religion = german_pagan
 base_tax = 4 
 base_production = 4
 base_manpower = 2

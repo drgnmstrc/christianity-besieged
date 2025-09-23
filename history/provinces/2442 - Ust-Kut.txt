@@ -23,7 +23,7 @@ discovered_by = nomad_group
 	owner = RUS
 	controller = RUS
 	religion = hellenism
-	culture = russian
+	culture = bolghar
 	trade_goods = fish
 	is_city = yes
 }

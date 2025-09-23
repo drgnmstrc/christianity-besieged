@@ -2,9 +2,9 @@
 
 culture = mictan
 religion = atzintlicoatl
-owner = M33
-controller = M33
-add_core = M33
+owner = ZEL
+controller = ZEL
+add_core = ZEL
 is_city = yes
 capital = "Kalapuya"
 trade_goods = fur

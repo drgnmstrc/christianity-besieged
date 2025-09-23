@@ -14,4 +14,4 @@ base_manpower = 2
 is_city = yes
 discovered_by = east_african
 discovered_by = south_african
-add_permanent_claim = R35
+add_permanent_claim = MSR

@@ -1,0 +1,18 @@
+government = native
+add_government_reform = native_bulgar_khanate_reform
+add_government_reform = native_martial_tradition_reform
+add_government_reform = native_settle_down_reform
+primary_culture = bolghar
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 308
+
+1432.1.1 = {
+	monarch = {
+		name = "Ishkak"
+		dynasty = "Yaenabolid"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

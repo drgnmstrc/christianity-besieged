@@ -1,7 +1,7 @@
 # No previous file for Garoua
-owner = R91
-controller = R91
-add_core = R91
+owner = MND
+controller = MND
+add_core = MND
 culture = mandara
 religion = sunni
 capital = "Garoua"

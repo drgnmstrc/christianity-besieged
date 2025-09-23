@@ -3,9 +3,9 @@
 owner = GHD
 controller = GHD 
 add_core = GHD
-add_core = R07
+add_core = BRQ
 add_core = TRP
-culture = sicilian
+culture = ifri
 religion = ashabi
 capital = "Sfax"
 trade_goods = olive_oil

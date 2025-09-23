@@ -1,9 +1,9 @@
 # No previous file for Canimar
 
 culture = yucatec
-owner = M35
-controller = M35
-add_core = M35
+owner = TZI
+controller = TZI
+add_core = TZI
 is_city = yes
 religion = mesoamerican_religion
 discovered_by = north_american

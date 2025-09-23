@@ -4,4 +4,3 @@ discovered_by = ottoman
 discovered_by = eirun
 discovered_by = scandinavian_tech
 discovered_by = east_african
-discovered_by = scandinavian_tech

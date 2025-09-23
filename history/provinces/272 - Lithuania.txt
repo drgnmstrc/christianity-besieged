@@ -1,6 +1,6 @@
 #272 Lithuania
 
-tribal_owner = V12
+tribal_owner = SMG
 culture = semigallian
 religion = romuva
 capital = "Vilna"

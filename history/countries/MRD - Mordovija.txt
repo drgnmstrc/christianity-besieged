@@ -1,0 +1,6 @@
+government = native
+government_rank = 1
+primary_culture = mokshet
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 1778

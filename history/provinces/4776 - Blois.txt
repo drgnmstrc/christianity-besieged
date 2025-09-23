@@ -1,9 +1,9 @@
-owner = G10
-controller = G10
-add_core = G10
-add_core = B08
-culture = cosmopolitan_french
-religion = anglican
+owner = GLA
+controller = GLA
+add_core = GLA
+add_core = SSN
+culture = soisson
+religion = theodolian
 capital = "Besh"
 is_city = yes
 hre = no

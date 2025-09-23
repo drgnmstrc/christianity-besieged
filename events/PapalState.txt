@@ -10,10 +10,10 @@ country_event = {
 		owns = 118		# Rome
 		normal_or_historical_nations = yes
 		religion = ashabi
-		NOT = { tag = U01 }
+		NOT = { tag = BTA }
 		NOT = { tag = ROM }
-		NOT = { tag = U15 }
-		NOT = { exists = U02 }
+		NOT = { tag = RMC }
+		NOT = { exists = TLY }
 		NOT = { has_country_flag = no_support }
 	}
 	
@@ -65,7 +65,7 @@ country_event = {
 		set_country_flag = no_support
 	}
 	option = {
-		name = "EVTOPTB1081" # Rome is rightfully theirs
+		name = "EVTOPTBRY81" # Rome is rightfully theirs
 		ai_chance = { 
 			factor = 75 
 			modifier = {
@@ -74,8 +74,8 @@ country_event = {
 			}
 		}
 		118 = {
-			add_core = U01
-			cede_province = U01
+			add_core = BTA
+			cede_province = BTA
 			if = {
 				limit = {
 					is_core = ROOT
@@ -96,9 +96,9 @@ country_event = {
 	
 	trigger = {
 		papacy_active = yes
-		NOT = { exists = U01 }
-		NOT = { exists = U02 }
-		NOT = { exists = U15 }
+		NOT = { exists = BTA }
+		NOT = { exists = TLY }
+		NOT = { exists = RMC }
 		religion = ashabi
 		NOT = { has_ruler_flag = refused_papacy }
 		is_at_war = no
@@ -126,7 +126,7 @@ country_event = {
 		months = 6
 		modifier = {
 			factor = 0.5
-			tag = Y03
+			tag = IFR
 		}
 		modifier = {
 			factor = 2.0
@@ -185,18 +185,18 @@ country_event = {
 				has_province_flag = papal_province
 			}
 			remove_core = ROOT
-			add_core = U01
-			cede_province = U01
+			add_core = BTA
+			cede_province = BTA
 			clr_province_flag = papal_province
 		}
 		add_papal_influence = 20
 		add_prestige = 25
-		U01 = {
+		BTA = {
 			change_religion = ashabi
 		}
 	}
 	option = {
-		name = "EVTOPTB1082"
+		name = "EVTOPTBRY82"
 		ai_chance = { factor = 0 }
 		set_ruler_flag = refused_papacy
 		add_prestige = -25
@@ -268,7 +268,7 @@ country_event = {
 		add_treasury = -25
 	}
 	option = {
-		name = "EVTOPTB1083"		# Just try to prove them wrong
+		name = "EVTOPTBRY83"		# Just try to prove them wrong
 		ai_chance = { factor = 45 }
 		set_country_flag = unsupportive_cardinals
 		random_list = {
@@ -334,7 +334,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB1084"		# Ask for some proof
+		name = "EVTOPTBRY84"		# Ask for some proof
 		ai_chance = { factor = 45 }
 		set_country_flag = cardinal_infiltrator
 		add_country_modifier = {

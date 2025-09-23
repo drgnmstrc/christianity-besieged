@@ -1,8 +1,8 @@
 #2311 - Samawah
 
-owner = X02
-controller = X02
-add_core = X02
+owner = QTN
+controller = QTN
+add_core = QTN
 culture = kafiri
 religion = manichaeism
 capital = "Najaf"

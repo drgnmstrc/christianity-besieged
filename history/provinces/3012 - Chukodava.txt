@@ -1,0 +1,33 @@
+add_core = RMN
+owner = RMN
+controller = RMN
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = grain
+
+culture = dacian
+religion = cisarstvo
+capital = "Chukodava"
+
+is_city = yes
+
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = scandinavian_tech
+discovered_by = eirun
+
+
+
+
+
+
+

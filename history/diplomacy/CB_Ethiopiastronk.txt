@@ -1,0 +1,43 @@
+vassal = {
+	first = ETH
+	second = HED
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+vassal = {
+	first = ETH
+	second = ABB
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+march = {
+	first = ETH
+	second = MAK
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+march = {
+	first = OMA
+	second = ZAN
+	start_date = 1444.1.1
+	end_date = 1465.1.1
+}
+
+dependency = {
+	subject_type = tributary_state
+	first = ETH
+	second = BTY
+	start_date = 1325.4.2
+	end_date = 1514.3.11
+}
+
+dependency = {
+	subject_type = tributary_state
+	first = ETH
+	second = DLQ
+	start_date = 1208.1.1
+	end_date = 1458.9.11
+}

@@ -36,13 +36,13 @@ discovered_by = east_african
 }# Rule restored
 1679.1.1 = { unrest = 5 } # Internal unrest upon Imam's death
 1741.1.1 = {
-	owner = PER
-	controller = PER	
-	add_core = PER
+	owner = ERS
+	controller = ERS	
+	add_core = ERS
 }# Invaded by Persia
 1749.6.10 = {
 	owner = OMA
 	controller = OMA
-	remove_core = PER
+	remove_core = ERS
 	unrest = 0
 }

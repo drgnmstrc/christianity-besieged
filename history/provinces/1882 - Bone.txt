@@ -1,9 +1,9 @@
 #340 - Constantine
 
-owner = R05
-controller = R05 
-add_core = R05
-culture = mutawasiti
+owner = QRT
+controller = QRT 
+add_core = QRT
+culture = bahrumi
 religion = ashabi
 capital = "Annaba"
 trade_goods = olive_oil

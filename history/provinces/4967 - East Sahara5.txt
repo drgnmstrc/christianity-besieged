@@ -8,9 +8,9 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-owner = R12
-controller = R12
-add_core = R12
+owner = WSW
+controller = WSW
+add_core = WSW
 
 add_permanent_province_modifier = {
 	name = extreme_sahara

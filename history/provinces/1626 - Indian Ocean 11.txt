@@ -3,5 +3,5 @@
 	discovered_by = ANT
 	discovered_by = MFY
 	discovered_by = SKA
-	discovered_by = R34
+	discovered_by = MSH
 }

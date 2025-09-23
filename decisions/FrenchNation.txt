@@ -10,10 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = G08 }
+			NOT = { exists = GLL }
 			NOT = { exists = FRA }
 			NOT = { tag = HLR }
-			primary_culture = wallonian
+			primary_culture = lotharingian
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -41,7 +41,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
-			NOT = { exists = G08 }
+			NOT = { exists = GLL }
 			NOT = { exists = FRA }
 			NOT = { tag = HLR }
 			owns_core_province = 87

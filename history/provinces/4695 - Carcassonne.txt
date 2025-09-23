@@ -1,15 +1,15 @@
-owner = J07
-controller = J07
-add_core = J07
-culture = pruqoth
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = juthudi
 religion = ashabi
 capital = "Carcassonne"
 is_city = yes
 hre = no
-base_tax = 3
+base_tax = 2
 base_production = 2
 trade_goods = indigo
-base_manpower = 2
+base_manpower = 1
 
 
 

@@ -1,8 +1,8 @@
 # 2273 - Ader
 
-owner = R57
-controller = R57
-add_core = R57
+owner = AZW
+controller = AZW
+add_core = AZW
 is_city = yes
 culture = tuareg 
 religion = sunni

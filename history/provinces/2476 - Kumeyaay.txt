@@ -2,9 +2,9 @@
 
 culture = teochimen
 religion = atzintlicoatl
-owner = M31
-controller = M31
-add_core = M31
+owner = CUI
+controller = CUI
+add_core = CUI
 is_city = yes
 capital = "Kumeyaay"
 trade_goods = maize

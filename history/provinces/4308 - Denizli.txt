@@ -1,7 +1,7 @@
 #4308 - Denizli
 
-owner = H14
-controller = H14
+owner = LYD
+controller = LYD
 culture = lydes
 religion = hellenism
 capital = "Denizli"
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = H14
+add_core = LYD
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

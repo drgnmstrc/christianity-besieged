@@ -1,0 +1,41 @@
+vassal = {
+	first = ILK
+	second = SIS
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = ILK
+	second = NBN
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = ILK
+	second = BCT
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = ILK
+	second = AFG
+	start_date = 1443.12.12
+	end_date = 1447.12.31
+}
+
+vassal = {
+	first = CHG
+	second = SMR
+	start_date = 1443.12.12
+	end_date = 1457.12.31
+}
+
+vassal = {
+	first = CHG
+	second = BUK
+	start_date = 1443.12.12
+	end_date = 1457.12.31
+}

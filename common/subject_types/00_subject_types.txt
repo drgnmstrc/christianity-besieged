@@ -1501,7 +1501,6 @@ norse_tribute = {
 
 	liberty_desire_development_ratio = 0.25
 	liberty_desire_same_dynasty = -5.0
-	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.1
 
 	relative_power_class = 2
@@ -1541,7 +1540,6 @@ norse_tribute_annex = {
 
 	liberty_desire_development_ratio = 0.25
 	liberty_desire_same_dynasty = -5.0
-	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.1
 
 	relative_power_class = 2
@@ -1581,7 +1579,6 @@ locus_conventus = {
 
 	liberty_desire_development_ratio = 0.1
 	liberty_desire_same_dynasty = -5.0
-	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.1
 
 	relative_power_class = 2
@@ -1606,6 +1603,23 @@ locus_conventus = {
 
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
+}
+
+voivode = {
+	copy_from = appanage
+
+	can_fight = {
+		same_overlord = voivode
+	}
+	can_rival = {
+		same_overlord = voivode
+	}
+	can_ally = {
+		same_overlord = voivode
+	}
+	can_marry = {
+		same_overlord = voivode
+	}
 }
 
 dummy =

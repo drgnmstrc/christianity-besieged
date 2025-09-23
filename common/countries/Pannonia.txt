@@ -1,0 +1,154 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 167  179  162 }
+
+revolutionary_colors = { 2  6  0 }
+
+historical_score = 5500
+
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	ottoman_yaya
+	ottoman_musellem
+	ottoman_azab
+	ottoman_timariot
+	
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Costil #2" = 80
+	"Macro #0" = 80
+	"Gracchus #1" = 60
+	"Octavianus #0" = 60
+	"Falco #0" = 60
+	"Remus #1" = 40
+	"Varro #0" = 40
+	"Horatus #0" = 40
+	"Zeno #0" = 20
+	"Servus #1" = 20
+	"Longinus #0" = 10
+	"Pulcher #0" = 10
+	"Vitulus #0" = 10
+	"Marcus #0" = 10
+	"Quarto #0" = 1
+	"Draco #0" = 1
+	"Optatus #0" = 1
+	"Secundus #0" = 1
+	"Ruso #0" = 1
+	"Habitus #0" = 1
+	"Lucan #0" = 1
+	"Sabinus #0" = 1
+	"Publus #0" = 1
+	"Varus #0" = 1
+	"Superbus #0" = 0
+	"Strabo #0" = 0
+	"Seneca #0" = 0
+	"Romanus #0" = 0
+	"Tullus #0" = 0
+	"Emerutus #0" = 0
+	"Gala #0" = 0
+	"Vitulus #0" = 0
+	"Quiricus #0" = 0
+	"Cicero #0" = 0
+	"Trebonus #0" = 0
+	"Nes #0" = 0
+	"Brutus #0" = 0
+	"Vindex #0" = 0
+	"Curio #0" = 0
+	"Tacitus #0" = 0
+	"Pictor #0" = 0
+	"Donatus #0" = 0
+	"Falx #0" = 0
+	"Petronax #0" = 0
+	"Zoilus #0" = 0
+	"Servus #0" = 0
+	"Cethegus #0" = 0
+	"Scipio #0" = 0
+	"Severus #0" = 0
+	"Maximus #0" = 0
+	"Victor #0" = 0
+	"Tertus #0" = 0
+	"Spurus #0" = 0
+	"Labeo #0" = 0
+	"Longus #0" = 0
+	"Pulcher #0" = 0
+	"Albinus #0" = 0
+	"Vitulus #0" = 0
+	"Nasica #0" = 0
+
+	"Prima #0" = -1
+	"Secunda #0" = -1
+	"Tertia #0" = -1
+	"Quarta #0" = -1
+	"Quida #0" = -1
+	"Septa #0" = -1
+	"Septima #0" = -1
+	"Octava #0" = -1
+	"Nona #0" = -1
+	"Decima #0" = -1
+	"Undecima #0" = -1
+	"Duodecima #0" = -1
+	"Prima #0" = -1
+	"Secunda #0" = -1
+	"Tertia #0" = -1
+	"Quarta #0" = -1
+}
+
+leader_names = {
+	Abaza Alemdar Amasyali Ayas
+	Bali Bayram Bey Boshnak
+	Cezzar Çelebi Cerrah Çerkes Civan Çuhadar
+	Damad Dervish Defterdar
+	Gedik Gazi Gürcü
+	Hadim Haseki Hekimoglu Hersekli
+	Kemal Küçük Koca Karamanli Köse Kara Kemankesh Kaymak Kavalali
+	Ishak Izzed
+	Lala Lefkeli
+	Malkoç Müezzinzade
+	Nevshehirli Nishanci
+	Oruç Uluç Ohrili 
+	Rumi
+	Pasha Piri Piyale Pehlivan
+	Salih Sari Silahdar Semiz Serdar Seydi
+	Topal Tayyar Turgut Tarhuncu
+	Veli
+	Yemisçi
+	Pashaoglu
+}
+
+#Discontinued leader names: Barbaros, Çandarli, Köprülü, Kanijeli, Pargali, Sokullu, Pasvanoglu, Jalili, Karaosmanoglu, Capanoglu, Oflu, Gümülcineli
+
+ship_names = {
+}
+
+army_names = {
+	"$PROVINCE$ Liga"
+}
+
+fleet_names = {
+	"$PROVINCE$ Navus"
+}

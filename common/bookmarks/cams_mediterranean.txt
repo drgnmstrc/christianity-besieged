@@ -4,18 +4,18 @@ bookmark =
 	desc = "MSL_MED_DESC"
 	date = "1444.11.11"
 	center = 118
-	country = U01
-	country = Y03
-	country = J07
-	country = G02
-	country = J10
-	country = Y01
-	country = U09
+	country = BTA
+	country = IFR
+	country = MAM
+	country = AGU
+	country = TLD
+	country = ADU
+	country = MRT
 	country = COR
-	country = Y08
-	easy_country = U01
-	easy_country = Y03
-	easy_country = J07
+	country = ALX
+	easy_country = BTA
+	easy_country = IFR
+	easy_country = MAM
 }
 
 

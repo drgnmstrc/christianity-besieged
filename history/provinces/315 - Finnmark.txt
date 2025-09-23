@@ -1,5 +1,5 @@
 #315 - Finnmark
-tribal_owner = V21
+tribal_owner = SKO
 culture = sapmi
 religion = suomenusko
 hre = no

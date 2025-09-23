@@ -1,8 +1,8 @@
 #540 - Coromandel 
 
-owner = L05
-controller = L05
-add_core = L05
+owner = CNC
+controller = CNC
+add_core = CNC
 culture = tamil
 religion = hinduism
 capital = "Kuddaluru"

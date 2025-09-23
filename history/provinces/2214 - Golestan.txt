@@ -29,8 +29,8 @@ discovered_by = indian
 	add_core = BUK
 } # Conquered by Muhammad Shaybani
 1510.1.1 = {
-	owner = PER
-	controller = PER
+	owner = ERS
+	controller = ERS
 	remove_core = BUK
 } # The Safavids took over, Shi'ism became the state religion
 1550.1.1 = { discovered_by = TUR }
@@ -39,12 +39,12 @@ discovered_by = indian
 1750.1.2 = {
 	owner = KHO
 	controller = KHO
-	remove_core = PER
+	remove_core = ERS
 	unrest = 0
 } # Shahrokh is allowed to remain as ruler of Khurasan
 1796.1.1 = {
-	owner = PER
-	controller = PER
-	add_core = PER
+	owner = ERS
+	controller = ERS
+	add_core = ERS
 } # Conquered by Agha Muhammad Khan
 

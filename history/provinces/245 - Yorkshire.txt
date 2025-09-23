@@ -1,8 +1,8 @@
 #245 - Yorkshire - West Riding
 
-owner = N10
-controller = N10
-add_core = N10
+owner = JRV
+controller = JRV
+add_core = JRV
 culture = hjallish
 religion = norse_pagan_reformed
 hre = no

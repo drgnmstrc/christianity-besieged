@@ -1,8 +1,8 @@
 #409 - Karbala
 
-owner = X04
-controller = X04
-add_core = X04
+owner = ASO
+controller = ASO
+add_core = ASO
 culture = assyrian
 religion = manichaeism
 capital = "Karbala"

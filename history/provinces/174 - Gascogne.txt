@@ -1,12 +1,12 @@
 # 174 Gascogne - Principal cities: Bordeaux
 
-owner = G15
-controller = G15
-add_core = G15
+owner = VES
+controller = VES
+add_core = VES
 capital = "Goteaux"
 is_city = yes
 culture = vestes
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 7
 base_production = 7

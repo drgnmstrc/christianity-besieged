@@ -1,18 +1,18 @@
 # 180 Poitiers
 
-owner = G10
-controller = G10
-add_core = G10
+owner = GLA
+controller = GLA
+add_core = GLA
 capital = "Poitiers"
 is_city = yes
 culture = gallien
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3
 base_production = 3
 trade_goods = cheese
 base_manpower = 3
-add_core = B08
+add_core = SSN
 #estate = estate_burghers
 discovered_by = eastern
 discovered_by = western

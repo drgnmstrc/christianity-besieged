@@ -1,6 +1,6 @@
 #2423 - Alatyr
 
-add_core = V15
+add_core = MRD
 culture = mokshet
 religion = tengri_pagan_reformed
 hre = no

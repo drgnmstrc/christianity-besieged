@@ -12,12 +12,16 @@ country_decisions = {
 			}
 			NOT = {
 				exists = GBR
-				exists = H15
-				exists = N14
-				exists = N15
+				exists = BMA
+				exists = ANG
+				exists = BTV
 				exists = ENG
 			}
-			primary_culture = breton
+			OR = {
+				primary_culture = armorican
+				primary_culture = britannian
+				primary_culture = cambrian
+			}
 			religion_group = christian
 			OR = {
 				ai = no
@@ -54,7 +58,7 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			NOT = { exists = ENG }
-			NOT = { exists = H01 }
+			NOT = { exists = AMO }
 			owns_core_province = 236		# London
 			owns_core_province = 237		# Oxfordshire
 			owns_core_province = 234		# Wessex

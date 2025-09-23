@@ -1,8 +1,8 @@
 #1197 - Mzizima
 
-owner = R61
-controller = R61
-add_core = R61
+owner = KLW
+controller = KLW
+add_core = KLW
 culture = swahili
 religion = shiite
 capital = "Mzizima"

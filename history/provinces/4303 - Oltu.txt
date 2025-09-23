@@ -1,8 +1,8 @@
 #4303 - Oltu
 
-owner = X12
-controller = X12
-add_core = X12
+owner = KLC
+controller = KLC
+add_core = KLC
 culture = georgian
 religion = syriac
 capital = "Oltu"

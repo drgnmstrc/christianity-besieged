@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = almoravid_emirate_reform
+primary_culture = aybirean
+religion = sunni
+technology_group = ottoman
+capital = 225
+government_rank = 1
+religious_school = maliki_school
+historical_rival = TLD
+add_rival = TLD
+1444.1.1 = {
+	monarch = {
+		name = "Mohammad III"
+		dynasty = "Almoravid"
+		culture = sahrawi
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}

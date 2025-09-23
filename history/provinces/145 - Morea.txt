@@ -1,9 +1,9 @@
 #145 - Morea
 
-owner = Y14
-controller = Y14
-add_core = Y14
-culture = nabuthi
+owner = ABN
+controller = ABN
+add_core = ABN
+culture = abindari
 religion = ashabi
 capital = "Sabara"
 trade_goods = wine

@@ -1,9 +1,9 @@
 #1870 - St Gallen
 
-owner = G24
-controller = G24
+owner = LEV
+controller = LEV
 culture = alemanni
-religion = germanic
+religion = german_pagan
 capital = "Leventina"
 trade_goods = livestock
 hre = yes
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = G24
+add_core = LEV
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

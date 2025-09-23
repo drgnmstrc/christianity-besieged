@@ -1,9 +1,9 @@
 # 200 Languedoc - Principal cities: Montpellier
 
-owner = J07
-controller = J07
-add_core = J07
-culture = pruqoth
+owner = MAM
+controller = MAM
+add_core = MAM
+culture = juthudi
 religion = ashabi
 capital = "Mun Biliih"
 is_city = yes

@@ -1,7 +1,7 @@
 #320 - Rhodes
 
-owner = H03
-controller = H03
+owner = RHO
+controller = RHO
 culture = aigaio
 religion = latreiailios
 capital = "Rhodes"
@@ -12,7 +12,7 @@ base_production = 6
 base_manpower = 4
 is_city = yes
 fort_15th = yes
-add_core = H03
+add_core = RHO
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

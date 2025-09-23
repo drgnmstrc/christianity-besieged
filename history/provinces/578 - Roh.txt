@@ -47,8 +47,8 @@ center_of_trade = 1
 1677.1.1 = { discovered_by = FRA }
 1707.5.12 = { discovered_by = GBR }
 
-1737.1.1 = { controller = PER } # Captured by Persia, Nadir Shah
-1739.5.1 = { owner = PER } # Captured by Persia, Nadir Shah
+1737.1.1 = { controller = ERS } # Captured by Persia, Nadir Shah
+1739.5.1 = { owner = ERS } # Captured by Persia, Nadir Shah
 1747.10.1 = {
 	owner = AFG
 	controller = AFG

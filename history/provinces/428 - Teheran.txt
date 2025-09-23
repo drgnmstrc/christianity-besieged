@@ -1,10 +1,10 @@
 #428 - Rey
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = ajami
 religion = manichaeism
-add_core = PER
+add_core = ERS
 add_core = QOM
 capital = "Teheran"
 trade_goods = silk

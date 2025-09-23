@@ -1,0 +1,15 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = hebrew
+religion = rabbinic
+technology_group = eastern
+capital = 5036
+1444.1.1 = {
+	monarch = {
+		name = "Omari"
+		dynasty = "Abneron"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}

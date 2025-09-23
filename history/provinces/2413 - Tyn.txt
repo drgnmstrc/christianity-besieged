@@ -4,10 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = X20
-controller = X20
-add_core = X20
-culture = szkithi
+owner = SZK
+controller = SZK
+add_core = SZK
+culture = scythian
 religion = manichaeism
 hre = no
 base_tax = 3

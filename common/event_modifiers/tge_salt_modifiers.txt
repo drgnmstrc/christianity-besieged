@@ -1,0 +1,87 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+salt_1 = {
+	local_defensiveness = 0.01
+}
+
+salt_2 = {
+	local_defensiveness = 0.02
+}
+
+salt_3 = {
+	local_defensiveness = 0.03
+}
+
+salt_4 = {
+	local_defensiveness = 0.04
+}
+
+salt_5 = {
+	local_defensiveness = 0.05
+}
+
+salt_6 = {
+	local_defensiveness = 0.06
+}
+
+salt_7 = {
+	local_defensiveness = 0.07
+}
+
+salt_8 = {
+	local_defensiveness = 0.08
+}
+
+salt_9 = {
+	local_defensiveness = 0.09
+}
+
+salt_10 = {
+	local_defensiveness = 0.10
+}
+
+salt_11 = {
+	local_defensiveness = 0.11
+}
+
+salt_12 = {
+	local_defensiveness = 0.12
+}
+
+salt_13 = {
+	local_defensiveness = 0.13
+}
+
+salt_14 = {
+	local_defensiveness = 0.14
+}
+
+salt_15 = {
+	local_defensiveness = 0.15
+}
+
+salt_16 = {
+	local_defensiveness = 0.16
+}
+
+salt_17 = {
+	local_defensiveness = 0.17
+}
+
+salt_18 = {
+	local_defensiveness = 0.18
+}
+
+salt_19 = {
+	local_defensiveness = 0.19
+}
+
+salt_20 = {
+	local_defensiveness = 0.20
+}
+
+
+
+

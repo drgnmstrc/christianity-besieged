@@ -1,11 +1,11 @@
 #431 - Mogostan
 
-owner = Z19
-controller = Z19
-add_core = Z19
+owner = NBN
+controller = NBN
+add_core = NBN
 culture = persian
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Gamrun"
 trade_goods = spices
 hre = no

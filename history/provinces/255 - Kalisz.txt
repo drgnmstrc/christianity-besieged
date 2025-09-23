@@ -1,8 +1,8 @@
 #255 - Kalisz
 
-owner = V03
-controller = V03
-add_core = V03
+owner = PLN
+controller = PLN
+add_core = PLN
 religion = slavic
 culture = polish
 capital = "Kalisz"
@@ -20,7 +20,5 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = near_east
 discovered_by = ottoman
-discovered_by = scandinavian_tech
-discovered_by = eirun
 discovered_by = scandinavian_tech
 discovered_by = eirun

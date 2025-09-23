@@ -10,7 +10,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = G08 }
+			NOT = { exists = FRK }
 			NOT = { exists = FRA }
 			NOT = { tag = HLR }
 			primary_culture = flemish
@@ -41,7 +41,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
-			NOT = { exists = G08 }
+			NOT = { exists = FRK }
 			NOT = { exists = FRA }
 			NOT = { tag = HLR }
 			owns_core_province = 87
@@ -52,7 +52,7 @@ country_decisions = {
 			owns_core_province = 1866
 		}
 		effect = {
-			change_tag = G08
+			change_tag = FRK
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
@@ -64,42 +64,42 @@ country_decisions = {
 					AND = {
 						OR = {
 							culture = flemish
-							culture = wallonian
+							culture = lotharingian
 						}
 						NOT = { owned_by = ROOT }
 					}
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			champagne_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			normandy_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			brittany_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			loire_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			ile_de_france_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = G08
+				add_permanent_claim = FRK
 			}
 			add_prestige = 25
 			set_country_flag = formed_frankish_flag

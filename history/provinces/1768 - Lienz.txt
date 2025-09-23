@@ -1,10 +1,10 @@
 #1768 - Lienz
 
-owner = G06
-controller = G06
-add_core = G06
-culture = lombard
-religion = germanic
+owner = LOM
+controller = LOM
+add_core = LOM
+culture = langobard
+religion = german_pagan
 base_tax = 4 
 base_production = 4
 trade_goods = iron

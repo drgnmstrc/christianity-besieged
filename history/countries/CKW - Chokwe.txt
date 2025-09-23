@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = chokwe
 religion = qanumi
-technology_group = south_african
+technology_group = sub_saharan
 capital = 4094 # Chokwe
 
 #Rulers actually from the Mbunda Kingdom.

@@ -1,8 +1,8 @@
 culture = ika
 religion = odinani
-owner = R83
-controller = R83
-add_core = R83
+owner = ANI
+controller = ANI
+add_core = ANI
 capital = "Agbor"
 hre = no
 is_city = yes

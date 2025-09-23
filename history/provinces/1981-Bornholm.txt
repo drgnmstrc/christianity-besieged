@@ -1,8 +1,8 @@
 #Bornholm
 
-owner = N03
-controller = N03
-add_core = N03
+owner = HRS
+controller = HRS
+add_core = HRS
 culture = heruli
 religion = norse_pagan_reformed
 hre = no

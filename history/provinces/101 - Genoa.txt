@@ -1,8 +1,8 @@
 #101 - Liguria
 
-owner = U08
-controller = U08
-add_core = U08
+owner = LGU
+controller = LGU
+add_core = LGU
 culture = zeneize
 religion = ashabi
 hre = no
@@ -21,4 +21,4 @@ discovered_by = scandinavian_tech
 discovered_by = eirun
 extra_cost = 24
 center_of_trade = 3
-add_core = H39
+add_core = GEN

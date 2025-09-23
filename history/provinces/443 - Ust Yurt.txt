@@ -1,8 +1,8 @@
 #443 - Ust Yurt
 
-owner = Z17
-controller = Z17
-add_core = Z17
+owner = KHW
+controller = KHW
+add_core = KHW
 culture = turkmeni
 religion = manichaeism
 capital = "Ust Yurt"

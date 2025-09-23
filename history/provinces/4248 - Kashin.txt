@@ -1,7 +1,7 @@
 #4248 - Kashin
 
-tribal_owner = Z04
-culture = russian
+tribal_owner = YNI
+culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
 base_tax = 3

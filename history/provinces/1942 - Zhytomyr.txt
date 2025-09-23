@@ -1,8 +1,8 @@
 #1942 - Zhytomyr
 
-owner = A06
-controller = A06
-add_core = A06
+owner = RDR
+controller = RDR
+add_core = RDR
 culture = hungarian
 religion = manichaeism
 hre = no

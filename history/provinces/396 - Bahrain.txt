@@ -1,8 +1,8 @@
 #396 - Bahrain
 
-owner = X09
-controller = X09
-add_core = X09
+owner = AWA
+controller = AWA
+add_core = AWA
 culture = bartazig
 religion = manichaeism
 capital = "Manama"

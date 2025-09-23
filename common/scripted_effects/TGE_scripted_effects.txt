@@ -1,0 +1,1204 @@
+#Unsorted Scripted effects:
+
+#General effect for extending or adding province modifier
+#Province Scope
+
+set_NR_goods = {
+	[[Whaling]		
+		if = {
+			limit = {
+				OR = {
+					area = subarctic_islands_area
+					area = greenland_area 
+					area = western_norway
+					area = northern_norway 
+					area = laponia_area
+				}	
+				has_port = yes	
+			}
+			set_variable = { 
+				which = NR_goods_Whaling
+				value = 100
+			}	
+		}
+		else = {
+			set_variable = { 
+				which = NR_goods_Whaling
+				value = 0
+			}
+		}
+	]
+	[[Fur]
+		if = {
+			limit = {
+				OR = {
+					area = subarctic_islands_area
+					island = yes
+				}
+				has_port = yes			
+			}
+			set_variable = { 
+				which = NR_goods_Fur
+				value = 75
+			}	
+			set_variable = { 
+				which = NR_goods_Fur_tochange
+				value = -25
+			}
+		}
+		else = {
+			set_variable = { 
+				which = NR_goods_Fur
+				value = 100
+			}
+		}
+		trigger_switch = {
+			on_trigger = has_terrain
+			forest = { 
+				change_variable = { which = NR_goods_Fur value = 10  } 
+				set_variable = { which = NR_goods_Fur_tochange value = 10  }
+			}
+		}
+	]
+	
+	[[Tin]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			if = {
+				limit = {
+					province_id = 4373 
+				}
+				
+				set_variable = { 
+					which = NR_goods_Tin
+					value = 40
+				}	
+			
+			}
+			else_if = {
+				limit = {
+					OR = {
+						province_id = 242
+						province_id = 4366
+					}
+				}
+				set_variable = { 
+					which = NR_goods_Tin
+					value = 20
+				}	
+			}
+			else_if = { 
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Tin value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Tin
+					value = 10
+				}
+			}
+			
+			if = {
+				limit = {
+					trade_goods = tin
+				}
+				set_variable = { 
+					which = NR_goods_Tin
+					value = 100
+				}	
+			}
+
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Tin_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Tin_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Tin_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Tin_Total which = NR_goods_Tin }
+		change_variable	= { which = NR_goods_Tin_Total which = NR_goods_Tin_terrain }			
+	]
+	
+	[[Lead]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				1861 = { 
+					set_variable = { which = NR_goods_Lead value = 100  } 
+				}
+				247 = { 
+					set_variable = { which = NR_goods_Lead value = 70  } 
+				}
+				246 = { 
+					set_variable = { which = NR_goods_Lead value = 60  } 
+				}
+				4366 = {
+					set_variable = { which = NR_goods_Lead value = 70  } 
+				}
+				245 = {
+					set_variable = { which = NR_goods_Lead value = 70  } 
+				}
+				4373 = {
+					set_variable = { which = NR_goods_Lead value = 30  } 
+				}
+				242 = {
+					set_variable = { which = NR_goods_Lead value = 90  } 
+				}
+				241 = {
+					set_variable = { which = NR_goods_Lead value = 40  } 
+				}
+				250 = {
+					set_variable = { which = NR_goods_Lead value = 40  } 
+				}
+				4361 = {
+					set_variable = { which = NR_goods_Lead value = 90  } 
+				}
+				4362 = {
+					set_variable = { which = NR_goods_Lead value = 90  } 
+				}
+				249 = {
+					set_variable = { which = NR_goods_Lead value = 80  } 
+				}
+				252 = {
+					set_variable = { which = NR_goods_Lead value = 40  } 
+				}
+				4363 = {
+					set_variable = { which = NR_goods_Lead value = 40  } 
+				}
+				4377 = {
+					set_variable = { which = NR_goods_Lead value = 80  } 
+				}
+				373 = {
+					set_variable = { which = NR_goods_Lead value = 60  } 
+				}
+				4118 = {
+					set_variable = { which = NR_goods_Lead value = 60  } 
+				}
+			}
+
+			if = {
+				limit = {
+					trade_goods = lead
+				}
+				set_variable = { 
+					which = NR_goods_Lead
+					value = 100
+				}	
+			}
+			else_if = { 
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Lead value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Lead
+					value = 10
+				}
+			}
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Lead_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Lead_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Lead_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Lead_Total which = NR_goods_Lead }
+		change_variable	= { which = NR_goods_Lead_Total which = NR_goods_Lead_terrain }			
+	]
+	
+	[[Copper]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				233 = { 
+					set_variable = { which = NR_goods_Copper value = 100  } 
+				}
+				4373 = { 
+					set_variable = { which = NR_goods_Copper value = 90  } 
+				}
+				242 = {
+					set_variable = { which = NR_goods_Copper value = 80  } 
+				}
+				247 = {
+					set_variable = { which = NR_goods_Copper value = 60  } 
+				}
+				1861 = {
+					set_variable = { which = NR_goods_Copper value = 30  } 
+				}
+				241 = {
+					set_variable = { which = NR_goods_Copper value = 40  } 
+				}
+				4361 = {
+					set_variable = { which = NR_goods_Copper value = 30  } 
+				}	
+				4362 = {
+					set_variable = { which = NR_goods_Copper value = 30  } 
+				}
+				249 = {
+					set_variable = { which = NR_goods_Copper value = 30  } 
+				}
+				4363 = {
+					set_variable = { which = NR_goods_Copper value = 30  } 
+				}
+				4110 = {
+					set_variable = { which = NR_goods_Copper value = 40  } 
+				}
+				252 = {
+					set_variable = { which = NR_goods_Copper value = 40  } 
+				}
+				250 = {
+					set_variable = { which = NR_goods_Copper value = 40  } 
+				}
+				373 = {
+					set_variable = { which = NR_goods_Copper value = 60  } 
+				}
+				4377 = {
+					set_variable = { which = NR_goods_Copper value = 50  } 
+				}
+				374 = {
+					set_variable = { which = NR_goods_Copper value = 50  } 
+				}
+			}
+
+			if = {
+				limit = {
+					trade_goods = copper
+				}
+				set_variable = { 
+					which = NR_goods_Copper
+					value = 100
+				}	
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Copper value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Copper
+					value = 10
+				}
+			}
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Copper_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Copper_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Copper_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Copper_Total which = NR_goods_Copper }
+		change_variable	= { which = NR_goods_Copper_Total which = NR_goods_Copper_terrain }			
+	]
+	
+	[[Silver]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				233 = { 
+					set_variable = { which = NR_goods_Silver value = 40  } 
+				}
+				1861 = { 
+					set_variable = { which = NR_goods_Silver value = 60  } 
+				}
+				247 = { 
+					set_variable = { which = NR_goods_Silver value = 50  } 
+				}
+				246 = { 
+					set_variable = { which = NR_goods_Silver value = 30  } 
+				}
+				242 = { 
+					set_variable = { which = NR_goods_Silver value = 70  } 
+				}
+				4366 = { 
+					set_variable = { which = NR_goods_Silver value = 80  } 
+				}
+				4369 = { 
+					set_variable = { which = NR_goods_Silver value = 60  } 
+				}
+				4361 = {
+					set_variable = { which = NR_goods_Silver value = 90  } 
+				}
+				4362 = {
+					set_variable = { which = NR_goods_Silver value = 90  } 
+				}
+				252 = {
+					set_variable = { which = NR_goods_Silver value = 40  } 
+				}
+				4363 = {
+					set_variable = { which = NR_goods_Silver value = 40  } 
+				}
+				250 = {
+					set_variable = { which = NR_goods_Silver value = 40  } 
+				}
+				4377 = {
+					set_variable = { which = NR_goods_Silver value = 100  } 
+				}
+				4318 = {
+					set_variable = { which = NR_goods_Silver value = 30  } 
+				}
+				4120 = {
+					set_variable = { which = NR_goods_Silver value = 40  } 
+				}
+				374 = {
+					set_variable = { which = NR_goods_Silver value = 50  } 
+				}
+			}
+
+			if = {
+				limit = {
+					trade_goods = silver
+				}
+				set_variable = { 
+					which = NR_goods_Silver
+					value = 100
+				}	
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Silver value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Silver
+					value = 10
+				}
+			}
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Silver_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Silver_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Silver_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Silver_Total which = NR_goods_Silver }
+		change_variable	= { which = NR_goods_Silver_Total which = NR_goods_Silver_terrain }			
+	]
+	
+	[[Iron]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				233 = { 
+					set_variable = { which = NR_goods_Iron value = 40  } 
+				}
+				4368 = { 
+					set_variable = { which = NR_goods_Iron value = 100  } 
+				}
+				247 = { 
+					set_variable = { which = NR_goods_Iron value = 70  } 
+				}
+				4785 = { 
+					set_variable = { which = NR_goods_Iron value = 70  } 
+				}
+				242 = { 
+					set_variable = { which = NR_goods_Iron value = 90  } 
+				}
+				374 = { 
+					set_variable = { which = NR_goods_Iron value = 70  } 
+				}
+				4121 = { 
+					set_variable = { which = NR_goods_Iron value = 60  } 
+				}
+				372 = { 
+					set_variable = { which = NR_goods_Iron value = 60  } 
+				}
+				376 = { 
+					set_variable = { which = NR_goods_Iron value = 40  } 
+				}
+				4378 = { 
+					set_variable = { which = NR_goods_Iron value = 30  } 
+				}
+				250 = { 
+					set_variable = { which = NR_goods_Iron value = 30  } 
+				}
+				252 = { 
+					set_variable = { which = NR_goods_Iron value = 30  } 
+				}
+				251 = { 
+					set_variable = { which = NR_goods_Iron value = 30  } 
+				}
+				4110 = { 
+					set_variable = { which = NR_goods_Iron value = 30  } 
+				}
+				
+			}
+
+			if = {
+				limit = {
+					trade_goods = iron
+				}
+				set_variable = { 
+					which = NR_goods_Iron
+					value = 100
+				}	
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Iron value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Iron
+					value = 10
+				}
+			}
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Iron_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Iron_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Iron_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Iron_Total which = NR_goods_Iron }
+		change_variable	= { which = NR_goods_Iron_Total which = NR_goods_Iron_terrain }			
+	]
+	
+	[[Zinc]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				247 = { 
+					set_variable = { which = NR_goods_Zinc value = 60  } 
+				}
+				233 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				4373 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				1861 = { 
+					set_variable = { which = NR_goods_Zinc value = 50  } 
+				}
+				241 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				242 = { 
+					set_variable = { which = NR_goods_Zinc value = 50  } 
+				}
+				373 = { 
+					set_variable = { which = NR_goods_Zinc value = 100  } 
+				}
+				4379 = { 
+					set_variable = { which = NR_goods_Zinc value = 80  } 
+				}
+				4120 = { 
+					set_variable = { which = NR_goods_Zinc value = 80  } 
+				}
+				4377 = { 
+					set_variable = { which = NR_goods_Zinc value = 60  } 
+				}
+				4362 = { 
+					set_variable = { which = NR_goods_Zinc value = 60  } 
+				}
+				4361 = { 
+					set_variable = { which = NR_goods_Zinc value = 60  } 
+				}
+				249 = { 
+					set_variable = { which = NR_goods_Zinc value = 60  } 
+				}
+				252 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				250 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				251 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				4363 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+				4110 = { 
+					set_variable = { which = NR_goods_Zinc value = 40  } 
+				}
+
+			}
+
+			if = {
+				limit = {
+					trade_goods = zinc
+				}
+				set_variable = { 
+					which = NR_goods_Zinc
+					value = 100
+				}	
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Zinc value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Zinc
+					value = 10
+				}
+			}
+			
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Zinc_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Zinc_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Zinc_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Zinc_Total which = NR_goods_Zinc }
+		change_variable	= { which = NR_goods_Zinc_Total which = NR_goods_Zinc_terrain }			
+	]
+	
+	[[Gold]
+		## England
+		if = {
+			limit = { region = british_isles_region }
+			
+			trigger_switch = {
+				on_trigger = province_id
+				233 = { 
+					set_variable = { which = NR_goods_Gold value = 40  } 
+				}
+				247 = { 
+					set_variable = { which = NR_goods_Gold value = 20  } 
+				}
+				242 = { 
+					set_variable = { which = NR_goods_Gold value = 90  } 
+				}
+				241 = { 
+					set_variable = { which = NR_goods_Gold value = 20  } 
+				}
+				373 = { 
+					set_variable = { which = NR_goods_Gold value = 60  } 
+				}
+				375 = { 
+					set_variable = { which = NR_goods_Gold value = 70  } 
+				}
+				252 = { 
+					set_variable = { which = NR_goods_Gold value = 60  } 
+				}
+				250 = { 
+					set_variable = { which = NR_goods_Gold value = 60  } 
+				}
+				4363 = { 
+					set_variable = { which = NR_goods_Gold value = 60  } 
+				}
+				4362 = { 
+					set_variable = { which = NR_goods_Gold value = 50  } 
+				}
+				4361 = { 
+					set_variable = { which = NR_goods_Gold value = 50  } 
+				}
+				249 = { 
+					set_variable = { which = NR_goods_Gold value = 50  } 
+				}
+				372 = { 
+					set_variable = { which = NR_goods_Gold value = 30  } 
+				}
+
+			}
+
+			if = {
+				limit = {
+					trade_goods = gold
+				}
+				set_variable = { 
+					which = NR_goods_Gold
+					value = 100
+				}	
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { which = NR_goods_Gold value = 1 } }
+				}
+				set_variable = { 
+					which = NR_goods_Gold
+					value = 10
+				}
+			}		
+		}
+		
+		trigger_switch = {
+			on_trigger = has_terrain
+			hills = { 
+				set_variable = { which = NR_goods_Gold_terrain value = 10  } 
+			}
+			highlands = { 
+				set_variable = { which = NR_goods_Gold_terrain value = 10  } 
+			}
+			mountain = {
+				set_variable = { which = NR_goods_Gold_terrain value = 20  } 
+			}
+		}
+		
+		set_variable = { which = NR_goods_Gold_Total which = NR_goods_Gold }
+		change_variable	= { which = NR_goods_Gold_Total which = NR_goods_Gold_terrain }			
+	]
+	
+	[[Lumber]		
+		if = {
+			limit = {
+				OR = {
+					has_terrain = forest 
+					has_terrain = woods 
+				}		
+			}
+			trigger_switch = {
+				on_trigger = has_terrain
+				forest = { 
+					set_variable = { which = NR_goods_Lumber value = 130  } 
+					set_variable = { which = NR_goods_Lumber_tochange value = 30  }
+				}
+				woods = { 
+					set_variable = { which = NR_goods_Lumber value = 120  } 
+					set_variable = { which = NR_goods_Lumber_tochange value = 10 }
+				}
+				hills = { 
+					set_variable = { which = NR_goods_Lumber value = 110  } 
+					set_variable = { which = NR_goods_Lumber_tochange value = 10 }
+				}
+			}
+			set_variable = { which = NR_goods_Lumber_Add value = 1 }	
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_terrain = glacier 
+					has_terrain = desert 
+					has_terrain = coastal_desert 
+				}
+			}
+			set_variable = { 
+				which = NR_goods_Lumber
+				value = -1
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_terrain = grasslands
+					has_terrain = steppe
+					has_terrain = farmlands 
+					has_terrain = marsh
+					has_terrain = coastline
+					has_terrain = drylands
+				}
+			}
+			set_variable = { 
+				which = NR_goods_Lumber
+				value = 80
+			}
+			set_variable = { 
+				which = NR_goods_Lumber_tochange
+				value = -20
+			}
+			set_variable = { which = NR_goods_Lumber_Add value = 2 }
+		}
+		else = {
+			set_variable = { 
+				which = NR_goods_Lumber
+				value = 100
+			}
+			set_variable = { 
+				which = NR_goods_Lumber_tochange
+				value = 0
+			}
+		}
+	]
+}
+
+Remove_old_mod = {
+	ROOT = {
+		remove_province_modifier = size_tier_TGE_5
+		remove_province_modifier = size_tier_TGE_4
+		remove_province_modifier = size_tier_TGE_7
+		remove_province_modifier = Quality_tier_TGE_2
+		remove_province_modifier = Quality_tier_TGE_1
+		remove_province_modifier = Quality_tier_TGE_3
+	}
+}
+
+Rural_Remove_old_flags = {
+	ROOT = {
+		clr_province_flag = Rural_$Goods$_Slot_1
+		clr_province_flag = Rural_$Goods$_Slot_2
+		clr_province_flag = Rural_$Goods$_Slot_3
+		clr_province_flag = Rural_$Goods$_Slot_4
+		clr_province_flag = Rural_$Goods$_Slot_5
+		clr_province_flag = Rural_$Goods$_Slot_6
+		clr_province_flag = Rural_$Goods$_Slot_7
+		clr_province_flag = Rural_$Goods$_Slot_8
+		clr_province_flag = Rural_$Goods$_Slot_9
+		clr_province_flag = Rural_$Goods$_Slot_10
+	}
+}
+
+Port_Remove_old_flags = {
+	ROOT = {
+		clr_province_flag = Port_$Goods$_Slot_1
+		clr_province_flag = Port_$Goods$_Slot_2
+		clr_province_flag = Port_$Goods$_Slot_3
+		clr_province_flag = Port_$Goods$_Slot_4
+		clr_province_flag = Port_$Goods$_Slot_5
+		clr_province_flag = Port_$Goods$_Slot_6
+		clr_province_flag = Port_$Goods$_Slot_7
+		clr_province_flag = Port_$Goods$_Slot_8
+	}
+}
+
+Mine_Remove_old_flags = {
+	ROOT = {
+		clr_province_flag = Mine_$Goods$_Slot_1
+		clr_province_flag = Mine_$Goods$_Slot_2
+		clr_province_flag = Mine_$Goods$_Slot_3
+		clr_province_flag = Mine_$Goods$_Slot_4
+		clr_province_flag = Mine_$Goods$_Slot_5
+		clr_province_flag = Mine_$Goods$_Slot_6
+		clr_province_flag = Mine_$Goods$_Slot_7
+		clr_province_flag = Mine_$Goods$_Slot_8
+		clr_province_flag = Mine_$Goods$_Slot_9
+		clr_province_flag = Mine_$Goods$_Slot_10
+	}
+}
+
+Remove_old_flags_two = {
+	[[Rural_Goods]
+		ROOT = {
+			Rural_Remove_old_flags = { Goods = grain }
+			Rural_Remove_old_flags = { Goods = livestock }
+			Rural_Remove_old_flags = { Goods = wine }		
+			Rural_Remove_old_flags = { Goods = apiculture }
+			Rural_Remove_old_flags = { Goods = wool }	
+			Rural_Remove_old_flags = { Goods = horses }
+			Rural_Remove_old_flags = { Goods = lumber }
+			Rural_Remove_old_flags = { Goods = fur }
+			Rural_Remove_old_flags = { Goods = olive_oil }	
+			Rural_Remove_old_flags = { Goods = citrus }
+			
+			clr_province_flag = Rural_Slot_10
+			clr_province_flag = Rural_Slot_9
+			clr_province_flag = Rural_Slot_8
+			clr_province_flag = Rural_Slot_7
+			clr_province_flag = Rural_Slot_6
+			clr_province_flag = Rural_Slot_5
+			clr_province_flag = Rural_Slot_4
+			clr_province_flag = Rural_Slot_3
+			clr_province_flag = Rural_Slot_2
+			clr_province_flag = Rural_Slot_1
+		}
+	]
+	[[Port_Goods]
+		ROOT = {
+			Port_Remove_old_flags = { Goods = fish }
+			Port_Remove_old_flags = { Goods = seafood }
+			Port_Remove_old_flags = { Goods = naval_supplies }		
+			Port_Remove_old_flags = { Goods = whaling }
+			Port_Remove_old_flags = { Goods = amber }	
+			Port_Remove_old_flags = { Goods = salt }
+			Port_Remove_old_flags = { Goods = pearls }
+			Port_Remove_old_flags = { Goods = sea_turtle }
+			
+			clr_province_flag = Port_Slot_8
+			clr_province_flag = Port_Slot_7
+			clr_province_flag = Port_Slot_6
+			clr_province_flag = Port_Slot_5
+			clr_province_flag = Port_Slot_4
+			clr_province_flag = Port_Slot_3
+			clr_province_flag = Port_Slot_2
+			clr_province_flag = Port_Slot_1
+		}
+	]
+	[[Mine_Goods]
+		ROOT = {
+			Mine_Remove_old_flags = { Goods = iron }
+			Mine_Remove_old_flags = { Goods = copper }
+			Mine_Remove_old_flags = { Goods = tin }		
+			Mine_Remove_old_flags = { Goods = zinc }
+			Mine_Remove_old_flags = { Goods = lead }	
+			Mine_Remove_old_flags = { Goods = gold }
+			Mine_Remove_old_flags = { Goods = silver }
+			Mine_Remove_old_flags = { Goods = marble }
+			Mine_Remove_old_flags = { Goods = gems }	
+			Mine_Remove_old_flags = { Goods = coal }
+			
+			clr_province_flag = Mine_Slot_10
+			clr_province_flag = Mine_Slot_9
+			clr_province_flag = Mine_Slot_8
+			clr_province_flag = Mine_Slot_7
+			clr_province_flag = Mine_Slot_6
+			clr_province_flag = Mine_Slot_5
+			clr_province_flag = Mine_Slot_4
+			clr_province_flag = Mine_Slot_3
+			clr_province_flag = Mine_Slot_2
+			clr_province_flag = Mine_Slot_1
+		}
+	]
+}
+
+setup_PRICE_Rural = {
+	[[grain]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.5  } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[livestock]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0  } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[wine]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.5  } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[apiculture]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.5 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[wool]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.5 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[horses]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.25 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[lumber]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0 } 
+			##Size
+			set_variable = { which = NR_goods_size_display which = NR_goods_Lumber }
+			set_variable = { which = NR_goods_size_slot1 which = NR_goods_Lumber_tochange }
+		}
+	]
+	[[fur]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0 } 
+			##Size
+			set_variable = { which = NR_goods_size_display which = NR_goods_Fur }
+			set_variable = { which = NR_goods_size_slot1 which = NR_goods_Fur_tochange }
+		}
+	]
+	[[olive_oil]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.25 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[citrus]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.25 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+}
+
+setup_PRICE_Port = {
+	[[fish]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.5  } 
+		}
+	]
+	[[seafood]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.75  } 
+		}
+	]
+	[[naval_supplies]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0  } 
+		}
+	]
+	[[salt]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0 } 
+		}
+	]
+	[[amber]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.5 } 
+		}
+	]
+	[[sea_turtle]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0 } 
+		}
+	]
+	[[pearls]
+		ROOT = { 
+			set_variable = { which = price_tge value = 4.0 } 
+		}
+	]
+	[[whaling]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0 } 
+			
+			##Size
+			set_variable = { which = NR_goods_size_display which = NR_goods_Whaling }
+		}
+	]
+}
+
+
+setup_PRICE_Mine = {
+	[[iron]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0  } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[copper]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0  } 
+			
+			if = {	
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 100 } 
+				}
+				set_variable = { which = size_tier_TGE value = 1  } 
+			
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 80 } 
+				}
+				set_variable = { which = size_tier_TGE value = 2  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 60 } 
+				}
+				set_variable = { which = size_tier_TGE value = 3  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 40 } 
+				}
+				set_variable = { which = size_tier_TGE value = 4  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 20 } 
+				}
+				set_variable = { which = size_tier_TGE value = 5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Copper_Total value = 10 } 
+				}
+				set_variable = { which = size_tier_TGE value = 6 } 
+			}
+		}
+	]
+	[[tin]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0  } 
+			
+			if = {	
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 100 } 
+				}
+				set_variable = { which = size_tier_TGE value = 1  } 
+			
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 80 } 
+				}
+				set_variable = { which = size_tier_TGE value = 2  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 60 } 
+				}
+				set_variable = { which = size_tier_TGE value = 3  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 40 } 
+				}
+				set_variable = { which = size_tier_TGE value = 4  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 20 } 
+				}
+				set_variable = { which = size_tier_TGE value = 5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Tin_Total value = 10 } 
+				}
+				set_variable = { which = size_tier_TGE value = 6 } 
+			}
+			
+			
+		}
+	]
+	[[zinc]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.0 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[lead]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.5 } 
+			
+			if = {	
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 100 } 
+				}
+				set_variable = { which = size_tier_TGE value = 1  } 
+			
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 80 } 
+				}
+				set_variable = { which = size_tier_TGE value = 2  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 60 } 
+				}
+				set_variable = { which = size_tier_TGE value = 3  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 40 } 
+				}
+				set_variable = { which = size_tier_TGE value = 4  } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 20 } 
+				}
+				set_variable = { which = size_tier_TGE value = 5 } 
+			}
+			else_if = {
+				limit = {
+					check_variable = { which = NR_goods_Lead_Total value = 10 } 
+				}
+				set_variable = { which = size_tier_TGE value = 6 } 
+			}
+		}
+	]
+	[[gold]
+		ROOT = { 
+			set_variable = { which = price_tge value = 40 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[silver]
+		ROOT = { 
+			set_variable = { which = price_tge value = 20 } 
+			##Size
+
+		}
+	]
+	[[marble]
+		ROOT = { 
+			set_variable = { which = price_tge value = 2.0 } 
+			##Size
+
+		}
+	]
+	[[gems]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.25 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+	[[coal]
+		ROOT = { 
+			set_variable = { which = price_tge value = 3.25 } 
+			
+			set_variable = { which = NR_goods_size_display value = 100 }
+		}
+	]
+}
+
+
+
+

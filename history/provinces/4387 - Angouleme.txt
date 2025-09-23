@@ -1,12 +1,12 @@
 # 4387 Angoulême
 
-owner = G15
-controller = G15
-add_core = G15
+owner = VES
+controller = VES
+add_core = VES
 capital = "Angoulême"
 is_city = yes
 culture = vestes
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3
 base_production = 3

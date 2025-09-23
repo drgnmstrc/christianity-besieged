@@ -1,8 +1,8 @@
 #1974 - Yedishkul
 
-owner = Z23
-controller = Z23
-add_core = Z23
+owner = ZLT
+controller = ZLT
+add_core = ZLT
 culture = hungarian
 religion = manichaeism
 hre = no

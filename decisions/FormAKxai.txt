@@ -435,7 +435,7 @@ country_decisions = {
 			has_reform = kxai_reform
 			religion = qanumi
 			NOT = { has_country_flag = formed_kaikxai }
-			NOT = { exists = R17 }
+			NOT = { exists = KXI }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -459,7 +459,7 @@ country_decisions = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
-			NOT = { exists = R17 }
+			NOT = { exists = KXI }
 			saadzahi_region = {
 				type = all
 				owned_by = ROOT
@@ -475,7 +475,7 @@ country_decisions = {
 			religion = qanumi
 		}
 		effect = {
-			change_tag = R17
+			change_tag = KXI
 			remove_government_reform = kxai_reform
 			set_government_rank = 3
 			add_government_reform = kaikxai_reform
@@ -483,7 +483,7 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = R17
+				add_permanent_claim = KXI
 			}
 			add_prestige = 25
 			set_country_flag = formed_kaikxai

@@ -4,7 +4,7 @@ primary_culture = armenian
 religion = manichaeism
 technology_group = near_east
 capital = 419
-historical_friend = PER
+historical_friend = ERS
 
 1444.1.1 = {
 	monarch = {

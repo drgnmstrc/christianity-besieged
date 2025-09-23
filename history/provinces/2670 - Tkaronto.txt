@@ -34,7 +34,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = soisson
 	religion = catholic
 } #Great Peace of Montreal, French and allies dominant in this area
 1750.1.1 = {	

@@ -252,11 +252,11 @@ country_event = { #Christians of Seliah
 		name = iskandaria.5a
 		add_prestige = 15
 		4810 = {
-			cede_province = B12
+			cede_province = SRY
 		}
 		create_subject = {
 			subject_type = tributary_state
-			subject = B12
+			subject = SRY
 		}
 	}
 	option = { #Provide the church with limited autonomy.
@@ -526,7 +526,7 @@ country_event = { #Iskandaria Elections
 					exiled_as = lottery_candidate_aglidanab@ROOT
 					min_age = 24
 					max_age = 48
-					culture = mutawasiti
+					culture = bahrumi
 					adm = 1
 					dip = 3
 					mil = -1
@@ -738,7 +738,7 @@ country_event = { #Council of Iskandaria
 	picture = CITY_VIEW_eventPicture
 	is_triggered_only = yes
 	fire_only_once = yes
-	trigger = { tag = Y08 }
+	trigger = { tag = ALX }
 	option = { #Embrace the Faridri traditions of the Haladris and Abbasids.
 		name = iskandaria.8a
 		set_religious_school = {

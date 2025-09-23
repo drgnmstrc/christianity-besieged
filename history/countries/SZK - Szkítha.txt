@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = near_east
+primary_culture = scythian
+religion = manichaeism
+capital = 286
+
+1444.11.11 = {
+	monarch = {
+		name = "Bozók"
+		dynasty = Pázmány
+		birth_date = 1419.11.19
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}

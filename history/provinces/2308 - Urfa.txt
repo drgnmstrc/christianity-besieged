@@ -1,8 +1,8 @@
 #2308 - Urfa
 
-owner = X08
-controller = X08
-add_core = X08
+owner = OSR
+controller = OSR
+add_core = OSR
 culture = kurdish
 religion = mandaeism
 capital = "Edessa"

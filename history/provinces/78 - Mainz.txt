@@ -1,11 +1,11 @@
 # 78 - Mainz
 capital = "Mainz"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = paper
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 base_tax = 5 
 base_production = 5
 base_manpower = 2

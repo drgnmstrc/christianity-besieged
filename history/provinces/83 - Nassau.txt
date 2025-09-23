@@ -1,12 +1,12 @@
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 add_core = NSA
 capital = "Wiesbaden"
 trade_goods = copper
 hre = yes
 culture = swabian
-religion = germanic
+religion = german_pagan
 base_tax = 2 
 base_production = 2
 base_manpower = 1

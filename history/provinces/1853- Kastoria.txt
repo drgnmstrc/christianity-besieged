@@ -1,9 +1,9 @@
 #1853 - Kastoria
 
-owner = Y18
-controller = Y18
-add_core = Y18
-add_claim = X07
+owner = JLM
+controller = JLM
+add_core = JLM
+add_claim = SBK
 culture = andalucian
 religion = ashabi
 capital = "Sindiwiat" #Derives from Sinduit, meaning "travel width" in Vandalic in reference to how narrow Kastoria is

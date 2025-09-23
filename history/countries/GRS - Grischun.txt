@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = romansh
+religion = german_pagan
+technology_group = ottoman
+capital = 1873
+fixed_capital = 1873
+
+1444.11.11 = {
+	monarch = {
+		name = "Valentin"
+		dynasty = "Cadalbert"
+		birth_date = 1425.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}

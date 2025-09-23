@@ -1,9 +1,9 @@
 #2971 - Hoya
 
-owner = G25
-controller = G25
+owner = HOY
+controller = HOY
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Hoyaberg"
 trade_goods = livestock
 hre = yes
@@ -11,7 +11,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = G25
+add_core = HOY
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

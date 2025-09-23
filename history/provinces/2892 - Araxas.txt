@@ -1,9 +1,9 @@
 # - Araxas
 
 is_city = yes
-owner = M75
-controller = M75
-add_core = M75
+owner = APO
+controller = APO
+add_core = APO
 culture = ge
 discovered_by = south_american
 religion = animism

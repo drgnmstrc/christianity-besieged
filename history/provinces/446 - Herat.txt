@@ -1,8 +1,8 @@
 #446 - Herat
 
-owner = Z18
-controller = Z18
-add_core = Z18
+owner = BCT
+controller = BCT
+add_core = BCT
 culture = bactrian
 religion = manichaeism
 capital = "Herat"

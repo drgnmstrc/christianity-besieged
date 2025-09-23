@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = inuvialuit
+religion = ikniksugritism
+technology_group = north_american
+unit_type = north_american
+capital = 1001
+historical_rival = ISU
+historical_rival = VIM
+historical_rival = WCR
+
+1444.11.11 = {
+	monarch = {
+		name = "Shesh"
+		dynasty = "Etook"
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+}

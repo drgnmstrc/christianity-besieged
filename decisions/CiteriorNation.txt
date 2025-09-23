@@ -10,15 +10,16 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { tag = U01 }
-			NOT = { tag = U15 }
+			NOT = { tag = BTA }
+			NOT = { tag = RMC }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = SPA }
-			NOT = { tag = J13 }
+			NOT = { tag = AYI }
 			NOT = { tag = ADU }
-			NOT = { tag = J11 }
-			NOT = { tag = J06 }
+			NOT = { tag = LMR }
+			NOT = { tag = IBE }
+			NOT = { tag = MAM }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -27,10 +28,11 @@ country_decisions = {
 					ai = no
 				}
 			}
-			NOT = { exists = J12 }
+			NOT = { exists = CIT }
 			OR = {
 				culture_group = iberian
 				culture = gurrean
+				religion = ashabi
 			}
 			any_owned_province = {
 				OR = {
@@ -50,8 +52,8 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = J07 }
-			NOT = { exists = J12 }
+			NOT = { exists = MAM }
+			NOT = { exists = CIT }
 			is_nomad = no
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -62,7 +64,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = J12
+			change_tag = CIT
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -92,25 +94,25 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J12
+				add_permanent_claim = CIT
 			}
 			aragon_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J12
+				add_permanent_claim = CIT
 			}
 			basque_country = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J12
+				add_permanent_claim = CIT
 			}
 			valencia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_permanent_claim = J12
+				add_permanent_claim = CIT
 			}
 			set_country_flag = formed_citerior_flag
 		}

@@ -1,10 +1,10 @@
 #2212 - Zanjan
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = median
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Zanjan"
 trade_goods = saffron
 hre = no

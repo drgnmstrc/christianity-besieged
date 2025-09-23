@@ -1,7 +1,7 @@
 #324 - Karaman
 
-owner = H31
-controller = H31
+owner = ISA
+controller = ISA
 culture = isaurian
 religion = hypturism
 capital = "Vetus"
@@ -11,8 +11,8 @@ base_tax = 5
 base_production = 5
 base_manpower = 5
 is_city = yes
-add_core = H31
-add_core = H06
+add_core = ISA
+add_core = PNT
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

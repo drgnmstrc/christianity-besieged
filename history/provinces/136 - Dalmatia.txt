@@ -1,7 +1,7 @@
 #136 - Dalmatia
 
-owner = U17
-controller = U17
+owner = LTL
+controller = LTL
 culture = latinlerin
 religion = ashabi
 capital = "Zadar"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 5
 is_city = yes
 fort_15th = yes # Klis Fortress
-add_core = U17
+add_core = LTL
 discovered_by = nomad_group
 discovered_by = western
 discovered_by = eastern

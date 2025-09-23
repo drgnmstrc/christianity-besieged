@@ -1,8 +1,8 @@
 #Ostrov
 
-owner = PLT
-controller = PLT
-add_core = PLT
+owner = KRV
+controller = KRV
+add_core = KRV
 culture = krivich
 religion = slavic
 hre = no

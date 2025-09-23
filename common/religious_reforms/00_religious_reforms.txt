@@ -124,6 +124,20 @@ ikniksugritism_reforms = {
 		state_maintenance_modifier = -0.25
 		administrative_efficiency = 0.2
 	}
+	ikniksugritism_reform_2 = { # Placeholder
+	}
+	ikniksugritism_reform_3 = { # Placeholder
+		state_maintenance_modifier = -0.25
+		administrative_efficiency = 0.2
+	}
+	ikniksugritism_reform_4 = { # Placeholder
+		state_maintenance_modifier = -0.25
+		administrative_efficiency = 0.2
+	}
+	ikniksugritism_reform_5 = { # Placeholder
+		state_maintenance_modifier = -0.25
+		administrative_efficiency = 0.2
+	}
 	ai_will_do = {
 		factor = 1
 	}

@@ -1,10 +1,10 @@
 #297 - Bryansk
 
-owner = Z12
-controller = Z12 
+owner = RDM
+controller = RDM 
 culture = severian
 religion = rodoptr #Will be changed to Rodism, the Norse-Slavic hybrid
-add_core = Z12
+add_core = RDM
 hre = no
 base_tax = 3
 base_production = 3

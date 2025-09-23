@@ -1,8 +1,8 @@
 #123 - Calabria
 
-owner = Y03
-controller = Y03
-culture = sicilian 
+owner = IFR
+controller = IFR
+culture = ifri 
 religion = ashabi
 hre = no 
 base_tax = 2 
@@ -11,8 +11,8 @@ trade_goods = lead
 base_manpower = 2
 capital = "Reggio di Calabria"
 is_city = yes 
-add_core = H20
-add_core = Y03
+add_core = LCN
+add_core = IFR
 
 
 

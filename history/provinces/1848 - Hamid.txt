@@ -1,8 +1,8 @@
 #1848 - Hamid
 
-owner = H31
-controller = H31
-add_core = H31
+owner = ISA
+controller = ISA
+add_core = ISA
 culture = pisidian
 religion = payidotheos
 capital = "Saglassos"
@@ -12,7 +12,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = H27
+add_core = PSD
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

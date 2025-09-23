@@ -1,9 +1,9 @@
 #2219 - Bandar Langeh
 
-owner = Z19
-controller = Z19
-add_core = Z19
-add_core = PER
+owner = NBN
+controller = NBN
+add_core = NBN
+add_core = ERS
 culture = persian
 religion = manichaeism
 capital = "Bandar Langeh"

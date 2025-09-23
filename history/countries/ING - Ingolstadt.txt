@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = bavarian
-religion = germanic
+religion = german_pagan
 capital = 2955	# Ingolstadt
 
 1438.5.1 = {

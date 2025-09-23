@@ -2,15 +2,15 @@
 
 capital = "Zweibrücken"
 culture = swabian
-religion = germanic
+religion = german_pagan
 trade_goods = cloth
-owner = G29
+owner = ZWB
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-controller = G29
-add_core = G29
+controller = ZWB
+add_core = ZWB
 hre = yes
 discovered_by = eastern
 discovered_by = western

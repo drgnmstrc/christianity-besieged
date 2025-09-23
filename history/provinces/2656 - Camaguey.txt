@@ -4,9 +4,9 @@
 
 discovered_by = mesoamerican
 discovered_by = south_american
-owner = M42
-controller = M42
-add_core = M42
+owner = CGU
+controller = CGU
+add_core = CGU
 culture = arawak
 religion = animism
 capital = "Camaguey"

@@ -1,0 +1,129 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 205 180 101 }
+
+revolutionary_colors = { 15  0  15 }
+
+historical_idea_groups = {
+	exploration_ideas
+	defensive_ideas
+	innovativeness_ideas
+	maritime_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Muhammad #6" = 140
+	"Yûsuf #2" = 60
+	"'Alî #0" = 20
+	"Sa'd #0" = 20
+	"Isma'îl #2" = 10
+	"Nasr #1" = 5
+	"'Abd al-Karim #0" = 0
+	"Ayman #0" = 0
+	"Barakat #0" = 0
+	"García #1" = 0
+	"Ordoño #2" = 0
+	"Afonso #5" = 0
+	"Sancho #1" = 0
+	"Ramiro #3" = 0
+	"Bermudo #2" = 0
+	"Froila #2" = 0
+	"Aleixo #0" = 0
+	"Alvaro #0" = 0
+	"Anxo #0" = 0
+	"Baltasar #0" = 0
+	"Bernaldo #0" = 0
+	"Brais #0" = 0
+	"Carlos #0" = 0
+	"Cristovo #0" = 0
+	"Domingos #0" = 0
+	"Estevo #0" = 0
+	"Felipe #0" = 0
+	"Fernán #0" = 0
+	"Francisco #0" = 0
+	"Frederico #0" = 0
+	"Gonzalo #0" = 0
+ 	"Guillerme #0" = 0
+	"Gumersindo #0" = 0
+	"Henrique #0" = 0
+	"Hermenexildo #0" = 0
+	"Hixinio #0" = 0
+	"Hugo #0" = 0
+	"Iago #0" = 0
+	"Ignacio #0" = 0
+	"Leandro #0" = 0
+	"Lope #0" = 0
+	"Miguel #0" = 0
+	"Nuno #0" = 0
+	"Odón #0" = 0
+	"Paulo #0" = 0
+	"Pedro #0" = 0
+	"Ramón #0" = 0
+	"Roi #0" = 0
+	"Tomé #0" = 0
+	"Vitor #0" = 0
+	"Xoan #0" = 0
+	"Xorxe #0" = 0
+	
+	"Branca #0" = -1
+	"Iria #0" = -1
+	"Sabela #0" = -1
+}
+
+leader_names = {
+	"de Aguirre" "de Alarcón" "de Toledo" "de Andrade" "de Ayala"
+	"de Bazán" "de Benavides" Campomanes "de Castilla" "de la Cerda" Cienfuegos Colón Coronado Cortés
+	"de Toledo" "de Córdoba" "de la Cueva" "de Figueroa" Fonseca
+	Gálvez Gómez "de Guzmán" "Jiménez de Cisneros"
+	"de Leiva" "López de Haro" "de Luna"
+	"de Lara" "de Velasco" "de Villena" "de Mendoza"
+	Narváez "de Nebrija" "Nuñez de Balboa" "de Ojeda" Orellana Osorio 
+	Pimentel Pinzón Pizarro "Ponce de León" Portocarrero
+	"de Rojas" Tellez-Girón "de la Vega" "de Zúñiga"
+}
+
+ship_names = {
+	Galicia Argonauta Asturias Asunción Atrevido Azor
+	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
+	Doncella Dragón 
+	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
+	Furor "Gran Grifón" Halcón Hércules Isabela Júpiter
+	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
+	Marte Mercurio Neptuno Niña Orión
+	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
+	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
+	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique"
+	"San Esteban" "San Fernando" "San Francisco" "San Gabriel" "San Isidoro" "San Jerónimo"
+	"San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro"
+	"San Rafael" "San Salvador" "San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz"
+	"Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa María"
+	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
+	Terror Toledo Trinidad Tritón Unicornio
+	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
+}
+
+
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Alboran Sea Squadron" "Balaeric Sea Squadron" "Jabal Tariq Squadron" 
+}

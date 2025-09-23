@@ -1,6 +1,6 @@
 # No previous file for Bretony
-owner = H44
-controller = H44
+owner = BRO
+controller = BRO
 capital = "Bretona"
 is_city = yes
 culture = bretono
@@ -10,7 +10,7 @@ base_tax = 3
 base_production = 2
 trade_goods = cloth
 base_manpower = 2
-add_core = H44
+add_core = BRO
 fort_15th = yes
 discovered_by = western
 discovered_by = eastern

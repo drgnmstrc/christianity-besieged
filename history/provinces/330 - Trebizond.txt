@@ -1,7 +1,7 @@
 #330 - Trebizond
 
-owner = H06
-controller = H06
+owner = PNT
+controller = PNT
 culture = pondii
 religion = hellenism
 capital = "Trapezous"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 5
 is_city = yes
 fort_15th = yes #Trebizond Castle
-add_core = H06
+add_core = PNT
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

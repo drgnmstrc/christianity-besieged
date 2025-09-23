@@ -1,7 +1,7 @@
 #1102 - Mauritius
-owner = R35
-controller = R35
-add_core = R35
+owner = MSR
+controller = MSR
+add_core = MSR
 culture = banu
 religion = mudarian
 capital = "Misirak'i"

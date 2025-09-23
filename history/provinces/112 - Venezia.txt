@@ -1,10 +1,10 @@
 #112 - Venezia
 
-owner = H28
-controller = H28
-culture = venixicus
+owner = VEN
+controller = VEN
+culture = venixus
 religion = sol_invictus
-add_core = H28
+add_core = VEN
 hre = no 
 base_tax = 8
 base_production = 6

@@ -1,7 +1,7 @@
 #322 - Küthaya
 
-owner = H14
-controller = H14
+owner = LYD
+controller = LYD
 culture = lydes
 religion = hellenism
 capital = "Lycia"
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 5
 base_manpower = 5
 is_city = yes
-add_core = H14
+add_core = LYD
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

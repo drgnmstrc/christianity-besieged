@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = italian_iqta
+technology_group = ottoman
+religion = ashabi
+primary_culture = juthudi
+capital = 205
+fixed_capital = 205
+government_rank = 1
+1444.11.1 = {
+	monarch = { 
+		name = "Abdullah"
+		dynasty = "Rubiana"
+		dip = 2
+		mil = 3
+		adm = 1
+	}
+}

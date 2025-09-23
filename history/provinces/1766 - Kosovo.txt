@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = X17
-controller = X17
-add_core = X17
+owner = GEY
+controller = GEY
+add_core = GEY
 culture = ghajaz
 religion = manichaeism
 capital = "Pristina"

@@ -1,12 +1,12 @@
 guarantee = {
 	first = GAL
-	second = H44
+	second = BRO
 	start_date = 1418.3.12
 	end_date = 1624.9.13
 }
 guarantee = {
-	first = H01
-	second = H44
+	first = AMO
+	second = BRO
 	start_date = 1418.3.12
 	end_date = 1624.9.13
 }

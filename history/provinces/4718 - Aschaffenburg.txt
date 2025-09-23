@@ -1,10 +1,10 @@
-owner = G05
-controller = G05
-add_core = G05
+owner = RHI
+controller = RHI
+add_core = RHI
 capital = "Aschaffenburg"
 is_city = yes
 culture = swabian
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 3 
 base_production = 2

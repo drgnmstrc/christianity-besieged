@@ -1,7 +1,7 @@
 #380 - Al Karak
 
-owner = X05
-controller = X05
+owner = JUD
+controller = JUD
 culture = hebrew
 religion = samaritan
 capital = "Karakk"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = X05
+add_core = JUD
 fort_15th = yes
 discovered_by = near_east
 discovered_by = ottoman
@@ -30,4 +30,4 @@ discovered_by = saharan
 1665.1.1 = { unrest = 4 }
 1669.1.1 = { unrest = 2 } # Ottoman attempts to pacify unruly tribes 
 1670.1.1 = { unrest = 0 }
-1750.1.1 = { add_core = SYR }
+1750.1.1 = { add_core = PLM }

@@ -1,8 +1,8 @@
 # - Florida Blanca
 
-owner = M69
-controller = M69
-add_core = M69
+owner = AEN
+controller = AEN
+add_core = AEN
 culture = teushen
 religion = animism
 capital = "Florida Blanca"
@@ -14,7 +14,4 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 2
 native_hostileness = 9
-
-1520.1.1 = { discovered_by = SPA } # Ferdinand Magellan
-1577.1.1 = { discovered_by = ENG } # Drake
-1786.1.1 = { discovered_by = FRA } # Jean Francois la Perouse
+discovered_by = south_american

@@ -3,7 +3,7 @@ country_event = {
 	id = hjallden_pls_colonize.0
 	hidden = yes
 	trigger = {
-		tag = N09
+		tag = HJL
 		num_of_colonists = 1
 		NOT = { personality = ai_colonialist }
 	}

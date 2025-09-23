@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = chonnon
+religion = totemism
+technology_group = north_american
+capital = 2587
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Onnonhou"
+		dynasty = "Yawndeeshaw"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

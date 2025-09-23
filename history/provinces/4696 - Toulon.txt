@@ -1,8 +1,8 @@
 # Forcalquier
 
-owner = U09
-controller = U09
-add_core = U09
+owner = MRT
+controller = MRT
+add_core = MRT
 culture = aquigalli
 religion = walianitas
 capital = "Toulon"
@@ -12,7 +12,7 @@ base_tax = 4
 base_production = 4
 trade_goods = naval_supplies
 base_manpower = 3
-add_core = H37
+add_core = AQG
 
 discovered_by = eastern
 discovered_by = western

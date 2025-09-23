@@ -1,8 +1,8 @@
 #Western Småland - Tiohärads Lagsaga, ie: Värend, Finnveden och Njudung
 
-add_core = N28
-owner = N28
-controller = N28
+add_core = WYL
+owner = WYL
+controller = WYL
 culture = wylfinge
 religion = norse_pagan_reformed
 hre = no

@@ -2,7 +2,7 @@ theodolism_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = anglican
+	religion = theodolian
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -113,7 +113,7 @@ theodolism_rebels = {
  	siege_won_trigger = {
 		NOT = {
 			AND = {
-				owned_by = U01
+				owned_by = BTA
 				is_capital = yes
 			}
 		}
@@ -172,7 +172,7 @@ theodolism_rebels = {
 		}
 		if = {
 			limit = {
-				tag = U01
+				tag = BTA
 			}
 			add_stability = -1
 		}
@@ -189,7 +189,7 @@ theodolism_rebels = {
 			limit = {
 				NOT = { religion = theodolism }
 				dominant_religion = theodolism
-				NOT = { tag = U01 }
+				NOT = { tag = BTA }
 			}
 			change_religion = theodolism
 			force_converted = yes
@@ -198,7 +198,7 @@ theodolism_rebels = {
 			limit = {
 				NOT = { religion = theodolism }
 				NOT = { dominant_religion = theodolism }
-				NOT = { tag = U01 }
+				NOT = { tag = BTA }
 				religion_group = christian
 			}
 			add_country_modifier = {

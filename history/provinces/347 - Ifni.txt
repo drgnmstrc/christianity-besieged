@@ -3,8 +3,8 @@
 owner = TFL
 controller = TFL
 add_core = TFL
-add_core = R02
-add_core = R03
+add_core = ALM
+add_core = BGW
 culture = sahrawi
 religion = sunni
 capital = "Sidi Ifni"

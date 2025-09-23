@@ -1,7 +1,7 @@
 #792 - Copiapo
 
 culture = chango
-tribal_owner = M65
+tribal_owner = CNG
 
 
 discovered_by = south_american

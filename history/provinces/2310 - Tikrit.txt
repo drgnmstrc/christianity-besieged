@@ -1,8 +1,8 @@
 #2310 - Tikrit
 
-owner = X11
-controller = X11
-add_core = X11
+owner = RBY
+controller = RBY
+add_core = RBY
 culture = assyrian
 religion = manichaeism
 capital = "Tikrit"

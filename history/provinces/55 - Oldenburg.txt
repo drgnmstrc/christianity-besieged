@@ -1,10 +1,10 @@
 #55 - Oldenburg
 
-owner = FRI
-controller = FRI
-add_core = FRI
+owner = DAN
+controller = DAN
+add_core = DAN
 culture = danish
-religion = germanic
+religion = german_pagan
 capital = "Smalberg"
 trade_goods = salt
 hre = yes

@@ -1,10 +1,10 @@
 #4338 - Soltanieh & Abhar
 
-owner = PER
-controller = PER
+owner = ERS
+controller = ERS
 culture = median
 religion = manichaeism
-add_core = PER
+add_core = ERS
 capital = "Soltanieh"
 trade_goods = wine #Grapes and Fruits
 hre = no

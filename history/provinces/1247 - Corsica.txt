@@ -2,7 +2,7 @@
 
 owner = COR
 controller = COR
-culture = mutawasiti
+culture = bahrumi
 religion = ashabi
 capital = "Bastia"
 hre = no

@@ -1,7 +1,7 @@
 #Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
-owner = N19
-controller = N19
-add_core = N19
+owner = HLG
+controller = HLG
+add_core = HLG
 trade_goods = whaling
 native_size = 50
 native_ferocity = 2

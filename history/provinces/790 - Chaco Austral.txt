@@ -1,8 +1,5 @@
 #790 - Chaco Austral
 
-owner = M64
-controller = M64
-add_core = M64
 culture = chacoan
 discovered_by = south_american
 religion = animism
@@ -15,3 +12,6 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 1
+owner = TOB
+controller = TOB
+add_core = TOB

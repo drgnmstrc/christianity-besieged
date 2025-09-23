@@ -1,5 +1,5 @@
 #4262 - Totma
-tribal_owner = Z06
+tribal_owner = ARS
 culture = veps
 religion = tengri_pagan_reformed
 hre = no

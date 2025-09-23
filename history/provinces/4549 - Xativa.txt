@@ -1,8 +1,8 @@
 #1750 - Xativa
 
-owner = J10
-controller = J10
-add_core = J10
+owner = TLD
+controller = TLD
+add_core = TLD
 culture = aybirean
 religion = ashabi
 hre = no

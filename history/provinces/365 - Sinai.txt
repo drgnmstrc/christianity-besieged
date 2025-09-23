@@ -1,8 +1,8 @@
 #365 - Sinai
 
-owner = Y08
-controller = Y08
-add_core = Y08
+owner = ALX
+controller = ALX
+add_core = ALX
 culture = bedouin_arabic
 religion = sunni
 capital = "At Tur"
@@ -12,7 +12,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_permanent_claim = Y05
+add_permanent_claim = MUQ
 
 discovered_by = near_east
 discovered_by = ottoman

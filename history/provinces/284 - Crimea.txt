@@ -1,7 +1,7 @@
 #284 - Crimea
 
-owner = X21
-controller = X21
+owner = QRQ
+controller = QRQ
 culture = kuzarim
 religion = karaite
 hre = no
@@ -12,7 +12,7 @@ base_manpower = 4
 capital = "Qirq-Yer"
 is_city = yes
 fort_15th = yes #Qirq-Yer Fortress
-add_core = X21
+add_core = QRQ
 
 
 

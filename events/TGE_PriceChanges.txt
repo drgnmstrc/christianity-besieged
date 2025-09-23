@@ -12,7 +12,7 @@ country_event = {
 
 	trigger = {
 		is_year = 1516
-		culture_group = germanic
+		culture_group = germanic_group
 		NOT = { has_global_flag = beerislove }
 	}
 	
@@ -147,7 +147,7 @@ country_event = {
 		cheese = 2
 		NOT = { has_global_flag = cheeseislove }
 		OR = {
-			culture_group = italo_gallic
+			culture_group = latin
 			culture_group = french
 		}
 	}
@@ -962,7 +962,73 @@ country_event = {
 ##
 
 
+country_event = {
+    id = prices_marcin.19
+    title = prices_marcin.19.t
+    desc = prices_marcin.19.d
+    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 
+    fire_only_once = yes
+    major = yes
+
+    trigger = {
+		NOT = { has_global_flag = decline_of_cavalry_flag }
+		always = no
+    }
+    
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = prices_marcin.19.a    
+        ai_chance = { factor = 100 }
+        change_price = {
+            trade_goods = horses
+            key = DECLINE_OF_CAVALRY
+            value = -0.35
+            duration = -1
+        }
+		change_price = {
+            trade_goods = elephants
+            key = DECLINE_OF_CAVALRY
+            value = -0.35
+            duration = -1
+        }
+        set_global_flag = decline_of_cavalry_flag
+    }
+}
+
+country_event = {
+    id = prices_marcin.20
+    title = prices_marcin.20.t
+    desc = prices_marcin.20.d
+    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+    fire_only_once = yes
+    major = yes
+
+    trigger = {
+		always = no
+		NOT = { has_global_flag = renaissance_architecture_boom_flag }
+    }
+    
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = prices_marcin.20.a    
+        ai_chance = { factor = 100 }
+        change_price = {
+            trade_goods = marble
+            key = RENAISSANCE_ARCHITECTURE_BOOM
+            value = -0.35
+            duration = -1
+        }
+        set_global_flag = renaissance_architecture_boom_flag
+    }
+}
 
 
 

@@ -1,8 +1,8 @@
 #394 - El Catif
 
-owner = Y13
-controller = Y13
-add_core = Y13
+owner = HSH
+controller = HSH
+add_core = HSH
 culture = gulf_arabic
 religion = sunni
 capital = "Al-Qatif"

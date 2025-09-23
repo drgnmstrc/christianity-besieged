@@ -1,9 +1,9 @@
 #1793 - El Djouf
 trade_goods = gems
 is_city = yes
-owner = R22
-controller = R22
-add_core = R22
+owner = XEG
+controller = XEG
+add_core = XEG
 culture = xegwe
 capital = "|Xeg'wOm"
 religion = qanumi

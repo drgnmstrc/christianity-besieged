@@ -1,8 +1,8 @@
 # - Ortelsburg
 
-owner = N01
-controller = N01
-add_core = N01
+owner = RDJ
+controller = RDJ
+add_core = RDJ
 add_core = PRU
 culture = prus
 religion = rodoptr

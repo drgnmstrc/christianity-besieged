@@ -1,7 +1,7 @@
 #2447 - Mantrega
 
-owner = H30
-controller = H30
+owner = BSP
+controller = BSP
 culture = circassian
 religion = manichaeism
 hre = no
@@ -13,7 +13,7 @@ capital = "Matrega"
 is_city = yes
 add_core = CIR
 add_core = CRI
-add_core = H30
+add_core = BSP
 
 discovered_by = western
 discovered_by = eastern

@@ -1,10 +1,10 @@
 #1857 - Lauenburg
 
-owner = G23
-controller = G23
-add_core = G23
+owner = LAU
+controller = LAU
+add_core = LAU
 culture = saxon
-religion = germanic
+religion = german_pagan
 capital = "Lauenburg"
 trade_goods = salt
 hre = yes

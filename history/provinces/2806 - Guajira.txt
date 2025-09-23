@@ -5,9 +5,9 @@ latent_trade_goods = {
 }
 
 culture = yukpa
-owner = M84
-controller = M84
-add_core = M84
+owner = YUK
+controller = YUK
+add_core = YUK
 is_city = yes
 religion = mesoamerican_religion
 discovered_by = south_american

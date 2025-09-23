@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = ANZ
-add_permanent_claim = X05
+add_permanent_claim = JUD
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern
@@ -31,4 +31,4 @@ discovered_by = saharan
 1665.1.1 = { unrest = 4 }
 1669.1.1 = { unrest = 2 } # Ottoman attempts to pacify unruly tribes 
 1670.1.1 = { unrest = 0 }
-1750.1.1 = { add_core = SYR }
+1750.1.1 = { add_core = PLM }

@@ -1,9 +1,9 @@
 #531 - North Kanara
 
-owner = L10
-controller = L10
-add_core = L10
-add_core = L02
+owner = MSN
+controller = MSN
+add_core = MSN
+add_core = HYS
 culture = malayalam
 religion = syriac
 capital = "Bhatkal"

@@ -4,19 +4,19 @@ latent_trade_goods = {
 	coal
 }
 
-owner = G14
-controller = G14
+owner = AVN
+controller = AVN
 capital = "Clermont"
 is_city = yes
 culture = gothic
-religion = germanic
+religion = german_pagan
 hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = iron
 base_manpower = 4
-add_core = G14
-add_core = Y15
+add_core = AVN
+add_core = ALD
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east

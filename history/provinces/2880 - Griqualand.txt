@@ -1,6 +1,6 @@
-owner = R43
-controller = R43
-add_core = R43
+owner = ZDA
+controller = ZDA
+add_core = ZDA
 culture = tsiqaleha
 religion = qanumi
 capital = "Kho!ung"
@@ -12,6 +12,6 @@ base_manpower = 3
 discovered_by = central_african
 discovered_by = south_african
 1444.1.1 = {
-	discovered_by = R36
-	discovered_by = R37
+	discovered_by = MJI
+	discovered_by = KHL
 }

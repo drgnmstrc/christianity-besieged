@@ -6,7 +6,7 @@ country_event = { #Mamluks took over the government
     is_triggered_only = yes
     immediate = {
         hidden_effect = {
-            U01 = {
+            BTA = {
                 country_event = {
                     id = mamlukRevolt.1
                 }
@@ -58,7 +58,7 @@ country_event = { #Bayt Allah response
             event_target:mamlukRevolting = {
                 set_ai_attitude = {
                     attitude = attitude_friendly
-                    who = U01
+                    who = BTA
                 }
             }
         }
@@ -74,7 +74,7 @@ country_event = { #Bayt Allah response
             event_target:mamlukRevolting = {
                 set_ai_attitude = {
                     attitude = attitude_hostile
-                    who = U01
+                    who = BTA
                 }
             }
         }
@@ -242,7 +242,7 @@ country_event = { #End of the Mamluks of the Citerior
     fire_only_once = yes
     option = {
         name = mamlukRevolt.5a
-        change_tag = J12
+        change_tag = CIT
         if = {
             limit = {
                 owns = 2988

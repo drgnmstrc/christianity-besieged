@@ -1,8 +1,8 @@
 #1756 - Budjak
 
-owner = Z23
-controller = Z23
-add_core = Z23
+owner = ZLT
+controller = ZLT
+add_core = ZLT
 culture = gagauz
 religion = manichaeism
 hre = no
@@ -13,8 +13,8 @@ is_city = yes
 trade_goods = wool
 base_manpower = 2
 fort_15th = yes #ARMerman Fortress
-add_core = U18
-add_core = Z01
+add_core = GAG
+add_core = BLK
 
 
 

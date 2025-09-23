@@ -1,7 +1,7 @@
 #1793 - El Djouf
-owner = R10
-controller = R10
-add_core = R10
+owner = TED
+controller = TED
+add_core = TED
 trade_goods = camel
 is_city = yes
 discovered_by = near_east
