@@ -4,8 +4,6 @@ country_event = { #Matter of the Naghali
 	id = SLAVERYGOOD.0
 	title = SLAVERYGOOD.0t
 	desc = SLAVERYGOOD.0d
-	major = yes
-	major_trigger = { tag = event_target:slave_raiding_nat }
 	is_triggered_only = yes
 	
 	option = { #We shall expand the practice of mukataba, or manumission.
@@ -48,5 +46,133 @@ country_event = { #Matter of the Naghali
 			}
 		}
 		clr_country_flag = considering_naghali_laws
+	}
+}
+
+province_event = { #Rise of a Naghali Population Hub
+	id = SLAVERYGOOD.1
+	title = SLAVERYGOOD.1t
+	desc = SLAVERYGOOD.1d
+	trigger = {
+		has_trade_building_trigger = yes
+		owner = {
+			has_country_flag = naghali_enfranchisement
+			NOT = {
+				any_owned_province = { has_province_modifier = naghali_confluence }
+			}
+		}
+	}
+	mean_time_to_happen = {
+		years = 25
+	}
+	
+	option = { #Enrich yourselves, and you shall prosper.
+		name = SLAVERYGOOD.1a
+		change_culture = naghali
+		add_core = GHL
+		add_province_modifier = {
+			name = naghali_confluence
+			duration = 3650
+		}
+	}
+	
+	option = { #What luck, we have room for new settlement just over there!
+		name = SLAVERYGOOD.1b
+		trigger = {
+			owner = {
+				any_owned_province = {
+					culture = naghali
+					NOT = { has_province_modifier = naghali_confluence }
+				}
+			}
+		}
+		owner = {
+			random_owned_province = {
+				limit = {
+					culture = naghali
+					NOT = { has_province_modifier = naghali_confluence }
+				}
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				add_province_modifier = {
+					name = naghali_confluence
+					duration = 3650
+				}
+			}
+		}
+	}
+	
+	option = { #Allow the [Root.Owner.Monarch.GetTitle] to help you get started.
+		name = SLAVERYGOOD.1c
+		trigger = { owner = { treasury = 100 } }
+		owner = { add_treasury = -100 }
+		change_culture = naghali
+		add_province_modifier = {
+			name = naghali_confluence
+			duration = 3650
+		}
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+	}
+}
+
+province_event = { #Discontent Among the Naghali of [Root.GetName]
+	id = SLAVERYGOOD.2
+	title = SLAVERYGOOD.2t
+	desc = SLAVERYGOOD.2d
+	trigger = {
+		has_trade_building_trigger = yes
+		owner = {
+			has_country_flag = naghali_repression
+			NOT = {
+				any_owned_province = { has_province_modifier = naghali_confluence }
+			}
+		}
+	}
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.5
+			culture = naghali
+		}
+	}
+	
+	option = { #No.
+		name = SLAVERYGOOD.2a
+		spawn_rebels = {
+			size = 2
+			type = leadered_peasant_rebels
+			culture = naghali
+			win = yes
+		}
+	}
+	
+	option = { #Will allowing you to be governed by one of your own suffice?
+		name = SLAVERYGOOD.2b
+		owner = {
+			define_advisor = {
+				type = master_of_mint
+				culture = naghali
+				location = ROOT
+				cost_multiplier = 0.5
+			}
+			add_dip_power = -150
+		}
+		add_province_modifier = {
+			name = naghali_concessions
+			duration = 3650
+		}
+	}
+	
+	option = { #Fine. Here's some money.
+		name = SLAVERYGOOD.2c
+		trigger = { owner = { treasury = 150 } }
+		owner = { add_treasury = -150 }
+		add_province_modifier = {
+			name = naghali_concessions
+			duration = 3650
+		}
 	}
 }

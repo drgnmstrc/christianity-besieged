@@ -1,0 +1,6 @@
+religion = ashabi
+technology_group = ottoman
+primary_culture = naghali
+government = monarchy
+add_government_reform = iqta
+government_rank = 1

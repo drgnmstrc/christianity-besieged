@@ -14,7 +14,7 @@
 
  LMR_expand_the_lex_malicensis_title: "Expand the Lex Malicensis"
  LMR_expand_the_lex_malicensis_desc: ""
- completed_before_rival_tt: "If we complete this mission before §Y[Root.RivalAlmoravidNation]§!, we will gain a §YUniversity§! in §Y[Capital.GetName]§!"
+ completed_before_rival_tt: "If we complete this mission before §Y[Root.RivalAlmoravidNation]§!, we will gain a §YUniversity§! in §Y[Root.Capital.GetName]§!\nElse:"
 
  LMR_matter_of_the_naghali_title: "Matter of the Naghali"
  LMR_matter_of_the_naghali_desc: ""
@@ -25,8 +25,8 @@
  LMR_beacon_of_civilization_title: "Beacon of Civilization"
  LMR_beacon_of_civilization_desc: ""
 
- LMR_the_new_hundafaths_title: "The New Hundafaþs"
- LMR_the_new_hundafaths_desc: ""
+ LMR_the_new_military_title: "The New Military"
+ LMR_the_new_military_desc: ""
 
  LMR_the_northern_frontier_title: "The Northern Frontier"
  LMR_the_northern_frontier_desc: ""
