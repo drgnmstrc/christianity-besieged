@@ -1,0 +1,853 @@
+LMR_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { dynasty = "Almoravid" } 
+
+	LMR_abode_of_the_sciences = {
+		icon = mission_develop_cordoba
+		position = 1
+		provinces_to_highlight = { is_capital_of = ROOT } 
+
+		trigger = {
+			capital_scope = {
+				country_or_non_sovereign_subject_holds = ROOT
+			    num_of_times_improved = 7
+				num_of_buildings_in_province = 3
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						AND = {
+							ruler_has_personality = patron_of_arts_personality
+							num_of_ruler_traits = {
+								amount = 3
+							}
+						}
+					}
+				}
+				add_ruler_personality = patron_of_arts_personality
+			}
+			else = {
+				add_mil_power = 150
+				add_adm_power = 150
+				add_dip_power = 150
+			}
+		} 
+	}
+
+	LMR_expand_the_lex_malicensis = {
+		icon = mission_book_of_royal_degrees
+		position = 3
+		required_missions = {
+			LMR_abode_of_the_sciences
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			adm_tech = 4
+			dip_tech = 4
+			mil_tech = 4
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					custom_trigger_tooltip = {
+						tooltip = completed_before_rival_tt
+						NOT = {
+							any_country = {
+								mission_completed = LMR_expand_the_lex_malicensis
+								NOT = { tag = ROOT }
+							}
+						}
+					}
+				}
+				hidden_effect = {
+					capital_scope = {
+						add_or_upgrade_university_building = yes
+					}
+				}
+			}
+			else = {
+				add_years_of_income = 2
+			}
+		}
+	}
+
+	LMR_matter_of_the_naghali = {
+		icon = mission_goths_and_romans
+		position = 5
+		required_missions = { LMR_the_fall_of_gaul LMR_expand_the_lex_malicensis } 
+		provinces_to_highlight = { has_trade_building_trigger = no } 
+
+		trigger = {
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 5
+					has_trade_building_trigger = yes
+				}
+				any_owned_province = {
+					culture = naghali
+					NOT = { has_province_modifier = naghali_discontent }
+				}
+			}
+		} 
+
+		effect = {
+			if = {
+				limit = {
+					any_owned_province = {
+						culture = naghali
+						NOT = { has_province_modifier = naghali_discontent }
+					}
+				}
+				random_owned_province = {
+					limit = {
+						culture = naghali
+						NOT = { has_province_modifier = naghali_discontent }
+					}
+					add_base_manpower = 2
+					add_base_tax = 2
+					add_base_production = 2
+				}
+			}
+			else = {
+				random_owned_province = {
+					limit = {
+						has_trade_building_trigger = yes
+						NOT = { has_province_modifier = naghali_influx }
+					}
+					add_province_modifier = {
+						name = naghali_influx
+						duration = 18250
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_trade_building_trigger = yes
+						NOT = { has_province_modifier = naghali_influx }
+					}
+					add_province_modifier = {
+						name = naghali_influx
+						duration = 18250
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_trade_building_trigger = yes
+						NOT = { has_province_modifier = naghali_influx }
+					}
+					add_province_modifier = {
+						name = naghali_influx
+						duration = 18250
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_trade_building_trigger = yes
+						NOT = { has_province_modifier = naghali_influx }
+					}
+					add_province_modifier = {
+						name = naghali_influx
+						duration = 18250
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_trade_building_trigger = yes
+						NOT = { has_province_modifier = naghali_influx }
+					}
+					add_province_modifier = {
+						name = naghali_influx
+						duration = 18250
+					}
+				}
+			}
+		} 
+	}
+
+	LMR_beacon_of_civilization = {
+		icon = mission_early_modern_university
+		position = 7
+		required_missions = { LMR_matter_of_the_naghali } 
+		provinces_to_highlight = { is_capital_of = ROOT } 
+
+		trigger = {
+			NOT = {
+				any_province = {
+					AND = {
+						superregion = europe_superregion
+						higher_development_than = capital
+					}
+				}
+			}
+		} 
+
+		effect = {
+			define_advisor = {
+				type = natural_scientist
+				skill = 3
+				cost_multiplier = 0.25
+				name = "Al-Qalasadi"
+			}
+		} 
+	}
+
+	LMR_the_new_hundafaths = {
+		icon = mission_modernized_vikings
+		position = 9
+		required_missions = { LMR_ibn_tashfins_legacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+LMR_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { dynasty = "Almoravid" } 
+
+	LMR_the_northern_frontier = {
+		icon = king_of_aragon
+		position = 2
+		required_missions = { LMR_seal_the_dynastic_split } 
+		provinces_to_highlight = {
+			OR = {
+				area = castille_area
+				area = basque_country
+				area = asturias_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+		    castille_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    basque_country = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		    asturias_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			guyenne_area = {
+				add_permanent_claim = ROOT
+			}
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			pyrenees_area = {
+				add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	LMR_the_fall_of_gaul = {
+		icon = centralize_france
+		position = 4
+		required_missions = { LMR_the_northern_frontier LMR_subjugate_septimania } 
+		provinces_to_highlight = { region = france_region NOT = { country_or_non_sovereign_subject_holds = ROOT } }
+
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 30
+				region = france_region
+			}
+		}
+
+		effect = {
+		} 
+	}
+
+	LMR_italian_ventures = {
+		icon = adriatic_access
+		position = 6
+		required_missions = { LMR_land_of_the_lombards } 
+		provinces_to_highlight = { region = italy_region } 
+
+		trigger = {
+			trade_company_genua = {
+				has_most_province_trade_power = ROOT
+			}
+			trade_company_venice = {
+				has_most_province_trade_power = ROOT
+			}
+		} 
+
+		effect = {
+		} 
+	}
+
+	LMR_jewel_of_the_adriatic = {
+		icon = renaissance_city
+		position = 7
+		required_missions = { LMR_italian_ventures } 
+		provinces_to_highlight = { province_id = 112 } 
+
+		trigger = {
+			OR = {
+				112 = {
+					owned_by = ROOT
+					development = 25
+					num_of_buildings_in_province = 5
+				}
+				114 = {
+					owned_by = ROOT
+					development = 25
+					num_of_buildings_in_province = 5
+				}
+			}
+		} 
+
+		effect = {  } 
+	}
+}
+LMR_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { dynasty = "Almoravid" } 
+
+	LMR_seal_the_dynastic_split = {
+		icon = gory_to_the_black_army
+		position = 1
+		provinces_to_highlight = {
+			owner = {
+				dynasty = "Almoravid"
+				NOT = { tag = ROOT }
+				is_subject = no
+			}
+		} 
+
+		trigger = {
+			dynasty = "Almoravid"
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = only_independent_almoravid_tt
+				all_country = {
+					OR = {
+						NOT = { dynasty = "Almoravid" }
+						tag = ROOT
+					}
+				}
+			}
+		} 
+
+		effect = {
+		    iberia_region = {
+				add_permanent_claim = ROOT
+			} 
+		} 
+	}
+
+	LMR_end_the_christian_kingdoms = {
+		icon = hispaniae
+		position = 2
+		required_missions = { LMR_seal_the_dynastic_split } 
+		provinces_to_highlight = {
+			region = iberia_region
+			owner = {
+				religion_group = christian
+			}
+		} 
+
+		trigger = {
+			NOT = {
+				any_province = {
+					region = iberia_region
+					owner = {
+						religion_group = christian
+					}
+				}
+			} 
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = MAM
+				months = 300
+			}
+		}
+	}
+	
+	LMR_subjugate_septimania = {
+		icon = mission_invade_occitania
+		position = 3
+		required_missions = { LMR_end_the_christian_kingdoms } 
+		provinces_to_highlight = { owned_by = MAM } 
+
+		trigger = {
+		    tag = LMR
+			OR = {
+				MAM = {
+					is_subject_of = ROOT
+				}
+				AND = {
+					languedoc_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					aragon_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					catalonia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}		
+					valencia_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}		
+				}
+			}
+		}
+		
+		effect = {
+		    france_region = {
+				add_permanent_claim = ROOT
+			}
+			liguria_area = {
+				add_permanent_claim = ROOT
+			}		
+			po_valley_area = {
+				add_permanent_claim = ROOT
+			}		
+			venetia_area = {
+				add_permanent_claim = ROOT
+			}		
+			emilia_romagna_area = {
+				add_permanent_claim = ROOT
+			}		
+			lombardy_area = {
+				add_permanent_claim = ROOT
+			}		
+			piedmont_area = {
+				add_permanent_claim = ROOT
+			}		
+		}
+	}
+	
+	LMR_land_of_the_lombards = {
+		icon = mission_conquer_north_italy
+		position = 5
+		required_missions = { LMR_subjugate_septimania } 
+		provinces_to_highlight = {
+			OR = {
+				area = liguria_area
+				area = po_valley_area
+				area = venetia_area
+				area = emilia_romagna_area
+				area = lombardy_area
+				area = piedmont_area
+			}
+		} 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = liguria_area 
+					area = po_valley_area
+					area = venetia_area
+					area = emilia_romagna_area
+					area = lombardy_area
+					area = piedmont_area
+				}
+			}
+		} 
+
+		effect = {
+		    italy_region = { add_permanent_claim = ROOT }
+			carinthia_area = { add_permanent_claim = ROOT }
+			croatia_area = { add_permanent_claim = ROOT }
+			
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
+			}
+		}
+	}
+
+	LMR_the_great_italian_gambit = {
+		icon = mission_rule_italy
+		position = 7
+		required_missions = { LMR_land_of_the_lombards } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				value = 40
+			}
+		}
+
+		effect = {  } 
+	}
+
+	LMR_ibn_tashfins_legacy = {
+		icon = kingdom_of_lombardy
+		position = 8
+		required_missions = {
+			LMR_the_great_italian_gambit
+			LMR_jewel_of_the_adriatic
+			LMR_beacon_of_civilization
+			LMR_the_almoravid_armada
+			LMR_al_jadidiya
+		} 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				value = 40
+			}
+		}
+
+		effect = {
+			custom_tooltip = visigothic_conversion_tt
+			change_tag = AYI
+			set_government_rank = 3
+		} 
+	}
+
+	LMR_panislamism = {
+		icon = mission_court_education
+		position = 8
+		required_missions = {
+			LMR_ibn_tashfins_legacy
+		} 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = italy_region
+				culture = ostrogothic
+				value = 20
+			}
+		}
+
+		effect = {  } 
+	}
+
+	LMR_pax_islamica = {
+		icon = mission_gothic_invasion
+		position = 9
+		required_missions = { LMR_the_new_hundafaths LMR_panislamism LMR_the_mantle_of_rome } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+		    france_region = {
+				type = all
+				owned_by = ROOT
+			}
+		    iberia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		    italy_region = {
+				type = all
+				owned_by = ROOT
+			}
+			total_development = 1000
+			stability = 3
+		}
+
+		effect = {
+			maghreb_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+			balkan_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+			anatolia_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+			egypt_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+			mashriq_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+			arabia_region = {
+				add_permanent_claim_multi_provinces = yes
+			}
+		} 
+	}
+}
+
+LMR_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { dynasty = "Almoravid" } 
+
+	LMR_vanquish_the_emirates = {
+		icon = foothold_in_greece
+		position = 2
+		required_missions = { LMR_seal_the_dynastic_split } 
+		provinces_to_highlight = {
+			region = iberia_region
+			OR = {
+				owned_by = GRA
+				owned_by = MRS
+			}
+		} 
+
+		trigger = {
+			NOT = {
+				any_province = {
+					region = iberia_region
+					OR = {
+						owned_by = GRA
+						owned_by = MRS
+					}
+				}
+			}
+		} 
+
+		effect = {
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			baleares_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+	
+	LMR_secure_the_pillars = {
+		icon = mission_rb_take_gibraltar
+		position = 4
+		required_missions = { LMR_vanquish_the_emirates } 
+		provinces_to_highlight = { area = northern_morocco_area NOT = { owned_by = ROOT } } 
+
+		trigger = {
+		    northern_morocco_area = {
+				type = all
+				owned_by = ROOT
+			}
+			num_of_owned_provinces_with = {
+				area = northern_morocco_area
+				fort_level = 2
+				value = 2
+			}
+		} 
+
+		effect = {
+			southern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+				add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	LMR_take_to_the_sea = {
+		icon = mission_aragonese_navy
+		position = 6
+		required_missions = { LMR_secure_the_pillars } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	LMR_the_almoravid_armada = {
+		icon = mission_spanish_armada
+		position = 7
+		required_missions = { LMR_take_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+LMR_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { dynasty = "Almoravid" } 
+
+	LMR_control_iberian_trade = {
+		icon = mission_african_gold
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			224 = { has_most_province_trade_power = ROOT }
+		} 
+
+		effect = {
+			random_owned_province = {
+				limit = { has_port = yes is_core = ROOT }
+				upgrade_trade_building = yes
+			}
+			random_owned_province = {
+				limit = {
+					has_port = yes
+					is_core = ROOT
+					has_trade_building_trigger = no
+				}
+				upgrade_trade_building = yes
+			}
+		} 
+	}
+
+	LMR_the_balearic_conquest = {
+		icon = mission_mediterranean_islands
+		position = 3
+		required_missions = {
+			LMR_vanquish_the_emirates
+			LMR_control_iberian_trade
+		}
+		provinces_to_highlight = {
+			area = baleares_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {
+			baleares_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			algiers_area = {
+				add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	LMR_the_bahrumiun = {
+		icon = mission_conquer_tunisia
+		position = 4
+		required_missions = { LMR_the_balearic_conquest } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			algiers_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			barbary_coast_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kabylia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			corsica_sardinia_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+			djerba_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	LMR_the_path_of_umay = {
+		icon = mission_control_the_barbary_coast
+		position = 5
+		required_missions = {
+			LMR_secure_the_pillars
+			LMR_the_bahrumiun
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			djerba_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
+
+		effect = {
+			western_sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			calabria_area = {
+				add_permanent_claim = ROOT
+			}
+			maghreb_region = {
+				add_permanent_claim = ROOT
+			}
+		} 
+	}
+
+	LMR_al_jadidiya = {
+		icon = mission_new_kingdom_of_granada
+		position = 7
+		required_missions = { LMR_take_to_the_sea } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	LMR_the_mantle_of_rome = {
+		icon = a_roman_empire
+		position = 9
+		required_missions = { LMR_ibn_tashfins_legacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

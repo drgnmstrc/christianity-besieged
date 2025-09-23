@@ -886,16 +886,16 @@ scandinavian = { #Nordic
 	cimbrian = {
 		primary = CIM
 		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jørn Jakob Jacob Jens Joakim Johann
+			Anders Andrew Anund Asger Balder Benedikt Benedict Bj?rn Beorn Bo Christopher Edvard Edward
+			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H?rik
+			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf J?rn Jakob Jacob Jens Joakim Johann
 			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael
-			Mogens Nicholas Odd Olav Olaf Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sømund Thorolf Thorvald Torben Torbjørn
-			Torbjørn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Olaf Peder Pridbj?rn Ragnar Ragnvald Rolf Rune R?rik Rurik Severin
+			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven S?mund Thorolf Thorvald Torben Torbj?rn
+			Torbj?rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans
-			Henrik Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Henrik Holger J?rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -908,15 +908,15 @@ scandinavian = { #Nordic
 			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Áse Ása
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "G?ye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" #Gyldenstierne
 			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "Rønnow"
+			"Frille" "R?nnow"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Gr?n" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang"
 		}
 	}
@@ -932,16 +932,16 @@ scandinavian = { #Nordic
 			Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid
 			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante Tomas Ulrik
 			Albrikt Albert Alf Algot Anders Arne Arnfast Astrad
-			Bengt Benedict Bertil Birger Bjørn Bo Borkvard Brage Bror
+			Bengt Benedict Bertil Birger Bj?rn Bo Borkvard Brage Bror
 			Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip
 			Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold
-			Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar
+			Helge Henrik Hjalmar Holmger H?kan Inge Ingemar Ingvar
 			Edward Johan John Karl Klas Knut Lars Magnus
 			Markus Marcus
 			Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf
-			Ragnvald Sörkver Sigurd Starkad Sten Styrbjørn Sune Sven
-			Sverker Sölve Thomas Tjudmund Toke Torbjørn Tord Torbrand Torkel Torolf
-			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Östen
+			Ragnvald Sörkver Sigurd Starkad Sten Styrbj?rn Sune Sven
+			Sverker Sölve Thomas Tjudmund Toke Torbj?rn Tord Torbrand Torkel Torolf
+			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Áke Östen
 		}
 		female_names = {
 			Christina Ulrika Eleonora Hedwig
@@ -956,9 +956,9 @@ scandinavian = { #Nordic
 			Horn Ribbing Skytte Banér Fleming Gyllenstierna de la Gardie Leijonhufvud
 			Natt och Dag Grip Stenbock Bure Drake Hand Burensköld
 			Böllja Cruus Geete Grubbenhielm Soop Ekeblad Svinhufvud
-			Hård Forstena Kurck Eka Hjort Jägerhorn Lilliehöök
+			H?rd Forstena Kurck Eka Hjort Jägerhorn Lilliehöök
 			Porse Palme Gumsehuvud
-			Båt Ulv Sjöblad Löma Posse Rosenstråle Thott Bagge
+			B?t Ulv Sjöblad Löma Posse Rosenstr?le Thott Bagge
 			Bese Gädda Hatt Marsvin Oxhufvud Stake Tre Rutor Hästesko
 			Ulfsax Tre Sjöblad Bratt Munk Eketrä Gera
 			Gylta Lillie Puke Slatte Stiernkors Fincke Dufva Cronstedt
@@ -975,16 +975,16 @@ scandinavian = { #Nordic
 			Christian Christoph Oskar Adolf August Göran Sigismund Alfred Axel Edvard Gottfrid
 			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante Tomas Ulrik
 			Albrikt Albert Alf Algot Anders Arne Arnfast Astrad
-			Bengt Benedict Bertil Birger Bjørn Bo Borkvard Brage Bror
+			Bengt Benedict Bertil Birger Bj?rn Bo Borkvard Brage Bror
 			Dag Dan Dyre Egil Einar Erik Eskild Faste Fredrik Frederick Filip
 			Folke Georg Greger Gregory Gunnar Gustav Halsten Hans Harald Harold
-			Helge Henrik Hjalmar Holmger Håkan Inge Ingemar Ingvar
+			Helge Henrik Hjalmar Holmger H?kan Inge Ingemar Ingvar
 			Edward Johan John Karl Klas Knut Lars Magnus
 			Markus Marcus
 			Mats Matthew Nils Nicholas Niklas Odd Olaf Peter Ragnar Rolf
-			Ragnvald Sörkver Sigurd Starkad Sten Styrbjørn Sune Sven
-			Sverker Sölve Thomas Tjudmund Toke Torbjørn Tord Torbrand Torkel Torolf
-			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Åke Östen
+			Ragnvald Sörkver Sigurd Starkad Sten Styrbj?rn Sune Sven
+			Sverker Sölve Thomas Tjudmund Toke Torbj?rn Tord Torbrand Torkel Torolf
+			Thorolf Torsten Toste Totil Tyke Ulf Valdemar Áke Östen
 		}
 		female_names = {
 			Christina Ulrika Eleonora Hedwig
@@ -999,9 +999,9 @@ scandinavian = { #Nordic
 			Horn Ribbing Skytte Banér Fleming Gyllenstierna de la Gardie Leijonhufvud
 			Natt och Dag Grip Stenbock Bure Drake Hand Burensköld
 			Böllja Cruus Geete Grubbenhielm Soop Ekeblad Svinhufvud
-			Hård Forstena Kurck Eka Hjort Jägerhorn Lilliehöök
+			H?rd Forstena Kurck Eka Hjort Jägerhorn Lilliehöök
 			Porse Palme Gumsehuvud
-			Båt Ulv Sjöblad Löma Posse Rosenstråle Thott Bagge
+			B?t Ulv Sjöblad Löma Posse Rosenstr?le Thott Bagge
 			Bese Gädda Hatt Marsvin Oxhufvud Stake Tre Rutor Hästesko
 			Ulfsax Tre Sjöblad Bratt Munk Eketrä Gera
 			Gylta Lillie Puke Slatte Stiernkors Fincke Dufva Cronstedt
@@ -1010,16 +1010,16 @@ scandinavian = { #Nordic
 	alfinge = {
 		primary = ALF
 		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jørn Jakob Jacob Jens Joakim Johann
+			Anders Andrew Anund Asger Balder Benedikt Benedict Bj?rn Beorn Bo Christopher Edvard Edward
+			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H?rik
+			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf J?rn Jakob Jacob Jens Joakim Johann
 			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael
-			Mogens Nicholas Odd Olav Olaf Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sømund Thorolf Thorvald Torben Torbjørn
-			Torbjørn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Olaf Peder Pridbj?rn Ragnar Ragnvald Rolf Rune R?rik Rurik Severin
+			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven S?mund Thorolf Thorvald Torben Torbj?rn
+			Torbj?rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans
-			Henrik Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Henrik Holger J?rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -1032,31 +1032,31 @@ scandinavian = { #Nordic
 			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Áse Ása
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "G?ye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" #Gyldenstierne
 			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "Rønnow"
+			"Frille" "R?nnow"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Gr?n" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang"
 		}
 	}
 	dalkarlar = {
 		primary = DLR
 		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jørn Jakob Jacob Jens Joakim Johann
+			Anders Andrew Anund Asger Balder Benedikt Benedict Bj?rn Beorn Bo Christopher Edvard Edward
+			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H?rik
+			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf J?rn Jakob Jacob Jens Joakim Johann
 			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael
-			Mogens Nicholas Odd Olav Olaf Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sømund Thorolf Thorvald Torben Torbjørn
-			Torbjørn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Olaf Peder Pridbj?rn Ragnar Ragnvald Rolf Rune R?rik Rurik Severin
+			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven S?mund Thorolf Thorvald Torben Torbj?rn
+			Torbj?rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans
-			Henrik Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Henrik Holger J?rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -1069,31 +1069,31 @@ scandinavian = { #Nordic
 			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Áse Ása
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "G?ye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" #Gyldenstierne
 			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "Rønnow"
+			"Frille" "R?nnow"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Gr?n" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang"
 		}
 	}
 	heruli = {
 		primary = HRS
 		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf Jørn Jakob Jacob Jens Joakim Johann
+			Anders Andrew Anund Asger Balder Benedikt Benedict Bj?rn Beorn Bo Christopher Edvard Edward
+			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H?rik
+			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf J?rn Jakob Jacob Jens Joakim Johann
 			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael
-			Mogens Nicholas Odd Olav Olaf Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven Sømund Thorolf Thorvald Torben Torbjørn
-			Torbjørn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Mogens Nicholas Odd Olav Olaf Peder Pridbj?rn Ragnar Ragnvald Rolf Rune R?rik Rurik Severin
+			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven S?mund Thorolf Thorvald Torben Torbj?rn
+			Torbj?rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
 			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm
 			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans
-			Henrik Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Henrik Holger J?rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
 			Frans Gnupa
 		}
 		female_names = {
@@ -1106,230 +1106,230 @@ scandinavian = { #Nordic
 			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Áse Ása
 		}
 		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "G?ye" "Trolle" "Rantzau"
 			"Friis" "Gyllenstierna" #Gyldenstierne
 			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
 			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
 			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
 			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "Rønnow"
+			"Frille" "R?nnow"
 			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Gr?n" "Daa"
 			"Reventlow" "Juul" "Ulfeldt" "Bang"
 		}
 	}
 	gosborger = {
 		primary = BRN
 		male_names = {
-			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
-			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj?rn Arngrimr Arni Arne Arnfast
+			Asbj?rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj?rn Beorn Bo Borkvard
 			Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
 			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
 			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr
-			Gudmund Gudrød Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+			Gudmund Gudr?d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
 			Holmger Hrafn Hrolfr Rolf Hrane Hesteinn Hjalmar Hysing
 			Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
-			Kjartan Klas Knut Kol Kolbjørn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+			Kjartan Klas Knut Kol Kolbj?rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
 			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr
-			Ragnvald Skuli Skule Snorri Sigbjørn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
-			Sturla Styrbjørn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
-			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjørn Torbjørn Þorfinn Torfinn Þorbrandr Torbrand
+			Ragnvald Skuli Skule Snorri Sigbj?rn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
+			Sturla Styrbj?rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
+			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbj?rn Torbj?rn Þorfinn Torfinn Þorbrandr Torbrand
 			Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
-			Vagn Valdemar Vladimir Åke Yngvar Ingvar Ørvar Orvar Øysteinn Eysteinn Håkon Olav
-			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben
-			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon Søren Tollak
+			Vagn Valdemar Vladimir Áke Yngvar Ingvar ?rvar Orvar ?ysteinn Eysteinn H?kon Olav
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bj?rn Daniel Edvard Eilert Elias Esben
+			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon S?ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvær Anna Åsa Aslaug Asta Astrid Beata
-			Birgitta Brigid Bjørg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Torhild Aleta Alfhildr Alfhild Alfridh Alv?r Anna Ása Aslaug Asta Astrid Beata
+			Birgitta Brigid Bj?rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerør Ingegerd Ingrid Karin
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjer?r Ingegerd Ingrid Karin
 			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfríð Malmfrid Margareta Margaret
 			Maria Rikissa Ragnfrid Ragnfrid Ragnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
 			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra
 			Thyra
 		}
 		dynasty_names = {
-			Hårfagreætta Bielke Bildt Galte Paus Smør Benkestok Kane Bonde
-			Drake av Hafrsfjord Ytra av Askø av Røra av Nordland Hylling
-			Alfr Herja Vansø Flod af Vendel av Alfheim Vidfamne Bille
+			H?rfagre?tta Bielke Bildt Galte Paus Sm?r Benkestok Kane Bonde
+			Drake av Hafrsfjord Ytra av Ask? av R?ra av Nordland Hylling
+			Alfr Herja Vans? Flod af Vendel av Alfheim Vidfamne Bille
 			Iuel Kaas Rosenkrantz Urne Adeler Blixenskiold Gyldenpalm Holberg
 			Rosenheim Schouboe Tordenskiold Wessel Westervick Falsen Knagenhjelm
-			Galtung Heubsch Kløcker Løvenskiold Rosenvinge Werenskiold Kruckow
-			Mowat Rømer Handingmann Skaktavl Tordenstierne Roos
-			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen Løvendal Balke
+			Galtung Heubsch Kl?cker L?venskiold Rosenvinge Werenskiold Kruckow
+			Mowat R?mer Handingmann Skaktavl Tordenstierne Roos
+			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen L?vendal Balke
 			Vedel Bjelke Galle Griis
 		}
 	}
 	sodor = {
 		primary = LOI
 		male_names = {
-			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
-			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj?rn Arngrimr Arni Arne Arnfast
+			Asbj?rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj?rn Beorn Bo Borkvard
 			Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
 			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
 			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr
-			Gudmund Gudrød Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+			Gudmund Gudr?d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
 			Holmger Hrafn Hrolfr Rolf Hrane Hesteinn Hjalmar Hysing
 			Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
-			Kjartan Klas Knut Kol Kolbjørn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+			Kjartan Klas Knut Kol Kolbj?rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
 			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr
-			Ragnvald Skuli Skule Snorri Sigbjørn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
-			Sturla Styrbjørn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
-			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjørn Torbjørn Þorfinn Torfinn Þorbrandr Torbrand
+			Ragnvald Skuli Skule Snorri Sigbj?rn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
+			Sturla Styrbj?rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
+			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbj?rn Torbj?rn Þorfinn Torfinn Þorbrandr Torbrand
 			Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
-			Vagn Valdemar Vladimir Åke Yngvar Ingvar Ørvar Orvar Øysteinn Eysteinn Håkon Olav
-			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben
-			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon Søren Tollak
+			Vagn Valdemar Vladimir Áke Yngvar Ingvar ?rvar Orvar ?ysteinn Eysteinn H?kon Olav
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bj?rn Daniel Edvard Eilert Elias Esben
+			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon S?ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvær Anna Åsa Aslaug Asta Astrid Beata
-			Birgitta Brigid Bjørg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Torhild Aleta Alfhildr Alfhild Alfridh Alv?r Anna Ása Aslaug Asta Astrid Beata
+			Birgitta Brigid Bj?rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerør Ingegerd Ingrid Karin
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjer?r Ingegerd Ingrid Karin
 			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfríð Malmfrid Margareta Margaret
 			Maria Rikissa Ragnfrid Ragnfrid Ragnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
 			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra
 			Thyra
 		}
 		dynasty_names = {
-			Hårfagreætta Bielke Bildt Galte Paus Smør Benkestok Kane Bonde
-			Drake av Hafrsfjord Ytra av Askø av Røra av Nordland Hylling
-			Alfr Herja Vansø Flod af Vendel av Alfheim Vidfamne Bille
+			H?rfagre?tta Bielke Bildt Galte Paus Sm?r Benkestok Kane Bonde
+			Drake av Hafrsfjord Ytra av Ask? av R?ra av Nordland Hylling
+			Alfr Herja Vans? Flod af Vendel av Alfheim Vidfamne Bille
 			Iuel Kaas Rosenkrantz Urne Adeler Blixenskiold Gyldenpalm Holberg
 			Rosenheim Schouboe Tordenskiold Wessel Westervick Falsen Knagenhjelm
-			Galtung Heubsch Kløcker Løvenskiold Rosenvinge Werenskiold Kruckow
-			Mowat Rømer Handingmann Skaktavl Tordenstierne Roos
-			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen Løvendal Balke
+			Galtung Heubsch Kl?cker L?venskiold Rosenvinge Werenskiold Kruckow
+			Mowat R?mer Handingmann Skaktavl Tordenstierne Roos
+			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen L?vendal Balke
 			Vedel Bjelke Galle Griis
 		}
 	}
 	hjallish = {
 		primary = HJL
 		male_names = {
-			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
-			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj?rn Arngrimr Arni Arne Arnfast
+			Asbj?rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj?rn Beorn Bo Borkvard
 			Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
 			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
 			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr
-			Gudmund Gudrød Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+			Gudmund Gudr?d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
 			Holmger Hrafn Hrolfr Rolf Hrane Hesteinn Hjalmar Hysing
 			Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
-			Kjartan Klas Knut Kol Kolbjørn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+			Kjartan Klas Knut Kol Kolbj?rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
 			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr
-			Ragnvald Skuli Skule Snorri Sigbjørn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
-			Sturla Styrbjørn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
-			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjørn Torbjørn Þorfinn Torfinn Þorbrandr Torbrand
+			Ragnvald Skuli Skule Snorri Sigbj?rn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
+			Sturla Styrbj?rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
+			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbj?rn Torbj?rn Þorfinn Torfinn Þorbrandr Torbrand
 			Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
-			Vagn Valdemar Vladimir Åke Yngvar Ingvar Ørvar Orvar Øysteinn Eysteinn Håkon Olav
-			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben
-			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon Søren Tollak
+			Vagn Valdemar Vladimir Áke Yngvar Ingvar ?rvar Orvar ?ysteinn Eysteinn H?kon Olav
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bj?rn Daniel Edvard Eilert Elias Esben
+			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon S?ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvær Anna Åsa Aslaug Asta Astrid Beata
-			Birgitta Brigid Bjørg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Torhild Aleta Alfhildr Alfhild Alfridh Alv?r Anna Ása Aslaug Asta Astrid Beata
+			Birgitta Brigid Bj?rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerør Ingegerd Ingrid Karin
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjer?r Ingegerd Ingrid Karin
 			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfríð Malmfrid Margareta Margaret
 			Maria Rikissa Ragnfrid Ragnfrid Ragnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
 			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra
 			Thyra
 		}
 		dynasty_names = {
-			Hårfagreætta Bielke Bildt Galte Paus Smør Benkestok Kane Bonde
-			Drake av Hafrsfjord Ytra av Askø av Røra av Nordland Hylling
-			Alfr Herja Vansø Flod af Vendel av Alfheim Vidfamne Bille
+			H?rfagre?tta Bielke Bildt Galte Paus Sm?r Benkestok Kane Bonde
+			Drake av Hafrsfjord Ytra av Ask? av R?ra av Nordland Hylling
+			Alfr Herja Vans? Flod af Vendel av Alfheim Vidfamne Bille
 			Iuel Kaas Rosenkrantz Urne Adeler Blixenskiold Gyldenpalm Holberg
 			Rosenheim Schouboe Tordenskiold Wessel Westervick Falsen Knagenhjelm
-			Galtung Heubsch Kløcker Løvenskiold Rosenvinge Werenskiold Kruckow
-			Mowat Rømer Handingmann Skaktavl Tordenstierne Roos
-			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen Løvendal Balke
+			Galtung Heubsch Kl?cker L?venskiold Rosenvinge Werenskiold Kruckow
+			Mowat R?mer Handingmann Skaktavl Tordenstierne Roos
+			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen L?vendal Balke
 			Vedel Bjelke Galle Griis
 		}
 	}
 	norwegian = {
 		primary = NOR
 		male_names = {
-			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
-			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj?rn Arngrimr Arni Arne Arnfast
+			Asbj?rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj?rn Beorn Bo Borkvard
 			Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
 			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
 			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr
-			Gudmund Gudrød Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+			Gudmund Gudr?d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
 			Holmger Hrafn Hrolfr Rolf Hrane Hesteinn Hjalmar Hysing
 			Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
-			Kjartan Klas Knut Kol Kolbjørn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+			Kjartan Klas Knut Kol Kolbj?rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
 			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr
-			Ragnvald Skuli Skule Snorri Sigbjørn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
-			Sturla Styrbjørn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
-			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjørn Torbjørn Þorfinn Torfinn Þorbrandr Torbrand
+			Ragnvald Skuli Skule Snorri Sigbj?rn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
+			Sturla Styrbj?rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
+			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbj?rn Torbj?rn Þorfinn Torfinn Þorbrandr Torbrand
 			Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
-			Vagn Valdemar Vladimir Åke Yngvar Ingvar Ørvar Orvar Øysteinn Eysteinn Håkon Olav
-			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben
-			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon Søren Tollak
+			Vagn Valdemar Vladimir Áke Yngvar Ingvar ?rvar Orvar ?ysteinn Eysteinn H?kon Olav
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bj?rn Daniel Edvard Eilert Elias Esben
+			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon S?ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvær Anna Åsa Aslaug Asta Astrid Beata
-			Birgitta Brigid Bjørg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Torhild Aleta Alfhildr Alfhild Alfridh Alv?r Anna Ása Aslaug Asta Astrid Beata
+			Birgitta Brigid Bj?rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerør Ingegerd Ingrid Karin
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjer?r Ingegerd Ingrid Karin
 			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfríð Malmfrid Margareta Margaret
 			Maria Rikissa Ragnfrid Ragnfrid Ragnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
 			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra
 			Thyra
 		}
 		dynasty_names = {
-			Hårfagreætta Bielke Bildt Galte Paus Smør Benkestok Kane Bonde
-			Drake av Hafrsfjord Ytra av Askø av Røra av Nordland Hylling
-			Alfr Herja Vansø Flod af Vendel av Alfheim Vidfamne Bille
+			H?rfagre?tta Bielke Bildt Galte Paus Sm?r Benkestok Kane Bonde
+			Drake av Hafrsfjord Ytra av Ask? av R?ra av Nordland Hylling
+			Alfr Herja Vans? Flod af Vendel av Alfheim Vidfamne Bille
 			Iuel Kaas Rosenkrantz Urne Adeler Blixenskiold Gyldenpalm Holberg
 			Rosenheim Schouboe Tordenskiold Wessel Westervick Falsen Knagenhjelm
-			Galtung Heubsch Kløcker Løvenskiold Rosenvinge Werenskiold Kruckow
-			Mowat Rømer Handingmann Skaktavl Tordenstierne Roos
-			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen Løvendal Balke
+			Galtung Heubsch Kl?cker L?venskiold Rosenvinge Werenskiold Kruckow
+			Mowat R?mer Handingmann Skaktavl Tordenstierne Roos
+			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen L?vendal Balke
 			Vedel Bjelke Galle Griis
 		}
 	}
 	rygir = {
 		primary = RGF
 		male_names = {
-			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjørn Arngrimr Arni Arne Arnfast
-			Asbjørn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjørn Beorn Bo Borkvard
+			Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj?rn Arngrimr Arni Arne Arnfast
+			Asbj?rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj?rn Beorn Bo Borkvard
 			Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
 			Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
 			Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr
-			Gudmund Gudrød Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+			Gudmund Gudr?d Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
 			Holmger Hrafn Hrolfr Rolf Hrane Hesteinn Hjalmar Hysing
 			Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
-			Kjartan Klas Knut Kol Kolbjørn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+			Kjartan Klas Knut Kol Kolbj?rn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
 			Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr
-			Ragnvald Skuli Skule Snorri Sigbjørn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
-			Sturla Styrbjørn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
-			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjørn Torbjørn Þorfinn Torfinn Þorbrandr Torbrand
+			Ragnvald Skuli Skule Snorri Sigbj?rn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten
+			Sturla Styrbj?rn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sömundr Sömund
+			Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbj?rn Torbj?rn Þorfinn Torfinn Þorbrandr Torbrand
 			Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
-			Vagn Valdemar Vladimir Åke Yngvar Ingvar Ørvar Orvar Øysteinn Eysteinn Håkon Olav
-			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben
-			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon Søren Tollak
+			Vagn Valdemar Vladimir Áke Yngvar Ingvar ?rvar Orvar ?ysteinn Eysteinn H?kon Olav
+			Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bj?rn Daniel Edvard Eilert Elias Esben
+			Kasper Kennet Knut Ludvig Mikael Njöld Njord Oddmund Peder Rikard Simon S?ren Tollak
 		}
 		female_names = {
-			Torhild Aleta Alfhildr Alfhild Alfridh Alvær Anna Åsa Aslaug Asta Astrid Beata
-			Birgitta Brigid Bjørg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Torhild Aleta Alfhildr Alfhild Alfridh Alv?r Anna Ása Aslaug Asta Astrid Beata
+			Birgitta Brigid Bj?rg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
 			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
-			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerør Ingegerd Ingrid Karin
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjer?r Ingegerd Ingrid Karin
 			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfríð Malmfrid Margareta Margaret
 			Maria Rikissa Ragnfrid Ragnfrid Ragnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
 			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra
 			Thyra
 		}
 		dynasty_names = {
-			Hårfagreætta Bielke Bildt Galte Paus Smør Benkestok Kane Bonde
-			Drake av Hafrsfjord Ytra av Askø av Røra av Nordland Hylling
-			Alfr Herja Vansø Flod af Vendel av Alfheim Vidfamne Bille
+			H?rfagre?tta Bielke Bildt Galte Paus Sm?r Benkestok Kane Bonde
+			Drake av Hafrsfjord Ytra av Ask? av R?ra av Nordland Hylling
+			Alfr Herja Vans? Flod af Vendel av Alfheim Vidfamne Bille
 			Iuel Kaas Rosenkrantz Urne Adeler Blixenskiold Gyldenpalm Holberg
 			Rosenheim Schouboe Tordenskiold Wessel Westervick Falsen Knagenhjelm
-			Galtung Heubsch Kløcker Løvenskiold Rosenvinge Werenskiold Kruckow
-			Mowat Rømer Handingmann Skaktavl Tordenstierne Roos
-			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen Løvendal Balke
+			Galtung Heubsch Kl?cker L?venskiold Rosenvinge Werenskiold Kruckow
+			Mowat R?mer Handingmann Skaktavl Tordenstierne Roos
+			Skanke Bolt Giske Brockenhuus Adelsvärd Kane Blixen L?vendal Balke
 			Vedel Bjelke Galle Griis
 		}
 	}
@@ -5629,6 +5629,54 @@ rumi = {
 	}
 	almani = {
 		primary = ALD
+	}
+	naghali = {
+		# primary = PCL
+		dynasty_names = {
+			"al-Maklullan" "al-Awrila" "Banu Kambal" "al-Udanil" "al-Jirand"
+			"Banu Ghadhalmin" "Banu Barmayn" "al-Aybbin" "al-Hastin" "Banu Laydhwalid"
+			"Banu Awin" "al-Maknamara" "al-Fulfiya" "Banu Kanid" "al-Unayl"
+			"al-Domitiyya" "al-Makwilyam" "Banu Gharfid" "al-Istubart" "al-Ubrin"
+			"al-Kalburniya" "al-Makmurruh" "Banu Ghunna" "al-Kassiya" "al-Hayj"
+			"Banu Jurdun" "al-Ukunur" "al-Filawiya" "Banu Mahdiarmid" "al-Juliya"
+			"Banu Maklawid" "al-Kurniliya" "Banu Uraili" "Banu Maknab" "al-Ulpiyya"
+			"al-Fabiyya" "Banu Ukathal" "Banu Ruwthakh" "al-Fizuwiyya" "Banu Makegan"
+			"al-Bumbiyya" "al-Tuliyya" "Banu Ufalayirti" "al-Kwinxtiyya"
+			"Banu Makdirmut" "al-Skribuniya" "Banu Lamunt" "al-Binisiyya"
+			"al-Waleriya" "Banu Ufawlan" "al-Ghabiniya" "Banu Maksuwini"
+			"al-Siliya" "al-Huratiya"
+			"Banu Harfagri" "Banu Biyilqi" "al-Bandah" "Banu Rusankrantz" "Banu Rusanz" "al-Turdaniskild"
+		}
+
+		male_names = {
+			"Uwayn" "Turlukh" "Shamus" "Ghrafid" "Niyal"
+			"Arnqaytil" "Balthar" "Barhtfarith" "Kuthbarit" "Iadmun"
+			"Liyufriq" "Qadwaladir" "Baryan" "Iyayn" "Tadiq" "Awnghus"
+			"Lawilin" "Kathal" "Dumnal" "Huwal" "Dafid"
+			"Yughan" "Kunal" "Tristan" "Artar" "Badrik"
+			"Maridid" "Dunal" "Faynlah" "Idwal" "Diarmid"
+			"Rudri" "Sumaril" "Murtak" "Ayniyan" "Kunshabar"
+			"Kinan" "Farkhar" "Iruwirth" "Mukhad" "Ghariqar"
+			"Urayn" "Awinsan" "Dunkan" "Kiran" "Awhid"
+			"Rabiart" "Malghwin" "Anruyq" "Falan" "Raynalt"
+			"Lurqan" "Kaylan" "Gharaf" "Dunkhad" "Barqan"
+			"Andarush" "Anwarid" "Bajrn" "Ragnar" "Sulayman"
+		}
+
+		female_names = {
+			"Shuban" "Brunwan" "Marya" "Aynah" "Surkha"
+			"Aghathah" "Burtfalah" "Adjithah" "Layuflad" "Matildah"
+			"Qatrin" "Hannah" "Ghrayinah" "Dirdra" "Ifah"
+			"Baridah" "Ruwis" "Ilariyah" "Mahira" "Anharad"
+			"Fluriyah" "Ghurmfala" "Balduwan" "Finghula" "Alis"
+			"Amir" "Fiyun" "Una" "Ithna" "Siris"
+			"Bathagh" "Nuwala" "Ilain" "Sawsan" "Sadb"
+			"Ilan" "Munah" "Mayrid" "Dawiyan" "Urla"
+			"Karidwan" "Aryanrud" "Muriyan" "Aylsah" "Anwail"
+			"Aybina" "Shunayd" "Maydhb" "Ifanah" "Yujiniya"
+			"Larthan" "Marsil" "Tarlagh" "Fadhlima" "Dalith"
+			"Aslughah" "Astiridah" "Gunnhildah" "Sufiyah" "Yulvayah"
+		}
 	}
 	male_names = {
 		Muhammad 'Al? Ahmad Yahy? Zkariy?' 'Abd al-'Aziz 'Abd al-Mu'min Ham?da Husayn 'Usman Salih Sulaiman 
@@ -12772,34 +12820,34 @@ lost_cultures_group = {
 	}
 	anglosaxon = { #CK2
 		dynasty_names = {
-			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
-			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Godhelming Beorming Eorling ?bbing H?sting ?lling Eadricing Eadwulfing Leodwalding
+			?thelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtm?r Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn Beorn Beornr?d Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenr?d Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthr?d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadm?r Eadric
+			Eadr?d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdr?d Ealdwine
 			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric ÆlfrÆd Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere ÆthelmÆr
-			Æthelric ÆthelrÆd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald RÆdwald
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inw?r Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar M?rleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osr?d Osulf Osweald Oswine Oswulf Peter R?dwulf_Ralph R?genweald Scule
+			Sigeberht Sigehelm Sigeric Siger?d Sighere Siweard Stigand Swegn Swithelm Swithr?d Sw?fr?d S?bert S?lr?d S?weald
+			S?xbald S?xr?d Thor?d Thurcytel Thurfrith Tostig Uhtr?d Ulfcytel Waltheof Werestan Wiglaf Wihtr?d
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfm?r Wulfnoth Wulfstan ?lfgar ?lfm?r ?lfnoth ?lfric ?lfr?d Alfred ?lfsige
+			?lfstan ?lfwald ?lfweard ?lfwig ?lfwine ?lle ?thelbald ?thelberht ?thelfrith ?thelhere ?thelm?r
+			?thelric ?thelr?d_Ailred ?thelsige ?thelstan ?thelweald ?thelweard ?thelwine ?thelwold ?thelwulf
+			Eormenred Eorcenberht Eormenric Eadbald R?dwald
 		}
 		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth ÆlflÆda Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
+			Agatha Balthild Beorhtfl?d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornfl?d Beorngyth Bl?ja Burgfl?d Ceolfl?d Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadfl?d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhfl?d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leoffl?d Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Siffl?d Sigrid S?thryth Wulffl?d Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnfl?d W?rburg ?bba ?lffl?d ?lfgifu ?lfgyth ?lfl?da ?lfl?da ?lfrida
+			?lfswith ?lfthryth ?lfwynn ?thelburg ?thelfl?d ?thelgifu ?thelhild ?thelr?da ?thelreda ?thelswith ?thelthryth
+			?thelburh Seaxburh Wihtburh
 		}
 	}
 	babylonian = {
