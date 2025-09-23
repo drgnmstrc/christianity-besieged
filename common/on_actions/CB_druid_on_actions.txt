@@ -1,0 +1,8 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_druids }
+		set_estate_privilege = organisation_of_worship
+		set_estate_privilege = control_of_force
+		set_estate_privilege = attendance_to_sacrifice
+	}	
+}

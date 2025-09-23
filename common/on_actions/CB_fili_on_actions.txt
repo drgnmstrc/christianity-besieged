@@ -1,0 +1,10 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_druids }
+		set_estate_privilege = reverence_for_poets
+		set_estate_privilege = fili_councilership
+		set_estate_privilege = fili_diplomacy
+		set_estate_privilege = satire
+		set_estate_privilege = war_diviners
+	}	
+}

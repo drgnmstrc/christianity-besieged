@@ -1,0 +1,54 @@
+## See [fili](common/estates/CB_fili.txt)
+
+## Allows decision `divine_for_war` when rival country has casus beli targeting you
+war_diviners = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## Will occasionally trigger events that require players to reward fili for good counciling, or face satire. 
+satire = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## Grants new council members. 
+##
+## Not sure if possible but could be good to make the fili lose loyalty and influence if they don't have at least one of their councilers on your council
+fili_councilership = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## Grants a diplomat
+## 
+## Increases opinion of other countries with the fili estate.
+## 
+## May trigger events that hurt/increase other countries opinions depending on fili loyalty.
+fili_diplomacy = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## TODO: Think of other things to do
+## 
+## Allows decison `commision_fili`, not entirely certain what it does as of yet
+reverence_for_poets = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}

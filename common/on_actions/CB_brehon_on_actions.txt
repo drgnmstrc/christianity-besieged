@@ -1,0 +1,9 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_druids }
+		set_estate_privilege = civil_right_of_judgment
+		set_estate_privilege = heritic_right_of_judgment
+		set_estate_privilege = criminal_right_of_judgment
+		set_estate_privilege = judgment_of_kin
+	}	
+}

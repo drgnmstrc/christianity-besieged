@@ -1,0 +1,9 @@
+## See `attendance_to_sacrifice`
+sacrifice_captives = {
+
+}
+
+## See `cannonise_druid`
+cannonise_druid = {
+
+}

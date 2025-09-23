@@ -1,0 +1,10 @@
+## Decrease autonomy
+enforce_control = {
+
+}
+
+## Triggers event `brehon_dispute_resolution` that allows you to resolve a disputed case.
+resolve_dispute = {
+
+}
+

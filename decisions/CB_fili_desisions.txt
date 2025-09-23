@@ -1,0 +1,19 @@
+## See `war_diviners`
+divine_for_war = {
+
+}
+
+## See `commision_fili`
+commision_fili = {
+
+}
+
+## See `commision_poem`
+commision_poem = {
+
+}
+
+## See `commision_great_poem`
+commision_great_poem = {
+
+}

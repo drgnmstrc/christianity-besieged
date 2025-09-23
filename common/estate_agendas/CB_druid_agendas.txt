@@ -1,0 +1,10 @@
+## Could be a new building type?
+establish_holy_site = {
+
+}
+
+## Grants access to `cannonise_druid` decision which costs some money but gives bonuses and increases fili's influence and loyalty.
+cannonise_druid = {
+
+}
+
