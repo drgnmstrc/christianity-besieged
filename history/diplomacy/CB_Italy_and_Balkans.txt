@@ -46,3 +46,39 @@ guarantee = {
 	start_date = 1106.12.12
 	end_date = 1624.9.13
 }
+
+dependency = {
+	subject_type = "tributary_state"
+	first = SBK
+	second = GEY
+	start_date = 1427.4.21
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = SBK
+	second = FYT
+	start_date = 1438.2.4
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = UNU
+	second = DAL
+	start_date = 1427.1.5
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = UNU
+	second = SDM
+	start_date = 1441.6.13
+	end_date = 1460.11.11
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = CPC
+	second = JSZ
+	start_date = 1443.12.12
+	end_date = 1460.11.11
+}

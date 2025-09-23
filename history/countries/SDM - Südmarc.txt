@@ -5,6 +5,7 @@ religion = german_pagan
 technology_group = ottoman
 capital = 4239
 national_focus = MIL
+add_army_tradition = 30
 add_army_professionalism = 0.1
 government_rank = 1
 	

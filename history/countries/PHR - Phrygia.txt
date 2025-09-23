@@ -8,6 +8,8 @@ technology_group = near_east
 unit_type = eastern
 capital = 326
 historical_rival = BTH
+add_army_tradition = 25
+add_army_professionalism = 0.1
 
 1444.1.1 = {
 	monarch = {

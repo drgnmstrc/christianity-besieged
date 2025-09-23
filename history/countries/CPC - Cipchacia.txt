@@ -5,6 +5,8 @@ unit_type = eastern
 primary_culture = bulgarian
 religion = manichaeism
 capital = 148
+add_army_tradition = 30
+add_army_professionalism = 0.1
 
 1444.11.11 = {
 	monarch = {

@@ -2,7 +2,7 @@
 is_city = yes
 culture = igala
 religion = itan
-capital = "Idah"
+capital = "Lokoja"
 hre = no
 base_tax = 1 
 base_production = 1

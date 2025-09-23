@@ -7,6 +7,7 @@ historical_friend = FEO
 capital = 330	# Trebizond
 fixed_capital = 330 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 3
+add_army_tradition = 30
 
 1429.10.29 = {
 	monarch = {

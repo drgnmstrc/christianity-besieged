@@ -48,17 +48,3 @@ dependency = {
 	start_date = 1444.1.1
 	end_date = 1465.1.1
 }
-dependency = {
-	subject_type = voivode
-	first = MVA
-	second = TRA
-	start_date = 1444.1.1
-	end_date = 1465.1.1
-}
-dependency = {
-	subject_type = voivode
-	first = MVA
-	second = SDM
-	start_date = 1444.1.1
-	end_date = 1465.1.1
-}

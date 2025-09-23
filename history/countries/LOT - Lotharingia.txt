@@ -5,6 +5,7 @@ technology_group = ottoman
 primary_culture = lotharingian
 religion = theodolian
 capital = 87
+add_army_tradition = 30
 
 national_focus = MIL
 
