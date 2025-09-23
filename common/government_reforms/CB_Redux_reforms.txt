@@ -864,7 +864,7 @@ locus_conventus_reform = { # I
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	potential = {
-		# is_subject_of_type = locus_conventus
+		is_subject_of_type = locus_conventus
 	}
 	modifiers = {
 		governing_capacity_modifier = -0.99
@@ -1286,6 +1286,48 @@ settled_berber_tribe = { # I
 		land_maintenance_modifier = -0.1
 	}
 	legacy_equivalent = tribal_despotism_legacy
+}
+
+irish_kingdom = { # I
+	icon = "gov_soldiers_4"
+	allow_normal_conversion = no
+	potential = {
+		religion = druidism
+		primary_culture = irish
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = tribal_kingdom_legacy
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+irish_high_kingdom = { # I
+	icon = "gov_tanestry"
+	allow_normal_conversion = no
+	potential = {
+		religion = druidism
+		primary_culture = irish
+		owns = 373
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = tribal_kingdom_legacy
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+		prestige = 0.5
+		legitimacy = 1.5
+		land_forcelimit_modifier = 0.1
+	}
+	ai = {
+		factor = 1
+	}
 }
 
 ##########################################

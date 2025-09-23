@@ -8,3 +8,6 @@
  temple_court_payments:0 "Temple Court Payments"
  state_druid_regulations:0 "State Druid Regulations"
  religious_army_divisions:0 "Religious Army Divisions"
+ CBDruidEvents.0t:0 "The Stone of Destiny"
+ CBDruidEvents.0d:0 "Atop the Cnoc na Teamhrach, or the Hill of Tara, climbs the grand procession of the [Root.Monarch.GetTitle] and court. Atop the walls surrounding the Hill, many sacred soldiers stand guard. And the druids await atop, at the Lia Fáil, or Stone of Destiny.\nWhen the court arrives, the time comes to await the stone's response to [Root.Monarch.GetName]'s presence. In the absence of the stone wailing against [Root.Monarch.GetHerHis] rule, the druids can give their blessings. The crown of the High King is placed upon [Root.Monarch.GetHerHis] brow."
+ CBDruidEvents.0a:0 "All Hail [Root.Monarch.GetName]!"

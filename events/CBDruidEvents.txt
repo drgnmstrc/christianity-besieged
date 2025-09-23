@@ -1,0 +1,23 @@
+namespace = CBDruidEvents
+
+country_event = {#The Stone of Destiny
+	id = CBDruidEvents.0
+	title = CBDruidEvents.0t
+	desc = CBDruidEvents.0d
+	picture = RUNESTONE_eventPicture
+	is_triggered_only = yes
+	option = { #All Hail the High King!
+		name = CBDruidEvents.0a
+        add_prestige = 20
+        set_capital = 373
+        373 = {
+            add_base_tax = 1
+            add_base_production = 1
+            add_base_manpower = 1
+            change_culture = irish
+            change_religion = druidism
+        }
+        remove_government_reform = irish_kingdom
+        add_government_reform = irish_high_kingdom
+	}
+}

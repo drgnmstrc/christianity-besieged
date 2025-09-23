@@ -1108,6 +1108,8 @@ tribal = {
 				tribal_theocracy
 				berber_tribe
 				settled_berber_tribe
+				irish_kingdom
+				irish_high_kingdom
 			}
 		}
 		tribal_cultural_values = {
