@@ -5,6 +5,8 @@ primary_culture = kappadokes
 religion = mandaeism
 technology_group = near_east
 capital = 329
+add_army_tradition = 25
+add_army_professionalism = 0.1
 
 1444.1.1 = {
 	monarch = {

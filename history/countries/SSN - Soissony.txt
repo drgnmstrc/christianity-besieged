@@ -5,6 +5,7 @@ add_accepted_culture = lotharingian
 religion = theodolian
 technology_group = ottoman
 capital = 182 
+add_army_tradition = 30
 
 1422.10.22 = {
 	monarch = {

@@ -92,15 +92,15 @@ sebkhemerz_missions_2 = {
 			
 		}
 		trigger = {
-			4174 = {
+			143 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			4750 = {
+			144 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			4780 = {
+			147 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
@@ -108,8 +108,7 @@ sebkhemerz_missions_2 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			northern_greece_area = {
-				type = all
+			4699 = {
 				owned_by = ROOT
 				is_core = ROOT
 			}

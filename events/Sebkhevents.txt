@@ -86,14 +86,26 @@ country_event = { #Sebkhemerz Vassalize Ghajaz and Moglena
 		if = {
 			limit = {
 				exists = GEY
-				GEY = { NOT = { is_subject = yes } }
+				OR = {
+					GEY = { NOT = { is_subject = yes } }
+					GEY = {
+						is_subject_of_type = tributary_state
+						is_subject_of = SBK
+					}
+				}
 			}
 			vassalize = GEY
 		}
 		if = {
 			limit = {
 				exists = MOG
-				MOG = { NOT = { is_subject = yes } }
+				OR = {
+					MOG = { NOT = { is_subject = yes } }
+					MOG = {
+						is_subject_of_type = tributary_state
+						is_subject_of = SBK
+					}
+				}
 			}
 			vassalize = MOG
 		}

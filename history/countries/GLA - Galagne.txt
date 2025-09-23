@@ -6,6 +6,7 @@ add_accepted_culture = soisson
 religion = german_pagan
 technology_group = ottoman
 capital = 179
+add_army_tradition = 25
 add_army_professionalism = 0.1
 
 1444.11.11 = {

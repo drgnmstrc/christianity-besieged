@@ -6,9 +6,9 @@
 # Pardubice
 # 4724 Pardubice - 8/26/2025 11:19:48 PM 
  
-add_core = MVA
-owner = MVA
-controller = MVA
+add_core = BOH
+owner = BOH
+controller = BOH
 base_tax = 4
 base_production = 4
 base_manpower = 3

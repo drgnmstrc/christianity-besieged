@@ -61,7 +61,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = URH
+					add_permanent_claim = YRU
 				}
 			}
 			benin_area = {
@@ -69,7 +69,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = URH
+					add_permanent_claim = YRU
 				}
 			}
 			oya_area = {
@@ -77,7 +77,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = URH
+					add_permanent_claim = YRU
 				}
 			}
 			urhobo_area = {
@@ -85,7 +85,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = URH
+					add_permanent_claim = YRU
 				}
 			}
 			west_africa_coast_area = {
@@ -93,7 +93,7 @@ country_decisions = {
 					limit = {
 						NOT = { owned_by = ROOT }
 					}
-					add_permanent_claim = URH
+					add_permanent_claim = YRU
 				}
 			}
 			add_country_modifier = {

@@ -8,6 +8,8 @@ capital = 1865
 historical_rival = LIE
 historical_rival = NMR
 historical_friend = FRI
+add_army_tradition = 25
+add_army_professionalism = 0.1
 
 1440.2.14 = {
 	monarch = {

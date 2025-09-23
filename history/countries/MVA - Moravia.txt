@@ -6,6 +6,7 @@ religion = cisarstvo
 technology_group = ottoman
 capital = 265
 government_rank = 3
+add_army_tradition = 25
 
 change_estate_land_share = {
 	estate = estate_nobles

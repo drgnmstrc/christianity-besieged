@@ -5,6 +5,8 @@ primary_culture = isaurian
 religion = hypturism
 technology_group = near_east
 capital = 323
+add_army_tradition = 40
+add_army_professionalism = 0.05
 
 1444.1.1 = {
 	monarch = {

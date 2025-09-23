@@ -4,6 +4,7 @@ primary_culture = czech
 religion = slavic
 capital = 266 # Praha
 technology_group = ottoman
+add_army_tradition = 30
 add_army_professionalism = 0.1
 
 1444.11.11 = {

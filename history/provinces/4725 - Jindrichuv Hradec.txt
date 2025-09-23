@@ -6,9 +6,9 @@
 # Jindrichuv Hradec
 # 4725 Jindrichuv Hradec - 8/26/2025 11:19:48 PM 
  
-add_core = MVA
-owner = MVA
-controller = MVA
+add_core = BOH
+owner = BOH
+controller = BOH
 base_tax = 3
 base_production = 3
 base_manpower = 3
