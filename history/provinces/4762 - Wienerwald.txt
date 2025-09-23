@@ -6,7 +6,7 @@
 # Wienerwald
 # 4762 Wienerwald - 9/20/2025 10:19:11 PM 
  
-add_core = KRN
+add_core = MVA
 owner = MVA
 controller = MVA
 base_tax = 3

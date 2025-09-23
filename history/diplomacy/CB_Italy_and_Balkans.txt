@@ -57,7 +57,7 @@ dependency = {
 dependency = {
 	subject_type = "tributary_state"
 	first = SBK
-	second = FYT
+	second = MOG
 	start_date = 1438.2.4
 	end_date = 1460.11.11
 }
