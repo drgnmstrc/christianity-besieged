@@ -1,0 +1,52 @@
+namespace = SLAVERYGOOD
+
+country_event = { #Matter of the Naghali
+	id = SLAVERYGOOD.0
+	title = SLAVERYGOOD.0t
+	desc = SLAVERYGOOD.0d
+	major = yes
+	major_trigger = { tag = event_target:slave_raiding_nat }
+	is_triggered_only = yes
+	
+	option = { #We shall expand the practice of mukataba, or manumission.
+		name = SLAVERYGOOD.0a
+		trigger = {
+			has_country_flag = naghali_repression
+		}
+		clr_country_flag = considering_naghali_laws
+		clr_country_flag = naghali_repression
+		set_country_flag = naghali_enfranchisement
+		every_owned_province = {
+			limit = { culture = naghali }
+			remove_province_modifier = naghali_discontent
+		}
+	}
+	
+	option = { #The Naghali and their people are inherently our inferiors!
+		name = SLAVERYGOOD.0b
+		trigger = {
+			has_country_flag = naghali_enfranchisement
+		}
+		clr_country_flag = considering_naghali_laws
+		clr_country_flag = naghali_enfranchisement
+		set_country_flag = naghali_repression
+		every_owned_province = {
+			limit = { culture = naghali }
+			add_permanent_province_modifier = {
+				name = naghali_discontent
+				duration = -1
+			}
+		}
+	}
+	
+	option = { #This all sounds very complex...
+		name = SLAVERYGOOD.0c
+		trigger = {
+			OR = {
+				has_country_flag = naghali_enfranchisement
+				has_country_flag = naghali_repression
+			}
+		}
+		clr_country_flag = considering_naghali_laws
+	}
+}

@@ -1,0 +1,84 @@
+﻿l_english:
+ LMR_end_the_christian_kingdoms_title: "End the Christian Kingdoms"
+ LMR_end_the_christian_kingdoms_desc: ""
+
+ LMR_ibn_tashfins_legacy_title: "Ibn Tashfin's Legacy"
+ LMR_ibn_tashfins_legacy_desc: ""
+ visigothic_conversion_tt: "All provinces in Iberia of our culture group will merge into a new §YVisigothic§! culture, and in Gallia, §YGalatian§!"
+
+ LMR_subjugate_septimania_title: "Subjugate Sabtimaniyya"
+ LMR_subjugate_septimania_desc: ""
+
+ LMR_abode_of_the_sciences_title: "Abode of the Sciences"
+ LMR_abode_of_the_sciences_desc: ""
+
+ LMR_expand_the_lex_malicensis_title: "Expand the Lex Malicensis"
+ LMR_expand_the_lex_malicensis_desc: ""
+ completed_before_rival_tt: "If we complete this mission before §Y[Root.RivalAlmoravidNation]§!, we will gain a §YUniversity§! in §Y[Capital.GetName]§!"
+
+ LMR_matter_of_the_naghali_title: "Matter of the Naghali"
+ LMR_matter_of_the_naghali_desc: ""
+
+ LMR_the_fall_of_gaul_title: "The Fall of Gaul"
+ LMR_the_fall_of_gaul_desc: ""
+
+ LMR_beacon_of_civilization_title: "Beacon of Civilization"
+ LMR_beacon_of_civilization_desc: ""
+
+ LMR_the_new_hundafaths_title: "The New Hundafaþs"
+ LMR_the_new_hundafaths_desc: ""
+
+ LMR_the_northern_frontier_title: "The Northern Frontier"
+ LMR_the_northern_frontier_desc: ""
+
+ LMR_seal_the_dynastic_split_title: "Seal the Dynastic Split"
+ LMR_seal_the_dynastic_split_desc: ""
+
+ LMR_italian_ventures_title: "Italian Ventures"
+ LMR_italian_ventures_desc: ""
+
+ LMR_land_of_the_lombards_title: "Land of the Lombards"
+ LMR_land_of_the_lombards_desc: ""
+
+ LMR_jewel_of_the_adriatic_title: "Jewel of the Adriatic"
+ LMR_jewel_of_the_adriatic_desc: ""
+ only_independent_almoravid_tt: "[Root.GetName] is the only claimant to the Almoravid throne"
+
+ LMR_the_great_italian_gambit_title: "The Great Italian Gambit"
+ LMR_the_great_italian_gambit_desc: ""
+
+ LMR_the_almoravid_armada_title: "The Almoravid Armada"
+ LMR_the_almoravid_armada_desc: ""
+
+ LMR_al_jadidiya_title: "Al-Jadidiya"
+ LMR_al_jadidiya_desc: ""
+
+ LMR_panislamism_title: "Panislamism"
+ LMR_panislamism_desc: ""
+
+ LMR_pax_islamica_title: "Pax Islamica"
+ LMR_pax_islamica_desc: ""
+
+ LMR_the_mantle_of_rome_title: "The Mantle of Rome"
+ LMR_the_mantle_of_rome_desc: ""
+
+ LMR_vanquish_the_emirates_title: "Vanquish the Emirates"
+ LMR_vanquish_the_emirates_desc: ""
+
+ LMR_secure_the_pillars_title: "Secure the Pillars"
+ LMR_secure_the_pillars_desc: ""
+
+ LMR_take_to_the_sea_title: "Take to the Sea"
+ LMR_take_to_the_sea_desc: ""
+
+ LMR_control_iberian_trade_title: "Control Iberian Trade"
+ LMR_control_iberian_trade_desc: ""
+
+ LMR_the_balearic_conquest_title: "The Balearic Conquest"
+ LMR_the_balearic_conquest_desc: ""
+
+ LMR_the_bahrumiun_title: "The Bahrumiun"
+ LMR_the_bahrumiun_desc: ""
+
+ LMR_the_path_of_umay_title: "The Path of Umay"
+ LMR_the_path_of_umay_desc: ""

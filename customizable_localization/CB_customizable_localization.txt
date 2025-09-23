@@ -1,0 +1,24 @@
+
+defined_text = {
+	name = RivalAlmoravidNation
+
+	text = {
+		localisation_key = rival_cordoba
+		trigger = {
+			OR = {
+				tag = TLD
+				was_tag = TLD
+			}
+		}
+	}
+	text = {
+		localisation_key = rival_toledo
+		trigger = {
+			OR = {
+				tag = CRD
+				was_tag = CRD
+			}
+		}
+	}
+}
+

@@ -767,6 +767,14 @@ tukholma_large_swedish_minority = {
 	technology_cost = -0.025
 	embracement_cost = -0.025
 }
+naghali_discontent = {
+	local_unrest = 4
+	culture_conversion_cost = -0.25
+}
+naghali_influx = {
+	production_efficiency = 0.25
+	trade_value_modifier = 2
+}
 ##################################################
 # Harmonized Modifiers
 ##################################################

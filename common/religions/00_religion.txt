@@ -3175,6 +3175,7 @@ old_iberian = {
 iranian = {
 	flag_emblem_index_range = { 110 110 }
 	defender_of_faith = yes
+	can_form_personal_unions = yes
 	zoroastrian = {
 		icon = 21
 		color = { 127 178 51 }

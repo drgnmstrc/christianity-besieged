@@ -21,7 +21,7 @@ march = {
 
 vassal = {
 	first = BUR
-	second = CMP
+	second = CHP
 	start_date = 1442.4.10
 	end_date = 1465.11.11
 }

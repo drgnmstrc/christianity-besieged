@@ -1,0 +1,33 @@
+country_decisions = {
+	change_naghali_policy = {
+		potential = {
+			religion_group = muslim
+			capital_scope = { region = iberia_region }
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = not_considering_or_recently_changed_tt
+				OR = {
+					NOT = { has_country_flag = considering_naghali_laws }
+					had_country_flag = {
+						flag = naghali_repression
+						days = 9125
+					}
+					had_country_flag = {
+						flag = naghali_enfranchisement
+						days = 9125
+					}
+				}
+			}
+		}
+		effect = {
+			set_country_flag = considering_naghali_laws
+			country_event = {
+				id = SLAVERYGOOD.0
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
