@@ -1,0 +1,122 @@
+recognise_high_king_of_ireland_treaty = {
+	requires_is_allowed = yes
+
+	warscore_cost = {
+		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
+		all_provinces = 0.0 # All the giver's provinces
+		no_provinces = 40.0 # This is just a constant. Equivalent to a single province with with war score cost 1
+		owner_keeps = 0.0 # The provinces that are not of any of the types below
+		conquered = 0.0 # Provinces that are selected by a Demand Province treaty
+		returned_core = 0.0 # Provinces that are selected by a Return Core treaty
+		released_nation = 0.0 # Provinces that will become a part of a selected released-to-be nation
+		cancelled_subject = 0.0 # This one should not be relevant here since Giver can't be a cancelled subject. Including anyway for completeness
+		concede_colonial_region = 0.0 # Ditto
+	}
+	warscore_cap = 40
+
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = defended_high_king_legitimacy_modifier
+				duration = -1
+			}
+		}
+		add_country_modifier = {
+			name = forced_to_recognise_high_king_modifer
+			duration = -1
+		}
+	}
+
+	ai_weight = {
+		export_to_variable = { 
+			variable_name = ai_value
+			value = 100
+		}
+		limit = {
+			always = yes
+		}
+	}
+}
+
+oust_iligimate_high_king_treaty = {
+	requires_is_allowed = yes
+
+	warscore_cost = {
+		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
+		all_provinces = 0.0 # All the giver's provinces
+		no_provinces = 40.0 # This is just a constant. Equivalent to a single province with with war score cost 1
+		owner_keeps = 0.0 # The provinces that are not of any of the types below
+		conquered = 0.0 # Provinces that are selected by a Demand Province treaty
+		returned_core = 0.0 # Provinces that are selected by a Return Core treaty
+		released_nation = 0.0 # Provinces that will become a part of a selected released-to-be nation
+		cancelled_subject = 0.0 # This one should not be relevant here since Giver can't be a cancelled subject. Including anyway for completeness
+		concede_colonial_region = 0.0 # Ditto
+	}
+	warscore_cap = 40
+
+	effect = {
+		remove_government_reform = irish_high_kingdom
+		add_government_reform = irish_kingdom
+	}
+
+	ai_weight = {
+		export_to_variable = { 
+			variable_name = ai_value
+			value = 100
+		}
+		limit = {
+			always = yes
+		}
+	}
+}
+
+oust_pretender_high_king_of_ireland_treaty = {
+	requires_is_allowed = yes
+
+	warscore_cost = {
+		# Which of the giver's provinces' war score costs are included and by how much. All entries default to 0. Any combination of entries can be used. Try negative values at your own risk.
+		all_provinces = 0.0 # All the giver's provinces
+		no_provinces = 40.0 # This is just a constant. Equivalent to a single province with with war score cost 1
+		owner_keeps = 0.0 # The provinces that are not of any of the types below
+		conquered = 0.0 # Provinces that are selected by a Demand Province treaty
+		returned_core = 0.0 # Provinces that are selected by a Return Core treaty
+		released_nation = 0.0 # Provinces that will become a part of a selected released-to-be nation
+		cancelled_subject = 0.0 # This one should not be relevant here since Giver can't be a cancelled subject. Including anyway for completeness
+		concede_colonial_region = 0.0 # Ditto
+	}
+	warscore_cap = 40
+
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = ousted_pretender_high_king_modifier
+				duration = -1
+			}
+		}
+		if = { 
+			limit = { 
+				373 = { 
+					owned_by = ROOT  
+				}
+			}
+			374 = {
+				cede_province = FROM
+			}
+		}
+		add_country_modifier = {
+			name = pretender_high_king_modifier
+			duration = -1
+		}
+		remove_government_reform = irish_high_kingdom
+		add_government_reform = irish_kingdom
+	}
+	ai_weight = {
+		export_to_variable = { 
+			variable_name = ai_value
+			value = 100
+		}
+		limit = {
+			always = yes
+		}
+	}
+}

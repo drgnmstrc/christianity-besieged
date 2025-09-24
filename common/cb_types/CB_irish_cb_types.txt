@@ -1,31 +1,12 @@
-false_high_king_of_ireland = {
-	war_goal = humiliate
-
+pretender_high_king_of_ireland_cb = {
 	is_triggered_only = yes
 
-	prerequisites = {
-		culture = irish
-		FROM = {
-			has_reform = irish_high_kingdom
-		}
-		ROOT = {
-			has_reform = irish_high_kingdom
-		}
-	}
+	war_goal = oust_pretender_high_king_wargoal
 }
 
-illegitimate_high_king_of_ireland = {
-	war_goal = humiliate
-
+illegitimate_high_king_of_ireland_cb = {
+	coalition = yes
 	is_triggered_only = yes
 
-	prerequisites = {
-		culture = irish
-		FROM = {
-			NOT = { has_reform = irish_high_kingdom}
-		}
-		ROOT = {
-			has_reform = irish_high_kingdom
-		}
-	}
+	war_goal = oust_illigitimate_high_king_wargoal
 }
