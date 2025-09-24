@@ -4,12 +4,18 @@ country_event = {
 	title = irish_events.1.t
 	desc = irish_events.1.d
 
+	immediate = {
+		hidden_effect = {
+			ROOT = { save_event_target_as = new_high_king }
+		}
+	}
+
+	is_triggered_only = yes
+
 	option = {
 		name = irish_events.1.a
 
 		every_country = {
-			ROOT = { save_event_target_as = new_high_king }
-
 			limit = { has_reform = irish_kingdom }
 
 			country_event = {
@@ -17,8 +23,6 @@ country_event = {
 			}
 		}
 		every_country = {
-			ROOT = { save_event_target_as = pretender_high_king }
-
 			limit = { 
 				has_reform = irish_high_kingdom
 			    NOT = { tag = ROOT }
@@ -35,6 +39,8 @@ country_event = {
 	id = irish_events.2
 	title = irish_events.2.t
 	desc = irish_events.2.d
+
+	is_triggered_only = yes
 
 	option = {
 		name = irish_events.2.a
@@ -75,8 +81,9 @@ country_event = {
 			multiplier = 100
 		}
 		add_casus_belli = {
-			type = illegitimate_high_king_of_ireland
+			type = illegitimate_high_king_of_ireland_cb
 			target = event_target:new_high_king
+			months = 60
 		}
 
 		ai_chance = {
@@ -108,7 +115,9 @@ country_event = {
 country_event = {
 	id = irish_events.3
 	title = irish_events.3.t
-	desc = irish_events.3.d
+	desc = irish_events.3.
+	
+	is_triggered_only = yes
 
 	option = {
 		name = irish_events.3.a 
@@ -144,8 +153,8 @@ country_event = {
 		name = irish_events.3.b 
 
 		add_casus_belli = {
-			type = false_high_king_of_ireland
-			target = event_target:pretender_high_king
+			type = pretender_high_king_of_ireland_cb
+			target = event_target:new_high_king
 		}
 
 		ai_chance = {
