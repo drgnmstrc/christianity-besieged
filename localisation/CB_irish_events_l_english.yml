@@ -1,0 +1,14 @@
+﻿l_english: 
+  irish_events.1.t: "Proclaimed high king of ireland"
+  irish_events.1.d: "You have proclaimed yourself high king of ireland!"
+  irish_events.1.a: "They shall all kneel before us!"
+
+  irish_events.2.t: "High king of ireland demands loyalty"
+  irish_events.2.d: "Someone has declared themselves the high king of ireland"
+  irish_events.2.a: "We shall kneel"
+  irish_events.2.b: "We shall not kneel"
+
+  irish_events.3.t: "False high king of ireland demands loyalty"
+  irish_events.3.d: "Someone has falsely declared themselves the high king of ireland"
+  irish_events.3.a: "We shall kneel."
+  irish_events.3.b: "We shall no kneel."

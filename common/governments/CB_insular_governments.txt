@@ -1,0 +1,16 @@
+insular_monarchy = {
+	basic_reform = monarchy_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				irish_kingdom
+				irish_high_kingdom
+			}
+		}
+	}
+}
+
+insular_theocracy = {
+	basic_reform = theocracy_mechanic
+}

@@ -12,15 +12,15 @@ estate_brehon = {
 	}
 
 	privileges = {
-		civil_right_of_judgment
-		heritic_right_of_judgment
-		criminal_right_of_judgment
-		judgment_of_kin
+		brehon_civil_right_of_judgment_privilege
+		brehon_heritic_right_of_judgment_privilege
+		brehon_criminal_right_of_judgment_privilege
+		brehon_judgment_of_kin_privilege
 	}
 
 	agendas = {
-		enforce_control
-		resolve_dispute
+		brehon_enforce_control_agenda
+		brehon_resolve_dispute_agenda
 	}
 
 	country_modifier_happy = {

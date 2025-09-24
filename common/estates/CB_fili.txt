@@ -11,17 +11,15 @@ estate_fili = {
 	}
 
 	privileges = {
-		reverence_for_poets
-		fili_councilership
-		fili_diplomacy
-		satire
-		war_diviners
+		fili_reverence_for_poets_privilege
+		fili_councilership_privilege
+		fili_diplomacy_privilege
+		fili_power_of_satire_privilege
+		fili_war_diviners_privilege
 	}
 
 	agendas = {
-		increase_kin_opinion
-		commision_great_poem
-		commision_poem
+		fili_increase_kin_opinion_agenda
 	}
 
 	country_modifier_happy = {

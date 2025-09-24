@@ -1,10 +1,10 @@
 ## Decrease autonomy
-enforce_control = {
+brehon_enforce_control_agenda = {
 
 }
 
-## Triggers event `brehon_dispute_resolution` that allows you to resolve a disputed case.
-resolve_dispute = {
+## Triggers `brehon_dispute_resolution_event`.
+brehon_resolve_dispute_agenda = {
 
 }
 

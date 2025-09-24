@@ -1,10 +1,10 @@
-## Could be a new building type?
-establish_holy_site = {
+## Requires you to use `druids_establish_holy_site_decision`.
+druid_establish_holy_site_agenda = {
 
 }
 
-## Grants access to `cannonise_druid` decision which costs some money but gives bonuses and increases fili's influence and loyalty.
-cannonise_druid = {
+## Requires you to use `fili_cannonise_druid_decision`.
+druid_cannonise_druid_agenda = {
 
 }
 

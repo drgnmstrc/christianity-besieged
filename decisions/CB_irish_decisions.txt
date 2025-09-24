@@ -1,0 +1,48 @@
+country_decisions = {
+	proclaim_high_kingdom_of_ireland = {
+		potential = {
+			culture = irish
+			has_reform = irish_kingdom
+		}
+
+		provinces_to_highlight = {
+			area_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = {
+				OR = { 
+					owned_by = ROOT 
+					owner = {
+						vassal_of = ROOT
+					}
+				}
+			}
+		}
+
+		allow = {
+			NOT = { has_any_disaster = yes }
+			legitimacy = 100
+
+			capital_scope = {
+				area_for_scope_province = {
+					type = all
+				}
+				
+				OR = {
+					owned_by = ROOT
+					owner = {
+						vassal_of = ROOT
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_government_reform = irish_high_kingdom
+
+			country_event = {
+				id = irish_events.1
+			}
+		}
+	}
+}

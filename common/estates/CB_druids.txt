@@ -9,14 +9,14 @@ estate_druids = {
 	}
 
 	privileges = {
-		control_of_force
-		organisation_of_worship
-		attendance_to_sacrifice
+		druid_control_of_force_privilege
+		druid_organisation_of_worship_privilege
+		druid_attendance_to_sacrifice_privilege
 	}
 
 	agendas = {
-		establish_holy_site
-		cannonise_druid
+		druid_establish_holy_site_agenda
+		druid_cannonise_druid_agenda
 	}
 
 	country_modifier_happy = {
@@ -47,7 +47,7 @@ estate_druids = {
 	base_influence = 30
 	influence_modifier = {
 		desc = "Norms"
-		influence = 50
+		influence = 80
 		trigger = {
 			always = yes
 		}

@@ -1,8 +1,14 @@
 ## See [fili](common/estates/CB_fili.txt)
 
-## Allows decision `divine_for_war` when rival country has casus beli targeting you
-war_diviners = {
+## Allows `fili_divine_for_war_decision`
+fili_war_diviners_privilege = {
 	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = FILI_WAR_DIVINATION
+	    }
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -10,7 +16,7 @@ war_diviners = {
 }
 
 ## Will occasionally trigger events that require players to reward fili for good counciling, or face satire. 
-satire = {
+fili_power_of_satire_privilege = {
 	icon = 1
 
 	ai_will_do = {
@@ -21,7 +27,7 @@ satire = {
 ## Grants new council members. 
 ##
 ## Not sure if possible but could be good to make the fili lose loyalty and influence if they don't have at least one of their councilers on your council
-fili_councilership = {
+fili_councilership_privilege = {
 	icon = 1
 
 	ai_will_do = {
@@ -34,7 +40,7 @@ fili_councilership = {
 ## Increases opinion of other countries with the fili estate.
 ## 
 ## May trigger events that hurt/increase other countries opinions depending on fili loyalty.
-fili_diplomacy = {
+fili_diplomacy_privilege = {
 	icon = 1
 
 	ai_will_do = {
@@ -44,9 +50,17 @@ fili_diplomacy = {
 
 ## TODO: Think of other things to do
 ## 
-## Allows decison `commision_fili`, not entirely certain what it does as of yet
-reverence_for_poets = {
+## Allows `fili_commision_poem_decision`, `fili_commission_great_poem_decision`, and `fili_cannonise_druid_decision`.
+fili_reverence_for_poets_privilege = {
 	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = FILI_CANNONISE_DRUID
+			estate_action = FILI_COMMISSION_POEM
+			estate_action = FILI_COMMISSION_GREAT_POEM
+	    }
+	}
 
 	ai_will_do = {
 		factor = 0

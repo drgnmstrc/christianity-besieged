@@ -6,9 +6,9 @@
 ## Other bad modifiers
 ##
 ## Scaled with `estate_druid` influence
-control_of_force = {
+druid_control_of_force_privilege = {
 	icon = 1
-	
+
 	ai_will_do = {
 		factor = 0
 	}
@@ -16,9 +16,16 @@ control_of_force = {
 
 ## The druids were responsible for the organisation of worship
 ##
-## Grands bonuses to provinces scaled with `estate_druid` influence.
-organisation_of_worship = {
+## Grants bonuses to provinces scaled with `estate_druid` influence.
+## Allows `druid_sponser_holy_site_decision`.
+druid_organisation_of_worship_privilege = {
 	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = DRUID_SPONSER_HOLY_SITE
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -27,9 +34,15 @@ organisation_of_worship = {
 
 ## The druids would oversee human sacrifices to the god
 ## 
-## Allows decision `sacrifice_captives` after war has been sucessfully won, lowering war exhastion and granting a province bonuses.
-attendance_to_sacrifice = {
+## Allows `druid_sacrifice_captives_decision`.
+druid_attendance_to_sacrifice_privilege = {
 	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = DRUID_SACRIFICE_CAPTIVES
+		}
+	}
 
 	ai_will_do = {
 		factor = 0

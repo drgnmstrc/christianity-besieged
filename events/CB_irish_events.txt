@@ -1,0 +1,177 @@
+namespace = irish_events 
+country_event = {
+	id = irish_events.1
+	title = irish_events.1.t
+	desc = irish_events.1.d
+
+	option = {
+		name = irish_events.1.a
+
+		every_country = {
+			ROOT = { save_event_target_as = new_high_king }
+
+			limit = { has_reform = irish_kingdom }
+
+			country_event = {
+				id = irish_events.2
+			}
+		}
+		every_country = {
+			ROOT = { save_event_target_as = pretender_high_king }
+
+			limit = { 
+				has_reform = irish_high_kingdom
+				ROOT = {
+					always = no
+				}
+			}
+
+			country_event = {
+				id = irish_events.3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = irish_events.2
+	title = irish_events.2.t
+	desc = irish_events.2.d
+
+	option = {
+		name = irish_events.2.a
+
+		ai_chance = {
+			factor = 60
+			
+			modifier = {
+				factor = 20
+				has_opinion = {
+					who = event_target:new_high_king
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 40
+				has_opinion = {
+					who = event_target:new_high_king
+					value = 100
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				is_subject_of = event_target:new_high_king
+			}
+		}
+	}
+	option = {
+		name = irish_events.2.b
+
+		form_coalition_against = event_target:new_high_king
+
+		add_opinion = {
+			who = event_target:new_high_king
+			modifier = aggressive_expansion
+			years = 5
+			multiplier = 100
+		}
+		add_casus_belli = {
+			type = illegitimate_high_king_of_ireland
+			target = event_target:new_high_king
+		}
+
+		ai_chance = {
+			factor = 40
+				
+			modifier = {
+				factor = 20
+				has_opinion = {
+					who = event_target:new_high_king
+					value = -50
+				}
+			}
+			modifier = {
+				factor = 40
+				has_opinion = {
+					who = event_target:new_high_king
+					value = -100
+				}
+			}
+
+			modifier = {
+				factor = 100
+				is_rival = event_target:new_high_king
+			}
+		}
+	}
+}
+
+country_event = {
+	id = irish_events.3
+	title = irish_events.3.t
+	desc = irish_events.3.d
+
+	option = {
+		name = irish_events.3.a 
+
+		remove_government_reform = irish_high_kingdom
+		add_government_reform = irish_kingdom
+
+		ai_chance = {
+			factor = 60
+			
+			modifier = {
+				factor = 20
+				has_opinion = {
+					who = event_target:new_high_king
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 40
+				has_opinion = {
+					who = event_target:new_high_king
+					value = 100
+				}
+			}
+			
+			modifier = {
+				factor = 100
+				is_subject_of = event_target:new_high_king
+			}
+		}
+	}
+	option = {
+		name = irish_events.3.b 
+
+		add_casus_belli = {
+			type = false_high_king_of_ireland
+			target = event_target:pretender_high_king
+		}
+
+		ai_chance = {
+			factor = 40
+				
+			modifier = {
+				factor = 20
+				has_opinion = {
+					who = event_target:new_high_king
+					value = -50
+				}
+			}
+			modifier = {
+				factor = 40
+				has_opinion = {
+					who = event_target:new_high_king
+					value = -100
+				}
+			}
+
+			modifier = {
+				factor = 100
+				is_rival = event_target:new_high_king
+			}
+		}
+	}
+}

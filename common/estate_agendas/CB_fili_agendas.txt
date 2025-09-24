@@ -1,16 +1,6 @@
 ## See [fili](common/estates/CB_fili.txt)
 
 ## Improve opinion of other country with fili estate
-increase_kin_opinion = {
-
-}
-
-## Grants access to `commision_poem` decision which costs gold but grants bonuses and fili influence
-commision_poem = {
-
-}
-
-## Grants access to `commision_great_poem` decision which costs a lot of gold, but increases all other neighboring countries opinion and provides powerful bonuses and fili influence.
-commision_great_poem = {
+fili_increase_kin_opinion_agenda = {
 
 }

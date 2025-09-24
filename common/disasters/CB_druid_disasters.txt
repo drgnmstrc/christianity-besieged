@@ -1,0 +1,214 @@
+druid_question_of_governance_disaster = {
+	potential = {
+		has_estate = estate_druids
+	}
+
+	can_start = {
+		estate_influence = {
+			estate = estate_druids
+			influence = 100
+		}
+	}
+
+	can_stop = {
+		estate_influence = {
+			estate = estate_druids
+			influence = 50
+		}
+	}
+
+
+	progress = {
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 60
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 20
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_druids
+				influence = 100
+			}
+		}
+		modifier = {
+			factor = 0.5
+			estate_influence = {
+				estate = estate_druids
+				influence = 80
+			}
+		}
+		modifier = {
+			factor = 0.5
+			estate_influence = {
+				estate = estate_druids
+				influence = 70
+			}
+		}
+		modifier = {
+			factor = 0.25
+			estate_influence = {
+				estate = estate_druids
+				influence = 60
+			}
+		}
+
+		modifier = {
+			factor = 1
+			average_unrest = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_unrest = 4
+		}
+		modifier = {
+			factor = 0.5
+			average_unrest = 3
+		}
+		modifier = {
+			factor = 0.25
+			average_unrest = 2
+		}
+		modifier = {
+			factor = 0.25
+			average_unrest = 1
+		}
+
+		modifier = {
+			factor = 1
+			NOT = {
+				legitimacy = 50
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				legitimacy = 60
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				legitimacy = 70
+			}
+		}
+		modifier = {
+			factor = 0.25
+			NOT = {
+				legitimacy = 80
+			}
+		}
+		modifier = {
+			factor = 0.25
+			NOT = {
+				legitimacy = 90
+			}
+		}
+	}
+
+	down_progress = {
+		factor = 0
+
+		modifier = {
+			factor = 1
+			average_unrest = 0
+		}
+
+		modifier = {
+			factor = 1
+			legitimacy = 100
+		}
+
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_influence = {
+					estate = estate_druids
+					influence = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_influence = {
+					estate = estate_druids
+					influence = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_influence = {
+					estate = estate_druids
+					influence = 20
+				}
+			}
+		}
+	}
+
+	can_stop = {
+		always = no
+	}
+
+	can_end = {
+		OR = {
+			AND = {
+				has_country_flag = druid_question_of_governance_squashed
+				all_owned_province = {
+				    owned_by = ROOT
+				}
+				has_spawned_rebels = no
+				NOT = {
+					estate_influence = {
+						estate = estate_druids
+						influence = 50
+					}
+				}
+			}
+			has_country_flag = druid_question_of_governance_succeeded
+		}
+	}
+}
