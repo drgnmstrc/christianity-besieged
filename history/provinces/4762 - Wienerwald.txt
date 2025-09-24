@@ -12,11 +12,12 @@ controller = MVA
 base_tax = 3
 base_production = 3
 base_manpower = 3
+add_local_autonomy = 20
 
 trade_goods = wine
 
 culture = moravian
-religion = cisarstvo
+religion = ashabi
 capital = "Sankt Pölten"
 
 is_city = yes

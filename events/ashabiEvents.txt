@@ -1,0 +1,279 @@
+namespace = ashabiEvents
+
+country_event = { #Rise of the Džaferids
+	id = ashabiEvents.0
+	title = ashabiEvents.t
+	desc = ashabiEvents.d
+	picture = muslimgfx_SIEGE_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = MVA
+		NOT = { religion = ashabi }
+		is_year = 1448
+		OR = {
+			NOT = { stability = 1 }
+			num_of_loans = 1
+		}
+		current_age = age_of_discovery
+		OR = {
+			any_owned_province = {
+				OR = {
+					area = medriparia_area
+					area = inner_austria_area
+					area = austria_proper_area
+					area = carinthia_area
+				}
+				religion = ashabi
+			}
+			any_subject_country = {
+				any_owned_province = {
+					OR = {
+						area = medriparia_area
+						area = inner_austria_area
+						area = austria_proper_area
+						area = carinthia_area
+					}
+					religion = ashabi
+				}
+			}
+		}
+	}
+	major_trigger = {
+		knows_country = MVA
+	}
+	mean_time_to_happen = {
+		months = 96
+	}
+	immediate = {
+		hidden_effect = {
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						religion = ashabi
+						OR = {
+							area = medriparia_area
+							area = inner_austria_area
+							area = austria_proper_area
+							area = carinthia_area
+						}
+					}
+					cede_province = DZA
+					add_core = DZA
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion = ashabi
+					OR = {
+						area = medriparia_area
+						area = inner_austria_area
+						area = austria_proper_area
+						area = carinthia_area
+					}
+				}
+				cede_province = DZA
+				add_core = DZA
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						religion = ashabi
+						is_neighbor_of = DZA
+					}
+					cede_province = DZA
+					add_core = DZA		
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion = ashabi
+					is_neighbor_of = DZA
+				}
+				cede_province = DZA
+				add_core = DZA
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = { NOT = { religion = ashabi } }
+					add_claim = DZA
+				}
+			}
+			every_owned_province = {
+				limit = { NOT = { religion = ashabi } }
+				add_claim = DZA
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = { religion = ashabi }
+					add_core = DZA
+				}
+			}
+			every_owned_province = {
+				limit = { religion = ashabi }
+				add_core = DZA
+			}
+			DZA = {
+				set_capital = 1954
+				if = {
+					limit = {
+						any_owned_province = { culture = nissinsci }
+					}
+					add_accepted_culture = nissinsci
+				}
+				if = {
+					limit = {
+						any_owned_province = { culture = pannici }
+					}
+					add_accepted_culture = pannici
+				}
+				create_alliance = HSR
+				add_reform = iqta_reform
+				define_ruler = {
+					name = "Džafer I"
+    				dynasty = "Vindid"
+    				adm = 4
+    				dip = 5
+    				mil = 6
+    				age = 43
+    				claim = 100
+				}
+				define_consort = {
+					name = "Mathilida"
+					dynasty = "Antico"
+					culture = istroli
+					adm = 4
+					dip = 6
+					mil = 3
+					female = yes
+				}
+				define_heir = {
+					male = yes
+					dynasty = ROOT
+					name = "Casim"
+					monarch_name = "Casim I"
+					dynasty = "Džaferid"
+					claim = 100
+					age = 13
+					adm = 6
+					dip = 6
+					mil = 6
+				}
+				create_unit_forcelimit_percentage = {
+					type = infantry
+					force_limit_percentage = 0.66
+				}
+			}
+			if = {
+				limit = { BTA = { num_of_free_diplomatic_relations = 1 } }
+				BTA = { create_alliance = DZA }
+			}
+			else_if = {
+				limit = { IFR = { num_of_free_diplomatic_relations = 1 } }
+				IFR = { create_alliance = DZA }
+			}
+			HSR = {
+				every_ally = {
+					limit = {
+						religion = ashabi
+						was_player = no
+						num_of_free_diplomatic_relations = 1
+						NOT = { tag = DZA }
+						is_at_war = no
+					}
+					create_alliance = DZA
+				}
+			}
+		}
+	}
+	option = { #We can't afford a conflict like this right now.
+		name = ashabiEvents.a
+		trigger = { tag = MVA }
+		add_stability = -1
+		add_prestige = -15
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0.1
+				OR = {
+					stability = 1
+					NOT = { num_of_loans = 1 }
+				}
+			}
+		}
+	}
+	option = { #The Voivodes must be protected!
+		name = ashabiEvents.b
+		trigger = { tag = MVA }
+		add_stability = -1
+		add_prestige = 15
+		declare_war_with_cb = {
+			who = DZA
+			casus_belli = cb_annex
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				ruler_has_personality = babbling_buffoon_personality
+			}
+            modifier = {
+                factor = 0.1
+                is_at_war = yes
+                NOT = { war_score = 0 }
+            }
+			modifier = {
+				factor = 0.1
+				ruler_has_personality = careful_personality
+			}
+		}
+	}
+	option = { #Maybe they're onto something...
+		name = ashabiEvents.c
+		trigger = {
+            tag = MVA
+            NOT = {
+                OR = {
+                    religion = ashabi
+                    religion = manichaeism
+					was_player = yes
+                }
+            }
+        }
+		release_all_subjects = yes
+		DZA = { inherit = MVA }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					ruler_has_personality = zealot_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 10
+				ruler_has_personality = babbling_buffoon_personality
+			}
+		}
+	}
+	option = { #Down with the Car!
+		name = ashabiEvents.e
+		trigger = { tag = MVA }
+		switch_tag = DZA
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	option = { #The Car shows weakness.
+		name = ashabiEvents.f
+		trigger = { NOT = { tag = MVA } }
+		if = {
+			limit = { is_subject_of = MVA }
+			add_prestige = 10
+			add_liberty_desire = 15
+		}
+		else = {
+			add_prestige = 5
+		}
+	}
+}

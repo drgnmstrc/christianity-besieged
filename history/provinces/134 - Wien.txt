@@ -16,9 +16,10 @@ base_manpower = 4
 center_of_trade = 2
 trade_goods = champagne
 extra_cost = 16
+add_local_autonomy = 20
 
 culture = moravian
-religion = cisarstvo
+religion = ashabi
 capital = "Wien"
 
 is_city = yes

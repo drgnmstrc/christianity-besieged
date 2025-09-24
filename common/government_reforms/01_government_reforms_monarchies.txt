@@ -995,7 +995,7 @@ ottoman_government = {
 		religion_group = muslim
 		OR = {
 			AND = {
-				tag = TUR
+				tag = ETH
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {

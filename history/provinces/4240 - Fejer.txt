@@ -16,8 +16,8 @@ base_manpower = 2
 
 trade_goods = cheese
 
-culture = caicavsci
-religion = slavic
+culture = nissinsci
+religion = ashabi
 capital = "Fehérvár"
 
 is_city = yes

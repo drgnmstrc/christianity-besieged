@@ -17,7 +17,7 @@ base_manpower = 4
 trade_goods = iron
 
 culture = avar
-religion = slavic
+religion = manichaeism
 capital = "Recidava"
 
 is_city = yes

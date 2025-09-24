@@ -16,7 +16,7 @@ base_manpower = 3
 trade_goods = grain
 
 culture = moravian
-religion = slavic
+religion = cisarstvo
 capital = "Olmütz"
 
 is_city = yes

@@ -3,9 +3,8 @@
 owner = PNY
 controller = PNY
 add_core = PNY
-culture = langobard
-religion = german_pagan
-add_core = LOM
+culture = pannici
+religion = ashabi
 base_tax = 4
 base_production = 5
 trade_goods = iron 
@@ -23,7 +22,7 @@ discovered_by = ottoman
 discovered_by = scandinavian_tech
 discovered_by = eirun
 1440.2.27 = {
-	owner = UNU
-	controller = UNU
-	add_core = UNU
+	owner = HSR
+	controller = HSR
+	add_core = HSR
 }

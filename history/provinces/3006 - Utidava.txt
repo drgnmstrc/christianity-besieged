@@ -8,7 +8,7 @@ base_manpower = 1
 trade_goods = lumber
 
 culture = dacian
-religion = zamolxism
+religion = cisarstvo
 capital = "Utidava"
 
 is_city = yes

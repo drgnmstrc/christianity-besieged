@@ -68,8 +68,7 @@ dependency = {
 	start_date = 1427.1.5
 	end_date = 1460.11.11
 }
-dependency = {
-	subject_type = "tributary_state"
+vassal = {
 	first = UNU
 	second = SDM
 	start_date = 1441.6.13

@@ -5,18 +5,19 @@
 ### Modified 8/26/2025 11:19:48 PM ###
 # Nowy Sacz
 # 2960 Nowy Sacz - 8/26/2025 11:19:48 PM 
- 
+
 add_core = MVA
 owner = MVA
 controller = MVA
 base_tax = 4
 base_production = 4
 base_manpower = 4
+set_local_autonomy = 50
 
 trade_goods = lead
 
 culture = slovak
-religion = cisarstvo
+religion = slavic
 capital = "Bescâd"
 
 is_city = yes

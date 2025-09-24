@@ -418,7 +418,7 @@ bayt_allah_missions_2 = {
 			}
 		}
 		effect = { #This is what you get after you finished your mission.
-			country_event = { id = alsababDebateEvent.2 }
+			country_event = { id = ashabiDebateEvent.2 }
 			add_prestige = 10
 			add_devotion = 5
 		}
@@ -476,7 +476,7 @@ bayt_allah_missions_2 = {
 		effect = { 
 			add_piety = 5
 			add_prestige = 5
-			country_event = { id = alsababDebateEvent.10 }
+			country_event = { id = ashabiDebateEvent.10 }
 		}
 	}
 	subdue_tartary_threat = {

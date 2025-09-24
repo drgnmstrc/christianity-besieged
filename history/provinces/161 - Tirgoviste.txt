@@ -18,7 +18,7 @@ trade_goods = livestock
 extra_cost = 8
 
 culture = romanian
-religion = cisarstvo
+religion = zamolxism
 capital = "Tîrgoviste"
 
 is_city = yes

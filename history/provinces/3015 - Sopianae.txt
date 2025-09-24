@@ -16,8 +16,8 @@ base_manpower = 1
 
 trade_goods = gunpowder
 
-culture = caicavsci
-religion = cisarstvo
+culture = nissinsci
+religion = slavic
 capital = "Sopianae"
 
 is_city = yes

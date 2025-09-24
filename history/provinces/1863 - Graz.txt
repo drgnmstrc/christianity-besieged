@@ -15,8 +15,8 @@ base_manpower = 3
 
 trade_goods = grain
 
-culture = slovene
-religion = manichaeism
+culture = nissinsci
+religion = ashabi
 capital = "Graz"
 
 is_city = yes

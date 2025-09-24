@@ -484,7 +484,7 @@ papacy_reform = {
 	}
 
 	modifiers = {
-		prestige_per_development_from_conversion = 0.33
+		diplomatic_upkeep = 2
 		tolerance_own = 1
 		church_influence_modifier = 0.2
 	}

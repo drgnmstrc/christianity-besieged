@@ -16,7 +16,7 @@ base_manpower = 1
 trade_goods = horses
 
 culture = pannonian_avar
-religion = manichaeism
+religion = ashabi
 capital = "Akidava"
 
 is_city = yes

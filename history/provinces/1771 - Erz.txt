@@ -1,11 +1,13 @@
 #1771 - Erz
 
-owner = BOH
-controller = BOH
+owner = GEP
+controller = GEP
+add_core = GEP
+add_core = THU
 add_core = BOH
 capital = "Litomerice"
-culture = czech
-religion = slavic
+culture = thuringen
+religion = german_pagan
 trade_goods = glass 
 hre = no
 base_tax = 5 
