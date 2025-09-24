@@ -17,6 +17,11 @@ country_decisions = {
 					}
 				}
 			}
+			NOT = {
+				373 = {
+					owned_by = ROOT
+				}
+			}
 		}
 
 		allow = {
@@ -34,6 +39,11 @@ country_decisions = {
 						vassal_of = ROOT
 					}
 				}
+			}
+
+			## TODO: Change this to check for an event that fires when conquring 373
+			373 = {
+				owned_by = ROOT
 			}
 		}
 
