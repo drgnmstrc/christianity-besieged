@@ -516,6 +516,7 @@ FYT = "countries/Faynitia.txt" #SOUTHEAST EUROPE MINIUPDATE
 YAL = "countries/Yaliboylu.txt" #SOUTHEAST EUROPE MINIUPDATE - REVOLTER
 CMB = "countries/Cambrias.txt"
 GRC = "countries/Graecia.txt" #south italy formable
+GHL = "countries/Ghalu.txt" #Flag Taken from https://www.reddit.com/r/vexillology/comments/plfiea/islamic_ireland_concept/
 
 #East Asian
 

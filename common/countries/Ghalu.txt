@@ -1,0 +1,185 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 89 139 80 }
+
+preferred_religion = norse_pagan_reformed
+
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	exploration_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	trade_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	scottish_highlander
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Rudri #0" = 10	# Rudri
+	"Awinsan #0" = 10	# Owenson/Owainson
+	"Kaylan #3" = 10	#
+	"Dunkan #0" = 10	# Duncan
+	"Maridid #0" = 10	#
+	"Anruyq #1" = 10	#
+	"Tristan #0" = 5	#
+	"Uwayn #0" = 10	# Owain/Owen
+	"Lawilin #1" = 10	# 
+	"Idwal #0" = 1	# 
+	"Barqan #0" = 1	# 
+	"Anwarid #0" = 5	#
+	"Yughan #0" = 10	# Eoghan
+	"Balthar #0" = 10	#
+
+	"Shuban #0" = -5	#
+	"Ilain #0" = -1		# Elaine
+	"Karidwan #0" = -1	#
+	"Hadice #0" = -1
+	"Safiye #0" = -1	# Sofie/Sofia
+	"Zeynep #0" = -1
+	"Hurrem #0" = -1
+	"Mihrimah #0" = -1
+	"Nurbanu #0" = -1
+	"Handan #0" = -1
+	"Alime #0" = -1
+	#"Kösem #0" = -1
+	"Hüma #0" = -1
+	"Emine #0" = -1
+	"Mahpeyker #0" = -1
+	"Gülfem #0" = -1
+	"Rabia #0" = -1
+	"Turhan #0" = -1
+	"Bryndah #0" = -1
+	"Eithnay #0" = -1
+	"Fionala #0" = -1
+	"Grainneah #0" = -1
+	"Isnayah #0" = -1
+	"Maelina #0" = -1
+	"Orlaithah #0" = -1
+	"Seridah #0" = -1
+	"Talwynah #0" = -1
+	"Ysoltah #0" = -1	# Ysolde
+
+	"Kunshabar #0" = 0	# Conchabar
+	"Raynalt #0" = 0	# Reynold
+	"Kaylan #0" = 0
+	"Awhid #0" = 0
+	"Awnghus #0" = 0
+	"Dumnal #0" = 0
+	"Tristan #0" = 0
+	"Gharaf #0" = 0
+	"Rabiart #0" = 0
+	"Kiran #0" = 0
+	"Idwal #0" = 0
+	"Barqan #0" = 0
+	"Iruwirth #0" = 0
+	"Malghwin #0" = 0
+	"Farkhar #0" = 0
+	"Falan #0" = 0
+	"Lurqan #0" = 0
+	"Anwarid #0" = 0
+	"Barhtfarith #0" = 0
+	"Ayniyan #0" = 0
+	"Urayn #0" = 0
+	"Niyal #0" = 0
+	"Anruyq #0" = 0
+	"Kuthbarit #0" = 0
+	"Qadwaladir #0" = 0
+	"Faynlah #0" = 0
+	"Dunkan #0" = 0
+	"Tadiq #0" = 0
+	"Maridid #0" = 0
+	"Bajrn #0" = 0
+	"Ghariqar #0" = 0
+	"Arnqaytil #0" = 0
+	"Ragnar #0" = 0
+	"Awinsan #0" = 0
+	"Diarmid #0" = 0
+	"Barqan #0" = 0
+	"Dafid #0" = 0
+	"Liyufriq #0" = 0
+	"Dunal #0" = 0
+	"Anwarid #0" = 0
+	"Sumaril #0" = 0
+	"Andarush #0" = 0
+	"Malghwin #0" = 0
+	"Anruyq #0" = 0
+	"Falan #0" = 0
+	"Rabiart #0" = 0
+	"Lawilin #0" = 0
+	"Kinan #0" = 0
+	"Rudri #0" = 0
+	"Urayn #0" = 0
+	"Kunal #0" = 0
+}
+
+leader_names = {
+	Kuthbarit Uwayn Arnarush Ghrafid Barqan
+	Awhid Anwarid Bajrn Dumnal Farkhar Balthar
+	Awinsan Rudri Idwal Liyufriq Falan Barhtfarith
+	Kaylan Sumaril Kunal Malghwin Diarmid Maridid
+	Rabiart Tadiq Iruwirth Gharaf Niyal
+	Arnqaytil Urayn Andarush Lawilin Dunkhad
+	Yughan Tristan Faynlah Anruyq Dafid Kunshabar
+	Lurqan Ragnar Maridid Kiran Dunal
+	Ghariqar Awnghus Iyayn Qadwaladir Falan
+	Shuban  # female
+	Brunwan # female
+	Karidwan # female
+	Fionala # female
+	Ysoltah # female
+	Mukhad Sulayman Baryan Awinsan Rudri
+	Diarmid Dumnal Iruwirth Barqan Kuthbarit
+	Arnqaytil Uwayn Bajrn Malghwin Tadiq
+	Andarush Kaylan Niyal Rabiart Kunal
+	Farkhar Gharaf Sumaril Dunal Awnghus
+	Anruyq Lawilin Maridid Ghrafid Liyufriq
+	Awinsan Ragnar Kunshabar Idwal Falan
+	Tristan Barhtfarith Dafid Iruwirth Kiran
+	Urayn Balthar Dumnal Maridid Ghariqar
+}
+
+ship_names = {
+	Alba Asainte "Abscissa Virescit" "Amo Probos" "Aonaibh Ri Chéile" Avance "Accendit Cantu" Audaciter
+	"Andreas de Atholia" Abraruadh
+	"Baile Inneraora" Baideanach Berowald "Buaidh No Bas"
+	Caledonia Cruachan "Consilio Non Petu" Confido "Clar Innes" Clut "Caisteal Dhuni" "Cair Chaladain"
+	"Calum Cille"
+	"Dun Bheagain" "Donnchadh na-Adh" "Dominus Fecit" "De Bonnaire" "Diriget Deus" Deoradh "Donnchadh Reamhar"
+	Dalriada "Domhnall mac Raghnaill" "Deus Juvat"
+	"Earra-Ghaidheal"
+	"Fide Et Opera" Fuimus "Feros Ferio" Freskin "Fergus Mor" "Fraoch Eilean" Findanus
+	"Gleann Eagas" "Ghift Dhe Agus An Righ"
+	"Hoc Securior" "Hugh de Paduinan"
+	"Innse Gall" "Invictus Maneo" Iagan
+	"Johannes Del Crag"
+	"Loyal Au Mort" "Loch Abar" "Loch Laomainn" Lochiel Lannraig "Loch Moigh"
+	Muriel "Marte Suo Tutus" Merito Macbeatha
+	"Ne Obliviscaris" Niseag Nectan
+	"Petit Alta" Preseverando "Paratus Sum" "Petrus de Haga"
+	"Qui Conducit"
+	"Raibeart Bruis" Reviresco
+	Scitis "Salus Per Christum" Sruighlea "Serva Jugum" Somairle
+	"Toom Tabard" "Tout Jour Prest" "Tulach Ard" Tavis
+	"Uilleam Uallas"
+	"Vincit Veritas" "Virtutis Gloria Merces" "Vive Ut Vivas"
+}
