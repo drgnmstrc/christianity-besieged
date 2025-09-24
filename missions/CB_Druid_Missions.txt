@@ -1,100 +1,100 @@
-druid_ireland_chief_1 = {
-    slot = 1
-    generic = no
-    ai = yes
-    potential = {
-        religion = druidism
-        OR = {
-            has_reform = irish_kingdom
-            have_had_reform = irish_kingdom
-        }
-    }
-    has_country_shield = yes
-    druid_seat_teamhrach = {
-        icon = mission_rb_conquer_the_highlands
-        required_missions = { }
-        provinces_to_highlight = {
-            province_id = 373
-        }
-        trigger = {
-            has_reform = irish_high_kingdom
-        }
-        effect = {
-            remove_estate_privilege = estate_druids_supremacy_of_court
-            munster_area = {
-                add_permanent_claim = ROOT
-            }
-            leinster_area = {
-                add_permanent_claim = ROOT
-            }
-            connacht_area = {
-                add_permanent_claim = ROOT
-            }
-            ulster_area = {
-                add_permanent_claim = ROOT
-            }
-        }
-    }
-    druid_rites_high_king_ireland = {
-        icon = imperial_ascendancy
-        required_missions = { druid_seat_teamhrach }
-        provinces_to_highlight = { }
-        trigger = {
-            stability = 3
-            is_at_war = no
-            NOT = { corruption = 1 }
-            NOT = { average_unrest = 1 }
-            NOT = {
-                num_of_estate_privileges = {
-	                estate = estate_church
-	                value = 4
-                }
-            }
-        }
-        effect = {
-            remove_estate_privilege = estate_druids_leading_sacred_rituals
-        }
-    }
-    druid_legal_immunity = {
-        icon = mission_court_education
-        required_missions = { }
-        provinces_to_highlight = { }
-        trigger = {
-            advisor = theologian
-            is_at_war = no
-            NOT = { corruption = 1 }
-            NOT = { average_unrest = 1 }
-        }
-        effect = {
-            remove_estate_privilege = estate_druids_legal_immunity
-        }
-    }
-    druid_seize_sacred_armies = {
-        icon = mission_hundred_years_war
-        required_missions = { druid_legal_immunity }
-        provinces_to_highlight = { }
-        trigger = {
-            is_at_war = no
-            army_size = 20
-            NOT = { corruption = 1 }
-            NOT = { average_unrest = 1 }
-        }
-        effect = {
-            remove_estate_privilege = estate_druids_sacred_armies
-        }
-    }
-    druid_land_ownership = {
-        icon = claim_the_borderlands
-        required_missions = { druid_seize_sacred_armies }
-        provinces_to_highlight = { }
-        trigger = {
-            crown_land_share = 50
-            is_at_war = no
-            NOT = { corruption = 1 }
-            NOT = { average_unrest = 1 }
-        }
-        effect = {
-            remove_estate_privilege = estate_druids_land_consecration
-        }
-    }
-}
+# druid_ireland_chief_1 = {
+#     slot = 1
+#     generic = no
+#     ai = yes
+#     potential = {
+#         religion = druidism
+#         OR = {
+#             has_reform = irish_kingdom
+#             have_had_reform = irish_kingdom
+#         }
+#     }
+#     has_country_shield = yes
+#     druid_seat_teamhrach = {
+#         icon = mission_rb_conquer_the_highlands
+#         required_missions = { }
+#         provinces_to_highlight = {
+#             province_id = 373
+#         }
+#         trigger = {
+#             has_reform = irish_high_kingdom
+#         }
+#         effect = {
+#             remove_estate_privilege = estate_druids_supremacy_of_court
+#             munster_area = {
+#                 add_permanent_claim = ROOT
+#             }
+#             leinster_area = {
+#                 add_permanent_claim = ROOT
+#             }
+#             connacht_area = {
+#                 add_permanent_claim = ROOT
+#             }
+#             ulster_area = {
+#                 add_permanent_claim = ROOT
+#             }
+#         }
+#     }
+#     druid_rites_high_king_ireland = {
+#         icon = imperial_ascendancy
+#         required_missions = { druid_seat_teamhrach }
+#         provinces_to_highlight = { }
+#         trigger = {
+#             stability = 3
+#             is_at_war = no
+#             NOT = { corruption = 1 }
+#             NOT = { average_unrest = 1 }
+#             NOT = {
+#                 num_of_estate_privileges = {
+# 	                estate = estate_church
+# 	                value = 4
+#                 }
+#             }
+#         }
+#         effect = {
+#             remove_estate_privilege = estate_druids_leading_sacred_rituals
+#         }
+#     }
+#     druid_legal_immunity = {
+#         icon = mission_court_education
+#         required_missions = { }
+#         provinces_to_highlight = { }
+#         trigger = {
+#             advisor = theologian
+#             is_at_war = no
+#             NOT = { corruption = 1 }
+#             NOT = { average_unrest = 1 }
+#         }
+#         effect = {
+#             remove_estate_privilege = estate_druids_legal_immunity
+#         }
+#     }
+#     druid_seize_sacred_armies = {
+#         icon = mission_hundred_years_war
+#         required_missions = { druid_legal_immunity }
+#         provinces_to_highlight = { }
+#         trigger = {
+#             is_at_war = no
+#             army_size = 20
+#             NOT = { corruption = 1 }
+#             NOT = { average_unrest = 1 }
+#         }
+#         effect = {
+#             remove_estate_privilege = estate_druids_sacred_armies
+#         }
+#     }
+#     druid_land_ownership = {
+#         icon = claim_the_borderlands
+#         required_missions = { druid_seize_sacred_armies }
+#         provinces_to_highlight = { }
+#         trigger = {
+#             crown_land_share = 50
+#             is_at_war = no
+#             NOT = { corruption = 1 }
+#             NOT = { average_unrest = 1 }
+#         }
+#         effect = {
+#             remove_estate_privilege = estate_druids_land_consecration
+#         }
+#     }
+# }

@@ -1,0 +1,117 @@
+irish_mission_slot_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+
+	potential = {
+		OR = {
+			has_reform = irish_kingdom
+			have_had_reform = irish_kingdom
+		}
+	}
+
+	seize_the_hill_of_tara_mission = {
+		icon = mission_rb_conquer_the_highlands
+		provinces_to_highlight = {
+			373 = {
+				always = yes
+			}
+		}
+		trigger = {
+			373 = {
+				OR = {
+					owned_by = ROOT 
+					owner = {
+						is_subject_of = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_legitimacy = 10
+			add_prestige = 10
+
+			capital_scope = {
+				area = {
+					add_claim = ROOT
+				}
+			}
+
+		}
+	}
+
+	proclaim_high_king_of_ireland_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			seize_the_hill_of_tara_mission
+		}
+
+		trigger = {
+			has_reform = irish_high_kingdom
+		}
+
+		effect = {
+
+		}
+	}
+
+	weather_pretenders_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			proclaim_high_king_of_ireland_mission
+		}
+
+		trigger = {
+			NOT = {
+				any_country = {
+					has_casus_belli = {
+						type = illegitimate_high_king_of_ireland
+						target = ROOT
+					}
+					AND = {
+					    NOT = { tag = ROOT }
+						has_reform = irish_high_kingdom
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_modifier = ousted_pretender_high_king_modifier }
+				every_country = {
+					limit = { has_country_modifier = pretender_high_king_modifier }
+
+					vassalize = ROOT
+				}
+				add_prestige = 20
+			}
+
+			if = {
+				limit = { has_country_modifier = defended_high_king_legitimacy_modifier }
+				every_country = {
+					limit = { has_country_modifier = forced_to_recognise_high_king_modifer }
+
+					vassalize = ROOT
+				}
+				add_prestige = 10
+			}
+
+			munster_area = {
+                add_permanent_claim = ROOT
+            }
+            leinster_area = {
+                add_permanent_claim = ROOT
+            }
+            connacht_area = {
+                add_permanent_claim = ROOT
+            }
+            ulster_area = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+}
