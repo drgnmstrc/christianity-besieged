@@ -59,6 +59,7 @@ province_event = { #Rise of a Naghali Population Hub
 			has_country_flag = naghali_enfranchisement
 			NOT = {
 				any_owned_province = { has_province_modifier = naghali_confluence }
+				any_owned_province = { has_province_modifier = naghali_concessions }
 			}
 		}
 	}
@@ -128,6 +129,7 @@ province_event = { #Discontent Among the Naghali of [Root.GetName]
 			has_country_flag = naghali_repression
 			NOT = {
 				any_owned_province = { has_province_modifier = naghali_confluence }
+				any_owned_province = { has_province_modifier = naghali_concessions }
 			}
 		}
 	}
