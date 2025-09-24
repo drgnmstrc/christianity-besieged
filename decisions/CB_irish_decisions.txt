@@ -6,20 +6,19 @@ country_decisions = {
 		}
 
 		provinces_to_highlight = {
-			area_for_scope_province = {
-				is_capital_of = ROOT
-			}
-			NOT = {
-				OR = { 
-					owned_by = ROOT 
-					owner = {
-						vassal_of = ROOT
+			OR = {
+				AND = {
+					area_for_scope_province = {
+						is_capital_of = ROOT
 					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				}
-			}
-			NOT = {
-				373 = {
-					owned_by = ROOT
+
+				AND = {
+					province_id = 373
+					NOT = {
+						is_core = ROOT
+					}
 				}
 			}
 		}
@@ -31,19 +30,13 @@ country_decisions = {
 			capital_scope = {
 				area_for_scope_province = {
 					type = all
-				}
-				
-				OR = {
-					owned_by = ROOT
-					owner = {
-						vassal_of = ROOT
-					}
+					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}
 
 			## TODO: Change this to check for an event that fires when conquring 373
 			373 = {
-				owned_by = ROOT
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 
