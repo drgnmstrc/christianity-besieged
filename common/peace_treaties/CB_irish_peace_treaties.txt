@@ -16,15 +16,9 @@ recognise_high_king_of_ireland_treaty = {
 
 	effect = {
 		FROM = {
-			add_country_modifier = {
-				name = defended_high_king_legitimacy_modifier
-				duration = -1
-			}
+			set_country_flag = defended_high_king_legitimacy
 		}
-		add_country_modifier = {
-			name = forced_to_recognise_high_king_modifer
-			duration = -1
-		}
+		set_country_flag = forced_to_recognise_high_king
 	}
 
 	ai_weight = {
@@ -88,11 +82,10 @@ oust_pretender_high_king_of_ireland_treaty = {
 
 	effect = {
 		FROM = {
-			add_country_modifier = {
-				name = ousted_pretender_high_king_modifier
-				duration = -1
-			}
+			set_country_flag = ousted_pretender_high_king
 		}
+		set_country_flag = pretender_high_king
+
 		if = { 
 			limit = { 
 				373 = { 
@@ -103,10 +96,7 @@ oust_pretender_high_king_of_ireland_treaty = {
 				cede_province = FROM
 			}
 		}
-		add_country_modifier = {
-			name = pretender_high_king_modifier
-			duration = -1
-		}
+
 		remove_government_reform = irish_high_kingdom
 		add_government_reform = irish_kingdom
 	}
