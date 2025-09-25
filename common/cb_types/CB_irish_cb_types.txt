@@ -1,3 +1,9 @@
+retrieve_the_hill_of_tara_cb = {
+	is_triggered_only = yes
+
+	war_goal = humiliate
+}
+
 pretender_high_king_of_ireland_cb = {
 	is_triggered_only = yes
 
@@ -9,4 +15,10 @@ illegitimate_high_king_of_ireland_cb = {
 	is_triggered_only = yes
 
 	war_goal = oust_illigitimate_high_king_wargoal
+}
+
+subjugate_lesser_irish_kingdom_cb = {
+	is_triggered_only = yes
+
+	war_goal = take_capital_vassalize
 }
