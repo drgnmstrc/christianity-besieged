@@ -1,14 +1,22 @@
 ﻿l_english: 
-  irish_events.1.t: "Proclaimed high king of ireland"
+  irish_events.1.t: "Proclaimed high king of ireland!"
   irish_events.1.d: "You have proclaimed yourself high king of ireland!"
   irish_events.1.a: "They shall all kneel before us!"
 
-  irish_events.2.t: "High king of ireland demands loyalty"
+  irish_events.2.t: "High king of ireland demands loyalty."
   irish_events.2.d: "Someone has declared themselves the high king of ireland"
   irish_events.2.a: "We shall kneel"
   irish_events.2.b: "We shall not kneel"
 
-  irish_events.3.t: "False high king of ireland demands loyalty"
-  irish_events.3.d: "Someone has falsely declared themselves the high king of ireland"
+  irish_events.3.t: "False high king of ireland demands loyalty."
+  irish_events.3.d: "Someone has falsely declared themselves the high king of ireland!"
   irish_events.3.a: "We shall kneel."
-  irish_events.3.b: "We shall no kneel."
+  irish_events.3.b: "We shall not kneel."
+
+  irish_events.4.t: "Seized Hill of Tara!"
+  irish_events.4.d: "You have seized the Hill of Tara! Lia Fáil roars in joy, for a true high king of ireland hold dominion!"
+  irish_events.4.a: "Onwards! To glory!"
+
+  irish_events.5.t: "Hill of Tara lost!"
+  irish_events.5.d: "A pretender has seized the Hill of Tara! Lia Fáil roars once again, for a false king pretends dominion over ireland!"
+  irish_events.5.a: "We roar with Lia Fáil!"
