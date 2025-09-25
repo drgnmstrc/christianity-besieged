@@ -1,0 +1,65 @@
+namespace = druid_events
+## Preperation for Beltaine
+country_event = {
+	id = druid_events.1
+	title = druid_events.1.t
+	desc = druid_events.1.d
+
+	trigger = {
+		is_month = 3
+		NOT = { is_month = 4 }
+		religion = druidism
+	}
+
+	option = {
+		name = druid_events.1.a
+		add_treasury = -75
+
+		hidden_effect = {
+			set_country_flag = grand_funding_of_beltaine
+		}
+
+		country_event = {
+			id = druid_events.2
+			days = 30
+		}
+	}
+	option = {
+		name = druid_events.1.b
+		add_treasury = -30
+
+		hidden_effect = {
+			set_country_flag = minor_funding_of_beltaine
+		}
+
+		country_event = {
+			id = druid_events.2
+			days = 30
+		}
+	}
+	option = {
+		name = druid_events.1.c
+
+		hidden_effect = {
+			set_country_flag = no_funding_of_beltaine
+		}
+	
+		country_event = {
+			id = druid_events.2
+			days = 30
+		}
+	}
+}
+
+## Ceremony of Beltaine
+country_event = {
+	id = druid_events.2
+	title = druid_events.2.t
+	desc = druid_events.2.d
+	
+	is_triggered_only = yes
+
+	option = {
+
+	}
+}
