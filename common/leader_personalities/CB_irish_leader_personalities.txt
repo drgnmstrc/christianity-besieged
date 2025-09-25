@@ -1,0 +1,12 @@
+decendant_of_chulainn = {
+	allow = {
+		tag = ULS
+	}
+
+	land_morale = 0.1
+	shock_damage_received = -0.2
+	shock_damage = 0.1
+	discipline = 0.1
+
+	fire_damage_received = 0.3
+}
