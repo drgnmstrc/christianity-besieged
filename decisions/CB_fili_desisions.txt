@@ -47,8 +47,8 @@ country_decisions = {
 
 		allow = {
 			treasury = 30
-			NOT = { has_country_modifier = fili_commision_poem_decision }
 			NOT = { has_country_modifier = fili_commissioned_poem_modifier }
+			NOT = { has_country_modifier = fili_commissioned_great_poem_modifier }
 		}
 		
 		effect = {
