@@ -1,0 +1,84 @@
+# RULES
+# ai/ay/ae -> æ/iye
+# -ia/-eia -> -iye
+# -ion -> -en
+# -shire -> -skir
+# -polis -> -bel
+# -burg -> -burgz
+# p -> b
+# b -> v
+# ph -> f
+# ch -> k
+# ph -> f
+# o -> u
+# Format: ID = { "Province" "Capital" } # Origin
+
+## BALKAN
+
+# Macedonia
+148 = { "Thesalunek" "Æmkal" } # Thessaloniki, Æm Kalas/Aiyum Qalis
+1853 = { "Linkeskir" "Linkeskir" } # Link + shire
+3001 = { "Skubiye" "Skubiye" } # Skopia
+4702 = { "Sær" "Sær" } # Serra
+4780 = { "Akre" "Akre" } # Achrida
+
+# Morea
+145 = { "Belbunz" "Sabarde" } # Peloponnesos, Spardi
+146 = { "Atike" "Marathuna" } # Attiki, Marathonas
+163 = { "Krite" "Heraklæ" } # Kriti, Herakleia
+1773 = { "Akiye" "Rakem" } # Achaea, Raqim
+4701 = { "Kornthuz" "Arus" } # Korinthos, Argos/Åarhus
+
+# Upper Pelgazar/Northern Greece
+142 = { "Kerk" "Kerskir" } # Kerkyra, Kerkyra + shire
+144 = { "Yuhanesburgz" "Yuhanesburgz" } # Epirus, Johannes + baurgs
+147 = { "Thesaliye" "Larres" } # Thessalia, Larissa
+4698 = { "Kefaluniye" "Aruskil" } # Cephalonia, Argostoli/Åarhus
+4699 = { "Æbruz" "Thrasen" } # Epirus, ???
+
+# Thrace
+149 = { "Kivel" "Kivel" } # Kavala
+151 = { "Balkubel" "Balk" } # Balikoplis, Baligi
+1764 = { "Burgz" "Burgz" } # Baurgs/Burgas
+4705 = { "Kant" "Kanterburgz" } # Xanthi, Xanthi + baurgs/Canterbury
+4779 = { "Galbel" "Galbel" } # Gallipoli
+
+# South Turgazar/Albania
+4175 = { "Less" "Less" } # Lissum
+4750 = { "Krun" "Krun" } # Croarum
+4174 = { "Dærak" "Dærak" } # Dyrrachium
+143 = { "Alun" "Alun" } # Aulon
+
+# North Turgazar/Serbia
+1766 = { "Ulbiye" "Ulbiye" } # Ulpiana
+1827 = { "Russiye" "Verni" } # Rascia, Vranje
+138 = { "Belbel" "Munez" } # Polis-Polis, Municipum
+4754 = { "Skriben" "Lirebel" } # Ascrivium, Illiropoli
+
+## ITALY
+
+# Eastern Sicily
+126 = { "Melit" "Melit" } # Melita
+2982 = { "Sirakuz" "Sirakuz" } # Syracusa
+124 = { "Mezan" "Mezan" } # Messana
+
+# Western Sicily
+4737 = { "Krigæn" "Krigæn" } # Akragas
+4736 = { "Dreban" "Dreban" } # Drepanon
+125 = { "Banur" "Banur" } # Panormos
+
+# Calabria
+1934 = { "Lukaniye" "Butenzæ" } # Lucania, Potentia
+2984 = { "Kusenz" "Kusenz" } # Consentia
+123 = { "Kalabriye" "Regæ" } # Calabria, Rhigion/Reggium
+
+# Apulia
+122 = { "Salt" "Saltburgz" } # Sallentium, Sallentium + baurgs/Salzburg
+1933 = { "Bare" "Bare" } # Barion
+2985 = { "Fuk" "Fuk" } # Phocaea/Focias
+4733 = { "Muliz" "Kampaves" } # Molisium, Campobasum
+
+# Campania
+4734 = { "Abel" "Abelburgz" } # Avellinum, Avellinum + baurgs
+2983 = { "Selern" "Selern" } # Salernum
+121 = { "Nabel" "Nabel" } # Neapolis

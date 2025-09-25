@@ -20,7 +20,7 @@
 4174 = { "Dorreksho" "Dorreksho" } # Dyrrachium
 143 = { "Valórri" "Valórri" } # Aulon
 
-# North Turgazar/Serbia
+# North Turgazar/Rascia
 1766 = { "Dardenë" "Dardenë" } # Dardania
 1827 = { "Rësh" "Varrin" } # Rascia, Vranje
 138 = { "Orbs" "Munikipo" } # Urbs, Municipum

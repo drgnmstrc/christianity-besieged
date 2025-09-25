@@ -61,7 +61,7 @@
 127 = { "Touris" "Touris" } # Turris
 2986 = { "Karales" "Karales" } # Caralis
 4735 = { "Thares" "Thares" } # Tharros
-1247 = { "Koursika" "Allea" } # Spoletium
+1247 = { "Koursika" "Allea" } # Corsica, Alalia
 
 ## BALKANS
 
