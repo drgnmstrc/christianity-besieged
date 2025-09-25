@@ -1,5 +1,7 @@
 country_decisions = {
 	proclaim_high_kingdom_of_ireland = {
+		major = yes
+		
 		potential = {
 			culture = irish
 			has_reform = irish_kingdom
@@ -42,6 +44,8 @@ country_decisions = {
 
 		effect = {
 			add_government_reform = irish_high_kingdom
+
+			swap_non_generic_missions = yes
 
 			country_event = {
 				id = irish_events.1
