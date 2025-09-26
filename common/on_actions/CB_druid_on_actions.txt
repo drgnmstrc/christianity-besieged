@@ -1,0 +1,42 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_druids }
+		set_estate_privilege = druid_organisation_of_worship_privilege
+		set_estate_privilege = druid_control_of_force_privilege
+		set_estate_privilege = druid_attendance_to_sacrifice_privilege
+	}	
+}
+
+on_conquest = {
+	if = {
+		limit = { has_province_modifier = druid_holy_site_modifier }
+
+		remove_province_modifier = druid_holy_site_modifier
+
+		## Trigger event 
+
+		if = {
+			limit = { 
+				owner = {
+					has_estate = estate_druids
+				}
+			}
+
+			add_province_modifier = {
+				name = druid_conqured_holy_site_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+on_province_religion_converted = {
+	if = {
+		limit = { 
+			has_province_modifier = druid_conqured_holy_site_modifier  
+			NOT = { owner = { has_estate = estate_druids } }
+		}
+
+		remove_province_modifier = druid_conqured_holy_site_modifier
+	}
+}

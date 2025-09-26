@@ -1,0 +1,10 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_brehon }
+		set_estate_privilege = brehon_civil_right_of_judgment_privilege
+		set_estate_privilege = brehon_criminal_right_of_judgment_privilege
+		set_estate_privilege = brehon_heritic_right_of_judgment_privilege
+		set_estate_privilege = brehon_judgment_of_kin_privilege
+		set_estate_privilege = brehon_protection_of_bile_privilege
+	}	
+}

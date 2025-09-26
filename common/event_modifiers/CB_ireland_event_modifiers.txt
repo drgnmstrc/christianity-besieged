@@ -1,0 +1,19 @@
+ousted_pretender_high_king_modifier = {
+
+}
+
+pretender_high_king_modifier = {
+
+}
+
+defended_high_king_legitimacy_modifier = {
+
+}
+
+forced_to_recognise_high_king_modifer = {
+
+}
+
+lia_fáil_held_modifier = {
+	monarch_lifespan = 0.1
+}

@@ -1,0 +1,22 @@
+druidic_question_of_governance_rebels = {
+	area = nation
+
+	government = theocracy
+	religion = druidism
+	will_relocate = yes
+
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+
+	artillery = 0.15
+	infantry = 0.65
+	cavalry = 0.2
+
+	morale = 0.4
+
+	demands_enforced_effect = {
+		change_government_to_theocracy = yes
+	}
+}

@@ -1,0 +1,86 @@
+druidic_theocracy = {
+	icon = "gov_soldiers_4"
+	allow_normal_conversion = no
+	potential = {
+		religion = druidism
+		primary_culture = irish
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = tribal_federation_legacy
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+	}
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+brehon_republic = {
+## TODO: Fill in
+}
+
+irish_kingdom = { # I
+	icon = "gov_soldiers_4"
+	allow_normal_conversion = no
+
+	potential = {
+		religion = druidism
+		primary_culture = irish
+	}
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = tribal_kingdom_legacy
+
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+	}
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
+
+	ai = {
+		factor = 1
+	}
+}
+
+irish_high_kingdom = { # I
+	icon = "gov_tanestry"
+	allow_normal_conversion = no
+
+	potential = {
+		religion = druidism
+		primary_culture = irish
+	}
+
+	valid_for_nation_designer = no
+	legacy_equivalent = tribal_kingdom_legacy
+
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+		prestige = 0.5
+		legitimacy = 1.5
+		land_forcelimit_modifier = 0.1
+	}
+
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
+
+	ai = {
+		factor = 1
+	}
+}

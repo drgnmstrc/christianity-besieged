@@ -1,0 +1,6 @@
+## See [fili](common/estates/CB_fili.txt)
+
+## Improve opinion of other country with fili estate
+fili_increase_kin_opinion_agenda = {
+
+}

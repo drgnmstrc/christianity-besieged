@@ -1,0 +1,8 @@
+namespace = brehon_events
+country_event = {
+	id = brehon_events.1
+	
+	option = {
+		## TODO
+	}
+}

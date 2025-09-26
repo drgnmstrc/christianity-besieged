@@ -1,0 +1,50 @@
+## See [druids](common/estates/CB_druids.txt)
+
+## When declaring war on country of same religeon type 
+## Lowers stability
+## Increases unrest
+## Other bad modifiers
+##
+## Scaled with `estate_druid` influence
+druid_control_of_force_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## The druids were responsible for the organisation of worship
+##
+## Grants bonuses to provinces scaled with `estate_druid` influence.
+## Allows `druid_sponser_holy_site_decision`.
+druid_organisation_of_worship_privilege = {
+	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = DRUID_SPONSER_HOLY_SITE
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## The druids would oversee human sacrifices to the god
+## 
+## Allows `druid_sacrifice_captives_decision`.
+druid_attendance_to_sacrifice_privilege = {
+	icon = 1
+
+	on_granted = {
+		enable_estate_action = {
+			estate_action = DRUID_SACRIFICE_CAPTIVES
+		}
+	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}

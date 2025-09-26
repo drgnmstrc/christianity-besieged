@@ -1,0 +1,76 @@
+## https://en.wikipedia.org/wiki/Druid
+
+estate_druids = {
+	icon = 1
+	color = { 18 52 86 }
+
+	trigger = {
+		culture_group = insular_celtic
+	}
+
+	privileges = {
+		druid_control_of_force_privilege
+		druid_organisation_of_worship_privilege
+		druid_attendance_to_sacrifice_privilege
+	}
+
+	agendas = {
+		druid_establish_holy_site_agenda
+		druid_cannonise_druid_agenda
+	}
+
+	country_modifier_happy = {
+		global_tax_modifier = 0.2
+		papal_influence = 1
+		devotion = 0.5
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 1
+		stability_cost_modifier = -0.1
+	}
+	country_modifier_neutral = {
+		global_tax_modifier = 0.2
+	}	
+	country_modifier_angry = {
+		global_tax_modifier = -0.1
+		papal_influence = -1
+		devotion = -0.5
+		church_power_modifier = -0.25
+		monthly_fervor_increase = -1
+		stability_cost_modifier = 0.1
+		global_unrest = 2
+	}
+
+	land_ownership_modifier = {
+		church_loyalty_modifier = 0.2
+	}
+
+	base_influence = 30
+	influence_modifier = {
+		desc = "Norms"
+		influence = 80
+		trigger = {
+			always = yes
+		}
+
+	}
+
+	province_independence_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			NOT = { religion_group = owner }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { religion = owner }
+		}
+		modifier = {
+			factor = 0.67
+			NOT = { is_state_core = owner }
+		}
+		modifier = {
+			factor = 1.2
+			base_tax = 10
+		}
+	}
+}

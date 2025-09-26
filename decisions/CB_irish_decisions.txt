@@ -1,0 +1,68 @@
+country_decisions = {
+	proclaim_high_kingdom_of_ireland = {
+		major = yes
+		
+		potential = {
+			culture = irish
+			has_reform = irish_kingdom
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				all_province = {
+					OR = {
+						area = munster_area
+						area = leinster_area
+						area = connacht_area
+						area = ulster_area
+					}
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}		
+				}
+
+				AND = {
+					province_id = 373
+					NOT = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}
+
+		allow = {
+			NOT = { has_any_disaster = yes }
+			legitimacy = 100
+
+			calc_true_if = {
+				all_country = {
+					capital_scope = {
+						OR = {
+							area = munster_area
+							area = leinster_area
+							area = connacht_area
+							area = ulster_area
+						}
+					}
+					
+					vassal_of = ROOT
+				}
+				amount = 2
+			}
+
+			373 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_government_reform = irish_high_kingdom
+
+			swap_non_generic_missions = yes
+
+			country_event = {
+				id = irish_events.1
+			}
+		}
+	}
+}

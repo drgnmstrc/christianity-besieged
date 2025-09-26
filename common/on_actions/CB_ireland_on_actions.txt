@@ -1,0 +1,31 @@
+on_conquest = {
+	if = { 
+		limit = {
+			province_id = 373
+			owner = {
+				OR = {
+					has_reform = irish_kingdom
+					has_reform = irish_high_kingdom
+				}
+			}
+		}
+	}
+	country_event = {
+		id = irish_events.4
+	}
+
+	every_country = {
+		limit = { 
+			NOT = { 
+				tag = ROOT 
+			}
+			has_reform = irish_high_kingdom 
+		}
+
+		ROOT = { save_event_target_as = hill_of_tara_controller }
+
+		country_event = {
+			id = irish_events.5
+		}
+	}
+}

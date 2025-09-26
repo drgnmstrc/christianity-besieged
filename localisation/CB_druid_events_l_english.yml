@@ -1,0 +1,9 @@
+﻿l_english:
+  druid_events.1.t: "Druids prepare for Beltaine"
+  druid_events.1.d: "The druids have begun preparations for Beltaine!"
+  druid_events.1.a: "Grant funds generously"
+  druid_events.1.b: "Grant funds"
+  druid_events.1.c: "Leave them to it"
+
+  druid_events.2.t: "Beltaine Celebrated"
+  druid_events.2.d: "Beltaine has been celebrated. TODO: more stuff"
