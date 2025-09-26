@@ -1,39 +1,66 @@
-irish_kingdom_mission_slot_1 = {
-	
-}
+## Irish Kingdoms
 
-ulster_mission_slot_1 = {
+irish_kingdom_missions_slot_1 = {
 	slot = 1
-	generic = no
+	generic = yes
+	has_country_shield = no
 	ai = yes
-	has_country_shield = yes
 
 	potential = {
-		tag = ULS
+		OR = {
+			has_reform = irish_kingdom
+			has_reform = irish_high_kingdom
+		}
 	}
 
-	ulster_recruit_great_general_mission = {
+	irish_centralise_the_realm_mission = {
 		icon = mission_rb_conquer_the_highlands
-		
+
 		trigger = {
-			any_neighbor_country = {
-				humiliated_by = ROOT
+			crown_land_share = 35
+
+			estate_loyalty = {
+				estate = estate_druids
+				loyalty = 30
+			}
+			estate_loyalty = {
+				estate = estate_fili
+				loyalty = 30
+			}
+			estate_loyalty = {
+				estate = estate_brehon
+				loyalty = 30
 			}
 		}
 
 		effect = {
-			country_event = {
-				id = irish_events.6
-			}
+		}
+	}
+
+	irish_obtain_consort_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 4
+
+		required_missions = {
+			irish_centralise_the_realm_mission
+		}
+
+		trigger = {
+			has_consort = yes
+		}
+
+		effect = {
+			
 		}
 	}
 }
 
 irish_kingdom_mission_slot_2 = {
 	slot = 2
-	generic = no
-	ai = yes
+	generic = yes
 	has_country_shield = no
+	ai = yes
 
 	potential = {
 		OR = {
@@ -42,26 +69,145 @@ irish_kingdom_mission_slot_2 = {
 		}
 	}
 
-	build_an_army_mission = {
+	irish_sponsor_poetry_mission = {
 		icon = mission_rb_conquer_the_highlands
-		
+
+		position = 2
+
+		required_missions = {
+			irish_centralise_the_realm_mission
+		}
+
 		trigger = {
-			num_of_infantry = 6
-			num_of_cavalry = 4
+			OR = {
+				has_country_modifier = fili_commissioned_poem_modifier
+				has_country_modifier = fili_commissioned_great_poem_modifier
+			}
+		}
+
+		effect = {
+
+		}
+	}
+
+	irish_secure_succession_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 5
+
+		required_missions = {
+			irish_sponsor_poetry_mission
+			irish_obtain_consort_mission
+		}
+
+		trigger = {
+			has_heir = yes
+		}
+
+		effect = {
+
+		}
+	}
+}
+
+irish_kingdom_mission_slot_3 = {
+	slot = 3
+	ai = yes
+	generic = yes
+	has_country_shield = no	
+
+	potential = {
+		OR = {
+			has_reform = irish_kingdom
+			has_reform = irish_high_kingdom
+		}
+	}
+
+	irish_sponsor_holy_site_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 2
+
+		required_missions = {
+			irish_centralise_the_realm_mission
+		}
+
+		trigger = {
+			any_province = {
+				owned_by = ROOT
+				has_province_modifier = druid_holy_site_modifier
+			}
 		}
 
 		effect = {
 			
 		}
 	}
+
+	irish_sacrifice_captives_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 4
+
+		required_missions = {
+			irish_sponsor_holy_site_mission
+			irish_cattle_raids_mission
+		}
+
+		trigger = {
+			has_country_modifier = druid_sacrificed_captives_modifier
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_seize_hill_of_tara_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 6
+
+		required_missions = {
+			irish_sacrifice_captives_mission
+			irish_secure_succession_mission
+			irish_subjugate_neighbor_mission
+		}
+
+		trigger = {
+			373 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_proclaim_high_king_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_seize_hill_of_tara_mission
+		}
+
+		trigger = {
+			has_reform = irish_high_kingdom
+		}
+
+		effect = {
+
+		}
+	}
 }
 
-irish_kingdom_slot_3 = {
-	slot = 3
-	generic = no
+irish_kingdom_mission_slot_4 = {
+	slot = 4
 	ai = yes
-	has_country_shield = no
-	
+	generic = yes
+	has_country_shield = no	
+
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
@@ -69,28 +215,32 @@ irish_kingdom_slot_3 = {
 		}
 	}
 
-	seize_the_hill_of_tara_mission = {
+	irish_prepare_for_conquest_mission = {
 		icon = mission_rb_conquer_the_highlands
 
-		position = 2
-
-		required_missions = {
-			ulster_recruit_great_general_mission
-			build_an_army_mission
-			gain_isles_support_mission
+		trigger = {
+			num_of_infantry = 7
+			num_of_cavalry = 4
 		}
 
-		provinces_to_highlight = {
-			province_id = 373
+		effect = {}
+	}
+
+	irish_cattle_raids_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 3
+
+		required_missions = {
+			ulster_a_warrior_reborn_mission
+			irish_prepare_for_conquest_mission
 		}
 
 		trigger = {
-			373 = {
-				OR = {
-					owned_by = ROOT 
-					owner = {
-						is_subject_of = ROOT
-					}
+			any_neighbor_country = {
+				war_with = ROOT
+				any_province = {
+					devastation = 30
 				}
 			}
 		}
@@ -98,34 +248,35 @@ irish_kingdom_slot_3 = {
 		effect = {
 			
 		}
-
-		ai_weight = {
-			factor = 100
-		}
 	}
 
-
-	proclaim_high_king_of_ireland_mission = {
+	irish_subjugate_neighbor_mission = {
 		icon = mission_rb_conquer_the_highlands
 
+		position = 5
+
 		required_missions = {
-			seize_the_hill_of_tara_mission
+			irish_cattle_raids_mission
 		}
 
 		trigger = {
-			has_reform = irish_high_kingdom
+			any_neighbor_country = {
+				is_subject_of = ROOT
+			}
 		}
 
 		effect = {
+			
 		}
 	}
+
 }
 
-irish_kingdom_slot_4 = {
-	slot = 4
-	generic = no
+irish_kingdom_mission_slot_5 = {
+	slot = 5
 	ai = yes
-	has_country_shield = no
+	generic = yes
+	has_country_shield = no	
 
 	potential = {
 		OR = {
@@ -134,77 +285,126 @@ irish_kingdom_slot_4 = {
 		}
 	}
 
-	gain_isles_support_mission = {
+	irish_gain_support_in_the_isles_mission = {
 		icon = mission_rb_conquer_the_highlands
 
-		provinces_to_highlight = {
-			OR = {
-				area = highlands_area
-				area = lowlands_area
-				area = yorkshire_area
-				area = home_counties_area
-				area = east_anglia_area
-				area = east_midlands_area
-				area = west_midlands_area
-				area = scottish_marches_area
-				area = wessex_area
-				area = wales_area
-			}
+		position = 2
+
+		required_missions = {
+			irish_prepare_for_conquest_mission
 		}
 
 		trigger = {
 			calc_true_if = {
 				all_country = {
 					capital_scope = {
-						OR = {
-							area = highlands_area
-							area = lowlands_area
-							area = yorkshire_area
-							area = home_counties_area
-							area = east_anglia_area
-							area = east_midlands_area
-							area = west_midlands_area
-							area = scottish_marches_area
-							area = wessex_area
-							area = wales_area
-						}
-					}	
-					
+						area = highlands_area
+						area = lowlands_area
+						area = yorkshire_area
+						area = home_counties_area
+						area = east_anglia_area
+						area = wessex_area
+						area = wales_area
+					}
 					marriage_with = ROOT
 					alliance_with = ROOT
 				}
 				amount = 2
 			}
 		}
-		
+
 		effect = {
 			
 		}
 	}
 }
 
+## Irish High Kingdom
+
 irish_high_kingdom_slot_1 = {
 	slot = 1
-	generic = no
 	ai = yes
-	has_country_shield = no
+	generic = yes
+	has_country_shield = no	
 
 	potential = {
 		has_reform = irish_high_kingdom
 	}
 
-	establish_naval_presence_mission = {
+	irish_placate_the_estates_mission = {
 		icon = mission_rb_conquer_the_highlands
 
-		position = 5
+		position = 6
+
+		trigger = {
+			OR = {
+				OR = {
+					estate_loyalty = {
+						estate = estate_druids
+						loyalty = 80
+					}
+					estate_loyalty = {
+						estate = estate_fili
+						loyalty = 80
+					}
+					estate_loyalty = {
+						estate = estate_brehon
+						loyalty = 80
+					}
+				}
+				estate_loyalty = {
+					estate = estate_druids
+					loyalty = 60
+				}
+				estate_loyalty = {
+					estate = estate_fili
+					loyalty = 60
+				}
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 60
+				}
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_dev_beer_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 9
+
 
 		required_missions = {
-			establish_contact_with_mainland_mission
+			irish_placate_the_estates_mission
+			irish_drive_out_heritics_mission
 		}
 
 		trigger = {
-			num_of_heavy_ship = 4
-			num_of_galley = 10
+			any_province = {
+				country_or_non_sovereign_subject_holds = ROOT
+				trade_goods = beer
+				grown_by_development = 5
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_place_druidic_burden_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_dev_beer_mission
+		}
+	
+		trigger = {
+			## TODO: New druid privilege 
 		}
 
 		effect = {
@@ -215,72 +415,95 @@ irish_high_kingdom_slot_1 = {
 
 irish_high_kingdom_slot_2 = {
 	slot = 2
-	generic = no
 	ai = yes
-	has_country_shield = no
+	generic = yes
+	has_country_shield = no	
 
 	potential = {
 		has_reform = irish_high_kingdom
 	}
 
-	establish_contact_with_mainland_mission = {
+	irish_drive_out_heritics_mission = {
 		icon = mission_rb_conquer_the_highlands
 
-		position = 4
+		position = 8
 
 		required_missions = {
-			proclaim_high_king_of_ireland_mission
-		}
-
-		provinces_to_highlight = {
-			region = iberia_region
-			region = france_region
-			region = italy_region
-			region = north_german_region
-			region = south_german_region
-			region = scandinavia_region
+			irish_proclaim_high_king_mission
 		}
 
 		trigger = {
-			calc_true_if = {
-				all_country = {
-					capital_scope = {
-						region = iberia_region
-						region = france_region
-						region = italy_region
-						region = north_german_region
-						region = south_german_region
-						region = scandinavia_region
+			all_heretic_province = {
+				NOT = {
+					OR = {
+						area = munster_area
+						area = leinster_area
+						area = connacht_area
+						area = ulster_area
 					}
-					marriage_with = ROOT
-					alliance_with = ROOT
 				}
-				amount = 2
 			}
 		}
 
 		effect = {
+			
+		}
+	}
 
+	irish_hold_druidic_meeting_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 10
+
+		required_missions = {
+			irish_dev_beer_mission
+			irish_hold_druidic_meeting_mission
+		}
+
+		trigger = {
+			## TODO: decision for high king to hold meeting
+		}
+		
+		effect = {
+
+		}
+	}
+
+	irish_divine_future_of_ireland_mission = {
+		icon = mission_rb_conquer_the_highlands
+		
+		required_missions = {
+			irish_hold_druidic_meeting_mission
+		}
+
+		trigger = {
+			## TODO: also decision
+		}
+
+		effect = {
+			
 		}
 	}
 }
 
 irish_high_kingdom_slot_3 = {
 	slot = 3
-	generic = no
 	ai = yes
-	has_country_shield = no
+	generic = yes
+	has_country_shield = no	
 
 	potential = {
 		has_reform = irish_high_kingdom
 	}
 
-	weather_pretenders_mission = {
+	irish_weather_pretenders_mission = {
 		icon = mission_rb_conquer_the_highlands
 
+		position = 8
+
 		required_missions = {
-			proclaim_high_king_of_ireland_mission
-		}		
+			irish_proclaim_high_king_mission
+		}
 
 		trigger = {
 			NOT = {
@@ -302,273 +525,263 @@ irish_high_kingdom_slot_3 = {
 		}
 
 		effect = {
-			if = {
-				limit = { has_country_flag = ousted_pretender_high_king }
-				every_country = {
-					limit = { has_country_flag = pretender_high_king }
-
-					vassalize = ROOT
-				}
-				add_prestige = 20
-			}
-
-			if = {
-				limit = { has_country_flag = defended_high_king_legitimacy }
-				every_country = {
-					limit = { has_country_flag = forced_to_recognise_high_king }
-
-					vassalize = ROOT
-				}
-				add_prestige = 10
-			}
-
-			every_country = {
-				limit = { has_reform = irish_kingdom }
-
-				add_casus_belli = {
-					type = subjugate_lesser_irish_kingdom_cb
-					target = THIS
-				}
-			}
+			
 		}
 	}
-}
 
-irish_high_kingdom_slot_4 = {
-	slot = 3
-	generic = no
-	ai = yes
-	has_country_shield = no
-
-	potential = {
-		has_reform = irish_high_kingdom
-	}
-
-	unify_ireland = {
+	irish_restore_hall_of_banquets_mission = {
 		icon = mission_rb_conquer_the_highlands
 
 		required_missions = {
-			weather_pretenders_mission
+			irish_weather_pretenders_mission
 		}
 
 		trigger = {
-			all_country = {
-				if = { limit = { has_reform = irish_kingdom } }
-				is_subject_of = ROOT
-			}
+			## TODO: Great Project
 		}
-
+		
 		effect = {
 
 		}
 	}
 
-	fortify_ireland_mission = {
+	irish_hold_great_diet_mission = {
 		icon = mission_rb_conquer_the_highlands
 
 		required_missions = {
-			unify_ireland
+			irish_restore_hall_of_banquets_mission
+		}
+
+		trigger = {
+			## TODO: Decision
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_unify_ireland_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 12
+
+		required_missions = {
+			irish_divine_future_of_ireland_mission
+			irish_naval_supremacy_mission
+			irish_hold_great_diet_mission
+		}
+
+		trigger = {
+			all_province = {
+				OR = {
+					area = munster_area
+					area = leinster_area
+					area = connacht_area
+					area = ulster_area
+				}
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			
+		}
+	}
+}
+
+irish_high_kingdom_slot_4 = {
+	slot = 4
+	ai = yes
+	generic = yes
+	has_country_shield = no	
+
+	potential = {
+		has_reform = irish_high_kingdom
+	}
+
+	irish_build_defences_missions = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 8
+
+		required_missions = {
+			irish_proclaim_high_king_mission
 		}
 
 		trigger = {
 			4121 = {
 				has_fort_building_trigger = yes
 			}
+
+			calc_true_if = {
+				all_province = {
+					has_coast_defense_building_trigger = yes
+				}
+				amount = 2
+			}
+		}
+
+		effect = {
+
+		}
+	}
+
+	irish_prepare_navy_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_build_defences_missions
+		}
+
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					has_dock_building_trigger = yes
+				}
+				amount = 3
+
+				num_of_heavy_ship = 4
+				num_of_light_ship = 7
+				num_of_galley = 12
+			}
 		}
 
 		effect = {
 			
 		}
 	}
+
+	irish_establish_trade_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_prepare_navy_mission
+		}
+
+		trigger = {
+			home_trade_node = {
+				is_strongest_trade_power = ROOT
+				province_trade_power = 50
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_naval_supremacy_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_establish_trade_mission
+		}
+
+		trigger = {
+			all_trade_node = {
+				trade_range = ROOT
+
+				all_trade_node_member_country = {
+					NOT = { navy_size = ROOT }
+				}
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
 }
 
-# irish_mission_slot_2 = {
-# 	slot = 2
-# 	generic = no
-# 	ai = yes
-# 	has_country_shield = yes
+irish_high_kingdom_slot_5 = {
+	slot = 5
+	ai = yes
+	generic = yes
+	has_country_shield = no	
 
-# 	potential = {
-# 		OR = {
-# 			has_reform = irish_kingdom
-# 			have_had_reform = irish_kingdom
-# 		}
-# 	}
+	potential = {
+		has_reform = irish_high_kingdom
+	}
 
-# 	build_an_army_mission = {
-# 		icon = mission_rb_conquer_the_highlands
+	irish_mainland_relations_mission = {
+		icon = mission_rb_conquer_the_highlands
 
-# 		trigger = {
-# 			army_size_percentage = 0.8
-# 		}
+		position = 9
 
-# 		effect = {
+		required_missions = {
+			irish_build_defences_missions
+		}
 
-# 		}
-# 	}
+		trigger = {
+			calc_true_if = {
+				all_country = {
+					capital_scope = {
+						region = iberia_region
+						region = france_region
+						region = italy_region
+						region = north_german_region
+						region = south_german_region
+						region = scandinavia_region
+					}
+					marriage_with = ROOT
+					alliance_with = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+				amount = 2
+			}
 
+			any_country = {
+				capital_scope = {
+						region = iberia_region
+						region = france_region
+						region = italy_region
+						region = north_german_region
+						region = south_german_region
+						region = scandinavia_region
+				}
+				NOT = { alliance_with = ROOT }
+				NOT = { marriage_with = ROOT }
+				has_opinion = {
+					who = THIS
+					value = 50
+				}
+			}
 
-# 	build_a_navy_mission = {
-# 		icon = mission_rb_conquer_the_highlands
+		}
 
-# 		position = 4
-
-# 		required_missions = {
-# 			weather_pretenders_mission
-# 		}
-
-# 		trigger = {
-# 			navy_size_percentage = 1
-# 		}
-
-# 		effect = {
-# 		}
-# 	}
-# }
-
-# irish_mission_slot_3 = {
-# 	slot = 3
-# 	generic = no
-# 	ai = yes
-# 	has_country_shield = yes
-
-# 	potential = {
-# 		OR = {
-# 			has_reform = irish_kingdom
-# 			have_had_reform = irish_kingdom
-# 		}
-# 	}
-
-# 	proclaim_high_king_of_ireland_mission = {
-# 		icon = mission_rb_conquer_the_highlands
-		
-# 		position = 2
-
-# 		required_missions = {
-# 			seize_the_hill_of_tara_mission
-# 		}
-
-# 		trigger = {
-# 			has_reform = irish_high_kingdom
-# 		}
-
-# 		effect = {
-
-# 		}
-# 	}
-
-# 	weather_pretenders_mission = {
-# 		icon = mission_rb_conquer_the_highlands
-
-# 		required_missions = {
-# 			proclaim_high_king_of_ireland_mission
-# 		}
-
-# 		trigger = {
-# 			NOT = {
-# 				any_country = {
-# 					if = { 
-# 						limit = { 
-# 							NOT  = { tag = ROOT } 
-# 						}
-# 					}
-# 					OR = {
-# 						has_casus_belli = {
-# 							type = illegitimate_high_king_of_ireland_cb
-# 							target = ROOT
-# 						}
-# 						has_reform = irish_high_kingdom
-# 					}
-# 				}
-# 			}
-# 		}
-
-# 		effect = {
-# 			if = {
-# 				limit = { has_country_flag = ousted_pretender_high_king }
-# 				every_country = {
-# 					limit = { has_country_flag = pretender_high_king }
-
-# 					vassalize = ROOT
-# 				}
-# 				add_prestige = 20
-# 			}
-
-# 			if = {
-# 				limit = { has_country_flag = defended_high_king_legitimacy }
-# 				every_country = {
-# 					limit = { has_country_flag = forced_to_recognise_high_king }
-
-# 					vassalize = ROOT
-# 				}
-# 				add_prestige = 10
-# 			}
-
-# 			munster_area = {
-#                 add_permanent_claim = ROOT
-#             }
-#             leinster_area = {
-#                 add_permanent_claim = ROOT
-#             }
-#             connacht_area = {
-#                 add_permanent_claim = ROOT
-#             }
-#             ulster_area = {
-#                 add_permanent_claim = ROOT
-#             }
-# 		}
-# 	}
-
-
-# irish_missions_slot_5 = {
-# 	slot = 5
-# 	generic = no
-# 	ai = yes
-# 	has_country_shield = yes
-
-# 	potential = {
-# 		OR = {
-# 			has_reform = irish_kingdom
-# 			have_had_reform = irish_kingdom
-# 		}
-# 	}
-
-# 	establish_contact_with_isles_mission = {
-# 		icon = mission_rb_conquer_the_highlands
-
-# 		position = 2
-
-# 		provinces_to_highlight = {
-# 			area = highlands_area
-# 			area = lowlands_area
-# 			area = yorkshire_area
-# 			area = home_counties_area
-# 			area = east_anglia_area
-# 			area = wessex_area
-# 			area = wales_area
-# 		}
-
-# 		trigger = {
-# 			calc_true_if = {
-# 				all_country = {
-# 					capital_scope = {
-# 						area = highlands_area
-# 						area = lowlands_area
-# 						area = yorkshire_area
-# 						area = home_counties_area
-# 						area = east_anglia_area
-# 						area = wessex_area
-# 						area = wales_area
-# 					}
-# 					marriage_with = ROOT
-# 					alliance_with = ROOT
-# 				}
-# 				amount = 2
-# 			}
-# 		}
-		
-# 		effect = {
+		effect = {
 			
-# 		}
-# 	}
-# }
+		}
+	}
+
+	irish_infiltrate_reichien_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_mainland_relations_mission
+			irish_prepare_navy_mission
+		}
+
+		trigger = {
+			any_elector = {
+				OR = {
+					alliance_with = ROOT
+					is_subject_of = ROOT
+				}
+			}
+		}
+		
+		effect = {
+			
+		}
+	}
+}
+
+## Druidic Theocracy
+
+## Brehon Republic

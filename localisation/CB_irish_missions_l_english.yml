@@ -1,30 +1,62 @@
 ﻿l_english:
-  ulster_recruit_great_general_mission_title: "A Warrior Reborn"
-  ulster_recruit_great_general_mission_desc: "Whispers of Chulainn linger in the lands. Ulster needs a hero of old."
+  irish_centralise_the_realm_mission_title: "Centralise the Realm"
 
-  build_an_army_mission_title: "Prepare for conquest"
-  build_an_army_mission_desc: "Build your army and ready the horses!"
+  irish_obtain_consort_mission_title: "Obtain Consort"
 
-  gain_isles_support_mission_title: "Gain Support in The Isles"
-  gain_isles_support_mission_desc: "We cannot hope to become the high king of ireland without allies"
+  irish_sponsor_poetry_mission_title: "Commision Poetry"
 
-  seize_the_hill_of_tara_mission_title: "Seize the Hill of Tara"
-  seize_the_hill_of_tara_mission_desc: "For centuries high kings of Ireland would be coronated upon the Hill of Tara, where Lia Fáil stands. If we are to see our ambitions for a united ireland through, we would best be served to seize the Hill of Tara."
+  irish_secure_succession_mission_title: "Elect Tanist"
 
-  proclaim_high_king_of_ireland_mission_title: "Proclaim High King of Ireland"
-  proclaim_high_king_of_ireland_mission_desc: "The time has come to see our ambitions through! The Hill of Tara has been seized and Lia Fáil is within our grasp, all that remains is to proclaim ourselves the high kingdom of Ireland."
+  irish_sponsor_holy_site_mission_title: "Sponsor Holy Site"
 
-  weather_pretenders_mission_title: "Weather Pretenders"
-  weather_pretenders_mission_desc: "We have proclaimed ourselves the high kingdom of Ireland. But our struggle is not over, for even now pretenders plot in the shadows. If we are to continue our ambitions we must crush those who would question our legitimacy."
+  irish_sacrifice_captives_mission_title: "Sacrifice Captives"
 
-  establish_naval_presence_mission_title: "Control the Waves"
-  establish_naval_presence_mission_desc: "It is time to expand beyond the borders of our island home."
+  irish_seize_hill_of_tara_mission_title: "Seize the Hill of Tara"
 
-  establish_contact_with_mainland_mission_title: "Expanded Diplomacy"
-  establish_contact_with_mainland_mission_desc: "We must look beyond the isles if we wish to expand further."
+  irish_proclaim_high_king_mission_title: "Proclaim High King"
 
-  unify_ireland_title: "Irish Unification"
-  unify_ireland_desc: "We must unify our island home."
+  irish_prepare_for_conquest_mission_title: "Prepare for Conquest"
 
-  fortify_ireland_mission_title: "Irish Fortification"
-  fortify_ireland_mission_desc: "We must fortify Ireland"
+  irish_cattle_raids_mission_title: "Raid for Cattle"
+
+  irish_subjugate_neighbor_mission_title: "Subjugate Neighbor"
+
+  irish_gain_support_in_the_isles_mission_title: "Gain Support in Britannia"
+
+  irish_placate_the_estates_mission_title: "Placate the Estates"
+
+  irish_dev_beer_mission_title: "Promote Brewing"
+
+  irish_place_druidic_burden_mission_title: "Burdern the Druids"
+
+  irish_drive_out_heritics_mission_title: "Drive out the Heritics"
+
+  irish_hold_druidic_meeting_mission_title: "Hold Druidic Council"
+
+  irish_divine_future_of_ireland_mission_title: "Divine the Irish Future"
+
+  irish_weather_pretenders_mission_title: "Weather Pretenders"
+
+  irish_restore_hall_of_banquets_mission_title: "Restore Teach Miodhchuarta"
+
+  irish_hold_great_diet_mission_title: "Hold Diet of Ireland"
+
+  irish_unify_ireland_mission_title: "Unify Ireland"
+
+  irish_build_defences_missions_title: "Ready Irish Defences"
+
+  irish_prepare_navy_mission_title: "Prepare Navy"
+
+  irish_establish_trade_mission_title: "Establish Trade"
+
+  irish_naval_supremacy_mission_title: "Naval Supremacy"
+
+  irish_mainland_relations_mission_title: "Mainland Relations"
+
+  irish_infiltrate_reichien_mission_title: "Infiltrate Reichien"
+
+  
+
+  ulster_a_warrior_reborn_mission_title: "A Warrior Reborn"
+
+  cattle_raids_total_losses: "Have lost a war with at least §Y2500§! casualites."

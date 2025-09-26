@@ -1,0 +1,201 @@
+ulster_irish_kingdom_mission_slot_4 = {
+	slot = 4
+	ai = yes
+	generic = no
+	has_country_shield = yes
+
+	potential = {
+		tag = ULS
+		OR = {
+			has_reform = irish_kingdom
+			has_reform = irish_high_kingdom
+		}
+	}
+
+	irish_prepare_for_conquest_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			num_of_infantry = 7
+			num_of_cavalry = 4
+		}
+
+		effect = {}
+	}
+
+	ulster_a_warrior_reborn_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 2
+
+		required_missions = {
+			irish_prepare_for_conquest_mission
+		}
+
+		trigger = {
+			any_neighbor_country = {
+				ROOT = {
+					war_score_against = {
+						who = THIS
+						value = 30
+					} 
+				}
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_cattle_raids_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 3
+
+		required_missions = {
+			ulster_a_warrior_reborn_mission
+		}
+
+		trigger = {
+			any_neighbor_country = {
+				war_with = ROOT
+				any_province = {
+					devastation = 30
+				}
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_subjugate_neighbor_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 5
+
+		required_missions = {
+			irish_cattle_raids_mission
+		}
+
+		trigger = {
+			any_neighbor_country = {
+				is_subject_of = ROOT
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+}
+
+ulster_irish_high_kingdom_slot_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+
+	potential = {
+		tag = ULS
+		has_reform = irish_high_kingdom
+	}
+
+	irish_build_defences_missions = {
+		icon = mission_rb_conquer_the_highlands
+
+		position = 8
+
+		required_missions = {
+			irish_proclaim_high_king_mission
+		}
+
+		trigger = {
+			4121 = {
+				has_fort_building_trigger = yes
+			}
+
+			calc_true_if = {
+				all_province = {
+					has_coast_defense_building_trigger = yes
+				}
+				amount = 2
+			}
+		}
+
+		effect = {
+
+		}
+	}
+
+	irish_prepare_navy_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_build_defences_missions
+		}
+
+		trigger = {
+			calc_true_if = {
+				all_province = {
+					has_dock_building_trigger = yes
+				}
+				amount = 3
+
+				num_of_heavy_ship = 4
+				num_of_light_ship = 7
+				num_of_galley = 12
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_establish_trade_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_prepare_navy_mission
+		}
+
+		trigger = {
+			home_trade_node = {
+				is_strongest_trade_power = ROOT
+				province_trade_power = 50
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+	irish_naval_supremacy_mission = {
+		icon = mission_rb_conquer_the_highlands
+
+		required_missions = {
+			irish_establish_trade_mission
+		}
+
+		trigger = {
+			all_trade_node = {
+				trade_range = ROOT
+
+				all_trade_node_member_country = {
+					NOT = { navy_size = ROOT }
+				}
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+
+
+}
