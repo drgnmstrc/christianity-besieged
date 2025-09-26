@@ -21,7 +21,7 @@ capital = 1816
 
 1294.5.10 = {
 	monarch = {
-		name = "Temür"
+		name = "TemÃ¼r"
 		dynasty = "Borjigin"
 		adm = 4
 		dip = 4
@@ -31,7 +31,7 @@ capital = 1816
 
 1307.6.21 = {
 	monarch = {
-		name = "Külüg"
+		name = "KÃ¼lÃ¼g"
 		dynasty = "Borjigin"
 		adm = 4
 		dip = 3
@@ -61,7 +61,7 @@ capital = 1816
 
 1323.10.4 = {
 	monarch = {
-		name = "Yesün Temür"
+		name = "YesÃ¼n TemÃ¼r"
 		dynasty = "Borjigin"
 		adm = 2
 		dip = 3
@@ -123,11 +123,11 @@ capital = 1816
 
 1333.7.19 = {
 	monarch = {
-		name = "Toghon Temür"
+		name = "Toghon TemÃ¼r"
 		dynasty = "Borjigin"
-		adm = 1
-		dip = 4
-		mil = 3
+		adm = 0
+		dip = 0
+		mil = 0
 	}
 }
 
@@ -144,3 +144,9 @@ capital = 1816
 		mil = 2
 	}
 }
+
+
+add_ruler_personality = immortal_personality
+add_ruler_personality = petty_personality
+add_ruler_personality = infertile_personality
+
