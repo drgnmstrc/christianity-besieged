@@ -113,7 +113,7 @@ country_event = { #Rise of the Džaferids
 				add_core = DZA
 			}
 			DZA = {
-				set_capital = 1954
+				set_capital = 134
 				if = {
 					limit = {
 						any_owned_province = { culture = nissinsci }
