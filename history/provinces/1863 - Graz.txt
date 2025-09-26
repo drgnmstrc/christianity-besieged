@@ -6,7 +6,7 @@
 # Graz
 # 1863 Graz - 9/20/2025 10:19:11 PM 
  
-add_core = ZDN
+add_core = KRN
 owner = KRN
 controller = KRN
 base_tax = 5
@@ -15,8 +15,8 @@ base_manpower = 3
 
 trade_goods = grain
 
-culture = slovene
-religion = manichaeism
+culture = nissinsci
+religion = ashabi
 capital = "Graz"
 
 is_city = yes

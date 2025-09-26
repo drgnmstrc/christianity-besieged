@@ -433,6 +433,7 @@ SDM = "countries/Sudmarc.txt"
 LTL = "countries/Latlerin.txt"
 GAG = "countries/Gagauz.txt"
 U19 = "countries/Theutschland.txt"
+DZA = "countries/Dzaferids.txt"
 
 #Manichaean/Zoroastrian
 X01 = "countries/Ayrarat.txt"
@@ -459,6 +460,7 @@ QRQ = "countries/Qirq-Yer.txt"
 JSZ = "countries/Jaszsag.txt"
 BLZ = "countries/Bolokhoszag.txt"
 PLM = "countries/Palmyra.txt"
+MHZ = "countries/Manihozem.txt"
 
 #Mongol
 BLK = "countries/Balikoplis.txt"
@@ -514,6 +516,7 @@ FYT = "countries/Faynitia.txt" #SOUTHEAST EUROPE MINIUPDATE
 YAL = "countries/Yaliboylu.txt" #SOUTHEAST EUROPE MINIUPDATE - REVOLTER
 CMB = "countries/Cambrias.txt"
 GRC = "countries/Graecia.txt" #south italy formable
+GHL = "countries/Ghalu.txt" #Flag Taken from https://www.reddit.com/r/vexillology/comments/plfiea/islamic_ireland_concept/
 
 #East Asian
 

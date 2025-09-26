@@ -1,8 +1,8 @@
-namespace = alsababiPrimer
+namespace = ashabiPrimer
 country_event = {
-	id = alsababiPrimer.1
-	title = alsababiPrimer.1.t
-	desc = alsababiPrimer.1.d
+	id = ashabiPrimer.1
+	title = ashabiPrimer.1.t
+	desc = ashabiPrimer.1.d
 	hidden = yes
 	trigger = {
 		religion = ashabi
@@ -30,7 +30,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = alsababiPrimer.1a
+		name = ashabiPrimer.1a
 		trigger = {
 			dip = 4
 		}
@@ -39,18 +39,18 @@ country_event = {
 			}
 			10 = {
 				country_event = {
-					id = alsababDebateEvent.0
+					id = ashabiDebateEvent.0
 				}
 			}
 			3 = {
 				country_event = {
-					id = alsababDebateEvent.1
+					id = ashabiDebateEvent.1
 				}
 			}
 		}
 	}
 	option = {
-		name = alsababiPrimer.1b
+		name = ashabiPrimer.1b
 		trigger = {
 			dip = 2
 			NOT = { dip = 4 }
@@ -60,18 +60,18 @@ country_event = {
 			}
 			5 = {
 				country_event = {
-					id = alsababDebateEvent.0
+					id = ashabiDebateEvent.0
 				}
 			}
 			5 = {
 				country_event = {
-					id = alsababDebateEvent.1
+					id = ashabiDebateEvent.1
 				}
 			}
 		}
 	}
 	option = {
-		name = alsababiPrimer.1c
+		name = ashabiPrimer.1c
 		trigger = {
 			NOT = { dip = 2 }
 		}
@@ -80,27 +80,28 @@ country_event = {
 			}
 			3 = {
 				country_event = {
-					id = alsababDebateEvent.0
+					id = ashabiDebateEvent.0
 				}
 			}
 			10 = {
 				country_event = {
-					id = alsababDebateEvent.1
+					id = ashabiDebateEvent.1
 				}
 			}
 		}
 	}
 }
-namespace = alsababDebateEvent
+
+namespace = ashabiDebateEvent
 country_event = {
-	id = alsababDebateEvent.0
-	title = "alsababDebateEvent_0_title"
-	desc = "alsababDebateEvent_0_desc"
+	id = ashabiDebateEvent.0
+	title = "ashabiDebateEvent_0_title"
+	desc = "ashabiDebateEvent_0_desc"
 	picture = WESTERNISATION_eventPicture
 	trigger = { religion = ashabi }
 	is_triggered_only = yes
 	option = {
-		name = "alsababDebateEvent_0a"
+		name = "ashabiDebateEvent_0a"
 		add_estate_loyalty = {
 			estate = estate_church
 			loyalty = 10
@@ -112,14 +113,14 @@ country_event = {
 	}
 }
 country_event = {
-	id = alsababDebateEvent.1
-	title = "alsababDebateEvent_1_title"
-	desc = "alsababDebateEvent_1_desc"
+	id = ashabiDebateEvent.1
+	title = "ashabiDebateEvent_1_title"
+	desc = "ashabiDebateEvent_1_desc"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = { religion = ashabi }
 	is_triggered_only = yes
 	option = {
-		name = "alsababDebateEvent_1a"
+		name = "ashabiDebateEvent_1a"
 		add_dip_power = -25
 		add_ruler_modifier = {
 			name = studying_alsababi_theology
@@ -127,7 +128,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "alsababDebateEvent_1b"
+		name = "ashabiDebateEvent_1b"
 		add_dip_power = -25
 		add_estate_loyalty = {
 			estate = estate_church
@@ -140,9 +141,9 @@ country_event = {
 	}
 }
 country_event = { #Preparing the Kursikan Diyt
-	id = alsababDebateEvent.2
-	title = "alsababDebateEvent.2t"
-	desc = "alsababDebateEvent.2d"
+	id = ashabiDebateEvent.2
+	title = "ashabiDebateEvent.2t"
+	desc = "ashabiDebateEvent.2d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		tag = BTA
@@ -150,7 +151,7 @@ country_event = { #Preparing the Kursikan Diyt
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = { #We must directly take control over the situation in Kursika.
-		name = "alsababDebateEvent.2a"
+		name = "ashabiDebateEvent.2a"
 		add_dip_power = -5
 		add_piety = 10
 		custom_tooltip = preparingKursikanDiytA
@@ -160,7 +161,7 @@ country_event = { #Preparing the Kursikan Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.3
+					id = ashabiDebateEvent.3
 					days = 7
 				}
 			}
@@ -170,11 +171,11 @@ country_event = { #Preparing the Kursikan Diyt
 		}
 	}
 	option = { #We should seek a covert solution with a powerful Captain in Kursika.
-		name = "alsababDebateEvent.2b"
+		name = "ashabiDebateEvent.2b"
 		add_piety = -5
 		custom_tooltip = preparingKursikanDiytB
 		country_event = {
-			id = alsababDebateEvent.4
+			id = ashabiDebateEvent.4
 			days = 18
 		}
 		ai_chance = {
@@ -190,7 +191,7 @@ country_event = { #Preparing the Kursikan Diyt
 		}
 	}
 	option = { #Protect their autonomy - Allah has a destiny for them.
-		 name = "alsababDebateEvent.2c"
+		 name = "ashabiDebateEvent.2c"
 		 add_piety = 5
 		 custom_tooltip = preparingKursikanDiytC
 		 create_guarantee = COR
@@ -204,9 +205,9 @@ country_event = { #Preparing the Kursikan Diyt
 	}
 }
 country_event = { #The Kursikan Diyt
-	id = alsababDebateEvent.3
-	title = "alsababDebateEvent.3t"
-	desc = "alsababDebateEvent.3d"
+	id = ashabiDebateEvent.3
+	title = "ashabiDebateEvent.3t"
+	desc = "ashabiDebateEvent.3d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -214,7 +215,7 @@ country_event = { #The Kursikan Diyt
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.3a"
+		name = "ashabiDebateEvent.3a"
 		trigger = {
 			NOT = { tag = COR }
 		}
@@ -238,7 +239,7 @@ country_event = { #The Kursikan Diyt
 		}
 	}
 	option = { #Not Ifriqya: Contest interference within Kursika's borders.
-		name = "alsababDebateEvent.3b"
+		name = "ashabiDebateEvent.3b"
 		trigger = {
 			NOT = { tag = IFR }
 		}
@@ -260,7 +261,7 @@ country_event = { #The Kursikan Diyt
 		}
 	}
 	option = { #Ifriqya: Contest the Bayt Allah's influence in Kursika.
-		name = "alsababDebateEvent.3c"
+		name = "ashabiDebateEvent.3c"
 		trigger = {
 			tag = IFR
 		}
@@ -300,7 +301,7 @@ country_event = { #The Kursikan Diyt
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.9
+					id = ashabiDebateEvent.9
 					days = 14
 				}
 			}
@@ -309,9 +310,9 @@ country_event = { #The Kursikan Diyt
 }
 
 country_event = { #Abdullah ibn Balfaqr al-Bahrjawt
-	id = alsababDebateEvent.4
-	title = alsababDebateEvent.4t
-	desc = alsababDebateEvent.4d
+	id = ashabiDebateEvent.4
+	title = ashabiDebateEvent.4t
+	desc = ashabiDebateEvent.4d
 	picture = DIPLOMACY_eventPicture
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -319,10 +320,10 @@ country_event = { #Abdullah ibn Balfaqr al-Bahrjawt
 		trigger = {
 			curia_treasury_size = 150
 		}
-		name = alsababDebateEvent.4a
+		name = ashabiDebateEvent.4a
 		add_curia_treasury = -150
 		add_piety = -5
-		country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+		country_event = { id = ashabiDebateEvent.7 } #The Kursika Coup
 		ai_chance = {
 			factor = 10
 		}
@@ -331,25 +332,25 @@ country_event = { #Abdullah ibn Balfaqr al-Bahrjawt
 		trigger = {
 			treasury = 150
 		}
-		name = alsababDebateEvent.4b
+		name = ashabiDebateEvent.4b
 		add_treasury = -150
-		country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+		country_event = { id = ashabiDebateEvent.7 } #The Kursika Coup
 		ai_chance = {
 			factor = 5
 		}
 	}
 	option = { #Provide limited support.
-		name = alsababDebateEvent.4c
+		name = ashabiDebateEvent.4c
 		add_adm_power = -5
 		add_dip_power = -5
 		add_mil_power = -10
 		add_years_of_income = -0.5
 		random_list = {
 			50 = {
-				country_event = { id = alsababDebateEvent.7 } #The Kursika Coup
+				country_event = { id = ashabiDebateEvent.7 } #The Kursika Coup
 			}
 			50 = {
-				country_event = { id = alsababDebateEvent.8 } #Death of Abdullah ibn Balfaqr al-Bahrjawt
+				country_event = { id = ashabiDebateEvent.8 } #Death of Abdullah ibn Balfaqr al-Bahrjawt
 			}
 		}
 		ai_chance = {
@@ -359,13 +360,13 @@ country_event = { #Abdullah ibn Balfaqr al-Bahrjawt
 }
 
 country_event = { #Kursika contested in the Diyt
-	id = alsababDebateEvent.5
-	title = alsababDebateEvent.5t
-	desc = alsababDebateEvent.5d
+	id = ashabiDebateEvent.5
+	title = ashabiDebateEvent.5t
+	desc = ashabiDebateEvent.5d
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = { #Give up the attempt
-		name = alsababDebateEvent.5a
+		name = ashabiDebateEvent.5a
 		trigger = { tag = BTA }
 		if = {
 			limit = {
@@ -382,7 +383,7 @@ country_event = { #Kursika contested in the Diyt
 		}
 	}
 	option = { #Denounce these corrupt Muftis and leave the Diyt with tensions high.
-		name = alsababDebateEvent.5b
+		name = ashabiDebateEvent.5b
 		trigger = { tag = BTA }
 		corsica_sardinia_area = {
 			if = {
@@ -407,7 +408,7 @@ country_event = { #Kursika contested in the Diyt
 		}
 	}
 	option = { #So many corrupt Muftis in the court...
-		name = alsababDebateEvent.5c
+		name = ashabiDebateEvent.5c
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt }
 			NOT = { tag = BTA }
@@ -415,7 +416,7 @@ country_event = { #Kursika contested in the Diyt
 		add_papal_influence = 5
 	}
 	option = { #The Caliph is the religious leader, not an overlord.
-		name = alsababDebateEvent.5e
+		name = ashabiDebateEvent.5e
 		trigger = { 
 			has_country_flag = contested_bayt_diyt
 			NOT = { tag = BTA }
@@ -424,7 +425,7 @@ country_event = { #Kursika contested in the Diyt
 		add_prestige = 5
 	}
 	option = { #Praise Allah for pushing us to contest this corrupt Caliph.
-		name = alsababDebateEvent.5f
+		name = ashabiDebateEvent.5f
 		trigger = { 
 			has_country_flag = contested_bayt_diyt
 			tag = LRP
@@ -434,13 +435,13 @@ country_event = { #Kursika contested in the Diyt
 }
 
 country_event = { #Takeover of Kursika
-	id = alsababDebateEvent.6
-	title = alsababDebateEvent.6t
-	desc = alsababDebateEvent.6d
+	id = ashabiDebateEvent.6
+	title = ashabiDebateEvent.6t
+	desc = ashabiDebateEvent.6d
 	picture = COUNTRY_COLLAPSE_eventPicture
 	is_triggered_only = yes
 	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
-		name = alsababDebateEvent.6a
+		name = ashabiDebateEvent.6a
 		trigger = { tag = BTA }
 		vassalize = COR
 		add_country_modifier = {
@@ -449,14 +450,14 @@ country_event = { #Takeover of Kursika
 		}
 	}
 	option = { #Kursika: Horror!
-		name = alsababDebateEvent.6b
+		name = ashabiDebateEvent.6b
 		trigger = { tag = COR }
 		change_government = monarchy
 		add_government_reform = iqta_legacy
 		1247 = { add_devastation = 10 }
 	}
 	option = { #This is a good day for the Muslim world.
-		name = alsababDebateEvent.6c
+		name = ashabiDebateEvent.6c
 		trigger = {
 			NOT = { has_country_flag = contested_bayt_diyt }
 			NOT = { tag = BTA }
@@ -465,7 +466,7 @@ country_event = { #Takeover of Kursika
 		add_papal_influence = 5
 	}
 	option = { #Horror!
-		name = alsababDebateEvent.6e
+		name = ashabiDebateEvent.6e
 		trigger = {
 			has_country_flag = contested_bayt_diyt
 			NOT = { tag = COR }
@@ -476,9 +477,9 @@ country_event = { #Takeover of Kursika
 }
 
 country_event = { #The Kursika Coup
-	id = alsababDebateEvent.7
-	title = alsababDebateEvent.7t
-	desc = alsababDebateEvent.7d
+	id = ashabiDebateEvent.7
+	title = ashabiDebateEvent.7t
+	desc = ashabiDebateEvent.7d
 	picture = COUNTRY_COLLAPSE_eventPicture
 	major = yes
 	is_triggered_only = yes
@@ -486,7 +487,7 @@ country_event = { #The Kursika Coup
 		religion = ashabi
 	}
 	option = { #Bayt Allah: We will benefit from calmer seas and new leadership.
-		name = alsababDebateEvent.7a
+		name = ashabiDebateEvent.7a
 		trigger = {
 			tag = BTA
 		}
@@ -497,7 +498,7 @@ country_event = { #The Kursika Coup
 		}
 	}
 	option = { #Kursika: Horror!
-		name = alsababDebateEvent.7b
+		name = ashabiDebateEvent.7b
 		trigger = {
 			tag = COR
 		}
@@ -516,13 +517,13 @@ country_event = { #The Kursika Coup
 }
 
 country_event = { #Death of Abdullah ibn Balfaqr al-Bahrjawt
-	id = alsababDebateEvent.8
-	title = alsababDebateEvent.8t
-	desc = alsababDebateEvent.8d
+	id = ashabiDebateEvent.8
+	title = ashabiDebateEvent.8t
+	desc = ashabiDebateEvent.8d
 	picture = LAND_MILITARY_eventPicture
 	is_triggered_only = yes
 	option = { #Bayt Allah: Horror!
-		name = alsababDebateEvent.8a
+		name = ashabiDebateEvent.8a
 		trigger = { tag = BTA }
 		add_country_modifier = {
 			name = strong_waves_on_horizon
@@ -530,7 +531,7 @@ country_event = { #Death of Abdullah ibn Balfaqr al-Bahrjawt
 		}
 	}
 	option = { #Kursika: Three cheers for our band of brothers!
-		name = alsababDebateEvent.8b
+		name = ashabiDebateEvent.8b
 		trigger = { tag = COR }
 		add_stability = 1
 		add_prestige = 10
@@ -538,7 +539,7 @@ country_event = { #Death of Abdullah ibn Balfaqr al-Bahrjawt
 }
 
 country_event = { #Hidden event: measure Caliph support
-	id = alsababDebateEvent.9
+	id = ashabiDebateEvent.9
 	is_triggered_only = yes
 	fire_only_once = yes
 	hidden = yes
@@ -563,7 +564,7 @@ country_event = { #Hidden event: measure Caliph support
 				limit = {
 					religion = ashabi
 				}
-				country_event = { id = alsababDebateEvent.5 } #Kursika contested!
+				country_event = { id = ashabiDebateEvent.5 } #Kursika contested!
 			}
 		}
 		else = {
@@ -571,7 +572,7 @@ country_event = { #Hidden event: measure Caliph support
 				limit = {
 					religion = ashabi
 				}
-				country_event = { id = alsababDebateEvent.6 } #Takeover of Kursika
+				country_event = { id = ashabiDebateEvent.6 } #Takeover of Kursika
 			}
 		}
 	}
@@ -583,9 +584,9 @@ country_event = { #Hidden event: measure Caliph support
 }
 
 country_event = { #Preparing the Illeropoli Diyt
-	id = alsababDebateEvent.10
-	title = "alsababDebateEvent.10t"
-	desc = "alsababDebateEvent.10d"
+	id = ashabiDebateEvent.10
+	title = "ashabiDebateEvent.10t"
+	desc = "ashabiDebateEvent.10d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		tag = BTA
@@ -593,7 +594,7 @@ country_event = { #Preparing the Illeropoli Diyt
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = { #We must protect Illeropoli and grant it autonomy directly under the Caliph.
-		name = "alsababDebateEvent.10a"
+		name = "ashabiDebateEvent.10a"
 		trigger = {
 			LRP = { is_subject = yes }
 		}
@@ -612,7 +613,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.11 #Illeropoli Diyt - Transfer Vassal
+					id = ashabiDebateEvent.11 #Illeropoli Diyt - Transfer Vassal
 					days = 7
 				}
 			}
@@ -622,7 +623,7 @@ country_event = { #Preparing the Illeropoli Diyt
 		}
 	}
 	option = { #We must free Illeropoli and grant them complete independence.
-		name = "alsababDebateEvent.10b"
+		name = "ashabiDebateEvent.10b"
 		trigger = {
 			LRP = { is_subject = yes }
 		}
@@ -641,7 +642,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.12 #Illeropoli Diyt - Independence
+					id = ashabiDebateEvent.12 #Illeropoli Diyt - Independence
 					days = 7
 				}
 			}
@@ -651,7 +652,7 @@ country_event = { #Preparing the Illeropoli Diyt
 		}
 	}
 	option = { #We must free Illeropoli and grant them autonomy under the Caliph.
-		name = "alsababDebateEvent.10c"
+		name = "ashabiDebateEvent.10c"
 		trigger = {
 			NOT = { exists = LRP }
 		}
@@ -670,7 +671,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.13 #Illeropoli Diyt - Released Vassal
+					id = ashabiDebateEvent.13 #Illeropoli Diyt - Released Vassal
 					days = 7
 				}
 			}
@@ -680,7 +681,7 @@ country_event = { #Preparing the Illeropoli Diyt
 		}
 	}
 	option = { #We must incoporate Illeropoli directly under al-Bayt authority.
-		name = "alsababDebateEvent.10e"
+		name = "ashabiDebateEvent.10e"
 		trigger = {
 			NOT = { exists = LRP }
 		}
@@ -698,7 +699,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.14 #Illeropoli Diyt - Reconquest
+					id = ashabiDebateEvent.14 #Illeropoli Diyt - Reconquest
 					days = 7
 				}
 			}
@@ -708,7 +709,7 @@ country_event = { #Preparing the Illeropoli Diyt
 		}
 	}
 	option = { #We must strictly enforce the faith in Illeropoli.
-		name = "alsababDebateEvent.10f"
+		name = "ashabiDebateEvent.10f"
 		trigger = {
 			NOT = { LRP = { religion = ashabi } }
 			LRP = { is_subject = no }
@@ -724,7 +725,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.15 #Illeropoli Diyt - Religious Vassalization
+					id = ashabiDebateEvent.15 #Illeropoli Diyt - Religious Vassalization
 					days = 7
 				}
 			}
@@ -734,7 +735,7 @@ country_event = { #Preparing the Illeropoli Diyt
 		}
 	}
 	option = { #We must force the Illeropoli court into reconversion.
-		name = "alsababDebateEvent.10g"
+		name = "ashabiDebateEvent.10g"
 		trigger = {
 			NOT = { LRP = { religion = ashabi } }
 			LRP = { is_subject = no }
@@ -749,7 +750,7 @@ country_event = { #Preparing the Illeropoli Diyt
 					religion = ashabi
 				}
 				country_event = {
-					id = alsababDebateEvent.16 #Illeropoli Diyt - Enforce Faith
+					id = ashabiDebateEvent.16 #Illeropoli Diyt - Enforce Faith
 					days = 7
 				}
 			}
@@ -760,9 +761,9 @@ country_event = { #Preparing the Illeropoli Diyt
 	}
 }
 country_event = { #The Illeropoli Diyt - Transfer Vassal
-	id = alsababDebateEvent.11
-	title = "alsababDebateEvent.11t" #"Diyt al-Ilyubuli"
-	desc = "alsababDebateEvent.11d"
+	id = ashabiDebateEvent.11
+	title = "ashabiDebateEvent.11t" #"Diyt al-Ilyubuli"
+	desc = "ashabiDebateEvent.11d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -770,7 +771,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -835,7 +836,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
 			who = BTA
@@ -869,7 +870,7 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -877,9 +878,9 @@ country_event = { #The Illeropoli Diyt - Transfer Vassal
 	}
 }
 country_event = { #The Illeropoli Diyt - Independence
-	id = alsababDebateEvent.12
-	title = "alsababDebateEvent.11t" #"Diyt al-Ilyubuli"
-	desc = "alsababDebateEvent.12d"
+	id = ashabiDebateEvent.12
+	title = "ashabiDebateEvent.11t" #"Diyt al-Ilyubuli"
+	desc = "ashabiDebateEvent.12d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -887,7 +888,7 @@ country_event = { #The Illeropoli Diyt - Independence
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -952,7 +953,7 @@ country_event = { #The Illeropoli Diyt - Independence
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
 			who = BTA
@@ -986,7 +987,7 @@ country_event = { #The Illeropoli Diyt - Independence
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -994,9 +995,9 @@ country_event = { #The Illeropoli Diyt - Independence
 	}
 }
 country_event = { #The Illeropoli Diyt - Released Vassal
-	id = alsababDebateEvent.13
-	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
-	desc = "alsababDebateEvent.13d"
+	id = ashabiDebateEvent.13
+	title = "ashabiDebateEvent.11t" #The Illeropoli Diyt
+	desc = "ashabiDebateEvent.13d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -1004,7 +1005,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -1057,7 +1058,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
 			who = BTA
@@ -1087,7 +1088,7 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -1095,9 +1096,9 @@ country_event = { #The Illeropoli Diyt - Released Vassal
 	}
 }
 country_event = { #The Illeropoli Diyt - Reconquest
-	id = alsababDebateEvent.14
-	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
-	desc = "alsababDebateEvent.14d"
+	id = ashabiDebateEvent.14
+	title = "ashabiDebateEvent.11t" #The Illeropoli Diyt
+	desc = "ashabiDebateEvent.14d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -1105,7 +1106,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -1156,7 +1157,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
 			who = BTA
@@ -1186,7 +1187,7 @@ country_event = { #The Illeropoli Diyt - Reconquest
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -1194,9 +1195,9 @@ country_event = { #The Illeropoli Diyt - Reconquest
 	}
 }
 country_event = { #The Illeropoli Diyt - Religious Vassalization
-	id = alsababDebateEvent.15
-	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
-	desc = "alsababDebateEvent.15d"
+	id = ashabiDebateEvent.15
+	title = "ashabiDebateEvent.11t" #The Illeropoli Diyt
+	desc = "ashabiDebateEvent.15d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -1204,7 +1205,7 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -1251,7 +1252,7 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 5
 		reverse_add_opinion = {
 			who = BTA
@@ -1281,7 +1282,7 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -1289,9 +1290,9 @@ country_event = { #The Illeropoli Diyt - Religious Vassalization
 	}
 }
 country_event = { #The Illeropoli Diyt - Enforce Religion
-	id = alsababDebateEvent.16
-	title = "alsababDebateEvent.11t" #The Illeropoli Diyt
-	desc = "alsababDebateEvent.15d"
+	id = ashabiDebateEvent.16
+	title = "ashabiDebateEvent.11t" #The Illeropoli Diyt
+	desc = "ashabiDebateEvent.15d"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	trigger = {
 		religion = ashabi
@@ -1299,7 +1300,7 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 	}
 	is_triggered_only = yes
 	option = { #Support the Caliph's decision.
-		name = "alsababDebateEvent.11a"
+		name = "ashabiDebateEvent.11a"
 		add_papal_influence = 15
 		reverse_add_opinion = {
 			who = BTA
@@ -1338,7 +1339,7 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 		}
 	}
 	option = { #Contest the Caliph's decision.
-		name = "alsababDebateEvent.11b"
+		name = "ashabiDebateEvent.11b"
 		add_prestige = 10
 		reverse_add_opinion = {
 			who = BTA
@@ -1361,7 +1362,7 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 		hidden_effect = {
 			BTA = {
 				country_event = { #Measures support in the Diyt
-					id = alsababDebateEvent.17
+					id = ashabiDebateEvent.17
 					days = 14
 				}
 			}
@@ -1370,7 +1371,7 @@ country_event = { #The Illeropoli Diyt - Enforce Religion
 }
 
 country_event = { #Hidden event: measure Caliph support
-	id = alsababDebateEvent.17
+	id = ashabiDebateEvent.17
 	is_triggered_only = yes
 	fire_only_once = yes
 	hidden = yes
@@ -1389,7 +1390,7 @@ country_event = { #Hidden event: measure Caliph support
 				limit = {
 					religion = ashabi
 				}
-				country_event = { id = alsababDebateEvent.18 } #Diyt Faces Heavy Resistance
+				country_event = { id = ashabiDebateEvent.18 } #Diyt Faces Heavy Resistance
 			}
 		}
 		else = {
@@ -1397,7 +1398,7 @@ country_event = { #Hidden event: measure Caliph support
 				limit = {
 					religion = ashabi
 				}
-				country_event = { id = alsababDebateEvent.19 } #Diyt Reaches Agreement
+				country_event = { id = ashabiDebateEvent.19 } #Diyt Reaches Agreement
 			}
 		}
 	}
@@ -1406,13 +1407,13 @@ country_event = { #Hidden event: measure Caliph support
 }
 
 country_event = { #Diyt Faces Heavy Resistance
-	id = alsababDebateEvent.18
-	title = alsababDebateEvent.18t
-	desc = alsababDebateEvent.18d
+	id = ashabiDebateEvent.18
+	title = ashabiDebateEvent.18t
+	desc = ashabiDebateEvent.18d
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = { #Placate the opposition and drop the claims.
-		name = alsababDebateEvent.18a
+		name = ashabiDebateEvent.18a
 		trigger = { tag = BTA }
 		if = {
 			limit = {
@@ -1435,7 +1436,7 @@ country_event = { #Diyt Faces Heavy Resistance
 		}
 	}
 	option = { #Leave in a huff amidst the chaotic argument in the court.
-		name = alsababDebateEvent.18b
+		name = ashabiDebateEvent.18b
 		trigger = { tag = BTA }
 		if = {
 			limit = {
@@ -1494,7 +1495,7 @@ country_event = { #Diyt Faces Heavy Resistance
 		}
 	}
 	option = { #So many corrupt Muftis in the court...
-		name = alsababDebateEvent.5c
+		name = ashabiDebateEvent.5c
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt2 }
 			NOT = { tag = BTA }
@@ -1502,7 +1503,7 @@ country_event = { #Diyt Faces Heavy Resistance
 		add_papal_influence = 5
 	}
 	option = { #The Caliph loves trying to overstep his boundaries.
-		name = alsababDebateEvent.18c
+		name = ashabiDebateEvent.18c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
 			NOT = { tag = BTA }
@@ -1512,16 +1513,16 @@ country_event = { #Diyt Faces Heavy Resistance
 }
 
 country_event = { #Diyt Reaches Agreement
-	id = alsababDebateEvent.19
-	title = alsababDebateEvent.19t
-	desc = alsababDebateEvent.19d
+	id = ashabiDebateEvent.19
+	title = ashabiDebateEvent.19t
+	desc = ashabiDebateEvent.19d
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 		religion = ashabi
 	}
 	option = { #Our claim is now enforced by religious law. (Illeropoli or their owner are Alsababi)
-		name = alsababDebateEvent.19a
+		name = ashabiDebateEvent.19a
 		trigger = {
 			tag = BTA
 			if = {
@@ -1607,7 +1608,7 @@ country_event = { #Diyt Reaches Agreement
 		}
 	}
 	option = { #Send Illeropoli the ultimatium. (Religious war/vassalization)
-		name = alsababDebateEvent.19b
+		name = ashabiDebateEvent.19b
 		trigger = {
 			tag = BTA
 			AND = {
@@ -1617,13 +1618,13 @@ country_event = { #Diyt Reaches Agreement
 			}
 		}
 		add_prestige = 15
-		LRP = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
+		LRP = { country_event = { id = ashabiDebateEvent.20 }} #The Illeropoli Ultimatium
 		ai_chance = {
 			factor = 1
 		}
 	}
 	option = { #Send [event_target:illeropoliOwner.GetName] the ultimatium. (Illeropoli is a subject or doesn't exist)
-		name = alsababDebateEvent.19c
+		name = ashabiDebateEvent.19c
 		trigger = {
 			tag = BTA
 			OR = {
@@ -1633,13 +1634,13 @@ country_event = { #Diyt Reaches Agreement
 			event_target:illeropoliOwner = { NOT = { religion = ashabi } }
 		}
 		add_prestige = 15
-		event_target:illeropoliOwner = { country_event = { id = alsababDebateEvent.20 }} #The Illeropoli Ultimatium
+		event_target:illeropoliOwner = { country_event = { id = ashabiDebateEvent.20 }} #The Illeropoli Ultimatium
 		ai_chance = {
 			factor = 1
 		}
 	}
 	option = { #What a glorious day!
-		name = alsababDebateEvent.19e
+		name = ashabiDebateEvent.19e
 		trigger = { 
 			NOT = { has_country_flag = contested_bayt_diyt2 }
 			NOT = { tag = BTA }
@@ -1647,7 +1648,7 @@ country_event = { #Diyt Reaches Agreement
 		add_papal_influence = 5
 	}
 	option = { #This is absurd!
-		name = alsababDebateEvent.19f
+		name = ashabiDebateEvent.19f
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
 			NOT = { tag = BTA }
@@ -1656,50 +1657,50 @@ country_event = { #Diyt Reaches Agreement
 	}
 }
 country_event = { #The Illeropoli Ultimatium
-	id = alsababDebateEvent.20
-	title = alsababDebateEvent.20t
+	id = ashabiDebateEvent.20
+	title = ashabiDebateEvent.20t
 	#The Alsababi threaten jihad over Illeropoli
 	desc = {
 		trigger = { #Transfer Illeropoli to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
 			BTA = { has_country_flag = transfer_illeropoli }
 		}
-		desc = alsababDebateEvent.20da
+		desc = ashabiDebateEvent.20da
 	}
 	desc = {
 		trigger = { #Release Illeropoli from subject status
 			event_target:illeropoliOwner = { tag = ROOT }
 			BTA = { has_country_flag = liberate_illeropoli }
 		}
-		desc = alsababDebateEvent.20db
+		desc = ashabiDebateEvent.20db
 	}
 	desc = {
 		trigger = { #Release Illeropoli and transfer to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
 			BTA = { has_country_flag = free_illeropoli }
 		}
-		desc = alsababDebateEvent.20dc
+		desc = ashabiDebateEvent.20dc
 	}
 	desc = {
 		trigger = { #Cede Illeropoli to Bayt Allah
 			event_target:illeropoliOwner = { tag = ROOT }
 			NOT = { BTA = { has_country_flag = free_illeropoli } }
 		}
-		desc = alsababDebateEvent.20dd
+		desc = ashabiDebateEvent.20dd
 	}
 	desc = {
 		trigger = { #Illeropoli: Convert and submit to Bayt Allah
 			tag = LRP
 			BTA = { has_country_flag = enforce_illeropoli_convert }
 		}
-		desc = alsababDebateEvent.20de
+		desc = ashabiDebateEvent.20de
 	}
 	desc = {
 		trigger = { #Illeropoli: Convert to Alsababi Islam
 			tag = LRP
 			NOT = { BTA = { has_country_flag = enforce_illeropoli_convert } }
 		}
-		desc = alsababDebateEvent.20df
+		desc = ashabiDebateEvent.20df
 	}
 	picture = DIPLOMACY_eventPicture
 	is_triggered_only = yes
@@ -1708,8 +1709,8 @@ country_event = { #The Illeropoli Ultimatium
 		religion = ashabi
 	}
 	option = { #Reject these outlandish terms!
-		name = alsababDebateEvent.20a
-		custom_tooltip = alsababDebateEvent.20a_tt #You will become very quickly hated by everyone in the Alsababi community who supported this measure, especially the Caliph.
+		name = ashabiDebateEvent.20a
+		custom_tooltip = ashabiDebateEvent.20a_tt #You will become very quickly hated by everyone in the Alsababi community who supported this measure, especially the Caliph.
 		hidden_effect = {
 			save_global_event_target_as = illeropoliOwner
 			every_country = {
@@ -1718,7 +1719,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Rejected!
-					id = alsababDebateEvent.21
+					id = ashabiDebateEvent.21
 					days = 7
 				}
 			}
@@ -1739,13 +1740,13 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Transfer Illeropoli to Bayt Allah
-		name = alsababDebateEvent.20b
+		name = ashabiDebateEvent.20b
 		trigger = {
 			BTA = { has_country_flag = transfer_illeropoli }
 		}
 		free_vassal = LRP
 		BTA = { vassalize = LRP }
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1753,7 +1754,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -1780,12 +1781,12 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Release Illeropoli
-		name = alsababDebateEvent.20c
+		name = ashabiDebateEvent.20c
 		trigger = {
 			BTA = { has_country_flag = liberate_illeropoli }
 		}
 		free_vassal = LRP
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1793,7 +1794,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -1820,14 +1821,14 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Release Illeropoli as vassal of Bayt Allah
-		name = alsababDebateEvent.20d
+		name = ashabiDebateEvent.20d
 		trigger = {
 			BTA = { has_country_flag = free_illeropoli }
 			owns = 4754
 		}
 		4754 = { cede_province = LRP }
 		BTA = { vassalize = LRP }
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1835,7 +1836,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -1862,14 +1863,14 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Cede Illeropoli to Bayt Allah
-		name = alsababDebateEvent.20e
+		name = ashabiDebateEvent.20e
 		trigger = {
 			NOT = { BTA = { has_country_flag = free_illeropoli } }
 			NOT = { exists = LRP }
 			owns = 4754
 		}
 		4754 = { cede_province = BTA }
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1877,7 +1878,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -1904,7 +1905,7 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Submit to Bayt Allah as a vassal
-		name = alsababDebateEvent.20f
+		name = ashabiDebateEvent.20f
 		trigger = {
 			tag = LRP
 			BTA = { has_country_flag = enforce_illeropoli_convert }
@@ -1920,7 +1921,7 @@ country_event = { #The Illeropoli Ultimatium
 				duration = 7300
 			}
 		}
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1928,7 +1929,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -1955,7 +1956,7 @@ country_event = { #The Illeropoli Ultimatium
 		}
 	}
 	option = { #Convert to Alsababi Islam
-		name = alsababDebateEvent.20g
+		name = ashabiDebateEvent.20g
 		trigger = {
 			tag = LRP
 			BTA = { NOT = { has_country_flag = enforce_illeropoli_convert } }
@@ -1972,7 +1973,7 @@ country_event = { #The Illeropoli Ultimatium
 				duration = 7300
 			}
 		}
-		custom_tooltip = alsababDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
+		custom_tooltip = ashabiDebateEvent.20b_tt #The Alsababi community will be very happy with our acceptance, especially the Caliph.
 		hidden_effect = {
 			every_country = {
 				limit = {
@@ -1980,7 +1981,7 @@ country_event = { #The Illeropoli Ultimatium
 					NOT = { tag = ROOT }
 				}
 				country_event = { #Diyt Ultimatium Accepted!
-					id = alsababDebateEvent.22
+					id = ashabiDebateEvent.22
 					days = 7
 				}
 			}
@@ -2008,9 +2009,9 @@ country_event = { #The Illeropoli Ultimatium
 	}
 }
 country_event = { #Diyt Ultimatium Rejected!
-	id = alsababDebateEvent.21
-	title = alsababDebateEvent.21t
-	desc = alsababDebateEvent.21d
+	id = ashabiDebateEvent.21
+	title = ashabiDebateEvent.21t
+	desc = ashabiDebateEvent.21d
 	is_triggered_only = yes
 	trigger = {
 		OR = {
@@ -2020,7 +2021,7 @@ country_event = { #Diyt Ultimatium Rejected!
 		}
 	}
 	option = { #They will pay.
-		name = alsababDebateEvent.21a
+		name = ashabiDebateEvent.21a
 		trigger = { tag = BTA }
 		if = {
 			limit = {
@@ -2073,7 +2074,7 @@ country_event = { #Diyt Ultimatium Rejected!
 		}
 	}
 	option = { #They'll pay dearly.
-		name = alsababDebateEvent.21b
+		name = ashabiDebateEvent.21b
 		trigger = { 
 			has_country_flag = supported_bayt_diyt2
 			NOT = { tag = BTA }
@@ -2085,7 +2086,7 @@ country_event = { #Diyt Ultimatium Rejected!
 		}
 	}
 	option = { #The Caliph loves trying to overstep his boundaries.
-		name = alsababDebateEvent.18c
+		name = ashabiDebateEvent.18c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
 			NOT = { tag = BTA }
@@ -2098,9 +2099,9 @@ country_event = { #Diyt Ultimatium Rejected!
 	}
 }
 country_event = { #Diyt Ultimatium Accepted!
-	id = alsababDebateEvent.22
-	title = alsababDebateEvent.22t
-	desc = alsababDebateEvent.22d
+	id = ashabiDebateEvent.22
+	title = ashabiDebateEvent.22t
+	desc = ashabiDebateEvent.22d
 	is_triggered_only = yes
 	trigger = {
 		OR = {
@@ -2110,7 +2111,7 @@ country_event = { #Diyt Ultimatium Accepted!
 		}
 	}
 	option = { #Praise Allah for granting us this civilized victory!
-		name = alsababDebateEvent.22a
+		name = ashabiDebateEvent.22a
 		trigger = { tag = BTA }
 		add_stability_or_adm_power = yes
 		add_prestige = 20
@@ -2123,7 +2124,7 @@ country_event = { #Diyt Ultimatium Accepted!
 		}
 	}
 	option = { #Mashallah! And this is proof!
-		name = alsababDebateEvent.22b
+		name = ashabiDebateEvent.22b
 		trigger = { 
 			has_country_flag = supported_bayt_diyt2
 			NOT = { tag = BTA }
@@ -2135,614 +2136,11 @@ country_event = { #Diyt Ultimatium Accepted!
 		add_papal_influence = 10
 	}
 	option = { #How spineless of them to crack.
-		name = alsababDebateEvent.22c
+		name = ashabiDebateEvent.22c
 		trigger = { 
 			has_country_flag = contested_bayt_diyt2
 			NOT = { tag = BTA }
 		}
 		add_prestige = 5
-	}
-}
-namespace = isildaDiyt
-country_event = { #Isilda Nojua (In Ferrara)
-	id = isildaDiyt.0
-	title = isildaDiyt.t
-	desc = isildaDiyt.d
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	fire_only_once = yes
-	trigger = {
-		tag = FER
-		has_institution = renaissance
-		religion = ashabi
-	}
-	mean_time_to_happen = {
-		months = 24
-	}
-	option = { #Respect her right to speak at local debates.
-		name = isildaDiyt.a
-		add_prestige = 5
-		add_country_modifier = {
-			name = ferrara_imams_displeased
-			duration = 730
-		}
-		hidden_effect = {
-			country_event = { #Eminence of Isilda
-				id = isildaDiyt.1
-				days = 65
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = incorruptible_personality
-					ruler_has_personality = lawgiver_personality
-					ruler_has_personality = scholar_personality
-					ruler_has_personality = pious_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = just_personality
-					ruler_has_personality = righteous_personality
-					ruler_has_personality = tolerant_personality
-					ruler_has_personality = free_thinker_personality
-					ruler_has_personality = zealot_personality
-				}
-			}
-		}
-	}
-	option = { #Expel this heathenous speaker!
-		name = isildaDiyt.b
-		add_stability = 1
-		add_country_modifier = {
-			name = ferrara_imams_pleased
-			duration = 730
-		}
-		hidden_effect = {
-			BTA = {
-				country_event = {
-					id = isildaDiyt.2 #Isilda Nojua (in Rome)
-					days = 65
-				}
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = careful_personality
-					ruler_has_personality = strict_personality
-					ruler_has_personality = loose_lips_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = cruel_personality
-					ruler_has_personality = malevolent_personality
-				}
-			}
-		}
-	}
-}
-country_event = { #Eminence of Isilda
-	id = isildaDiyt.1
-	title = isildaDiyt.1t
-	desc = isildaDiyt.1d #Isilda has crushed debates - what now?
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = { #Perhaps her concepts hold some merit.
-		name = isildaDiyt.1a
-		add_stability = 1
-		add_country_modifier = {
-			name = isilda_reforms
-			duration = -1
-		}
-		hidden_effect = {
-			BTA = {
-				country_event = {
-					id = isildaDiyt.3 #Ferrara's Reforms
-					days = 90
-				}
-			}
-		}
-		ai_chance = {
-			factor = 20
-		}
-	}
-	option = { #Okay, time to put an end to this.
-		name = isildaDiyt.1b
-		add_stability = -1
-		add_country_modifier = {
-			name = stamping_out_al_nasawiat #ie feminists
-			duration = 1825
-		}
-		hidden_effect = {
-			BTA = {
-				country_event = {
-					id = isildaDiyt.2 #Isilda Nojua (in Rome)
-					days = 65
-				}
-			}
-		}
-		ai_chance = {
-			factor = 1
-		}
-	}
-}
-country_event = { #Isilda Nojua (In Rome)
-	id = isildaDiyt.2
-	title = isildaDiyt.t
-	desc = {
-		trigger = {
-			FER = { has_country_modifier = stamping_out_al_nasawiat }
-		}
-		desc = isildaDiyt.2da
-	}
-	desc = {
-		trigger = {
-			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
-		}
-		desc = isildaDiyt.2db
-	}
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = { #Allow her to present her ideas in a Diyt al-Bayt.
-		name = isildaDiyt.2a
-		add_prestige = 5
-		add_dip_power = -10
-		custom_tooltip = isilda_diyt_tt
-		hidden_effect = {
-			set_variable = {
-				which = isildaDiytVote
-				value = 0
-			}
-			every_country = {
-				limit = {
-					religion = ashabi
-				}
-				country_event = { #The Diyt of Isilda Nojua
-					id = isildaDiyt.4
-					days = 7
-				}
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = incorruptible_personality
-					ruler_has_personality = lawgiver_personality
-					ruler_has_personality = scholar_personality
-					ruler_has_personality = pious_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = just_personality
-					ruler_has_personality = righteous_personality
-					ruler_has_personality = tolerant_personality
-					ruler_has_personality = free_thinker_personality
-					ruler_has_personality = zealot_personality
-				}
-			}
-		}
-	}
-	option = { #Her ideas have no place in the Ashab Alsabab.
-		name = isildaDiyt.2b
-		reverse_add_opinion = {
-			who = FER
-			modifier = supportive_ferrara
-		}
-		hidden_effect = {
-			VEN = {
-				country_event = {
-					id = isildaDiyt.8 #Isilda Nojua (In Venetia)
-					days = 125
-				}
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = careful_personality
-					ruler_has_personality = strict_personality
-					ruler_has_personality = loose_lips_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = cruel_personality
-					ruler_has_personality = malevolent_personality
-				}
-			}
-		}
-	}
-}
-country_event = { #Ferrara's Reforms
-	id = isildaDiyt.3
-	title = isildaDiyt.3t
-	desc = isildaDiyt.3d
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = { #They can maintain their strange new local custom.
-		name = isildaDiyt.3a
-		reverse_add_opinion = {
-			who = FER
-			modifier = supportive_ferrara
-		}
-		ai_chance = {
-			factor = 1
-		}
-	}
-	option = { #Hold a Diyt regarding the legality of the reforms.
-		name = isildaDiyt.3b
-		add_prestige = 5
-		add_dip_power = -10
-		custom_tooltip = isilda_diyt_tt
-		hidden_effect = {
-			set_variable = {
-				which = isildaDiytVote
-				value = 0
-			}
-			every_country = {
-				limit = {
-					religion = ashabi
-				}
-				country_event = { #The Diyt of Isilda Nojua
-					id = isildaDiyt.4
-					days = 7
-				}
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-country_event = { #The Diyt of Isilda Nojua
-	id = isildaDiyt.4
-	title = isildaDiyt.4t
-	picture = wihgfx_LIBERUM_VETO_eventPicture
-	desc = {
-		desc = isildaDiyt.4da
-		trigger = {
-			FER = { has_country_modifier = stamping_out_al_nasawiat }
-		}
-	}
-	desc = {
-		desc = isildaDiyt.4db
-		trigger = {
-			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
-		}
-	}
-	is_triggered_only = yes
-	option = { #General: She has crafted a strong case for herself.
-		name = isildaDiyt.4a
-		trigger = {
-			NOT = { tag = BTA }
-			NOT = { tag = FER }
-		}
-		custom_tooltip = supported_isilda_tt
-		hidden_effect = {
-			set_country_flag = supported_isilda_diyt
-			BTA = {
-				change_variable = {
-					which = isildaDiytVote
-					value = 1
-				}
-			}
-		}
-		if = {
-			limit = {
-				FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
-			}
-			reverse_add_opinion = {
-				who = FER
-				modifier = supportive_ferrara
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = incorruptible_personality
-					ruler_has_personality = lawgiver_personality
-					ruler_has_personality = scholar_personality
-					ruler_has_personality = pious_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = just_personality
-					ruler_has_personality = righteous_personality
-					ruler_has_personality = tolerant_personality
-					ruler_has_personality = free_thinker_personality
-					ruler_has_personality = zealot_personality
-				}
-			}
-		}
-	}
-	option = { #General: I've never seen a woman so thoroughly twist the Quran!
-		name = isildaDiyt.4b
-		trigger = {
-			NOT = { tag = BTA }
-			NOT = { tag = FER }
-		}
-		custom_tooltip = contested_isilda_tt
-		hidden_effect = {
-			BTA = {
-				subtract_variable = {
-					which = isildaDiytVote
-					value = 1
-				}
-			}
-		}
-		if = {
-			limit = {
-				FER = { has_country_modifier = stamping_out_al_nasawiat }
-			}
-			reverse_add_opinion = {
-				who = FER
-				modifier = supportive_ferrara
-			}
-		}
-		ai_chance = {
-			factor = 2
-			modifier = {
-				factor = 2
-				OR = {
-					ruler_has_personality = careful_personality
-					ruler_has_personality = strict_personality
-					ruler_has_personality = loose_lips_personality
-				}
-			}
-			modifier = {
-				factor = 5
-				OR = {
-					ruler_has_personality = cruel_personality
-					ruler_has_personality = malevolent_personality
-				}
-			}
-		}
-	}
-	option = { #Supportive Ferrara: Her reforms have been a resounding success!
-		name = isildaDiyt.4c
-		custom_tooltip = supported_isilda_tt
-		trigger = {
-			tag = FER
-			NOT = { has_country_modifier = stamping_out_al_nasawiat }
-		}
-		hidden_effect = {
-			BTA = {
-				change_variable = {
-					which = isildaDiytVote
-					value = 2
-				}
-			}
-		}
-	}
-	option = { #Aggro Ferrara: Can we put this nonsense to rest?
-		name = isildaDiyt.4d
-		custom_tooltip = contested_isilda_tt
-		trigger = {
-			tag = FER
-			has_country_modifier = stamping_out_al_nasawiat
-		}
-		hidden_effect = {
-			BTA = {
-				subtract_variable = {
-					which = isildaDiytVote
-					value = 2
-				}
-			}
-		}
-	}
-	option = { #Bayt Allah: Observe the progressions.
-		name = isildaDiyt.4e
-		trigger = { tag = BTA }
-		add_prestige = 5
-	}
-	after = {
-		BTA = {
-			country_event = {
-				id = isildaDiyt.5 #Hidden event: counting votes
-				days = 60
-			}
-		}
-	}
-}
-country_event = { #Hidden event: counting votes
-	id = isildaDiyt.5
-	hidden = yes
-	is_triggered_only = yes
-	fire_only_once = yes
-	immediate = {
-		if = {
-			limit = {
-				check_variable = {
-					which = isildaDiytVote
-					value = 1
-				}
-			}
-			every_country = {
-				limit = {
-					religion = ashabi
-				}
-				country_event = { #Isilda Emerges Victorious
-					id = isildaDiyt.6
-				}
-			}
-		}
-		else = {
-			every_country = {
-				limit = {
-					religion = ashabi
-				}
-				country_event = { #Isilda is Defeated
-					id = isildaDiyt.7
-				}
-			}
-		}
-	}
-	option = {}
-}
-
-country_event = { #Isilda is Victorious
-	id = isildaDiyt.6
-	title = isildaDiyt.6t
-	desc = isildaDiyt.6d
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	option = { #Bayt Allah: What an interesting development.
-		name = isildaDiyt.6a
-		trigger = { tag = BTA }
-		add_reform_desire = 10
-		add_country_modifier = {
-			name = isilda_reforms
-			duration = -1
-		}
-	}
-	option = { #Supportive Ferrara: We never doubted she would triumph.
-		name = isildaDiyt.6b
-		trigger = {
-			tag = FER
-			NOT = { has_country_modifier = stamping_out_al_nasawiat }
-		}
-		add_prestige = 15
-	}
-	option = { #Aggro Ferrara: What a complete mess!
-		name = isildaDiyt.6c
-		trigger = {
-			tag = FER
-			has_country_modifier = stamping_out_al_nasawiat
-		}
-		add_prestige = -15
-		add_stability = -1
-		remove_country_modifier = stamping_out_al_nasawiat
-		add_country_modifier = {
-			name = isilda_reforms
-			duration = -1
-		}
-	}
-	option = { #General Supportive: Glory to Allah!
-		name = isildaDiyt.6c
-		trigger = {
-			NOT = { tag = FER }
-			NOT = { tag = BTA }
-			has_country_flag = supported_isilda_diyt
-		}
-		add_prestige = 5
-		add_country_modifier = {
-			name = isilda_reforms
-			duration = -1
-		}
-	}
-	option = { #General Aggro: How did this happen..?
-		name = isildaDiyt.6e
-		trigger = {
-			NOT = { tag = FER }
-			NOT = { tag = BTA }
-			NOT = { has_country_flag = supported_isilda_diyt }
-		}
-		add_prestige = -5
-		add_country_modifier = {
-			name = isilda_reforms
-			duration = -1
-		}
-	}
-}
-
-country_event = { #Isilda is Defeated
-	id = isildaDiyt.7
-	title = isildaDiyt.7t
-	desc = isildaDiyt.7d
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	option = { #Bayt Allah: A fairly predictable outcome.
-		name = isildaDiyt.7a
-		trigger = { tag = BTA }
-		hidden_effect = {
-			VEN = {
-				country_event = {
-					id = isildaDiyt.8
-					days = 7
-				}
-			}
-		}
-	}
-	option = { #Supportive Ferrara: How did this happen..?
-		name = isildaDiyt.6e
-		trigger = {
-			tag = FER
-			NOT = { has_country_modifier = stamping_out_al_nasawiat }
-		}
-		add_prestige = -10
-		remove_country_modifier = isilda_reforms
-	}
-	option = { #Aggro Ferrara: Finally, she's gone!
-		name = isildaDiyt.7b
-		trigger = {
-			tag = FER
-			has_country_modifier = stamping_out_al_nasawiat
-		}
-		add_prestige = 15
-	}
-	option = { #General Supportive: How did this happen..?
-		name = isildaDiyt.6e
-		trigger = {
-			NOT = { tag = FER }
-			NOT = { tag = BTA }
-			has_country_flag = supported_isilda_diyt
-		}
-		add_prestige = -5
-	}
-	option = { #General Aggro: Glory to Allah!
-		name = isildaDiyt.6c
-		trigger = {
-			NOT = { tag = FER }
-			NOT = { tag = BTA }
-			NOT = { has_country_flag = supported_isilda_diyt }
-		}
-		add_prestige = 5
-	}
-}
-
-country_event = { #Isilda Nojua (In Venetia)
-	id = isildaDiyt.8
-	title = isildaDiyt.t
-	desc = isildaDiyt.8d
-	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = { #What a sad woman.
-		name = isildaDiyt.8a
-		add_dip_power = 5
-	}
-	option = { #Her service is welcome in Venetia.
-		name = isildaDiyt.8b
-		define_advisor = {
-			type = philosopher
-			name = "Isilda Nojua"
-			skill = 2
-			female = yes
-			discount = yes
-			culture = fiari
-			religion = ashabi
-		}
 	}
 }

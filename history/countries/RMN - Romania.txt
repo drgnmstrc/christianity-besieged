@@ -6,6 +6,7 @@ religion = zamolxism
 technology_group = ottoman
 capital = 3005
 add_army_tradition = 30
+add_yearly_manpower = -1
 
 1444.1.1 = {
 	monarch = {

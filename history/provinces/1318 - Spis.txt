@@ -12,11 +12,12 @@ controller = MVA
 base_tax = 4
 base_production = 5
 base_manpower = 2
+set_local_autonomy = 20
 
 trade_goods = copper
 
 culture = moravian
-religion = slavic
+religion = cisarstvo
 capital = "Spiš"
 
 is_city = yes

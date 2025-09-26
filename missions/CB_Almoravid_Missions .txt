@@ -67,6 +67,10 @@ LMR_1 = {
 						}
 					}
 				}
+				custom_tooltip = completed_before_rival_tt
+				tooltip = {
+					add_years_of_income = 2
+				}
 				hidden_effect = {
 					capital_scope = {
 						add_or_upgrade_university_building = yes
@@ -74,7 +78,6 @@ LMR_1 = {
 				}
 			}
 			else = {
-				add_years_of_income = 2
 			}
 		}
 	}
@@ -198,15 +201,24 @@ LMR_1 = {
 		} 
 	}
 
-	LMR_the_new_hundafaths = {
+	LMR_the_new_military = {
 		icon = mission_modernized_vikings
 		position = 9
 		required_missions = { LMR_ibn_tashfins_legacy } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			NOT = {
+				any_country = {
+					army_size = ROOT
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = military_funding
+			duration = 5475
+		} } 
 	}
 }
 
@@ -275,6 +287,19 @@ LMR_2 = {
 		}
 
 		effect = {
+			wessex_area = {
+				add_permanent_claim = ROOT
+			}
+			home_counties_area = {
+				add_permanent_claim = ROOT
+			}
+			munster_area = {
+				add_permanent_claim = ROOT
+			}
+			low_countries_region = {
+				add_permanent_claim = ROOT
+			}
+			183 = { add_core = ROOT }
 		} 
 	}
 
@@ -294,6 +319,34 @@ LMR_2 = {
 		} 
 
 		effect = {
+			random_owned_province = {
+				limit = {
+					region = italy_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				upgrade_tax_building = yes
+			}
+			random_owned_province = {
+				limit = {
+					region = italy_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				upgrade_tax_building = yes
+			}
+			random_owned_province = {
+				limit = {
+					region = italy_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				upgrade_tax_building = yes
+			}
+			random_owned_province = {
+				limit = {
+					region = italy_region
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				upgrade_tax_building = yes
+			}
 		} 
 	}
 
@@ -318,7 +371,20 @@ LMR_2 = {
 			}
 		} 
 
-		effect = {  } 
+		effect = {
+			112 = {
+				add_province_modifier = {
+					name = nor_global_integration
+					duration = 18250
+				}
+			}
+			114 = {
+				add_province_modifier = {
+					name = nor_global_integration
+					duration = 18250
+				}
+			}
+		} 
 	}
 }
 LMR_3 = {
@@ -503,7 +569,9 @@ LMR_3 = {
 			}
 		}
 
-		effect = {  } 
+		effect = {
+			118 = { add_core = ROOT }
+		} 
 	}
 
 	LMR_ibn_tashfins_legacy = {
@@ -516,18 +584,19 @@ LMR_3 = {
 			LMR_the_almoravid_armada
 			LMR_al_jadidiya
 		} 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			region = iberia_region
+			NOT = { owned_by = ROOT }
+		} 
 
 		trigger = {
 		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = italy_region
+				region = iberia_region
 				value = 40
 			}
 		}
 
 		effect = {
-			custom_tooltip = visigothic_conversion_tt
-			change_tag = AYI
 			set_government_rank = 3
 		} 
 	}
@@ -538,24 +607,38 @@ LMR_3 = {
 		required_missions = {
 			LMR_ibn_tashfins_legacy
 		} 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			region = italy_region
+			NOT = { culture = italyan }
+		} 
 
 		trigger = {
 		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
-				culture = ostrogothic
+				culture = italyan
 				value = 20
 			}
 		}
 
-		effect = {  } 
+		effect = {
+			south_german_region = {
+				add_permanent_claim = ROOT
+			}
+		} 
 	}
 
 	LMR_pax_islamica = {
 		icon = mission_gothic_invasion
 		position = 9
-		required_missions = { LMR_the_new_hundafaths LMR_panislamism LMR_the_mantle_of_rome } 
-		provinces_to_highlight = {  } 
+		required_missions = { LMR_the_new_military LMR_panislamism LMR_the_mantle_of_rome } 
+		provinces_to_highlight = {
+			OR = {
+				region = iberia_region
+				region = italy_region
+				region = france_region
+			}
+			NOT = { owned_by = ROOT}
+		} 
 
 		trigger = {
 		    france_region = {
@@ -570,7 +653,7 @@ LMR_3 = {
 				type = all
 				owned_by = ROOT
 			}
-			total_development = 1000
+			total_development = 2000
 			stability = 3
 		}
 
@@ -675,20 +758,36 @@ LMR_4 = {
 		required_missions = { LMR_secure_the_pillars } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			navy_size_percentage = 1
+		} 
 
-		effect = {  } 
+		effect = {
+			create_admiral = {
+				tradition = 80
+			}
+		} 
 	}
 
 	LMR_the_almoravid_armada = {
 		icon = mission_spanish_armada
 		position = 7
 		required_missions = { LMR_take_to_the_sea } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_port = yes
+		} 
 
-		trigger = {  } 
+		trigger = {
+			OR = {
+				exploration_ideas = 1
+				naval_ideas = 1
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			add_dip_power = 200
+		} 
 	}
 }
 LMR_5 = {
@@ -759,7 +858,14 @@ LMR_5 = {
 		icon = mission_conquer_tunisia
 		position = 4
 		required_missions = { LMR_the_balearic_conquest } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = algiers_area
+				area = kabylia_area
+				area = barbary_coast_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
 
 		trigger = {
 			algiers_area = {
@@ -796,7 +902,14 @@ LMR_5 = {
 			LMR_secure_the_pillars
 			LMR_the_bahrumiun
 		}
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				area = corsica_sardinia_area
+				area = tunisia_area
+				area = djerba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
 
 		trigger = {
 			corsica_sardinia_area = {
@@ -835,19 +948,92 @@ LMR_5 = {
 		required_missions = { LMR_take_to_the_sea } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 6
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = agenda_colonial_administration
+				duration = 3650
+			}
+		} 
 	}
 
 	LMR_the_mantle_of_rome = {
 		icon = a_roman_empire
 		position = 9
 		required_missions = { LMR_ibn_tashfins_legacy } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {
+			OR = {
+				region = iberia_region
+				region = maghreb_region
+				region = egypt_region
+				region = mashriq_region
+				region = arabia_region
+				region = anatolia_region
+				region = balkan_region
+				region = south_german_region
+				region = italy_region
+				region = france_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
 
-		trigger = {  } 
+		trigger = {
+			iberia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			maghreb_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			egypt_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			arabia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mashriq_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_german_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			balkan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			italy_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			france_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = caliphatus_universalis
+				duration = -1
+			}
+		} 
 	}
 }

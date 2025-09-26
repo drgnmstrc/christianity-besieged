@@ -3,13 +3,14 @@
 owner = MVA
 controller = MVA  
 culture = slovak
-religion = cisarstvo
+religion = slavic
 capital = "Trencin"
 trade_goods = zinc
 hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
+add_local_autonomy = 50
 is_city = yes
 #estate = estate_nobles
 fort_15th = yes #Trencin Castle

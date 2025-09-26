@@ -16,7 +16,7 @@ base_manpower = 1
 trade_goods = paper
 
 culture = dacian
-religion = ashabi
+religion = manichaeism
 capital = "Singidava"
 
 is_city = yes

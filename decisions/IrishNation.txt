@@ -13,7 +13,26 @@ country_decisions = {
 			NOT = { exists = IRE }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
-			primary_culture = irish
+			OR = {
+				primary_culture = irish
+				AND = {
+					OR = {
+						culture_group = scandinavian
+						culture_group = british
+						priamry_culture = welsh
+						primary_culture = breton
+					}
+					any_owned_province = {
+						OR = {
+							area = munster_area
+							area = connacht_area
+							area = leinster_area
+							area = ulster_area
+						}
+					}
+				}
+			}
+
 			OR = {
 				ai = no
 				AND = {
@@ -81,6 +100,22 @@ country_decisions = {
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = { primary_culture = irish }
+				override_country_name = IRE_EIREANN
+			}
+			if = {
+				limit = { culture_group = scandinavian }
+				override_country_name = IRE_IRLAND
+			}
+			if = {
+				limit = { primary_culture = breton }
+				override_country_name = IRE_ERETERRE
+			}
+			if = {
+				limit = { primary_culture = welsh }
+				override_country_name = IRE_IWERDDON
 			}
 		}
 		ai_will_do = {

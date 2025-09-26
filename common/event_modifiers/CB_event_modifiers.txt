@@ -772,8 +772,27 @@ naghali_discontent = {
 	culture_conversion_cost = -0.25
 }
 naghali_influx = {
-	production_efficiency = 0.25
+	local_production_efficiency = 0.25
 	trade_value_modifier = 2
+}
+naghali_confluence = {
+	local_development_cost = 0.15
+	local_build_cost = -0.15
+	local_build_time = -0.1
+}
+naghali_concessions = {
+	min_local_autonomy = 0.25
+	local_unrest = -10
+}
+global_integration = {
+	local_institution_spread = 0.15
+	local_production_efficiency = 0.1
+	local_ship_cost = -0.1
+}
+caliphatus_universalis = {
+	land_maintenance_modifier = -0.25
+	naval_maintenance_modifier = -0.25
+	global_foreign_trade_power = 0.2
 }
 ##################################################
 # Harmonized Modifiers

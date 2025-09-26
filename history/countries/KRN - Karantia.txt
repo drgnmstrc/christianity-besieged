@@ -1,11 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = slovene
+primary_culture = nissinsci
 religion = cisarstvo
 technology_group = ottoman
 capital = 132
 add_army_tradition = 30
+add_yearly_manpower = -1
 
 1444.1.1 = {
 	monarch = {

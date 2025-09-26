@@ -15,8 +15,8 @@ base_manpower = 1
 
 trade_goods = wool
 
-culture = serbian
-religion = cisarstvo
+culture = nissinsci
+religion = slavic
 capital = "Drasdadava"
 
 is_city = yes

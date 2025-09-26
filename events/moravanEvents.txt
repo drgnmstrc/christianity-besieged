@@ -1,0 +1,373 @@
+namespace = moravanEvents
+
+country_event = { #Rise of Manihozem
+	id = moravanEvents.0
+	title = moravanEvents.t
+	desc = moravanEvents.d
+	picture = muslimgfx_SIEGE_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = MVA
+		NOT = { religion = manichaeism }
+		is_year = 1448
+		OR = {
+			NOT = { stability = 1 }
+			num_of_loans = 1
+		}
+		current_age = age_of_discovery
+		OR = {
+			any_owned_province = {
+				OR = {
+					area = alfold_area
+					area = southern_transylvania_area
+				}
+				religion = manichaeism
+			}
+			any_subject_country = {
+				any_owned_province = {
+					OR = {
+						area = alfold_area
+						area = southern_transylvania_area
+					}
+					religion = manichaeism
+				}
+			}
+		}
+	}
+	major_trigger = {
+		knows_country = MVA
+	}
+	mean_time_to_happen = {
+		months = 96
+	}
+	immediate = {
+		hidden_effect = {
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						religion = manichaeism
+						OR = {
+							area = alfold_area
+							area = southern_transylvania_area
+						}
+					}
+					cede_province = MHZ
+					add_core = MHZ
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion = manichaeism
+					OR = {
+						area = alfold_area
+						area = southern_transylvania_area
+					}
+				}
+				cede_province = MHZ
+				add_core = MHZ
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = {
+						religion = manichaeism
+						is_neighbor_of = MHZ
+					}
+					cede_province = MHZ
+					add_core = MHZ		
+				}
+			}
+			every_owned_province = {
+				limit = {
+					religion = manichaeism
+					is_neighbor_of = MHZ
+				}
+				cede_province = MHZ
+				add_core = MHZ
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = { NOT = { religion = manichaeism } }
+					add_claim = MHZ
+				}
+			}
+			every_owned_province = {
+				limit = { NOT = { religion = manichaeism } }
+				add_claim = MHZ
+			}
+			every_subject_country = {
+				every_owned_province = {
+					limit = { religion = manichaeism }
+					add_core = MHZ
+				}
+			}
+			every_owned_province = {
+				limit = { religion = manichaeism }
+				add_core = MHZ
+			}
+			MHZ = {
+				set_capital = 1954
+				add_accepted_culture = avar
+				add_accepted_culture = dacian
+				add_reform = autocracy_reform
+				define_ruler = {
+					name = "Hranidslav I"
+    				dynasty = "Torontid"
+    				adm = 2
+    				dip = 6
+    				mil = 6
+    				age = 38
+    				claim = 100
+				}
+				define_consort = {
+					name = "Placeholder"
+					dynasty = "Placeholderia"
+					culture = caracalpac
+					adm = 3
+					dip = 3
+					mil = 5
+					female = yes
+				}
+				define_heir = {
+					male = yes
+					dynasty = ROOT
+					name = "Crsto"
+					monarch_name = "Crsto I"
+					dynasty = "Hranid"
+					claim = 100
+					age = 9
+					adm = 2
+					dip = 1
+					mil = 4
+				}
+				create_unit_forcelimit_percentage = {
+					type = infantry
+					force_limit_percentage = 0.66
+				}
+			}
+            SBK = {
+                if = {
+                    limit = {
+                        num_of_free_diplomatic_relations = 1
+                        is_at_war = no
+                        was_player = no
+                    }      
+				    create_alliance = MHZ
+                }
+            }
+			if = {
+				limit = {
+                    UNU = { 
+                        num_of_free_diplomatic_relations = 1
+                        is_at_war = no
+                        was_player = no
+                    }
+                }
+				if = {
+                    limit = {
+                        SBK = { alliance_with = MHZ }
+                    }
+                    if = {
+                        limit = {
+                            UNU = {
+                                has_opinion = {
+                                    who = SBK
+                                    value = 1
+                                }
+                            }
+                        }
+                        UNU = { create_alliance = MHZ }
+                    }
+                }
+                else = {
+                    UNU = { create_alliance = MHZ }
+                }
+			}
+			if = {
+				limit = {
+                    CPC = { 
+                        num_of_free_diplomatic_relations = 1
+                        is_at_war = no
+                        was_player = no
+                    }
+                }
+				if = {
+                    limit = {
+                        AND = {
+                            SBK = { alliance_with = MHZ }
+                            UNU = { alliance_with = MHZ }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            CPC = {
+                                has_opinion = {
+                                    who = SBK
+                                    value = 1
+                                }
+                                has_opinion = {
+                                    who = UNU
+                                    value = 1
+                                }
+                            }
+                        }
+                        CPC = { create_alliance = MHZ }
+                    }
+                }
+                else_if = {
+                    limit = {
+                        SBK = { alliance_with = MHZ }
+                    }
+                    if = {
+                        limit = {
+                            CPC = {
+                                has_opinion = {
+                                    who = SBK
+                                    value = 1
+                                }
+                            }
+                        }
+                        CPC = { create_alliance = MHZ }
+                    }
+                }
+                else_if = {
+                    limit = {
+                        UNU = { alliance_with = MHZ }
+                    }
+                    if = {
+                        limit = {
+                            CPC = {
+                                has_opinion = {
+                                    who = UNU
+                                    value = 1
+                                }
+                            }
+                        }
+                        CPC = { create_alliance = MHZ }
+                    }
+                }
+                else = {
+                    CPC = { create_alliance = MHZ }
+                }
+			}
+			MHZ = {
+				every_ally = {
+					every_ally = {
+                        limit = {
+						    religion = manichaeism
+						    was_player = no
+						    num_of_free_diplomatic_relations = 1
+						    NOT = { tag = MHZ }
+						    is_at_war = no
+                        }
+					    create_alliance = MHZ
+                    }
+				}
+			}
+		}
+	}
+	option = { #We can't afford a conflict like this right now.
+		name = moravanEvents.a
+		trigger = { tag = MVA }
+		add_stability = -1
+		add_prestige = -15
+        hidden_effect = {
+            if = {
+                limit = { 
+                    SBK = { has_ruler = "Spah Burzafrah" }
+                }
+                SBK = { vassalize = MHZ }
+            }
+        }
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0.1
+				OR = {
+					stability = 1
+					NOT = { num_of_loans = 1 }
+				}
+			}
+		}
+	}
+	option = { #The Voivodes must be protected!
+		name = moravanEvents.b
+		trigger = { tag = MVA }
+		add_stability = -1
+		add_prestige = 15
+		declare_war_with_cb = {
+			who = MHZ
+			casus_belli = cb_annex
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				ruler_has_personality = babbling_buffoon_personality
+			}
+            modifier = {
+                factor = 0.1
+                is_at_war = yes
+                NOT = { war_score = 0 }
+            }
+			modifier = {
+				factor = 0.1
+				ruler_has_personality = careful_personality
+			}
+		}
+	}
+	option = { #Maybe they're onto something...
+		name = moravanEvents.c
+		trigger = {
+            tag = MVA
+            NOT = {
+                OR = {
+                    religion = ashabi
+                    religion = manichaeism
+                }
+            }
+        }
+		add_stability = -6
+		change_religion = manichaeism
+		release_all_subjects = yes
+		vassalize = MHZ
+		hidden_effect = {
+			every_owned_province = {
+				remove_claim = MHZ
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					ruler_has_personality = zealot_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 10
+				ruler_has_personality = babbling_buffoon_personality
+			}
+		}
+	}
+	option = { #Down with the Car!
+		name = moravanEvents.e
+		trigger = { tag = MVA }
+		switch_tag = MHZ
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	option = { #The Car shows weakness.
+		name = moravanEvents.f
+		trigger = { NOT = { tag = MVA } }
+		if = {
+			limit = { is_subject_of = MVA }
+			add_prestige = 10
+			add_liberty_desire = 15
+		}
+		else = {
+			add_prestige = 5
+		}
+	}
+}

@@ -1,28 +1,24 @@
 government = monarchy
 add_government_reform = moravian_empire_reform
 primary_culture = moravian
-add_accepted_culture = slavo_romanian
 religion = cisarstvo
 technology_group = ottoman
 capital = 265
 government_rank = 3
 add_army_tradition = 25
+add_stability = -2
+add_yearly_manpower = -4
+add_treasury = -400
+add_corruption = 8
+add_war_exhaustion = 0.4
 
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 10
 }
-change_estate_land_share = {
-	estate = estate_church
-	share = -5
-}
-change_estate_land_share = {
-	estate = estate_burghers
-	share = -5
-}
 
 1444.10.1 = {
-	set_estate_privilege = estate_nobles_french_strong_duchies
+	set_estate_privilege = estate_nobles_moravian_strong_duchies
 }
 
 1444.1.1 = {

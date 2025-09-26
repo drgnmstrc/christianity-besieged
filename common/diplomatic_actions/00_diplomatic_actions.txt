@@ -139,12 +139,17 @@ annexationaction = {
 			}
 		}
 		allow = {
-			FROM = {
-				has_opinion = {
-					who = ROOT
-					value = 190
-				}
-			}
+			NOT = { has_reform = privilegiis_venetia }
+		}
+	}
+	condition = {
+		tooltip = MVA_STRONG_DUCHIES
+		potential = {
+			ROOT = { tag = MVA }
+			FROM = { is_subject_of_type = voivode }
+		}
+		allow = {
+			ROOT = { NOT = { has_estate_privilege = estate_nobles_moravian_strong_duchies } }
 		}
 	}
 	#condition = {

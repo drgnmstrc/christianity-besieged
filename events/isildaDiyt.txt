@@ -1,0 +1,603 @@
+namespace = isildaDiyt
+country_event = { #Isilda Nojua (In Ferrara)
+	id = isildaDiyt.0
+	title = isildaDiyt.t
+	desc = isildaDiyt.d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = FER
+		has_institution = renaissance
+		religion = ashabi
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	option = { #Respect her right to speak at local debates.
+		name = isildaDiyt.a
+		add_prestige = 5
+		add_country_modifier = {
+			name = ferrara_imams_displeased
+			duration = 730
+		}
+		hidden_effect = {
+			country_event = { #Eminence of Isilda
+				id = isildaDiyt.1
+				days = 65
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #Expel this heathenous speaker!
+		name = isildaDiyt.b
+		add_stability = 1
+		add_country_modifier = {
+			name = ferrara_imams_pleased
+			duration = 730
+		}
+		hidden_effect = {
+			BTA = {
+				country_event = {
+					id = isildaDiyt.2 #Isilda Nojua (in Rome)
+					days = 65
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+}
+country_event = { #Eminence of Isilda
+	id = isildaDiyt.1
+	title = isildaDiyt.1t
+	desc = isildaDiyt.1d #Isilda has crushed debates - what now?
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Perhaps her concepts hold some merit.
+		name = isildaDiyt.1a
+		add_stability = 1
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+		hidden_effect = {
+			BTA = {
+				country_event = {
+					id = isildaDiyt.3 #Ferrara's Reforms
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	option = { #Okay, time to put an end to this.
+		name = isildaDiyt.1b
+		add_stability = -1
+		add_country_modifier = {
+			name = stamping_out_al_nasawiat #ie feminists
+			duration = 1825
+		}
+		hidden_effect = {
+			BTA = {
+				country_event = {
+					id = isildaDiyt.2 #Isilda Nojua (in Rome)
+					days = 65
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = { #Isilda Nojua (In Rome)
+	id = isildaDiyt.2
+	title = isildaDiyt.t
+	desc = {
+		trigger = {
+			FER = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		desc = isildaDiyt.2da
+	}
+	desc = {
+		trigger = {
+			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+		}
+		desc = isildaDiyt.2db
+	}
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #Allow her to present her ideas in a Diyt al-Bayt.
+		name = isildaDiyt.2a
+		add_prestige = 5
+		add_dip_power = -10
+		custom_tooltip = isilda_diyt_tt
+		hidden_effect = {
+			set_variable = {
+				which = isildaDiytVote
+				value = 0
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #The Diyt of Isilda Nojua
+					id = isildaDiyt.4
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #Her ideas have no place in the Ashab Alsabab.
+		name = isildaDiyt.2b
+		reverse_add_opinion = {
+			who = FER
+			modifier = supportive_ferrara
+		}
+		hidden_effect = {
+			VEN = {
+				country_event = {
+					id = isildaDiyt.8 #Isilda Nojua (In Venetia)
+					days = 125
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+}
+country_event = { #Ferrara's Reforms
+	id = isildaDiyt.3
+	title = isildaDiyt.3t
+	desc = isildaDiyt.3d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #They can maintain their strange new local custom.
+		name = isildaDiyt.3a
+		reverse_add_opinion = {
+			who = FER
+			modifier = supportive_ferrara
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = { #Hold a Diyt regarding the legality of the reforms.
+		name = isildaDiyt.3b
+		add_prestige = 5
+		add_dip_power = -10
+		custom_tooltip = isilda_diyt_tt
+		hidden_effect = {
+			set_variable = {
+				which = isildaDiytVote
+				value = 0
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #The Diyt of Isilda Nojua
+					id = isildaDiyt.4
+					days = 7
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = { #The Diyt of Isilda Nojua
+	id = isildaDiyt.4
+	title = isildaDiyt.4t
+	picture = wihgfx_LIBERUM_VETO_eventPicture
+	desc = {
+		desc = isildaDiyt.4da
+		trigger = {
+			FER = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+	}
+	desc = {
+		desc = isildaDiyt.4db
+		trigger = {
+			FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+		}
+	}
+	is_triggered_only = yes
+	option = { #General: She has crafted a strong case for herself.
+		name = isildaDiyt.4a
+		trigger = {
+			NOT = { tag = BTA }
+			NOT = { tag = FER }
+		}
+		custom_tooltip = supported_isilda_tt
+		hidden_effect = {
+			set_country_flag = supported_isilda_diyt
+			BTA = {
+				change_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				FER = { NOT = { has_country_modifier = stamping_out_al_nasawiat } }
+			}
+			reverse_add_opinion = {
+				who = FER
+				modifier = supportive_ferrara
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = incorruptible_personality
+					ruler_has_personality = lawgiver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = pious_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = righteous_personality
+					ruler_has_personality = tolerant_personality
+					ruler_has_personality = free_thinker_personality
+					ruler_has_personality = zealot_personality
+				}
+			}
+		}
+	}
+	option = { #General: I've never seen a woman so thoroughly twist the Quran!
+		name = isildaDiyt.4b
+		trigger = {
+			NOT = { tag = BTA }
+			NOT = { tag = FER }
+		}
+		custom_tooltip = contested_isilda_tt
+		hidden_effect = {
+			BTA = {
+				subtract_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				FER = { has_country_modifier = stamping_out_al_nasawiat }
+			}
+			reverse_add_opinion = {
+				who = FER
+				modifier = supportive_ferrara
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 2
+				OR = {
+					ruler_has_personality = careful_personality
+					ruler_has_personality = strict_personality
+					ruler_has_personality = loose_lips_personality
+				}
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					ruler_has_personality = cruel_personality
+					ruler_has_personality = malevolent_personality
+				}
+			}
+		}
+	}
+	option = { #Supportive Ferrara: Her reforms have been a resounding success!
+		name = isildaDiyt.4c
+		custom_tooltip = supported_isilda_tt
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		hidden_effect = {
+			BTA = {
+				change_variable = {
+					which = isildaDiytVote
+					value = 2
+				}
+			}
+		}
+	}
+	option = { #Aggro Ferrara: Can we put this nonsense to rest?
+		name = isildaDiyt.4d
+		custom_tooltip = contested_isilda_tt
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		hidden_effect = {
+			BTA = {
+				subtract_variable = {
+					which = isildaDiytVote
+					value = 2
+				}
+			}
+		}
+	}
+	option = { #Bayt Allah: Observe the progressions.
+		name = isildaDiyt.4e
+		trigger = { tag = BTA }
+		add_prestige = 5
+	}
+	after = {
+		BTA = {
+			country_event = {
+				id = isildaDiyt.5 #Hidden event: counting votes
+				days = 60
+			}
+		}
+	}
+}
+country_event = { #Hidden event: counting votes
+	id = isildaDiyt.5
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					which = isildaDiytVote
+					value = 1
+				}
+			}
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #Isilda Emerges Victorious
+					id = isildaDiyt.6
+				}
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					religion = ashabi
+				}
+				country_event = { #Isilda is Defeated
+					id = isildaDiyt.7
+				}
+			}
+		}
+	}
+	option = {}
+}
+
+country_event = { #Isilda is Victorious
+	id = isildaDiyt.6
+	title = isildaDiyt.6t
+	desc = isildaDiyt.6d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: What an interesting development.
+		name = isildaDiyt.6a
+		trigger = { tag = BTA }
+		add_reform_desire = 10
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #Supportive Ferrara: We never doubted she would triumph.
+		name = isildaDiyt.6b
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		add_prestige = 15
+	}
+	option = { #Aggro Ferrara: What a complete mess!
+		name = isildaDiyt.6c
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		add_prestige = -15
+		add_stability = -1
+		remove_country_modifier = stamping_out_al_nasawiat
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #General Supportive: Glory to Allah!
+		name = isildaDiyt.6c
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = BTA }
+			has_country_flag = supported_isilda_diyt
+		}
+		add_prestige = 5
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+	option = { #General Aggro: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = BTA }
+			NOT = { has_country_flag = supported_isilda_diyt }
+		}
+		add_prestige = -5
+		add_country_modifier = {
+			name = isilda_reforms
+			duration = -1
+		}
+	}
+}
+
+country_event = { #Isilda is Defeated
+	id = isildaDiyt.7
+	title = isildaDiyt.7t
+	desc = isildaDiyt.7d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	option = { #Bayt Allah: A fairly predictable outcome.
+		name = isildaDiyt.7a
+		trigger = { tag = BTA }
+		hidden_effect = {
+			VEN = {
+				country_event = {
+					id = isildaDiyt.8
+					days = 7
+				}
+			}
+		}
+	}
+	option = { #Supportive Ferrara: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			tag = FER
+			NOT = { has_country_modifier = stamping_out_al_nasawiat }
+		}
+		add_prestige = -10
+		remove_country_modifier = isilda_reforms
+	}
+	option = { #Aggro Ferrara: Finally, she's gone!
+		name = isildaDiyt.7b
+		trigger = {
+			tag = FER
+			has_country_modifier = stamping_out_al_nasawiat
+		}
+		add_prestige = 15
+	}
+	option = { #General Supportive: How did this happen..?
+		name = isildaDiyt.6e
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = BTA }
+			has_country_flag = supported_isilda_diyt
+		}
+		add_prestige = -5
+	}
+	option = { #General Aggro: Glory to Allah!
+		name = isildaDiyt.6c
+		trigger = {
+			NOT = { tag = FER }
+			NOT = { tag = BTA }
+			NOT = { has_country_flag = supported_isilda_diyt }
+		}
+		add_prestige = 5
+	}
+}
+
+country_event = { #Isilda Nojua (In Venetia)
+	id = isildaDiyt.8
+	title = isildaDiyt.t
+	desc = isildaDiyt.8d
+	picture = wihgfx_FEMALE_SCHOLAR_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { #What a sad woman.
+		name = isildaDiyt.8a
+		add_dip_power = 5
+	}
+	option = { #Her service is welcome in Venetia.
+		name = isildaDiyt.8b
+		define_advisor = {
+			type = philosopher
+			name = "Isilda Nojua"
+			skill = 2
+			female = yes
+			discount = yes
+			culture = fiari
+			religion = ashabi
+		}
+	}
+}

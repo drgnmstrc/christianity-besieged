@@ -8,7 +8,7 @@ base_manpower = 3
 trade_goods = sulfur
 
 culture = dacian
-religion = cisarstvo
+religion = zamolxism
 capital = "Ramidava"
 
 is_city = yes

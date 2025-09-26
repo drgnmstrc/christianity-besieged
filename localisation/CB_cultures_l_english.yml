@@ -109,8 +109,8 @@
  gbe: "Gbe"
 
  # Germanic
- gepidian: "Gepidan"
- germanic_group: "Germanic"
+ gepidian: "Gibithische"
+ germanic_group: "Thiotisc"
  gothic: "Gutische"
  marcer: "Marcer"
  ostrogothic: "Austras"
@@ -347,10 +347,11 @@
  ofo: "Ofo"
  omahan: "Omahan"
 
- # South Slavic
+ # Cisarsci (South Slavic)
  avar: "Avarisci"
  caicavsci: "Caicavsci"
  pannici: "Pannici"
+ nissinsci: "Nissinsci"
 
  # Southern African
  bakalanga: "Bakalanga"

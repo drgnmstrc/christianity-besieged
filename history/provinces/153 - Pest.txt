@@ -16,8 +16,8 @@ base_manpower = 2
 
 trade_goods = grain
 
-culture = caicavsci
-religion = cisarstvo
+culture = nissinsci
+religion = slavic
 capital = "Pest"
 
 is_city = yes

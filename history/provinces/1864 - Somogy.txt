@@ -16,8 +16,8 @@ base_manpower = 2
 
 trade_goods = livestock
 
-culture = serbian
-religion = slavic
+culture = nissinsci
+religion = ashabi
 capital = "Kaposvár"
 
 is_city = yes

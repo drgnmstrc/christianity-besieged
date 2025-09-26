@@ -3,8 +3,8 @@
 owner = LNZ
 controller = LNZ
 add_core = LNZ
-culture = serbian
-religion = slavic
+culture = nissinsci
+religion = manichaeism
 capital = "Nagybecskerek"
 trade_goods = livestock
 hre = no

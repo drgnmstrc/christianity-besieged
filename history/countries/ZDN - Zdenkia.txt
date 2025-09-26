@@ -1,11 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = caicavsci
-religion = cisarstvo
+primary_culture = nissinsci
+religion = slavic
 technology_group = ottoman
-capital = 1863
+capital = 153
 add_army_tradition = 30
+add_yearly_manpower = -1
 
 1444.1.1 = {
 	monarch = {

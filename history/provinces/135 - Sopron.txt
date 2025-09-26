@@ -16,8 +16,8 @@ base_manpower = 3
 
 trade_goods = cloth
 
-culture = slovene
-religion = cisarstvo
+culture = nissinsci
+religion = ashabi
 capital = "Sopron"
 
 is_city = yes

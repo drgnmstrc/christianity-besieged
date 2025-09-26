@@ -3,7 +3,7 @@
 owner = POB
 controller = POB
 add_core = POB
-culture = polobske
+culture = thuringen
 religion = slavic
 hre = no
 capital = "Plawe"

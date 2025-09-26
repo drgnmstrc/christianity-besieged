@@ -3,7 +3,7 @@
 owner = PNY
 controller = PNY
 culture = pannici
-religion = manichaeism
+religion = ashabi
 capital = "Varazdin"
 trade_goods = cloth
 hre = no

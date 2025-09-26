@@ -55,7 +55,7 @@
 160 = { "Auluçen" "Auluçen" } # Alutus
 161 = { "Pašedau" "Pašedau" } # "Country City"
 2998 = { "Muçes" "Muçes" } # Mouseos
-3017 = { "Susidau" "Susidau" } # Zusidava
+3017 = { "Sussidau" "Sussidau" } # Zusidava
 4531 = { "Iulau" "Iulau" } # Iulia
 4532 = { "Seuer" "Seuer" } # Severinus
 

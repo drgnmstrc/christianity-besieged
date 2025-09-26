@@ -16,7 +16,7 @@ base_manpower = 1
 trade_goods = wine
 
 culture = pannonian_avar
-religion = manichaeism
+religion = ashabi
 capital = "Naradava"
 
 is_city = yes

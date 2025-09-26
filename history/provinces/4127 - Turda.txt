@@ -19,7 +19,7 @@ trade_goods = salt
 extra_cost = 8
 
 culture = pannonian_avar
-religion = manichaeism
+religion = ashabi
 capital = "Turda"
 
 is_city = yes
