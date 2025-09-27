@@ -148,9 +148,9 @@
 ## MAGHREB
 
 # Djerba
-353 = { "Qusantinah" "Qusantinah" } # Carthago
-2953 = { "Qusantinah" "Qusantinah" } # Carthago
-2954 = { "Qusantinah" "Qusantinah" } # Carthago
+353 = { "Tatawan" "Tatawan" } # Tatouine
+2453 = { "Sifa" "Sifa" } # Syphax
+2954 = { "Jirab" "Jirab" } # Djerba
 
 # Qirtaj/Tunisia
 341 = { "Kartajin" "Kartajin" } # Carthago
