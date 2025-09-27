@@ -35,9 +35,9 @@
 121 = { "Napli" "Napli" } # Neapolis
 
 # Marche-Abruzzo
-119 = { "Bruz" "al-Mitar" } # Aprutium, Amiternum + Greek "mythos"
+119 = { "al-Aghun" "al-Aghun" } # Ankon
+120 = { "Bruz" "al-Mitar" } # Aprutium, Amiternum + Greek "mythos"
 2977 = { "Urbi" "Urbi" } # Urbinum
-120 = { "al-Aghun" "al-Aghun" } # Ankon
 
 # Lazio-Umbria
 118 = { "al-Urbu" "Ruma" } # Rhomi
@@ -113,7 +113,7 @@
 ## FRANCE
 
 # Provence
-201 = { "Pruwinsiyah" "Pruwinsiyah" } # Latin "Provincia"
+201 = { "Pruwinsiyah" "Marsaliyah" } # Latin "Provincia", Massalia
 202 = { "Awinu" "Awinu" } # Avennio
 2991 = { "Al-Furnu" "Al-Furnu" } # Latin "furnus"
 4696 = { "Dulun" "Dulun" } # Tholon
