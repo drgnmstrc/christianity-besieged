@@ -160,9 +160,9 @@
 4566 = { "Kariyan" "Kariyan" } # Kairwan
 
 # Barbary Coast
-337 = { "Mitija" "Mitija" } # Carthago
-338 = { "Mitija" "Mitija" } # Carthago
-2461 = { "Mitija" "Mitija" } # Carthago
+337 = { "Awrana" "Awrana" } # Oran
+338 = { "Mitija" "Mitija" } # Mitidjan
+2461 = { "Darra" "Darra" } # Dahra
 
 # Kabylia
 339 = { "Bijay" "Bijay" } # Bejaia (Kabylia was a French invention)
