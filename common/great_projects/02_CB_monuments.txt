@@ -179,7 +179,7 @@ third_temple_jerusalem = {
 
 library_of_baghdad = {
 	# province it starts in
-	start = 2455
+	start = 341
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 765.01.01
