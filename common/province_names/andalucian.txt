@@ -23,7 +23,7 @@
 4780 = { "Akre" "Akre" } # Achrida
 
 # Morea
-145 = { "Belbunz" "Sabarde" } # Peloponnesos, Spardi
+145 = { "Belbunz" "Sabarde" } # Peloponnesos, Sparta
 146 = { "Atike" "Marathuna" } # Attiki, Marathonas
 163 = { "Krite" "Heraklæ" } # Kriti, Herakleia
 1773 = { "Akiye" "Rakem" } # Achaea, Raqim

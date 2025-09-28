@@ -86,7 +86,7 @@ LMR_1 = {
 		icon = mission_goths_and_romans
 		position = 5
 		required_missions = { LMR_the_fall_of_gaul LMR_expand_the_lex_malicensis } 
-		provinces_to_highlight = { has_trade_building_trigger = no } 
+		provinces_to_highlight = { has_trade_building_trigger = no owned_by = ROOT} 
 
 		trigger = {
 			OR = {

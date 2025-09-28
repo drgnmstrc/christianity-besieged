@@ -3,61 +3,61 @@
 ## GAUL
 
 # Brittany
-169 = { "Amer√≠c" "Renn" } # Armorica, Reginca
+169 = { "AmerÌc" "Renn" } # Armorica, Reginca
 170 = { "Fenstere" "Fenstere" } # Finis Terrae
 171 = { "Paeiven" "Paeiven" } # Pagus Venetius, Darioritum
 172 = { "Naunnt" "Port" } # Namnetum, Portus
 4384 = { "Paeiresnn" "Resnn" } # Pagus + Roazhon, Roazhon
 
 # Normandy
-167 = { "Paeish√°e" "Sh√°eleizz" } # Pagus Caletorum, Caletes
-168 = { "Cat√©w" "Cat√©w" } # Catumagos
-1879 = { "S√©e" "S√©e" } # Sagiensis
+167 = { "Paeish·e" "Sh·eleizz" } # Pagus Caletorum, Caletes
+168 = { "CatÈw" "CatÈw" } # Catumagos
+1879 = { "SÈe" "SÈe" } # Sagiensis
 4385 = { "Corial" "Corial" } # Coriallo
 
 # Loire Valley
 177 = { "Undyne" "Undyne" } # Cinomanus, Vindinium
-178 = { "Anjec" "Julom√°" } # Andecavia, Juliomagus
-4389 = { "Turon√©izz" "C√©wta Turon√©izz" } # Turones, Civitatem Turonensis
+178 = { "Anjec" "Julom·" } # Andecavia, Juliomagus
+4389 = { "TuronÈizz" "CÈwta TuronÈizz" } # Turones, Civitatem Turonensis
 
 # Poitou
-180 = { "Piton√©izz" "C√©wta Piton√©izz" } # Pictones, Civitatem Pictonensis
-4111 = { "Sent√°e" "Sent√°en√©izz" } # Santones, Santonensis
-4386 = { "P√°eivent" "P√°eivent" } # Pagus Venetus
-4387 = { "Acul√©izz" "Acul√©izz" } # Iculisma
+180 = { "PitonÈizz" "CÈwta PitonÈizz" } # Pictones, Civitatem Pictonensis
+4111 = { "Sent·e" "Sent·enÈizz" } # Santones, Santonensis
+4386 = { "P·eivent" "P·eivent" } # Pagus Venetus
+4387 = { "AculÈizz" "AculÈizz" } # Iculisma
 
 ## BRITAIN
 
 # London
-236 = { "L√©wnd" "L√©wnd" } # Londinium
+236 = { "LÈwnd" "LÈwnd" } # Londinium
 4371 = { "Anderet" "Anderet" } # Anderita
-235 = { "Dobr√©izz" "Dobr√©izz" } # Cantium, Dubris/Durovernum
-237 = { "Ch√¢t√©w Bianc" "Ch√¢t√©w Bianc" } # Oppidum, Castrum Blancum
+235 = { "DobrÈizz" "DobrÈizz" } # Cantium, Dubris/Durovernum
+237 = { "Ch‚tÈw Bianc" "Ch‚tÈw Bianc" } # Oppidum, Castrum Blancum
 
 # East Anglia
-238 = { "C√≥ch√¢t√©w" "C√≥ch√¢t√©w" } # Colonia Claudia, Colenceaster
-1860 = { "Nordf√©wc" "P√°eienta Cen√©w" } # Nor√æfolc, Venta Icenorum
+238 = { "CÛch‚tÈw" "CÛch‚tÈw" } # Colonia Claudia, Colenceaster
+1860 = { "NordfÈwc" "P·eienta CenÈw" } # Nor˛folc, Venta Icenorum
 4370 = { "Eglizzepolis" "Eglizzepolis" } # Ecclesia-polis, Lygetun
 
 # East Midlands
-243 = { "Lindas√©izz" "Lend√°e" } # Lindesege, Lindum Colonia
-1861 = { "Dorb√©i" "Dorb√©i" } # Derventio, Dj√∫ra-by
-4376 = { "Corelt√°era" "Rati" } # Corieltauvorum, Ratae
+243 = { "LindasÈizz" "Lend·e" } # Lindesege, Lindum Colonia
+1861 = { "DorbÈi" "DorbÈi" } # Derventio, Dj˙ra-by
+4376 = { "Corelt·era" "Rati" } # Corieltauvorum, Ratae
 
 # Somerset
-234 = { "N√°eim√°e" "Amto" } # Noviomagus, Hamtun
-4374 = { "Durn√©war" "D√¥rch√¢t" } # Durnovaria, Dorns√¶te
+234 = { "N·eim·e" "Amto" } # Noviomagus, Hamtun
+4374 = { "DurnÈwar" "DÙrch‚t" } # Durnovaria, DornsÊte
 4373 = { "Duen" "Ascon" } # Devena, Isca
-233 = { "Cerneu" "Pen√©r" } # Kernow, Penrynn
-4130 = { "Acue S√≥les" "Somerch√¢t" } # Aquae Sulis, Sumors√¶te
+233 = { "Cerneu" "PenÈr" } # Kernow, Penrynn
+4130 = { "Acue SÛles" "Somerch‚t" } # Aquae Sulis, SumorsÊte
 
 # West Midlands
-240 = { "Uroc√≥nec" "Marsh√°e" } # Viroconium, Mierce
-239 = { "Gluch√¢t√©w" "Gluo" } # Glouvia, Glevum
-4372 = { "B√°gent" "C√°entr√©t" } # Bagintum, Cofentreo
+240 = { "UrocÛnec" "Marsh·e" } # Viroconium, Mierce
+239 = { "Gluch‚tÈw" "Gluo" } # Glouvia, Glevum
+4372 = { "B·gent" "C·entrÈt" } # Bagintum, Cofentreo
 
 # Wales
-241 = { "Clann√≥rgan" "Cerd√≠f" } # Glamorgan, Cardiff
-242 = { "Fened√©t" "Seg√©nt" } # Venedotia, Segontium
-4366 = { "P√°eizz" "Trif√°ldin" } # Pagus, Trefaldwyn
-4369 = { "Demet√©izz" "M√¥ridun√°e" } # Demetae, Moridunum
+241 = { "ClannÛrgan" "CerdÌf" } # Glamorgan, Cardiff
+242 = { "FenedÈt" "SegÈnt" } # Venedotia, Segontium
+4366 = { "P·eizz" "Trif·ldin" } # Pagus, Trefaldwyn
+4369 = { "DemetÈizz" "MÙridun·e" } # Demetae, Moridunum

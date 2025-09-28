@@ -5486,7 +5486,7 @@ turko_semitic = { #Levantine
 rumi = {
 	graphical_culture = muslimgfx
 	ifri = {
-		primary = SIC
+		primary = IFR
 	}
 	bahrumi = {
 		primary = COR

@@ -11,6 +11,6 @@ tags={
 	"Gameplay"
 	"Technologies"
 }
-name="Christianity Besieged: Redux"
+name="Christianity Besieged: Reborn!"
 supported_version="v1.37.5.0"
-remote_file_id="3561095154"
+remote_file_id="3576162173"

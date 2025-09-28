@@ -9,7 +9,7 @@ country_event = { #Matter of the Naghali
 	option = { #We shall expand the practice of mukataba, or manumission.
 		name = SLAVERYGOOD.0a
 		trigger = {
-			has_country_flag = naghali_repression
+			NOT = { has_country_flag = naghali_enfranchisement }
 		}
 		clr_country_flag = considering_naghali_laws
 		clr_country_flag = naghali_repression
@@ -18,12 +18,13 @@ country_event = { #Matter of the Naghali
 			limit = { culture = naghali }
 			remove_province_modifier = naghali_discontent
 		}
+		custom_tooltip = enables_naghali_settlement_tt
 	}
 	
 	option = { #The Naghali and their people are inherently our inferiors!
 		name = SLAVERYGOOD.0b
 		trigger = {
-			has_country_flag = naghali_enfranchisement
+			NOT = { has_country_flag = naghali_repression }
 		}
 		clr_country_flag = considering_naghali_laws
 		clr_country_flag = naghali_enfranchisement

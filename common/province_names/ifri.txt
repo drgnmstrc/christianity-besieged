@@ -1,0 +1,170 @@
+# RULES
+# -ia -> -ya/-iya
+# -io -> -eo
+# -ium -> -u
+# e -> a
+# b -> p
+# Format: ID = { "Province" "Capital" } # Origin
+
+## ITALY 
+
+# Eastern Sicily
+126 = { "Malita" "Malita" } # Meliti
+2982 = { "Siraquzah" "Siraquzah" } # Syracusa
+124 = { "Masina" "Masina" } # Messana
+
+# Western Sicily
+4737 = { "Jirgans" "Jirgans" } # Jirjant
+4736 = { "Drapan" "Drapan" } # Drepanon
+125 = { "Palir" "Palir" } # Panormos
+
+# Calabria
+1934 = { "Laqanya" "Putanzah" } # Lucania, Potentia
+2984 = { "Qusanz" "Qusanz" } # Consentia
+123 = { "Qilawriya" "Riju" } # Calabria, Rhigion/Reggium
+
+# Apulia
+122 = { "Salanzu" "Tarinj" } # Sallentium, Tarantos
+1933 = { "Barih" "Barih" } # Barion
+2985 = { "Fukhya" "Fukhya" } # Phocaea/Focias
+4733 = { "Imuliz" "al-Qanbas" } # Molisium, Campobasum + Greek "kannabis"
+
+# Campania
+4734 = { "Balinu" "Balinu" } # Avellinum
+2983 = { "Salarnu" "al-Publya" } # Salernum, Via Popilia
+121 = { "Napli" "Napli" } # Neapolis
+
+# Marche-Abruzzo
+119 = { "al-Aghun" "al-Aghun" } # Ankon
+120 = { "Bruz" "al-Mitar" } # Aprutium, Amiternum + Greek "mythos"
+2977 = { "Urbi" "Urbi" } # Urbinum
+
+# Lazio-Umbria
+118 = { "al-Urbu" "Ruma" } # Rhomi
+2976 = { "Baruzya" "Baruzya" } # Perusia
+4732 = { "Tarraq" "Tarraq" } # Tarracina
+4731 = { "Zuplitu" "Zuplitu" } # Spoletium
+
+# Tuscany
+117 = { "Shin" "Shin" } # Saena
+116 = { "Furanj" "Furanj" } # Florentia
+115 = { "Piz" "Piz" } # Pisa
+2978 = { "al-Arrit" "Harezeon" } # Arretium
+2980 = { "Luq" "Luq" } # Lucca
+
+# Tyrrhenian Isles
+127 = { "Thura" "Thura" } # Turris
+2986 = { "Kalari" "Kalari" } # Caralis
+4735 = { "Dharri" "Dharri" } # Tharros
+1247 = { "Kursigha" "al-Qartaqa" } # Corsica, Alalia
+
+# Liguria
+101 = { "Janah" "Janah" } # Genua
+2992 = { "Al-Binagh" "Al-Binagh" } # Albinganim
+102 = { "Niqay" "Niqay" } # Nicaea
+
+## BALKAN
+
+# Macedonia
+148 = { "Thasalun" "Al-Aymuqal" } # Thessaloniki, Aiyum Qalis/Aymuqa + la
+1853 = { "Al-Inkshura" "Al-Inkshura" } # Link + shire
+3001 = { "Shqupya" "Shqupya" } # Skopia
+4702 = { "Sirr" "Sirr" } # Serra
+4780 = { "Akarda" "Akarda" } # Achrida
+
+# Morea
+145 = { "Palibuniz" "Shpart" } # Peloponnesos, Sparta
+146 = { "Yunanya al-Putanzi" "Maradhun" } # "West Ionia", Marathonas
+163 = { "Qirit" "Qastr al-Bandali" } # Kriti, "Castle of the Vandali/Avandaloi"
+1773 = { "Al-Aqay" "Ar-Raqam" } # Achaea, Raqim
+4701 = { "Garint" "Arguza" } # Korinthos, Argos
+
+# Upper Pelgazar/Northern Greece
+142 = { "Kurk" "Kurk" } # Kerkyra
+144 = { "Al-Yukhana" "Qastr al-Yukhana" } # Saint John, "John's Castle"
+147 = { "Thasaliya" "Larris" } # Thessalia, Larissa
+4698 = { "Qayfal" "Araqustil" } # Cephalonia, Argostoli
+4699 = { "Abiruza" "Tarasin" } # Epirus, ???
+
+# South Turgazar/Albania
+4175 = { "Alish" "Alish" } # Lissum
+4750 = { "Qarram" "Qarram" } # Croarum
+4174 = { "Dhuraji" "Dhuraji" } # Dyrrachium
+143 = { "Falun" "Falun" } # Aulon
+
+# North Turgazar/Serbia
+1766 = { "Albiya" "Albiya" } # Ulpiana
+1827 = { "Rashid" "Farran" } # Rascia, Vranje
+138 = { "Pulcastr" "Munizbu" } # "Polis-castle", Municipum
+4754 = { "Askribi" "Lirapul" } # Ascrivium, Illiropoli
+
+# Ustdalmat/Croatia
+1826 = { "Aypudiya" "Uthnas" } # Iapodia, Ottocium
+4752 = { "Falumi" "Falumi" } # Flumen
+131 = { "Akran" "Munkhir" } # Agranum, Mons Graecensis
+1828 = { "Asiya" "Asiya" } # Jajce
+
+# Dalmatia
+137 = { "Raqusah" "Raqusah" } # Ragusium
+136 = { "Spilith" "Spilith" } # Aspalathum
+4753 = { "Iyadha" "Iyadha" } # Iader
+4942 = { "Sinuz" "Sinuz" } # Sinusea
+
+## FRANCE
+
+# Provence
+201 = { "Pruwinsiyah" "Marsaliyah" } # Latin "Provincia", Massalia
+202 = { "Awinu" "Awinu" } # Avennio
+2991 = { "Al-Furnu" "Al-Furnu" } # Latin "furnus"
+4696 = { "Dulun" "Dulun" } # Tholon
+
+# Languedoc
+196 = { "Tulush" "Tulush" } # Tolosa
+200 = { "Al-Anqidhu" "Al-Anqidhu" } # Languedoc
+2753 = { "Arbuna" "Arbuna" } # Narbona
+4391 = { "Fibaru" "Fibaru" } # Vivarium
+4695 = { "Qarqash" "Qarqash" } # Carcaso
+
+## IBERIA
+
+# Catalonia
+197 = { "Ar-Rushin" "Ar-Rushin" } # Ruscino
+212 = { "Jurundah" "Jurundah" } # Gerunda
+213 = { "Barchalun" "Barchalun" } # Barcino
+2987 = { "Ragula" "Ragula" } # Urgell
+2988 = { "Tarraghu" "Tarraghu" } # Tarraco
+
+# Valencia
+220 = { "Balanziya" "Balanziya" } # Valentia
+1750 = { "Al-Laqan" "Al-Laqan" } # Al-Laqant/Lucentum
+4549 = { "Shatib" "Shatib" } # Shatiba
+4550 = { "Qastr" "Qastr" } # Latin "castellum"
+
+# Baleares
+333 = { "Mayurka" "Mayurka" } # Maiorca
+4559 = { "Minaraq" "Minaraq" } # Minorca
+4560 = { "Yapis" "Yapis" } # Ibisa
+
+## MAGHREB
+
+# Djerba
+353 = { "Tatawan" "Tatawan" } # Tatouine
+2453 = { "Sifa" "Sifa" } # Syphax
+2954 = { "Jirab" "Jirab" } # Djerba
+
+# Qirtaj/Tunisia
+341 = { "Kartajin" "Kartajin" } # Carthago
+2454 = { "Siqafanar" "Siqafanar" } # Sicca Veneria
+2455 = { "Punzarit" "Punzarit" } # Hippo Zarytus
+2473 = { "Susa" "Susa" } # Susa
+4566 = { "Kariyan" "Kariyan" } # Kairwan
+
+# Barbary Coast
+337 = { "Awrana" "Awrana" } # Oran
+338 = { "Mitija" "Mitija" } # Mitidjan
+2461 = { "Darra" "Darra" } # Dahra
+
+# Kabylia
+339 = { "Bijay" "Bijay" } # Bejaia (Kabylia was a French invention)
+340 = { "Kustadinah" "Kustadinah" } # Constantinus
+1882 = { "Purijya" "Purijya" } # Hippo Regius
