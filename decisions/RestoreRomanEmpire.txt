@@ -112,6 +112,9 @@ country_decisions = {
 			}
 			NOT = { exists = RMC }
 			religion = ashabi
+            NOT = {
+                has_country_flag = restored_rome_flag
+            }
 		}
 		provinces_to_highlight = {
 			OR = {
