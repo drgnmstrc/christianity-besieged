@@ -17,5 +17,6 @@ As Rome's periphery began to collapse to Germanic and Islamic invasion, they wou
 [Legovd101](https://github.com/Legovd101)  
 [cardeboard](https://github.com/cardeboard)  
 [Freyja-moth](https://github.com/Freyja-moth)  
+[Pagaes](https://github.com/Pagaes)
 
 > If you have made contributions to the repo and want to be credited, feel free to add your github account here.
