@@ -1,0 +1,19 @@
+hado_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomats = 1
+	merchants = 1
+	diplomatic_reputation = 1
+}
+
+kurudi_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	land_morale = 0.1
+	global_manpower_modifier = 0.05
+	core_creation = -0.15
+}
