@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = venice_merchants_reform
+add_government_reform = venetian_tyranny_reform
 mercantilism = 25
 primary_culture = venixus
 add_accepted_culture = ilyicolone
