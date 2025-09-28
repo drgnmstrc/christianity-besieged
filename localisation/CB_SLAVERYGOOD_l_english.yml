@@ -2,6 +2,7 @@
  SLAVERYGOOD.0t: "Matter of the Naghali"
  SLAVERYGOOD.0d: "With the rise of the Juthudi Sultanate, the new choice source of slaves in Iberia is Britannia, or the Naghali as they are known here. Wisely, the [Root.Monarch.GetTitle] has decided to consider changing the current laws regarding the Naghali."
  SLAVERYGOOD.0a: "We shall expand the practice of mukataba, or manumission."
+ enables_naghali_settlement_tt: "Enables the Naghali settlement events"
  SLAVERYGOOD.0b: "The Naghali and their people are inherently our inferiors!"
  SLAVERYGOOD.0c: "This all sounds very complex...."
  not_considering_or_recently_changed_tt: "We must not be considering a change to the Naghali policy, nor have changed them in the last §Y25§! years."

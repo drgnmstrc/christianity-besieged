@@ -7,8 +7,8 @@ country_decisions = {
 		allow = {
 			custom_trigger_tooltip = {
 				tooltip = not_considering_or_recently_changed_tt
+				NOT = { has_country_flag = considering_naghali_laws }
 				OR = {
-					NOT = { has_country_flag = considering_naghali_laws }
 					had_country_flag = {
 						flag = naghali_repression
 						days = 9125
