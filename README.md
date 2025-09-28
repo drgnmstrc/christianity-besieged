@@ -8,3 +8,13 @@ Continuing to weather conflicts with the Roman Empire, the Germanic religious cu
 
 As Rome's periphery began to collapse to Germanic and Islamic invasion, they would ultimately adopt a Romanized Islamic sect in the 14th century, with its origins in Sicily and Morea. Spearheaded by the Liremans and the Ifriqyan Grand Mufti, who personally rose the Lireman Emperor to a caliph, Rome's solar empire would mostly die voluntarily, with pagan holdouts remaining in northern Italy.
 
+### Contributers
+[drgnmstrc](https://github.com/drgnmstrc)
+
+[Legovd101](https://github.com/Legovd101)
+
+[cardeboard](https://github.com/cardeboard)
+
+[Freyja-moth](https://github.com/Freyja-moth)
+
+> If you have made contributions to the repo and want to be credited, feel free to add your github account here.
