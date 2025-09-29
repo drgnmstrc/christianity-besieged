@@ -16,6 +16,7 @@ estate_brehon = {
 		brehon_heritic_right_of_judgment_privilege
 		brehon_criminal_right_of_judgment_privilege
 		brehon_judgment_of_kin_privilege
+		brehon_burden
 	}
 
 	agendas = {
@@ -51,7 +52,7 @@ estate_brehon = {
 	base_influence = 30
 	influence_modifier = {
 		desc = "Norms"
-		influence = 50
+		influence = 80
 		trigger = {
 			always = yes
 		}

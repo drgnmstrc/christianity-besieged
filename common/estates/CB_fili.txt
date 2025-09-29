@@ -7,7 +7,10 @@ estate_fili = {
 	color = { 18 52 86 }
 
 	trigger = {
+		NOT = { has_disabled_estate = { estate = estate_fili } }
+
 		culture_group = insular_celtic
+		religion = druidism
 	}
 
 	privileges = {

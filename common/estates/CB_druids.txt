@@ -5,7 +5,10 @@ estate_druids = {
 	color = { 18 52 86 }
 
 	trigger = {
+		NOT = { has_disabled_estate = { estate = estate_druids } }
+
 		culture_group = insular_celtic
+		religion = druidism
 	}
 
 	privileges = {
@@ -47,11 +50,10 @@ estate_druids = {
 	base_influence = 30
 	influence_modifier = {
 		desc = "Norms"
-		influence = 80
+		influence = 50
 		trigger = {
 			always = yes
 		}
-
 	}
 
 	province_independence_weight = {
