@@ -1,3 +1,5 @@
+![left to right: iranian soldier, viking, druid, bahrumiun corsair, mudariyya sufi](thumbnail.png)
+
 # Christianity Besieged
 
 [![Steam Downloads](https://img.shields.io/steam/downloads/3576162173?style=for-the-badge&logo=steam&label=Steam%20Workshop&color=%231b2838)
