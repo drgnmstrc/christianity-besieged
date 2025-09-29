@@ -1,0 +1,4 @@
+brehon_rebellion = {
+	administrative_efficiency = -10
+	
+}
