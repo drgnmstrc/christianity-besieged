@@ -1,4 +1,4 @@
-druidic_question_of_governance_rebels = {
+druid_restoration_of_sufferage_rebels = {
 	area = nation
 
 	government = theocracy
@@ -17,6 +17,6 @@ druidic_question_of_governance_rebels = {
 	morale = 0.4
 
 	demands_enforced_effect = {
-		change_government_to_theocracy = yes
+		add_government_reform = druidic_assembly
 	}
 }
