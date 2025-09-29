@@ -1,13 +1,89 @@
-﻿l_english: 
- IRE_IRLAND:0 "Írland"
- IRE_EIREANN:0 "Éireann"
- IRE_ERETERRE:0 "Éreterre"
- IRE_IWERDDON:0 "Iwerddon"
- state_land_consecration:0 "State Land Consecration"
- state_sacremented_rituals:0 "State Sacremented Rituals"
- temple_court_payments:0 "Temple Court Payments"
- state_druid_regulations:0 "State Druid Regulations"
- religious_army_divisions:0 "Religious Army Divisions"
- CBDruidEvents.0t:0 "The Stone of Destiny"
- CBDruidEvents.0d:0 "Atop the Cnoc na Teamhrach, or the Hill of Tara, climbs the grand procession of the [Root.Monarch.GetTitle] and court. Atop the walls surrounding the Hill, many sacred soldiers stand guard. And the druids await atop, at the Lia Fáil, or Stone of Destiny.\nWhen the court arrives, the time comes to await the stone's response to [Root.Monarch.GetName]'s presence. In the absence of the stone wailing against [Root.Monarch.GetHerHis] rule, the druids can give their blessings. The crown of the High King is placed upon [Root.Monarch.GetHerHis] brow."
- CBDruidEvents.0a:0 "All Hail [Root.Monarch.GetName]!"
+﻿l_english:
+  ## Decisions
+  proclaim_high_kingdom_of_ireland_title: "Proclaim High King of Ireland"
+
+  ## Events
+  irish_events.1.t: "Proclaimed high king of ireland!"
+  irish_events.1.d: "You have proclaimed yourself high king of ireland!"
+  irish_events.1.a: "They shall all kneel before us!"
+
+  irish_events.2.t: "High king of ireland demands loyalty."
+  irish_events.2.d: "Someone has declared themselves the high king of ireland"
+  irish_events.2.a: "We shall kneel"
+  irish_events.2.b: "We shall not kneel"
+
+  irish_events.3.t: "False high king of ireland demands loyalty."
+  irish_events.3.d: "Someone has falsely declared themselves the high king of ireland!"
+  irish_events.3.a: "We shall kneel."
+  irish_events.3.b: "We shall not kneel."
+
+  irish_events.4.t: "Seized Hill of Tara!"
+  irish_events.4.d: "You have seized the Hill of Tara! Lia Fáil roars in joy, for a true high king of ireland hold dominion!"
+  irish_events.4.a: "Onwards! To glory!"
+
+  irish_events.5.t: "Hill of Tara lost!"
+  irish_events.5.d: "A pretender has seized the Hill of Tara! Lia Fáil roars once again, for a false king pretends dominion over ireland!"
+  irish_events.5.a: "We roar with Lia Fáil!"
+
+  ## Missions
+  irish_centralise_the_realm_mission_title: "Centralise the Realm"
+
+  irish_obtain_consort_mission_title: "Obtain Consort"
+
+  irish_sponsor_poetry_mission_title: "Commision Poetry"
+
+  irish_secure_succession_mission_title: "Elect Tanist"
+
+  irish_sponsor_holy_site_mission_title: "Sponsor Holy Site"
+
+  irish_sacrifice_captives_mission_title: "Sacrifice Captives"
+
+  irish_seize_hill_of_tara_mission_title: "Seize the Hill of Tara"
+
+  irish_proclaim_high_king_mission_title: "Proclaim High King"
+
+  irish_prepare_for_conquest_mission_title: "Prepare for Conquest"
+
+  irish_cattle_raids_mission_title: "Raid for Cattle"
+
+  irish_subjugate_neighbor_mission_title: "Subjugate Neighbor"
+
+  irish_gain_support_in_the_isles_mission_title: "Gain Support in Britannia"
+
+  irish_placate_the_estates_mission_title: "Placate the Estates"
+
+  irish_dev_beer_mission_title: "Promote Brewing"
+
+  irish_place_druidic_burden_mission_title: "Burdern the Druids"
+
+  irish_drive_out_heritics_mission_title: "Drive out the Heritics"
+
+  irish_hold_druidic_meeting_mission_title: "Hold Druidic Council"
+
+  irish_divine_future_of_ireland_mission_title: "Divine the Irish Future"
+
+  irish_weather_pretenders_mission_title: "Weather Pretenders"
+
+  irish_restore_hall_of_banquets_mission_title: "Restore Teach Miodhchuarta"
+
+  irish_hold_great_diet_mission_title: "Hold Diet of Ireland"
+
+  irish_unify_ireland_mission_title: "Unify Ireland"
+
+  irish_build_defences_missions_title: "Ready Irish Defences"
+
+  irish_prepare_navy_mission_title: "Prepare Navy"
+
+  irish_establish_trade_mission_title: "Establish Trade"
+
+  irish_naval_supremacy_mission_title: "Naval Supremacy"
+
+  irish_mainland_relations_mission_title: "Mainland Relations"
+
+  irish_infiltrate_reichien_mission_title: "Infiltrate Reichien"
+
+  ### Ulster
+
+  ulster_a_warrior_reborn_mission_title: "A Warrior Reborn"
+
+  cattle_raids_total_losses: "Have lost a war with at least §Y2500§! casualites."
