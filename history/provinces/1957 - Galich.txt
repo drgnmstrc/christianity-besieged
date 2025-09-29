@@ -1,10 +1,10 @@
 #Galich
 
-owner = DUL
-controller = DUL
+owner = GLM
+controller = GLM
 culture = bolghar
 religion = tengri_pagan_reformed
-add_core = DUL
+add_core = GLM
 capital = "Galich"
 trade_goods = salt
 hre = no

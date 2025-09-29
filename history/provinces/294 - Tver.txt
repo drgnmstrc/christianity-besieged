@@ -1,8 +1,8 @@
 #294 - Tver
 
-owner = DUL
-controller = DUL
-add_core = DUL
+owner = DLO
+controller = DLO
+add_core = DLO
 culture = bolghar
 religion = tengri_pagan_reformed
 hre = no
