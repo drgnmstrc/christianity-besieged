@@ -28,8 +28,7 @@ custom_icon = {
 custom_button = {
 	name = manichaean_frontend_open_button
 	potential = {
-		# religion = manichaeism
-		always = no
+		religion = manichaeism
 	}
 	trigger = {
 	}
