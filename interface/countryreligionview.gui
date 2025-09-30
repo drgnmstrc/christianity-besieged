@@ -2616,8 +2616,316 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 		}
-	}
+		
+		guiButtonType = {
+			name = "manichaean_frontend_open_button"
+			scripted = yes
+			position = { x = 550 y = 240 }
+			spriteType = "GFX_manichaean_sun_button"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		windowType = { ## EE Latin Bubble
+			name = "latin_bubble_entry"
+			scripted = yes
+			backGround=""
+			position = { x = 82 y = 215}
+			size = { x=50 y=50 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			orientation = "UPPER_LEFT"
+		
+			iconType = {
+				name ="latin_frontend_open_bg"
+				spriteType = "GFX_menubar_floating_bg_sideways"
+				position = { x= -320 y = -61 }
+				scripted = yes
+			}
+					
+			instantTextBoxType = {
+				name = "latin_frontend_number"
+				#position = { x = -364 y = -18 }
+				position = { x= -319 y = -46 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "100"	
+				maxWidth = 50
+				maxHeight = 32
+				format = centre
+				scripted = yes
+			}
+		}
+
+		windowType = { ## EE Latin Window
+			name = "latin_custom_window"
+			scripted = yes
+			backGround=""
+			position = { x = 580 y = 20 }	
+			size = { x=584 y=620 }
+			moveable = 1
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			#upsound = religion_sunni
+			
+			iconType = {
+				name ="faction_window_bg_override"
+				scripted = yes
+				spriteType = "GFX_latin_window_bg"
+				position = { x = 0 y = 0 }
+			}
+			
+			iconType = {
+				name ="gushnasp_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 346 y = 15 }
+			}
+
+			instantTextBoxType = {
+				name = "faction_window_text_mechanic_override"
+				#scripted = yes
+				text = "Lega Latina"
+				position = { x = 0 y =10 }
+				format = centre
+				font = "vic_29s"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 584
+				maxHeight = 32			
+			}
+			
+			guiButtonType = {
+				name ="owner_shield"
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 290 y = 30 }
+				orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_rector"
+				scripted = yes
+				position = { x = 16 y = 185 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 250
+				maxHeight = 45			
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_unity_growth"
+				scripted = yes
+				position = { x = 126 y = 250 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 50
+				maxHeight = 45			
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_rectoral_religion"
+				scripted = yes
+				position = { x = 16 y = 270 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 250
+				maxHeight = 45			
+			}
+			
+			iconType = {
+				name ="latin_ui_reforms_banner"
+				scripted = yes
+				spriteType = "gfx_islamic_holy_site_banner"
+				position = { x = 37 y = 316 }
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_reforms_banner_text"
+				scripted = yes
+				position = { x = 60 y = 316 }
+				format = centre
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 155
+				maxHeight = 45			
+			}
+			
+			guiButtonType = {
+				name ="latin_ui_religion_reform"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 339 }
+			}
+			
+			guiButtonType = {
+				name ="latin_ui_culture_reform"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 385 }
+			}
+			
+			guiButtonType = {
+				name ="latin_ui_hereditary_reform"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 431 }
+			}
+
+			guiButtonType = {
+				name = "latin_ui_levantine_reform"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 477 }
+			}
+			
+			guiButtonType = {
+				name ="latin_ui_unification_reform"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 523 }
+			}
+			
+			guiButtonType = {
+				name ="editto_subsidize_league_trade"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 250 }
+				scale = 1
+				buttonText = "Subsidize League Trade"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_loosen_army_restrictions"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 295 }
+				scale = 1
+				buttonText = "Loosen Army Restrictions"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_promote_religious_adherence"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 340 }
+				scale = 1
+				buttonText = "Promote Religious Adherence"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_inspire_religious_tolerance"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 385 }
+				scale = 1
+				buttonText = "Inspire Religious Tolerance"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_encourage_infrastructure"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 430 }
+				scale = 1
+				buttonText = "Develop the League's Infrastructure"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_forbid_anathema"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 475 }
+				scale = 1
+				buttonText = "Forbid the Teaching of Anathema"
+				buttonFont = "vic_18_black"
+			}
+			
+			guiButtonType = {
+				name ="editto_fund_league_universities"
+				scripted = yes
+				spriteType = "GFX_decree_button"
+				position = { x = 285 y = 520 }
+				scale = 1
+				buttonText = "Fund League Universities"
+				buttonFont = "vic_18_black"
+			}
+			
+			iconType = {
+				name ="latin_ui_edicts_banner"
+				scripted = yes
+				spriteType = "GFX_copts_site_title_banner"
+				position = { x = 267 y = 225 }
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_edicts_banner_text"
+				scripted = yes
+				position = { x = 330 y = 225 }
+				format = centre
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 155
+				maxHeight = 25			
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_unity_value"
+				scripted = yes
+				position = { x = 16 y = 220 }
+				font = "vic_36"
+				borderSize = {x = 0 y = 0}
+				#text = "10.00"	
+				maxWidth = 250
+				maxHeight = 32	
+				format = centre
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_influence_growth"
+				scripted = yes
+				position = { x = 316 y = 160 }
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 250
+				maxHeight = 45			
+				format = centre
+			}
+			
+			guiButtonType = {
+				name = "latin_custom_close_button"
+				scripted = yes
+				position = { x=-62 y =260}
+				quadTextureSprite ="button_type_1"
+				buttonText = "Close"
+				buttonFont = "vic_18"
+				Orientation = "CENTER"
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}
+		}
+
 	
+	}
+
 	################# personal deity		
 	windowType = {
 		name = "personal_deity_item"
