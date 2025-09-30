@@ -376,7 +376,7 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	noniustian_administation = {
+	noniustian_administration = {
 		potential = {
 			religion = noniustian
 		}
