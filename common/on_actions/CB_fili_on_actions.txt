@@ -1,0 +1,10 @@
+on_startup = {
+	if = {
+		limit = { has_estate = estate_fili }
+		set_estate_privilege = fili_reverence_for_poets_privilege
+		set_estate_privilege = fili_councilership_privilege
+		set_estate_privilege = fili_diplomacy_privilege
+		set_estate_privilege = fili_power_of_satire_privilege
+		set_estate_privilege = fili_war_diviners_privilege
+	}	
+}

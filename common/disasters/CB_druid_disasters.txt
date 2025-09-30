@@ -1,0 +1,253 @@
+# druid_expulsion_of_heretics_disaster = {
+# 	potential = {
+# 		has_estate = estate_druids
+# 		religion = druidism
+# 	}
+
+# 	can_start = {
+# 		has_reform = irish_high_kingdom
+# 		any_province = {
+# 			country_or_non_sovereign_subject_holds = ROOT
+# 			NOT = { religion = ROOT }
+# 		}
+# 	}
+
+# 	progress = {
+# 		modifier = {
+# 			factor = 1
+# 			always = yes
+# 		}
+# 	}
+
+# 	can_stop = {
+# 		always = no
+# 	}
+
+# 	can_end = {
+# 		always = no
+# 	}
+# }
+
+# druid_restoration_of_sufferage_disaster = {
+# 	potential = {
+# 		OR = {
+# 			has_reform = irish_kingdom
+# 			has_reform = irish_high_kingdom
+# 		}
+# 		has_estate = estate_druids
+# 	}
+
+# 	can_start = {
+# 		estate_influence = {
+# 			estate = estate_druids
+# 			influence = 100
+# 		}
+# 		NOT = {
+# 			estate_loyalty = {
+# 				estate = estate_druids
+# 				loyalty = 60
+# 			}
+# 		}
+# 	}
+
+# 	can_stop = {
+# 		estate_influence = {
+# 			estate = estate_druids
+# 			influence = 50
+# 		}
+# 	}
+
+# 	progress = {
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				estate_loyalty = {
+# 					estate = estate_druids
+# 					loyalty = 60
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				estate_loyalty = {
+# 					estate = estate_druids
+# 					loyalty = 50
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				estate_loyalty = {
+# 					estate = estate_druids
+# 					loyalty = 40
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			NOT = {
+# 				estate_loyalty = {
+# 					estate = estate_druids
+# 					loyalty = 30
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			NOT = {
+# 				estate_loyalty = {
+# 					estate = estate_druids
+# 					loyalty = 20
+# 				}
+# 			}
+# 		}
+
+# 		modifier = {
+# 			factor = 2
+# 			estate_influence = {
+# 				estate = estate_druids
+# 				influence = 100
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			estate_influence = {
+# 				estate = estate_druids
+# 				influence = 80
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			estate_influence = {
+# 				estate = estate_druids
+# 				influence = 70
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.25
+# 			estate_influence = {
+# 				estate = estate_druids
+# 				influence = 60
+# 			}
+# 		}
+
+# 		modifier = {
+# 			factor = 1
+# 			average_unrest = 5
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			average_unrest = 4
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			average_unrest = 3
+# 		}
+# 		modifier = {
+# 			factor = 0.25
+# 			average_unrest = 2
+# 		}
+# 		modifier = {
+# 			factor = 0.25
+# 			average_unrest = 1
+# 		}
+
+# 		modifier = {
+# 			factor = 1
+# 			NOT = {
+# 				legitimacy = 50
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				legitimacy = 60
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				legitimacy = 70
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.25
+# 			NOT = {
+# 				legitimacy = 80
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.25
+# 			NOT = {
+# 				legitimacy = 90
+# 			}
+# 		}
+# 	}
+
+# 	down_progress = {
+# 		factor = 0
+
+# 		modifier = {
+# 			factor = 1
+# 			average_unrest = 0
+# 		}
+
+# 		modifier = {
+# 			factor = 1
+# 			legitimacy = 100
+# 		}
+
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				estate_influence = {
+# 					estate = estate_druids
+# 					influence = 40
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0.5
+# 			NOT = {
+# 				estate_influence = {
+# 					estate = estate_druids
+# 					influence = 30
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 1
+# 			NOT = {
+# 				estate_influence = {
+# 					estate = estate_druids
+# 					influence = 20
+# 				}
+# 			}
+# 		}
+# 	}
+
+# 	ended_by_country_breaking_to_rebels = no
+# 	can_end = {
+# 		NOT = {
+# 			has_spawned_rebels = druid_restoration_of_sufferage_rebels
+# 		}
+# 		NOT = {
+# 			num_of_rebel_controlled_provinces = 0
+# 		}
+
+# 		OR = {
+# 			AND = {
+# 				has_country_flag = druid_restoration_of_sufferage_squashed
+# 				NOT = {
+# 					estate_influence = {
+# 						estate = estate_druids
+# 						influence = 50
+# 					}
+# 				}
+# 			}
+# 			has_country_flag = druid_restoration_of_sufferage_succeeded
+# 		}
+# 	}
+# }

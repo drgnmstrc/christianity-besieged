@@ -1,0 +1,46 @@
+## See [brehon](common/estates/CB_brehon.txt)
+
+## To ensure fair judgement of civil disputes brehons will have the right to proceed over all civil cases.
+brehon_civil_right_of_judgment_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## To ensure fair judgment of all criminals brehons will have the right to procced over all civil cases
+brehon_criminal_right_of_judgment_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## To ensure fair judgement of heritics brehons will have the right to proceed over all religous inquiries.
+brehon_heritic_right_of_judgment_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## Brehon law largely had no centralised authority from which it drew legal judgement, and so disputes would be judged by a panel of jurists.
+brehon_judgment_of_kin_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+## Grants events relating to people chopping sacred trees that allow for the collecting of fines.
+brehon_protection_of_bile_privilege = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}

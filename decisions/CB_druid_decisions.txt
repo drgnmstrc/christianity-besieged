@@ -1,0 +1,136 @@
+
+country_decisions = {
+	## See `attendance_to_sacrifice`
+	druid_sacrifice_captives_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_druids
+			has_enabled_estate_action = {
+				estate_action = DRUID_SACRIFICE_CAPTIVES
+			}
+		}
+
+
+		allow = {
+			had_recent_war = 1
+		}
+
+		effect = {
+			add_country_modifier =  {
+				name = "druid_sacrificed_captives_modifier"
+				duration = 365
+			}
+			add_estate_influence_modifier = {
+				estate = estate_fili
+				desc = "Sacrifice made"
+				influence = 10
+				duration = 10
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = DRUID_SACRIFICE_CAPTIVES
+			}
+			estate_action = {
+				estate_action = DRUID_SACRIFICE_CAPTIVES
+			}
+		}
+	}
+
+	## See `organisation_of_worship`
+	druid_sponser_holy_site_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_druids
+			has_enabled_estate_action = {
+				estate_action = DRUID_SPONSER_HOLY_SITE
+			}
+	    }
+
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			estate_action_off_cooldown = {
+				estate_action = DRUID_SPONSER_HOLY_SITE
+				days = 365
+			}
+
+			any_owned_province = {
+				NOT = {
+					has_province_modifier = druid_holy_site_modifier
+				}
+			}
+
+			treasury = 50
+		}
+
+		effect = {
+			add_treasury = -50
+			give_estate_land_share_medium = {
+				estate = estate_druids
+			}
+			random_owned_province = {
+				add_province_modifier = {
+					name = "druid_holy_site_modifier"
+					duration = -1
+				}
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = DRUID_SPONSER_HOLY_SITE
+			}
+			estate_action = {
+				estate_action = DRUID_SPONSER_HOLY_SITE
+			}
+		}
+	}
+
+	druid_destroy_conqured_holy_site_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_druids
+	    }
+
+		allow = {
+			any_owned_province = {
+				has_province_modifier = druid_conqured_holy_site_modifier
+			}
+		}
+
+		effect = {
+			add_treasury = 25
+
+			random_owned_province = {
+				remove_province_modifier = "druid_conqured_holy_site_modifier"
+			}
+		}
+	}
+
+	druid_convert_conqured_holy_site_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_druids
+	    }
+
+		allow = {
+			any_owned_province = {
+				has_province_modifier = druid_conqured_holy_site_modifier
+			}
+			treasury = 25
+		}
+
+		effect = {
+			add_treasury = -25
+
+			random_owned_province = {
+				remove_province_modifier = "druid_conqured_holy_site_modifier"
+				add_province_modifier = {
+					name = "druid_holy_site_modifier"
+					duration = -1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+## Decrease autonomy
+brehon_enforce_control_agenda = {
+
+}
+
+## Triggers `brehon_dispute_resolution_event`.
+brehon_resolve_dispute_agenda = {
+
+}
+

@@ -1,0 +1,164 @@
+country_decisions = {
+	## See `war_diviners`
+	fili_divine_for_war_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_fili
+			has_enabled_estate_action = {
+				estate_action = FILI_WAR_DIVINATION
+				days = 365
+			}
+		}
+
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			any_neighbor_country = {
+				has_casus_belli_against = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "fili_divined_for_war_modifier"
+				duration = 365
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = FILI_CANNONISE_DRUID
+			}
+			estate_action = {
+				estate_action = FILI_CANNONISE_DRUID
+			}
+		}
+	}
+
+	## See `commision_poem`
+	fili_commision_poem_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_fili
+			has_enabled_estate_action = {
+				estate_action = FILI_COMMISSION_POEM
+				days = 365
+			}
+		}
+
+		allow = {
+			treasury = 30
+			NOT = { has_country_modifier = fili_commissioned_poem_modifier }
+			NOT = { has_country_modifier = fili_commissioned_great_poem_modifier }
+		}
+		
+		effect = {
+			add_treasury = -30
+
+			add_estate_influence_modifier = {
+				estate = estate_fili
+				desc = "Poem commissioned"
+				influence = 5
+				duration = 120
+			}
+	
+			add_country_modifier = {
+				name = "fili_commissioned_poem_modifier"
+				duration = 365
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = FILI_COMMISSION_POEM
+			}
+			estate_action = {
+				estate_action = FILI_COMMISSION_POEM
+			}
+		}
+	}
+
+	## See `commision_great_poem`
+	fili_commision_great_poem_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_fili
+			has_enabled_estate_action = {
+				estate_action = FILI_COMMISSION_GREAT_POEM
+				days = 365
+			}
+		}
+
+		allow = {
+			treasury = 200
+		}
+		
+		effect = {
+			add_treasury = -200
+
+			add_estate_influence_modifier = {
+				estate = estate_fili
+				desc = "Great poem commissioned"
+				influence = 20
+				duration = 120
+			}
+
+			add_country_modifier = {
+				name = "fili_commissioned_great_poem_modifier"
+				duration = 365
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = FILI_COMMISSION_GREAT_POEM
+			}
+			estate_action = {
+				estate_action = FILI_COMMISSION_GREAT_POEM
+			}
+		}
+	}
+	## Will add a new "ancestor personality" after a druid that has recently died
+	fili_cannonise_druid_decision = {
+		color = { 195 160 20 }
+
+		potential = {
+			has_estate = estate_druids
+			has_estate = estate_fili
+			has_enabled_estate_action = {
+				estate_action = FILI_CANNONISE_DRUID
+			}
+		}
+
+		allow = {
+			has_not_any_estate_disaster_active = yes
+			estate_action_off_cooldown = {
+				estate_action = FILI_CANNONISE_DRUID
+				days = 365
+			}
+
+			treasury = 50
+		}
+
+		effect = {
+			add_treasury = -75
+
+			add_estate_influence_modifier = {
+				estate = estate_fili
+				desc = "Poem commissioned"
+				influence = 5
+				duration = 120
+			}
+			add_estate_influence_modifier = {
+				estate = estate_fili
+				desc = "Druid cannonised"
+				influence = 10
+				duration = 120
+			}
+
+			set_estate_action_cooldown = {
+				estate_action = FILI_CANNONISE_DRUID
+			}
+			estate_action = {
+				estate_action = FILI_CANNONISE_DRUID
+			}
+		}
+
+	}
+}

@@ -1,5 +1,5 @@
 country_decisions = {
-
+	## Potentially add mission requirement or change to be like acts of union
 	irish_nation = {
 		major = yes
 		potential = {

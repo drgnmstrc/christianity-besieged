@@ -1,0 +1,20 @@
+fili_divined_for_war_modifier = {
+	land_morale = 0.1
+	war_exhaustion = -0.25
+	shock_damage_received = -0.2
+	movement_speed = 0.05
+}
+
+fili_commissioned_poem_modifier = {
+	prestige = 1
+	prestige_decay = -0.05
+	legitimacy = 2
+	liberty_desire_from_subject_development = -0.1
+}
+
+fili_commissioned_great_poem_modifier = {
+	prestige = 4
+	prestige_decay = -0.10
+	legitimacy = 5
+	liberty_desire_from_subject_development = -0.1
+}

@@ -1,0 +1,40 @@
+namespace = brehon_events
+country_event = {
+	id = brehon_events.1
+	title = brehon_events.1.t
+	desc = brehon_events.1.d
+
+	is_triggered_only = yes
+	
+	immediate = {
+		add_stability = -2
+		add_country_modifier = {
+			name = brehon_rebellion
+			duration = -1
+		}
+	}
+
+	option = {
+		name = brehon_events.1.a
+	}
+}
+
+country_event = {
+	id = brehon_events.2
+	title = brehon_events.2.t
+	desc = brehon_events.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = brehon_events.2.a ## Brehons have won
+
+		add_government_reform = brehon_transitional_council
+	}
+
+	option = {
+		name = brehon_events.2.b ## Monarch has won
+
+		set_estate_privilege = brehon_burden
+	}
+}

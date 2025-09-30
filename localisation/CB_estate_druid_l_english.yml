@@ -1,0 +1,34 @@
+﻿l_english:
+  estate_druids: "Druids"
+
+  ## Privileges
+  druid_control_of_force_privilege: "Control of Force"
+  druid_control_of_force_privilege_desc: "The druids commanded great respect in celtic society, at their request even the most fervorous of armies would lay down their arms and abandon battle. For many centuries the druids have mediated the kings in their declaration of conquest."
+
+  druid_organisation_of_worship_privilege: "Organisation of Worship"
+  druid_organisation_of_worship_privilege_desc: "Religious festivals have long been organised by the druids. "
+
+  druid_attendance_to_sacrifice_privilege: "Attendance to Sacrifice"
+
+  ## Events
+  druid_events.1.t: "Druids prepare for Beltaine"
+  druid_events.1.d: "The druids have begun preparations for Beltaine!"
+  druid_events.1.a: "Grant funds generously"
+  druid_events.1.b: "Grant funds"
+  druid_events.1.c: "Leave them to it"
+
+  druid_events.2.t: "Beltaine Celebrated"
+  druid_events.2.d: "Beltaine has been celebrated. TODO: more stuff"
+
+  ## Decisions
+  druid_sacrifice_captives_decision_title: "Sacrifice Captives"
+  druid_sacrifice_captives_decision_desc: ""
+
+  druid_sponser_holy_site_decision_title: "Sponsor Holy Site"
+
+  druid_destroy_conqured_holy_site_decision_title: "Destroy Conqured Holy Site"
+
+  druid_convert_conqured_holy_site_decision_title: "Convert Conqured Holy Site"
+
+  ## Governments
+  

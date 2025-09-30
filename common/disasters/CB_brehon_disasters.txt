@@ -1,0 +1,253 @@
+
+# 	# ended_by_country_breaking_to_rebels = no
+# 	# can_end = {
+# 		# NOT = {
+# 			# has_spawned_rebels = brehon_question_of_governance_rebels
+# 		# }
+# 		# NOT = {
+# 			# num_of_rebel_controlled_provinces = 0
+# 		# }
+
+# 		# OR = {
+# 			# AND = {
+# 				# has_country_flag = brehon_question_of_governance_quashed
+# 				# NOT = {
+# 					# estate_influence = {
+# 						# estate = estate_brehon
+# 						# influence = 50
+# 					# }
+# 				# }
+# 			# }
+# 			# has_country_flag = brehon_question_of_governance_succeeded
+# 		# }
+# 	# }
+# }
+
+brehon_question_of_governance = {
+	potential = {
+		OR = {
+			has_reform = irish_kingdom
+			has_reform = irish_high_kingdom
+		}
+		has_estate = estate_brehon
+	}
+
+	can_start = {
+		estate_influence = {
+			estate = estate_brehon
+			influence = 100
+		}
+		NOT = {
+			estate_loyalty = {
+				estate = estate_brehon
+				loyalty = 60
+			}
+		}
+	}
+
+	progress = {
+		modifier = {
+			factor = 2
+			has_estate_privilege = brehon_civil_right_of_judgment_privilege
+		}
+		modifier = {
+			factor = 2
+			has_estate_privilege = brehon_criminal_right_of_judgment_privilege
+		}
+		modifier = {
+			factor = 2
+			has_estate_privilege = brehon_heritic_right_of_judgment_privilege
+		}
+		modifier = {
+			factor = 1
+			has_estate_privilege = brehon_judgment_of_kin_privilege
+		}
+		
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brehon
+					loyalty = 60
+				}
+			}
+		}
+		
+
+		modifier = {
+			factor = 1
+			estate_influence = {
+				estate = estate_brehon
+				influence = 100
+			}
+		}
+		modifier = {
+			factor = 0.5
+			estate_influence = {
+				estate = estate_brehon
+				influence = 80
+			}
+		}
+		modifier = {
+			factor = 0.5
+			estate_influence = {
+				estate = estate_brehon
+				influence = 70
+			}
+		}
+		modifier = {
+			factor = 0.25
+			estate_influence = {
+				estate = estate_brehon
+				influence = 60
+			}
+		}
+
+		modifier = {
+			factor = 1
+			average_unrest = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_unrest = 4
+		}
+		modifier = {
+			factor = 0.5
+			average_unrest = 3
+		}
+		modifier = {
+			factor = 0.25
+			average_unrest = 2
+		}
+		modifier = {
+			factor = 0.25
+			average_unrest = 1
+		}
+
+		modifier = {
+			factor = 1
+			NOT = {
+				legitimacy = 50
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				legitimacy = 60
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				legitimacy = 70
+			}
+		}
+		modifier = {
+			factor = 0.25
+			NOT = {
+				legitimacy = 80
+			}
+		}
+		modifier = {
+			factor = 0.25
+			NOT = {
+				legitimacy = 90
+			}
+		}
+	}
+
+	down_progress = {
+		factor = 0
+
+		modifier = {
+			factor = 1
+			NOT = {
+				average_unrest = 0
+			}
+		}
+
+		modifier = {
+			factor = 0.5
+			legitimacy = 100
+		}
+		modifier = {
+			factor = 0.25
+			legitimacy = 90
+		}
+		modifier = {
+			factor = 0.25
+			legitimacy = 80
+		}
+	}
+
+	can_stop = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 50
+			}
+		}
+	}
+
+	on_start = brehon_events.1
+	on_end = brehon_events.2
+
+	ended_by_country_breaking_to_rebels = no
+	can_end = {
+		NOT = {
+			has_spawned_rebels = brehon_question_of_governance_rebels
+		}
+		NOT = {
+			num_of_rebel_controlled_provinces = 0
+		}
+
+		OR = {
+			AND = {
+				has_country_flag = brehon_question_of_governance_quashed
+				NOT = {
+					estate_influence = {
+						estate = estate_brehon
+						influence = 50
+					}
+				}
+			}
+			has_country_flag = brehon_question_of_governance_succeeded
+		}
+	}
+}

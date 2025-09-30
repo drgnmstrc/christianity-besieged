@@ -1,0 +1,64 @@
+insular_tribal_monarchy = {
+	basic_reform = tribal_monarch_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				irish_kingdom
+				irish_high_kingdom
+			}
+		}
+
+	}
+}
+
+insular_tribal_republic = {
+	basic_reform = tribal_republic_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				brehon_council
+				brehon_transitional_council
+			}
+		}
+	}
+}
+
+insular_republic = {
+	basic_reform = tribal_republic_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				brehon_republic
+			}
+		}
+	}
+}
+
+insular_tribal_theocracy = {
+	basic_reform = tribal_theocracy_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				druid_assembly
+				druid_theocracy
+			}
+		}
+		
+	}
+}
+
+insular_theocracy = {
+	basic_reform = theocracy_mechanic
+
+	reform_levels = {
+		first_one = {
+			reforms = {
+				druid_grand_theocracy
+			}
+		}
+	}
+}

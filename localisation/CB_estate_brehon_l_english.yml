@@ -1,0 +1,39 @@
+﻿l_english:
+  estate_brehon: "Brehon"
+
+  ## Events
+  ### Question of Governance
+  brehon_events.1.t: "The Brehons have siezed the administration."
+  brehon_events.1.d: "Long have the Brehons remainded restless. Agitating the structures of power."
+  brehon_events.1.a: "We shall crush them."
+
+  brehon_events.2.t: "Question of Governance Resolved"
+  brehon_events.2.d: "TODO"
+  brehon_events.2.a: "Brehon Won"
+  brehon_events.2.b: "Monarch Won"
+
+  ## Governments
+  brehon_transitional_council: "Brehnoic Transitional Council"
+  
+  brehon_council: "Brehonic Council"
+
+  ## Missions
+  brehon_transitionary_council_restore_army_mission_title: "Restore the Army"
+
+  brehon_transitionary_council_meet_with_druids_mission_title: "Meet with the Druids"
+
+  brehon_transitionary_council_quell_unrest_title: "Quell Unrest"
+
+  brehon_transitionary_council_gain_fili_recognition_mission_title: "Gain Fili Recognition"
+
+  brehon_transitionary_council_establish_legitimacy_mission_title: "Establish Legitimacy"
+
+  brehon_transitionary_council_build_relations_mission_title: "Build Relations"
+
+  brehon_transitionary_council_restrain_monarchists_mission_title: "Restrain Monarchists"
+
+  brehon_transitionary_council_deal_with_royal_family_title: "Fate of the Royals"
+
+  brehon_transitionary_council_build_defences_mission_title: "Build Defences"
+
+  brehon_transitionary_council_establish_trade_mission_title: "Establish Trade"

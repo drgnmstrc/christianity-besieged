@@ -1,0 +1,15 @@
+oust_pretender_high_king_wargoal = {
+	type = superiority
+
+	peace_options = {
+		oust_pretender_high_king_of_ireland_treaty
+	}
+}
+
+oust_illigitimate_high_king_wargoal = {
+	type = superiority
+
+	peace_options = {
+		oust_iligimate_high_king_treaty
+	}
+}

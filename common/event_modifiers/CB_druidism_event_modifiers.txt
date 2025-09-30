@@ -1,0 +1,33 @@
+state_land_consecration = {
+	state_maintenance_modifier = -0.1
+}
+state_sacremented_rituals = {
+	prestige = 0.5
+}
+temple_court_payments = {
+	adm_advisor_cost = -0.33
+}
+state_druid_regulations = {
+	global_unrest = -2.5
+}
+religious_army_divisions = {
+	land_morale = 0.05
+}
+
+druid_holy_site_modifier = {
+	tolerance_own = 0.2
+	local_unrest = -2
+	religious_conversion_resistance = 1.
+	supply_limit_modifier = -0.5
+}
+
+druid_conqured_holy_site_modifier = {
+	tolerance_own = -0.2
+	local_unrest = 2
+	religious_conversion_resistance = 1.
+	
+}
+
+druid_sacrificed_captives_modifier = {
+	war_exhaustion = -0.2	
+}
