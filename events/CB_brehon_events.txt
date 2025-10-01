@@ -6,16 +6,15 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = {
-		add_stability = -2
-		add_country_modifier = {
-			name = brehon_rebellion
-			duration = -1
-		}
-	}
-
 	option = {
 		name = brehon_events.1.a
+
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = brehon_question_of_governance_rebels
+			}	
+		}
 	}
 }
 
@@ -26,15 +25,61 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
-		name = brehon_events.2.a ## Brehons have won
-
-		add_government_reform = brehon_transitional_council
+	immediate = {
+		hidden_effect = {
+			remove_country_modifier = brehon_rebellion
+		}
 	}
 
 	option = {
-		name = brehon_events.2.b ## Monarch has won
+		name = brehon_events.4.a ## Brehons have won, viva la brehons
 
-		set_estate_privilege = brehon_burden
+		trigger = {
+			has_reform = brehon_transitional_council
+		}
+
+		hidden_effect = {
+			set_country_flag = brehon_supports_revolutionaries
+		}
+
+		swap_non_generic_missions = yes
+	}
+	option = {
+		name = brehon_events.4.b ## Brehons have won, be cautious
+
+		trigger = {
+			has_reform = brehon_transitional_council
+		}
+
+		hidden_effect = {
+			set_country_flag = brehon_supports_moderates
+		}
+
+		swap_non_generic_missions = yes
+	}
+	option = {
+		name = brehon_events.4.c ## Brehons have won, Long Live the King
+
+		trigger = {
+			has_reform = brehon_transitional_council
+		}
+
+		hidden_effect = {
+			set_country_flag = brehon_supports_monarchists
+		}
+
+		swap_non_generic_missions = yes
+	}
+
+	option = {
+		name = brehon_events.4.e ## Monarch has won
+
+		trigger = {
+			NOT = {
+				has_reform = brehon_transitional_council
+			}
+		}
+
+		set_estate_privilege = brehon_burdened_bureaucracy
 	}
 }

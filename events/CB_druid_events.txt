@@ -63,3 +63,85 @@ country_event = {
 
 	}
 }
+
+## Druid sufferage
+country_event = {
+	id = druid_events.3
+	title = druid_events.3.t
+	desc = druid_events.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		random_owned_province = {
+			spawn_rebels = {
+				size = 1
+				type = druid_restoration_of_sufferage_rebels
+			}	
+		}
+	}
+}
+
+country_event = {
+	id = druid_events.4
+	title = druid_events.4.t
+	desc = druid_events.4.d
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_country_modifier = druid_rebellion
+	}
+
+	option = {
+		name = brehon_events.4.a ## Druids have won, Celebrate
+
+		trigger = {
+			has_reform = druid_assembly
+		}
+
+		hidden_effect = {
+			set_country_flag = supports_theocrats_druid_revolution
+		}
+
+		swap_non_generic_missions = yes
+	}
+	option = {
+		name = brehon_events.4.b ## Druids have won, be cautious
+
+		trigger = {
+			has_reform = druid_assembly
+		}
+
+		hidden_effect = {
+			set_country_flag = supports_assemblists_druid_revolution
+		}
+
+		swap_non_generic_missions = yes
+	}
+	option = {
+		name = brehon_events.4.c ## Druids have won, oh no
+
+		trigger = {
+			has_reform = druid_assembly
+		}
+
+		hidden_effect = {
+			set_country_flag = supports_monarchists_druid_revolution
+		}
+		
+		swap_non_generic_missions = yes
+	}
+
+	option = {
+		name = brehon_events.4.e ## Monarch has won
+
+		trigger = {
+			NOT = {
+				has_reform = druid_assembly
+			}
+		}
+
+		set_estate_privilege = brehon_burdened_bureaucracy
+	}
+}
