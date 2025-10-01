@@ -781,11 +781,3 @@ irish_high_kingdom_slot_5 = {
 	}
 }
 
-## Druidic Theocracy
-
-## Brehon Transitionary Council
-
-## Brehon Council
-
-## Brehon Republic
-
