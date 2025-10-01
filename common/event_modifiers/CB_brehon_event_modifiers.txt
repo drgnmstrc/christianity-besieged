@@ -1,4 +1,8 @@
 brehon_rebellion = {
-	administrative_efficiency = -10
-	
+	global_unrest = 5
+	administrative_efficiency = -0.2
+	global_spy_defence = -0.5
+	governing_capacity = -150
+	merc_maintenance_modifier = 0.50
+	min_autonomy = 20
 }

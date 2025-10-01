@@ -1,0 +1,101 @@
+state_land_consecration = {
+	state_maintenance_modifier = -0.1
+}
+state_sacremented_rituals = {
+	prestige = 0.5
+}
+temple_court_payments = {
+	adm_advisor_cost = -0.33
+}
+state_druid_regulations = {
+	global_unrest = -2.5
+}
+religious_army_divisions = {
+	land_morale = 0.05
+}
+
+druid_holy_site_modifier = {
+	tolerance_own = 0.2
+	local_unrest = -2
+	religious_conversion_resistance = 1.
+	supply_limit_modifier = -0.5
+}
+
+druid_conqured_holy_site_modifier = {
+	tolerance_own = -0.2
+	local_unrest = 2
+	religious_conversion_resistance = 1.
+}
+
+druid_made_sacrifices = {
+	war_exhaustion = -0.2
+	global_unrest = -1
+	prestige = 1
+	build_cost = -1	
+}
+
+druid_rebellion = {
+	global_unrest = 5
+	land_morale = -0.01
+	religious_unity = -0.3
+	global_regiment_cost = 0.2
+}
+
+## Cannonised Druids
+
+### Overpowered stuff
+
+druid_grand_general_ancestor = {
+	leader_land_fire = 1
+	leader_land_manuever = 1
+	leader_land_shock = 1
+	leader_siege = 1
+}
+
+druid_grand_advisor_ancestor = {
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1
+	monarch_military_power = 1
+}
+
+druid_grand_diplomat_ancestor = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.1
+}
+
+druid_grand_scolar_ancestor = {
+	technology_cost = -0.20
+	institution_growth = 5
+}
+
+## Normal stuff
+
+druid_recruiter_ancestor = {
+	manpower_in_true_faith_provinces = 1
+	
+	mercenary_cost = -0.05
+	global_regiment_cost = -0.05
+
+}
+
+druid_general_ancestor = {
+	land_morale = 0.05
+	shock_damage_received = -0.05
+}
+
+druid_negotiator_ancestor = {
+	trade_efficiency = 0.05
+}
+
+druid_tax_collector_ancestor = {
+	tax_income = 0.05
+}
+
+druid_harmoniser_ancestor = {
+	global_autonomy = -0.05
+	global_unrest = -0.5
+}
+
+druid_advisor_ancestor = {
+	administrative_efficiency = 0.05
+}
