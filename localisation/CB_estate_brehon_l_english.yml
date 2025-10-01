@@ -9,8 +9,10 @@
 
   brehon_events.2.t: "Question of Governance Resolved"
   brehon_events.2.d: "TODO"
-  brehon_events.2.a: "Brehon Won"
-  brehon_events.2.b: "Monarch Won"
+  brehon_events.4.a: "A glorious day"
+  brehon_events.4.b: "We must be cautious"
+  brehon_events.4.c: "Long Live the King"
+  brehon_events.4.e: "Long Live the King"
 
   ## Governments
   brehon_transitional_council: "Brehnoic Transitional Council"

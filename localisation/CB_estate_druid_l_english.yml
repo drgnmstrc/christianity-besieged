@@ -20,6 +20,19 @@
   druid_events.2.t: "Beltaine Celebrated"
   druid_events.2.d: "Beltaine has been celebrated. TODO: more stuff"
 
+  ### Restoration of Sufferage
+  brehon_events.3.t: "The Druids demand representation."
+  brehon_events.3.d: "Long have the Druids remained restless. Revered in public, and yet shunned by the caluculus of power."
+  brehon_events.3.a: "We shall crush them."
+
+  brehon_events.4.t: "Restoration of Sufferage over"
+  brehon_events.4.d: "TODO"
+  brehon_events.4.a: "A glorious day"
+  brehon_events.4.b: "We must be cautious"
+  brehon_events.4.c: "Long Live the King"
+  brehon_events.4.e: "Long Live the King"
+
+
   ## Decisions
   druid_sacrifice_captives_decision_title: "Sacrifice Captives"
   druid_sacrifice_captives_decision_desc: ""
@@ -31,4 +44,12 @@
   druid_convert_conqured_holy_site_decision_title: "Convert Conqured Holy Site"
 
   ## Governments
+  druid_assembly: "Druidic Assembly"
+
+  druid_theocracy: "Druidic Theocracy"
+
+  druid_grand_theocracy: "Grand Druidic Theocracy"
   
+
+  ## Random
+  cannonise_druid_tooltip: "Grants an ancestor druid personality"
