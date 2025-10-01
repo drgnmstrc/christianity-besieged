@@ -1,28 +1,46 @@
-tribal_monarch_mechanic = {
+irish_tribal_monarch_mechanic = {
 	tribal = yes
 	monarchy = yes
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
 	heir = yes
 	queen = yes
+
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
 }
 
-tribal_republic_mechanic = {
+irish_tribal_republic_mechanic = {
 	tribal = yes
 	republic = yes
 	basic_reform = yes
 	valid_for_nation_designer = no
 	heir = no
 	queen = no
+
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
 }
 
-tribal_theocracy_mechanic = {
+irish_tribal_theocracy_mechanic = {
 	tribal = yes
 	republic = yes
 	basic_reform = yes
 	valid_for_nation_designer = no
 	heir = no
 	queen = no
+
+	custom_attributes = {
+		disables_estate_church = yes
+		disables_estate_nobles = yes
+		disables_estate_burghers = yes
+	}
 }
 
 
@@ -42,10 +60,10 @@ druid_assembly = {
 		primary_culture = irish
 	}
 
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
+	factions = {
+		druid_assemblists
+		druid_monarchists
+		druid_theocrats
 	}
 
 	modifiers = {
@@ -68,27 +86,9 @@ druid_theocracy = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
-	}
-
 	modifiers = {
 		church_loyalty_modifier = 0.05
 		shock_damage = 0.05
-	}
-
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
 	}
 
 	ai = {
@@ -111,27 +111,9 @@ druid_grand_theocracy = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
-	}
-	
 	modifiers = {
 		church_loyalty_modifier = 0.05
 		shock_damage = 0.05
-	}
-
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
 	}
 
 	ai = {
@@ -141,11 +123,10 @@ druid_grand_theocracy = {
 
 ## Brehons
 
-## Rework to be a monarchy at some point
 brehon_transitional_council = {
 	icon = "gov_soldiers_4"
 
-	legacy_equivalent = tribal_federation_legacy
+	legacy_equivalent = tribal_kingdom_legacy
 
 	valid_for_nation_designer = no
 
@@ -156,25 +137,13 @@ brehon_transitional_council = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
-	}
-
 	modifiers = {
 	}
 
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
+	factions = {
+		brehon_revolutionaries
+		brehon_monarchists
+		brehon_moderates
 	}
 	
 	ai = {
@@ -196,31 +165,12 @@ brehon_council = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
-
-	}
-
 	modifiers = {
 
 	}
 	
 	custom_attributes = {
 		has_parliament = yes
-	}
-
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
 	}
 
 	ai = {
@@ -242,30 +192,12 @@ brehon_republic = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
-	}
-
 	modifiers = {
 
 	}
 	
 	custom_attributes = {
 		has_parliament = yes
-	}
-
-	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
 	}
 
 	ai = {
@@ -290,16 +222,29 @@ irish_kingdom = {
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+	}
+
+	ai = {
+		factor = 1
+	}
+}
+
+irish_parlimentary_kingdom = {
+	icon = "gov_soldiers_4"
+
+	legacy_equivalent = tribal_kingdom_legacy
+
+	valid_for_nation_designer = yes
+
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		religion = druidism
+		primary_culture = irish
 	}
 
 	modifiers = {
@@ -308,9 +253,7 @@ irish_kingdom = {
 	}
 
 	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
+		has_parliament = yes
 	}
 
 	ai = {
@@ -318,7 +261,8 @@ irish_kingdom = {
 	}
 }
 
-irish_high_kingdom = { # I
+
+irish_high_kingdom = {
 	icon = "gov_tanestry"
 
 	legacy_equivalent = tribal_kingdom_legacy
@@ -333,16 +277,33 @@ irish_high_kingdom = { # I
 		primary_culture = irish
 	}
 
-	effect = {
-		disable_estate_effect = {
-			estate = estate_church
-		}
-		disable_estate_effect = {
-			estate = estate_nobles
-		}
-		disable_estate_effect = {
-			estate = estate_burghers
-		}
+	modifiers = {
+		church_loyalty_modifier = 0.05
+		shock_damage = 0.05
+		prestige = 0.5
+		legitimacy = 1.5
+		land_forcelimit_modifier = 0.1
+	}
+
+	ai = {
+		factor = 1
+	}
+}
+
+
+irish_high_parlimentary_kingdom = {
+	icon = "gov_tanestry"
+
+	legacy_equivalent = tribal_kingdom_legacy
+
+	valid_for_nation_designer = no
+
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		religion = druidism
+		primary_culture = irish
 	}
 
 	modifiers = {
@@ -354,9 +315,7 @@ irish_high_kingdom = { # I
 	}
 
 	custom_attributes = {
-		disables_estate_church = yes
-		disables_estate_nobles = yes
-		disables_estate_burghers = yes
+		has_parliament = yes
 	}
 
 	ai = {

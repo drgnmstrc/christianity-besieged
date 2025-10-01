@@ -1,0 +1,49 @@
+brehon_revolutionaries = {
+	monarch_power = MIL
+	always = yes
+
+	modifier = {
+
+	}
+}
+
+brehon_moderates = {
+	monarch_power = DIP
+	always = yes
+
+	modifier = {
+		
+	}
+}
+
+brehon_monarchists = {
+	monarch_power = ADM
+	always = yes
+	modifier = {
+		
+	}
+}
+
+druid_monarchists = {
+	monarch_power = MIL
+	always = yes
+	modifier = {
+		
+	}
+}
+
+druid_assemblists = {
+	monarch_power = DIP
+	always = yes
+	modifier = {
+		
+	}
+}
+
+druid_theocrats = {
+	monarch_power = ADM
+	always = yes
+	modifier = {
+		
+	}
+}
