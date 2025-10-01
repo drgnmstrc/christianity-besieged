@@ -1,28 +1,4 @@
 
-# 	# ended_by_country_breaking_to_rebels = no
-# 	# can_end = {
-# 		# NOT = {
-# 			# has_spawned_rebels = brehon_question_of_governance_rebels
-# 		# }
-# 		# NOT = {
-# 			# num_of_rebel_controlled_provinces = 0
-# 		# }
-
-# 		# OR = {
-# 			# AND = {
-# 				# has_country_flag = brehon_question_of_governance_quashed
-# 				# NOT = {
-# 					# estate_influence = {
-# 						# estate = estate_brehon
-# 						# influence = 50
-# 					# }
-# 				# }
-# 			# }
-# 			# has_country_flag = brehon_question_of_governance_succeeded
-# 		# }
-# 	# }
-# }
-
 brehon_question_of_governance = {
 	potential = {
 		OR = {
@@ -33,6 +9,9 @@ brehon_question_of_governance = {
 	}
 
 	can_start = {
+		NOT = {
+			has_estate_privilege = brehon_burdened_bureaucracy
+		}
 		estate_influence = {
 			estate = estate_brehon
 			influence = 100
@@ -226,6 +205,13 @@ brehon_question_of_governance = {
 	}
 
 	on_start = brehon_events.1
+	on_start_effect = {
+		add_country_modifier = {
+			name = brehon_rebellion
+			duration = -1
+		}
+		add_stability = -2
+	}
 	on_end = brehon_events.2
 
 	ended_by_country_breaking_to_rebels = no
@@ -234,12 +220,19 @@ brehon_question_of_governance = {
 			has_spawned_rebels = brehon_question_of_governance_rebels
 		}
 		NOT = {
-			num_of_rebel_controlled_provinces = 0
+			num_of_rebel_controlled_provinces = 1
 		}
-
+		any_province = {
+			country_or_non_sovereign_subject_holds = ROOT
+			NOT = {
+				likely_rebels = brehon_question_of_governance_rebels
+			}
+		}
 		OR = {
 			AND = {
-				has_country_flag = brehon_question_of_governance_quashed
+				NOT = {
+					has_reform = brehon_transitional_council
+				}
 				NOT = {
 					estate_influence = {
 						estate = estate_brehon
@@ -247,7 +240,7 @@ brehon_question_of_governance = {
 					}
 				}
 			}
-			has_country_flag = brehon_question_of_governance_succeeded
+			has_reform = brehon_transitional_council
 		}
 	}
 }
