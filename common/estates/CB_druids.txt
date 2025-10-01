@@ -7,6 +7,10 @@ estate_druids = {
 	trigger = {
 		NOT = { has_disabled_estate = { estate = estate_druids } }
 
+		NOT = { has_reform = druid_assembly }
+		NOT = { has_reform = druid_theocracy }
+		NOT = { has_reform = druid_grand_theocracy }
+
 		culture_group = insular_celtic
 		religion = druidism
 	}
@@ -50,7 +54,7 @@ estate_druids = {
 	base_influence = 30
 	influence_modifier = {
 		desc = "Norms"
-		influence = 50
+		influence = 80
 		trigger = {
 			always = yes
 		}

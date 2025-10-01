@@ -1,13 +1,13 @@
-## https://en.wikipedia.org/wiki/Brehon
-##
-## Alows for divinations which grant bonuses for specific things
-## `divine_for_war`: Appears when a rival has a CB on you, grants you military bonuses until you finish a war with them
-
 estate_brehon = {
 	icon = 1
 	color = { 18 52 86 }
 
 	trigger = {
+		NOT = { has_disabled_estate = { estate = estate_druids } }
+		NOT = { has_reform = brehon_transitional_council }
+		NOT = { has_reform = brehon_council }
+		NOT = { has_reform = brehon_republic }
+
 		culture_group = insular_celtic
 	}
 
@@ -16,7 +16,7 @@ estate_brehon = {
 		brehon_heritic_right_of_judgment_privilege
 		brehon_criminal_right_of_judgment_privilege
 		brehon_judgment_of_kin_privilege
-		brehon_burden
+		brehon_burdened_bureaucracy
 	}
 
 	agendas = {
@@ -52,7 +52,7 @@ estate_brehon = {
 	base_influence = 30
 	influence_modifier = {
 		desc = "Norms"
-		influence = 80
+		influence = 50
 		trigger = {
 			always = yes
 		}
