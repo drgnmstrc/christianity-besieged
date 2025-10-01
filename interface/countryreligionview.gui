@@ -2684,7 +2684,7 @@ guiTypes = {
 				name ="gushnasp_fire"
 				scripted = yes
 				spriteType = "GFX_manichaean_fire"
-				position = { x= 346 y = 15 }
+				position = { x= 391 y = 106 }
 			}
 
 			instantTextBoxType = {

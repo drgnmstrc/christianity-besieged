@@ -35,3 +35,6 @@ has_manufactory_trigger = { #Province Scope
 	}
 }
 
+can_create_holy_orders = {
+	religion_group = muslim
+}
