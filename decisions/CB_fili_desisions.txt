@@ -16,6 +16,7 @@ country_decisions = {
 			any_neighbor_country = {
 				has_casus_belli_against = ROOT
 			}
+			NOT = { has_country_modifier = fili_divined_for_war_modifier }
 		}
 		
 		effect = {
@@ -89,6 +90,8 @@ country_decisions = {
 
 		allow = {
 			treasury = 200
+			NOT = { has_country_modifier = fili_commissioned_poem_modifier }
+			NOT = { has_country_modifier = fili_commissioned_great_poem_modifier }
 		}
 		
 		effect = {
@@ -130,7 +133,7 @@ country_decisions = {
 			has_not_any_estate_disaster_active = yes
 			estate_action_off_cooldown = {
 				estate_action = FILI_CANNONISE_DRUID
-				days = 365
+				days = 1460
 			}
 
 			treasury = 50
@@ -139,6 +142,129 @@ country_decisions = {
 		effect = {
 			add_treasury = -75
 
+
+			custom_tooltip = cannonise_druid_tooltip
+			hidden_effect = {
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_grand_scolar_ancestor
+						}
+						add_country_modifier = {
+							name = druid_grand_scolar_ancestor
+							duration = 1460
+						}
+					}
+
+					1 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_grand_advisor_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_grand_advisor_ancestor
+							duration = 1460
+						}
+					}
+
+					1 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_grand_diplomat_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_grand_diplomat_ancestor
+							duration = 1460
+						}
+					}
+
+					1 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_grand_general_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_grand_general_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_recruiter_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_recruiter_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_general_ancestor
+						}
+						add_country_modifier = {
+							name = druid_recruiter_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_negotiator_ancestor
+						}
+						add_country_modifier = {
+							name = druid_negotiator_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = { 
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_tax_collector_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_tax_collector_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = {
+						modifier = {
+							factor = 0 
+							has_country_modifier = druid_harmoniser_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_harmoniser_ancestor
+							duration = 1460
+						}
+					}
+
+					50 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_advisor_ancestor
+						}
+
+						add_country_modifier = {
+							name = druid_advisor_ancestor
+							duration = 1460
+						}
+					}
+				}
+			}
+		
 			add_estate_influence_modifier = {
 				estate = estate_fili
 				desc = "Poem commissioned"

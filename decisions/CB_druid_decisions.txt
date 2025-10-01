@@ -1,24 +1,27 @@
 
 country_decisions = {
 	## See `attendance_to_sacrifice`
-	druid_sacrifice_captives_decision = {
+	druid_sacrifice_decision = {
 		color = { 195 160 20 }
 
 		potential = {
 			has_estate = estate_druids
 			has_enabled_estate_action = {
-				estate_action = DRUID_SACRIFICE_CAPTIVES
+				estate_action = DRUID_MAKE_SACRIFICES
+				
 			}
 		}
 
-
 		allow = {
-			had_recent_war = 1
+			estate_action_off_cooldown = {
+				estate_action = DRUID_MAKE_SACRIFICES
+				days = 365
+			}
 		}
 
 		effect = {
 			add_country_modifier =  {
-				name = "druid_sacrificed_captives_modifier"
+				name = "druid_made_sacrifices"
 				duration = 365
 			}
 			add_estate_influence_modifier = {
@@ -29,10 +32,10 @@ country_decisions = {
 			}
 
 			set_estate_action_cooldown = {
-				estate_action = DRUID_SACRIFICE_CAPTIVES
+				estate_action = DRUID_MAKE_SACRIFICES
 			}
 			estate_action = {
-				estate_action = DRUID_SACRIFICE_CAPTIVES
+				estate_action = DRUID_MAKE_SACRIFICES
 			}
 		}
 	}
@@ -70,6 +73,7 @@ country_decisions = {
 				estate = estate_druids
 			}
 			random_owned_province = {
+				limit = { NOT = { has_province_modifier = druid_holy_site_modifier } }
 				add_province_modifier = {
 					name = "druid_holy_site_modifier"
 					duration = -1
@@ -102,6 +106,7 @@ country_decisions = {
 			add_treasury = 25
 
 			random_owned_province = {
+				limit = { has_province_modifier = druid_conqured_holy_site_modifier }
 				remove_province_modifier = "druid_conqured_holy_site_modifier"
 			}
 		}
@@ -125,6 +130,8 @@ country_decisions = {
 			add_treasury = -25
 
 			random_owned_province = {
+				limit = { has_province_modifier = druid_conqured_holy_site_modifier }
+
 				remove_province_modifier = "druid_conqured_holy_site_modifier"
 				add_province_modifier = {
 					name = "druid_holy_site_modifier"
