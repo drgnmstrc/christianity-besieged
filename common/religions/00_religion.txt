@@ -4160,8 +4160,6 @@ hellenic = {
 			tolerance_own = 1
 			global_unrest = -1
 		}
-
-		personal_deity = yes
 		
 		heretic = { GOAT_SKULL }
 	}
