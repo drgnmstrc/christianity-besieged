@@ -2774,7 +2774,7 @@ etchu_area = { #4 #Sanyodo
 	5194 5195 5196 1023 1837
 }
 
-east_hokkaido = { #4 #East Hokkaido
+east_hokkaido_area = { #4 #East Hokkaido
 	5208 5209 5210 1852 1032
 }
 
