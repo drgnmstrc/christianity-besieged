@@ -1,0 +1,114 @@
+brehon_assembly_monarchists_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = brehon_transitional_council
+		has_country_flag = supports_monarchists_druid_revolution
+	}
+
+	first_mission_monarchists = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+brehon_assembly_moderate_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = brehon_transitional_council
+		has_country_flag = supports_assemblists_druid_revolution
+	}
+
+	first_mission_moderates = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+brehon_transitionary_council_revolutionary_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = brehon_transitional_council
+		has_country_flag = supports_theocrats_druid_revolution
+	}
+
+	first_mission_revolutionary = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+brehon_council_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = brehon_council
+	}
+
+	first_mission_council = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {}
+
+		effect = {
+			
+		}
+	}
+}
+
+brehon_republic_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = brehon_republic
+	}
+
+	first_mission_republic = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}

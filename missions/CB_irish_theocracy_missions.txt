@@ -1,0 +1,115 @@
+druid_assembly_monarchists_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = druid_assembly
+		has_country_flag = supports_monarchists_druid_revolution
+	}
+
+
+	first_mission_monarchists = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+druid_assembly_assemblists_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = druid_assembly
+		has_country_flag = supports_assemblists_druid_revolution
+	}
+
+	first_mission_assemblists = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+druid_assembly_theocracts_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = druid_assembly
+		has_country_flag = supports_theocrats_druid_revolution
+	}
+
+	first_mission_theocrats = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}
+
+druid_theocracy_slot_1 = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = druid_theocracy
+	}
+
+	first_mission_theocracy = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {}
+
+		effect = {
+			
+		}
+	}
+}
+
+druid_grand_theocracy = {
+	slot = 1
+	generic = yes
+	ai = yes
+	has_country_shield = no
+
+	potential = {
+		has_reform = druid_grand_theocracy
+	}
+
+	first_mission_grand_theocracy = {
+		icon = mission_rb_conquer_the_highlands
+
+		trigger = {
+			
+		}
+
+		effect = {
+			
+		}
+	}
+}
