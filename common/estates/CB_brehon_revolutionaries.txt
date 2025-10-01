@@ -1,6 +1,0 @@
-estate_brehon_revolutionaries = {
-	trigger = {
-		has_reform = brehon_transitional_council
-	}
-	
-}
