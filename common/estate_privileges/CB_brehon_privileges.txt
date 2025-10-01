@@ -44,3 +44,11 @@ brehon_protection_of_bile_privilege = {
 		factor = 0
 	}
 }
+
+brehon_burdened_bureaucracy = {
+	icon = 1
+
+	ai_will_do = {
+		factor = 0
+	}
+}

@@ -34,15 +34,23 @@ druid_organisation_of_worship_privilege = {
 
 ## The druids would oversee human sacrifices to the god
 ## 
-## Allows `druid_sacrifice_captives_decision`.
+## Allows `druid_sacrifices`.
 druid_attendance_to_sacrifice_privilege = {
 	icon = 1
 
 	on_granted = {
 		enable_estate_action = {
-			estate_action = DRUID_SACRIFICE_CAPTIVES
+			estate_action = DRUID_MAKE_SACRIFICES
 		}
 	}
+
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+druid_burden_of_scripture_privilege = {
+	icon = 1
 
 	ai_will_do = {
 		factor = 0
