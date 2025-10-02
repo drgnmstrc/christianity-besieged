@@ -673,3 +673,142 @@ norse_finnic_ideas = {
 		unjustified_demands = -0.1
 	}
 }
+
+saxan_tier_3_ideas = {
+	start = {
+		possible_condottieri = 2
+		shock_damage = 0.2
+	}
+	bonus = {
+		heavy_ship_number_of_cannons_modifier = 0.2
+		hull_size_modifier = 0.2
+	}
+	trigger = {
+		tag = GBR
+		OR = {
+			was_tag = ESX
+			was_tag = WSX
+		}
+	}
+	free = yes
+	saxan_mercenary_origins_3 = {
+		land_morale = 0.2
+		discipline = 0.05
+	}
+	saxan_vassals_no_more_3 = {
+		reduced_liberty_desire = 15
+		war_exhaustion = -0.1
+	}
+	saxan_martial_education_3 = {
+		monarch_military_power = 1
+		mil_advisor_cost = -0.2
+	}
+	saxan_grander_fleets_3 = {
+		naval_forcelimit_modifier = 0.15
+		global_sailors_modifier = 0.2
+	}
+	saxan_priesthood_3 = {
+		missionaries = 2
+		global_missionary_strength = 0.03
+	}
+	saxan_widespread_family_ties_3 = {
+		culture_conversion_cost = -0.3
+		heir_chance = 0.75
+	}
+	saxan_seaxe_marines_3 = {
+		allowed_marine_fraction = 0.2
+		regiment_disembark_speed = 0.45
+	}
+}
+
+saxan_tier_2_ideas = {
+	start = {
+		possible_condottieri = 1
+		shock_damage = 0.15
+	}
+	bonus = {
+		heavy_ship_number_of_cannons_modifier = 0.15
+		hull_size_modifier = 0.1
+	}
+	trigger = {
+		tag = SXE
+		OR = {
+			was_tag = ESX
+			was_tag = WSX
+		}
+	}
+	free = yes
+	saxan_mercenary_origins_2 = {
+		land_morale = 0.15
+		mercenary_manpower = 0.2
+	}
+	saxan_vassals_no_more_2 = {
+		reduced_liberty_desire = 5
+		war_exhaustion = -0.1
+	}
+	saxan_martial_education_2 = {
+		monarch_military_power = 1
+		mil_advisor_cost = -0.1
+	}
+	saxan_grander_fleets_2 = {
+		naval_forcelimit_modifier = 0.1
+		global_sailors_modifier = 0.15
+	}
+	saxan_priesthood_2 = {
+		missionaries = 2
+		global_missionary_strength = 0.015
+	}
+	saxan_widespread_family_ties_2 = {
+		culture_conversion_cost = -0.2
+		heir_chance = 0.5
+	}
+	saxan_seaxe_marines_2 = {
+		allowed_marine_fraction = 0.15
+		regiment_disembark_speed = 0.3
+	}
+}
+
+saxan_ideas = {
+	start = {
+		possible_condottieri = 0.5
+		shock_damage = 0.1
+	}
+	bonus = {
+		heavy_ship_number_of_cannons_modifier = 0.1
+		hull_size_modifier = 0.05
+	}
+	trigger = {
+		OR = {
+			tag = ESX
+			tag = WSX
+		}
+	}
+	free = yes
+	saxan_mercenary_origins = {
+		land_morale = 0.1
+		mercenary_manpower = 0.1
+	}
+	saxan_vassals_no_more = {
+		liberty_desire = 15
+		war_exhaustion = -0.05
+	}
+	saxan_martial_education = {
+		mil_advisor_cost = -0.1
+	}
+	saxan_grander_fleets = {
+		naval_forcelimit_modifier = 0.05
+		global_sailors_modifier = 0.1
+	}
+	saxan_priesthood = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.1
+	}
+	saxan_widespread_family_ties = {
+		culture_conversion_cost = -0.1
+		heir_chance = 0.25
+	}
+	saxan_seaxe_marines = {
+		allowed_marine_fraction = 0.1
+		regiment_disembark_speed = 0.15
+	}
+}

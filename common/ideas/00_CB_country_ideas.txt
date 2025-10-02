@@ -1224,3 +1224,46 @@ kasrashi_ideas = {
 		nobles_loyalty_modifier = 0.1	
 	}
 }
+soisson_ideas = {
+	start = {
+		cav_to_inf_ratio = 0.1
+		garrison_size = 0.10
+	}
+	bonus = {
+		global_missionary_strength = 0.02
+		production_efficiency = 0.1
+	}
+	trigger = {
+		tag = SSN
+	}
+	free = yes
+	ssn_knights_of_gaul = {
+		cavalry_power = 0.1
+		nobles_loyalty_modifier = 0.1
+	}
+	ssn_elaborate_castles = {
+		fort_maintenance_modifier = -0.15
+		artillery_levels_available_vs_fort = 1
+	}
+	ssn_weathering_the_germani = {
+		garrison_damage = 0.5
+		cavalry_flanking = 0.1
+	}
+	ssn_soissons_churches = {
+		monthly_church_power = 0.02
+		yearly_patriarch_authority = 0.1
+		relation_with_same_religion = 10
+	}
+	ssn_prolific_faithful = {
+		church_loyalty_modifier = 0.1
+		development_cost = -0.1
+	}
+	ssn_upgrading_roman_roads = {
+		build_cost = -0.1
+		administrative_efficiency = 0.05
+	}
+	ssn_christian_connections = {
+		relation_with_heretics = 15
+		reverse_relation_with_heretic_religion = 15
+	}
+}
