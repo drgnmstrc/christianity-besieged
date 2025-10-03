@@ -14,10 +14,22 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	spriteType = {
+		name = "GFX_manichaean_sun_button"
+		textureFile = "gfx/interface/manichaean_darkness/manichaean_sun.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
 	### Latin Background ###
 	spriteType = {
 		name = "GFX_latin_window_bg"
 		texturefile = "gfx/interface/manichaean_darkness/latin_window_bg.dds"
+	}
+	### Darkness Frame ###
+	spriteType = {
+		name = "GFX_darkness_frame"
+		texturefile = "gfx/interface/manichaean_darkness/darkness_measure.dds"
+		noOfFrames = 11
 	}
 	### Jihad Shield Overlay ###
 	maskedShieldType = {
@@ -29,6 +41,16 @@ spriteTypes = {
 		noOfFrames = 119
 		overlay_frames_per_row = 32
 		overlay_rows = 4
+	}
+	### Darkness Bar ###
+	progressbartype = {
+		name = "GFX_darkness_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/manichaean_darkness/darkness_bar.dds"
+		textureFile2 = "gfx/interface/manichaean_darkness/darkness_bar_empty.dds"
+		size = { x = 120 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
 	}
 	### Rector Shield Overlay ###
 	maskedShieldType = {
@@ -111,7 +133,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/manichaean_darkness/fep_latin_reforms.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		noOfFrames = 5
+		noOfFrames = 6
 	}
 	### ownership indicator###
 	spriteType = {

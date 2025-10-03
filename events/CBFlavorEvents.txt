@@ -19,6 +19,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = CBFlavorEvents.2
 	title = CBFlavorEvents.2t
@@ -39,6 +40,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = { #Neotelete Ritual for new Orphic rulers
 	id = CBFlavorEvents.3
 	title = CBFlavorEvents.3t
@@ -122,6 +124,7 @@ country_event = { #Neotelete Ritual for new Orphic rulers
 		ai_chance = { factor = 10000 }
 	}
 }
+
 country_event = { #The Caliph brings random Alsababi culture to colony
 	id = CBFlavorEvents.4
 	title = CBFlavorEvents.4t
@@ -666,6 +669,7 @@ province_event = { #Preacher has escaped to preach in a different province >:(
 		clear_global_event_target = hellenic_province_evt_2@ROOT
 	}
 }
+
 country_event = { #Cybelene Triumph
 	id = CBFlavorEvents.9
 	title = CBFlavorEvents.9t
@@ -988,6 +992,7 @@ country_event = { #Cybelene Triumph
 		}
 	}
 }
+
 country_event = { #Divided and Conquered, or United? Znovuzaty
 	id = CBFlavorEvents.12
 	title = CBFlavorEvents.12t
@@ -1004,6 +1009,7 @@ country_event = { #Divided and Conquered, or United? Znovuzaty
 		}
 	}
 }
+
 country_event = {
 	id = CBFlavorEvents.13
 	title = CBFlavorEvents.1t
@@ -1038,6 +1044,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {#Ashes of the Middle Kingdom
 	id = CBFlavorEvents.14
 	title = CBFlavorEvents.14t
@@ -1065,6 +1072,7 @@ country_event = {#Ashes of the Middle Kingdom
 		hidden_effect = { set_country_flag = ashes_middle_kingdom }
 	}
 }
+
 country_event = {#Frisian Invasion of Essex
 	id = CBFlavorEvents.15
 	title = CBFlavorEvents.15t
@@ -1124,6 +1132,7 @@ country_event = {#Frisian Invasion of Essex
 		FRI = { integrate = FROM }
 	}
 }
+
 country_event = {#Writing conventions of Tuthegacia
 	id = CBFlavorEvents.16
 	title = CBFlavorEvents.16t
@@ -1208,6 +1217,7 @@ country_event = {#Writing conventions of Tuthegacia
 		}
 	}
 }
+
 country_event = {#Refugees from Leventina
 	id = CBFlavorEvents.17
 	title = CBFlavorEvents.17t
@@ -1237,6 +1247,7 @@ country_event = {#Refugees from Leventina
 		}
 	}
 }
+
 country_event = { # Vasconians depart for the coast
 	id = CBFlavorEvents.18
 	title = CBFlavorEvents.18t
@@ -1252,6 +1263,69 @@ country_event = { # Vasconians depart for the coast
 		name = CBFlavorEvents.18a
 		trigger = {
 			NOT = { ai = yes }
+		}
+	}
+}
+
+country_event = { # The Adventures of Ibn Kawash
+	id = CBFlavorEvents.19
+	title = CBFlavorEvents.19t
+	desc = CBFlavorEvents.19d
+	picture = STREET_SPEECH_eventPicture
+	fire_only_once = yes
+	trigger = { tag = MRS zoroastrian = 0}
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.5
+			zoroastrian = 1
+		}
+	}
+	option = { # Unfortunately, we cannot afford to break ties with our old faith.
+		name = CBFlavorEvents.19a
+	}
+	option = { # Such a wise and learned man surely deserves the title of [Root.Monarch.GetTitle]
+		name = CBFlavorEvents.19b
+		change_religion = zoroastrian
+		define_explorer = {
+			name = "Zakariya ibn Kawash"
+			shock = 4
+			fire = 3
+			manuever = 5
+		}
+		define_leader_to_ruler = {
+			type = explorer
+			adm = 6
+			dip = 6
+			mil = 2
+			claim = 95
+			fixed = yes
+		}
+		add_ruler_modifier = {
+			name = adventures_of_ibn_kawash
+		}
+		sahel_region = {
+			discover_country = ROOT
+		}
+		south_china_sea_region = {
+			discover_country = ROOT
+		}
+		south_china_region = {
+			discover_country = ROOT
+		}
+		discover_province = 1567
+		discover_province = 367
+		367 = {
+			if = {
+				limit = { is_city = no }
+				add_siberian_construction = 500
+				while = {
+					limit = {
+						NOT = { light_ships_in_province = 3 }
+					}
+					light_ship = ROOT
+				}
+			}
 		}
 	}
 }

@@ -2684,7 +2684,21 @@ guiTypes = {
 				name ="gushnasp_fire"
 				scripted = yes
 				spriteType = "GFX_manichaean_fire"
-				position = { x= 391 y = 106 }
+				position = { x= 228 y = 114 }
+			}
+			
+			iconType = {
+				name ="farnbag_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 391 y = 114 }
+			}
+			
+			iconType = {
+				name ="burzen_mihr_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 64 y = 114 }
 			}
 
 			instantTextBoxType = {
@@ -2700,43 +2714,24 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="owner_shield"
+				name ="gushnasp_owner_shield"
 				quadTextureSprite = "GFX_shield_small"
-				position = { x= 290 y = 30 }
+				position = { x= 276 y = 242 }
 				orientation = "UPPER_LEFT"
 			}
 			
-			instantTextBoxType = {
-				name = "latin_ui_rector"
-				scripted = yes
-				position = { x = 16 y = 185 }
-				format = centre
-				font = "vic_22"
-				borderSize = {x = 4 y = 4}
-				maxWidth = 250
-				maxHeight = 45			
+			guiButtonType = {
+				name ="farnbag_owner_shield"
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
 			}
 			
-			instantTextBoxType = {
-				name = "latin_ui_unity_growth"
-				scripted = yes
-				position = { x = 126 y = 250 }
-				format = centre
-				font = "vic_22"
-				borderSize = {x = 4 y = 4}
-				maxWidth = 50
-				maxHeight = 45			
-			}
-			
-			instantTextBoxType = {
-				name = "latin_ui_rectoral_religion"
-				scripted = yes
-				position = { x = 16 y = 270 }
-				format = centre
-				font = "vic_22"
-				borderSize = {x = 4 y = 4}
-				maxWidth = 250
-				maxHeight = 45			
+			guiButtonType = {
+				name ="burzen_mihr_owner_shield"
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
@@ -2781,13 +2776,32 @@ guiTypes = {
 				clicksound = debate_win
 				position = { x = 68 y = 431 }
 			}
+			
+			iconType = {
+				name ="latin_ui_edicts_banner"
+				scripted = yes
+				spriteType = "gfx_islamic_holy_site_banner"
+				position = { x = 327 y = 316 }
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_edicts_banner_text"
+				scripted = yes
+				position = { x = 354 y = 316 }
+				format = centre
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 155
+				maxHeight = 25			
+			}
 
 			guiButtonType = {
 				name = "latin_ui_levantine_reform"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
-				position = { x = 68 y = 477 }
+				position = { x = 362 y = 339 }
 			}
 			
 			guiButtonType = {
@@ -2795,102 +2809,20 @@ guiTypes = {
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
-				position = { x = 68 y = 523 }
+				position = { x = 362 y = 385 }
 			}
 			
 			guiButtonType = {
-				name ="editto_subsidize_league_trade"
+				name ="latin_ui_sixth_reform"
 				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 250 }
-				scale = 1
-				buttonText = "Subsidize League Trade"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_loosen_army_restrictions"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 295 }
-				scale = 1
-				buttonText = "Loosen Army Restrictions"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_promote_religious_adherence"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 340 }
-				scale = 1
-				buttonText = "Promote Religious Adherence"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_inspire_religious_tolerance"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 385 }
-				scale = 1
-				buttonText = "Inspire Religious Tolerance"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_encourage_infrastructure"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 430 }
-				scale = 1
-				buttonText = "Develop the League's Infrastructure"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_forbid_anathema"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 475 }
-				scale = 1
-				buttonText = "Forbid the Teaching of Anathema"
-				buttonFont = "vic_18_black"
-			}
-			
-			guiButtonType = {
-				name ="editto_fund_league_universities"
-				scripted = yes
-				spriteType = "GFX_decree_button"
-				position = { x = 285 y = 520 }
-				scale = 1
-				buttonText = "Fund League Universities"
-				buttonFont = "vic_18_black"
-			}
-			
-			iconType = {
-				name ="latin_ui_edicts_banner"
-				scripted = yes
-				spriteType = "GFX_copts_site_title_banner"
-				position = { x = 267 y = 225 }
-				alwaystransparent = yes
-			}
-			
-			instantTextBoxType = {
-				name = "latin_ui_edicts_banner_text"
-				scripted = yes
-				position = { x = 330 y = 225 }
-				format = centre
-				font = "vic_18"
-				borderSize = {x = 4 y = 4}
-				maxWidth = 155
-				maxHeight = 25			
+				spriteType = "gfx_latin_reforms"
+				position = { x = 362 y = 431 }
 			}
 			
 			instantTextBoxType = {
 				name = "latin_ui_unity_value"
 				scripted = yes
-				position = { x = 16 y = 220 }
+				position = { x = 176 y = 270 }
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}
 				#text = "10.00"	
@@ -2900,14 +2832,36 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_influence_growth"
+				name = "latin_ui_rector"
 				scripted = yes
-				position = { x = 316 y = 160 }
+				position = { x = 228 y = 84 }
+				format = centre
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
-				maxWidth = 250
+				maxWidth = 128
+				maxHeight = 45			
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_influence_growth"
+				scripted = yes
+				position = { x = 391 y = 84 }
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 128
 				maxHeight = 45			
 				format = centre
+			}
+			
+			instantTextBoxType = {
+				name = "latin_ui_rectoral_religion"
+				scripted = yes
+				position = { x = 64 y = 84 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 128
+				maxHeight = 45			
 			}
 			
 			guiButtonType = {
@@ -2920,6 +2874,23 @@ guiTypes = {
 				Orientation = "CENTER"
 				shortcut = "ESCAPE"
 				clicksound = close_window
+			}
+			
+			# Background
+			iconType = { 
+				name = "darkness_bar"
+				spriteType = "GFX_darkness_bar"
+				position = { x = 231 y = 415 }
+				scripted = yes
+			}
+
+			# Frame
+			iconType = {
+				name = "darkness_frame"
+				spriteType = "GFX_darkness_frame"
+				position = { x = 215 y = 337 }
+				alwaystransparent = yes
+				scripted = yes
 			}
 		}
 

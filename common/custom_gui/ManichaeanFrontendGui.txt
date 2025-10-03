@@ -1,7 +1,7 @@
 custom_window = {
 	name = latin_custom_window
 	potential = {
-		has_country_flag = latin_window_shown
+		has_country_flag = manichaean_window_shown
 	}
 }
 
@@ -39,30 +39,15 @@ custom_button = {
 			}
 			if = {
 				limit = {
-					has_country_flag = latin_window_shown
+					has_country_flag = manichaean_window_shown
 				}
-				clr_country_flag = latin_window_shown
+				clr_country_flag = manichaean_window_shown
 			}
 			else = {
-				set_country_flag = latin_window_shown
-				clr_country_flag = shogunate_window_shown
+				set_country_flag = manichaean_window_shown
 				play_sound = religion_sunni
 			}
 		}
-		else_if = {
-			limit = { always = no }
-			if = {
-				limit = {
-					has_country_flag = shogunate_window_shown
-				}
-				clr_country_flag = shogunate_window_shown
-			}
-			else = {
-				set_country_flag = shogunate_window_shown
-				play_sound = religion_shinto
-			}
-		}
-		else = {}
 		
 	}
 	tooltip = "[Root.GetEEBubble1TT]"
