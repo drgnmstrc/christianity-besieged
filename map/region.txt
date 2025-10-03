@@ -742,6 +742,7 @@ manchuria_region = {
 		central_heilongjiang_area
 		sakhalin_area
 		furdan_area
+		oroch_area
 	}
 }
 
@@ -912,6 +913,9 @@ japan_region = {
 		northern_kyushu
 		etchu_area
 		east_hokkaido_area
+		central_kansai_area
+		suwa_area
+		west_sanindo_area
 	}
 	monsoon = {
 		00.06.01

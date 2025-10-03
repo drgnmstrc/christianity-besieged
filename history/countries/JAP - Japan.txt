@@ -1,10 +1,9 @@
 government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 3
-primary_culture = togoku
+add_government_reform = japanese_empire_reform
+primary_culture = japanese
 religion = shinto
 technology_group = chinese
-capital = 1021	# Kyoto
+capital = 1021	# Naniwa
 
 1383.10.21 = {
 	monarch = {

@@ -288,9 +288,11 @@ daimyo = {
 	icon = "daimyo"
 	allow_normal_conversion = no
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
+		OR = { 
 		overlord = { has_reform = shogunate }
-	}
+		overlord = { has_reform = japanese_empire }
+			}
+		}
 	replacement_on_independence_war = indep_daimyo
 	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1

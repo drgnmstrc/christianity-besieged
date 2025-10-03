@@ -2721,11 +2721,11 @@ hokkaido_area = { #5
 }
 
 hokuriku_area = { #3
-	1024 1843 5201 5204 5197
+	1024 5201 5204
 }
 
 kanto_area = { #3 #Western Kanto
-	1028 4190 5200 5198 5199
+	1028 4190 5200 5199
 }
 
 eastern_kanto_area = { #3
@@ -2745,33 +2745,46 @@ shikoku_area = { #3
 }
 
 eastern_chubu_area = { #4
-	1029 1839 4188 4189 5193
+	1029 1839 4189 5193
 }
 
 chubu_area = { #3 (Western Chubu)
 	color = { 219 83 61 }
-	1030 1835 4359 4360 5185 5186
+	1030 1835 4359 4360 4187
 }
 
 kinai_area = { #4
 	color = { 208 206 65 }
-	1020 1021 1832 4187 5181 5177 1019 5183
+	1021 5181 5177 1019 4184
+}
+
+central_kansai_area = { #4
+	color = { 216 155 84 }
+	1832 1020 5184 5185 5186
 }
 
 thohoku_area = { #4
 	1025 1026 4131 4192 5205
 }
 
+west_sanindo_area = { #4
+	1018 4183 5182 5175 5190
+}
+
 sanindo_area = { #4
-	1018 1830 4183 5182 5184 4185 5175 5176
+	5176 1830 5183 4185
 }
 
 saigoku_area = { #4 #Sanyodo
-	1017 1825 4184 5178 5179 5180 5190
+	1017 1825 5178 5179 5180
 }
 
 etchu_area = { #4 #Sanyodo
-	5194 5195 5196 1023 1837
+	5195 5196 1023 1837
+}
+
+suwa_area = { #4 #Sanyodo
+	5194 4188 5197 1843 5198
 }
 
 east_hokkaido_area = { #4 #East Hokkaido
@@ -2875,7 +2888,11 @@ cicigar_area = {
 }
 
 ilan_hala_area = { #5 (North Jilin Area)
-	1048 1050 4214 4216 4215 5213 5214
+	1048 1050 4214 5214
+}
+
+oroch_area = { #5 (North Jilin Area)
+	4216 729 4215 5213
 }
 
 sakhalin_area = { #2
@@ -2883,7 +2900,7 @@ sakhalin_area = { #2
 }
 
 central_jilin_area = { #5
-	729 731 2105 4217 4663
+	731 2105 4217 4663
 }
 
 ningguta_area = { #5
