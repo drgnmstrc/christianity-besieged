@@ -97,133 +97,133 @@ royal_marriage = {
 #1600.10.21 -> Tokugawa
 
 vassal = { #So
-	first = ASK
+	first = JAP
 	second = SOO
 	start_date = 1444.11.11
 	end_date = 1573.7.1
 }
 
 vassal = { #Kitabatake
-	first = ASK
+	first = JAP
 	second = KTB
 	start_date = 1444.11.11
 	end_date = 1569.10.3 #Annexed
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = ASA
 	start_date = 1444.11.11
 	end_date = 1573.7.1 #Annexed
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = CSK
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = HJO
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = HSK
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = IKE
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = MAE
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = MRI
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = OTM
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = OUC
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = SMZ
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = YMN
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = AKM
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = ITO
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = KKC
 	start_date = 1444.11.11
 	end_date = 1554.1.1 #Annexed
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = KNO
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = SHN
 	start_date = 1444.11.11
 	end_date = 1573.7.3
 }
 
 vassal = {
-	first = ASK
+	first = JAP
 	second = TTI
 	start_date = 1444.11.11
 	end_date = 1573.7.3

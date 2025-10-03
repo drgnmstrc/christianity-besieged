@@ -1,7 +1,7 @@
 #1019 - Harima
 
-owner = YMN
-controller = YMN
+owner = JAP
+controller = JAP
 culture = japanese
 religion = shinto
 capital = "Himeji"
@@ -11,7 +11,5 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 is_city = yes
-add_core = YMN
-add_core = HSK
-add_core = AKM
+add_core = JAP
 discovered_by = chinese

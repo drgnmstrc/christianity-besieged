@@ -1,22 +1,20 @@
-#4360 - Mikawa
+#4187 - Kii
 
-owner = HJO
-controller = HJO
-culture = togoku
+owner = JAP
+controller = JAP
+culture = japanese
 religion = shinto
-capital = "Okazaki"
+capital = "Ayabe"
 trade_goods = grain
 hre = no
 base_tax = 2
-base_manpower = 3
-base_production = 2
+base_manpower = 2
+base_production = 3
 is_city = yes
-add_core = HJO
+add_core = JAP
 discovered_by = chinese
 1444.1.1 = {discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU}
-
-# Tokugawa shogunate founded

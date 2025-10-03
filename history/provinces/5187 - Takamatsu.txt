@@ -4,13 +4,14 @@ owner = JAP
 controller = JAP
 culture = japanese
 religion = shinto
-capital = "Shirahama"
-trade_goods = whaling
+capital = "Takamatsu"
+trade_goods = fish
 hre = no
 base_tax = 2
 base_manpower = 2
 base_production = 3
 is_city = yes
+add_core = HSK
 add_core = JAP
 discovered_by = chinese
 1444.1.1 = {discovered_by = MCH
