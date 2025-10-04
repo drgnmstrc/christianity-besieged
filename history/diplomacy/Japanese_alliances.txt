@@ -260,7 +260,7 @@ vassal = {
 }
 vassal = {
 	first = TKD
-	second = IMD
+	second = IMG
 	start_date = 1415.12.24
 	end_date = 1821.1.1
 }
