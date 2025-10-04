@@ -1,8 +1,8 @@
 government = tribal
-add_government_reform = siberian_tribe
+add_government_reform = daimyo
 government_rank = 1
-primary_culture = ainu
-religion = animism
+primary_culture = japanese
+religion = shinto
 technology_group = chinese
 capital = 4185	# Tango
 

@@ -3,7 +3,7 @@
 owner = TKD
 controller = TKD
 culture = ainu
-religion = animism
+religion = insular_syriac
 capital = "Kawagoe"
 trade_goods = fish
 hre = no

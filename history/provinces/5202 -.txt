@@ -3,7 +3,7 @@
 owner = UTN
 controller = UTN
 culture = ainu
-religion = animism
+religion = insular_syriac
 capital = "Mayabashi"
 trade_goods = horses
 hre = no

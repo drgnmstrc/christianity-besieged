@@ -42,8 +42,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1215;387;sea;1330;3482;849;3484;853;Tajura-Mocha
 112;1774;sea;1308;2995;1432;2994;1434;Venice-Treviso
 54;4141;sea;1268;2945;1599;2943;1597;Stade-Dithmarschen
-5181;1021;sea;1391;4912;1219;4919;1223;Awa-Settsu
-5181;1820;sea;1391;4909;1232;4908;1235;Awa-Settsu
+5181;1021;sea;1391;4912;1219;4919;1223;Awaji-Settsu
+5181;1820;sea;1391;4909;1232;4908;1235;Awa-Awaji
 4131;4193;sea;1387;4999;1357;5005;1351;Oshima-Mutsu
 1032;1852;sea;4225;5099;1408;5073;1386;Kurils-Tokachi
 1199;1201;sea;1448;-1;-1;-1;-1;Bagamoyo-Zanzibar
