@@ -1,17 +1,17 @@
 #1843 - Kozuke
 
-owner = OGS
-controller = OGS
+owner = UTN
+controller = UTN
 culture = ainu
-religion = animism
-capital = "Mayabashi"
+religion = insular_syriac
+capital = "Fukushima"
 trade_goods = horses
 hre = no
 base_tax = 2 
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = OGS
+add_core = UTN
 discovered_by = chinese
 discovered_by = nomad_group
 
@@ -21,4 +21,4 @@ discovered_by = nomad_group
 1578.4.1 = { owner = TKD controller = TKD }
 1582.4.3 = { remove_core = TKD add_core = ODA owner = ODA controller = ODA }
 1582.10.27 = { add_core = HJO owner = HJO controller = HJO }
-1590.8.10 = { remove_core = HJO remove_core = OGS remove_core = ODA add_core = TKG owner = TKG controller = TKG }
+1590.8.10 = { remove_core = HJO remove_core = UES remove_core = ODA add_core = TKG owner = TKG controller = TKG }

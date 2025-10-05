@@ -2771,7 +2771,7 @@ west_sanindo_area = { #4
 	1018 4183 5182 5175 5190
 }
 
-sanindo_area = { #4
+sanindo_area = { #4 #Sanindo
 	5176 1830 5183 4185
 }
 
@@ -2779,11 +2779,11 @@ saigoku_area = { #4 #Sanyodo
 	1017 1825 5178 5179 5180
 }
 
-etchu_area = { #4 #Sanyodo
+etchu_area = { #4 #Etchu
 	5195 5196 1023 1837
 }
 
-suwa_area = { #4 #Sanyodo
+suwa_area = { #4 #Kim'Noske
 	5194 4188 5197 1843 5198
 }
 

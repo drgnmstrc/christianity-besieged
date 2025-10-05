@@ -1,11 +1,11 @@
-#4214 - Kalar
+#5214 - Guga
 
 owner = NVK
 controller = NVK
 add_core = NVK
 culture = evenk
 religion = tengri_pagan_reformed
-capital = "Kalar"
+capital = "Guga"
 trade_goods = fur
 hre = no
 base_tax = 1 

@@ -2,7 +2,7 @@
 
 culture = ainu
 religion = animism
-capital = "Shiribeshi"
+capital = "Erimo"
 trade_goods = whaling
 hre = no
 base_tax = 1 
