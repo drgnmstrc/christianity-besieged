@@ -34,4 +34,3 @@ has_manufactory_trigger = { #Province Scope
 		}
 	}
 }
-

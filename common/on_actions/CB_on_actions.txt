@@ -88,6 +88,20 @@ on_startup = {
 			set_country_flag = ayu_monarch_flag
 		}
 	}
+	# Manichaean Holy Sites
+	ERS = {
+		save_global_event_target_as = gushnasp_owner
+		save_global_event_target_as = farnbag_owner
+	}
+	KHO = { save_global_event_target_as = burzen_mihr_owner }
+	
+	VEN = { save_global_event_target_as = venezia_owner }
+	BTA = { save_global_event_target_as = roma_owner }
+	UNU = { save_global_event_target_as = sarai_owner }
+	
+	JUD = { save_global_event_target_as = jerusalem_owner }
+	CMG = { save_global_event_target_as = germanikea_owner }
+	ASO = { save_global_event_target_as = ctesiphon_owner }
 }
 
 # country
@@ -1692,6 +1706,72 @@ on_province_owner_change = {
 			name = naghali_discontent
 			duration = -1
 		}
+	}
+	# Manichaean Holy Sites
+	if = {
+		limit = { province_id = 2212 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = gushnasp_owner
+		}
+		owner = { save_global_event_target_as = gushnasp_owner }
+	}
+	if = {
+		limit = { province_id = 4329 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = farnbag_owner
+		}
+		owner = { save_global_event_target_as = farnbag_owner }
+	}
+	if = {
+		limit = { province_id = 4326 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = burzen_mihr_owner
+		}
+		owner = { save_global_event_target_as = burzen_mihr_owner }
+	}
+	# Sol Ubique Holy Sites
+	if = {
+		limit = { province_id = 379 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = jerusalem_owner
+		}
+		owner = { save_global_event_target_as = jerusalem_owner }
+	}
+	if = {
+		limit = { province_id = 332 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = germanikea_owner
+		}
+		owner = { save_global_event_target_as = germanikea_owner }
+	}
+	if = {
+		limit = { province_id = 410 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = ctesiphon_owner
+		}
+		owner = { save_global_event_target_as = ctesiphon_owner }
+	}
+	# Mandaeism Holy Sites
+	if = {
+		limit = { province_id = 112 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = venezia_owner
+		}
+		owner = { save_global_event_target_as = venezia_owner }
+	}
+	if = {
+		limit = { province_id = 118 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = roma_owner
+		}
+		owner = { save_global_event_target_as = roma_owner }
+	}
+	if = {
+		limit = { province_id = 140 }
+		event_target:burzen_mihr_owner = {
+			clear_global_event_target = sarai_owner
+		}
+		owner = { save_global_event_target_as = sarai_owner }
 	}
 }
 
