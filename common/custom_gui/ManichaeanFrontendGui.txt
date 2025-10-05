@@ -8,14 +8,14 @@ custom_window = {
 custom_window = {
 	name = latin_bubble_entry
 	potential = {
-		religion = manichaeism
+		has_darkness = yes
 	}
 }
 
 custom_text_box = {
     name = latin_frontend_number
     potential = {
-		religion = manichaeism
+		has_darkness = yes
 	}
 }
 
@@ -28,14 +28,14 @@ custom_icon = {
 custom_button = {
 	name = manichaean_frontend_open_button
 	potential = {
-		religion = manichaeism
+		has_darkness = yes
 	}
 	trigger = {
 	}
 	effect = {
 		if = {
 			limit = {
-				religion = manichaeism
+				has_darkness = yes
 			}
 			if = {
 				limit = {

@@ -2704,38 +2704,86 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "faction_window_text_mechanic_override"
 				#scripted = yes
-				text = "Lega Latina"
-				position = { x = 0 y =10 }
+				text = "Atash Behram"
+				position = { x = 167 y = 42 }
 				format = centre
 				font = "vic_29s"
 				borderSize = {x = 4 y = 4}
-				maxWidth = 584
+				maxWidth = 250
 				maxHeight = 32			
 			}
 			
+			## Shield 1: Adur Gushnasp/Venezia/Jerusalem
 			guiButtonType = {
 				name ="gushnasp_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 276 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="venezia_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 276 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="jerusalem_owner_shield"
+				scripted = yes
 				quadTextureSprite = "GFX_shield_small"
 				position = { x= 276 y = 242 }
 				orientation = "UPPER_LEFT"
 			}
 			
+			## Shield 2: Adur Farnbag/Roma/Germanikea
 			guiButtonType = {
 				name ="farnbag_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="roma_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="germanikea_owner_shield"
+				scripted = yes
 				quadTextureSprite = "GFX_shield_small"
 				position = { x= 439 y = 242 }
 				orientation = "UPPER_LEFT"
 			}
 			
+			## Shield 3: Burzen Mihr/Sarai/Ctesiphon
 			guiButtonType = {
 				name ="burzen_mihr_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="sarai_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="ctesiphon_owner_shield"
+				scripted = yes
 				quadTextureSprite = "GFX_shield_small"
 				position = { x= 112 y = 242 }
 				orientation = "UPPER_LEFT"
 			}
 			
 			iconType = {
-				name ="latin_ui_reforms_banner"
+				name ="fight_darkness_banner"
 				scripted = yes
 				spriteType = "gfx_islamic_holy_site_banner"
 				position = { x = 37 y = 316 }
@@ -2743,7 +2791,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_reforms_banner_text"
+				name = "fight_darkness_banner_text"
 				scripted = yes
 				position = { x = 60 y = 316 }
 				format = centre
@@ -2754,7 +2802,7 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="latin_ui_religion_reform"
+				name ="manichaean_ui_bishops"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
@@ -2762,7 +2810,7 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="latin_ui_culture_reform"
+				name ="manichaean_ui_elect"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
@@ -2770,15 +2818,23 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="latin_ui_hereditary_reform"
+				name ="manichaean_ui_heresy"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
 				position = { x = 68 y = 431 }
 			}
 			
+			guiButtonType = {
+				name ="manichaean_ui_cull"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 477 }
+			}
+			
 			iconType = {
-				name ="latin_ui_edicts_banner"
+				name ="embrace_darkness_banner"
 				scripted = yes
 				spriteType = "gfx_islamic_holy_site_banner"
 				position = { x = 327 y = 316 }
@@ -2786,7 +2842,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_edicts_banner_text"
+				name = "embrace_darkness_banner_text"
 				scripted = yes
 				position = { x = 354 y = 316 }
 				format = centre
@@ -2797,7 +2853,7 @@ guiTypes = {
 			}
 
 			guiButtonType = {
-				name = "latin_ui_levantine_reform"
+				name = "manichaean_ui_education"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
@@ -2805,7 +2861,7 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="latin_ui_unification_reform"
+				name ="manichaean_ui_warriors"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				clicksound = debate_win
@@ -2813,16 +2869,23 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name ="latin_ui_sixth_reform"
+				name ="manichaean_ui_diplomacy"
 				scripted = yes
 				spriteType = "gfx_latin_reforms"
 				position = { x = 362 y = 431 }
 			}
 			
-			instantTextBoxType = {
-				name = "latin_ui_unity_value"
+			guiButtonType = {
+				name ="manichaean_ui_rally"
 				scripted = yes
-				position = { x = 176 y = 270 }
+				spriteType = "gfx_latin_reforms"
+				position = { x = 362 y = 477 }
+			}
+			
+			instantTextBoxType = {
+				name = "manichaean_darkness_value"
+				scripted = yes
+				position = { x = 167 y = 450 }
 				font = "vic_36"
 				borderSize = {x = 0 y = 0}
 				#text = "10.00"	
@@ -2832,7 +2895,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_rector"
+				name = "middle_holy_site_name"
 				scripted = yes
 				position = { x = 228 y = 84 }
 				format = centre
@@ -2843,7 +2906,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_influence_growth"
+				name = "right_holy_site_name"
 				scripted = yes
 				position = { x = 391 y = 84 }
 				font = "vic_22"
@@ -2854,7 +2917,7 @@ guiTypes = {
 			}
 			
 			instantTextBoxType = {
-				name = "latin_ui_rectoral_religion"
+				name = "left_holy_site_name"
 				scripted = yes
 				position = { x = 64 y = 84 }
 				format = centre
@@ -2865,7 +2928,7 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name = "latin_custom_close_button"
+				name = "manichaean_close_button"
 				scripted = yes
 				position = { x=-62 y =260}
 				quadTextureSprite ="button_type_1"

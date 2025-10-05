@@ -33,8 +33,9 @@ moravia_slavic_vigor = {
 refused_free_city = {
 }
 pursuing_darkness_education = {
-	global_unrest = -1
+	global_unrest = -2
 	state_maintenance_modifier = 0.1
+	global_institution_spread = 0.15
 }
 bring_the_bishops_to_bear = {
 	missionaries = -2

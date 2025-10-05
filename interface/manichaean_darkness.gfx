@@ -133,7 +133,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/manichaean_darkness/fep_latin_reforms.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-		noOfFrames = 6
+		noOfFrames = 8
 	}
 	### ownership indicator###
 	spriteType = {
