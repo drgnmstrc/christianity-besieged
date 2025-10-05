@@ -1,41 +1,39 @@
 custom_button = {
-    name = latin_custom_close_button
+    name = manichaean_close_button
     potential = {
 	}
     trigger = {  }
     effect = {
-		clr_country_flag = latin_window_shown
-		clr_country_flag = shogunate_window_shown
+		clr_country_flag = manichaean_window_shown
 	}
     #tooltip = "Close"
 }
 
 custom_text_box = {
-    name = latin_ui_unity_value
+    name = manichaean_darkness_value
     potential = {
 	}
-    # tooltip = latin_ui_unity_value_tooltip
+    # tooltip = manichaean_darkness_value_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_influence_growth
+    name = right_holy_site_name
     potential = {
 	}
-    # tooltip = latin_ui_influence_growth_tooltip
+    # tooltip = right_holy_site_name_tooltip
 }
 
 custom_text_box = {
-    name = latin_ui_edicts_banner_text
+    name = middle_holy_site_name
     potential = {
 	}
-    #tooltip = faction_window_text_mechanic_override_cusloc
+    # tooltip = middle_holy_site_name_tooltip
 }
 
-custom_icon = {
-	name = latin_ui_edicts_banner
+custom_text_box = {
+    name = left_holy_site_name
     potential = {
 	}
-	#tooltip = latin_ui_holy_site_thatta_religion_tooltip
 }
 
 custom_text_box = {
@@ -45,169 +43,240 @@ custom_text_box = {
     #tooltip = faction_window_text_mechanic_override_cusloc
 }
 
-custom_text_box = {
-    name = latin_ui_reforms_banner_text
-    potential = {
-	}
-    # tooltip = latin_ui_reforms_banner_text_tooltip
-}
-
-custom_button = {
-	name = latin_ui_religion_reform
-    potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		custom_trigger_tooltip = {
-			tooltip = 75_unity_tooltip
-			check_variable = {
-				which = latin_unity
-				value = 75
-			}
-		}
-		hidden_trigger = {
-			NOT = { has_global_flag = latin_religion_reform }
-		}
-	}
-	effect = {
-		country_event = {
-			id = fep_italian_flavor.4
-		}
-		custom_tooltip = enables_new_editti
-		set_global_flag = latin_religion_reform
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 75
-			}
-		}
-	}
-	frame = {
-        number = 1
-        trigger = { 
-			always = yes
-		}
-    }
-	tooltip = latin_ui_religion_reform_tooltip
-}
-
-custom_button = {
-	name = latin_ui_culture_reform
-    potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		custom_trigger_tooltip = {
-			tooltip = 75_unity_tooltip
-			check_variable = {
-				which = latin_unity
-				value = 75
-			}
-		}
-		hidden_trigger = {
-			has_global_flag = latin_religion_reform
-			NOT = {
-				has_global_flag = latin_culture_reform
-			}
-		}
-	}
-	effect = {
-		custom_tooltip = enables_liberation_cb
-		set_global_flag = latin_culture_reform
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 75
-			}
-		}
-	}
-	frame = {
-        number = 2
-        trigger = { 
-			always = yes
-		}
-    }
-	tooltip = latin_ui_culture_reform_tooltip
-}
-
-custom_button = {
+custom_icon = {
 	name = gushnasp_fire
     potential = {
 	}
-	trigger = {
-	}
-	effect = {
-	}
 	frame = {
         number = 1
-		2207 = {
-			NOT = { religion = manichaeism }
-			NOT = { owner = { religion = manichaeism } }
+		trigger = {
+			if = {
+				limit = {
+					religion = manichaeism
+				}
+				2212 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = noniustian
+				}
+				112 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = mandaeism
+				}
+				379 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
+				}
+			}
 		}
     }
 	frame = {
         number = 2
-		2207 = {
-			religion = manichaeism
-			has_owner_religion = yes
-		}
     }
 }
 
-custom_button = {
-	name = latin_ui_hereditary_reform
+custom_icon = {
+	name = farnbag_fire
     potential = {
 	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		custom_trigger_tooltip = {
-			tooltip = 75_unity_tooltip
-			check_variable = {
-				which = latin_unity
-				value = 75
+	frame = {
+        number = 1
+		trigger = {
+			if = {
+				limit = { religion = manichaeism }
+				4329 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
 			}
-		}
-		all_subject_country = {
-			OR = {
-				NOT = { is_subject_of_type = league_member }
-				has_opinion = {
-					who = event_target:current_rector
-					value = 150
+			else_if = {
+				limit = {
+					religion = noniustian
+				}
+				118 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = mandaeism
+				}
+				332 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
 				}
 			}
 		}
-		hidden_trigger = {
-			has_global_flag = latin_culture_reform
-			NOT = {
-				has_global_flag = latin_hereditary_reform
+    }
+	frame = {
+        number = 2
+    }
+}
+
+custom_icon = {
+	name = burzen_mihr_fire
+    potential = {
+	}
+	frame = {
+        number = 1
+		trigger = {
+			if = {
+				limit = { religion = manichaeism }
+				4326 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
 			}
+			else_if = {
+				limit = { religion = noniustian }
+				149 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = mandaeism }
+				410 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
+    }
+	frame = {
+        number = 2
+    }
+}
+
+custom_icon = {
+	name = fight_darkness_banner
+    potential = {
+	}
+	#tooltip = latin_ui_latin_flag_tooltip
+}
+
+custom_text_box = {
+    name = fight_darkness_banner_text
+    potential = {
+	}
+    # tooltip = fight_darkness_banner_text_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_bishops
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 4
+		}
+		num_of_missionaries = 2
+		NOT = { has_country_modifier = bring_the_bishops_to_bear }
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 4
+		}
+		add_country_modifier = {
+			name = bring_the_bishops_to_bear
+			duration = 360
+		}
+	}
+	frame = {
+        number = 1
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_bishops_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_elect
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 5
+		}
+		adm = 3
+		custom_trigger_tooltip = {
+			tooltip = darkness_hasnt_done
+			NOT = { has_country_modifier = elected_in_power }
 		}
 	}
 	effect = {
-		custom_tooltip = latin_hereditary_succession_tooltip
-		set_global_flag = latin_hereditary_reform
-		hidden_effect = {
-			every_subject_country = {
-				limit = { is_in_latin_league = yes }
-				country_event = {
-					id = fep_italian_flavor.5
-				}	
-			}
+		subtract_variable = {
+			which = darkness
+			value = 5
 		}
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 75
-			}
+		add_adm_power = -25
+		add_ruler_modifier = {
+			name = elected_in_power
+			duration = -1
+		}
+	}
+	frame = {
+        number = 2
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_elect_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_heresy
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 10
+		}
+		innovativeness = 5
+		NOT = { has_country_modifier = exposing_heretical_worldviews }
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 10
+		}
+		change_innovativeness = -5
+		add_country_modifier = {
+			name = exposing_heretical_worldviews
+			duration = 360
 		}
 	}
 	frame = {
@@ -216,61 +285,81 @@ custom_button = {
 			always = yes
 		}
     }
-	tooltip = latin_ui_hereditary_reform_tooltip
+	tooltip = manichaean_ui_heresy_tooltip
 }
 
 custom_button = {
-	name = latin_ui_levantine_reform
+	name = manichaean_ui_cull
     potential = {
 	}
 	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
+		check_variable = {
+			which = darkness
+			value = 5
 		}
-		custom_trigger_tooltip = {
-			tooltip = 75_unity_tooltip
-			check_variable = {
-				which = latin_unity
-				value = 75
-			}
-		}
-		all_subject_country = {
-			OR = {
-				NOT = { is_subject_of_type = league_member }
-				has_opinion = {
-					who = event_target:current_rector
-					value = 150
-				}
-			}
-		}
-		hidden_trigger = {
-			has_global_flag = latin_hereditary_reform
-			NOT = {
-				has_global_flag = latin_levantine_reform
-			}
-		}
+		mil = 3
+		NOT = { has_country_modifier = culling_manis_enemies }
 	}
 	effect = {
-		set_global_flag = latin_levantine_reform
-		palestine_area = {
-			add_core = event_target:current_rector
+		subtract_variable = {
+			which = darkness
+			value = 5
 		}
-		mashriq_region = {
-			add_permanent_claim = event_target:current_rector
+		add_corruption = 1
+		add_adm_power = 10
+		add_dip_power = 10
+		add_mil_power = 10
+		add_country_modifier = {
+			name = culling_manis_enemies
+			duration = 360
 		}
-		if = {
-			limit = { KOJ = { exists = yes ai = yes } }
-			create_subject = {
-				subject_type = league_member
-				who = KOJ
+	}
+	frame = {
+        number = 7
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_cull_tooltip
+}
+
+custom_text_box = {
+    name = embrace_darkness_banner_text
+    potential = {
+	}
+    #tooltip = faction_window_text_mechanic_override_cusloc
+}
+
+custom_icon = {
+	name = embrace_darkness_banner
+    potential = {
+	}
+	#tooltip = latin_ui_holy_site_thatta_religion_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_education
+    potential = {
+	}
+	trigger = {
+		NOT = {
+			check_variable = {
+				which = darkness
+				value = 85
 			}
 		}
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 75
-			}
+		years_of_income = 0.5
+		NOT = { has_country_modifier = pursuing_darkness_education }
+	}
+	effect = {
+		change_variable = {
+			which = darkness
+			value = 15
+		}
+		add_years_of_income = -0.5
+		add_country_modifier = {
+			name = pursuing_darkness_education
+			duration = 730
 		}
 	}
 	frame = {
@@ -279,70 +368,32 @@ custom_button = {
 			always = yes
 		}
     }
-	tooltip = latin_ui_levantine_reform_tooltip
+	tooltip = manichaean_ui_education_tooltip
 }
 
 custom_button = {
-	name = latin_ui_unification_reform
+	name = manichaean_ui_warriors
     potential = {
 	}
 	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		custom_trigger_tooltip = {
-			tooltip = 75_unity_tooltip
+		NOT = {
 			check_variable = {
-				which = latin_unity
-				value = 75
+				which = darkness
+				value = 90
 			}
 		}
-		all_subject_country = {
-			OR = {
-				NOT = { is_subject_of_type = league_member }
-				has_opinion = {
-					who = event_target:current_rector
-					value = 150
-				}
-			}
-		}
-		hidden_trigger = {
-			has_global_flag = latin_levantine_reform
-			NOT = {
-				has_global_flag = latin_unification_reform
-			}
-		}
+		manpower_percentage = 0.2
+		NOT = { has_country_modifier = training_warriors_against_darkness }
 	}
 	effect = {
-		set_global_flag = latin_unification_reform
-		italy_region = {
-			add_core = event_target:current_rector
+		change_variable = {
+			which = darkness
+			value = 10
 		}
-		custom_tooltip = latin_unification_tooltip
-		hidden_effect = {
-			every_subject_country = {
-				limit = {
-					is_subject_of_type_with_overlord = {
-						who = event_target:current_rector
-						type = league_member
-					}
-				}
-				event_target:current_rector = {
-					inherit = PREV
-				}
-				change_tag = ITA
-				add_country_modifier = {
-					name = centralization_modifier
-					duration = 7300
-				}
-			}
-		}
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 75
-			}
+		add_yearly_manpower = -1
+		add_country_modifier = {
+			name = training_warriors_against_darkness
+			duration = 360
 		}
 	}
 	frame = {
@@ -351,32 +402,339 @@ custom_button = {
 			always = yes
 		}
     }
-	tooltip = latin_ui_unification_reform_tooltip
+	tooltip = manichaean_ui_warriors_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_diplomacy
+    potential = {
+	}
+	trigger = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 85
+				}
+			}
+			dip = 3
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = policies_misaligned_darkness }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 15
+			}
+			add_dip_power = 100
+			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
+	}
+	frame = {
+        number = 6
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_diplomacy_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_rally
+    potential = {
+	}
+	trigger = {
+		NOT = {
+			check_variable = {
+				which = darkness
+				value = 90
+			}
+		}
+		mil = 3
+		NOT = { has_country_modifier = rallying_soldiers_to_ruler }
+	}
+	effect = {
+		change_variable = {
+			which = darkness
+			value = 10
+		}
+		add_country_modifier = {
+			name = rallying_soldiers_to_ruler
+			duration = 360
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 10
+				}
+			}
+		}
+	}
+	frame = {
+        number = 8
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_rally_tooltip
 }
 
 custom_icon = {
-	name = latin_ui_reforms_banner
+	name = darkness_frame
     potential = {
 	}
-	#tooltip = latin_ui_latin_flag_tooltip
+	trigger = {
+	}
+	effect = {
+	}
+	frame = {
+        number = 11
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 100
+			}
+		}
+    }
+	frame = {
+        number = 10
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 90
+			}
+		}
+    }
+	frame = {
+        number = 9
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 80
+			}
+		}
+    }
+	frame = {
+        number = 8
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 70
+			}
+		}
+    }
+	frame = {
+        number = 7
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 60
+			}
+		}
+    }
+	frame = {
+        number = 6
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 50
+			}
+		}
+    }
+	frame = {
+        number = 5
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 40
+			}
+		}
+    }
+	frame = {
+        number = 4
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 30
+			}
+		}
+    }
+	frame = {
+        number = 3
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 20
+			}
+		}
+    }
+	frame = {
+        number = 2
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+		}
+    }
+	frame = {
+        number = 1
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+		}
+    }
+	tooltip = manichaean_ui_elect_tooltip
 }
 
+custom_icon = {
+    name = darkness_bar
+    frame_variable = darkness
+}
+
+## Shield 1: Adur Gushnasp/Venezia/Jerusalem
 custom_shield = {
-	name = latin_ui_rector_shield
+	name = gushnasp_owner_shield
     potential = {
+		religion = manichaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
     effect = { }
     # tooltip = latin_ui_latin_flag_tooltip
-	global_event_target = current_rector
+	global_event_target = gushnasp_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = venezia_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = venezia_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = jerusalem_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = jerusalem_owner
+    open_country = yes
+}
+
+## Shield 2: Adur Farnbag/Roma/Germanikea
+custom_shield = {
+	name = farnbag_owner_shield
+    potential = {
+		religion = manichaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = farnbag_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = roma_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = roma_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = germanikea_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = germanikea_owner
+    open_country = yes
+}
+
+## Shield 3: Burzen Mihr/Sarai/Ctesiphon
+custom_shield = {
+	name = burzen_mihr_owner_shield
+    potential = {
+		religion = manichaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = burzen_mihr_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = sarai_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = sarai_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = ctesiphon_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = ctesiphon_owner
     open_country = yes
 }
 
 
 custom_icon = {
-	name = latin_ui_rector_shield_cut
+	name = middle_holy_site_name_shield_cut
     potential = {
 		#OR = {
 		#	has_saved_global_event_target = Caliph_province_holder
@@ -406,24 +764,10 @@ custom_icon = {
 }
 
 custom_text_box = {
-    name = latin_ui_rector
-    potential = {
-	}
-    # tooltip = latin_ui_rector_tooltip
-}
-
-custom_text_box = {
     name = latin_ui_unity_growth
     potential = {
 	}
     tooltip = latin_ui_unity_growth_tooltip
-}
-
-custom_text_box = {
-    name = latin_ui_rectoral_religion
-    potential = {
-	}
-    tooltip = latin_ui_rectoral_religion_tooltip
 }
 
 custom_icon = {
@@ -448,220 +792,5 @@ custom_text_box = {
 custom_icon = {
 	name = fatwa_color_overlay
     potential = {
-	}
-}
-
-custom_button = {
-	name = editto_subsidize_league_trade
-	# tooltip = editto_subsidize_league_trade_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = league_trade_subsidized
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_loosen_army_restrictions
-	# tooltip = editto_loosen_army_restrictions_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = army_restrictions_loosened
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_promote_religious_adherence
-	# tooltip = editto_promote_religious_adherence_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = must_pass_religious_reform
- 			has_global_flag = latin_religion_reform
-		}
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = adherence_pushed
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_inspire_religious_tolerance
-	# tooltip = editto_inspire_religious_tolerance_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = must_pass_religious_reform
- 			has_global_flag = latin_religion_reform
-		}
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = religious_tolerance_encouraged
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_encourage_infrastructure
-	# tooltip = editto_encourage_infrastructure_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = infrastructure_supported
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_forbid_anathema
-	# tooltip = editto_forbid_anathema_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-		custom_trigger_tooltip = {
-			tooltip = must_pass_religious_reform
- 			has_global_flag = latin_religion_reform
-		}
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = forbittance_of_anathema
-				duration = 1825
-			}
-		}
-	}
-}
-
-custom_button = {
-	name = editto_fund_league_universities
-	# tooltip = editto_fund_league_universities_tt
-	potential = {
-	}
-	trigger = {
-		custom_trigger_tooltip = {
-			tooltip = only_rector_passes_reforms_tooltip
-			has_subject_of_type = league_member
-		}
-		has_not_passed_recent_edict = yes
-	}
-	effect = {
-		hidden_effect = {
-			subtract_variable = {
-				which = latin_unity
-				value = 10
-			}
-		}
-		every_country = {
-			limit = { is_in_latin_league = yes }
-			add_country_modifier = {
-				name = universities_funded
-				duration = 1825
-			}
-		}
 	}
 }

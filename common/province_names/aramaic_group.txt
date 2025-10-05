@@ -1,0 +1,102 @@
+# Format: ID = { "Province" "Capital" } # Origin
+
+## MASHRIQ
+
+# Palestine
+364 = { "Aza" "Aza" } # Ghazza
+379 = { "Orišlem" "Orišlem" } # Yerushalayim
+1854 = { "Yapo" "Yapo" } # Jaffa
+4268 = { "Alath" "Alath" } # Elath
+
+# Transjordan
+380 = { "Kharaka" "Kharaka" } # Kharkha/Karak
+381 = { "Kafriya" "Kafriya" } # Kafr + -iya
+2327 = { "Mayina" "Amin" } # Ma'in/Minaeans, Amman
+
+# Syria
+378 = { "Trabolis" "Trabolis" } # Tripolis
+382 = { "Damašq" "Damašq" } # Damašq
+1855 = { "Šidon" "Šidon" } # Saida
+4297 = { "Ghamath Šoba" "Ghamath Šoba" } # Gamath-zoba
+
+# Syrian Desert
+405 = { "Tadmor" "Tadmor" } # Tadmor/Palmyra
+4270 = { "Šaraq" "Šaraq" } # Azraq
+4271 = { "Sowayid" "Sowayid" } # Suwayda
+
+# Aleppo
+377 = { "Ghalba" "Ghalba" } # Aleppo
+1849 = { "Ghamath" "Ghamath" } # Hama
+2313 = { "Anthiyoka" "Anthiyoka" } # Antioch
+4298 = { "Ayindab" "Ayindab" } # Ayntab
+4962 = { "Sorayita" "Sorayita" } # Su'ria'ita
+
+# Osrhoene/Al-Jazira
+407 = { "Raqa" "Raqa" } # Ar-Raqqa
+411 = { "Ninweh" "Ninweh" } # Nineveh
+2314 = { "Rehobot han-Nahar" "Rehobot han-Nahar" } # "Rehobot on the Euphrates" 
+2309 = { "Shingar" "Shingar" } # Sinjar
+4292 = { "Merdin" "Merdin" } # Mardin
+
+# Mesopotamia/Iraq Arabi
+406 = { "Enpar" "Enparkha" } # Anbar, "Anbar City"
+409 = { "Bebel" "Bebel" } # Babylon
+410 = { "Qthispon" "Qthispon" } # Ctesiphon
+2310 = { "Birtha" "Birtha" } # Birtha 
+4291 = { "Baqoba" "Baqoba" } # Baqubah
+
+# Basra
+408 = { "Basarath" "Basarath" } # Basra
+2311 = { "Baniqiya" "Baniqiya" } # Baniqia
+2312 = { "Wasith" "Wasith" } # Wasit
+4288 = { "Araba" "Araba" } # Middle Persian "Arvand" (River)
+
+## PERSIA
+
+# Khuzestan
+412 = { "Darašir" "Darašir" } # Ardashir
+2217 = { "Paras" "Paras" } # Fars
+4289 = { "Šuš" "Šuš" } # Susa
+4290 = { "Piyaniya" "Piyaniya" } # Piyan
+4342 = { "Izen" "Izen" } # Izeh
+
+# Luristan
+413 = { "Ghorem" "Ghorem" } # Khorramabad
+414 = { "Agmatan" "Agmatan" } # Ecbatana
+2209 = { "Ilam" "Ilam" } # Elam
+2210 = { "Malkharkh" "Malkharkh" } # "King's City"
+
+# Shahrizor
+415 = { "Beth Garmai" "Kharkha Dibeth Slokh" } # "Home of the Garmai", "Citadel of the House of Seleucid" 
+2211 = { "Dašar" "Dašar" } # Ardashir
+4293 = { "Arbel" "Arbel" } # Arbil
+4294 = { "Mazamowa" "Mazamowa" } # Mazamua
+
+## ANATOLIA
+
+# Kurdistan
+418 = { "Amedi" "Amedi" } # Amedi
+2306 = { "Muški" "Muški" } # Fars
+2307 = { "Ona" "Ona" } # Van
+4295 = { "Kefas" "Kefas" } # Cephas
+4296 = { "Leš" "Leš" } # Lis
+
+# Commagene/Dulkadir
+332 = { "Ghorem" "Ghorem" } # Khorramabad
+2303 = { "Agmatan" "Agmatan" } # Ecbatana
+2308 = { "Ilam" "Ilam" } # Elam
+4310 = { "Malkharkh" "Malkharkh" } # "King's City"
+
+# Shahrizor
+321 = { "Qipros" "Niqosiya" } # Cyprus, Nicosia 
+327 = { "Athana" "Athana" } # Adana
+2302 = { "Zepiriya" "Naghid" } # Zephyrion, Nagidos
+5040 = { "Sede" "Sede" } # Side
+5041 = { "Thaliya" "Thaliya" } # Attaleia
+
+# Lycaonia
+323 = { "Koni" "Koni" } # Ikonion
+324 = { "Larenda" "Larenda" } # Laranda
+2301 = { "Keysariya" "Keysariya" } # Caesarea
+4307 = { "Tekšar" "Tekšar" } # Taksara
+5039 = { "Ghobošar" "Ghobošar" } # Cybistra/Ghupišna

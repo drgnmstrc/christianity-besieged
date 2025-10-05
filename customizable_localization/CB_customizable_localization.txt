@@ -1,4 +1,3 @@
-
 defined_text = {
 	name = RivalAlmoravidNation
 
@@ -22,3 +21,72 @@ defined_text = {
 	}
 }
 
+# Darkness Holy Sites
+defined_text = {
+	name = DarknessHolySite1
+
+	text = {
+		localisation_key = adur_gushnasp_name
+		trigger = {
+			religion = manichaeism
+		}
+	}
+	text = {
+		localisation_key = jerusalem_name
+		trigger = {
+			religion = mandaeism
+		}
+	}
+	text = {
+		localisation_key = venezia_name
+		trigger = {
+			religion = noniustian
+		}
+	}
+}
+
+defined_text = {
+	name = DarknessHolySite2
+
+	text = {
+		localisation_key = adur_farnbag_name
+		trigger = {
+			religion = manichaeism
+		}
+	}
+	text = {
+		localisation_key = germanikea_name
+		trigger = {
+			religion = mandaeism
+		}
+	}
+	text = {
+		localisation_key = roma_name
+		trigger = {
+			religion = noniustian
+		}
+	}
+}
+
+defined_text = {
+	name = DarknessHolySite3
+
+	text = {
+		localisation_key = burzen_mihr_name
+		trigger = {
+			religion = manichaeism
+		}
+	}
+	text = {
+		localisation_key = ctesiphon_name
+		trigger = {
+			religion = mandaeism
+		}
+	}
+	text = {
+		localisation_key = sarai_name
+		trigger = {
+			religion = noniustian
+		}
+	}
+}

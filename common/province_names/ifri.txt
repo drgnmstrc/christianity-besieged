@@ -1,8 +1,6 @@
 # RULES
 # -ia -> -ya/-iya
-# -io -> -eo
 # -ium -> -u
-# e -> a
 # b -> p
 # Format: ID = { "Province" "Capital" } # Origin
 
@@ -40,7 +38,7 @@
 2977 = { "Urbi" "Urbi" } # Urbinum
 
 # Lazio-Umbria
-118 = { "al-Urbu" "Ruma" } # Rhomi
+118 = { "al-Urbu" "Ruma" } # Roma
 2976 = { "Baruzya" "Baruzya" } # Perusia
 4732 = { "Tarraq" "Tarraq" } # Tarracina
 4731 = { "Zuplitu" "Zuplitu" } # Spoletium
