@@ -75,7 +75,7 @@ shura_iskandaria = {
 
 isaurian_tyranny = {
     rank = {
-        1 = GOUANI #City, Luwian transliterated into Greek back into Latin
+	1 = GOUANI #City, Luwian transliterated into Greek back into Latin
 	2 = CHANTIGIA #Kingdom, Luwian transliterated into Greek back into Latin then simplified
 	3 = TARGANTSAVAT #Literally Rule King, Luwian transliterated into Greek back into Latin then simplified
     }
@@ -128,14 +128,14 @@ syriac_church = {
 		3 = HOLY_KINGDOM
 	}
 	ruler_male = {
-		1 = ARCHBISHOP
-		2 = PATRIARCH
-		3 = APOSTLE
+		1 = EBONA
+		2 = EBONA
+		3 = EBONA
 	}
 	ruler_female = {
-		1 = BISHOP
-		2 = ARCHBISHOP
-		3 = MATRIARCH
+		1 = YIMMA
+		2 = YIMMA
+		3 = YIMMA
 	}
 	heir_male = {
 		1 = HEIR
