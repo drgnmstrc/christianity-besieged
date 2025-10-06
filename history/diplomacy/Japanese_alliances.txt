@@ -124,13 +124,6 @@ vassal = {
 
 vassal = {
 	first = JAP
-	second = HJO
-	start_date = 1444.11.11
-	end_date = 1573.7.3
-}
-
-vassal = {
-	first = JAP
 	second = HSK
 	start_date = 1444.11.11
 	end_date = 1573.7.3
@@ -242,7 +235,14 @@ vassal = {
 }
 
 dependency = {
-	subject_type = "tributary_state"
+	subject_type = "shogun_vassal"
+	first = JAP
+	second = HJO
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
 	first = JAP
 	second = RYU
 	start_date = 1609.4.5

@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_shogun"
+		texturefile = "gfx//interface//GFX_icon_diplomacy_lead_shogun.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_shogun"
+		texturefile = "gfx//interface//GFX_icon_diplomacy_am_shogun.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_shogun_vassal"
+		texturefile = "gfx/interface/GFX_icon_shogun_vassal.dds"
+	}
+}
