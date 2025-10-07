@@ -1,0 +1,440 @@
+SRY_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+
+	SRY_mesopotamian_mission = {
+		icon = mam_basrah
+		position = 8
+		required_missions = { SRY_eastern_interests }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_dominate_the_gulf = {
+		icon = qara_qoyunlu_dominate_the_gulf
+		position = 10
+		required_missions = { SRY_holy_fleet }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_incorporate_the_mafrian = {
+		icon = mission_indian_stateman
+		position = 11
+		required_missions = { SRY_dominate_the_gulf }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_rumours_of_the_east = {
+		icon = conquer_malacca
+		position = 12
+		required_missions = { SRY_incorporate_the_mafrian }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_yeshuwaita = {
+		icon = mission_trade_with_japan
+		position = 13
+		required_missions = { SRY_rumours_of_the_east }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+SRY_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+
+	SRY_kingly_favors = {
+		icon = mission_most_holy_synod
+		position = 2
+		required_missions = { SRY_strange_bedfellows }
+		provinces_to_highlight = { is_capital_of = CLC }
+
+		trigger = { dip_power = 150 }
+
+		effect = {
+			add_dip_power = -150
+			add_country_modifier = {
+				name = kingly_favors
+				duration = 3650
+			}
+			reverse_add_opinion = {
+				who = CLC
+				modifier = opinion_supported_monarch
+			}
+			set_country_flag = kingly_favors_completed
+		}
+	}
+
+	SRY_greasing_wheels = {
+		icon = mission_diplomatic_relation
+		position = 3
+		required_missions = { SRY_kingly_favors }
+		provinces_to_highlight = { is_capital_of = CLC }
+
+		trigger = {
+			reverse_has_opinion_modifier = {
+				who = CLC
+				modifier = sent_gift
+			}
+		}
+
+		effect = {
+			define_advisor = {
+				type = theologian
+				name = "Ignatios Behnam"
+				skill = 3
+				cost_multiplier = 0.5
+			}
+			set_country_flag = greasing_wheels_completed
+		}
+	}
+
+	SRY_ceremonial_preparations = {
+		icon = holy_state
+		position = 4
+		required_missions = { SRY_greasing_wheels }
+		provinces_to_highlight = { is_capital_of = ROOT }
+
+		trigger = {
+			theologian = 3
+			is_in_deficit = no
+		}
+
+		effect = {
+			change_dip = 1
+			set_country_flag = ceremonial_preparations_completed
+		}
+	}
+
+	SRY_eastern_interests = {
+		icon = mam_baghdad
+		position = 7
+		required_missions = { SRY_moving_forward }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_mithridatic_coronation = {
+		icon = mission_war_for_the_crown
+		position = 8
+		required_missions = { SRY_eastern_interests }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_holy_fleet = {
+		icon = crusader_fleet
+		position = 9
+		required_missions = { SRY_mesopotamian_mission }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+SRY_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+
+	SRY_strange_bedfellows = {
+		icon = protectors_of_christendom
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = { adm_power = 100 }
+
+		effect = { add_treasury = 400 add_adm_power = -100 }
+	}
+
+	SRY_holy_father = {
+		icon = sway_the_pope
+		position = 3
+		required_missions = { SRY_strange_bedfellows }
+		provinces_to_highlight = { is_capital_of = ROOT }
+
+		trigger = {
+			capital_scope = { development = 25 }
+		}
+
+		effect = {
+			capital_scope = { upgrade_fort_building = yes }
+		}
+	}
+
+	SRY_a_final_choice = {
+		icon = personal_diplomacy
+		position = 5
+		required_missions = { SRY_holy_father }
+		provinces_to_highlight = { owned_by = ROOT }
+
+		trigger = {
+			OR = {
+				reverse_has_opinion = {
+					who = CLC
+					value = 150
+				}
+				army_size_percentage = 1.0
+			}
+		}
+
+		effect = {
+			country_event = {
+				id = CBSuriaitaEvents.0
+			}
+		}
+	}
+
+	SRY_moving_forward = {
+		icon = convert_the_holy_lands
+		position = 6
+		required_missions = { SRY_a_final_choice }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_aromri = {
+		icon = byz_reinforce_constantinople
+		position = 8
+		required_missions = { SRY_moving_forward }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_st_peters_church = {
+		icon = take_constantinople
+		position = 10
+		required_missions = { SRY_aromri }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_ara_qaddista = {
+		icon = mission_levantine_restoration
+		position = 11
+		required_missions = { SRY_st_peters_church }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+SRY_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+
+	SRY_untenable_situation = {
+		icon = mission_mansure_army
+		position = 2
+		required_missions = { SRY_strange_bedfellows }
+		provinces_to_highlight = {  }
+
+		trigger = { mil_power = 150 }
+
+		effect = {
+			add_mil_power = -150
+			add_country_modifier = {
+				name = military_buildup
+				duration = 3650
+			}
+			set_country_flag = untenable_situation_completed
+		}
+	}
+
+	SRY_scoping_opponents = {
+		icon = contracts_of_correspondence
+		position = 3
+		required_missions = { SRY_untenable_situation }
+		provinces_to_highlight = { is_capital_of = CLC }
+
+		trigger = {
+			has_spy_network_in = {
+				who = CLC
+				value = 50
+			}
+		}
+
+		effect = {
+			CLC = { add_treasury = -150 }
+			add_treasury = 150
+			set_country_flag = scoping_opponents_completed
+		}
+	}
+
+	SRY_holy_communion = {
+		icon = mission_reliable_allies
+		position = 4
+		required_missions = { SRY_scoping_opponents }
+		provinces_to_highlight = {
+			is_capital = yes
+			owner = { religion = syriac }
+		}
+
+		trigger = {
+			calc_true_if = {
+				all_ally = {
+					religion_group = christian
+				}
+				amount = 3
+			}
+		}
+
+		effect = {
+			every_ally = {
+				add_opinion = {
+					who = ROOT
+					modifier = supported_independence
+				}
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = supported_independence
+				}
+			}
+			set_country_flag = holy_communion_completed
+		}
+	}
+
+	SRY_promises_made_promises_kept = {
+		icon = promote_the_patriarchate
+		position = 7
+		required_missions = { SRY_moving_forward }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_syrian_subjugation = {
+		icon = levantine_missions
+		position = 8
+		required_missions = { SRY_promises_made_promises_kept }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_holiest_of_cities = {
+		icon = jerusalem
+		position = 9
+		required_missions = { SRY_syrian_subjugation }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_poma_misri = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 10
+		required_missions = { SRY_holiest_of_cities }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+SRY_5_filler = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+}
+
+SRY_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SRY }
+
+	SRY_arbiya_garbiya = {
+		icon = mission_arabian_fort
+		position = 9
+		required_missions = { SRY_syrian_subjugation }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_city_of_alexander = {
+		icon = mission_conquer_alexandria
+		position = 1
+		required_missions = { SRY_arbiya_garbiya }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	SRY_canal_of_the_pharaohs = {
+		icon = construct_the_kiel_canal
+		position = 11
+		required_missions = {
+			SRY_city_of_alexander
+			SRY_poma_misri
+		}
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}

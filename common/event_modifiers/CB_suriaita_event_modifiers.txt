@@ -1,0 +1,9 @@
+kingly_favors = {
+    improve_relation_modifier = 0.25
+	diplomats = 1
+}
+
+military_buildup = {
+	land_maintenance_modifier = -0.15
+	land_forcelimit = 5
+}

@@ -1016,6 +1016,27 @@ syriac_church_reform = { # I
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
+		governing_capacity_modifier = -0.99
+		defensiveness = 0.75
+		land_morale = 0.15
+		diplomatic_reputation = 3
+		global_tax_modifier = 0.05
+	}
+}
+
+syriac_akhuta_reform = { # I
+	allow_normal_conversion = no
+	potential = {
+		government = theocracy
+		religion = syriac
+		is_subject_of = SRY
+	}
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	locked_government_type = yes
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	modifiers = {
 		diplomatic_reputation = 3
 		global_tax_modifier = 0.05
 	}

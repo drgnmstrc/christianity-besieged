@@ -1,0 +1,11 @@
+﻿l_english:
+ PEACE_force_syriac_brotherhood: "Force Communion"
+ force_syriac_brotherhood_desc: "Forcibly bring [From.GetName] into communion with the Syciac church under [This.GetName]"
+ CB_ALLOWED_force_syriac_brotherhood: "Force Communion"
+ PEACE_PO_syriac_brotherhood: "Force Akhuta"
+
+ cb_force_communion: "Force Communion"
+ cb_force_communion_desc: "Forcibly bring [From.GetName] into communion with the Syciac church under [This.GetName]"
+
+ take_capital_force_communion: Take the Capital""
+ take_capital_force_communion_desc: "The war goal is to take the capital"

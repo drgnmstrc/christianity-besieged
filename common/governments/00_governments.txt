@@ -1321,6 +1321,7 @@ theocracy = {
 
 				# Christianity Besieged Redux
 				syriac_church_reform
+				syriac_akhuta_reform
 				mudarian_utopia
 				kurudic_order_reform
 				qhaanue_reform
