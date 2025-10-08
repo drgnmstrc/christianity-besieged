@@ -187,7 +187,27 @@ estate_church = {
 			419 = { religion = coptic has_owner_religion = yes }
 		}
 	}
-	
+	custom_name = {
+		desc = estate_gangans
+		trigger = {
+			religion = qanumi
+		}
+	}
+	custom_name = {
+		desc = estate_elect
+		trigger = {
+			religion = manichaeism
+		}
+	}
+	custom_name = {
+		desc = estate_priests
+		trigger = {
+			OR = {
+				has_roman_religion = yes
+				religion_group = hellenic
+			}
+		}
+	}
 	custom_name = {
 		desc = estate_klirikoi
 		trigger = {

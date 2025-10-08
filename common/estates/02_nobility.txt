@@ -202,9 +202,27 @@ estate_nobles = {
 	
 	#Alternative naming of estates
 	custom_name = {
+		desc = estate_kurudiju
+		trigger = {
+			religion = qanumi
+		}
+	}
+	custom_name = {
+		desc = estate_gund
+		trigger = {
+			tag = SBK
+		}
+	}
+	custom_name = {
+		desc = estate_patricians
+		trigger = {
+			has_roman_religion = yes
+		}
+	}
+	custom_name = {
 		desc = estate_mamluks
 		trigger = {
-			tag = MAM
+			has_reform = mamluk_government
 		}
 	}
 	custom_name = {
@@ -242,7 +260,10 @@ estate_nobles = {
 	custom_name = {
 		desc = estate_beys
 		trigger = {
-			technology_group = ottoman
+			OR = {
+				primary_culture = alaiturco
+				primary_culture = italyan
+			}
 		}
 	}
 	custom_name = {
@@ -334,7 +355,12 @@ estate_nobles = {
 		desc = estate_amirs
 		trigger = {
 			religion_group = muslim
-			NOT = { technology_group = ottoman } #Should possibly be more restricted
+			NOT = {
+				OR = {
+					primary_culture = alaiturco
+					primary_culture = italyan
+				}
+			}
 		}
 	}
 	custom_name = {

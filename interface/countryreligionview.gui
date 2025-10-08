@@ -2616,8 +2616,350 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 		}
-	}
+		
+		guiButtonType = {
+			name = "manichaean_frontend_open_button"
+			scripted = yes
+			position = { x = 550 y = 240 }
+			spriteType = "GFX_manichaean_sun_button"
+			Orientation = "UPPER_LEFT"
+		}
+		
+		windowType = { ## EE Latin Bubble
+			name = "latin_bubble_entry"
+			scripted = yes
+			backGround=""
+			position = { x = 82 y = 215}
+			size = { x=50 y=50 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			orientation = "UPPER_LEFT"
+		
+			iconType = {
+				name ="latin_frontend_open_bg"
+				spriteType = "GFX_menubar_floating_bg_sideways"
+				position = { x= -320 y = -61 }
+				scripted = yes
+			}
+					
+			instantTextBoxType = {
+				name = "latin_frontend_number"
+				#position = { x = -364 y = -18 }
+				position = { x= -319 y = -46 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "100"	
+				maxWidth = 50
+				maxHeight = 32
+				format = centre
+				scripted = yes
+			}
+		}
+
+		windowType = { ## EE Latin Window
+			name = "latin_custom_window"
+			scripted = yes
+			backGround=""
+			position = { x = 580 y = 20 }	
+			size = { x=584 y=620 }
+			moveable = 1
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "UPPER_LEFT"
+			#upsound = religion_sunni
+			
+			iconType = {
+				name ="faction_window_bg_override"
+				scripted = yes
+				spriteType = "GFX_latin_window_bg"
+				position = { x = 0 y = 0 }
+			}
+			
+			iconType = {
+				name ="gushnasp_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 228 y = 114 }
+			}
+			
+			iconType = {
+				name ="farnbag_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 391 y = 114 }
+			}
+			
+			iconType = {
+				name ="burzen_mihr_fire"
+				scripted = yes
+				spriteType = "GFX_manichaean_fire"
+				position = { x= 64 y = 114 }
+			}
+
+			instantTextBoxType = {
+				name = "faction_window_text_mechanic_override"
+				#scripted = yes
+				text = "Atash Behram"
+				position = { x = 167 y = 42 }
+				format = centre
+				font = "vic_29s"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 250
+				maxHeight = 32			
+			}
+			
+			## Shield 1: Adur Gushnasp/Venezia/Jerusalem
+			guiButtonType = {
+				name ="gushnasp_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 276 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="venezia_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 276 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="jerusalem_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 276 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			
+			## Shield 2: Adur Farnbag/Roma/Germanikea
+			guiButtonType = {
+				name ="farnbag_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="roma_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="germanikea_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 439 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			
+			## Shield 3: Burzen Mihr/Sarai/Ctesiphon
+			guiButtonType = {
+				name ="burzen_mihr_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="sarai_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			guiButtonType = {
+				name ="ctesiphon_owner_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_shield_small"
+				position = { x= 112 y = 242 }
+				orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+				name ="fight_darkness_banner"
+				scripted = yes
+				spriteType = "gfx_islamic_holy_site_banner"
+				position = { x = 37 y = 316 }
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name = "fight_darkness_banner_text"
+				scripted = yes
+				position = { x = 60 y = 316 }
+				format = centre
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 155
+				maxHeight = 45			
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_bishops"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 339 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_elect"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 385 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_heresy"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 431 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_cull"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 68 y = 477 }
+			}
+			
+			iconType = {
+				name ="embrace_darkness_banner"
+				scripted = yes
+				spriteType = "gfx_islamic_holy_site_banner"
+				position = { x = 327 y = 316 }
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name = "embrace_darkness_banner_text"
+				scripted = yes
+				position = { x = 354 y = 316 }
+				format = centre
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 155
+				maxHeight = 25			
+			}
+
+			guiButtonType = {
+				name = "manichaean_ui_education"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 362 y = 339 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_warriors"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				clicksound = debate_win
+				position = { x = 362 y = 385 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_diplomacy"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				position = { x = 362 y = 431 }
+			}
+			
+			guiButtonType = {
+				name ="manichaean_ui_rally"
+				scripted = yes
+				spriteType = "gfx_latin_reforms"
+				position = { x = 362 y = 477 }
+			}
+			
+			instantTextBoxType = {
+				name = "manichaean_darkness_value"
+				scripted = yes
+				position = { x = 167 y = 450 }
+				font = "vic_36"
+				borderSize = {x = 0 y = 0}
+				#text = "10.00"	
+				maxWidth = 250
+				maxHeight = 32	
+				format = centre
+			}
+			
+			instantTextBoxType = {
+				name = "middle_holy_site_name"
+				scripted = yes
+				position = { x = 228 y = 84 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 128
+				maxHeight = 45			
+			}
+			
+			instantTextBoxType = {
+				name = "right_holy_site_name"
+				scripted = yes
+				position = { x = 391 y = 84 }
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 128
+				maxHeight = 45			
+				format = centre
+			}
+			
+			instantTextBoxType = {
+				name = "left_holy_site_name"
+				scripted = yes
+				position = { x = 64 y = 84 }
+				format = centre
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				maxWidth = 128
+				maxHeight = 45			
+			}
+			
+			guiButtonType = {
+				name = "manichaean_close_button"
+				scripted = yes
+				position = { x=-62 y =260}
+				quadTextureSprite ="button_type_1"
+				buttonText = "Close"
+				buttonFont = "vic_18"
+				Orientation = "CENTER"
+				shortcut = "ESCAPE"
+				clicksound = close_window
+			}
+			
+			# Background
+			iconType = { 
+				name = "darkness_bar"
+				spriteType = "GFX_darkness_bar"
+				position = { x = 231 y = 415 }
+				scripted = yes
+			}
+
+			# Frame
+			iconType = {
+				name = "darkness_frame"
+				spriteType = "GFX_darkness_frame"
+				position = { x = 215 y = 337 }
+				alwaystransparent = yes
+				scripted = yes
+			}
+		}
+
 	
+	}
+
 	################# personal deity		
 	windowType = {
 		name = "personal_deity_item"
@@ -2988,10 +3330,115 @@ guiTypes = {
 		}
 	}
 
+		################################################################################################
+	################# Christianity Besieged: Church aspect item (for selection) For Rabbinic
+	windowType = {
+		name = "countryreligionview_aspectitem_rabbinic"
+		backGround =""
+		position = { x=10 y=-20 }	
+		size = { x=50 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+		
+		iconType =
+		{
+			name ="aspect_icon"
+			spriteType = "GFX_hindu_deities_strip"
+			position = { x= 45 y = -14 }
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_name"
+			position = { x= -42 y = 6 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectName"	
+			maxWidth = 102
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_effect"
+			position = { x = 98 y = -2 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectEffect"	
+			maxWidth = 206
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		guiButtonType = {
+			name = "pick_aspect"
+			position = { x=301 y = 1}
+			quadTextureSprite ="GFX_standard_button_71"
+			buttonText = "SELECT"
+			buttonFont = "vic_18"
+			Orientation = "LEFT"
+		}
+	}
+
 	################################################################################################
 	################# Church aspect item (for selection) For Jewish
 	windowType = {
 		name = "countryreligionview_aspectitem_jewish"
+		backGround =""
+		position = { x=10 y=-20 }	
+		size = { x=50 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+		
+		iconType = {
+			name = "aspect_icon"
+			spriteType = "GFX_hindu_deities_strip"
+			position = { x= 45 y = -14 }
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_name"
+			position = { x= -42 y = 6 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectName"	
+			maxWidth = 102
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_effect"
+			position = { x = 98 y = -2 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectEffect"	
+			maxWidth = 206
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		guiButtonType = {
+			name = "pick_aspect"
+			position = { x=301 y = 1}
+			quadTextureSprite ="GFX_standard_button_71"
+			buttonText = "SELECT"
+			buttonFont = "vic_18"
+			Orientation = "LEFT"
+		}
+	}
+
+		################################################################################################
+	################# CB Church aspect item (for selection) For Karaite
+	windowType = {
+		name = "countryreligionview_aspectitem_karaite"
 		backGround =""
 		position = { x=10 y=-20 }	
 		size = { x=50 y=46 }

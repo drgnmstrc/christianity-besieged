@@ -1,0 +1,47 @@
+﻿l_english:
+ manichaean_darkness_value: "Darkness: [Root.darkness.GetValue]"
+ # Darkness holy sites
+ middle_holy_site_name: "[Root.DarknessHolySite1]"
+ right_holy_site_name: "[Root.DarknessHolySite2]"
+ left_holy_site_name: "[Root.DarknessHolySite3]"
+ # 1
+ adur_gushnasp_name: "[2212.GetName]"
+ jerusalem_name: "[379.GetName]"
+ venezia_name: "[112.GetName]"
+ # 2
+ adur_farnbag_name: "[4326.GetName]"
+ germanikea_name: "[332.GetName]"
+ roma_name: "[118.GetName]"
+ # 3
+ burzen_mihr_name: "[4329.GetName]"
+ ctesiphon_name: "[410.GetName]"
+ sarai_name: "[140.GetName]"
+
+ fight_darkness_banner_text: "Fight Darkness"
+ manichaean_ui_bishops_tooltip: "Bring Bishops to Bear"
+ manichaean_ui_elect_tooltip: "An Elect in Administration"
+ manichaean_ui_heresy_tooltip: "Expose Heretical Worldviews"
+ manichaean_ui_cull_tooltip: "Cull Mani's Enemies"
+
+ embrace_darkness_banner_text: "Embrace Darkness"
+ manichaean_ui_education_tooltip: "Invest in Public Religious Education"
+ manichaean_ui_warriors_tooltip: "Train Warriors in Darkness"
+ manichaean_ui_diplomacy_tooltip: "Diplomatic Privileges"
+ manichaean_ui_rally_tooltip: "Rally Soldiers to Ruler"
+
+ only_rector_passes_reforms_tooltip: "Only the §YRector§! can pass reforms or edicts!"
+ 75_unity_tooltip: "The League has at least §Y75 Unity§!"
+ enables_new_editti: "Enables new §YEditti§!"
+ enables_liberation_cb: "Enables the '§YLatin Liberation§!' Casus Belli against all nations that occupy any Latin core. This Casus Belli will be unlocked upon reaching Diplomacy '§YTech 5§!'"
+ latin_hereditary_succession_tooltip: "The succession of the Latin League will become strictly hereditary, and stay with the current §YRector§!. §RThis may cause issues within the League's members!§!"
+ rectoral_elections_abolished_tt: "The elections for Rector have been abolished!"
+ latin_unification_tooltip: "Every state within the league will be unified into a single entity!"
+ must_pass_religious_reform: "§Y'Instituisci una Fede Latina'§! must have been passed"
+ has_not_recently_passed_edict: "No edict must be currently active, and you must have at least 10 §YLeague Unity§!!"
+ army_restrictions_loosened: "Army Restrictions Loosened"
+ religious_tolerance_encouraged: "Religious Tolerance Encouraged"
+ infrastructure_supported: "Infrastructure Supported"
+ forbittance_of_anathema: "Forbittance of Anathema"
+ universities_funded: "Universities Funded"
+ adherence_pushed: "Adherence Pushed"
+ league_trade_subsidized: "League Trade Subsidized"

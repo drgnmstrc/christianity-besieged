@@ -1,0 +1,796 @@
+custom_button = {
+    name = manichaean_close_button
+    potential = {
+	}
+    trigger = {  }
+    effect = {
+		clr_country_flag = manichaean_window_shown
+	}
+    #tooltip = "Close"
+}
+
+custom_text_box = {
+    name = manichaean_darkness_value
+    potential = {
+	}
+    # tooltip = manichaean_darkness_value_tooltip
+}
+
+custom_text_box = {
+    name = right_holy_site_name
+    potential = {
+	}
+    # tooltip = right_holy_site_name_tooltip
+}
+
+custom_text_box = {
+    name = middle_holy_site_name
+    potential = {
+	}
+    # tooltip = middle_holy_site_name_tooltip
+}
+
+custom_text_box = {
+    name = left_holy_site_name
+    potential = {
+	}
+}
+
+custom_text_box = {
+    name = faction_window_text_mechanic_override
+    potential = {
+	}
+    #tooltip = faction_window_text_mechanic_override_cusloc
+}
+
+custom_icon = {
+	name = gushnasp_fire
+    potential = {
+	}
+	frame = {
+        number = 1
+		trigger = {
+			if = {
+				limit = {
+					religion = manichaeism
+				}
+				2212 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = noniustian
+				}
+				112 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = mandaeism
+				}
+				379 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
+    }
+	frame = {
+        number = 2
+    }
+}
+
+custom_icon = {
+	name = farnbag_fire
+    potential = {
+	}
+	frame = {
+        number = 1
+		trigger = {
+			if = {
+				limit = { religion = manichaeism }
+				4329 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = noniustian
+				}
+				118 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					religion = mandaeism
+				}
+				332 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
+    }
+	frame = {
+        number = 2
+    }
+}
+
+custom_icon = {
+	name = burzen_mihr_fire
+    potential = {
+	}
+	frame = {
+        number = 1
+		trigger = {
+			if = {
+				limit = { religion = manichaeism }
+				4326 = {
+					AND = {
+						religion = manichaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = noniustian }
+				149 = {
+					AND = {
+						religion = noniustian
+						has_owner_religion = yes
+					}
+				}
+			}
+			else_if = {
+				limit = { religion = mandaeism }
+				410 = {
+					AND = {
+						religion = mandaeism
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
+    }
+	frame = {
+        number = 2
+    }
+}
+
+custom_icon = {
+	name = fight_darkness_banner
+    potential = {
+	}
+	#tooltip = latin_ui_latin_flag_tooltip
+}
+
+custom_text_box = {
+    name = fight_darkness_banner_text
+    potential = {
+	}
+    # tooltip = fight_darkness_banner_text_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_bishops
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 4
+		}
+		num_of_missionaries = 2
+		NOT = { has_country_modifier = bring_the_bishops_to_bear }
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 4
+		}
+		add_country_modifier = {
+			name = bring_the_bishops_to_bear
+			duration = 360
+		}
+	}
+	frame = {
+        number = 1
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_bishops_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_elect
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 5
+		}
+		adm = 3
+		custom_trigger_tooltip = {
+			tooltip = darkness_hasnt_done
+			NOT = { has_country_modifier = elected_in_power }
+		}
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 5
+		}
+		add_adm_power = -25
+		add_ruler_modifier = {
+			name = elected_in_power
+			duration = -1
+		}
+	}
+	frame = {
+        number = 2
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_elect_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_heresy
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 10
+		}
+		innovativeness = 5
+		NOT = { has_country_modifier = exposing_heretical_worldviews }
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 10
+		}
+		change_innovativeness = -5
+		add_country_modifier = {
+			name = exposing_heretical_worldviews
+			duration = 360
+		}
+	}
+	frame = {
+        number = 3
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_heresy_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_cull
+    potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = darkness
+			value = 5
+		}
+		mil = 3
+		NOT = { has_country_modifier = culling_manis_enemies }
+	}
+	effect = {
+		subtract_variable = {
+			which = darkness
+			value = 5
+		}
+		add_corruption = 1
+		add_adm_power = 10
+		add_dip_power = 10
+		add_mil_power = 10
+		add_country_modifier = {
+			name = culling_manis_enemies
+			duration = 360
+		}
+	}
+	frame = {
+        number = 7
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_cull_tooltip
+}
+
+custom_text_box = {
+    name = embrace_darkness_banner_text
+    potential = {
+	}
+    #tooltip = faction_window_text_mechanic_override_cusloc
+}
+
+custom_icon = {
+	name = embrace_darkness_banner
+    potential = {
+	}
+	#tooltip = latin_ui_holy_site_thatta_religion_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_education
+    potential = {
+	}
+	trigger = {
+		NOT = {
+			check_variable = {
+				which = darkness
+				value = 85
+			}
+		}
+		years_of_income = 0.5
+		NOT = { has_country_modifier = pursuing_darkness_education }
+	}
+	effect = {
+		change_variable = {
+			which = darkness
+			value = 15
+		}
+		add_years_of_income = -0.5
+		add_country_modifier = {
+			name = pursuing_darkness_education
+			duration = 730
+		}
+	}
+	frame = {
+        number = 4
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_education_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_warriors
+    potential = {
+	}
+	trigger = {
+		NOT = {
+			check_variable = {
+				which = darkness
+				value = 90
+			}
+		}
+		manpower_percentage = 0.2
+		NOT = { has_country_modifier = training_warriors_against_darkness }
+	}
+	effect = {
+		change_variable = {
+			which = darkness
+			value = 10
+		}
+		add_yearly_manpower = -1
+		add_country_modifier = {
+			name = training_warriors_against_darkness
+			duration = 360
+		}
+	}
+	frame = {
+        number = 5
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_warriors_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_diplomacy
+    potential = {
+	}
+	trigger = {
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 85
+				}
+			}
+			dip = 3
+			custom_trigger_tooltip = {
+				tooltip = darkness_hasnt_done
+				NOT = { has_ruler_flag = policies_misaligned_darkness }
+			}
+		}
+		effect = {
+			change_variable = {
+				which = darkness
+				value = 15
+			}
+			add_dip_power = 100
+			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
+	}
+	frame = {
+        number = 6
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_diplomacy_tooltip
+}
+
+custom_button = {
+	name = manichaean_ui_rally
+    potential = {
+	}
+	trigger = {
+		NOT = {
+			check_variable = {
+				which = darkness
+				value = 90
+			}
+		}
+		mil = 3
+		NOT = { has_country_modifier = rallying_soldiers_to_ruler }
+	}
+	effect = {
+		change_variable = {
+			which = darkness
+			value = 10
+		}
+		add_country_modifier = {
+			name = rallying_soldiers_to_ruler
+			duration = 360
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				check_variable = {
+					which = darkness
+					value = 10
+				}
+			}
+		}
+	}
+	frame = {
+        number = 8
+        trigger = { 
+			always = yes
+		}
+    }
+	tooltip = manichaean_ui_rally_tooltip
+}
+
+custom_icon = {
+	name = darkness_frame
+    potential = {
+	}
+	trigger = {
+	}
+	effect = {
+	}
+	frame = {
+        number = 11
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 100
+			}
+		}
+    }
+	frame = {
+        number = 10
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 90
+			}
+		}
+    }
+	frame = {
+        number = 9
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 80
+			}
+		}
+    }
+	frame = {
+        number = 8
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 70
+			}
+		}
+    }
+	frame = {
+        number = 7
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 60
+			}
+		}
+    }
+	frame = {
+        number = 6
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 50
+			}
+		}
+    }
+	frame = {
+        number = 5
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 40
+			}
+		}
+    }
+	frame = {
+        number = 4
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 30
+			}
+		}
+    }
+	frame = {
+        number = 3
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 20
+			}
+		}
+    }
+	frame = {
+        number = 2
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+		}
+    }
+	frame = {
+        number = 1
+        trigger = { 
+			check_variable = {
+				which = darkness
+				value = 10
+			}
+		}
+    }
+	tooltip = manichaean_ui_elect_tooltip
+}
+
+custom_icon = {
+    name = darkness_bar
+    frame_variable = darkness
+}
+
+## Shield 1: Adur Gushnasp/Venezia/Jerusalem
+custom_shield = {
+	name = gushnasp_owner_shield
+    potential = {
+		religion = manichaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = gushnasp_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = venezia_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = venezia_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = jerusalem_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = jerusalem_owner
+    open_country = yes
+}
+
+## Shield 2: Adur Farnbag/Roma/Germanikea
+custom_shield = {
+	name = farnbag_owner_shield
+    potential = {
+		religion = manichaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = farnbag_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = roma_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = roma_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = germanikea_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = germanikea_owner
+    open_country = yes
+}
+
+## Shield 3: Burzen Mihr/Sarai/Ctesiphon
+custom_shield = {
+	name = burzen_mihr_owner_shield
+    potential = {
+		religion = manichaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = burzen_mihr_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = sarai_owner_shield
+    potential = {
+		religion = noniustian
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = sarai_owner
+    open_country = yes
+}
+
+custom_shield = {
+	name = ctesiphon_owner_shield
+    potential = {
+		religion = mandaeism
+	}
+	trigger = {
+		#has_saved_global_event_target = imperial_chaplain
+	}
+    effect = { }
+    # tooltip = latin_ui_latin_flag_tooltip
+	global_event_target = ctesiphon_owner
+    open_country = yes
+}
+
+
+custom_icon = {
+	name = middle_holy_site_name_shield_cut
+    potential = {
+		#OR = {
+		#	has_saved_global_event_target = Caliph_province_holder
+		#	has_saved_global_event_target = ME_latin_tag
+		#}
+		#OR = {
+		#	event_target:Caliph_province_holder = { religion = sunni }
+		#	event_target:ME_latin_tag = { religion = sunni }
+		#}
+	}
+	#tooltip = latin_ui_latin_flag_tooltip
+}
+
+custom_icon = {
+	name = italy_ui_successor_shield_cut
+    potential = {
+		#OR = {
+		#	has_saved_global_event_target = Caliph_province_holder
+		#	has_saved_global_event_target = ME_latin_tag
+		#}
+		#OR = {
+		#	event_target:Caliph_province_holder = { religion = sunni }
+		#	event_target:ME_latin_tag = { religion = sunni }
+		#}
+	}
+	#tooltip = latin_ui_latin_flag_tooltip
+}
+
+custom_text_box = {
+    name = latin_ui_unity_growth
+    potential = {
+	}
+    tooltip = latin_ui_unity_growth_tooltip
+}
+
+custom_icon = {
+	name = faction_window_bg_override
+    potential = {
+	}
+}
+
+custom_button = {
+	name = faction_window_bg_override
+    potential = { }
+	trigger = { }
+	effect = { }
+	# tooltip = blahblah
+}
+
+custom_text_box = {
+	name = faction_window_bg_override
+    potential = {  }
+}
+
+custom_icon = {
+	name = fatwa_color_overlay
+    potential = {
+	}
+}

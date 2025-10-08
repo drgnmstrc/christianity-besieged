@@ -1,0 +1,54 @@
+custom_window = {
+	name = latin_custom_window
+	potential = {
+		has_country_flag = manichaean_window_shown
+	}
+}
+
+custom_window = {
+	name = latin_bubble_entry
+	potential = {
+		has_darkness = yes
+	}
+}
+
+custom_text_box = {
+    name = latin_frontend_number
+    potential = {
+		has_darkness = yes
+	}
+}
+
+custom_icon = {
+	name = latin_frontend_open_bg
+    potential = {
+	}
+}
+
+custom_button = {
+	name = manichaean_frontend_open_button
+	potential = {
+		has_darkness = yes
+	}
+	trigger = {
+	}
+	effect = {
+		if = {
+			limit = {
+				has_darkness = yes
+			}
+			if = {
+				limit = {
+					has_country_flag = manichaean_window_shown
+				}
+				clr_country_flag = manichaean_window_shown
+			}
+			else = {
+				set_country_flag = manichaean_window_shown
+				play_sound = religion_sunni
+			}
+		}
+		
+	}
+	tooltip = "[Root.GetEEBubble1TT]"
+}

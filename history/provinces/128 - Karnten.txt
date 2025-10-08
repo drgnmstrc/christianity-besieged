@@ -3,6 +3,7 @@
 owner = PNY
 controller = PNY
 add_core = PNY
+add_core = LOM
 culture = pannici
 religion = ashabi
 base_tax = 4
