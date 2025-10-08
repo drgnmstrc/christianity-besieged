@@ -2717,57 +2717,78 @@ south_korea_area = { #4 (Jeolla, Chungcheong) +Jeju
 }
 
 hokkaido_area = { #5
-	1031 1032 1847 1852 4193
+	1031 1847 4193 5206 5207 5211
 }
 
 hokuriku_area = { #3
-	1023 1024 1837
+	1024 5201 5204
 }
 
 kanto_area = { #3 #Western Kanto
-	1028 1843 4189
+	1028 4190 5200 5199
 }
 
 eastern_kanto_area = { #3
-	1027 4190 4191
+	1027 4191 5202 5203
 }
 
 kyushu_area = { #4 #Southern Kyushu
-	1012 1015 4180 4181
+	1012 1015 4180 4181 5192
 }
 
 northern_kyushu = {
-	1014 1818 4182 4651
+	1014 1818 4182 4651 5191
 }
 
 shikoku_area = { #3
-	1819 1820 4186
+	1819 1820 4186 5187 5188 5189
 }
 
 eastern_chubu_area = { #4
-	1029 1839 4188 4360
+	1029 1839 4189 5193
 }
 
 chubu_area = { #3 (Western Chubu)
 	color = { 219 83 61 }
-	1030 1835 4359
+	1030 1835 4359 4360 4187
 }
 
 kinai_area = { #4
 	color = { 208 206 65 }
-	1020 1021 1832 4187
+	1021 5181 5177 1019 4184
+}
+
+central_kansai_area = { #4
+	color = { 216 155 84 }
+	1832 1020 5184 5185 5186
 }
 
 thohoku_area = { #4
-	1025 1026 4131 4192
+	1025 1026 4131 4192 5205
 }
 
-sanindo_area = { #4
-	1018 1830 4183 4185 
+west_sanindo_area = { #4
+	1018 4183 5182 5175 5190
+}
+
+sanindo_area = { #4 #Sanindo
+	5176 1830 5183 4185
 }
 
 saigoku_area = { #4 #Sanyodo
-	1017 1019 1825 4184
+	1017 1825 5178 5179 5180
+}
+
+etchu_area = { #4 #Etchu
+	5195 5196 1023 1837
+}
+
+suwa_area = { #4 #Kim'Noske
+	5194 4188 5197 1843 5198
+}
+
+east_hokkaido_area = { #4 #East Hokkaido
+	5208 5209 5210 1852 1032
 }
 
 ########################################
@@ -2867,15 +2888,19 @@ cicigar_area = {
 }
 
 ilan_hala_area = { #5 (North Jilin Area)
-	1048 1050 4214 4216 4215
+	1048 1050 4214 5214
+}
+
+oroch_area = { #5 (North Jilin Area)
+	4216 729 4215 5213
 }
 
 sakhalin_area = { #2
-	1033 4658
+	1033 4658 5212
 }
 
 central_jilin_area = { #5
-	729 731 2105 4217 4663
+	731 2105 4217 4663
 }
 
 ningguta_area = { #5

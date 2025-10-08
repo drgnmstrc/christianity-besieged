@@ -225,6 +225,13 @@
  SHAZADA: "Sha'zada"
  WALIAD: "Wali'ad"
  YORESH: "Yoresh"
+ TENNO: "Tenno"
+ JOSEI_TENNO: "Josei Tenno"
+ KOUSEI_consort: "Kousei"
+ KOGO_consort: "Kogo"
+ KOTAISHI: "Kotaishi"
+ KOTAISHI_HI: "Kotaishi-Hi"
+ YAMATORANK: "Yamato Empire"
 
  # Heir Female
  AMIRTA: "Amirta"
@@ -396,3 +403,5 @@
  irish_kingdom_desc: "The Irish Kingdoms rule in tandem with the druids of Ireland, though their power is oft overshadowed by the religious elites."
  irish_high_kingdom: "Irish High Kingdom"
  irish_high_kingdom_desc: "The King coronated at the Lia Fáil is preeminent above all others on the Isle. Should a petty king wish to take this right, then it is the Hill of Tara they must claim."
+ japanese_empire_reform: "Japanese Empire"
+ japanese_empire_reform_desc: "megoi japan"

@@ -2,8 +2,8 @@
 
 owner = AMA
 controller = AMA
-culture = ainu
-religion = animism
+culture = japanese
+religion = shinto
 capital = "Matsue"
 trade_goods = lead
 hre = no

@@ -1077,3 +1077,49 @@ sebkhemerz_order = {
 		government = theocracy
 	}
 }
+
+japanese_empire_reform = {
+	rank = {
+		1 = YAMATORANK
+		2 = YAMATORANK
+		3 = YAMATORANK
+	}
+	ruler_male = {
+		1 = TENNO
+		2 = TENNO
+		3 = TENNO
+	}
+	ruler_female = {
+		1 = JOSEI_TENNO
+		2 = JOSEI_TENNO
+		3 = JOSEI_TENNO
+	}
+	
+	consort_male = {
+		1 = KOUSEI_consort
+		2 = KOUSEI_consort
+		3 = KOUSEI_consort
+    }
+    
+    consort_female = {
+		1 = KOGO_consort
+		2 = KOGO_consort
+		3 = KOGO_consort
+    }
+    
+    heir_male = {
+		1 = KOTAISHI
+		2 = KOTAISHI
+		3 = KOTAISHI
+    }
+    
+    heir_female = {
+		1 = KOTAISHI_HI
+		2 = KOTAISHI_HI
+		3 = KOTAISHI_HI
+    }
+	
+	trigger = {
+		has_reform = japanese_empire_reform
+	}
+}

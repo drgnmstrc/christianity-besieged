@@ -1,0 +1,17 @@
+#1028 - Musashi
+
+owner = TKD
+controller = TKD
+culture = emishi
+religion = animism
+capital = "Saitama"
+trade_goods = fish
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 3
+is_city = yes
+add_core = TKD
+discovered_by = chinese
+extra_cost = 16
+center_of_trade = 2

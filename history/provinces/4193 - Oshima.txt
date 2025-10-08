@@ -1,6 +1,6 @@
 #4193 - Oshima
 
-culture = ainu
+culture = paru
 religion = animism
 capital = "Katsuyama"
 trade_goods = fish

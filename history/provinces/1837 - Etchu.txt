@@ -2,9 +2,9 @@
 
 owner = HTK
 controller = HTK
-culture = ainu
+culture = emishi
 religion = animism
-capital = "Kanazawa"
+capital = "Toyama"
 trade_goods = rice
 hre = no
 base_tax = 3

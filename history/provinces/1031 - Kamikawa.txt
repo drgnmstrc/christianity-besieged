@@ -15,7 +15,7 @@ base_manpower = 1
 
 trade_goods = fish
 
-culture = ainu
+culture = paru
 religion = insular_syriac
 capital = "Kamikawa"
 

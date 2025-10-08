@@ -2,7 +2,7 @@
 
 owner = TKD
 controller = TKD
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Kofu"
 trade_goods = sulfur

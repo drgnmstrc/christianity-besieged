@@ -1,17 +1,17 @@
 #1830 - Tajima
 
-owner = AMA
-controller = AMA
-culture = ainu
-religion = animism
-capital = "Tottori"
+owner = ISK
+controller = ISK
+culture = japanese
+religion = shinto
+capital = "Toyooka"
 trade_goods = grain
 hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = AMA
+add_core = ISK
 
 
 
