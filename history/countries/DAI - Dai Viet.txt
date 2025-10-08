@@ -209,7 +209,7 @@ add_accepted_culture = zhuang
 	}
 }
 
-1492.1.1 = {leader = {	name = "Hong Duc"              	type = general	fire = 1	shock = 3	manuever = 4	siege = 0	death_date = 1497.1.1 } }
+1492.1.1 = {leader = {	name = "Hong Duc"			  	type = general	fire = 1	shock = 3	manuever = 4	siege = 0	death_date = 1497.1.1 } }
 
 1497.3.4 = {
 	monarch = {
@@ -513,7 +513,7 @@ add_accepted_culture = zhuang
 	}
 }
 
-1687.1.1 = { leader = {	name = "Ngai Vuong"            	type = general	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1702.1.1 } }
+1687.1.1 = { leader = {	name = "Ngai Vuong"				type = general	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1702.1.1 } }
 
 1705.5.23 = {
 	monarch = {
@@ -539,7 +539,7 @@ add_accepted_culture = zhuang
 	}
 }
 
-1715.1.1 = { leader = {	name = "Nguyen Cho"            	type = general	fire = 2	shock = 2	manuever = 1	siege = 1	death_date = 1725.1.1 } }
+1715.1.1 = { leader = {	name = "Nguyen Cho"				type = general	fire = 2	shock = 2	manuever = 1	siege = 1	death_date = 1725.1.1 } }
 
 1729.4.1 = {
 	monarch = {
@@ -613,7 +613,7 @@ add_accepted_culture = zhuang
 	}
 }
 
-1738.1.1 = { leader = {	name = "Nguyen Khoat"          	type = conquistador	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1765.1.1 } }
+1738.1.1 = { leader = {	name = "Nguyen Khoat"		  	type = conquistador	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1765.1.1 } }
 
 1740.6.1 = {
 	monarch = {
@@ -639,7 +639,7 @@ add_accepted_culture = zhuang
 	}
 }
 
-1767.1.1 = { leader = {	name = "Trinh Sam"             	type = general	fire = 2	shock = 3	manuever = 1	siege = 0	death_date = 1782.1.1 } }
+1767.1.1 = { leader = {	name = "Trinh Sam"			 	type = general	fire = 2	shock = 3	manuever = 1	siege = 0	death_date = 1782.1.1 } }
 
 1776.1.1 = {
 	monarch = {

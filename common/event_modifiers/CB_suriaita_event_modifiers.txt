@@ -1,5 +1,5 @@
 kingly_favors = {
-    improve_relation_modifier = 0.25
+	improve_relation_modifier = 0.25
 	diplomats = 1
 }
 

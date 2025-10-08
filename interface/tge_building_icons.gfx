@@ -49,9 +49,9 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-        name = "GFX_great_project_marble_test"	
-        texturefile = "gfx//interface//great_projects//marble_test.dds"
-    }
+		name = "GFX_great_project_marble_test"	
+		texturefile = "gfx//interface//great_projects//marble_test.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_import_from_subjects"

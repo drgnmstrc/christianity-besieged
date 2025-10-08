@@ -191,7 +191,7 @@ add_army_professionalism = 0.1
 1491.1.1 = { leader = {	name = "Fadrique Álv. de Toledo"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.23 } }
 
 1492.1.1 = {
-	leader = {	name = "Cristóbal Colón"       	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1506.5.20 }
+	leader = {	name = "Cristóbal Colón"	   	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1506.5.20 }
 	set_global_flag = columbus_happened
 }
 
@@ -201,15 +201,15 @@ add_army_professionalism = 0.1
 
 #1493.1.1 = { decision = colonial_expansion }
 
-1495.1.1 = { leader = {	name = "El Gran Capitán"       	type = general	fire = 6	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.2 } }
+1495.1.1 = { leader = {	name = "El Gran Capitán"	   	type = general	fire = 6	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.2 } }
 
 #1499.1.1 = { leader = {	name = "Vicente Yáñez Pinzón"	type = explorer	fire = 2	shock = 3	manuever = 6	siege = 0	death_date = 1516.1.23 } } # Removed /SWÖ
 
-1499.1.1 = { leader = {	name = "Alonso de Ojeda"       	type = conquistador	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1515.1.1 } }
+1499.1.1 = { leader = {	name = "Alonso de Ojeda"	   	type = conquistador	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1515.1.1 } }
 
-1499.1.1 = { leader = {	name = "Amerigo Vespucci"      	type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1500.12.30 } }
+1499.1.1 = { leader = {	name = "Amerigo Vespucci"	  	type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1500.12.30 } }
 
-#1499.1.1 = { leader = {	name = "Juan de la Cosa"       	type = explorer	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1510.2.28 } } # Removed /SWÖ
+#1499.1.1 = { leader = {	name = "Juan de la Cosa"	   	type = explorer	fire = 1	shock = 2	manuever = 4	siege = 0	death_date = 1510.2.28 } } # Removed /SWÖ
 
 #1503.1.1 = { decision = house_of_trade }
 
@@ -262,7 +262,7 @@ add_army_professionalism = 0.1
 	add_ruler_personality = loose_lips_personality
 }
 
-#1506.1.1 = { leader = {	name = "Juan Díaz de Solís"    	type = explorer	fire = 3	shock = 2	manuever = 5	siege = 0	death_date = 1516.1.23 } } # Removed /SWÖ
+#1506.1.1 = { leader = {	name = "Juan Díaz de Solís"		type = explorer	fire = 3	shock = 2	manuever = 5	siege = 0	death_date = 1516.1.23 } } # Removed /SWÖ
 
 1506.9.25 = { capital = 219 } # Toledo
 
@@ -281,7 +281,7 @@ add_army_professionalism = 0.1
 	add_ruler_personality = martial_educator_personality
 }
 
-1509.1.1 = { leader = {	name = "Pánfilo de Narváez"    	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1516.1.23 } }
+1509.1.1 = { leader = {	name = "Pánfilo de Narváez"		type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1516.1.23 } }
 
 1510.1.1 = { leader = {	name = "Vasco Núñez de Balboa"	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.23 } }
 

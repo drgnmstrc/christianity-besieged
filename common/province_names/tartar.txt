@@ -4,7 +4,7 @@
 149 = "Ädirnä"							#Edirne						|			23.03.19
 163 = "Krit"							#Crete						|			23.03.19
 281 = "Kamanitsa"						#Kamieniec					|			01.09.19
-284 = "Qyrym"     						#Crimea						|			23.03.19		
+284 = "Qyrym"	 						#Crimea						|			23.03.19		
 285 = "Käfä"							#Kaffa						|			23.03.19
 287 = "Qoban"							#Kuban						|			23.03.19
 288 = "Asky Tyn"						#Lower Don					|			23.03.19

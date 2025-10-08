@@ -15,7 +15,7 @@ capital = 65	# München!
 		adm = 2
 		dip = 4
 		mil = 2
-    	}
+		}
 }
 
 1401.3.27 = {
@@ -40,7 +40,7 @@ capital = 65	# München!
 		adm = 2	
 		dip = 2
 		mil = 2
-    }
+	}
 	queen = {
 		country_of_origin = BRU
 		name = "Anna"

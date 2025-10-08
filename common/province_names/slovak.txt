@@ -146,7 +146,7 @@
 1827 = "Raška"
 1954 = "Vojvodina"
 2121 = "Niš"
-4249 = "Bácka"      		#Bacs
+4249 = "Bácka"	  		#Bacs
 4266 = "Drac"			#Durres
 #France
 75 = "Alsasko"

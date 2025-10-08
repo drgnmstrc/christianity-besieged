@@ -1329,3 +1329,28 @@ country_event = { # The Adventures of Ibn Kawash
 		}
 	}
 }
+
+province_event = { # Pilgrims from the East Settle in [Root.GetName]
+	id = CBFlavorEvents.20
+	title = CBFlavorEvents.20t
+	desc = CBFlavorEvents.20d
+	picture = CITY_VIEW_eventPicture
+	mean_time_to_happen = {
+		years = 20
+	}
+	trigger = { owned_by = SRY area = aleppo_area }
+	option = { # Welcome!
+		name = CBFlavorEvents.20a
+		random_list = {
+			33 = {
+				add_base_tax = 1
+			}
+			33 = {
+				add_base_manpower = 1
+			}
+			33 = {
+				add_base_production = 1
+			}
+		}
+	}
+}

@@ -168,20 +168,20 @@ country_event = {
 					}
 					add_building = off
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = copper
 							value = 0.4
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = copper_used
 							value = 0.4
 						}
 						
-						change_variable = {            
+						change_variable = {			
 							which = tin
 							value = 0.3
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = tin_used
 							value = 0.3
 						}
@@ -196,10 +196,10 @@ country_event = {
 						clr_province_flag = has_cannon
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = cannon_foundry_amount
 								value = 1
 							}
@@ -211,7 +211,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var1 
 					value = 1 
 				}	
@@ -255,20 +255,20 @@ country_event = {
 					}
 					add_building = off_4
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = copper
 							value = 0.4
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = copper_used
 							value = 0.4
 						}
 						
-						change_variable = {            
+						change_variable = {			
 							which = zinc
 							value = 0.3
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = zinc_used
 							value = 0.3
 						}
@@ -283,10 +283,10 @@ country_event = {
 						clr_province_flag = has_steam_engine
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_4
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = steam_engine_manu_amount
 								value = 1
 							}
@@ -298,7 +298,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var4 
 					value = 1 
 				}	
@@ -337,11 +337,11 @@ country_event = {
 					}
 					add_building = off_2
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = iron
 							value = 1.0
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = iron_used
 							value = 1.0
 						}
@@ -356,10 +356,10 @@ country_event = {
 						clr_province_flag = has_metalworking
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_2
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = metalworking_workshop_amount
 								value = 1
 							}
@@ -371,7 +371,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var2 
 					value = 1 
 				}	
@@ -410,11 +410,11 @@ country_event = {
 					}
 					add_building = off_3
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = lead
 							value = 1.0
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = lead_used
 							value = 1.0
 						}
@@ -430,10 +430,10 @@ country_event = {
 						clr_province_flag = has_munitions
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_3
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = munition_factory_amount
 								value = 1
 							}
@@ -445,7 +445,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var3 
 					value = 1 
 				}	
@@ -483,11 +483,11 @@ country_event = {
 					}
 					add_building = off_5
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = glass
 							value = 0.6
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = glass_used
 							value = 0.6
 						}
@@ -502,10 +502,10 @@ country_event = {
 						clr_province_flag = has_optics
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_5
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = spectacle_factory_amount
 								value = 1
 							}
@@ -517,7 +517,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var5 
 					value = 1 
 				}	
@@ -555,11 +555,11 @@ country_event = {
 					}
 					add_building = off_6
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = tobacco
 							value = 0.6
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = tobacco_used
 							value = 0.6
 						}
@@ -574,10 +574,10 @@ country_event = {
 						clr_province_flag = has_cigars
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_6
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = cigars_factory_amount
 								value = 1
 							}
@@ -589,7 +589,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var6
 					value = 1 
 				}	
@@ -627,11 +627,11 @@ country_event = {
 					}
 					add_building = off_7
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = cocoa
 							value = 0.6
 						}
-						subtract_variable = {            
+						subtract_variable = {			
 							which = cocoa_used
 							value = 0.6
 						}
@@ -646,10 +646,10 @@ country_event = {
 						clr_province_flag = has_chocolate
 						clr_province_flag = has_latent_good
 						clr_province_flag = back_to_off_7
-				        goods_back = yes	
+						goods_back = yes	
 						
 						owner = {
-							subtract_variable = {            
+							subtract_variable = {			
 								which = chocolate_factory_amount
 								value = 1
 							}
@@ -661,7 +661,7 @@ country_event = {
 						}
 					}
 				}
-				change_variable = {            
+				change_variable = {			
 					which = var7
 					value = 1 
 				}	

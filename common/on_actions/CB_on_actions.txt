@@ -65,7 +65,7 @@ on_startup = {
 	}
 	1 = {
 		set_variable = {
-    			which = settlerScore
+				which = settlerScore
    			value = 0
 		}
 	}
@@ -2127,15 +2127,15 @@ on_pillaged_capital = {
 		if = {
 			limit = { tag = FROM }
 			change_variable = {
-       				which = darkness
-       				value = 5
+	   				which = darkness
+	   				value = 5
 			}
 		}
 		if = {
 			limit = { tag = ROOT }
 			subtract_variable = {
-       				which = darkness
-       				value = 3
+	   				which = darkness
+	   				value = 3
 			}
 		}
 	}

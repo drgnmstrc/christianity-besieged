@@ -50,7 +50,7 @@ religious_school = hanafi_school
 		monarch_name = "Melik Arslan"
 		dynasty = "Dulkadiroglu"
 		birth_date = 1428.1.1
-		death_date = 1465.1.1     
+		death_date = 1465.1.1	 
 		claim = 90
 		adm = 2
 		dip = 2
@@ -68,7 +68,7 @@ religious_school = hanafi_school
 		dip = 2
 		mil = 3
 	}
-}                                 
+}								 
 
 1454.1.1 = {
 	heir = {
@@ -101,13 +101,13 @@ religious_school = hanafi_school
 		monarch_name = "Sahsuvar"
 		dynasty = "Dulkadiroglu"
 		birth_date = 1430.1.1
-		death_date = 1472.1.1    
+		death_date = 1472.1.1	
 		claim = 75
 		adm = 2
 		dip = 2
 		mil = 3
 	}
-}                                    
+}									
 
 1466.10.1 = {
 	monarch = {

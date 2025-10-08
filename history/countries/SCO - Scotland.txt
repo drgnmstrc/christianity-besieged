@@ -183,9 +183,9 @@ capital = 248 # Edinburgh
 	}
 }
 
-1546.1.1 = { leader = {	name = "James Hamilton"     	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1569.1.1 } }
+1546.1.1 = { leader = {	name = "James Hamilton"	 	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1569.1.1 } }
 
-1550.1.1 = { leader = {	name = "Malcolm"               	type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1595.1.1 } }
+1550.1.1 = { leader = {	name = "Malcolm"			   	type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1595.1.1 } }
 
 1560.8.1 = { religion = reformed }
 
@@ -297,7 +297,7 @@ add_government_reform = autocracy_reform	religion = reformed }
 	}
 }
 
-1678.1.1 = { leader = {	name = "Dundee"                	type = general	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1689.1.1 } }
+1678.1.1 = { leader = {	name = "Dundee"					type = general	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1689.1.1 } }
 
 1685.2.6 = {
 	monarch = {
@@ -319,7 +319,7 @@ add_government_reform = autocracy_reform	religion = reformed }
 	}
 }
 
-1694.1.1 = { leader = {	name = "Berwick"               	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1723.1.1 } }
+1694.1.1 = { leader = {	name = "Berwick"			   	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1723.1.1 } }
 
 1701.9.7 = {
 	monarch = {

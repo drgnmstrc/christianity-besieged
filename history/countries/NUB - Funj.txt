@@ -15,7 +15,7 @@ capital = 1222	# Sennar
 		adm = 3
 		dip = 4
 		mil = 5
-		leader = {	name = "'Amâra I Dûnqas"       	type = general	fire = 2	shock = 2	manuever = 4	siege = 0}
+		leader = {	name = "'Amâra I Dûnqas"	   	type = general	fire = 2	shock = 2	manuever = 4	siege = 0}
 	}
 
 }
@@ -304,7 +304,7 @@ capital = 1222	# Sennar
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = {	name = "Bâdî II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Bâdî II"			   	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
 	}
 }
 
@@ -315,7 +315,7 @@ capital = 1222	# Sennar
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = {	name = "Bâdî II"               	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Bâdî II"			   	type = general	fire = 3	shock = 4	manuever = 3	siege = 0}
 	}
 
 }

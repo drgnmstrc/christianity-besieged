@@ -1,0 +1,59 @@
+country_decisions = {
+	offer_communion = {
+		potential = {
+			tag = SRY
+			is_subject = no
+			any_country = {
+				religion = syriac
+				is_subject = no
+				border_distance = {
+					who = THIS
+					distance = 0
+				}
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = syriac_country_has_150_opinion_tt
+				any_country = {
+					religion = syriac
+					is_subject = no
+					border_distance = {
+						who = THIS
+						distance = 0
+					}
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+			}
+			treasury = 150
+			dip_power = 100
+		}
+		effect = {
+			add_treasury = -150
+			add_dip_power = -100
+			random_country = {
+				limit = {
+					religion = syriac
+					is_subject = no
+					border_distance = {
+						who = THIS
+						distance = 0
+					}
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+				}
+				country_event = {
+					id = CBSuriaitaEvents.7
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

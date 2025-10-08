@@ -86,9 +86,9 @@ add_army_professionalism = 0.1
 	}
 }
 
-1489.1.1 = { leader = {	name = "Andrea d'Amaral"       	type = admiral	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1522.11.1 } }
+1489.1.1 = { leader = {	name = "Andrea d'Amaral"	   	type = admiral	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1522.11.1 } }
 
-1493.1.1 = { leader = {	name = "Aurelio Bottigella"    	type = admiral	fire = 5	shock = 4	manuever = 3	siege = 0	death_date = 1545.1.1 } }
+1493.1.1 = { leader = {	name = "Aurelio Bottigella"		type = admiral	fire = 5	shock = 4	manuever = 3	siege = 0	death_date = 1545.1.1 } }
 
 1503.7.12 = {
 	monarch = {
@@ -136,7 +136,7 @@ add_army_professionalism = 0.1
 	}
 }
 
-1528.1.1 = { leader = {	name = "Pietro Giustiniani"    	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1584.1.1 } }
+1528.1.1 = { leader = {	name = "Pietro Giustiniani"		type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1584.1.1 } }
 
 1530.1.1 = { capital = 126 }
 

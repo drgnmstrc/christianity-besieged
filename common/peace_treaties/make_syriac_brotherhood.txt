@@ -27,8 +27,14 @@ force_syriac_brotherhood = {
 	requires_is_allowed = yes # Whether it is required to be specifically allowed by a cb (such as restoration of union). If no, unjustified demands is applied.
 	
 	is_visible = { #when is this option viewable
-		THIS = { tag = SRY }
-		FROM = { has_country_flag = valid_brotherhood }
+		THIS = {
+			tag = SRY
+			has_casus_belli = {
+				type = cb_force_communion
+				target = FROM
+			}
+		}
+		
 	}
 	is_allowed = { #when is this option allowed/selectable
 		always = yes
@@ -36,7 +42,10 @@ force_syriac_brotherhood = {
 	effect = { # effect of peace 
 		if = {
 			limit = {
-				FROM = { tag = CLC }
+				OR = {
+					FROM = { tag = CLC }
+					FROM = { tag = PLM }
+				}
 			}
 			aleppo_area = {
 				add_core = SRY

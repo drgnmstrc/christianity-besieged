@@ -526,33 +526,33 @@ mathematikoi = {
 	}
 }
 sol_deity = {
-    legitimacy = 1
+	legitimacy = 1
 	devotion = 1.5
 	republican_tradition = 0.5
-    discipline = 0.05
+	discipline = 0.05
 
-    potential = {
+	potential = {
 		OR = {
 			religion = noniustian
 			religion = sol_invictus
 		}
 	}
-    sprite = 114
+	sprite = 114
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 5
+	ai_will_do = {
+		factor = 5
 		modifier = {
-            factor = 2
-            personality = ai_militarist
-        }
-        modifier = {
-            factor = 0.5
-             personality = ai_capitalist
-        }
-    }
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 0.5
+			 personality = ai_capitalist
+		}
+	}
 }
 
 svarog_invictus = 
@@ -628,115 +628,115 @@ mojmir_deity = {
 	}
 }
 tamat = {
-        heir_chance = 0.5
+		heir_chance = 0.5
 	land_morale = 0.1
-        potential = {
+		potential = {
 		government = monarchy
 		has_roman_religion = yes
 		has_country_flag = tamat_deified
 	}
-    sprite = 115
+	sprite = 115
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 2
-                  modifier = {
-                          factor = 3
-                          personality = ai_diplomat
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
-                  }
-        }
+		ai_will_do = {
+				factor = 2
+				  modifier = {
+						  factor = 3
+						  personality = ai_diplomat
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_militarist
+				  }
+		}
 }
 tamat = {
-        global_heathen_missionary_strength = 0.025
+		global_heathen_missionary_strength = 0.025
 	land_morale = 0.1
-        potential = {
+		potential = {
 		government = republic
 		has_roman_religion = yes
 		has_country_flag = tamat_deified
 	}
-    sprite = 115
+	sprite = 115
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 2
-                  modifier = {
-                          factor = 3
-                          personality = ai_diplomat
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
-                  }
-        }
+		ai_will_do = {
+				factor = 2
+				  modifier = {
+						  factor = 3
+						  personality = ai_diplomat
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_militarist
+				  }
+		}
 }
 minerva = {
 	defensiveness = 0.5
 	hostile_attrition = 2
-        potential = {
+		potential = {
 		OR = {
 			religion = sol_invictus
 			religion = noniustian
 		}
 	}
-        sprite = 116
+		sprite = 116
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 2
-                modifier = {
-                        factor = 2
-                        personality = ai_capitalist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_diplomat
-                }
-        }
+		ai_will_do = {
+				factor = 2
+				modifier = {
+						factor = 2
+						personality = ai_capitalist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_militarist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_diplomat
+				}
+		}
 }
 albalupus = {
 	ship_durability = 0.15
 	sunk_ship_morale_hit_recieved = -0.15
-        potential = {
+		potential = {
 		OR = {
 			religion = sol_invictus
 			religion = noniustian
 		}
 		has_country_flag = albalupus_dead
 	}
-        sprite = 117
+		sprite = 117
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 2
-                modifier = {
-                        factor = 2
-                        personality = ai_capitalist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_diplomat
-                }
-        }
+		ai_will_do = {
+				factor = 2
+				modifier = {
+						factor = 2
+						personality = ai_capitalist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_militarist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_diplomat
+				}
+		}
 }
 cernos = {
 	hostile_attrition = 2

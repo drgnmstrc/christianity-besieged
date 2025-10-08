@@ -1,5 +1,5 @@
 ########################################
-# Major Flavor Events                  #
+# Major Flavor Events				  #
 ########################################
 
 namespace = flavor_per

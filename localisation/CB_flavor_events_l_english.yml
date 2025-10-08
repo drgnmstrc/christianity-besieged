@@ -78,3 +78,6 @@
  CBFlavorEvents.19d: "Recently, a Berber by the name of Zakariya has gained a large audience among the dhimmi of [Root.GetName]. Known for his almost fantastical tales of travels from the Sahel to China (and most recently, his claims of strange islands past Jabal-Tariq), Zakariya initially began his journey as a Hajj from his hometown of [334.GetName]. After becoming inspired by the beauty of the Kaaba, he traveled to the city of [4289.GetName], where he converted to the ways of Zarathustra after a lengthy stay in the city. Needless to say, he comes with an extensive background in theology, linguistics, and cartography."
  CBFlavorEvents.19a: "Unfortunately, we cannot afford to break ties with our old faith."
  CBFlavorEvents.19b: "Such a wise and learned man surely deserves the title of [Root.Monarch.GetTitle]!"
+ CBFlavorEvents.20t: "Pilgrims from the East Settle in [Root.GetName]"
+ CBFlavorEvents.20d: "A recent group of pilgrims have settled in [Root.GetName], deciding to make the Holy Land their home."
+ CBFlavorEvents.20a: "Welcome!"

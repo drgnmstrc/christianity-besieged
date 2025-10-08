@@ -1,20 +1,20 @@
 make_norse_tribute = {
-    category = influence
-    require_acceptance = no
+	category = influence
+	require_acceptance = no
 
-    is_visible = {
-        ROOT = {
+	is_visible = {
+		ROOT = {
 			religion = rodoptr
 		}
 		FROM = {
 			is_subject_of_type = vassal
 			is_subject_of = ROOT
 		}
-    }
-    
-    # Determines when the action can be taken
-    is_allowed = {
-        FROM = {
+	}
+	
+	# Determines when the action can be taken
+	is_allowed = {
+		FROM = {
 			is_subject_of_type = vassal
 			is_subject_of = ROOT
 			OR = {
@@ -26,10 +26,10 @@ make_norse_tribute = {
 				}
 			}
 		}
-    }
-    
-    # Which effects to execute on acceptance
-    on_accept = {
+	}
+	
+	# Which effects to execute on acceptance
+	on_accept = {
 		create_subject = {
 			subject_type = norse_tribute
 			subject = FROM
@@ -45,9 +45,9 @@ make_norse_tribute = {
 			add_government_reform = tribute_reform
 		}
 		add_prestige = 10
-    }
-    # Controls the AI's usage of the action
-    ai_will_do = {
-        always = yes
-    }
+	}
+	# Controls the AI's usage of the action
+	ai_will_do = {
+		always = yes
+	}
 }

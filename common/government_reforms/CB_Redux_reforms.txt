@@ -1024,6 +1024,25 @@ syriac_church_reform = { # I
 	}
 }
 
+syriac_church_reform_II = { # I
+	allow_normal_conversion = yes
+	potential = {
+		government = theocracy
+		religion = syriac
+		tag = SRY
+	}
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		governing_capacity_modifier = -0.50
+		defensiveness = 0.75
+		land_morale = 0.15
+		diplomatic_reputation = 3
+		global_tax_modifier = 0.05
+	}
+}
+
 syriac_akhuta_reform = { # I
 	allow_normal_conversion = no
 	potential = {

@@ -68,7 +68,7 @@ fixed_capital = 1868 # Cannot move capital away from this province & no power co
 		mil = 0
 	}
 }
-    
+	
 1486.1.1 = {
 	monarch = {
 		name = "Friedrich II. von Zollern"

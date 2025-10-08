@@ -297,16 +297,16 @@ estate_druids_land_consecration = {
 	}
 	on_granted = {
 		change_estate_land_share = {
-    		estate = estate_nobles
-    		share = -10
+			estate = estate_nobles
+			share = -10
 		}
 		change_estate_land_share = {
-    		estate = estate_burghers
-    		share = -10
+			estate = estate_burghers
+			share = -10
 		}
 		change_estate_land_share = {
-    		estate = estate_church
-    		share = 40
+			estate = estate_church
+			share = 40
 		}
 	}
 	on_revoked = {

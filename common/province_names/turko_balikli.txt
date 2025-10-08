@@ -440,7 +440,7 @@
 2882 = "Kuça"
 2902 = "Kizilyar"
 3117 = "Saraybosna"					#Visoki					|			04.06.18
-4249 = "Baçka"      				#Bacs
+4249 = "Baçka"	  				#Bacs
 4265 = "Avlonya"					#Vlore
 4266 = "Diraç"						#Durres
 4417 = "Hasankeyf"					#Hisn Kayfa				|checked	21.05.18

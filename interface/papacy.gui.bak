@@ -79,20 +79,20 @@ guiTypes = {
 		##################################
 		# Top left: Curia Tithe actions
 		##################################
-        iconType = {
-            name = "cross_papal"
-            spriteType = "GFX_cross_papal"
-            position = { x=41 y=135 }
-            Orientation = "UPPER_LEFT"
-        }
+		iconType = {
+			name = "cross_papal"
+			spriteType = "GFX_cross_papal"
+			position = { x=41 y=135 }
+			Orientation = "UPPER_LEFT"
+		}
 
-        iconType = {
-            name = "tithe_state"
-            spriteType = "GFX_tithe_state"
-            position = { x=39 y=180 }
-            Orientation = "UPPER_LEFT"
-            scale = 0.8
-        }
+		iconType = {
+			name = "tithe_state"
+			spriteType = "GFX_tithe_state"
+			position = { x=39 y=180 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.8
+		}
 
 		iconType = {
 			name = "reform_desire_icon"
@@ -442,13 +442,13 @@ guiTypes = {
 				format = left
 			}
 
-        	iconType = {
-            	name = "tithe_state"
-            	spriteType = "GFX_tithe_state"
-            	position = { x=67 y=69 }
-            	Orientation = "UPPER_LEFT"
-            	scale = 0.75
-        	}
+			iconType = {
+				name = "tithe_state"
+				spriteType = "GFX_tithe_state"
+				position = { x=67 y=69 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+			}
 
 			instantTextBoxType = {
 				name = "bull_cost"

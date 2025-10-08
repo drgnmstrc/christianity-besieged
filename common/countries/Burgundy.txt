@@ -74,20 +74,20 @@ monarch_names = {
 }
 
 leader_names = {
-        d'Aban d'Abonde Arbelot d'Auxy
-        "de Balay" "de Bauffremont" "de Beaumont" "de Beugre" "de Boulay" "de Bourgeois" Bourgogne-Montaigu "de Brachet" "de Brimeu"
-        "de Castaing" "de Chabot" "de Châlon" "de Châlon-Arlay" "de Chandieu" "de Chastellux" "de Chin" "de Cicon" "de Coligny" "de Créquy" "de Cuiseaux"
-        "de Damas" "de Dammartin" "de Donzy" "de Dyo"
-        "d'Egmont"
-        "de Ferrette"
-        "de Lalaing" "de Lannoy" "Le Corgne" "de Lugny"
-        "de Marle" "de Melun" "de Montfaucon"
-        "Nagu de Varennes" "de Nanton" "de Neufchâtel" "de Noyelles"
-        "de Pontailler" "de la Porte"
-        "Pot de la Roche" "de Rochebaron" "de Rochechouart" "de Roye"
-        "de Scorailles" "de Sémur"
-        "de Ternant" "de Tonnerre" "de Toucy" "de Toulonjon"
-        "de Vaubresson" "de Vaudrey" "de Vellexon" "de Vergy" "de Vienne" "de Villaines" "de Villiers"
+		d'Aban d'Abonde Arbelot d'Auxy
+		"de Balay" "de Bauffremont" "de Beaumont" "de Beugre" "de Boulay" "de Bourgeois" Bourgogne-Montaigu "de Brachet" "de Brimeu"
+		"de Castaing" "de Chabot" "de Châlon" "de Châlon-Arlay" "de Chandieu" "de Chastellux" "de Chin" "de Cicon" "de Coligny" "de Créquy" "de Cuiseaux"
+		"de Damas" "de Dammartin" "de Donzy" "de Dyo"
+		"d'Egmont"
+		"de Ferrette"
+		"de Lalaing" "de Lannoy" "Le Corgne" "de Lugny"
+		"de Marle" "de Melun" "de Montfaucon"
+		"Nagu de Varennes" "de Nanton" "de Neufchâtel" "de Noyelles"
+		"de Pontailler" "de la Porte"
+		"Pot de la Roche" "de Rochebaron" "de Rochechouart" "de Roye"
+		"de Scorailles" "de Sémur"
+		"de Ternant" "de Tonnerre" "de Toucy" "de Toulonjon"
+		"de Vaubresson" "de Vaudrey" "de Vellexon" "de Vergy" "de Vienne" "de Villaines" "de Villiers"
 }
 
 ship_names = {
@@ -105,6 +105,6 @@ ship_names = {
 	"le Vézelay"
 }
 
-army_names = {      
+army_names = {	  
 	 "Armee von Burgundas" "Armee von Wodan" "Armee von $PROVINCE$"
 }

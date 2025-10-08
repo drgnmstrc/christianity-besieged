@@ -174,7 +174,7 @@ country_event = {# Patriarchal Envoy Threatens the [Root.Monarch.GetTitle]
 			}
 		}
 	}
-	option = { # I suppose we haven't much choice... 
+	option = { # I suppose we haven't much choice...
 		name = CBSuriaitaEvents.4b
 		change_religion = syriac
 		SRY = { grant_independence = yes }
@@ -242,5 +242,34 @@ country_event = {# Cilician [CLC.Monarch.GetTitle] Accepts Our Ultimatum!
 	is_triggered_only = yes
 	option = { # What a joyous day!
 		name = CBSuriaitaEvents.6a
+	}
+}
+
+country_event = {# Syriac Patriarch offers communion
+	id = CBSuriaitaEvents.7
+	title = CBSuriaitaEvents.7t
+	desc = CBSuriaitaEvents.7d
+	picture = AULIC_COUNCIL_eventPicture
+	is_triggered_only = yes
+	option = { # Yes!
+		name = CBSuriaitaEvents.6a
+		SRY = {
+			create_subject = {
+				subject_type = syriac_brotherhood
+				subject = ROOT
+			}
+		}
+	}
+	option = { # No!
+		name = CBSuriaitaEvents.6a
+		SRY = {
+			add_casus_belli = {
+				type = cb_force_communion
+				target = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
