@@ -87,14 +87,14 @@
 2308 = { "Ilam" "Ilam" } # Elam
 4310 = { "Malkharkh" "Malkharkh" } # "King's City"
 
-# Shahrizor
+# Cilician Coast/Cukurova
 321 = { "Qipros" "Niqosiya" } # Cyprus, Nicosia 
 327 = { "Athana" "Athana" } # Adana
 2302 = { "Zepiriya" "Naghid" } # Zephyrion, Nagidos
 5040 = { "Sede" "Sede" } # Side
 5041 = { "Thaliya" "Thaliya" } # Attaleia
 
-# Lycaonia
+# Karaman/Lycaonia
 323 = { "Koni" "Koni" } # Ikonion
 324 = { "Larenda" "Larenda" } # Laranda
 2301 = { "Keysariya" "Keysariya" } # Caesarea

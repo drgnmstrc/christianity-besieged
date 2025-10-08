@@ -110,9 +110,12 @@ SRY_1 = {
 						region = malaya_region
 					}
 				}
-				add_casus_belli = {
-					type = cb_force_communion
-					target = THIS
+				ROOT = {
+					add_casus_belli = {
+						type = cb_force_communion
+						target = PREV
+						months = 300
+					}
 				}
 			}
 		}
@@ -431,10 +434,12 @@ SRY_3 = {
 			add_casus_belli = {
 				type = cb_force_communion
 				target = PLM
+				months = 300
 			}
 			add_casus_belli = {
 				type = cb_force_communion
 				target = OSR
+				months = 300
 			}
 			cukurova_area = { add_permanent_claim = CLC }
 			karaman_area = { add_permanent_claim = CLC }
@@ -658,9 +663,12 @@ SRY_4 = {
 						}
 					}
 				}
-				add_casus_belli = {
-					type = cb_force_communion
-					target = THIS
+				ROOT = {
+					add_casus_belli = {
+						type = cb_force_communion
+						target = PREV
+						months = 300
+					}
 				}
 			}
 			aydin_area = { add_permanent_claim = ROOT }

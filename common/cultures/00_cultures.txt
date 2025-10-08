@@ -12949,8 +12949,7 @@ aramaic_group = {
 	aramean = { #EU Rome
 		primary = PLM
 		dynasty_names = {
-			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
-			Milkiramid Philosirid
+			"Bat-Sep" "Bat-Zabbai" "Bat-Khoser" "Bat-Raba" "Bat-Man" "Bat-Shemon" "Ben-Sep" "Ben-Zabbai" "Ben-Khoser" "Ben-Raba" "Ben-Man" "Ben-Shemon"
 		}
 		male_names = {
 			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 

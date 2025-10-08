@@ -1,15 +1,25 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = zenobian_matriarchy_reform
 primary_culture = aramean
 religion = manichaeism
 technology_group = near_east
 capital = 382	# Damascus
 1444.1.1 = {
 	monarch = {
-		name = "Zacchaeus"
-		dynasty = "Odaenethus"
+		name = "Ghosta" # Augusta
+		dynasty = "Bat-Sep" # Daughter of Septimus
+		female = yes
 		adm = 4
 		dip = 5
 		mil = 3
+	}
+	heir = {
+		name = "Miliya" # Aemilia
+		birth_date = 1432.2.20
+		death_date = 1460.2.20
+		female = yes
+		dip = 5
+		mil = 2
+		adm = 6
 	}
 }

@@ -152,6 +152,7 @@ monarchy = {
 				irish_iqta
 				italian_iqta
 				second_axarid_empire
+				zenobian_matriarchy_reform
 			}
 		}
 		hereditary_vs_nobility = {

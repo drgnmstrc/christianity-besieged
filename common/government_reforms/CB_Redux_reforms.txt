@@ -116,6 +116,33 @@ greek_tyranny_reform = { # I
 	}
 }
 
+zenobian_matriarchy_reform = { # I
+	allow_normal_conversion = no
+	icon = "sisterhood"
+	valid_for_nation_designer = yes
+	potential = {
+		OR = { tag = PLM }
+	}
+	nation_designer_cost = 100
+	modifiers = {
+		cb_on_religious_enemies = yes
+		monarch_military_power = 1
+		may_recruit_female_generals = yes
+		female_advisor_chance = 1.0
+		fire_damage = 0.1
+		discipline = 0.05
+	}
+	locked_government_type = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	custom_attributes = {
+		monastic_order = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+
 luwian_tyranny = { # I
 	icon = "castle"
 	potential = {

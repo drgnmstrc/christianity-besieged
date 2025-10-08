@@ -7,6 +7,7 @@ religion = manichaeism
 capital = "Tadmuriyah"
 trade_goods = camel
 hre = no
+fort_15th = yes
 base_tax = 1 
 base_production = 1
 base_manpower = 2
