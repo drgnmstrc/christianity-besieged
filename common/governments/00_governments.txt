@@ -153,6 +153,7 @@ monarchy = {
 				italian_iqta
 				second_axarid_empire
 				zenobian_matriarchy_reform
+				japanese_empire_reform
 			}
 		}
 		hereditary_vs_nobility = {

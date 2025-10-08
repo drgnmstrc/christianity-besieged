@@ -26,6 +26,12 @@
  voivode_title_plural: "Voivodes"
  voivode_is_our: "$NAME|Y$ is a voivode of the Car."
 
+ shogun_vassal_title:0 "Shogun"
+ shogun_vassal_desc:0 "The Shogunate is the northernmost appendage of the Japanese People, with supreme authority over the northern border."
+ shogun_vassal_long_desc:0 "The Shogunate is the northernmost appendage of the Japanese People, with supreme authority over the northern border."
+ shogun_vassal_title_plural:0 "Shoguns"
+ shogun_vassal_is_our:0 "$NAME|Y$ is the appointed Sei-i Taishogun."
+
  syriac_brotherhood: "Akhuta"
  syriac_brotherhood_long_desc: "An Akhuta (from the Syriac word for 'brotherhood') represents the secular authority given to the Archbishops of the Syriac Church."
  syriac_brotherhood_is_our: "$NAME|Y$ is an Akhuta in the Syriac Church"

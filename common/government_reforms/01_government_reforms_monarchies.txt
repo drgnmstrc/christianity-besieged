@@ -230,17 +230,16 @@ indian_sultanate_reform = {
 }
 
 shogunate = {
-	icon = "shogunate"
+	icon = "japanese_divine_empire"
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { has_country_flag = formed_japan_flag }
 		OR = {
 			AND = {
 				capital_scope = {
-					province_id = 1020
+					province_id = 1030
 				}
 				culture_group = japanese_g
-				NOT = { exists = JAP }
 			}
 			AND = {
 				is_playing_custom_nation = yes
@@ -254,7 +253,7 @@ shogunate = {
 		culture_group = japanese_g
 		technology_group = chinese
 		capital_scope = { region = japan_region }
-		owns = 1020
+		owns = 1030
 	}
 	legacy_equivalent = shogunate_legacy
 	fixed_rank = 2
@@ -288,9 +287,11 @@ daimyo = {
 	icon = "daimyo"
 	allow_normal_conversion = no
 	potential = {
-		NOT = { has_country_flag = formed_japan_flag }
+		OR = { 
 		overlord = { has_reform = shogunate }
-	}
+		overlord = { has_reform = japanese_empire }
+			}
+		}
 	replacement_on_independence_war = indep_daimyo
 	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1

@@ -2,7 +2,7 @@
 
 owner = AKT
 controller = AKT
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Akita"
 trade_goods = fish

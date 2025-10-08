@@ -2,7 +2,7 @@
 
 owner = RFR
 controller = RFR
-culture = ainu
+culture = paru
 religion = animism
 capital = "Sannohe"
 trade_goods = amber

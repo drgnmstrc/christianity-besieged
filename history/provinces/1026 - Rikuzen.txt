@@ -2,7 +2,7 @@
 
 owner = DTE
 controller = DTE
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Aizu"
 trade_goods = lumber

@@ -2,9 +2,9 @@
 
 owner = OGS
 controller = OGS
-culture = ainu
+culture = emishi
 religion = animism
-capital = "Nagano"
+capital = "Suwa"
 trade_goods = livestock
 hre = no
 base_tax = 2
