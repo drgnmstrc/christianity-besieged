@@ -2,7 +2,7 @@
 
 owner = HJO
 controller = HJO
-culture = ainu
+culture = emishi
 religion = shinto
 capital = "Tsuruga"
 trade_goods = grain

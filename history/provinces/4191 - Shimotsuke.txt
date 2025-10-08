@@ -2,7 +2,7 @@
 
 owner = UTN
 controller = UTN
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Utsunomiya"
 trade_goods = grain

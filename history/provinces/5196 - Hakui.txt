@@ -2,7 +2,7 @@
 
 owner = HTK
 controller = HTK
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Hakui"
 trade_goods = rice

@@ -2,7 +2,7 @@
 
 owner = OGS
 controller = OGS
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Takayama"
 trade_goods = horses

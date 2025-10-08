@@ -2,7 +2,7 @@
 
 owner = TKD
 controller = TKD
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Ota"
 trade_goods = whaling

@@ -2,7 +2,7 @@
 
 owner = HJO
 controller = HJO
-culture = ainu
+culture = emishi
 religion = animism
 capital = "Inabayama"
 trade_goods = paper

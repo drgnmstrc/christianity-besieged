@@ -2,7 +2,7 @@
 
 owner = UTN
 controller = UTN
-culture = ainu
+culture = emishi
 religion = insular_syriac
 capital = "Fukushima"
 trade_goods = horses

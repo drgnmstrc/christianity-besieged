@@ -1,6 +1,6 @@
 #1847 - Shiribeshi
 
-culture = ainu
+culture = paru
 religion = animism
 capital = "Kitami"
 trade_goods = whaling

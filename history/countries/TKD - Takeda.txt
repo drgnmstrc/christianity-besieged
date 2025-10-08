@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = siberian_tribe
 government_rank = 2
-primary_culture = ainu
+primary_culture = emishi
 religion = insular_syriac
 technology_group = chinese
 capital = 1028	# Kai
