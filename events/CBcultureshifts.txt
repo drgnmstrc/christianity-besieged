@@ -1206,3 +1206,26 @@ province_event = {
 		}
 	}
 }
+
+# Fonnic/Punic Migration
+province_event = {
+	id = cultureshift.29
+	title = cultureshift.29t
+	desc = cultureshift.29d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+
+	option = { # ...What?
+		name = cultureshift.29a
+		change_culture = punic
+		change_religion = canaanism
+		add_core = LEB
+	}
+
+	option = { # What!?
+		name = cultureshift.29a
+		change_culture = punic
+		change_religion = canaanism
+		add_core = LEB
+	}
+}

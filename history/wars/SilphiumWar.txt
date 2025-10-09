@@ -1,4 +1,4 @@
-name = "The Silphium War"
+name = "Silphium War"
 
 war_goal = {
 	type = superiority_trade
@@ -9,6 +9,7 @@ war_goal = {
 	add_attacker = BRQ
 	add_attacker = MRM
 	add_attacker = BRD
+	add_attacker = TRP
 	add_defender = QRT
 	add_defender = IFR
 	add_defender = TSK
