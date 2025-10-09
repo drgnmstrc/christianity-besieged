@@ -12,6 +12,7 @@ roman_successor_ideas = {
 			culture_group = occidental
 			culture_group = illyro_dalmatian
 			primary_culture = slavo_romanian
+			primary_culture = romansh
 		}
 		NOT = { has_reform = italian_iqta }
 	}
