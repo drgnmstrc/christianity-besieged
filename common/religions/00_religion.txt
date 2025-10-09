@@ -3277,7 +3277,7 @@ iranian = {
 	can_form_personal_unions = yes
 	zoroastrian = {
 		icon = 21
-		color = { 127 178 51 }
+		color = { 100 100 200 }
 		province = {
 			local_missionary_strength = -0.02
 		}
