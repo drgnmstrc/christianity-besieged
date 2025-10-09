@@ -1,0 +1,45 @@
+# This file contains the default idea group in order to make sure it is loaded last.
+
+
+default_ideas = {
+	start = {
+		stability_cost_modifier = -0.10
+		discipline = 0.015
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.10
+		ae_impact = -0.1
+	}
+	
+	free = yes
+	
+	default_christianity_besieged = {
+		tolerance_own = 1
+		siege_ability = 0.1
+	}
+	default_many_technologies = {
+		technology_cost = -0.05
+		idea_cost = -0.05
+	}	
+	default_the_best_country = {
+		prestige = 1
+		monthly_splendor = 1
+	}
+	default_dev_time = {
+		development_cost = -0.1
+		advisor_cost = -0.1
+	}
+	default_cannon_fodder = {
+		global_manpower_modifier = 0.05
+		land_forcelimit_modifier = 0.05
+	}
+	default_diverting_trade = {
+		trade_steering = 0.05
+		merchants = 1
+	}
+	default_moneymoneymoney = {
+		production_efficiency = 0.05
+		build_cost = -0.05
+	}
+}
