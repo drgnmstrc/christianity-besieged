@@ -1,0 +1,15 @@
+name = "The Silphium War"
+
+war_goal = {
+	type = superiority_trade
+	casus_belli = cb_trade_conflict
+}
+
+1441.4.8 = {
+	add_attacker = BRQ
+	add_attacker = MRM
+	add_attacker = BRD
+	add_defender = QRT
+	add_defender = IFR
+	add_defender = TSK
+}

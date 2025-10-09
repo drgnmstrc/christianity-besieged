@@ -1228,11 +1228,11 @@ cukurova_area = { #5
 }
 
 aleppo_area = { #5
-	377 1849 2313 4298 4962
+	377 1849 2313 3025 4298 4962
 }
 
 syria_area = { #4
-	378 382 1855 4297
+	378 382 1855 3023 3024 4297
 }
 
 trans_jordan_area = { #3
@@ -1240,7 +1240,7 @@ trans_jordan_area = { #3
 }
 
 palestine_area = { #4
-	364 379 1854 4268
+	364 379 1854 3021 4268
 }
 
 dulkadir_area = { # 4
@@ -1364,7 +1364,7 @@ syrian_desert_area = { #3
 
 gulf_of_arabia_area = { #5
 	color = { 19 219 75 }
-	365 2315 2320 2321
+	365 2315 2320 2321 3022
 }
 
 al_wahat_area = { #3

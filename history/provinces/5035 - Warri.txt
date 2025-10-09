@@ -2,20 +2,16 @@ owner = EBI
 controller = EBI
 add_core = EBI
 is_city = yes
-culture = ebira 
+culture = ebira
 religion = itan
 capital = "Ankpa"
 trade_goods = millet
-hre = no
 base_tax = 3
 base_production = 3
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 base_manpower = 2
-
-
- 
 discovered_by = sub_saharan
 discovered_by = central_african
 discovered_by = saharan

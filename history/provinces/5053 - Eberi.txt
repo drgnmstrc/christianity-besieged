@@ -3,7 +3,6 @@ culture = igbo
 religion = odinani
 capital = "Afor Ibeji"
 trade_goods = ivory
-hre = no
 is_city = yes
 base_tax = 3
 base_production = 3
@@ -11,8 +10,6 @@ base_manpower = 2
 owner = AFO
 controller = AFO
 add_core = AFO
-
 discovered_by = central_african
 discovered_by = sub_saharan
 discovered_by = saharan
-

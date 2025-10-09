@@ -1,10 +1,8 @@
 #251 - Aberdeen
-
 owner = HJL
 controller = HJL
-culture = hjallish #Mix of Highland and Lowland Scotts 
+culture = hjallish#Mix of Highland and Lowland Scotts 
 religion = norse_pagan_reformed
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = fish

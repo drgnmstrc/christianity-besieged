@@ -6,11 +6,10 @@ is_city = yes
 culture = juhoan
 capital = "Kgalagadi"
 religion = qanumi
-hre = no
 base_tax = 3
 base_production = 2
 base_manpower = 2
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }

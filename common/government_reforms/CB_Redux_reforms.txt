@@ -128,7 +128,7 @@ zenobian_matriarchy_reform = { # I
 		cb_on_religious_enemies = yes
 		monarch_military_power = 1
 		may_recruit_female_generals = yes
-		female_advisor_chance = 1.0
+		female_advisor_chance = 1000.0
 		fire_damage = 0.1
 		discipline = 0.05
 	}

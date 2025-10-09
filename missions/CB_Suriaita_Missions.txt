@@ -361,6 +361,10 @@ SRY_2 = {
 			create_explorer = {
 				tradition = 75
 			}
+			add_country_modifier = {
+				name = holy_fleet
+				duration = -1
+			}
 		}
 	}
 }
@@ -470,6 +474,7 @@ SRY_3 = {
 					duration = -1
 				}
 			}
+			set_government_rank = 2
 		}
 	}
 
@@ -528,6 +533,7 @@ SRY_3 = {
 
 		effect = {
 			override_country_name = SRY_ara_qaddista_title
+			set_government_rank = 3
 			hidden_effect = { add_government_reform = syriac_church_reform_II }
 			mashriq_region = {
 				limit = {

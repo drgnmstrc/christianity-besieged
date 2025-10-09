@@ -5,14 +5,11 @@ owner = AKU
 controller = AKU
 add_core = AKU
 capital = "Akure"
-hre = no
 is_city = yes
 trade_goods = ivory
 base_tax = 4
 base_production = 3
 base_manpower = 3
-
-
 discovered_by = central_african
 discovered_by = sub_saharan
 discovered_by = saharan

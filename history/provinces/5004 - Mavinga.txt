@@ -8,7 +8,6 @@ add_core = QUV
 culture = taa
 capital = "Mavinga"
 religion = qanumi
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 1

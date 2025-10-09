@@ -1,0 +1,28 @@
+#3021 - Bethulia
+
+owner = JUD
+controller = JUD
+add_core = JUD
+culture = palestinian
+religion = sunni
+capital = "Bethulia"
+trade_goods = camel
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 2
+#estate = estate_nobles
+is_city = yes
+add_permanent_claim = MUQ
+add_claim = ALX
+
+discovered_by = western
+discovered_by = near_east
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = indian
+discovered_by = east_african
+discovered_by = saharan
+discovered_by = scandinavian_tech
+discovered_by = eirun

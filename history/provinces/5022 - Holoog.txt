@@ -6,7 +6,6 @@ is_city = yes
 culture = juhoan
 capital = "Holoog"
 religion = qanumi
-hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 1

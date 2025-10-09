@@ -7,7 +7,6 @@ add_core = XEG
 culture = xegwe
 capital = "|Xeg'wOm"
 religion = qanumi
-hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 4

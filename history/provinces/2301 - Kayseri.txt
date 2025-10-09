@@ -1,12 +1,10 @@
 #2301 - Kayseri
-
 owner = CAP
 controller = CAP
 culture = kappadokes
 religion = mandaeism
 capital = "Eusebia"
 trade_goods = zinc
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 4

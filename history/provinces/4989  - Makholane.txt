@@ -7,11 +7,10 @@ is_city = yes
 culture = tsiqaleha
 capital = "Makholane"
 religion = qanumi
-hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 4
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }

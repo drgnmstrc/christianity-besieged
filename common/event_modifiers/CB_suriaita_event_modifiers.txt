@@ -7,3 +7,7 @@ military_buildup = {
 	land_maintenance_modifier = -0.15
 	land_forcelimit = 5
 }
+holy_fleet = {
+	may_perform_slave_raid = yes
+	coast_raid_range = 1
+}

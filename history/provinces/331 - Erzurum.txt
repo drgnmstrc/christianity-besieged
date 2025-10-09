@@ -1,13 +1,11 @@
 #331 - Erserum
-
 owner = ARM
 controller = ARM
 culture = armenian
 religion = manichaeism
 capital = "Erzurum"
 trade_goods = livestock
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes

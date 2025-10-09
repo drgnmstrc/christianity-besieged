@@ -3,7 +3,6 @@ culture = igbo
 religion = odinani
 capital = "Aba"
 trade_goods = ivory
-hre = no
 is_city = yes
 base_tax = 2
 base_production = 2

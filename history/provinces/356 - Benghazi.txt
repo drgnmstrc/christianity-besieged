@@ -1,5 +1,4 @@
 #356 - Cyrenaica
-
 owner = BRQ
 controller = BRQ
 add_core = BRQ
@@ -7,7 +6,6 @@ culture = almukhidi
 religion = sunni
 capital = "Benghazi"
 trade_goods = silphium
-hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 4

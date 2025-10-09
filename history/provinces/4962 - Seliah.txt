@@ -1,5 +1,4 @@
 #1793 - El Djouf
-
 owner = SRY
 controller = SRY
 add_core = SRY
@@ -7,12 +6,10 @@ culture = aramaic
 religion = syriac
 capital = "Suryayta"
 trade_goods = cloth
-hre = no
 base_tax = 6
 base_production = 5
 base_manpower = 5
 is_city = yes
-cathedral = yes
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = western
@@ -20,6 +17,6 @@ discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
-
 discovered_by = ottoman
 discovered_by = sub_saharan
+cathedral = yes

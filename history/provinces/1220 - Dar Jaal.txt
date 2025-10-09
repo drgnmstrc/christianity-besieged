@@ -1,6 +1,5 @@
 #1220 - Dar Ja'al
-
-culture = nubian 
+culture = nubian
 religion = shiite
 capital = "Bayuda"
 owner = ETH
@@ -10,8 +9,7 @@ add_core = ABB
 is_city = yes
 trade_goods = camel
 base_manpower = 2
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 discovered_by = east_african
 discovered_by = near_east

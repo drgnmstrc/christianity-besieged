@@ -6,11 +6,10 @@ is_city = yes
 culture = shwakhwe
 capital = "Aggakeys"
 religion = qanumi
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 5
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }

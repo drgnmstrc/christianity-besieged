@@ -6,11 +6,10 @@ religion = qanumi
 trade_goods = ivory
 is_city = yes
 capital = "xaVa"
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }

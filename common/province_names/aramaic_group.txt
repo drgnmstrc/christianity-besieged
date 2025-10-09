@@ -6,6 +6,7 @@
 364 = { "Aza" "Aza" } # Ghazza
 379 = { "Orišlem" "Orišlem" } # Yerushalayim
 1854 = { "Yapo" "Yapo" } # Jaffa
+3021 = { "Beth Ghola" "Beth Ghola" } # Bethulia
 4268 = { "Alath" "Alath" } # Elath
 
 # Transjordan
@@ -17,6 +18,8 @@
 378 = { "Trabolis" "Trabolis" } # Tripolis
 382 = { "Damašq" "Damašq" } # Damašq
 1855 = { "Šidon" "Šidon" } # Saida
+3023 = { "Sor" "Sor" } # Tyre
+3024 = { "Tarodas" "Tarodas" } # Aradus
 4297 = { "Ghamath Šoba" "Ghamath Šoba" } # Gamath-zoba
 
 # Syrian Desert
@@ -28,6 +31,7 @@
 377 = { "Ghalba" "Ghalba" } # Aleppo
 1849 = { "Ghamath" "Ghamath" } # Hama
 2313 = { "Anthiyoka" "Anthiyoka" } # Antioch
+3025 = { "Pay" "Pay" } # Payas
 4298 = { "Ayindab" "Ayindab" } # Ayntab
 4962 = { "Sorayita" "Sorayita" } # Su'ria'ita
 
