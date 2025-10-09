@@ -1,17 +1,16 @@
 # 87 Calais - Principal cities: Calais
 
-owner = OLD
-controller = OLD
-add_core = OLD
+owner = LOT
+controller = LOT 
 capital = "Lothara"
-culture = gaulish
+culture = lotharingian
 religion = theodolian
 hre = no
 base_tax = 6
 base_production = 5
 trade_goods = seafood
 base_manpower = 4
-add_core = SSN
+add_core = LOT
 discovered_by = eastern
 discovered_by = western
 discovered_by = near_east
@@ -20,5 +19,5 @@ discovered_by = scandinavian_tech
 discovered_by = eirun
 fort_15th = yes
 is_city = yes
-extra_cost = 8
 center_of_trade = 1
+extra_cost = 8
