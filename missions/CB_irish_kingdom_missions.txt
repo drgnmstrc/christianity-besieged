@@ -9,7 +9,9 @@ irish_kingdom_missions_slot_1 = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
+			has_reform = irish_parlimentary_kingdom
 			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
 		}
 	}
 
@@ -65,7 +67,9 @@ irish_kingdom_mission_slot_2 = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
+			has_reform = irish_parlimentary_kingdom
 			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
 		}
 	}
 
@@ -119,7 +123,9 @@ irish_kingdom_mission_slot_3 = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
+			has_reform = irish_parlimentary_kingdom
 			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
 		}
 	}
 
@@ -211,7 +217,9 @@ irish_kingdom_mission_slot_4 = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
+			has_reform = irish_parlimentary_kingdom
 			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
 		}
 	}
 
@@ -281,7 +289,9 @@ irish_kingdom_mission_slot_5 = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom
+			has_reform = irish_parlimentary_kingdom
 			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
 		}
 	}
 
@@ -420,7 +430,10 @@ irish_high_kingdom_slot_2 = {
 	has_country_shield = no	
 
 	potential = {
-		has_reform = irish_high_kingdom
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_parlimentary_kingdom
+		}
 	}
 
 	irish_drive_out_heritics_mission = {
@@ -492,7 +505,10 @@ irish_high_kingdom_slot_3 = {
 	has_country_shield = no	
 
 	potential = {
-		has_reform = irish_high_kingdom
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_parlimentary_kingdom
+		}
 	}
 
 	irish_weather_pretenders_mission = {
@@ -517,7 +533,10 @@ irish_high_kingdom_slot_3 = {
 							type = illegitimate_high_king_of_ireland_cb
 							target = ROOT
 						}
-						has_reform = irish_high_kingdom
+						OR = {
+							has_reform = irish_high_kingdom
+							has_reform = irish_parlimentary_kingdom
+						}
 					}
 				}
 			}
@@ -596,7 +615,10 @@ irish_high_kingdom_slot_4 = {
 	has_country_shield = no	
 
 	potential = {
-		has_reform = irish_high_kingdom
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_parlimentary_kingdom
+		}
 	}
 
 	irish_build_defences_missions = {
@@ -701,7 +723,10 @@ irish_high_kingdom_slot_5 = {
 	has_country_shield = no	
 
 	potential = {
-		has_reform = irish_high_kingdom
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_parlimentary_kingdom
+		}
 	}
 
 	irish_mainland_relations_mission = {

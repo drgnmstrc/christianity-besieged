@@ -17,7 +17,12 @@ country_event = {
 		name = irish_events.1.a
 
 		every_country = {
-			limit = { has_reform = irish_kingdom }
+			limit = {
+				OR = {
+					has_reform = irish_kingdom 
+					has_reform = irish_parlimentary_kingdom
+				}
+			}
 
 			country_event = {
 				id = irish_events.2
@@ -25,8 +30,11 @@ country_event = {
 		}
 		every_country = {
 			limit = { 
-				has_reform = irish_high_kingdom
 			    NOT = { tag = ROOT }
+				OR = {
+					has_reform = irish_high_kingdom
+					has_reform = irish_high_parlimentary_kingdom
+				}
 			}
 
 			country_event = {
@@ -236,7 +244,7 @@ country_event = {
 country_event = {
 	id = irish_events.6
 
-	title = irish_event.6.t
+	title = irish_events.6.t
 	desc = irish_events.6.d
 
 	is_triggered_only = yes
@@ -252,6 +260,6 @@ country_event = {
 			manuever = 3
 			siege = 1
 			female = yes
-e		}
+		}
 	}
 }

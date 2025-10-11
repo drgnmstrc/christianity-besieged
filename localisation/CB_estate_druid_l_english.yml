@@ -1,14 +1,65 @@
 ﻿l_english:
   estate_druids: "Druids"
+  druids_loyalty_modifier: "Druids Loyalty Modifier"
+  druids_influence_modifier: "Druids Influence Modifier"
+  druids_privilege_slots: "Druids Max Privileges"
+
 
   ## Privileges
   druid_control_of_force_privilege: "Control of Force"
   druid_control_of_force_privilege_desc: "The druids commanded great respect in celtic society, at their request even the most fervorous of armies would lay down their arms and abandon battle. For many centuries the druids have mediated the kings in their declaration of conquest."
 
   druid_organisation_of_worship_privilege: "Organisation of Worship"
-  druid_organisation_of_worship_privilege_desc: "Religious festivals have long been organised by the druids. "
+  druid_organisation_of_worship_privilege_desc: "Religious festivals have long been organised by the druids."
 
   druid_attendance_to_sacrifice_privilege: "Attendance to Sacrifice"
+  druid_attendance_to_sacrifice_privilege_desc: "The gods must be appeased, and so we much sacrifice."
+
+  druid_burden_of_scripture_privilege: "Burden of Scripture"
+  druid_burden_of_scripture_privilege_desc: "For their insurection the druids have been burdened with their scripture. Forced to write oral traditions in the hope of removing their neccesity in the preservation of our culture."
+
+  ## Actions
+  druid_sacrifice_decision_title: "Make Sacrifices"
+  druid_sacrifice_decision_desc: "The gods remain unsatiated, and we risk their wrath. Let us sacrifice what we have so that they might be appeased."
+
+  druid_sponser_holy_site_decision_title: "Sponsor Holy Site"
+  druid_sponser_holy_site_decision_desc: "Let us build a holy site for our druids, such that they may keep natures majesty."
+  enable_estate_action_DRUID_SPONSER_HOLY_SITE_tt: "Sponsor Holy Site"
+
+  druid_destroy_conqured_holy_site_decision_title: "Destroy Conqured Holy Site"
+  druid_destroy_conqured_holy_site_decision_desc: "A holy site of our enemies resides within our lands! It must be stamped out!"
+
+  druid_convert_conqured_holy_site_decision_title: "Convert Conqured Holy Site"
+  druid_convert_conqured_holy_site_decision_desc: "A holy site of our enemies resides within our lands. But we do not fear our foes weak curses, we will do good to put it to our use"
+
+  ## Modifiers
+  druid_made_sacrifices: "Appeased the Gods"
+  desc_druid_made_sacrifices: "The gods have been appeased, and their wrath averted."
+
+  druid_holy_site_modifier: "Holy Site"
+  desc_druid_holy_site_modifier: "A site of worship consecrated by the druids."
+
+  druid_conqured_holy_site_modifier: "Conqured Holy Site"
+  desc_druid_conqured_holy_site_modifier: "A holy site of our enemies. It will bring us nothing but curses."
+
+  druid_rebellion: "Druidic Rebellion"
+  desc_druid_rebellion: "The druids have turned our people against us."
+
+  ## Agendas
+  druid_establish_holy_site_agenda: "Establish Holy Site"
+  druid_establish_holy_site_agenda_desc: "The druids wish to see a holy site established."
+
+  druid_cannonise_druid_agenda: "Cannonise Druid"
+  druid_cannonise_druid_agenda_desc: "A great druid has recently passed, and the druids come before you to ask to have them cannonised."
+
+  ## Disasters
+  druid_restoration_of_sufferage_disaster: "Restoration of Suffreage"
+
+  ## Rebels
+  druid_restoration_of_sufferage_rebels_name: "Druidic Warriors"
+  druid_restoration_of_sufferage_rebels_desc: "The druids, feeling their efforts unrecognised have turned our people against us"
+  druid_restoration_of_sufferage_rebels_title: "Druidic Warriors"
+  druid_restoration_of_sufferage_rebels_army: "Druidic Army"
 
   ## Events
   druid_events.1.t: "Druids prepare for Beltaine"
@@ -34,22 +85,44 @@
 
 
   ## Decisions
-  druid_sacrifice_captives_decision_title: "Sacrifice Captives"
-  druid_sacrifice_captives_decision_desc: ""
 
-  druid_sponser_holy_site_decision_title: "Sponsor Holy Site"
+  ## Modifiers 
 
-  druid_destroy_conqured_holy_site_decision_title: "Destroy Conqured Holy Site"
-
-  druid_convert_conqured_holy_site_decision_title: "Convert Conqured Holy Site"
 
   ## Governments
+  irish_tribal_theocracy_mechanic: "Tribal Congregation"  
+  irish_tribal_theocracy_mechanic_desc: "A collection of clanspeople organised and ruled by the druids."
+
+  insular_tribal_theocracy_name: "Tribal Congregation"
+  insular_tribal_theocracy_desc: "A collection of clanspeople organised and ruled by the druids."
+  
+  insular_theocracy_name: "Theocracy"
+  insular_theocracy_desc: "In a Theocracy authority is derived from a divine power. The ruling class will often be the clergy itself and the head of state their leader."
+
+  organisation_of_the_faithful: "Organisation of the Faithful"
+
   druid_assembly: "Druidic Assembly"
+  druid_assembly_desc: "An assembly of druids each representing a god and sphere of governance."
 
   druid_theocracy: "Druidic Theocracy"
+  druid_theocracy_desc: "A theocratic government organised for the worship of celtic gods."
 
   druid_grand_theocracy: "Grand Druidic Theocracy"
-  
+  druid_grand_theocracy_desc: "A grand assembly of druids spreading the worship and practices of druidism." 
+
+  ### Factions
+
+  druid_assemblists: "Assemblists"
+  druid_assemblists_FACTION_DESC: "Those who wish to see the king reinstated with a parliment to represent the interests of the druids"
+  druid_assemblists_influence: "Assemblists Influence"
+
+  druid_monarchists: "Monarchists"
+  druid_monarchists_FACTION_DESC: "Those who wish to see the king reinstated and the administration returned to how it was before the rebellion"
+  druid_monarchists_influence: "Monarchists Influence"
+
+  druid_theocrats: "Theocracts"
+  druid_theocrats_FACTION_DESC: "Those who wish to see the monarchy overturned and to replace the rulership with druids."
+  druid_theocrats_influence: "Theocracts Influence"
 
   ## Random
   cannonise_druid_tooltip: "Grants an ancestor druid personality"

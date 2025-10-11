@@ -1,4 +1,28 @@
 ﻿l_english:
+  ## Governments
+  insular_tribal_monarchy_name: "Tribal Monarchy"
+  irish_tribal_monarch_mechanic: "Irish Monarchy"
+  irish_tribal_monarch_mechanic_desc: "Irish kingdom were collections of clansmen with a king at their head and the druids to guide them."
+
+  irish_kingdom: "Irish Kingdom"
+  irish_kingdom_desc: "The Irish Kingdoms rule in tandem with the druids of Ireland, though their power is oft overshadowed by the religious elites."
+
+  irish_parlimentary_kingdom: "Irish Parlimentary Kingdom"
+  irish_parlimentary_kingdom_desc: "The Irish Parlimentary Kingdoms rule in tandem with the druids of Ireland, though their power is oft overshadowed by the members of their parliments."
+
+  irish_high_kingdom: "Irish High Kingdom"
+  irish_high_kingdom_desc: "The King coronated at the Lia Fáil is preeminent above all others on the Isle. Should a petty king wish to take this right, then it is the Hill of Tara they must claim."
+
+  irish_high_parlimentary_kingdom: "Irish High Parlimentary Kingdom"
+  irish_high_parlimentary_kingdom_desc: "The King coronated at the Lia Fáil is preeminent above all others on the Isle but to his parliment. Should a petty king wish to take this right, then it is the Hill of Tara they must claim."
+
+  ### Reform Levels
+  power_and_parliment: "Power and Parliment"
+
+  ## Casus Bellis
+  retrieve_the_hill_of_tara_cb: "Retrieve the Hill of Tara"
+  retrieve_the_hill_of_tara_cb_desc: "The Hill of Tara has been seized by a false king! We must wrest it from their hands."
+
   ## Decisions
   proclaim_high_kingdom_of_ireland_title: "Proclaim High King of Ireland"
 
@@ -24,6 +48,10 @@
   irish_events.5.t: "Hill of Tara lost!"
   irish_events.5.d: "A pretender has seized the Hill of Tara! Lia Fáil roars once again, for a false king pretends dominion over ireland!"
   irish_events.5.a: "We roar with Lia Fáil!"
+
+  irish_events.6.t: "A Warrior Reborn"
+  irish_events.6.d: "After countless battles on warrior stands tall above all others, Eimear Dunn!"
+  irish_events.6.a: "From this day on she shall be known as Eimear Chullain!"
 
   ## Missions
   irish_centralise_the_realm_mission_title: "Centralise the Realm"
@@ -82,8 +110,13 @@
 
   irish_infiltrate_reichien_mission_title: "Infiltrate Reichien"
 
-  ### Ulster
-
+  # Ulster
+  ## Missions
   ulster_a_warrior_reborn_mission_title: "A Warrior Reborn"
 
   cattle_raids_total_losses: "Have lost a war with at least §Y2500§! casualites."
+
+  ## Events
+  decendant_of_chulainn: "Decendant of Chulainn"
+  desc_decendant_of_chulainn: "A warrior so grand that she could only have been the direct decendant of Chullain himself!"
+  

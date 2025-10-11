@@ -19,6 +19,7 @@ estate_druids = {
 		druid_control_of_force_privilege
 		druid_organisation_of_worship_privilege
 		druid_attendance_to_sacrifice_privilege
+		druid_burden_of_scripture_privilege
 	}
 
 	agendas = {
@@ -51,14 +52,7 @@ estate_druids = {
 		church_loyalty_modifier = 0.2
 	}
 
-	base_influence = 30
-	influence_modifier = {
-		desc = "Norms"
-		influence = 80
-		trigger = {
-			always = yes
-		}
-	}
+	base_influence = 50
 
 	province_independence_weight = {
 		factor = 1

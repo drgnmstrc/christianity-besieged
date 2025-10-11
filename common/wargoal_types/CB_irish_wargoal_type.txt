@@ -1,15 +1,17 @@
-oust_pretender_high_king_wargoal = {
-	type = superiority
+retrieve_the_hill_of_tara_wargoal = {
+	type = take_capital
+}
 
-	peace_options = {
-		oust_pretender_high_king_of_ireland_treaty
-	}
+wrest_high_kingship_wargoal = {
+	type = superiority
 }
 
 oust_illigitimate_high_king_wargoal = {
 	type = superiority
 
-	peace_options = {
-		oust_iligimate_high_king_treaty
-	}
+	allowed_provinces_are_eligible = yes
+}
+
+subjugate_lesser_irish_kingdom_wargoal = {
+	type = take_capital
 }

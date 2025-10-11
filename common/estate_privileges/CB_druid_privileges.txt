@@ -7,7 +7,38 @@
 ##
 ## Scaled with `estate_druid` influence
 druid_control_of_force_privilege = {
-	icon = 1
+	icon = privilege_tolerance_heathen
+
+	loyalty = 0.07
+	influence = 0.2
+	max_absolutism = -50
+
+	penalties = {
+		stability_cost_to_declare_war = 6
+		improve_relation_modifier = 0.1
+	}
+	benefits = {
+		war_exhaustion = -0.5
+		global_unrest = -1
+	}
+
+	on_revoked = {
+		add_estate_influence_modifier = {
+			estate = estate_druids
+			desc = "Revoked Right of Worship"
+			influence = -5
+			duration = -1
+		}
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_druids
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -19,11 +50,46 @@ druid_control_of_force_privilege = {
 ## Grants bonuses to provinces scaled with `estate_druid` influence.
 ## Allows `druid_sponser_holy_site_decision`.
 druid_organisation_of_worship_privilege = {
-	icon = 1
+	icon = privilege_religious
+
+	max_absolutism = -10
+	loyalty = 0.04
+	influence = 0.1
 
 	on_granted = {
 		enable_estate_action = {
 			estate_action = DRUID_SPONSER_HOLY_SITE
+		}
+	}
+
+	benefits = {
+		religious_unity = 0.01
+		global_unrest = -0.2
+		missionary_maintenance_cost = -0.2
+		global_missionary_strength = 0.3
+	}
+	penalties = {
+		global_autonomy = 0.05
+		tolerance_heathen = -1
+		tolerance_heretic = -1.5
+	}
+
+	on_revoked = {
+		add_estate_influence_modifier = {
+			estate = estate_druids
+			desc = "Revoked Right of Worship"
+			influence = -20
+			duration = -1
+		}
+	}
+
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_druids
+				influence = 30
+			}
 		}
 	}
 
@@ -32,15 +98,45 @@ druid_organisation_of_worship_privilege = {
 	}
 }
 
-## The druids would oversee human sacrifices to the god
+## The druids would oversee human sacrifices to the gods
 ## 
 ## Allows `druid_sacrifices`.
 druid_attendance_to_sacrifice_privilege = {
-	icon = 1
+	icon = privilege_build_jain_temple
+
+	loyalty = 0.23
+	influence = 0.1
 
 	on_granted = {
 		enable_estate_action = {
 			estate_action = DRUID_MAKE_SACRIFICES
+		}
+	}
+
+	penalties = {
+		development_cost = 0.2
+		supply_limit_modifier = -0.25
+	}
+	benefits = {
+		stability_cost_modifier = -0.1
+		local_monthly_devastation = -0.1
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_druids
+				influence = 30
+			}
+		}
+	}
+
+	on_revoked = {
+		add_estate_influence_modifier = {
+			estate = estate_druids
+			desc = "Individual Sacrifices"
+			influence = -10
+			duration = -1
 		}
 	}
 
@@ -50,7 +146,33 @@ druid_attendance_to_sacrifice_privilege = {
 }
 
 druid_burden_of_scripture_privilege = {
-	icon = 1
+	icon = privilege_grant_autonomy
+
+	can_select = {
+		always = no
+	}
+
+	loyalty = -0.5
+	influence = -0.75
+
+	benefits = {
+		tax_income = 2
+		administrative_efficiency = 0.02
+	}
+	
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = druid_burden_of_scripture_privilege
+	}
+
+	on_revoked = {
+		add_estate_influence_modifier = {
+			estate = estate_druids
+			desc = "Unburdened"
+			influence = 10
+			duration = 5
+		}
+	}
 
 	ai_will_do = {
 		factor = 0

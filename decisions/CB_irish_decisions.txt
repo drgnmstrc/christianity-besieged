@@ -4,7 +4,10 @@ country_decisions = {
 		
 		potential = {
 			culture = irish
-			has_reform = irish_kingdom
+			OR = {
+				has_reform = irish_kingdom
+				has_reform = irish_parlimentary_kingdom
+			}
 		}
 
 		provinces_to_highlight = {
@@ -56,8 +59,14 @@ country_decisions = {
 		}
 
 		effect = {
-			add_government_reform = irish_high_kingdom
-
+			if = { 
+				limit = { has_reform = irish_kingdom } 
+				add_government_reform = irish_high_kingdom
+			} else_if = {
+				limit = { has_reform = irish_parlimentary_kingdom }
+				add_government_reform = irish_parlimentary_kingdom
+			}
+			
 			swap_non_generic_missions = yes
 
 			country_event = {

@@ -28,10 +28,10 @@ druid_conqured_holy_site_modifier = {
 }
 
 druid_made_sacrifices = {
-	war_exhaustion = -0.2
+	war_exhaustion = -0.05
 	global_unrest = -1
-	prestige = 1
-	build_cost = -1	
+	prestige = 0.5
+	build_cost = -0.01
 }
 
 druid_rebellion = {
@@ -98,4 +98,12 @@ druid_harmoniser_ancestor = {
 
 druid_advisor_ancestor = {
 	administrative_efficiency = 0.05
+}
+
+## Angered
+
+druid_angered_recruiter = {
+	manpower_recovery_speed = -0.5
+	regiment_recruit_speed = -0.3
+	global_regiment_cost = 0.5
 }

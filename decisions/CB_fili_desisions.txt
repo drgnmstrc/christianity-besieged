@@ -262,6 +262,18 @@ country_decisions = {
 							duration = 1460
 						}
 					}
+
+					15 = {
+						modifier = {
+							factor = 0
+							has_country_modifier = druid_angered_recruiter
+						}
+						
+						add_country_modifier = {
+							name = druid_angered_recruiter
+							duration = 1460
+						}
+					}
 				}
 			}
 		

@@ -2,12 +2,24 @@
 
 ## Allows `fili_divine_for_war_decision`
 fili_war_diviners_privilege = {
-	icon = 1
+	icon =  privilege_morale_damage
+
+	loyalty = -0.12
+	influence = 0.048
 
 	on_granted = {
 		enable_estate_action = {
 			estate_action = FILI_WAR_DIVINATION
 	    }
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_fili
+				influence = 30
+			}
+		}
 	}
 
 	ai_will_do = {
@@ -17,7 +29,23 @@ fili_war_diviners_privilege = {
 
 ## Will occasionally trigger events that require players to reward fili for good counciling, or face satire. 
 fili_power_of_satire_privilege = {
-	icon = 1
+	icon = privilege_prestige
+
+	loyalty = 0.14
+	influence = 0.02
+
+	benefits = {
+		power_projection_from_insults = 5
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_fili
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -28,7 +56,24 @@ fili_power_of_satire_privilege = {
 ##
 ## Not sure if possible but could be good to make the fili lose loyalty and influence if they don't have at least one of their councilers on your council
 fili_councilership_privilege = {
-	icon = 1
+	icon = privilege_royal_rule
+
+	loyalty = 0.04
+	influence = 0.1
+
+	benefits = {
+		administrative_efficiency = 0.01
+		advisor_cost = -0.15
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_fili
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -41,7 +86,24 @@ fili_councilership_privilege = {
 ## 
 ## May trigger events that hurt/increase other countries opinions depending on fili loyalty.
 fili_diplomacy_privilege = {
-	icon = 1
+	icon = privilege_religious_diplomats
+	
+	loyalty = 0.14
+	influence = 0.05
+
+	benefits = {
+		improve_relation_modifier = 0.25
+		diplomatic_reputation = 1
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_fili
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -52,7 +114,10 @@ fili_diplomacy_privilege = {
 ## 
 ## Allows `fili_commision_poem_decision`, `fili_commission_great_poem_decision`, and `fili_cannonise_druid_decision`.
 fili_reverence_for_poets_privilege = {
-	icon = 1
+	icon = estate_nobles_GER_diploma_andreanum
+
+	loyalty = 0.12
+	influence = 0.15
 
 	on_granted = {
 		enable_estate_action = {
@@ -60,6 +125,20 @@ fili_reverence_for_poets_privilege = {
 			estate_action = FILI_COMMISSION_POEM
 			estate_action = FILI_COMMISSION_GREAT_POEM
 	    }
+	}
+
+	benefits = {
+		prestige = 1
+		prestige_decay = -0.01
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_fili
+				influence = 30
+			}
+		}
 	}
 
 	ai_will_do = {

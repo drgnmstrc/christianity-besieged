@@ -28,7 +28,7 @@
 # 	}
 # }
 
-druid_restoreation_of_suggerage_disaster = {
+druid_restoration_of_sufferage_disaster = {
 	potential = {
 		OR = {
 			has_reform = irish_kingdom

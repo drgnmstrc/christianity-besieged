@@ -2,7 +2,26 @@
 
 ## To ensure fair judgement of civil disputes brehons will have the right to proceed over all civil cases.
 brehon_civil_right_of_judgment_privilege = {
-	icon = 1
+	icon = privilege_government
+
+	max_absolutism = -10
+	loyalty = 0.07
+	influence = 0.05
+
+	benefits = {
+		expand_administration_cost = -0.2
+		governing_capacity = 100
+	}
+
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -11,7 +30,25 @@ brehon_civil_right_of_judgment_privilege = {
 
 ## To ensure fair judgment of all criminals brehons will have the right to procced over all civil cases
 brehon_criminal_right_of_judgment_privilege = {
-	icon = 1
+	icon = privilege_tolerance_heretics
+
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.04
+
+	benefits = {
+		local_monthly_devastation = -1
+		governing_capacity = 100
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -20,7 +57,26 @@ brehon_criminal_right_of_judgment_privilege = {
 
 ## To ensure fair judgement of heritics brehons will have the right to proceed over all religous inquiries.
 brehon_heritic_right_of_judgment_privilege = {
-	icon = 1
+	icon = privilege_grant_autonomy
+
+	max_absolutism = -10
+	loyalty = 0.05
+	influence = 0.08
+
+	benefits = {
+		tolerance_own = 1
+		religious_unity = 0.02
+		governing_capacity = 100
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -29,7 +85,25 @@ brehon_heritic_right_of_judgment_privilege = {
 
 ## Brehon law largely had no centralised authority from which it drew legal judgement, and so disputes would be judged by a panel of jurists.
 brehon_judgment_of_kin_privilege = {
-	icon = 1
+	icon = privilege_serf
+
+	max_absolutism = -10
+	loyalty = 0.14
+	influence = 0.3
+
+	benefits = {
+		administrative_efficiency = 0.01
+		global_unrest = -1
+	}
+
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -38,7 +112,30 @@ brehon_judgment_of_kin_privilege = {
 
 ## Grants events relating to people chopping sacred trees that allow for the collecting of fines.
 brehon_protection_of_bile_privilege = {
-	icon = 1
+	icon = privilege_dev_cost_forest
+
+	max_absolutism = -5
+	loyalty = 0.17
+	influence = 0.05
+
+	penalties = {
+		development_cost = 0.1
+		ship_recruit_speed = -0.1
+		global_ship_cost = 0.25
+		build_cost = 0.1
+	}
+	benefits = {
+
+	}
+	
+	can_revoke = {
+		NOT = {
+			estate_influence = {
+				estate = estate_brehon
+				influence = 30
+			}
+		}
+	}
 
 	ai_will_do = {
 		factor = 0
@@ -46,7 +143,27 @@ brehon_protection_of_bile_privilege = {
 }
 
 brehon_burdened_bureaucracy = {
-	icon = 1
+	icon = privilege_aged_paper
+
+	can_select = {
+		always = no
+	}
+
+	max_absolutism = 20
+	loyalty = -0.5
+	influence = -0.75
+
+	penalties = {
+		administrative_efficiency = -0.05
+	}
+	benefits = {
+		
+	}
+	
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = brehon_burdened_bureaucracy
+	}
 
 	ai_will_do = {
 		factor = 0

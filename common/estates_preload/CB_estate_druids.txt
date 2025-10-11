@@ -1,0 +1,24 @@
+estate_druids = {
+	modifier_definition = {
+		type = loyalty
+		key = druids_loyalty_modifier
+		trigger = {
+			has_estate = estate_druids
+		}
+	}
+	modifier_definition = {
+		type = influence
+		key = druids_influence_modifier
+		trigger = {
+			has_estate = estate_druids
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = druids_privilege_slots
+		trigger = {
+			has_estate = estate_druids
+		}
+	}
+}

@@ -191,7 +191,7 @@ brehon_republic = {
 	potential = {
 		primary_culture = irish
 	}
-
+	
 	modifiers = {
 
 	}

@@ -1,5 +1,5 @@
 estate_brehon = {
-	icon = 1
+	icon = 5
 	color = { 18 52 86 }
 
 	trigger = {
@@ -49,15 +49,7 @@ estate_brehon = {
 		church_loyalty_modifier = 0.2
 	}
 
-	base_influence = 30
-	influence_modifier = {
-		desc = "Norms"
-		influence = 50
-		trigger = {
-			always = yes
-		}
-
-	}
+	base_influence = 50
 
 	province_independence_weight = {
 		factor = 1

@@ -1,2 +1,48 @@
 ﻿l_english:
   estate_fili: "Fili"
+  fili_loyalty_modifier: "Fili Loyalty Modifier"
+  fili_influence_modifier: "Fili Influence Modifier"
+  fili_privilege_slots: "Fili Max Privileges"
+
+  ## Privileges
+  fili_war_diviners_privilege: "War Diviners"
+  fili_war_diviners_privilege_desc: "The Fili are great diviners. We shall call upon them when our soverenty is threatened."
+
+  fili_power_of_satire_privilege: "Satire"
+  fili_power_of_satire_privilege_desc: "The Fili are close to the ruler in many ways, through this they gain great, and potentially dangerous information."
+
+  fili_councilership_privilege: "Councilership"
+  fili_councilership_privilege_desc: "The words heard by the ruler are perhaps most monopolized by the Fili"
+
+  fili_diplomacy_privilege: "Diplomacy"
+  fili_diplomacy_privilege_desc: "Through their poems the Fili are most able to establish great connection between our kin."
+
+  fili_reverence_for_poets_privilege: "Reverence for Poets"
+  fili_reverence_for_poets_privilege_desc: "Poets are our history, they are our stories and our records. It is best that they be revered for all that they do."
+
+  ## Agendas
+
+  fili_increase_kin_opinion_agenda: "Increase opinion of kin"
+  fili_increase_kin_opinion_agenda_desc: "It is important that we maintain relations with those closes to us."
+
+  ## Estate Actions
+  
+
+
+  ## Decisions
+  fili_divine_for_war_decision_title: "Divine for War"
+  fili_divine_for_war_decision_desc: "Our enemies surround us, prepared to strike at any moment. It is only with the help of the divine sight of the fili that we shall be victorious."
+
+  fili_commision_poem_decision_title: "Commission Poem"
+  fili_commision_poem_decision_desc: "Poetry is the language of kings, and so the fili shall boast of your achievements."
+
+  fili_commision_great_poem_decision_title: "Commission Grand Poem"
+  fili_commision_great_poem_decision_desc: "Let our voice sing your deeds the loudest, let not a single soul not know of your grand deeds."
+
+  fili_cannonise_druid_decision_title: "Cannonise Druid"
+  fili_cannonise_druid_decision_desc: "We shall honour the druids who came before us, in hope that their spirit shall bless us."
+
+  ## Modifiers
+  fili_divined_for_war_modifier: "Divined for War"
+  fili_commissioned_poem_modifier: "Commissioned Poem"
+  fili_commissioned_great_poem_modifier: "Commissioned Great Poem"

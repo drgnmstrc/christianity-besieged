@@ -1,13 +1,30 @@
 retrieve_the_hill_of_tara_cb = {
 	is_triggered_only = yes
 
-	war_goal = humiliate
+	allowed_provinces = {
+		province_id = 373
+	}
+
+	war_goal = retrieve_the_hill_of_tara_wargoal
 }
 
 pretender_high_king_of_ireland_cb = {
-	is_triggered_only = yes
+	prerequisites = {
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
+		}
 
-	war_goal = oust_pretender_high_king_wargoal
+		any_country = {
+			NOT = { tag = ROOT } 
+			OR = {
+				has_reform = irish_high_kingdom
+				has_reform = irish_high_parlimentary_kingdom
+			}
+		}
+	}
+
+	war_goal = wrest_high_kingship_wargoal
 }
 
 illegitimate_high_king_of_ireland_cb = {
@@ -18,7 +35,22 @@ illegitimate_high_king_of_ireland_cb = {
 }
 
 subjugate_lesser_irish_kingdom_cb = {
-	is_triggered_only = yes
+	prerequisites = {
+		OR = {
+			has_reform = irish_high_kingdom
+			has_reform = irish_high_parlimentary_kingdom
+		}
 
-	war_goal = take_capital_vassalize
+		any_country = {
+			OR = {
+				has_reform = irish_kingdom
+				has_reform = irish_parlimentary_kingdom
+			}
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+
+	months = -1
+
+	war_goal = subjugate_lesser_irish_kingdom_wargoal
 }

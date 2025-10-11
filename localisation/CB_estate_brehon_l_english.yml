@@ -1,10 +1,46 @@
 ﻿l_english:
   estate_brehon: "Brehon"
+  brehon_loyalty_modifier: "Brehon Loyalty Modifier"
+  brehon_influence_modifier: "Brehon Influence Modifier"
+  brehon_privilege_slots: "Brehon Max Privileges"
+
+  ## Privilage
+
+  brehon_civil_right_of_judgment_privilege: "Right of Civil Judgement"
+  brehon_civil_right_of_judgment_privilege_desc: "The Brehons reserve the right to preside over the judgment of civil cases."
+  
+  brehon_criminal_right_of_judgment_privilege: "Right of Criminal Judgement"
+  brehon_criminal_right_of_judgment_privilege_desc: "The Brehons reserve the right to preside over the judgment of criminals."
+
+  brehon_heritic_right_of_judgment_privilege: "Right of Heretical Judgement"
+  brehon_heritic_right_of_judgment_privilege_desc: "The Brehons reserve the right to preside over the judgment heretics."
+
+  brehon_judgment_of_kin_privilege: "Poetic Judgement"
+  brehon_judgment_of_kin_privilege_desc: "The Brehon do not preside over cases alone, bards would often be deffered to in cases that could not be resolved easily."
+
+  brehon_protection_of_bile_privilege: "Protection of Bilé"
+  brehon_protection_of_bile_privilege_desc: "Bilé returns once a year to his consort through the Bilé Uisnigh at Bealtaine. If we wish to keep his good graces we should punish those who wish to harm such trees."
+
+  brehon_burdened_bureaucracy: "Burdened Bureaucracy"
+  brehon_burdened_bureaucracy_desc: "The Brehons arrogance in their rebellion must be punished."
+
+  ## Modifiers
+  brehon_rebellion: "Brehon Rebellion"
+  desc_brehon_rebellion: "The Brehon have abandoned their posts, leaving the administration of the relm solely to us."
+ 
+  ## Disasters
+  brehon_question_of_governance: "A Question of Governance"
+
+  ## Rebels
+  brehon_question_of_governance_rebels_name: "Brehonic Rebels"
+  brehon_question_of_governance_rebels_desc: "The Brehons have abandoned their posts and taken up arms, believing themselves uniquely capable to administrate our relm."
+  brehon_question_of_governance_rebels_title: "Brehonic Rebels"
+  brehon_question_of_governance_rebels_army: "Brehnoic Army" 
 
   ## Events
   ### Question of Governance
   brehon_events.1.t: "The Brehons have siezed the administration."
-  brehon_events.1.d: "Long have the Brehons remainded restless. Agitating the structures of power."
+  brehon_events.1.d: "Long have the Brehons remainded restless. Agitating the structures of power, believing themselves more capable of serving our people."
   brehon_events.1.a: "We shall crush them."
 
   brehon_events.2.t: "Question of Governance Resolved"
@@ -15,9 +51,43 @@
   brehon_events.4.e: "Long Live the King"
 
   ## Governments
+  irish_tribal_republic_mechanic: "Tribal Council"
+  irish_tribal_republic_mechanic_desc: "A loosely organised collection of clans men with no official leadership"
+
+  insular_tribal_council_name: "Tribal Council"
+  insular_tribal_council_desc: "A council of tribespeople."
+
+  insular_republic_name: "Republic"
+  insular_republic_desc: "A Republic is a state ruled by its citizens. Power is not inherited but instead of the hands of an elected head of state"
+
+  council_organisation: "Council Organisation"
+
   brehon_transitional_council: "Brehnoic Transitional Council"
-  
+  brehon_transitional_council_desc: "In the aftermath of the Brehonic rebellion the question remains, what is the future of [Root.GetName]?"
+
   brehon_council: "Brehonic Council"
+  brehon_council_desc: "A council of brehons."
+
+  brehon_republic: "Brehonic Republic"
+  brehon_republic_desc: "A federation of brehons. Each administrating their own feif, and overseen by the [Root.GetTitle]."
+  
+  insular_republic: "Federation"
+
+  republic_organisation: "Federal Organisation"
+
+  ## Factions
+  brehon_revolutionaries: "Revolutionaries"
+  brehon_revolutionaries_FACTION_DESC: "Those who wish to see the monarchy replaced with a council of brehons."
+  brehon_revolutionaries_influence: "Revolutionaries Influence"
+
+  brehon_monarchists: "Monarchists"
+  brehon_monarchists_FACTION_DESC: "Those who seek to see the monarchy reinstated"
+  brehon_monarchists_influence: "Monarchists Influence"
+
+  brehon_moderates: "Moderates"
+  brehon_moderates_FACTION_DESC: "Those who do not wish to see the monarchy abolished, only to gain increased representation within it."
+  brehon_moderates_influence: "Moderates Influence"
+
 
   ## Missions
   brehon_transitionary_council_restore_army_mission_title: "Restore the Army"
