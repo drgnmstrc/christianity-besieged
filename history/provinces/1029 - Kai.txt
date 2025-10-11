@@ -1,7 +1,7 @@
 #1029 - Kai
 
-owner = TKD
-controller = TKD
+owner = AYS
+controller = AYS
 culture = emishi
 religion = animism
 capital = "Kofu"
@@ -11,5 +11,5 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = TKD
+add_core = AYS
 discovered_by = chinese

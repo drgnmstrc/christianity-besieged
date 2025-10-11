@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 2
+primary_culture = emishi
+religion = insular_syriac
+technology_group = chinese
+capital = 1028	# Kai
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Yiswa"
+		dynasty = "Ak'kamuy"
+		adm = 2
+		dip = 2
+		mil = 5
+		birth_date = 1395.4.7
+		death_date = 1470.9.12
+	}
+}

@@ -1,7 +1,7 @@
 #1839 - Suruga
 
-owner = TKD
-controller = TKD
+owner = AYS
+controller = AYS
 culture = togoku
 religion = shinto
 capital = "Sunpu"
@@ -12,13 +12,6 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = IMG
-add_core = TKD
+add_core = AYS
 discovered_by = chinese
 discovered_by = nomad_group
-
-1501.1.1 = { add_core = TKG }
-1542.1.1 = { discovered_by = POR }
-1568.12.1 = { add_core = TKD owner = TKD controller = TKD remove_core = IMG }
-1582.4.3 = { add_core = TKG owner = TKG controller = TKG remove_core = TKD }
-1590.8.10 = { add_core = ODA owner = ODA controller = ODA remove_core = TKG }
-1600.9.13 = { owner = TKG controller = TKG add_core = TKG remove_core = ODA }

@@ -1,7 +1,7 @@
 #1028 - Musashi
 
-owner = TKD
-controller = TKD
+owner = AYS
+controller = AYS
 culture = togoku
 religion = shinto
 capital = "Kizarasu"
@@ -12,7 +12,7 @@ base_production = 6
 base_manpower = 3
 is_city = yes
 add_core = CBA
-add_core = TKD
+add_core = AYS
 discovered_by = chinese
 extra_cost = 16
 center_of_trade = 2
