@@ -86,10 +86,10 @@
 4296 = { "Leš" "Leš" } # Lis
 
 # Commagene/Dulkadir
-332 = { "Ghorem" "Ghorem" } # Khorramabad
-2303 = { "Agmatan" "Agmatan" } # Ecbatana
-2308 = { "Ilam" "Ilam" } # Elam
-4310 = { "Malkharkh" "Malkharkh" } # "King's City"
+332 = { "Germanikaya" "Germanikaye" } # Germanicea
+2303 = { "Malithina" "Malithina" } # Malatya
+2308 = { "Orhay" "Orhay" } # Urfa
+4310 = { "Thepriki" "Thepriki" } # Tephrike
 
 # Cilician Coast/Cukurova
 321 = { "Qipros" "Niqosiya" } # Cyprus, Nicosia 

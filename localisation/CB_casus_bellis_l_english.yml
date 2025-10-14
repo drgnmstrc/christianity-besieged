@@ -2,10 +2,26 @@
  PEACE_force_syriac_brotherhood: "Force Communion"
  force_syriac_brotherhood_desc: "Forcibly bring [From.GetName] into communion with the Syciac church under [This.GetName]"
  CB_ALLOWED_force_syriac_brotherhood: "Force Communion"
- PEACE_PO_syriac_brotherhood: "Force Akhuta"
+ PEACE_PO_force_syriac_brotherhood: "Force Akhuta"
 
  cb_force_communion: "Force Communion"
  cb_force_communion_desc: "Forcibly bring [From.GetName] into communion with the Syciac church under [This.GetName]"
 
- take_capital_force_communion: Take the Capital""
+ take_capital_force_communion: "Take the Capital"
  take_capital_force_communion_desc: "The war goal is to take the capital"
+
+ ASHKHARH_INVASION_WAR_NAME: "$ORDER$$FIRST$ Invasion of $SECOND_NAME$"
+
+ PEACE_establish_ashkharh: "Establish Ashkharh"
+ PEACE_establish_ashkharh: "[From.GetName] will become an Ashkharh of [Root.GetName]"
+ CB_ALLOWED_establish_ashkharh:	"Establish Ashkharh"
+ PEACE_po_establish_ashkharh:	"Establish Ashkharh"
+
+ cb_armenian_subjugation_war: "Armenian Campaign of Conquest"
+ cb_armenian_subjugation_war_desc: "Their territory is our rightful claim. They shall serve us as our loyal Ashkharh!"
+ cb_triggered_independence_war: "Independence"
+ cb_triggered_independence_war_desc: "We deserve independence."
+ cb_disloyal_ashkharh: "Disloyal Ashkharh"
+ cb_disloyal_ashkharh_desc: "The Ashkharh grew bold and tries to break free from our grip."
+ cb_armenian_invasion: "Armenian Invasion"
+ cb_armenian_invasion_desc: "It is time to end their existence once and for all and annex their land!"

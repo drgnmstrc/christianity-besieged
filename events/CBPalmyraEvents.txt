@@ -1,0 +1,200 @@
+namespace = CBPalmyraEvents
+
+country_event = { # Nabathu Demands Rabat ben Ghamath
+	id = CBPalmyraEvents.0
+	title = CBPalmyraEvents.0t
+	desc = CBPalmyraEvents.0d
+	picture = CONSORT_DOING_BADLY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = CBPalmyraEvents.0a # I thought we'd have more time...
+		ROOT = {
+			kill_consort = yes
+			add_prestige = -20
+			add_truce_with = NBT
+		}
+		NBT = {
+			add_prestige = 20
+		}
+		custom_tooltip = disable_exact_revenge_tt
+		hidden_effect = { complete_mission = PLM_exact_revenge }
+		ai_chance = {
+			factor = 20
+        }
+    }
+	option = { # You can go to hell! In fact, I'll send you there myself!
+		name = CBPalmyraEvents.0b
+		ROOT = {
+			add_prestige = 15
+		}
+		NBT = {
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_spread_the_true_faith
+			}
+		}
+		ai_chance = {
+			factor = 20
+        }
+    }
+}
+
+country_event = { # Nabathu Usurped by Palmyra!
+	id = CBPalmyraEvents.1
+	title = CBPalmyraEvents.1t
+	desc = CBPalmyraEvents.1d
+	picture = JANISSARY_REVOLT_eventPicture
+
+	major = yes
+	major_trigger = {
+		tag = PLM
+	}
+	is_triggered_only = yes
+	immediate = {
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = CBPalmyraEvents.1a # We shall give them our wholehearted support!
+		grant_independence = yes
+		FROM = {
+			create_subject = {
+				subject_type = march
+				subject = PREV
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+				factor = 0.5
+				NOT = { religion = manichaeism }
+			}
+		}
+	}
+	
+	option = {
+		name = CBPalmyraEvents.1b # Is the only difference to whom our tribute goes?
+		grant_independence = yes
+		FROM = {
+			create_subject = {
+				subject_type = tributary_state
+				subject = PREV
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = CBPalmyraEvents.1b # Under new management? No way!
+		grant_independence = yes
+		FROM = {
+			add_casus_belli = {
+				type = cb_force_tributary_mission
+				target = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { # On Rabat ben Ghamath
+	id = CBPalmyraEvents.2
+	title = CBPalmyraEvents.2t
+	desc = CBPalmyraEvents.2d
+	picture = DIPLOMAT_INTERROGATION_eventPicture
+
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = NBT
+		PLM = {
+			NOT = {
+				truce_with = NBT
+			}
+			NOT = {
+				war_with = NBT
+			}
+			NOT = {
+				is_year = 1460
+			}
+		}
+		exists = NBT
+	}
+	immediate = {
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = CBPalmyraEvents.2a # He must be handed over to us!
+		grant_independence = yes
+		NBT = {
+			country_event = {
+				id = CBPalmyraEvents.0
+			}
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = CBPalmyraEvents.2b # We can let him go.
+		
+		ai_chance = {
+			factor = 0.05
+		}
+	}
+}
+
+country_event = { # Fonnim Flee to the West
+	id = CBPalmyraEvents.3
+	title = CBPalmyraEvents.3t
+	desc = CBPalmyraEvents.3d
+	picture = TRIBUTARY_FLEET_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = CBPalmyraEvents.3a # Where do you think you're going?
+		trigger = { ai = no }
+		random_list = {
+			50 = {
+				every_province = {
+					limit = { is_core = FNQ }
+					cede_province = FNQ
+					hidden_effect = {
+						remove_core = IFR
+					}
+				}
+				switch_tag = FNQ
+			}
+
+			50 = {
+				every_province = {
+					limit = { is_core = HDS }
+					cede_province = HDS
+					hidden_effect = {
+						remove_core = IFR
+					}
+				}
+				switch_tag = HDS
+			}
+		}
+    }
+
+	option = { # Whatever.
+		name = CBPalmyraEvents.3c
+    }
+}

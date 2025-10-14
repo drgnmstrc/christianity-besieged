@@ -1,0 +1,24 @@
+kings_highway_modifier = {
+	local_friendly_movement_speed = 0.25
+	local_hostile_movement_speed = 0.25
+	local_institution_spread = 0.15
+}
+kings_canals_modifier = {
+	local_ship_cost = -0.2
+	local_build_time = -0.2
+}
+religious_harmony = {
+	idea_cost = -0.1
+	adm_tech_cost_modifier = -0.15
+}
+rebuilding_effort = {
+	local_development_cost = -0.5
+	local_build_time = -0.2
+}
+production_innovation = {
+	local_production_efficiency = -0.5
+}
+fonnic_raiders = {
+	may_perform_slave_raid = yes
+	coast_raid_range = 1
+}

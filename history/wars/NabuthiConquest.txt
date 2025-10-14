@@ -1,0 +1,24 @@
+name = "Nabuthi Wars"
+
+war_goal = {
+	type = take_capital_force_tributary
+	casus_belli = cb_force_tributary
+}
+
+1442.4.8 = {
+	add_attacker = NBT
+	add_defender = JUD
+	add_defender = PLM
+	add_defender = ANB
+	add_defender = ASO
+	add_defender = QTN
+}
+
+1443.4.8 = {
+	rem_attacker = NBT
+	rem_defender = JUD
+	rem_defender = PLM
+	rem_defender = ANB
+	rem_defender = ASO
+	rem_defender = QTN
+}

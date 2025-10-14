@@ -154,6 +154,7 @@ monarchy = {
 				second_axarid_empire
 				zenobian_matriarchy_reform
 				japanese_empire_reform
+				ashkharh_government
 			}
 		}
 		hereditary_vs_nobility = {

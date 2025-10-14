@@ -2,7 +2,7 @@
 owner = BRQ
 controller = BRQ
 add_core = BRQ
-culture = almukhidi
+culture = haladri
 religion = sunni
 capital = "Benghazi"
 trade_goods = silphium

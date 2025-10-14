@@ -1,9 +1,9 @@
 #2205 - Nakhchivan
 
-owner = ARM
-controller = ARM
+owner = SYU
+controller = SYU
 culture = armenian
-religion = manichaeism
+religion = zoroastrian
 capital = "Nakhchevani"
 trade_goods = wine
 hre = no
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = ARM 
+add_core = SYU 
 discovered_by = east_african
 discovered_by = western
 discovered_by = near_east

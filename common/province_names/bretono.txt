@@ -1,0 +1,44 @@
+# RULES
+# ai/ay/ae -> æ/iye
+# -nia/-neia -> -ña
+# -ion -> -ón
+# -polis -> -bel
+# -burg -> -burgz
+# a_u/o -> ao
+# v -> b/u
+# s -> z
+# ph -> f
+# ch -> c
+# u -> o
+# t -> th
+# pagus -> país
+# portus -> pórtho
+# civitatem -> cidàde
+# Format: ID = { "Province" "Capital" } # Origin
+
+## IBERIA
+
+# Galicia
+5172 = { "Bretoña" "Cidáde Bretoñés" } # Bretony/Bretonia, "City of the Bretons"
+206 = { "La Croña" "La Croña" } # A Coruña/"The Crown"
+4554 = { "Aósti" "Aósti" } # Lucus Augusti
+4555 = { "Pónthibetèr" "Pónthibetèr" } # Ponte Vetera
+4558 = { "Bórgas" "Bórgas" } # Burgas
+
+# Beieras
+231 = { "Pórtho" "Pórtho" } # Portus
+232 = { "Bercánz" "Bercánz" } # Bragança
+228 = { "Baíra" "Baíra" } # Bayïr
+4556 = { "Abéria" "Bizaya" } # Aber, Vissaium
+1851 = { "Conímbèrca" "Conímbèrca" } # Conimbraga
+
+# León
+216 = { "Elemánthica" "Elemánthica" } # Helmantike
+4553 = { "Zemór" "Zemór" } # Semure
+208 = { "Leyóna" "Leyóna" } # Legion
+
+# North Castile
+4552 = { "Palanz" "Palanz" } # Palencia
+1746 = { "Cílía" "Cílía" } # Qila
+1745 = { "Canthábra" "Sànthoré" } # Cantabria, Sanctus Rex
+207 = { "Aztóra" "Òbi" } # Asturias, Uviéu

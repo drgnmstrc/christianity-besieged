@@ -134,3 +134,62 @@ take_capital_force_communion = {
 		}
 	}
 }
+
+take_capital_ashkharh_war = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+		
+		required_treaty_to_take_provinces = {
+			po_establish_ashkharh
+			#po_force_border_changes
+		}
+
+		peace_options = {
+			po_demand_provinces
+			po_establish_ashkharh
+			#po_force_border_changes
+		}
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = ASHKHARH_INVASION_WAR_NAME
+}
+
+take_capital_armenian_invasion = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.75
+		prestige_factor = 2
+		peace_cost_factor = 0.75
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.25
+		prestige_factor = 2
+		peace_cost_factor = 0.25
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = ASHKHARH_INVASION_WAR_NAME
+}

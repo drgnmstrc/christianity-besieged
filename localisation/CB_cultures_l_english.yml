@@ -15,8 +15,9 @@
  ynglis: "Ynglis"
 
  # Arabic
- almukhidi: "Haladri"
+ haladri: "Haladri"
  jeberti: "Jeberti"
+ nabuthi: "Nabuthi"
  palestinian: "Filastini"
  shamali: "Shamali"
 
@@ -26,6 +27,10 @@
  aramean: "Aramaye"
  assyrian: "Suroye"
  cilician: "Qiliqaye"
+ misheroye: "Mišeroye"
+ nabathu: "Nabathu"
+ nabathu_ADJ: "Nabathi"
+ natolaye: "Natolaye"
  punic: "Fonnim"
 
  # Araucanian

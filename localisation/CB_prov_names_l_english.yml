@@ -43,6 +43,23 @@
  PROV_ADJ3024: "Tartusian"
  PROV3025: "Bayas"
  PROV_ADJ3025: "Bayasian"
+ PROV3026: "Badiyat Ash-Sham"
+ PROV_ADJ3026: ""
+ PROV3027: "Badiyat Ash-Sham"
+ PROV_ADJ3027: ""
+ PROV3028: "Arar"
+ PROV_ADJ3028: "Ararian"
+ PROV3029: "Maaniyah"
+ PROV_ADJ3029: "Maaniyani"
+ PROV3030: "Rutba"
+ PROV_ADJ3030: "Rutban"
+ PROV3031: "Ruwaished"
+ PROV_ADJ3031: "Ruwaishedian"
+ PROV3032: "Tubarjal"
+ PROV_ADJ3032: "Tubarjalian"
+ PROV3033: "Mijuwa"
+ PROV_ADJ3033: "Mijuwan"
+
  PROV4942: "Sinus"
  PROV_ADJ4942: "Sinusian"
  PROV4943: "El Djouf"
@@ -159,6 +176,7 @@
  PROV_ADJ4998: "Pandamatengan"
  PROV4999: "Chobe"
  PROV_ADJ4999: "Chobean"
+
  PROV5000: "Ikaba"
  PROV_ADJ5000: "Ikaban"
  PROV5001: "Namutoni"
@@ -359,6 +377,7 @@
  PROV_ADJ5098: "Lokojan"
  PROV5099: "Awori"
  PROV_ADJ5099: "Aworian"
+
  PROV5100: "Ijayie"
  PROV_ADJ5100: "Ijayiean"
  PROV5101: "Ijebu Ode"
@@ -559,35 +578,36 @@
  PROV_ADJ5198: "Takasaki"
  PROV5199: "Kizarasu"
  PROV_ADJ5199: "Kizarasu"
+
  PROV5200: "Saitama"
  PROV_ADJ5200: "Saitama"
  PROV5201: "Sado"
  PROV_ADJ5201: "Sado"
- PROV5202: "Fukushima
+ PROV5202: "Fukushima"
  PROV_ADJ5202: "Fukushima"
- PROV5203: "Iwaki
+ PROV5203: "Iwaki"
  PROV_ADJ5203: "Iwaki"
- PROV5204: "Niigata
+ PROV5204: "Niigata"
  PROV_ADJ5204: "Niigata"
- PROV5205: "Morioka
+ PROV5205: "Morioka"
  PROV_ADJ5205: "Morioka"
- PROV5206: "Tomakomai
+ PROV5206: "Tomakomai"
  PROV_ADJ5206: "Tomakomai"
- PROV5207: "Erimo
+ PROV5207: "Erimo"
  PROV_ADJ5207: "Erimo"
- PROV5208: "Kushiro
+ PROV5208: "Kushiro"
  PROV_ADJ5208: "Kushiro"
- PROV5209: "Nemuro
+ PROV5209: "Nemuro"
  PROV_ADJ5209: "Nemuro"
- PROV5210: "Kitami
+ PROV5210: "Kitami"
  PROV_ADJ5210: "Kitami"
- PROV5211: "Rumoi
+ PROV5211: "Rumoi"
  PROV_ADJ5211: "Rumoi"
- PROV5212: "Roschino
+ PROV5212: "Roschino"
  PROV_ADJ5212: "Roschino"
- PROV5213: "Sofiisk
+ PROV5213: "Sofiisk"
  PROV_ADJ5213: "Sofiisk"
- PROV5214: "Guga
+ PROV5214: "Guga"
  PROV_ADJ5214: "Guga"
 
 
@@ -696,3 +716,10 @@
  etchu_area: "Sisam'ota"
  east_hokkaido_area: "Paru'Mosir'Ota"
  oroch_area: "Oroch"
+ syrian_oases_area: "Syrian Oases"
+ syrian_oases_area_adj: "Syrian"
+ nabatea_area: "Nabuthia"
+ nabatea_area_adj: "Nabuthi"
+
+ mmf_kings_highway: "The King's Highway"
+ mmf_kings_canals: "The King's Canals"

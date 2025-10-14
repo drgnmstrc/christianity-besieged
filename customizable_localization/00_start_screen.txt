@@ -594,13 +594,19 @@ defined_text = {
 	name = StartScreenUpLeftDesc
 	random = no
 
-	#Later Start Dates
+	# Christianity Besieged: Reborn
 	text = {
-		localisation_key = string_start_age_of_reformation
+		localisation_key = string_start_nabatea
 		trigger = {
-			current_age = age_of_reformation
+			OR = {
+				capital_scope = {
+					region = mashriq_region
+				}
+				tag = NBT
+			}
 		}
 	}
+
 	text = {
 		localisation_key = string_start_age_of_absolutism
 		trigger = {

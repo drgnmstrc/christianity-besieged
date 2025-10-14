@@ -3,7 +3,7 @@
 owner = BRD
 controller = BRD
 add_core = BRD
-culture = almukhidi
+culture = haladri
 religion = sunni
 capital = "Bardiyah"
 trade_goods = dates

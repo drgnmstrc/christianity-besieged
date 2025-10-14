@@ -24,5 +24,6 @@
  CBSuriaitaEvents.6d: "The Cilician [CLC.Monarch.GetTitle] has subsided to our threats!"
  CBSuriaitaEvents.6a: "What a joyous day!"
  CBSuriaitaEvents.7t: "Syriac Patriarch Offers Communion"
- CBSuriaitaEvents.7d: "Yes!"
- CBSuriaitaEvents.7a: "No!"
+ CBSuriaitaEvents.7d: ""
+ CBSuriaitaEvents.7a: "Yes!"
+ CBSuriaitaEvents.7b: "No!"

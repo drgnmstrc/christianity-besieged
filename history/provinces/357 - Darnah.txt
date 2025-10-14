@@ -3,7 +3,7 @@
 owner = BRQ
 controller = BRQ
 add_core = BRQ
-culture = almukhidi
+culture = haladri
 religion = sunni
 capital = "Derna"
 trade_goods = silphium

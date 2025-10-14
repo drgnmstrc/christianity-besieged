@@ -111,6 +111,7 @@ SNS = "countries/Sinusea.txt"
 BRO = "countries/Bretona.txt"
 AEM = "countries/Aemilia.txt"
 PNN = "countries/Pannonia.txt"
+RTM = "countries/Arithmea.txt"
 
 #Iberian/Celtic
 CNT = "countries/Cantabria.txt"
@@ -460,7 +461,14 @@ QRQ = "countries/Qirq-Yer.txt"
 JSZ = "countries/Jaszsag.txt"
 BLZ = "countries/Bolokhoszag.txt"
 PLM = "countries/Palmyra.txt"
+RMT = "countries/Aramitheya.txt"
 MHZ = "countries/Manihozem.txt"
+FNQ = "countries/Fonniqa.txt"
+HDS = "countries/Hadashtim.txt"
+VSP = "countries/Vaspurakan.txt"
+ARZ = "countries/Arzanene.txt"
+SYU = "countries/Syunik.txt"
+UPR = "countries/Upper Armenia.txt"
 
 #Mongol
 BLK = "countries/Balikoplis.txt"
@@ -517,6 +525,7 @@ YAL = "countries/Yaliboylu.txt" #SOUTHEAST EUROPE MINIUPDATE - REVOLTER
 CMB = "countries/Cambrias.txt"
 GRC = "countries/Graecia.txt" #south italy formable
 GHL = "countries/Ghalu.txt" #Flag Taken from https://www.reddit.com/r/vexillology/comments/plfiea/islamic_ireland_concept/
+NBT = "countries/Nabatea.txt" #Flag taken from Post Finem: Far Lands Blemmyia (My previous work)
 
 #East Asian
 

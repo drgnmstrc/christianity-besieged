@@ -1,3 +1,84 @@
+# RULES
+# -ia -> -ya/-iya
+# -ium -> _
+# p -> b
+# v -> w
+# au -> aw
+# Format: ID = { "Province" "Capital" } # Origin
+
+## IBERIA
+
+# Aragon
+211 = { "Washqah" "Washqah" } # Huesca
+214 = { "Sarawqus" "Sarawqus" } # Caesaraugusta
+4557 = { "Qalatayub" "Qalatayub" } # Calatayud
+2990 = { "Thirol" "Thirol" } # Teruel
+
+# Catalonia
+197 = { "Ar-Rushin" "Barbanya" } # Ruscino, Perpignan
+212 = { "Al-Awsitanya" "Garon" } # Ausetani, Girona
+213 = { "Barshalona" "Barshalona" } # Bar
+2987 = { "Orghil" "Tarak" }
+2988 = { "Taraqonah" "Taraqonah" }
+
+# Valencia
+220 = { "Balansiyah" "Balansiyah" }
+1750 = { "Medina" "Medina" }
+
+# Lower Andalucia
+224 = { "Isbiliya" "Isbiliya" }
+225 = { "Qurtuba" "Qurtuba" }
+1748 = { "Jayyan" "Jayyan" }
+1749 = { "Qadis" "Qadis" }
+
+# Upper Andalucia
+222 = { "Marriya" "Marriya" }
+223 = { "Garnatah" "Garnatah" }
+226 = { "Jabal" "Jabal" }
+
+# Toledo
+219 = { "Tulaytullah" "Tulaytullah" }
+221 = { "Mursiya" "Mursiya" }
+
+# Baleares
+333 = { "Mayurqa" "Mayurqa" }
+209 = { "Bisakay" "Bisakay" }
+210 = { "Banbaluna" "Banbaluna" }
+
+# Extredamura
+218 = { "Batalyaws" "Batalyaws" }
+1747 = { "El-Belat" "El-Belat" }
+
+# Alentejo
+227 = { "Lixbuna" "Lixbuna" }
+229 = { "Baja" "Baja" }
+230 = { "Shilb" "Shilb" }
+
+# Galicia
+5172 = { "Bretoña" "Cidáde Bretoñés" } # Bretony/Bretonia, "City of the Bretons"
+206 = { "La Croña" "La Croña" } # A Coruña/"The Crown"
+4554 = { "Aósti" "Aósti" } # Lucus Augusti
+4555 = { "Pónthibetèr" "Pónthibetèr" } # Ponte Vetera
+4558 = { "Bórgas" "Bórgas" } # Burgas
+
+# Beieras
+231 = { "Pórtho" "Pórtho" } # Portus
+232 = { "Bercánz" "Bercánz" } # Bragança
+228 = { "Baíra" "Baíra" } # Bayïr
+4556 = { "Abéria" "Bizaya" } # Aber, Vissaium
+1851 = { "Conímbèrca" "Conímbèrca" } # Conimbraga
+
+# León
+216 = { "Elemánthica" "Elemánthica" } # Helmantike
+4553 = { "Zemór" "Zemór" } # Semure
+208 = { "Leyóna" "Leyóna" } # Legion
+
+# North Castile
+4552 = { "Palanz" "Palanz" } # Palencia
+1746 = { "Cílía" "Cílía" } # Qila
+1745 = { "Canthábra" "Sànthoré" } # Cantabria, Sanctus Rex
+207 = { "Usturya" "Òbi" } # Asturias, Uviéu
+
 ## FRANCE
 
 # normandy_area
@@ -13,7 +94,7 @@
 180 = { "Bawatu" "Bawatu" }
 
 # guyenne_area
-174 = { "Ghaskunia" "Ghaskunia" }
+174 = { "Ghaskuniya" "Ghaskuniya" }
 194 = { "Brjrak" "Brjrak" }
 198 = { "Rudiz" "Rudiz" }
 
@@ -54,7 +135,7 @@
 
 # champagne_area
 181 = { "Rutil" "Rutil" }
-186 = { "Shambania" "Shambania" }
+186 = { "Shambaniya" "Shambaniya" }
 
 # orleans_area
 179 = { "Burajiz" "Burajiz" }
@@ -150,7 +231,7 @@
 # venetia_area
 108 = { "Fiyruna" "Fiyruna" }
 111 = { "Faryuly" "Faryuly" }
-112 = { "al-Bunduqia" "al-Bunduqia" }
+112 = { "al-Bunduqiya" "al-Bunduqiya" }
 1774 = { "Tryfizu" "Tryfizu" }
 
 # lombardy_area
@@ -189,7 +270,7 @@
 
 # calabria_area
 123 = { "Rivah" "Rivah" }
-1934 = { "Lawkania" "Lawkania" }
+1934 = { "Lawkaniya" "Lawkaniya" }
 
 # apulia_area
 122 = { "Salntu" "Salntu" }
@@ -209,11 +290,11 @@
 1771 = { "Jibal" "Jibal" }
 
 # lusatia_area
-60 = { "Lusatia" "Lusatia" }
-1763 = { "Lusatia" "Lusatia" }
+60 = { "Lusatiya" "Lusatiya" }
+1763 = { "Lusatiya" "Lusatiya" }
 
 # moravia_area
-265 = { "Murafia" "Murafia" }
+265 = { "Murafiya" "Murafiya" }
 4237 = { "Salighu" "Salighu" }
 
 # south_saxony_area
@@ -240,7 +321,7 @@
 # north_rhine_area
 83 = { "Nasu" "Nasu" }
 84 = { "Bargh" "Bargh" }
-85 = { "Kulunia" "Kulunia" }
+85 = { "Kuluniya" "Kuluniya" }
 
 # lower_rhineland_area
 80 = { "Tarir" "Tarir" }
@@ -341,7 +422,7 @@
 # karelia_area
 30 = { "Fayburgh" "Fayburgh" }
 33 = { "Sanat" "Sanat" }
-34 = { "Injaria" "Injaria" }
+34 = { "Injariya" "Injariya" }
 1961 = { "Ladugha" "Ladugha" }
 32 = { "Brywzorsik" "Brywzorsik" }
 309 = { "Uwlunats" "Uwlunats" }
@@ -397,7 +478,7 @@
 
 # pomor_area
 313 = { "Arkhanghlsk" "Arkhanghlsk" }
-1776 = { "Karilia" "Karilia" }
+1776 = { "Kariliya" "Kariliya" }
 1958 = { "Karghubul" "Karghubul" }
 
 # arkhangelsk_area
@@ -431,7 +512,7 @@
 
 # volga_area
 4265 = { "Faluri" "Faluri" }
-4267 = { "Aytulia" "Aytulia" }
+4267 = { "Aytuliya" "Aytuliya" }
 
 # galich_area
 306 = { "Nijni" "Nijni" }
@@ -442,7 +523,7 @@
 # kama_area
 305 = { "Biram" "Biram" }
 1962 = { "Kudimkar" "Kudimkar" }
-1972 = { "Udamurtia" "Udamurtia" }
+1972 = { "Udamurtiya" "Udamurtiya" }
 4266 = { "Duras" "Duras" }
 
 # saratov_area
@@ -453,64 +534,6 @@
 1755 = { "Uwstiugh" "Uwstiugh" }
 1963 = { "Tushayrdin" "Tushayrdin" }
 1964 = { "Siaktifkar" "Siaktifkar" }
-
-## IBERIA
-
-# aragon_area
-211 = { "Wasqah" "Wasqah" }
-214 = { "Saraqusta" "Saraqusta" }
-
-# catalonia_area
-197 = { "Rusiun" "Rusiun" }
-212 = { "Garundah" "Garundah" }
-213 = { "Barshaluna" "Barshaluna" }
-
-# valencia_area
-220 = { "Balansiyah" "Balansiyah" }
-1750 = { "Medina" "Medina" }
-
-# lower_andalucia_area
-224 = { "Isbiliya" "Isbiliya" }
-225 = { "Qurtuba" "Qurtuba" }
-1748 = { "Jayyan" "Jayyan" }
-1749 = { "Qadis" "Qadis" }
-
-# upper_andalucia_area
-222 = { "Marriya" "Marriya" }
-223 = { "Garnatah" "Garnatah" }
-226 = { "Jabal" "Jabal" }
-
-# toledo_area
-219 = { "Tulaytullah" "Tulaytullah" }
-221 = { "Mursiya" "Mursiya" }
-
-# asturias_area
-207 = { "Usturias" "Usturias" }
-1745 = { "Kantabria" "Kantabria" }
-1746 = { "Qila" "Qila" }
-
-# galicia_area
-206 = { "Shant" "Shant" }
-
-# baleares_area
-333 = { "Mayurqa" "Mayurqa" }
-209 = { "Bisakay" "Bisakay" }
-210 = { "Banbaluna" "Banbaluna" }
-
-# extremadura_area
-218 = { "Batalyaws" "Batalyaws" }
-1747 = { "El-Belat" "El-Belat" }
-
-# beieras_area
-228 = { "al-Adna" "al-Adna" }
-231 = { "Burtuqal" "Burtuqal" }
-232 = { "Baraghansa" "Baraghansa" }
-1851 = { "Qulumriya" "Qulumriya" }
-
-# alentejo_area
-227 = { "Lixbuna" "Lixbuna" }
-229 = { "Baja" "Baja" }
-230 = { "Shilb" "Shilb" }
 
 ## BRITISH_ISLES
 
@@ -545,7 +568,7 @@
 # scottish_marches_area
 244 = { "Lainkishayir" "Lainkishayir" }
 246 = { "Nurthmbrland" "Nurthmbrland" }
-247 = { "Kambria" "Kambria" }
+247 = { "Kambriya" "Kambriya" }
 
 # yorkshire_area
 245 = { "Yurikshayir" "Yurikshayir" }
@@ -579,7 +602,7 @@
 1842 = { "Narifaan" "Narifaan" }
 
 # livonia_area
-37 = { "Lifunia" "Lifunia" }
+37 = { "Lifuniya" "Lifuniya" }
 38 = { "Righa" "Righa" }
 273 = { "Aittighal" "Aittighal" }
 4241 = { "Dunijal" "Dunijal" }
@@ -592,7 +615,7 @@
 # east_prussia_area
 40 = { "Kallaybida" "Kallaybida" }
 41 = { "Kunighsbrgh" "Kunighsbrgh" }
-42 = { "Armia" "Armia" }
+42 = { "Armiya" "Armiya" }
 2958 = { "Natshiz" "Natshiz" }
 
 # west_prussia_area
@@ -618,7 +641,7 @@
 2960 = { "Tashatanugha" "Tashatanugha" }
 
 # red_ruthenia_area
-261 = { "Rutinia" "Rutinia" }
+261 = { "Rutiniya" "Rutiniya" }
 1940 = { "Bilz" "Bilz" }
 
 # mazovia_area
@@ -650,7 +673,7 @@
 1943 = { "Awman" "Awman" }
 
 # volhynia_area
-279 = { "Fulinia" "Fulinia" }
+279 = { "Fuliniya" "Fuliniya" }
 
 # pripyat_area
 278 = { "Binsik" "Binsik" }
@@ -676,7 +699,7 @@
 
 # sloboda_ukraine_area
 291 = { "Kharakif" "Kharakif" }
-298 = { "Muldufia" "Muldufia" }
+298 = { "Muldufiya" "Muldufiya" }
 299 = { "Fwrunij" "Fwrunij" }
 
 # white_ruthenia_area
@@ -701,7 +724,7 @@
 1974 = { "Khayrisun" "Khayrisun" }
 
 # zaporizhia_area
-283 = { "Zaburizhia" "Zaburizhia" }
+283 = { "Zaburizhiya" "Zaburizhiya" }
 
 # azov_area
 286 = { "Azuf" "Azuf" }
@@ -721,15 +744,15 @@
 467 = { "Bwrisughlibsk" "Bwrisughlibsk" }
 1971 = { "Fawalghughrad" "Fawalghughrad" }
 
-## BALKAN
+## BALKANS
 
 # macedonia_area
 148 = { "Aiyum" "Aiyum" }
-1853 = { "Kasturia" "Kasturia" }
+1853 = { "Kasturiya" "Kasturiya" }
 4702 = { "Manurqa" "Manurqa" }
 
 # morea_area
-145 = { "Muria" "Muria" }
+145 = { "Muriya" "Muriya" }
 146 = { "Dhisiqliya" "Dhisiqliya" }
 163 = { "Iqritiya" "Iqritiya" }
 1773 = { "Akhaya" "Akhaya" }
@@ -742,12 +765,12 @@
 
 # thrace_area
 149 = { "Adrina" "Adrina" }
-151 = { "al-Qustantinia" "al-Qustantinia" }
+151 = { "al-Qustantiniya" "al-Qustantiniya" }
 1764 = { "Burghas" "Burghas" }
 
 # bulgaria_area
 150 = { "Trnufu" "Trnufu" }
-1765 = { "Sufia" "Sufia" }
+1765 = { "Sufiya" "Sufiya" }
 4703 = { "Yabisa" "Yabisa" }
 
 # silistria_area
@@ -772,24 +795,24 @@
 
 # slavonia_area
 152 = { "Farazidin" "Farazidin" }
-1767 = { "Silafunia" "Silafunia" }
+1767 = { "Silafuniya" "Silafuniya" }
 
 # east_adriatic_coast_area
-136 = { "Dalmasia" "Dalmasia" }
+136 = { "Dalmasiya" "Dalmasiya" }
 137 = { "Raghuza" "Raghuza" }
 
 ## CARPATHIA
 
 # wallachia_area
-160 = { "Uwltinia" "Uwltinia" }
-161 = { "Muntinia" "Muntinia" }
+160 = { "Uwltiniya" "Uwltiniya" }
+161 = { "Muntiniya" "Muntiniya" }
 3017 = { "Antikusti" "Antikusti" }
 
 # moldavia_area
-1756 = { "Bisarabia" "Bisarabia" }
+1756 = { "Bisarabiya" "Bisarabiya" }
 
 # transylvania_area
-157 = { "Uwradia" "Uwradia" }
+157 = { "Uwradiya" "Uwradiya" }
 1952 = { "Maramurish" "Maramurish" }
 
 # southern_transylvania_area
@@ -941,7 +964,7 @@
 2299 = { "Bim" "Bim" }
 
 # karaman_area
-323 = { "Qunia" "Qunia" }
+323 = { "Quniya" "Quniya" }
 
 # cukurova_area
 321 = { "Qubrus" "Qubrus" }
@@ -1039,7 +1062,7 @@
 
 # imereti_area
 422 = { "Kutaysi" "Kutaysi" }
-462 = { "Minghrilia" "Minghrilia" }
+462 = { "Minghriliya" "Minghriliya" }
 
 # samtskhe_area
 2196 = { "Ajmar" "Ajmar" }
@@ -1051,7 +1074,7 @@
 
 # armenia_area
 419 = { "Arminiya" "Arminiya" }
-420 = { "Ghania" "Ghania" }
+420 = { "Ghaniya" "Ghaniya" }
 2202 = { "Ghudhra" "Ghudhra" }
 2205 = { "Bubal" "Bubal" }
 
@@ -1134,17 +1157,17 @@
 
 # jenne_area
 1134 = { "Junni" "Junni" }
-2261 = { "Qubradinia" "Qubradinia" }
+2261 = { "Qubradiniya" "Qubradiniya" }
 2263 = { "Mahj" "Mahj" }
 
 # upper_volta_area
 1135 = { "Yateynaja" "Yateynaja" }
 1136 = { "Ghurma" "Ghurma" }
 2265 = { "Tilafy" "Tilafy" }
-2266 = { "Ghuria" "Ghuria" }
+2266 = { "Ghuriya" "Ghuriya" }
 
 # kong_area
-2252 = { "Sadia" "Sadia" }
+2252 = { "Sadiya" "Sadiya" }
 2253 = { "Manibur" "Manibur" }
 
 # lower_volta_area
@@ -1244,7 +1267,7 @@
 # niger_bend_area
 1132 = { "Tambakutu" "Tambakutu" }
 1133 = { "Jaw" "Jaw" }
-2260 = { "Sharkisia" "Sharkisia" }
+2260 = { "Sharkisiya" "Sharkisiya" }
 2262 = { "Tirak" "Tirak" }
 2264 = { "Ghruzni" "Ghruzni" }
 
@@ -1255,7 +1278,7 @@
 2284 = { "Qazwin" "Qazwin" }
 
 # kanem_area
-1158 = { "al-Kanmia" "al-Kanmia" }
+1158 = { "al-Kanmiya" "al-Kanmiya" }
 1159 = { "Baqurmy" "Baqurmy" }
 2287 = { "Urdakan" "Urdakan" }
 
@@ -1274,7 +1297,7 @@
 # ogaden_area
 1207 = { "Awghadin" "Awghadin" }
 1208 = { "Firdir" "Firdir" }
-1210 = { "al-Hadia" "al-Hadia" }
+1210 = { "al-Hadiya" "al-Hadiya" }
 
 # dongola_area
 1220 = { "al-Biwd" "al-Biwd" }
@@ -1358,7 +1381,7 @@
 # arys_area
 457 = { "Tashqand" "Tashqand" }
 2356 = { "Qaewar" "Qaewar" }
-2364 = { "Qaysaria" "Qaysaria" }
+2364 = { "Qaysariya" "Qaysariya" }
 
 # kyzylkum_area
 1970 = { "Sayaghnik" "Sayaghnik" }
@@ -1372,7 +1395,7 @@
 # khiva_area
 440 = { "Qarqukbaghiun" "Qarqukbaghiun" }
 441 = { "Khawarizim" "Khawarizim" }
-1973 = { "Jurjania" "Jurjania" }
+1973 = { "Jurjaniya" "Jurjaniya" }
 2362 = { "Samisun" "Samisun" }
 
 # transcaspia_area
@@ -1506,7 +1529,7 @@
 1052 = { "Stanufywy" "Stanufywy" }
 
 # yakutia_area
-1045 = { "Yaqutia" "Yaqutia" }
+1045 = { "Yaqutiya" "Yaqutiya" }
 1054 = { "Mukhattiaan" "Mukhattiaan" }
 2435 = { "Narin" "Narin" }
 2437 = { "al-Awral" "al-Awral" }
@@ -1520,7 +1543,7 @@
 1055 = { "Kirangha" "Kirangha" }
 1056 = { "Barghazn" "Barghazn" }
 1057 = { "Uwdy" "Uwdy" }
-1058 = { "Burzia" "Burzia" }
+1058 = { "Burziya" "Burziya" }
 2446 = { "Zahar" "Zahar" }
 
 ## MONGOLIA
@@ -1590,7 +1613,7 @@
 2065 = { "Ghun" "Ghun" }
 
 # sind_sagar_area
-2077 = { "Jurjia" "Jurjia" }
+2077 = { "Jurjiya" "Jurjiya" }
 
 # oudh_area
 523 = { "Lkhnu" "Lkhnu" }
@@ -1800,10 +1823,10 @@
 
 # taiwan_area
 2154 = { "Bwakufyna" "Bwakufyna" }
-2155 = { "Bumirania" "Bumirania" }
+2155 = { "Bumiraniya" "Bumiraniya" }
 
 # guangdong_area
-2156 = { "Wabia" "Wabia" }
+2156 = { "Wabiya" "Wabiya" }
 2157 = { "Shari" "Shari" }
 
 # hunan_area
@@ -1853,7 +1876,7 @@
 
 # pontal_area
 2909 = { "Arkan" "Arkan" }
-2910 = { "Qahria" "Qahria" }
+2910 = { "Qahriya" "Qahriya" }
 2911 = { "Yarminaka" "Yarminaka" }
 
 # mato_grosso_area
@@ -1980,7 +2003,7 @@
 987 = { "Shallalat" "Shallalat" }
 
 # upper_ontario_area
-2015 = { "Ghamabia" "Ghamabia" }
+2015 = { "Ghamabiya" "Ghamabiya" }
 2671 = { "al-Hamasin" "al-Hamasin" }
 
 # huronia_area
@@ -1997,7 +2020,7 @@
 
 # connecticut_valley_area
 2010 = { "Arilun" "Arilun" }
-2560 = { "Buria" "Buria" }
+2560 = { "Buriya" "Buriya" }
 
 # new_york_area
 965 = { "Garnatah" "Garnatah" }
@@ -2089,7 +2112,7 @@
 
 # alaska_area
 978 = { "Kunay" "Kunay" }
-979 = { "al-Alyutia" "al-Alyutia" }
+979 = { "al-Alyutiya" "al-Alyutiya" }
 2611 = { "Tayn" "Tayn" }
 
 # east_alaska_area
@@ -2166,7 +2189,7 @@
 2644 = { "Kuatzakwalikus" "Kuatzakwalikus" }
 
 # guerrero_area
-2627 = { "Nikawia" "Nikawia" }
+2627 = { "Nikawiya" "Nikawiya" }
 2645 = { "Tashtabik" "Tashtabik" }
 2648 = { "Tahwakan" "Tahwakan" }
 

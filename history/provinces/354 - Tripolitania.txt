@@ -3,7 +3,7 @@
 owner = TRP
 controller = TRP
 add_core = TRP
-culture = almukhidi
+culture = haladri
 religion = sunni
 capital = "Tripoli" #Tripoli in the West.
 #estate = estate_nobles

@@ -1278,6 +1278,10 @@ al_jazira_area = { #5
 	407 411 2309 2314 4292
 }
 
+syrian_oases_area = {
+	3028 3029 3030
+}
+
 
 ########################################
 # Arabia							   #
@@ -1292,11 +1296,11 @@ pirate_coast_area = { #4
 }
 
 nafud_area = { #3
-	393 2338 4272
+	393 2338 2328
 }
 
 tabuk_area = { #4
-	383 2328 5174 4269
+	383 5174 4269
 }
 
 medina_area = { #3
@@ -1356,6 +1360,10 @@ mascat_area = { #3 (Batinah and Muscat coast
 syrian_desert_area = { #3
 	color = { 219 30 57 }
 	405 4270 4271
+}
+
+nabatea_area = {
+	3031 3032 3033 4272
 }
 
 ########################################

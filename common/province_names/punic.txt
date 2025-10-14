@@ -47,9 +47,15 @@
 126 = { "Malath" "Malath" } # Malta
 
 # Western Sicily
-125 = { "Balarmo" "Balarmo" } # Palermo
+125 = { "Šiš" "Šiš" } # Palermo
 4736 = { "Thrapon" "Thrapon" } # Trapani
 4737 = { "Gargant" "Gargant" } # Girgenti
+
+# Tyrrhenian Isles
+2986 = { "Karali" "Karali" } # Cagliari
+4735 = { "Karma" "Karma" } # Tharros
+127 = { "Tathar" "Tathar" } # Tatari
+1247 = { "Kursi" "Kursi" } # Corsica
 
 ## MAGHREB
 

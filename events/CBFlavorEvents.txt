@@ -1354,3 +1354,78 @@ province_event = { # Pilgrims from the East Settle in [Root.GetName]
 		}
 	}
 }
+
+province_event = { # Rex Britannicus?
+	id = CBFlavorEvents.21
+	title = CBFlavorEvents.21t
+	desc = CBFlavorEvents.21d
+	picture = CITY_VIEW_eventPicture
+	fire_only_once = yes
+	mean_time_to_happen = {
+		years = 100
+	}
+	trigger = { owned_by = PLM area = syria_area has_port = yes }
+	option = { # King? Well, I didn't vote for ya!
+		name = CBFlavorEvents.21a
+	}
+
+	option = { # Welcome, Britons!
+		name = CBFlavorEvents.21b
+		change_culture = bretono
+		change_religion = riothemism
+		owner = {
+			change_primary_culture = bretono
+			change_religion = riothemism
+			change_tag = RMT
+			define_ruler = {
+				age = 43
+				name = "Ártor"
+				dynasty = "Pendráco"
+				mil = 6
+				dip = 6
+				adm = 6
+				culture = bretono
+				religion = riothemism
+			}
+			hidden_effect = {
+				every_owned_province = {
+					random_list = {
+						25 = {
+							change_religion = riothemism
+						}
+						50 = {
+							
+						}
+					}
+				}
+			}
+			capital_scope = {
+			change_culture = bretono
+			change_religion = riothemism
+			}
+		}
+	}
+}
+
+country_event = { # Rex Britannicus?
+	id = CBFlavorEvents.22
+	title = CBFlavorEvents.22t
+	desc = CBFlavorEvents.22d
+	picture = CITY_VIEW_eventPicture
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_country_flag = nabuthia_startup }
+		tag = NBT
+	}
+
+	option = { # Friends in high places, indeed! 
+		name = CBFlavorEvents.22a
+		capital_scope = {
+			houfnice = ROOT
+			houfnice = ROOT
+		}
+		set_country_flag = nabuthia_startup
+	}
+}

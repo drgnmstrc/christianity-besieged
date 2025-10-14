@@ -1,7 +1,7 @@
 #2307 - Van
 
-owner = ARM
-controller = ARM
+owner = VSP
+controller = VSP
 culture = armenian
 religion = manichaeism
 capital = "Van"
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = ARM
+add_core = VSP
 discovered_by = east_african
 discovered_by = western
 discovered_by = near_east

@@ -716,7 +716,8 @@ SRY_4 = {
 			palestine_area = { add_permanent_claim = PLM }
 			trans_jordan_area = { add_permanent_claim = PLM }
 			tabuk_area = { add_permanent_claim = PLM }
-			nafud_area = { add_permanent_claim = PLM }
+			nabatea_area = { add_permanent_claim = PLM }
+			syrian_oases_area = { add_permanent_claim = PLM }
 		}
 	}
 
@@ -847,7 +848,8 @@ SRY_5 = {
 		provinces_to_highlight = {
 			OR = {
 				area = tabuk_area
-				area = nafud_area
+				area = nabatea_area
+				area = syrian_oases_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -858,17 +860,20 @@ SRY_5 = {
 				country_or_non_sovereign_subject_holds = ROOT
 				infantry_in_province = 1
 			}
-			nafud_area = {
+			nabatea_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 				infantry_in_province = 1
+			}
+			syrian_oases_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 
 		effect = {
 			379 = { set_great_project_tier_2 = { type = holy_city_jerusalem } }
 			tabuk_area = {
-				add_permanent_claim = ROOT
 				kill_units = {
 					amount = 1
 				}
@@ -887,15 +892,14 @@ SRY_5 = {
 					duration = 18250
 				}
 			}
-			393 = {
+			4272 = {
 				add_or_upgrade_fort_building = yes
 				add_province_modifier = {
 					name = ned_fixed_garrisons
 					duration = 18250
 				}
 			}
-			nafud_area = {
-				add_permanent_claim = ROOT
+			nabatea_area = {
 				kill_units = {
 					amount = 1
 				}

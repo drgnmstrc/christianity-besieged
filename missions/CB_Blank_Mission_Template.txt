@@ -1,0 +1,70 @@
+# This MT is only for the purposes of prepping highlighted provinces, triggers, and effects for porting into PNE
+cb_template_series = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+	}
+	has_country_shield = yes
+	cb_template_mission = {
+		position = 1
+		icon = mission_rb_conquer_the_highlands
+		required_missions = { }
+		provinces_to_highlight = {
+
+		}
+		trigger = {
+OR = {
+	AND = {
+		has_country_flag = persarmenia_chosen
+		ERS = {
+			owes_favors = {
+				who = ROOT
+				value = 30
+			}
+		}
+	}
+	AND = {
+		has_country_flag = greater_armenia_chosen
+		num_of_allies = 3
+	}
+	AND = {
+		has_country_flag = mithridatic_restoration_chosen
+		PNT = {
+			owes_favors = {
+				who = ROOT
+				value = 30
+			}
+		}
+	}
+}
+		}
+		effect = {
+if = {
+	limit = { has_country_flag = persarmenia_chosen }
+	ERS = {
+		country_event = {
+			id = CBHayastanEvents.0
+		}
+	}
+}
+else_if = {
+	limit = { has_country_flag = greater_armenia_chosen }
+		declare_war_with_cb = {
+			casus_belli = cb_fabricated_claims
+			who = ERS
+			war_goal_province = 416
+		}
+}
+else_if = {
+	limit = { has_country_flag = mithridatic_restoration_chosen }
+	PNT = {
+		country_event = {
+			id = CBHayastanEvents.0
+		}
+	}
+}
+		}
+	}
+}

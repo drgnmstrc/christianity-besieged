@@ -252,7 +252,7 @@ country_event = {# Syriac Patriarch offers communion
 	picture = AULIC_COUNCIL_eventPicture
 	is_triggered_only = yes
 	option = { # Yes!
-		name = CBSuriaitaEvents.6a
+		name = CBSuriaitaEvents.7a
 		SRY = {
 			create_subject = {
 				subject_type = syriac_brotherhood
@@ -261,7 +261,7 @@ country_event = {# Syriac Patriarch offers communion
 		}
 	}
 	option = { # No!
-		name = CBSuriaitaEvents.6a
+		name = CBSuriaitaEvents.7b
 		SRY = {
 			add_casus_belli = {
 				type = cb_force_communion

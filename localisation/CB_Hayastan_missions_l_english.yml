@@ -1,0 +1,67 @@
+﻿l_english:
+ ARM_restoring_cletical_trust_title: "Restoring Clerical Trust"
+ ARM_restoring_cletical_trust_desc: ""
+
+ ARM_religious_diplomacy_title: "Religious Diplomacy"
+ ARM_religious_diplomacy_desc: ""
+
+ ARM_faith_of_the_east_title: "A Faith of the East"
+ ARM_faith_of_the_east_desc: ""
+
+ ARM_integrate_vaspurakan_title: "Integrate Vaspurakan"
+ ARM_integrate_vaspurakan_desc: ""
+
+ ARM_concentrated_investments_title: "Concentrated Investments"
+ ARM_concentrated_investments_desc: ""
+
+ ARM_provincial_loyalty_title: "Provincial Loyalty"
+ ARM_provincial_loyalty_desc: ""
+
+ ARM_some_call_it_persuasion_title: "Some Call it 'Persuasion'"
+ ARM_some_call_it_persuasion_desc: ""
+
+ ARM_preparing_for_future_title: "Preparing for the Future"
+ ARM_preparing_for_future_desc: ""
+
+ ARM_approaching_the_court_title: "Approaching the Court"
+ ARM_approaching_the_court_desc: ""
+
+ ARM_integrate_upper_armenia_title: "Integrate Upper Armenia"
+ ARM_integrate_upper_armenia_desc: ""
+
+ ARM_a_test_of_allegiance_title: "A Test of Alliegance"
+ ARM_a_test_of_allegiance_desc: ""
+
+ ARM_disestablish_the_nobility_title: "Disestablish the Nobility"
+ ARM_disestablish_the_nobility_desc: ""
+
+ ARM_licking_our_wounds_title: "Licking Our Wounds"
+ ARM_licking_our_wounds_desc: ""
+
+ ARM_reorganize_the_ashkharhen_title: "Reorganize the Ashkharhner"
+ ARM_reorganize_the_ashkharhen_desc: ""
+
+ ARM_audience_with_the_monarch_title: "Audience with the [Root.Monarch.GetTitle]"
+ ARM_audience_with_the_monarch_desc: ""
+
+ ARM_the_road_forward_title: "The Road Forward"
+ ARM_the_road_forward_desc: ""
+
+ ARM_managing_the_nobility_title: "Managing the Nobility"
+ ARM_managing_the_nobility_desc: ""
+
+ ARM_assessing_noble_allies_title: "Assessing Noble Allies"
+ ARM_assessing_noble_allies_desc: ""
+
+ ARM_integrate_syunik_title: "Integrate Syunik"
+ ARM_integrate_syunik_desc: ""
+
+ ARM_integrate_arzanene_title: "Integrate Arzanene"
+ ARM_integrate_arzanene_desc: ""
+
+
+ blank: ""
+ enables_council_of_atropatene_tt: "Enables the §YCouncil of Atropatene§!"
+ persarmenia_branch_tt: "If we chose to align with [ERS.GetName]:"
+ greater_armenia_branch_tt: "If we chose not to align with anyone:"
+ mithridatic_restoration_branch_tt: "If we chose to align with [PNT.GetName]:"

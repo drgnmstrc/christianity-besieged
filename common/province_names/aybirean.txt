@@ -1,0 +1,104 @@
+# RULES
+# -ia -> -ya/-iya/-iyah
+# -ium -> _
+# p -> b
+# v -> w
+# au -> aw
+# s/š -> th
+# ti -> ši
+# Format: ID = { "Province" "Capital" } # Origin
+
+## IBERIA
+
+# Aragon
+211 = { "Wašqah" "Wašqah" } # Huesca
+214 = { "Sarawqus" "Sarawqus" } # Caesaraugusta
+2990 = { "Thirol" "Thirol" } # Teruel
+4557 = { "Qalatayub" "Qalatayub" } # Calatayud
+
+# Catalonia
+197 = { "Ar-Rušin" "Barbanya" } # Ruscino, Perpignan
+212 = { "Al-Awsetanya" "Garon" } # Ausetani, Girona
+213 = { "Barthalona" "Barthalona" } # Barcelona
+2987 = { "Orghil" "Tarak" } # Urgell, Tárrega
+2988 = { "Taraqonah" "Taraqonah" } # Tarragona
+
+# Valencia
+220 = { "Balenthiyah" "Balenthiyah" } # Valentia
+1750 = { "Al-Luqant" "Al-Luqant" } # Lucentum
+4549 = { "Šathibah" "Šathibah" } # Xativa
+4550 = { "Al-Qeriya" "Al-Qeriya" } # Al-qaria "Village"
+
+# Lower Andalucia
+224 = { "Išebiliya" "Išebaliya" } # Hispalis
+225 = { "Qorthoba" "Qorthoba" } # Corduba
+1748 = { "Jayan" "Jayan" } # Jaen
+1749 = { "Qadis" "Qadis" } # Gades
+4548 = { "Wolba" "Wolba" } # Huelva
+
+# Upper Andalucia
+222 = { "Al-Mariya" "Al-Mariya" } # Almería
+223 = { "Igharnathah" "Igharnathah" } # Granada
+226 = { "Monés Qalba" "Monés Qalba" } # Mons Calpe
+4546 = { "Malaqah" "Malaqah" } # Malaga
+
+# Toledo
+219 = { "Tolétho" "Tolétho" } # Toledo
+221 = { "Murthíya" "Murthíya" } # Murcia
+2751 = { "Kunka" "Kunka" } # Cuenca
+2754 = { "Al-Manša" "Al-Manša" } # La Mancha
+4547 = { "Al-Basith" "Al-Basith" } # Albacete
+
+# Baleares
+333 = { "Mayurqa" "Medinat Mayurqa" } # Mallorca
+4560 = { "Yubítha" "Yubítha" } # Ibiza/Ebusus
+4559 = { "Minuriqa" "Minuriqa" } # Minorca
+
+# Extredamura
+218 = { "Bathalyóth" "Bathalyóth" } # Badajóz
+4788 = { "Qasera" "Qasera" } # "Castle"
+1747 = { "Ambrasiya" "Ambrasiya" } # Ambracia
+
+# Alentejo
+227 = { "Lišbuna" "Lišbuna" } # Lisboa
+229 = { "Baja" "Baja" } # Beja
+230 = { "Al-Gharb" "Al-Gharb" } # Algarve
+4150 = { "Yábora" "Yábora" } # Évora
+4787 = { "Riwateghos" "Riwateghos" } # Ribatejo
+
+# Galicia
+5172 = { "Brithunya" "Thudhad Al-Brithunyi" } # Bretony/Bretonia, "City of the Bretons"
+206 = { "Al-Aqurun" "Al-Aqurun" } # A Coruña/"The Crown"
+4554 = { "Áwsti" "Áwsti" } # Lucus Augusti
+4555 = { "Bontibatrah" "Bontibatrah" } # Ponte Vetera
+4558 = { "Búrgas" "Búrgas" } # Burgas
+
+# Beieras
+231 = { "Bórthu" "Bórthu" } # Portus
+232 = { "Brekánth" "Brekánth" } # Bragança
+228 = { "Bayira" "Bayira" } # Bayïr
+4556 = { "Abariya" "Bithaya" } # Aber, Vissaium
+1851 = { "Qulumriyah" "Qulumriyah" } # Conimbraga
+
+# León
+216 = { "Limanthiq" "Limanthiq" } # Helmantike
+4553 = { "Zamór" "Zamór" } # Semure
+208 = { "Liyón" "Liyón" } # Legion
+
+# North Castile
+4552 = { "Balanth" "Balanth" } # Palencia
+1746 = { "Qíla" "Qíla" } # Qila
+1745 = { "Shanthabriya" "Sànthureqa" } # Cantabria, Sanctus Rex
+207 = { "Usturya" "Úbiw" } # Asturias, Uviéu
+
+# South Castile
+215 = { "Balad Al-Walid" "Balad Al-Walid" } # Valladolid
+217 = { "Majrith" "Majrith" } # Madrid
+4789 = { "Šiqobiyah" "Šiqobiyah" } # Segovia
+2755 = { "Súrya" "Súrya" } # Soria
+4551 = { "Abílah" "Abílah" } # Avíla
+
+# Navarra
+209 = { "Bithkaya" "Bithkaya" } # Vizcaya
+2989 = { "Ar-Ryughah" "Ar-Ryughah" } # La Rioja
+210 = { "Banbálonya" "Banbálonya" } # Pamplona

@@ -53,6 +53,7 @@ on_startup = {
 		athyubia.0 #What's Ethiopia called again?
 		CBFlavorEvents.12 #Orase Rumana event
 		manidoom.1 #Darkness Mechanic introduction
+		CBFlavorEvents.22 # Nabuthia Gets Cannons
 	}
 	if = {
 		limit = {

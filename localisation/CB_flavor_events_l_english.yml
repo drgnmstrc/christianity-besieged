@@ -81,3 +81,7 @@
  CBFlavorEvents.20t: "Pilgrims from the East Settle in [Root.GetName]"
  CBFlavorEvents.20d: "A recent group of pilgrims have settled in [Root.GetName], deciding to make the Holy Land their home."
  CBFlavorEvents.20a: "Welcome!"
+ CBFlavorEvents.21t: "Rex Britannicus?"
+ CBFlavorEvents.21d: "Today, a strange ship docked in the ports of [Root.GetName]. With much fanfare, a tall, red-haired man disembarked and loudly declared 'Só Ártor, ré de Bretoña!'\nUpon further questioning, the man claimed to be a king from the West, looking for an artifact called the 'Holy Grail' and that it would be in the land of 'Arimathea.'"
+ CBFlavorEvents.21a: "King? Well, I didn't vote for ya!"
+ CBFlavorEvents.21b: "This is indeed the 'Aramitheya' you seek! Welcome, Briton!"

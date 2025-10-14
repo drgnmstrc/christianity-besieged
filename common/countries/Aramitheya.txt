@@ -1,0 +1,111 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 233 192 1 } 
+revolutionary_colors = { 10  0  1 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Odaenathus #2" = 20
+	"Septimius Vaballathus #2" = 20
+	"Yarhai #2" = 20
+	"Hairan #2" = 20
+	"Odainat #1" = 20
+	"Worod #1" = 20
+	"Zabdibel #1" = 15
+	"Rabbil #2" = 10
+	"Malchos #1" = 10
+	"Barateh #1" = 10
+	"Yedibel #1" = 10
+	"Abgar #1" = 10
+	"Manu #1" = 10
+	"Abdgar #0" = 0
+	"Yedai #0" = 0
+	"Barnebu #0" = 0
+	"Barsemya #0" = 0
+	"Hanania #0" = 0
+	"Abselama #0" = 0
+	"Yarhibol #0" = 0
+	"Maliku #0" = 0
+	"Azizu #0" = 0
+	"Abd-Maliku #0" = 0
+	"Shalman #0" = 0
+	"Nathan #0" = 0
+	"Bar-Malku #0" = 0
+	"Abd-Allat #0" = 0
+	"Elagabal #0" = 0
+	"Bar-Hadad #0" = 0
+	"Abd-Bel #0" = 0
+	"Zabdai #0" = 0
+	"Bar-Shema #0" = 0
+	"Abgarid #0" = 0
+	"Rabbula #0" = 0
+	"Zabdibol #0" = 0
+	"Malchos-Barateh #0" = 0
+	"Abedazar #0" = 0
+	"Belshamin #0" = 0
+	"Yarhibol-Azzai #0" = 0
+	"Abed-Bel #0" = 0
+	"Zabdibel #0" = 0
+	"Manu-Barateh #0" = 0
+	
+	"Zenobia #0" = -1
+	"Bat-Zabbai #0" = -1
+	"Halpe #0" = -1
+	"Shalmath #0" = -1
+}
+
+leader_names = {
+	Odaenathus
+	Vaballathus
+	Hairan
+	Barateh
+	Zabdibel
+	Worod
+	Abgar
+	Yarhai
+	Abdgar
+	Rabbil
+	Malchos
+	Manu
+}
+
+ship_names = {
+	Bel
+	Yarhibol
+	Aglibol
+	Allat
+	Shamash
+	Nabu
+	Malakbel
+	Ba'alshamin
+	Atargatis
+	Elagabal
+	Taimu
+	Azizu
+}

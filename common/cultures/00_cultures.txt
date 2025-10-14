@@ -5237,7 +5237,7 @@ turko_semitic = { #Levantine
 			"Merkourios" "Shamumun" "Desta"
 		}
 	}
-	almukhidi = {
+	haladri = {
 		primary = BRQ
 	}
 	al_misr_arabic = { #Egyptian Arab
@@ -5293,6 +5293,18 @@ turko_semitic = { #Levantine
 			Karima Khandan Khaterah Khatira Kinah Lala Madiha Mahdokht Nazy Neelab Negar Niki Nikoo Noushin Rabiya
 			Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah Nahal Najela Nasiba Nastaran Nazaneen 
 			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
+		}
+	}
+	nabuthi = {
+		dynasty_names = {
+			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli 
+		}
+		male_names = {
+			Kharitath Obodath Maliku Rakhem Rabel Abjar Abyan Abid "Ban'il" Awis Khash Alam
+		}
+		female_names = {
+			Khudru Qamilath Khaganu ©aqilat
 		}
 	}
 	al_iraqiya_arabic = { #Mashriqi Arab
@@ -12984,6 +12996,34 @@ aramaic_group = {
 			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
+	natolaye = { #EU Rome
+		primary = PLM
+		dynasty_names = {
+			"Bat-Sep" "Bat-Zabbai" "Bat-Khoser" "Bat-Raba" "Bat-Man" "Bat-Shemon" "Ben-Sep" "Ben-Zabbai" "Ben-Khoser" "Ben-Raba" "Ben-Man" "Ben-Shemon"
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+	misheroye = { #EU Rome
+		primary = PLM
+		dynasty_names = {
+			"Bat-Sep" "Bat-Zabbai" "Bat-Khoser" "Bat-Raba" "Bat-Man" "Bat-Shemon" "Ben-Sep" "Ben-Zabbai" "Ben-Khoser" "Ben-Raba" "Ben-Man" "Ben-Shemon"
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
 	cilician = {
 		primary = CLC
 		dynasty_names = {
@@ -13072,34 +13112,49 @@ aramaic_group = {
 			Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
 		}
 	}
+	nabathu = {
+		dynasty_names = {
+			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli 
+		}
+		male_names = {
+			Kharitath Obodath Maliku Rakhem Rabel Abjar Abyan Abid "Ban'il" Awis Khash Alam
+		}
+		female_names = {
+			Khudru Qamilath Khaganu ©aqilat
+		}
+	}
 	phoenician = { #EU Rome
-		primary = LEB
+		primary = FNQ
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
 		Milkiramid Philosirid
 		}
 		male_names = {
-			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
-			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
+			"Ba'alhannon" "Abdmelqart" "Adonibaal" "Azrubal" "Hanno" "Baalyaton" "Bodashtart" "Bomilcar" "Gerbaal" "Eshmunazar"
+			"Mattan" "Hamilcar" "Hannibal" "Himilco" "Malchus" "Moharbal" "Melqartshaphat" "Ba'alras" "Phanes" "Rabsun"
+			"Tabnit" "Zimriba'al" "Abibaal" "Melqartbaal" "Ba'alamath" "Ethbaal" "Yatonbaal"
 		}
 		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+			"Tanit" "Batno'am" "Elissa" "Ummashtart" "Astarta" "Hadarat-Tanit" "'Am-Tanit" "Shayna"
 		}
 	}
 	punic = { #EU Rome
-		primary = LEB
+		primary = FNQ
 		dynasty_names = {
 			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
 		Milkiramid Philosirid
 		}
 		male_names = {
+			"Ba'alhannon" "Abdmelqart" "Adonibaal" "Azrubal" "Hanno" "Baalyaton" "Bodashtart" "Bomilcar" "Gerbaal" "Eshmunazar"
+			"Mattan" "Hamilcar" "Hannibal" "Himilco" "Malchus" "Moharbal" "Melqartshaphat" "Ba'alras" "Phanes" "Rabsun"
 			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
 			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
+			Paltibaal Philosir "Tabnit" "Zimriba'al" "Abibaal" "Melqartbaal" "Ba'alamath" "Ethbaal" "Yatonbaal"
 		}
 		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar "Tanit" "Batno'am" "Elissa" "Ummashtart" "Astarta" "Hadarat-Tanit"
+			"'Am-Tanit" "Shayna"
 		}
 	}
 }

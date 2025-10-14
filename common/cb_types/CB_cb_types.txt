@@ -38,3 +38,33 @@ cb_force_communion = {
 	
 	war_goal = take_capital_force_communion
 }
+
+# CB for the Ottomans to create an Eyalet - Mission Reward
+cb_armenian_subjugation_war = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 60
+
+	war_goal = take_capital_ashkharh_war
+}
+
+# Eyalet that broke free
+cb_disloyal_eyalet = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = take_capital_disloyal
+}
+
+# CB for the Ottomans to create an Eyalet - Mission Reward
+cb_armenian_invasion = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 600
+
+	war_goal = take_capital_armenian_invasion
+}

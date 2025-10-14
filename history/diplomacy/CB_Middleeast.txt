@@ -40,3 +40,43 @@ alliance = {
 	start_date = 1408.9.7
 	end_date = 1746.9.9
 }
+
+dependency = {
+	subject_type = "tributary_state"
+	first = NBT
+	second = JUD
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = NBT
+	second = PLM
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = NBT
+	second = ANB
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = NBT
+	second = ASO
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = NBT
+	second = QTN
+	start_date = 1443.12.12
+	end_date = 1497.12.31
+}

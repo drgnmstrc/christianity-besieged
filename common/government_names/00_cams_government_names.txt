@@ -448,7 +448,7 @@ high_druid = {
 
 ethiopian_caliphate = {
 	rank = {
-		3 = CALIPHATE
+		3 = ETHIOPIAN_CALIPHATE
 	}
 	ruler_male = {
 		3 = CALIPH

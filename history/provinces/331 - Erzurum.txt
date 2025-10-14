@@ -1,6 +1,6 @@
 #331 - Erserum
-owner = ARM
-controller = ARM
+owner = UPR
+controller = UPR
 culture = armenian
 religion = manichaeism
 capital = "Erzurum"
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = ARM
+add_core = UPR
 discovered_by = western
 discovered_by = eastern
 discovered_by = near_east

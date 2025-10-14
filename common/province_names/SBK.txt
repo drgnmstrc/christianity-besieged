@@ -1,0 +1,110 @@
+# RULES
+# ai/ay/ae -> ay
+# -ia/-eia/-ium/-ion -> -aw/-y
+# -opolis -> -pol
+# -kleia -> -kël
+# p/ph -> f/b
+# b -> p
+# long u -> uw
+# short u -> ú
+# ch -> x
+# ph -> p
+# short o -> á
+# th -> d
+# Format: ID = { "Province" "Capital" } # Origin
+
+## BALKANS
+
+# Macedonia
+148 = { "Dasalán" "Ayum Kális" } # Thessaloniki, Æm Kalas/Aiyum Qalis
+1853 = { "Kestraw" "Kestraw" } # Kastoria/ Castrum + ia
+3001 = { "Sqúpy" "Sqúpy" } # Skopia
+4702 = { "Séra" "Séra" } # Serra
+4780 = { "Óxra" "Óxra" } # Achrida
+
+# Morea
+145 = { "Pelapónš" "Spârda" } # Peloponnesos, Sparta
+146 = { "Thika" "Mârdon" } # Attiki, Marathonas
+163 = { "Keret" "Erakuwly" } # Kriti, Herakleia
+1773 = { "Axyaw" "Raxam" } # Achaea, Raqim
+4701 = { "Kórinth" "Érez" } # Korinthos, Argos
+
+# Upper Pelgazar/Northern Greece
+142 = { "Kárkà" "Kársky" } # Kerkyra, Kerkyra + shire
+144 = { "Yanaw" "Yanaw" } # Epirus, Johannes + baurgs
+147 = { "Dasály" "Lares" } # Thessalia, Larissa
+4698 = { "Qepaluny" "Éreztel" } # Cephalonia, Argostoli
+4699 = { "Bíriz" "Drasan" } # Epirus, ???
+
+# Thrace
+149 = { "Qabal" "Qabal" } # Kavala
+151 = { "Baleg" "Balikopol" } # Baligi, Balikoplis
+1764 = { "Burš" "Burš" } # Burgas
+4705 = { "Kanth" "Kántho" } # Xanthi, Xanthi + baurgs/Canterbury
+4779 = { "Ghalep" "Ghalep" } # Gallipoli
+
+# South Turgazar/Albania
+4175 = { "Leš" "Leš" } # Lissum
+4750 = { "Axráwm" "Axráwm" } # Croarum
+4174 = { "Diráx" "Diráx" } # Dyrrachium
+143 = { "Pálum" "Pálum" } # Aulon
+
+# North Turgazar/Serbia
+1766 = { "Gholuwy" "Gholuwy" } # Ulpiana
+1827 = { "Araska" "Parnaw" } # Rascia, Vranje
+138 = { "Polopol" "Munkep" } # Polis-Polis, Municipum
+4754 = { "Sakríwo" "Elírà" } # Ascrivium, Illiropoli
+
+# Cipçacia/Bulgaria
+2750 = { "Peldaw" "Peldaw" } # Philippopolis
+1765 = { "Burzaprabad" "Burzaprabad" } # Spah Burzafrah + -abad
+150 = { "Ankopol" "Ankopol" } # Nicopolis
+2746 = { "Bón" "Bón" } # Bononia
+4703 = { "Qostol" "Qostol" } # Costel
+
+# Silistria
+4704 = { "Ghímo" "Ghímo" } # Haemum
+159 = { "Silizy" "Silizy" } # Silistria
+4706 = { "Eghez" "Eghez" } # Aegyssus
+
+# Fadalmatul/Serbia
+3000 = { "Nays" "Nays" } # Naissos
+4176 = { "Márgoz" "Márgoz" } # Margus
+141 = { "Semendáry" "Semendáry" } # Semendria
+4239 = { "Senxid" "Senxid" } # Singidunum
+4757 = { "Xoluwa" "Xoluwa" } # Kolubara
+
+# Dalmatia
+137 = { "Raxoš" "Raxoš" } # Ragusium
+136 = { "Sepáltum" "Sepáltum" } # Aspalathum
+4753 = { "Aydér" "Aydér" } # Iader
+4942 = { "Šinuz" "Šinuz" } # Sinusea
+
+# Dalmatici/Bosnia
+1831 = { "Refuyo" "Refuyo" } # Refugium
+4755 = { "Dokóly" "Dokóly" } # Docletae
+140 = { "Awarsáp" "Awarsáp" } # Aquae Suphurae
+3002 = { "Daysit" "Daysit" } # Daesitiates
+139 = { "Xelm" "Xelm" } # Terra Chelmi
+
+# Ustdalmat/Croatia
+1826 = { "Aypothi" "Tokum" } # Iapodia, Ottocium
+4752 = { "Plumiš" "Plumiš" } # Flumen
+131 = { "Krano" "Koyunán" } # Agranum, Mons Graecensis
+1828 = { "Axi" "Axi" } # Achi
+
+# Slavonia
+152 = { "Peresty" "Peresty" } # Varasd
+1767 = { "Móriš" "Móriš" } # Mursa
+4173 = { "Sírmy" "Sírmy" } # Sirmium
+4756 = { "Biyélà" "Biyélà" } # Bjelovar
+
+## CARPATHIA
+
+# Rumânea/Wallachia
+160 = { "Aluš" "Aluš" } # Alutus
+161 = { "Paxeš" "Paxeš" } # "Country City"
+2998 = { "Muxeš" "Muxeš" } # Mouseos
+3017 = { "New Šuš" "New Šuš" } # Zusidava / New Susa, No this was not a typo, this is actual Middle Persian
+4531 = { "Aylaw" "Aylaw" } # Iulia
+4532 = { "Sewern" "Sewern" } # Severinus
