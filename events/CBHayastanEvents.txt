@@ -13,10 +13,12 @@ country_event = { # Hayastan Offers Provincial Integration
 		name = CBHayastanEvents.0a
 		ARM = {
 			create_subject = {
-				subject_type = ashkharh
+				subject_type = core_ashkharh
 				subject = ROOT
 			}
+			swap_non_generic_missions = yes
 		}
+		ashkharh_effect = yes
 	}
 	option = { # No!
 		name = CBHayastanEvents.0b

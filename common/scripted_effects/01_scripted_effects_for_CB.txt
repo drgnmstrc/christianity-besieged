@@ -42,7 +42,7 @@ increase_lowest_monarch_power = {
 }
 
 ashkharh_effect = {
-	override_country_name = $tag$
+	ashkharh_dynamic_name_change_effect = yes
 	set_country_flag = has_ashkharh_country_name
 	set_country_flag = has_ashkharh_color
 	set_country_flag = has_overriden_name_flag
@@ -58,7 +58,6 @@ ashkharh_effect = {
 		}
 	}
 	change_country_color = { color = { 73 67 102 } }
-	set_country_flag = is_$tag$_flag
 }
 
 ashkharh_name_effect = {
@@ -68,23 +67,15 @@ ashkharh_name_effect = {
 }
 
 ashkharh_dynamic_name_change_effect = {
-	if = { limit = { tag = HUN } ashkharh_name_effect = { tag = EY0 } }
-	if = { limit = { tag = SLO } ashkharh_name_effect = { tag = EY1 } }
-	if = { limit = { tag = TRA } ashkharh_name_effect = { tag = EY2 } }
-	if = { limit = { tag = HAB } ashkharh_name_effect = { tag = EY3 } }
-	if = { limit = { tag = MLO } ashkharh_name_effect = { tag = EY4 } }
-	if = { limit = { tag = SIC } ashkharh_name_effect = { tag = EY5 } }
-	if = { limit = { tag = TUS } ashkharh_name_effect = { tag = EY6 } }
-	if = { limit = { tag = EGY } ashkharh_name_effect = { tag = EY7 } }
-	if = { limit = { tag = TRP } ashkharh_name_effect = { tag = EY8 } }
-	if = { limit = { tag = TUN } ashkharh_name_effect = { tag = EY9 } }
-	if = { limit = { tag = ALG } ashkharh_name_effect = { tag = E10 } }
-	if = { limit = { tag = GRA } ashkharh_name_effect = { tag = E11 } }
-	if = { limit = { tag = PER } ashkharh_name_effect = { tag = E12 } }
-	if = { limit = { tag = ADA } ashkharh_name_effect = { tag = E13 } }
-	if = { limit = { tag = VEN } ashkharh_name_effect = { tag = E14 } }
-	if = { limit = { tag = GEN } ashkharh_name_effect = { tag = E15 } }
-	if = { limit = { tag = MOR } ashkharh_name_effect = { tag = E16 } }
-	if = { limit = { tag = SAV } ashkharh_name_effect = { tag = E17 } }
-	if = { limit = { tag = YEM } ashkharh_name_effect = { tag = E17 } }
+	if = { limit = { tag = CAP } ashkharh_name_effect = { tag = AS0 } }
+	if = { limit = { tag = PNT } ashkharh_name_effect = { tag = AS1 } }
+	if = { limit = { tag = ERS } ashkharh_name_effect = { tag = AS2 } }
+	if = { limit = { tag = CLC } ashkharh_name_effect = { tag = AS3 } }
+	if = { limit = { tag = ISA } ashkharh_name_effect = { tag = AS4 } }
+	if = { limit = { tag = RHO } ashkharh_name_effect = { tag = AS5 } }
+	if = { limit = { tag = BTH } ashkharh_name_effect = { tag = AS6 } }
+	if = { limit = { tag = BLK } ashkharh_name_effect = { tag = AS7 } }
+	if = { limit = { tag = BSP } ashkharh_name_effect = { tag = AS8 } }
+	if = { limit = { tag = BTA } ashkharh_name_effect = { tag = AS9 } }
+	if = { limit = { tag = ALX } ashkharh_name_effect = { tag = A10 } }
 }

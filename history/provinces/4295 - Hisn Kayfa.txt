@@ -6,7 +6,7 @@
 # Hisn Kayfa
 # 4295 Hisn Kayfa - 10/12/2025 2:18:10 AM 
  
-add_core = ARM
+add_core = ARZ
 owner = ARZ
 controller = ARZ
 base_tax = 4

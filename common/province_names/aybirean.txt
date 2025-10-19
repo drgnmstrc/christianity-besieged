@@ -6,6 +6,7 @@
 # au -> aw
 # s/š -> th
 # ti -> ši
+# ci -> thi
 # Format: ID = { "Province" "Capital" } # Origin
 
 ## IBERIA

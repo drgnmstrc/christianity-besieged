@@ -2013,6 +2013,21 @@ on_create_vassal = {
 		add_government_reform = papacy_reform
 		adopt_reform_progress = FROM
 	}
+	if = {
+		limit = {
+			FROM = { tag = ARM }
+		}
+		ARM = {
+			create_subject = {
+				subject_type = ashkharh
+				subject = PREV
+			}
+		}
+		change_government = monarchy
+		add_government_reform = ashkharh_government
+		ashkharh_effect = yes
+	}
+
 }
 
 # THIS = Raiding country, FROM = Sea province

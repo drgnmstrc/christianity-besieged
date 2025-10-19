@@ -1,5 +1,5 @@
 # RULES
-# ai/ay/ae -> æ/iye
+# ai/ay/ae -> ?/iye
 # -nia/-neia -> -ña
 # -ion -> -ón
 # -polis -> -bel
@@ -23,10 +23,10 @@
 206 = { "La Croña" "La Croña" } # A Coruña/"The Crown"
 4554 = { "Aósti" "Aósti" } # Lucus Augusti
 4555 = { "Pónthibetèr" "Pónthibetèr" } # Ponte Vetera
-4558 = { "Bórgas" "Bórgas" } # Burgas
+4558 = { "Bûrgas" "Bûrgas" } # Burgas
 
 # Beieras
-231 = { "Pórtho" "Pórtho" } # Portus
+231 = { "Pûrtho" "Pûrtho" } # Portus
 232 = { "Bercánz" "Bercánz" } # Bragança
 228 = { "Baíra" "Baíra" } # Bayïr
 4556 = { "Abéria" "Bizaya" } # Aber, Vissaium
@@ -41,4 +41,4 @@
 4552 = { "Palanz" "Palanz" } # Palencia
 1746 = { "Cílía" "Cílía" } # Qila
 1745 = { "Canthábra" "Sànthoré" } # Cantabria, Sanctus Rex
-207 = { "Aztóra" "Òbi" } # Asturias, Uviéu
+207 = { "Aztóra" "?óbi" } # Asturias, Uviéu
