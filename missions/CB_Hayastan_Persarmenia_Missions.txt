@@ -2,167 +2,268 @@ ARM_persarmenia_unification_1 = {
 	slot = 1
 	generic = no
 	ai = yes
+	has_country_shield = yes
 	potential = {
 		has_country_flag = persarmenia_chosen
-	}
+	} 
 
 	ARM_centers_of_culture = {
-		icon = mission_build_up_to_force_limit
+		icon = imperial_capitals
 		position = 1
-		required_missions = {  }
 		provinces_to_highlight = {
 			owned_by = ROOT
-			NOT = { development = 20 }
+			NOT = { development = 20 } 
 		}
+
 		trigger = {
 			num_of_owned_provinces_with = {
 				value = 5
 				development = 20
 			}
 		}
+
 		effect = {
-			ERS = {
-				add_liberty_desire = -20
-			}
+			ERS = { add_liberty_desire = -20 } 
 			add_country_modifier = {
-				name = hab_prosperity_windfall
+				name = "hab_prosperity_windfall"
 				duration = 3650
 			}
 		}
 	}
 }
-
 ARM_persarmenia_unification_2 = {
 	slot = 2
 	generic = no
 	ai = yes
+	has_country_shield = yes
 	potential = {
 		has_country_flag = persarmenia_chosen
-	}
+	} 
 
 	ARM_loyal_magnates = {
-		icon = mission_build_up_to_force_limit
+		icon = tame_the_magnates
 		position = 2
-		required_missions = { ARM_centers_of_culture }
+		required_missions = { ARM_centers_of_culture } 
+		provinces_to_highlight = {  } 
+
 		trigger = {
 			estate_loyalty = {
 				estate = estate_burghers
 				loyalty = 60
 			}
 		}
+
 		effect = {
 			add_country_modifier = {
-				name = trade_income_increase
+				name = "trade_income_increase"
 				duration = 1825
 			}
+			erzurum_area = { add_permanent_claim = ROOT } 
+			imereti_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ARM_reconquer_the_coast = {
+		icon = mission_control_the_black_sea
+		position = 3
+		required_missions = { ARM_loyal_magnates } 
+		provinces_to_highlight = {
+			OR = {
+				area = erzurum_area
+				area = imereti_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
 			erzurum_area = {
-				add_permanent_claim = ROOT
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 			imereti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_armenian_subjugation_war
+				target = CAP
+				months = 360
+			}
+			samtskhe_area = {
+				add_permanent_claim = ROOT
+			}
+			2195 = {
+				add_permanent_claim = ROOT
+			}
+			crimea_area = {
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	ARM_reconquer_the_coast = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { ARM_loyal_magnates }
-		trigger = { }
-		effect = { }
-	}
+
 	ARM_supplant_cappadocia = {
-		icon = mission_build_up_to_force_limit
+		icon = arm_restore_armenian_cilicia
 		position = 4
-		required_missions = { ARM_reconquer_the_coast }
-		trigger = { }
-		effect = { }
+		required_missions = { ARM_reconquer_the_coast } 
+		provinces_to_highlight = { owned_by = CAP } 
+
+		trigger = { CAP = { is_subject_of_type = ashkharh }  } 
+
+		effect = {
+			create_subject = {
+				subject_type = core_ashkharh
+				subject = CAP
+			}
+		}
 	}
+
 	ARM_the_best_defense = {
-		icon = mission_build_up_to_force_limit
+		icon = alpine_fortifications
 		position = 5
-		required_missions = { ARM_supplant_cappadocia }
-		trigger = { }
-		effect = { }
+		required_missions = { ARM_supplant_cappadocia } 
+		provinces_to_highlight = {
+			region = anatolia_region
+			has_port = yes
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				region = anatolia_region
+				has_coast_defense_building_trigger = yes
+				has_fort_building_trigger = yes
+			}
+		}
+
+		effect = {
+			kastamonu_area = { add_permanent_claim = ROOT } 
+			hudavendigar_area = { add_permanent_claim = ROOT } 
+			ankara_area = { add_permanent_claim = ROOT } 
+		}
 	}
+
 	ARM_is_a_good_offense = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_sindh_mer
 		position = 6
-		required_missions = { ARM_the_best_defense }
-		trigger = { }
-		effect = { }
+		required_missions = { ARM_the_best_defense } 
+		provinces_to_highlight = {
+			OR = {
+				area = kastamonu_area
+				area = hudavendigar_area
+				area = ankara_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			kastamonu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			hudavendigar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ankara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { anatolia_region = { add_permanent_claim = ROOT }  } 
 	}
+
 	ARM_anatolian_ambition = {
-		icon = mission_build_up_to_force_limit
+		icon = anatolian_frontier
 		position = 7
-		required_missions = { ARM_butanian_buildup }
-		trigger = { }
-		effect = { }
+		required_missions = { ARM_is_a_good_offense } 
+		provinces_to_highlight = {
+			region = anatolia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "arm_new_anatolian_hegemon"
+				duration = 36500
+			}
+		}
 	}
 }
-
 ARM_persarmenia_unification_3 = {
 	slot = 3
 	generic = no
 	ai = yes
+	has_country_shield = yes
 	potential = {
 		has_country_flag = persarmenia_chosen
-	}
+	} 
 
 	ARM_sponsor_schools_of_theology = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_reliable_allies
 		position = 1
-		required_missions = {  }
-		trigger = {
-			theologian = 2
-		}
+		provinces_to_highlight = {  } 
+
+		trigger = { theologian = 2 } 
+
 		effect = {
 			add_country_modifier = {
-				name = tax_income_boost
+				name = "tax_income_boost"
 				duration = 5475
 			}
 		}
 	}
+
 	ARM_sharing_the_faith = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_lit_reform_magdeburg_laws
 		position = 2
-		required_missions = { ARM_sponsor_schools_of_theology }
-		trigger = {
-			num_of_converted_provinces = {
-				amount = 10
-			}
-		}
+		required_missions = { ARM_sponsor_schools_of_theology } 
+		provinces_to_highlight = {  } 
+
+		trigger = { num_of_converted_provinces = { amount = 10 }  } 
+
 		effect = {
 			add_dip_power = 200
 			add_mil_power = 50
 			add_country_modifier = {
-				name = eth_better_integration
+				name = "eth_better_integration"
 				duration = 5475
 			}
 		}
 	}
+
 	ARM_integrate_kakheti = {
 		icon = mission_build_up_to_force_limit
 		position = 3
-		required_missions = { ARM_loyal_magnates ARM_sharing_the_faith ARM_indomitable_azatanai }
-		provinces_to_highlight = {
-			owned_by = KAK
+		required_missions = {
+			ARM_loyal_magnates
+			ARM_sharing_the_faith
+			ARM_indomitable_azatani
 		}
-		trigger = {
-			NOT = { exists = KAK }
-		}
+		provinces_to_highlight = { owned_by = KAK } 
+
+		trigger = { NOT = { exists = KAK }  } 
+
 		effect = {
-			dagestan_area = {
-			    add_permanent_claim = ROOT
-			}
-			circassia_area = {
-			    add_permanent_claim = ROOT
-			}
+			dagestan_area = { add_permanent_claim = ROOT } 
+			circassia_area = { add_permanent_claim = ROOT } 
 		}
 	}
+
 	ARM_mountainfolk_faith = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_conquer_the_highlands
 		position = 4
-		required_missions = { ARM_integrate_kakheti }
+		required_missions = { ARM_integrate_kakheti } 
 		provinces_to_highlight = {
 			OR = {
 				area = kartli_kakheti_area
@@ -171,6 +272,7 @@ ARM_persarmenia_unification_3 = {
 			owned_by = ROOT
 			has_owner_religion = yes
 		}
+
 		trigger = {
 			kartli_kakheti_area = {
 				type = all
@@ -183,120 +285,182 @@ ARM_persarmenia_unification_3 = {
 				has_owner_religion = yes
 			}
 		}
+
 		effect = {
 			shirvan_area = {
 				add_province_modifier = {
-					name = INC_mountain_adaptations
+					name = "INC_mountain_adaptations"
 					duration = 18250
 				}
 			}
 			kartli_kakheti_area = {
 				add_province_modifier = {
-					name = INC_mountain_adaptations
+					name = "INC_mountain_adaptations"
 					duration = 18250
 				}
 			}
 		}
 	}
+
 	ARM_second_capital = {
-		icon = mission_build_up_to_force_limit
+		icon = capture_adriatic_ports
 		position = 6
-		required_missions = { ARM_mountainfolk_faith }
-		trigger = { }
-		effect = { }
-	}
-	ARM_northern_control = {
-		icon = mission_build_up_to_force_limit
-		position = 7
-		required_missions = { ARM_second_capital }
-		trigger = { }
-		effect = { }
-	}
-	ARM_persarmenia = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { ARM_is_a_good_offense ARM_northern_control ARM_anatolian_ambition }
-		trigger = { }
-		effect = { }
-	}
-}
+		required_missions = { ARM_mountainfolk_faith } 
+		provinces_to_highlight = { province_id = 419 } 
 
-ARM_persarmenia_unification_4 = {
-	slot = 4
-	generic = no
-	ai = yes
-	potential = {
-		has_country_flag = persarmenia_chosen
-	}
-
-	ARM_indomitable_azatanai = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { ARM_command_restructuring }
 		trigger = {
-			cavalry_fraction = 0.5
-			army_size_percentage = 1.0
+			419 = {
+				num_of_times_improved_by_owner = 10
+				num_free_building_slots = 1
+				has_fort_building_trigger = yes
+			}
 		}
+
 		effect = {
-			add_country_modifier = {
-				name = per_horse_population_boom_modifier
-				duration = -1
+			add_mil_power = 100
+			419 = {
+				add_building_construction = {
+					building = cannon_foundry
+					speed = 1.0
+					cost = 0.0
+				}
+				artillery = ROOT
 			}
-			al_jazira_area = {
-				add_permanent_claim = ROOT
+			armenia_area = {
+				limit = { NOT = { province_id = 419 }  } 
+				add_or_upgrade_forcelimit_building = yes
+				artillery = ROOT
 			}
-			shahrizor_area = {
-				add_permanent_claim = ROOT
-			}
+			caucasia_region = { add_permanent_claim = ROOT } 
 		}
 	}
-	ARM_claim_the_caspian = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { ARM_indomitable_azatanai }
-		provinces_to_highlight = {
-			any_neighbor_province = {
-				province_id = 1326
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
+
+	ARM_northern_control = {
+		icon = mission_the_caucasus_tur
+		position = 7
+		required_missions = { ARM_second_capital } 
+		provinces_to_highlight = {  } 
+
 		trigger = {
-			all_province = {
-				any_neighbor_province = {
-					province_id = 1326
-				}
+			caucasia_region = {
+				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+
 		effect = {
-			421 = {
-				add_base_production = 2
-				add_base_tax = 2
+			add_country_modifier = {
+				name = "TIM_caucasia_modifier"
+				duration = 3650
 			}
-			every_province = {
-				limit = {
-					any_neighbor_province = {
-						province_id = 1326
-					}
-				}
-				add_province_modifier = {
-					name = mer_tsovy
+		}
+	}
+
+	ARM_persarmenia = {
+		icon = mission_into_persia_2
+		position = 8
+		required_missions = {
+			ARM_hegemon_of_the_east
+			ARM_northern_control
+			ARM_anatolian_ambition
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { ERS = { NOT = { liberty_desire = 50 }  }  } 
+
+		effect = {
+			custom_tooltip = persarmenian_unification_tt
+			hidden_effect = {
+				inherit = ERS
+				switch_tag = PSR
+				add_country_modifier = {
+					name = "construction_wages"
 					duration = -1
 				}
 			}
 		}
 	}
+}
+ARM_persarmenia_unification_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		has_country_flag = persarmenia_chosen
+	} 
+
+	ARM_indomitable_azatani = {
+		icon = mission_cossack_cavalry
+		position = 2
+		required_missions = { ARM_command_restructuring } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			cavalry_fraction = 0.5
+			army_size_percentage = 1.0
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "per_horse_population_boom_modifier"
+				duration = -1
+			}
+			al_jazira_area = { add_permanent_claim = ROOT } 
+			shahrizor_area = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	ARM_claim_the_caspian = {
+		icon = mission_control_the_red_sea
+		position = 3
+		required_missions = { ARM_indomitable_azatani } 
+		provinces_to_highlight = {
+			OR = {
+				area = dagestan_area
+				area = shirvan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			dagestan_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			shirvan_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			421 = {
+				add_base_production = 2
+				add_base_tax = 2
+			}
+			every_owned_province = {
+				limit = { province_group = mmf_caspian_basin  } 
+				add_province_modifier = {
+					name = "mer_tsovy"
+					duration = -1
+				}
+			}
+		}
+	}
+
 	ARM_snake_the_rivers = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_se_along_the_river
 		position = 4
-		required_missions = { ARM_southern_push }
+		required_missions = { ARM_southern_push } 
 		provinces_to_highlight = {
 			OR = {
 				area = iraq_arabi_area
 				area = shahrizor_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
+
 		trigger = {
 			iraq_arabi_area = {
 				type = all
@@ -307,22 +471,26 @@ ARM_persarmenia_unification_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+
 		effect = {
 			iraq_arabi_area = {
 				add_province_modifier = {
-					name = restoration_of_ctesiphon
+					name = "restoration_of_ctesiphon"
 					duration = 18250
 				}
 			}
 		}
 	}
+
 	ARM_restoration_of_ctesiphon = {
-		icon = mission_build_up_to_force_limit
+		icon = mam_baghdad
 		position = 5
-		required_missions = { ARM_snake_the_rivers ARM_home_of_the_phoenicians }
-		provinces_to_highlight = {
-			province_id = 410
+		required_missions = {
+			ARM_snake_the_rivers
+			ARM_home_of_the_phoenicians
 		}
+		provinces_to_highlight = { province_id = 410 } 
+
 		trigger = {
 			410 = {
 				num_of_times_improved_by_owner = 10
@@ -330,6 +498,7 @@ ARM_persarmenia_unification_4 = {
 				has_fort_building_trigger = yes
 			}
 		}
+
 		effect = {
 			add_mil_power = 100
 			410 = {
@@ -341,63 +510,82 @@ ARM_persarmenia_unification_4 = {
 				artillery = ROOT
 			}
 			iraq_arabi_area = {
-				limit = { NOT = { province_id = 410 } }
+				limit = { NOT = { province_id = 410 }  } 
 				add_or_upgrade_forcelimit_building = yes
 				artillery = ROOT
 			}
-			mashriq_region = { add_permanent_claim = ROOT }
+			mashriq_region = { add_permanent_claim = ROOT } 
 		}
 	}
+
 	ARM_hegemon_of_the_east = {
-		icon = mission_build_up_to_force_limit
+		icon = arm_proclaim_great_armenia
 		position = 7
-		required_missions = { ARM_restoration_of_ctesiphon }
-		trigger = { }
-		effect = { }
+		required_missions = { ARM_restoration_of_ctesiphon } 
+		provinces_to_highlight = {
+			region = anatolia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "adu_righteous_conquest"
+				duration = 36500
+			}
+		}
 	}
 }
-
 ARM_persarmenia_unification_5 = {
 	slot = 5
 	generic = no
 	ai = yes
+	has_country_shield = yes
 	potential = {
 		has_country_flag = persarmenia_chosen
-	}
+	} 
 
 	ARM_command_restructuring = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_chinese_general_riding
 		position = 1
-		required_missions = {  }
-		trigger = {
-			grand_captain = 3
-		}
+		provinces_to_highlight = {  } 
+
+		trigger = { grand_captain = 3 } 
+
 		effect = {
 			add_country_modifier = {
-				name = indomitable_azatani
+				name = "indomitable_azatani"
 				duration = -1
 			}
 			capital_scope = {
-			    hussars_cavalry = ROOT
-			    hussars_cavalry = ROOT
-			    hussars_cavalry = ROOT
-			    hussars_cavalry = ROOT
-			    hussars_cavalry = ROOT
+				hussars_cavalry = ROOT
+				hussars_cavalry = ROOT
+				hussars_cavalry = ROOT
+				hussars_cavalry = ROOT
+				hussars_cavalry = ROOT
 			}
 		}
 	}
+
 	ARM_southern_push = {
-		icon = mission_build_up_to_force_limit
+		icon = sources_of_trade
 		position = 3
-		required_missions = { ARM_indomitable_azatanai }
+		required_missions = { ARM_indomitable_azatani } 
 		provinces_to_highlight = {
 			OR = {
 				area = aleppo_area
 				area = syria_area
 				area = syrian_desert_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
+
 		trigger = {
 			al_jazira_area = {
 				type = all
@@ -408,33 +596,28 @@ ARM_persarmenia_unification_5 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+
 		effect = {
-			aleppo_area = {
-				add_permanent_claim = ROOT
-			}
-			syria_area = {
-				add_permanent_claim = ROOT
-			}
-			syrian_desert_area = {
-				add_permanent_claim = ROOT
-			}
-			iraq_arabi_area = {
-				add_permanent_claim = ROOT
-			}
+			aleppo_area = { add_permanent_claim = ROOT } 
+			syria_area = { add_permanent_claim = ROOT } 
+			syrian_desert_area = { add_permanent_claim = ROOT } 
+			iraq_arabi_area = { add_permanent_claim = ROOT } 
 		}
 	}
+
 	ARM_home_of_the_phoenicians = {
-		icon = mission_build_up_to_force_limit
+		icon = dominant_economy
 		position = 4
-		required_missions = { ARM_southern_push }
+		required_missions = { ARM_southern_push } 
 		provinces_to_highlight = {
 			OR = {
 				area = aleppo_area
 				area = syria_area
 				area = syrian_desert_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
+
 		trigger = {
 			aleppo_area = {
 				type = all
@@ -449,15 +632,14 @@ ARM_persarmenia_unification_5 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
+
 		effect = {
 			aleppo_area = {
 				add_province_modifier = {
-					name = eth_restoration_of_antioch
+					name = "eth_restoration_of_antioch"
 					duration = 18250
 				}
-			
 			}
 		}
 	}
 }
-

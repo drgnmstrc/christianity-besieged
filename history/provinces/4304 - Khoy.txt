@@ -6,7 +6,7 @@
 # Khoy
 # 4304 Khoy - 10/12/2025 2:18:10 AM 
  
-add_core = ARM
+add_core = VSP
 owner = VSP
 controller = VSP
 base_tax = 3

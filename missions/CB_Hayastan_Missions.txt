@@ -133,7 +133,12 @@ ARM_reform_1 = {
 
 		trigger = { has_country_flag = atropatene_concluded } 
 
-		effect = {  } 
+		effect = {
+			add_country_modifier = {
+				name = loyalist_preacher
+				duration = 3650
+			}
+		} 
 	}
 
 	ARM_integrate_vaspurakan = {
@@ -169,10 +174,16 @@ ARM_reform_2 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-			NOT = {
-				any_province = {
-					NOT = { num_of_times_improved = 3 } 
-					owner = { is_subject_of = ROOT } 
+				calc_true_if = {
+					amount = 3
+					any_province = {
+					num_of_times_improved = 3
+					owner = {
+						is_subject_of_type_with_overlord = {
+							who = ARM
+							type = ashkharh
+						}
+					} 
 				}
 			}
 		}
@@ -461,10 +472,11 @@ ARM_reform_2 = {
 					subject = SRV
 				}
 				2202 = { add_core = ROOT } 
-				420 = { add_core = ROOT } 
+				420 = { add_core = ROOT }
 				declare_war_with_cb = {
 					casus_belli = cb_core
 					who = ALB
+					war_goal_province = 420
 				}
 			}
 			else_if = {
@@ -480,6 +492,7 @@ ARM_reform_2 = {
 				declare_war_with_cb = {
 					casus_belli = cb_core
 					who = KLC
+					war_goal_province = 4303
 				}
 			}
 			else = {
@@ -494,6 +507,7 @@ ARM_reform_2 = {
 					declare_war_with_cb = {
 						casus_belli = cb_core
 						who = ALB
+						war_goal_province = 420
 					}
 				}
 				custom_tooltip = greater_armenia_branch_tt
@@ -509,6 +523,7 @@ ARM_reform_2 = {
 					declare_war_with_cb = {
 						casus_belli = cb_core
 						who = KLC
+						war_goal_province = 4303
 					}
 				}
 			}
@@ -623,7 +638,10 @@ ARM_reform_3 = {
 
 		trigger = {
 			all_subject_country = {
-				has_support_loyalists = yes
+				OR = {
+					NOT = { is_subject_of_type = ashkharh }
+					has_support_loyalists = yes
+				}
 				NOT = { liberty_desire = 50 } 
 			}
 		}
@@ -631,9 +649,11 @@ ARM_reform_3 = {
 		effect = {
 			every_subject_country = {
 				limit = { is_subject_of_type = ashkharh } 
-				create_subject = {
-					who = FROM
-					subject_type = core_ashkharh
+				ROOT = {
+					create_subject = {
+						who = PREV
+						subject_type = core_ashkharh
+					}
 				}
 			}
 		}
@@ -701,6 +721,7 @@ ARM_reform_3 = {
 			set_country_flag = reforms_completed
 			if = {
 				limit = { has_country_flag = persarmenia_chosen } 
+				ERS = { country_event = { id = CBHayastanEvents.0 } }
 			}
 			else_if = {
 				limit = { has_country_flag = greater_armenia_chosen } 
