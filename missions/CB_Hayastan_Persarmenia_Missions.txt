@@ -345,6 +345,7 @@ ARM_persarmenia_unification_4 = {
 				add_or_upgrade_forcelimit_building = yes
 				artillery = ROOT
 			}
+			mashriq_region = { add_permanent_claim = ROOT }
 		}
 	}
 	ARM_hegemon_of_the_east = {
