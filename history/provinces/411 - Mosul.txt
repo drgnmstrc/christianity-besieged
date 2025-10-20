@@ -12,7 +12,6 @@ base_tax = 6
 base_production = 5
 base_manpower = 5
 is_city = yes
-fort_15th = yes
 discovered_by = east_african
 discovered_by = near_east
 discovered_by = indian

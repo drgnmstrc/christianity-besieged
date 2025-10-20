@@ -1,0 +1,419 @@
+ARM_persarmenia_conquest_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { has_country_flag = persarmenia_pt3 } 
+
+	ARM_indian_portage = {
+		icon = mission_recover_konkan_ports
+		position = 15
+		required_missions = { ARM_restore_old_borders } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 7
+				has_port = yes
+				development = 20
+				superregion = india_superregion
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+					development = 20
+					superregion = india_superregion
+				}
+				add_or_upgrade_production_building = yes
+				add_or_upgrade_dock_building = yes
+			}
+		}
+	}
+}
+ARM_persarmenia_conquest_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { has_country_flag = persarmenia_pt3 } 
+
+	ARM_conquer_khorasan = {
+		icon = per_convert_persia
+		required_missions = { ARM_old_friends_united }
+		position = 13
+		provinces_to_highlight = {
+			region = khorasan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			khorasan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { west_india_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_restore_old_borders = {
+		icon = mission_sail_to_the_east_indies
+		position = 14
+		required_missions = { ARM_conquer_khorasan } 
+		provinces_to_highlight = {
+			region = west_india_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			west_india_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { deccan_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_deccan_domination = {
+		icon = mission_invade_the_deccan_dlh
+		position = 15
+		required_missions = { ARM_restore_old_borders } 
+		provinces_to_highlight = {
+			region = deccan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			deccan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { hindusthan_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_home_of_the_hindi = {
+		icon = mission_metropolis_of_the_deccan
+		position = 16
+		required_missions = {
+			ARM_indian_portage
+			ARM_deccan_domination
+		}
+		provinces_to_highlight = {
+			region = hindusthan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			deccan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { india_superregion = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_finishing_india = {
+		icon = mission_indian_empire
+		position = 17
+		required_missions = { ARM_home_of_the_hindi } 
+		provinces_to_highlight = {
+			superregion = india_superregion
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			india_superregion = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "india_gunpowder_empire"
+				duration = -1
+			}
+		}
+	}
+}
+ARM_persarmenia_conquest_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { has_country_flag = persarmenia_pt3 } 
+
+	ARM_pontic_conquest = {
+		icon = mission_pontic_reconquest
+		required_missions = { ARM_old_friends_united }
+		position = 13
+		provinces_to_highlight = {
+			region = crimea_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			crimea_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "mother_of_nations"
+				duration = -1
+			}
+		}
+	}
+
+	ARM_open_settlements = {
+		icon = settle_north_america
+		position = 14
+		required_missions = { ARM_pontic_conquest } 
+		provinces_to_highlight = {
+			region_for_scope_province = {
+				type = all
+				NOT = { culture_group = iranian } 
+			}
+			owned_by = ROOT
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = every_region_iranic
+				all_owned_province = {
+					region_for_scope_province = {
+						type = all
+						calc_true_if = {
+							amount = 1
+							culture_group = iranian 
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "fra_cultural_hegemony_modifier"
+				duration = -1
+			}
+		}
+	}
+
+	ARM_learning_from_the_past = {
+		icon = mission_expand_great_wall
+		position = 15
+		required_missions = {
+			ARM_open_settlements
+			ARM_restore_old_borders
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 504
+				province_id = 505
+				province_id = 2072
+				province_id = 2079
+				province_id = 506
+				province_id = 4513
+				province_id = 507
+				province_id = 2075
+				province_id = 509
+			}
+		}
+
+		trigger = {
+			504 = { has_influencing_fort = yes } 
+			505 = { has_influencing_fort = yes } 
+			2072 = { has_influencing_fort = yes } 
+			2079 = { has_influencing_fort = yes } 
+			506 = { has_influencing_fort = yes } 
+			4513 = { has_influencing_fort = yes } 
+			507 = { has_influencing_fort = yes } 
+			2075 = { has_influencing_fort = yes } 
+			509 = { has_influencing_fort = yes } 
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 504
+						province_id = 505
+						province_id = 2072
+						province_id = 2079
+						province_id = 506
+						province_id = 4513
+						province_id = 507
+						province_id = 2075
+						province_id = 509
+					}
+				}
+				add_province_modifier = {
+					name = "pol_fortified_border_modifier"
+					duration = -1
+				}
+			}
+		}
+	}
+}
+ARM_persarmenia_conquest_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { has_country_flag = persarmenia_pt3 } 
+
+	ARM_subdue_arabia = {
+		icon = arb_unite_arabia
+		required_missions = { ARM_old_friends_united }
+		position = 13
+		provinces_to_highlight = {
+			region = arabia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			arabia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { horn_of_africa_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_carve_the_horn = {
+		icon = mission_envoy_to_ethiopia
+		position = 14
+		required_missions = { ARM_subdue_arabia } 
+		provinces_to_highlight = {
+			region = horn_of_africa_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			horn_of_africa_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { southeast_africa_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_imperial_integration = {
+		icon = mission_portuguese_interference
+		position = 15
+		required_missions = { ARM_open_settlements } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = every_region_5_iranic
+				all_owned_province = {
+					region_for_scope_province = {
+						type = all
+						calc_true_if = {
+							amount = 5
+							culture_group = iranian
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "fin_celebrated_melting_pot_modifier"
+				duration = -1
+			}
+		}
+	}
+}
+ARM_persarmenia_conquest_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { has_country_flag = persarmenia_pt3 } 
+
+	ARM_african_incursion = {
+		icon = mission_arabian_ports
+		position = 15
+		required_missions = { ARM_carve_the_horn } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 7
+				has_port = yes
+				development = 20
+				superregion = africa_superregion
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+					development = 20
+					superregion = africa_superregion
+				}
+				add_or_upgrade_production_building = yes
+				add_or_upgrade_dock_building = yes
+			}
+		}
+	}
+
+	ARM_city_of_black = {
+		icon = mission_zanzibari_trade
+		position = 16
+		required_missions = { ARM_african_incursion } 
+		provinces_to_highlight = {
+			region = southeast_africa_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			southeast_africa_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = { saadzahi_region = { add_permanent_claim = ROOT }  } 
+	}
+
+	ARM_rounding_the_cape = {
+		icon = colonize_the_cape
+		position = 17
+		required_missions = { ARM_city_of_black } 
+		provinces_to_highlight = {
+			region = saadzahi_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+		}
+
+		trigger = {
+			saadzahi_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "zan_expansion_into_the_cape"
+				duration = 36500
+			}
+		}
+	}
+}

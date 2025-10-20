@@ -78,7 +78,7 @@ entity = {
 }
 
 	########################
-	#####    Tier 2    #####
+	#####	Tier 2	#####
 	########################
 
 entity = {
@@ -154,7 +154,7 @@ entity = {
 }
 
 	########################
-	#####    Tier 3    #####
+	#####	Tier 3	#####
 	########################
 
 entity = {
@@ -229,7 +229,7 @@ entity = {
 }	
 
 	########################
-	#####    Tier 4    #####
+	#####	Tier 4	#####
 	########################
 
 entity = {
@@ -309,17 +309,17 @@ entity = {
 ##############################
 
 # VENanteum
-entity = { clone = "H01_INFANTRY_1"        name = "VEN_INFANTRY_1"	version="10"  }
-entity = { clone = "H01_INFANTRY_2"        name = "VEN_INFANTRY_2"	version="10"  }
-entity = { clone = "H01_INFANTRY_3"        name = "VEN_INFANTRY_3"	version="10"  }
-entity = { clone = "H01_INFANTRY_4"        name = "VEN_INFANTRY_4"	version="10"  }
-entity = { clone = "H01_CAVALRY_1"         name = "VEN_CAVALRY_1"	version="10"  }	
-entity = { clone = "H01_CAVALRY_2"         name = "VEN_CAVALRY_2"	version="10"  }	
-entity = { clone = "H01_CAVALRY_3"         name = "VEN_CAVALRY_3"	version="10"  }	
-entity = { clone = "H01_CAVALRY_4"         name = "VEN_CAVALRY_4"	version="10"  }
-entity = { clone = "H01_ARTILLERY_1"       name = "VEN_ARTILLERY_1"	version="10"  }	
-entity = { clone = "H01_ARTILLERY_2"       name = "VEN_ARTILLERY_2"	version="10"  }	
-entity = { clone = "H01_ARTILLERY_3"       name = "VEN_ARTILLERY_3"	version="10"  }	
-entity = { clone = "H01_ARTILLERY_4"       name = "VEN_ARTILLERY_4"	version="10"  }
+entity = { clone = "H01_INFANTRY_1"		name = "VEN_INFANTRY_1"	version="10"  }
+entity = { clone = "H01_INFANTRY_2"		name = "VEN_INFANTRY_2"	version="10"  }
+entity = { clone = "H01_INFANTRY_3"		name = "VEN_INFANTRY_3"	version="10"  }
+entity = { clone = "H01_INFANTRY_4"		name = "VEN_INFANTRY_4"	version="10"  }
+entity = { clone = "H01_CAVALRY_1"		 name = "VEN_CAVALRY_1"	version="10"  }	
+entity = { clone = "H01_CAVALRY_2"		 name = "VEN_CAVALRY_2"	version="10"  }	
+entity = { clone = "H01_CAVALRY_3"		 name = "VEN_CAVALRY_3"	version="10"  }	
+entity = { clone = "H01_CAVALRY_4"		 name = "VEN_CAVALRY_4"	version="10"  }
+entity = { clone = "H01_ARTILLERY_1"	   name = "VEN_ARTILLERY_1"	version="10"  }	
+entity = { clone = "H01_ARTILLERY_2"	   name = "VEN_ARTILLERY_2"	version="10"  }	
+entity = { clone = "H01_ARTILLERY_3"	   name = "VEN_ARTILLERY_3"	version="10"  }	
+entity = { clone = "H01_ARTILLERY_4"	   name = "VEN_ARTILLERY_4"	version="10"  }
 
 

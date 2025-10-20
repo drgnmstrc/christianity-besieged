@@ -13,6 +13,7 @@ frisian_invasion = { # I
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	modifiers = {
 		land_forcelimit = 7.5
@@ -35,6 +36,7 @@ moravian_empire_reform = { # I
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	maintain_dynasty = yes
 	modifiers = {
@@ -59,6 +61,7 @@ pontic_empire_reform = { # I
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	maintain_dynasty = yes
 	modifiers = {
@@ -83,6 +86,7 @@ archduchy_of_lauen_perle = { # I
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	modifiers = {
 		defensiveness = 0.35
@@ -109,10 +113,78 @@ greek_tyranny_reform = { # I
 	}
 	legacy_equivalent = despotic_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	modifiers = {
 		army_tradition_from_battle = 0.05
 		shock_damage_received = -0.05
+	}
+}
+
+zenobian_matriarchy_reform = { # I
+	allow_normal_conversion = no
+	icon = "sisterhood"
+	potential = {
+		OR = {
+			tag = PLM
+			was_tag = PLM
+		}
+	}
+	nation_designer_cost = 100
+	modifiers = {
+		cb_on_religious_enemies = yes
+		monarch_military_power = 1
+		may_recruit_female_generals = yes
+		female_advisor_chance = 1000.0
+		fire_damage = 0.1
+		discipline = 0.05
+	}
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
+	custom_attributes = {
+		monastic_order = yes
+		locked_government_type = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+ashkharh_government = {
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	icon = "eyalet_government"
+	potential = {
+		OR = {
+			is_subject_of_type = ashkharh
+			is_subject_of_type = core_ashkharh
+		}
+	}
+	valid_for_nation_designer = no
+	maintain_dynasty = yes
+	modifiers = {
+		global_unrest = -1
+		no_religion_penalty = yes
+		governing_capacity = 100
+	}
+	removed_effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { is_subject_of_type = ashkharh }
+					NOT = { is_subject_of_type = core_ashkharh }
+				}
+				country_event = {
+					id = flavor_tur.1000
+				}
+			}
+		}
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
 	}
 }
 
@@ -127,6 +199,7 @@ luwian_tyranny = { # I
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	maintain_dynasty = yes
 	nomad = yes
@@ -146,6 +219,7 @@ aghustean_sultanate_reform = { # I
 		dynasty = Aghustid
 	}
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		religion_group = muslim
@@ -184,6 +258,7 @@ almoravid_emirate_reform = { # I
 		dynasty = Almoravid
 	}
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		religion_group = muslim
@@ -229,6 +304,7 @@ phrygian_tyranny_reform = { # I
 	}
 	legacy_equivalent = despotic_monarchy
 	valid_for_nation_designer = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	modifiers = {
 		discipline = 0.05
@@ -1014,6 +1090,46 @@ syriac_church_reform = { # I
 	}
 	icon = "religious_leader"
 	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		governing_capacity_modifier = -0.99
+		defensiveness = 0.75
+		land_morale = 0.15
+		diplomatic_reputation = 3
+		global_tax_modifier = 0.05
+	}
+}
+
+syriac_church_reform_II = { # I
+	allow_normal_conversion = yes
+	potential = {
+		government = theocracy
+		religion = syriac
+		tag = SRY
+	}
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		governing_capacity_modifier = -0.50
+		defensiveness = 0.75
+		land_morale = 0.15
+		diplomatic_reputation = 3
+		global_tax_modifier = 0.05
+	}
+}
+
+syriac_akhuta_reform = { # I
+	allow_normal_conversion = no
+	potential = {
+		government = theocracy
+		religion = syriac
+		is_subject_of = SRY
+	}
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	locked_government_type = yes
+	lock_level_when_selected = yes
 	nation_designer_cost = 0
 	modifiers = {
 		diplomatic_reputation = 3

@@ -15,19 +15,19 @@ national_focus = MIL
 
 1491.1.1 = { leader = {	name = "Fadrique Álv. de Toledo"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1520.1.1 } }
 
-1495.1.1 = { leader = {	name = "Prospero Colonna"      	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1523.12.1 } }
+1495.1.1 = { leader = {	name = "Prospero Colonna"	  	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1523.12.1 } }
 
 1499.1.1 = { leader = {	name = "Vicente Yáñez Pinzón"	type = explorer	fire = 2	shock = 3	manuever = 6	siege = 0	death_date = 1523.1.1 } }
 
 #1503.1.1 = { decision = house_of_trade }
 
-1508.1.1 = { leader = {	name = "Juan Díaz de Solís"    	type = explorer	fire = 3	shock = 2	manuever = 5	siege = 0	death_date = 1516.2.1 } }
+1508.1.1 = { leader = {	name = "Juan Díaz de Solís"		type = explorer	fire = 3	shock = 2	manuever = 5	siege = 0	death_date = 1516.2.1 } }
 
 1509.1.1 = { leader = {	name = "Vasco Núñez de Balboa"	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1519.1.25 } }
 
-1511.1.1 = { leader = {	name = "Pánfilo de Narváez"    	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1528.1.1 } }
+1511.1.1 = { leader = {	name = "Pánfilo de Narváez"		type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1528.1.1 } }
 
-1512.3.4 = { leader = {	name = "Ponce de León"         	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1521.7.1 } }
+1512.3.4 = { leader = {	name = "Ponce de León"		 	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1521.7.1 } }
 
 1513.10.7 = { leader = { name = "Fernando de Ávalos"	type = general	fire = 3	shock = 5	manuever = 3	siege = 0	death_date = 1525.2.4 } }
 
@@ -44,9 +44,9 @@ national_focus = MIL
 	add_army_professionalism = 0.3
 }
 
-1518.1.1 = { leader = {	name = "Juan de Grijalva"      	type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1527.1.1 } }
+1518.1.1 = { leader = {	name = "Juan de Grijalva"	  	type = explorer	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1527.1.1 } }
 
-1519.1.1 = { leader = {	name = "Hernán Cortés"         	type = conquistador	fire = 5	shock = 5	manuever = 6	siege = 1	death_date = 1547.12.2 } }
+1519.1.1 = { leader = {	name = "Hernán Cortés"		 	type = conquistador	fire = 5	shock = 5	manuever = 6	siege = 1	death_date = 1547.12.2 } }
 
 1519.1.1 = { leader = { name = "Cristóbal de Olid" 	type = conquistador 	fire = 3 	shock = 3 	manuever = 3 	siege = 0	death_date = 1524.5.3 } }
 
@@ -67,11 +67,11 @@ national_focus = MIL
 
 1520.1.1 = { add_accepted_culture = langobard }
 
-1521.1.1 = { leader = {	name = "Antonio de Leyva"      	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1536.1.1 } }
+1521.1.1 = { leader = {	name = "Antonio de Leyva"	  	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1536.1.1 } }
 
 1521.4.27 = { leader = { name = "Juan Sebastián Elcano"	type = explorer	fire = 3	shock = 2	manuever = 6	siege = 0 	death_date = 1526.8.4 } }
 
-1523.1.1 = { leader = {	name = "Condestable Borbón"    	type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1527.5.6 } }
+1523.1.1 = { leader = {	name = "Condestable Borbón"		type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1527.5.6 } }
 
 1523.1.1 = { leader = { name = "Pedro de Alvarado" 	type = conquistador 	fire = 3 	shock = 3 	manuever = 3 	siege = 0	death_date = 1541.8.4 } }
 
@@ -129,9 +129,9 @@ national_focus = MIL
 
 1527.10.30 = { leader = { name = "Álvaro de Saavedra Cerón"	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1529.1.1 } }
 
-1528.1.1 = { leader = {	name = "Hernando de Soto"      	type = conquistador	fire = 2	shock = 3	manuever = 6	siege = 0	death_date = 1542.5.21 } }
+1528.1.1 = { leader = {	name = "Hernando de Soto"	  	type = conquistador	fire = 2	shock = 3	manuever = 6	siege = 0	death_date = 1542.5.21 } }
 
-1529.1.1 = { leader = {	name = "Pedro de Mendoza"      	type = conquistador	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1537.1.1 } }
+1529.1.1 = { leader = {	name = "Pedro de Mendoza"	  	type = conquistador	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1537.1.1 } }
 
 1529.12.21 = { leader = { name = "Nuño de Guzmán" 	type = conquistador 	fire = 3 	shock = 4 	manuever = 2 	siege = 0	death_date = 1536.1.1 } }
 
@@ -139,7 +139,7 @@ national_focus = MIL
 
 1534.8.15 = { decision = join_the_counter_reformation }
 
-1535.1.1 = { leader = {	name = "Duque de Alba"         	type = general	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1582.12.11 } }
+1535.1.1 = { leader = {	name = "Duque de Alba"		 	type = general	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1582.12.11 } }
 
 1536.1.1 = { leader = { name = "Nikolaus Federmann" 	type = conquistador 	fire = 2 	shock = 2 	manuever = 2 	siege = 0	death_date = 1539.7.8 } }
 
@@ -153,7 +153,7 @@ national_focus = MIL
 
 1540.1.1 = { leader = {	name = "Francisco V. de Coronado" type = conquistador	fire = 3	shock = 2	manuever = 5	siege = 0	death_date = 1544.1.1 } }
 
-1540.1.4 = { leader = {	name = "Pedro de Valdivia"     	type = conquistador	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1554.1.1 } }
+1540.1.4 = { leader = {	name = "Pedro de Valdivia"	 	type = conquistador	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1554.1.1 } }
 
 1540.6.1 = {  decision = institute_the_societas_jesu decision = conventicle_act } 
 
@@ -161,7 +161,7 @@ national_focus = MIL
 
 1542.1.1 = { leader = {	name = "E. Filiberto di Savoia"	type = general	fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 1559.1.1 } }
 
-1544.1.1 = { leader = {	name = "Lope de Aguirre"       	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1561.10.6 } }
+1544.1.1 = { leader = {	name = "Lope de Aguirre"	   	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1561.10.6 } }
 
 1556.1.16 = {
 	monarch = {
@@ -202,7 +202,7 @@ national_focus = MIL
 
 1561.6.1 = { capital = 217 } #Madrid
 
-1564.1.1 = { leader = {	name = "Alvaro de Bazán"       	type = admiral	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1588.2.9 } }
+1564.1.1 = { leader = {	name = "Alvaro de Bazán"	   	type = admiral	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1588.2.9 } }
 
 1564.11.11 = { leader = { name = "Miguel López de Legazpi" type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1571.6.24 } }
 
@@ -214,7 +214,7 @@ national_focus = MIL
 
 1567.11.20 = { leader = { name = "Álvaro de Mendaña" 	type = explorer 	fire = 2 	shock = 2 	manuever = 4 	siege = 0	death_date = 1595.11.3 } }
 
-1568.1.1 = { leader = {	name = "Juan de Austria"    	type = general	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1571.1.1 } }
+1568.1.1 = { leader = {	name = "Juan de Austria"		type = general	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1571.1.1 } }
 
 #1568.1.1 = { leader = {	name = "Pedro Sarmiento de Gamboa" type = explorer	fire = 1	shock = 1	manuever = 5	siege = 0	death_date = 1584.1.1 } } # Removed /SWÖ
 
@@ -242,11 +242,11 @@ national_focus = MIL
 
 #1571.1.1 = { leader = {	name = "Juan Martínez de Recalde"	type = admiral	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1588.1.1 } } # Removed /SWÖ
 
-1571.1.1 = { leader = {	name = "Juan de Austria"    	type = admiral	fire = 4	shock = 5	manuever = 4	siege = 0	death_date = 1576.1.1 } }
+1571.1.1 = { leader = {	name = "Juan de Austria"		type = admiral	fire = 4	shock = 5	manuever = 4	siege = 0	death_date = 1576.1.1 } }
 
-1572.1.1 = { leader = {	name = "Alessandro Farnese"    	type = general	fire = 5	shock = 6	manuever = 4	siege = 2	death_date = 1586.9.18 } }
+1572.1.1 = { leader = {	name = "Alessandro Farnese"		type = general	fire = 5	shock = 6	manuever = 4	siege = 2	death_date = 1586.9.18 } }
 
-1576.1.1 = { leader = {	name = "Juan de Austria"    	type = general	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1578.8.1 } }
+1576.1.1 = { leader = {	name = "Juan de Austria"		type = general	fire = 4	shock = 4	manuever = 2	siege = 0	death_date = 1578.8.1 } }
 
 1578.4.14 = {
 	heir = {
@@ -266,9 +266,9 @@ national_focus = MIL
 
 1588.2.9 = { leader = {	name = "Duque de Medina-Sidonia" type = admiral	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1615.1.1 } }
 
-1595.1.1 = { leader = {	name = "Juan de Oñate"         	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1626.1.1 } }
+1595.1.1 = { leader = {	name = "Juan de Oñate"		 	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1626.1.1 } }
 
-1598.1.1 = { leader = {	name = "Luis Fajardo"          	type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1617.5.21 } }
+1598.1.1 = { leader = {	name = "Luis Fajardo"		  	type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1617.5.21 } }
 
 1598.9.13 = {
 	monarch = {
@@ -296,11 +296,11 @@ national_focus = MIL
 
 1601.1.1 = { capital = 214 } # Valladolid 
 
-1602.1.1 = { leader = {	name = "Sebastián Vizcaíno"    	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1623.1.1 } }
+1602.1.1 = { leader = {	name = "Sebastián Vizcaíno"		type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1623.1.1 } }
 
 1603.9.29 = { leader = { name = "Ambrogio Spinola"	type = general	fire = 5	shock = 5	manuever = 3	siege = 1	death_date = 1630.8.25 } }
 
-1605.1.1 = { leader = {	name = "Váez de Torres"        	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1610.1.1 } }
+1605.1.1 = { leader = {	name = "Váez de Torres"			type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1610.1.1 } }
 
 1605.4.8 = {
 	heir = {
@@ -322,9 +322,9 @@ national_focus = MIL
 
 1609.7.15 = { leader = { name = "Antonio de Oquendo"	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1640.6.7 } }
 
-#1613.1.1 = { leader = {	name = "Fadrique de Toledo"    	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1634.1.1 } } # Removed /SWÖ
+#1613.1.1 = { leader = {	name = "Fadrique de Toledo"		type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1634.1.1 } } # Removed /SWÖ
 
-#1618.1.1 = { leader = {	name = "Duque de Feria"        	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1634.1.14 } } # Removed /SWÖ
+#1618.1.1 = { leader = {	name = "Duque de Feria"			type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1634.1.14 } } # Removed /SWÖ
 
 1619.3.20 = {
 	join_league = catholic
@@ -353,7 +353,7 @@ national_focus = MIL
 
 1630.1.1 = { leader = {	name = "Fernando Cardenal-Infante" 	type = general	fire = 3	shock = 3	manuever = 3	siege = 1	death_date = 1641.11.9 } }
 
-1636.1.1 = { leader = {	name = "Francisco de Melo"     		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1651.1.1 } }
+1636.1.1 = { leader = {	name = "Francisco de Melo"	 		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1651.1.1 } }
 
 1640.1.1 = { remove_accepted_culture = ifri remove_accepted_culture = langobard }
 
@@ -490,7 +490,7 @@ national_focus = MIL
 1716.1.23 = { government = monarchy
 add_government_reform = autocracy_reform }
 
-1717.1.1 = { leader = {	name = "Marqués de Lede"       	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1724.1.1 } }
+1717.1.1 = { leader = {	name = "Marqués de Lede"	   	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1724.1.1 } }
 
 1723.2.16 = { leader = { name = "Blas de Lezo"		type = admiral	fire = 5	shock = 5	manuever = 5	siege = 0	death_date = 1741.9.7 } }
 
@@ -633,7 +633,7 @@ add_government_reform = autocracy_reform }
 
 1769.6.29 = { leader = { name = "Gaspar de Portolá"	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1770.6.9 } }
 
-1770.1.1 = { leader = {	name = "Antonio Barceló"       	type = admiral	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1797.1.1 } }
+1770.1.1 = { leader = {	name = "Antonio Barceló"	   	type = admiral	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1797.1.1 } }
 
 1775.1.1 = { leader = {	name = "Bernardo de Gálvez"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1785.1.1 } }
 

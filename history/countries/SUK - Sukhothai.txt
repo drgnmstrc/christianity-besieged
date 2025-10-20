@@ -112,7 +112,7 @@ capital = 601	# Sukhothai
 		adm = 2
 		dip = 1
 		mil = 1
-		leader = { name = "Ramathibodi II"      type = general	fire = 1	shock = 3	manuever = 4	siege = 0 }
+		leader = { name = "Ramathibodi II"	  type = general	fire = 1	shock = 3	manuever = 4	siege = 0 }
 	}
 }
 
@@ -123,7 +123,7 @@ capital = 601	# Sukhothai
 		adm = 2
 		dip = 1
 		mil = 1
-		leader = { name = "Ramathibodi II"      type = general	fire = 1	shock = 3	manuever = 4	siege = 0 }
+		leader = { name = "Ramathibodi II"	  type = general	fire = 1	shock = 3	manuever = 4	siege = 0 }
 	}
 }
 

@@ -1,54 +1,54 @@
 custom_button = {
-    name = manichaean_close_button
-    potential = {
+	name = manichaean_close_button
+	potential = {
 	}
-    trigger = {  }
-    effect = {
+	trigger = {  }
+	effect = {
 		clr_country_flag = manichaean_window_shown
 	}
-    #tooltip = "Close"
+	#tooltip = "Close"
 }
 
 custom_text_box = {
-    name = manichaean_darkness_value
-    potential = {
+	name = manichaean_darkness_value
+	potential = {
 	}
-    # tooltip = manichaean_darkness_value_tooltip
+	# tooltip = manichaean_darkness_value_tooltip
 }
 
 custom_text_box = {
-    name = right_holy_site_name
-    potential = {
+	name = right_holy_site_name
+	potential = {
 	}
-    # tooltip = right_holy_site_name_tooltip
+	# tooltip = right_holy_site_name_tooltip
 }
 
 custom_text_box = {
-    name = middle_holy_site_name
-    potential = {
+	name = middle_holy_site_name
+	potential = {
 	}
-    # tooltip = middle_holy_site_name_tooltip
+	# tooltip = middle_holy_site_name_tooltip
 }
 
 custom_text_box = {
-    name = left_holy_site_name
-    potential = {
+	name = left_holy_site_name
+	potential = {
 	}
 }
 
 custom_text_box = {
-    name = faction_window_text_mechanic_override
-    potential = {
+	name = faction_window_text_mechanic_override
+	potential = {
 	}
-    #tooltip = faction_window_text_mechanic_override_cusloc
+	#tooltip = faction_window_text_mechanic_override_cusloc
 }
 
 custom_icon = {
 	name = gushnasp_fire
-    potential = {
+	potential = {
 	}
 	frame = {
-        number = 1
+		number = 1
 		trigger = {
 			if = {
 				limit = {
@@ -84,18 +84,18 @@ custom_icon = {
 				}
 			}
 		}
-    }
+	}
 	frame = {
-        number = 2
-    }
+		number = 2
+	}
 }
 
 custom_icon = {
 	name = farnbag_fire
-    potential = {
+	potential = {
 	}
 	frame = {
-        number = 1
+		number = 1
 		trigger = {
 			if = {
 				limit = { religion = manichaeism }
@@ -129,18 +129,18 @@ custom_icon = {
 				}
 			}
 		}
-    }
+	}
 	frame = {
-        number = 2
-    }
+		number = 2
+	}
 }
 
 custom_icon = {
 	name = burzen_mihr_fire
-    potential = {
+	potential = {
 	}
 	frame = {
-        number = 1
+		number = 1
 		trigger = {
 			if = {
 				limit = { religion = manichaeism }
@@ -153,7 +153,7 @@ custom_icon = {
 			}
 			else_if = {
 				limit = { religion = noniustian }
-				149 = {
+				140 = {
 					AND = {
 						religion = noniustian
 						has_owner_religion = yes
@@ -170,29 +170,29 @@ custom_icon = {
 				}
 			}
 		}
-    }
+	}
 	frame = {
-        number = 2
-    }
+		number = 2
+	}
 }
 
 custom_icon = {
 	name = fight_darkness_banner
-    potential = {
+	potential = {
 	}
 	#tooltip = latin_ui_latin_flag_tooltip
 }
 
 custom_text_box = {
-    name = fight_darkness_banner_text
-    potential = {
+	name = fight_darkness_banner_text
+	potential = {
 	}
-    # tooltip = fight_darkness_banner_text_tooltip
+	# tooltip = fight_darkness_banner_text_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_bishops
-    potential = {
+	potential = {
 	}
 	trigger = {
 		check_variable = {
@@ -213,17 +213,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 1
-        trigger = { 
+		number = 1
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_bishops_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_elect
-    potential = {
+	potential = {
 	}
 	trigger = {
 		check_variable = {
@@ -248,17 +248,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 2
-        trigger = { 
+		number = 2
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_elect_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_heresy
-    potential = {
+	potential = {
 	}
 	trigger = {
 		check_variable = {
@@ -280,17 +280,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 3
-        trigger = { 
+		number = 3
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_heresy_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_cull
-    potential = {
+	potential = {
 	}
 	trigger = {
 		check_variable = {
@@ -315,31 +315,31 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 7
-        trigger = { 
+		number = 7
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_cull_tooltip
 }
 
 custom_text_box = {
-    name = embrace_darkness_banner_text
-    potential = {
+	name = embrace_darkness_banner_text
+	potential = {
 	}
-    #tooltip = faction_window_text_mechanic_override_cusloc
+	#tooltip = faction_window_text_mechanic_override_cusloc
 }
 
 custom_icon = {
 	name = embrace_darkness_banner
-    potential = {
+	potential = {
 	}
 	#tooltip = latin_ui_holy_site_thatta_religion_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_education
-    potential = {
+	potential = {
 	}
 	trigger = {
 		NOT = {
@@ -363,17 +363,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 4
-        trigger = { 
+		number = 4
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_education_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_warriors
-    potential = {
+	potential = {
 	}
 	trigger = {
 		NOT = {
@@ -397,17 +397,17 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 5
-        trigger = { 
+		number = 5
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_warriors_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_diplomacy
-    potential = {
+	potential = {
 	}
 	trigger = {
 			NOT = {
@@ -431,17 +431,17 @@ custom_button = {
 			hidden_effect = { set_ruler_flag = policies_misaligned_darkness }
 	}
 	frame = {
-        number = 6
-        trigger = { 
+		number = 6
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_diplomacy_tooltip
 }
 
 custom_button = {
 	name = manichaean_ui_rally
-    potential = {
+	potential = {
 	}
 	trigger = {
 		NOT = {
@@ -480,262 +480,262 @@ custom_button = {
 		}
 	}
 	frame = {
-        number = 8
-        trigger = { 
+		number = 8
+		trigger = { 
 			always = yes
 		}
-    }
+	}
 	tooltip = manichaean_ui_rally_tooltip
 }
 
 custom_icon = {
 	name = darkness_frame
-    potential = {
+	potential = {
 	}
 	trigger = {
 	}
 	effect = {
 	}
 	frame = {
-        number = 11
-        trigger = { 
+		number = 11
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 100
 			}
 		}
-    }
+	}
 	frame = {
-        number = 10
-        trigger = { 
+		number = 10
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 90
 			}
 		}
-    }
+	}
 	frame = {
-        number = 9
-        trigger = { 
+		number = 9
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 80
 			}
 		}
-    }
+	}
 	frame = {
-        number = 8
-        trigger = { 
+		number = 8
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 70
 			}
 		}
-    }
+	}
 	frame = {
-        number = 7
-        trigger = { 
+		number = 7
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 60
 			}
 		}
-    }
+	}
 	frame = {
-        number = 6
-        trigger = { 
+		number = 6
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 50
 			}
 		}
-    }
+	}
 	frame = {
-        number = 5
-        trigger = { 
+		number = 5
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 40
 			}
 		}
-    }
+	}
 	frame = {
-        number = 4
-        trigger = { 
+		number = 4
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 30
 			}
 		}
-    }
+	}
 	frame = {
-        number = 3
-        trigger = { 
+		number = 3
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 20
 			}
 		}
-    }
+	}
 	frame = {
-        number = 2
-        trigger = { 
+		number = 2
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 10
 			}
 		}
-    }
+	}
 	frame = {
-        number = 1
-        trigger = { 
+		number = 1
+		trigger = { 
 			check_variable = {
 				which = darkness
 				value = 10
 			}
 		}
-    }
+	}
 	tooltip = manichaean_ui_elect_tooltip
 }
 
 custom_icon = {
-    name = darkness_bar
-    frame_variable = darkness
+	name = darkness_bar
+	frame_variable = darkness
 }
 
 ## Shield 1: Adur Gushnasp/Venezia/Jerusalem
 custom_shield = {
 	name = gushnasp_owner_shield
-    potential = {
+	potential = {
 		religion = manichaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = gushnasp_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = venezia_owner_shield
-    potential = {
+	potential = {
 		religion = noniustian
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = venezia_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = jerusalem_owner_shield
-    potential = {
+	potential = {
 		religion = mandaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = jerusalem_owner
-    open_country = yes
+	open_country = yes
 }
 
 ## Shield 2: Adur Farnbag/Roma/Germanikea
 custom_shield = {
 	name = farnbag_owner_shield
-    potential = {
+	potential = {
 		religion = manichaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = farnbag_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = roma_owner_shield
-    potential = {
+	potential = {
 		religion = noniustian
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = roma_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = germanikea_owner_shield
-    potential = {
+	potential = {
 		religion = mandaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = germanikea_owner
-    open_country = yes
+	open_country = yes
 }
 
 ## Shield 3: Burzen Mihr/Sarai/Ctesiphon
 custom_shield = {
 	name = burzen_mihr_owner_shield
-    potential = {
+	potential = {
 		religion = manichaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = burzen_mihr_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = sarai_owner_shield
-    potential = {
+	potential = {
 		religion = noniustian
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = sarai_owner
-    open_country = yes
+	open_country = yes
 }
 
 custom_shield = {
 	name = ctesiphon_owner_shield
-    potential = {
+	potential = {
 		religion = mandaeism
 	}
 	trigger = {
 		#has_saved_global_event_target = imperial_chaplain
 	}
-    effect = { }
-    # tooltip = latin_ui_latin_flag_tooltip
+	effect = { }
+	# tooltip = latin_ui_latin_flag_tooltip
 	global_event_target = ctesiphon_owner
-    open_country = yes
+	open_country = yes
 }
 
 
 custom_icon = {
 	name = middle_holy_site_name_shield_cut
-    potential = {
+	potential = {
 		#OR = {
 		#	has_saved_global_event_target = Caliph_province_holder
 		#	has_saved_global_event_target = ME_latin_tag
@@ -750,7 +750,7 @@ custom_icon = {
 
 custom_icon = {
 	name = italy_ui_successor_shield_cut
-    potential = {
+	potential = {
 		#OR = {
 		#	has_saved_global_event_target = Caliph_province_holder
 		#	has_saved_global_event_target = ME_latin_tag
@@ -764,21 +764,21 @@ custom_icon = {
 }
 
 custom_text_box = {
-    name = latin_ui_unity_growth
-    potential = {
+	name = latin_ui_unity_growth
+	potential = {
 	}
-    tooltip = latin_ui_unity_growth_tooltip
+	tooltip = latin_ui_unity_growth_tooltip
 }
 
 custom_icon = {
 	name = faction_window_bg_override
-    potential = {
+	potential = {
 	}
 }
 
 custom_button = {
 	name = faction_window_bg_override
-    potential = { }
+	potential = { }
 	trigger = { }
 	effect = { }
 	# tooltip = blahblah
@@ -786,11 +786,11 @@ custom_button = {
 
 custom_text_box = {
 	name = faction_window_bg_override
-    potential = {  }
+	potential = {  }
 }
 
 custom_icon = {
 	name = fatwa_color_overlay
-    potential = {
+	potential = {
 	}
 }

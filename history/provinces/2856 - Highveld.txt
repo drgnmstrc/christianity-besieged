@@ -1,7 +1,6 @@
 #2856 - Highveld
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
 discovered_by = central_african
 discovered_by = sub_saharan
@@ -13,7 +12,6 @@ is_city = yes
 culture = okung
 religion = qanumi
 capital = "Highveld"
-hre = no
 base_tax = 3
 base_production = 2
 base_manpower = 2

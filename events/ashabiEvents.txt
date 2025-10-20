@@ -130,12 +130,12 @@ country_event = { #Rise of the Džaferids
 				add_reform = iqta_reform
 				define_ruler = {
 					name = "Džafer I"
-    				dynasty = "Vindid"
-    				adm = 4
-    				dip = 5
-    				mil = 6
-    				age = 43
-    				claim = 100
+					dynasty = "Vindid"
+					adm = 4
+					dip = 5
+					mil = 6
+					age = 43
+					claim = 100
 				}
 				define_consort = {
 					name = "Mathilida"
@@ -216,11 +216,11 @@ country_event = { #Rise of the Džaferids
 				factor = 0
 				ruler_has_personality = babbling_buffoon_personality
 			}
-            modifier = {
-                factor = 0.1
-                is_at_war = yes
-                NOT = { war_score = 0 }
-            }
+			modifier = {
+				factor = 0.1
+				is_at_war = yes
+				NOT = { war_score = 0 }
+			}
 			modifier = {
 				factor = 0.1
 				ruler_has_personality = careful_personality
@@ -230,15 +230,15 @@ country_event = { #Rise of the Džaferids
 	option = { #Maybe they're onto something...
 		name = ashabiEvents.c
 		trigger = {
-            tag = MVA
-            NOT = {
-                OR = {
-                    religion = ashabi
-                    religion = manichaeism
+			tag = MVA
+			NOT = {
+				OR = {
+					religion = ashabi
+					religion = manichaeism
 					was_player = yes
-                }
-            }
-        }
+				}
+			}
+		}
 		release_all_subjects = yes
 		DZA = { inherit = MVA }
 		ai_will_do = {

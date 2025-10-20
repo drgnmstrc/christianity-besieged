@@ -1,7 +1,7 @@
 #303 - Saratow
 
 owner = GOL
-controller = GOL    
+controller = GOL	
 culture = ukek
 religion = tengri_pagan_reformed
 hre = no

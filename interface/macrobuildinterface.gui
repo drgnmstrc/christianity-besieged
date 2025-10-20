@@ -1200,7 +1200,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "Unique_banner"
-			position = { x = 4 y = 485 }    
+			position = { x = 4 y = 485 }	
 			spriteType = "GFX_banner_left_4"
 		}
 
@@ -1400,7 +1400,7 @@ guiTypes = {
 		}
 
 		
-	    iconType = {
+		iconType = {
 			name = "naval_defense_banner"
 			position = { x = 268 y = 388 }
 			spriteType = "GFX_banner_right_2"
@@ -1467,7 +1467,7 @@ guiTypes = {
 			spriteType = "GFX_banner_right_2"
 		}
 
-		instantTextBoxType={                      
+		instantTextBoxType={					  
 			name = "title_infrastructure"
 			position = {x = 316 y = 494 }
 			font = "vic_18"

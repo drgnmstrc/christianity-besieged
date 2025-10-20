@@ -1,17 +1,14 @@
-owner = DAH #Early kingdom of Allada/Ardra
+owner = DAH#Early kingdom of Allada/Ardra
 controller = DAH
 add_core = DAH
 is_city = yes
 culture = fon
-religion = voodoo #Fetishism
+religion = voodoo#Fetishism
 capital = "Idarapa"
 trade_goods = ivory
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
-
-
 discovered_by = sub_saharan
 discovered_by = central_african
 discovered_by = saharan

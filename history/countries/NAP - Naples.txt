@@ -188,7 +188,7 @@ add_government_reform = autocracy_reform }
 		adm = 4
 		dip = 6
 		mil = 5
-		leader = {	name = "Vittorio Amedeo II"       	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
+		leader = {	name = "Vittorio Amedeo II"	   	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
 	}
 }
 

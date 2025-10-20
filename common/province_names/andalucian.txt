@@ -13,7 +13,7 @@
 # o -> u
 # Format: ID = { "Province" "Capital" } # Origin
 
-## BALKAN
+## BALKANS
 
 # Macedonia
 148 = { "Thesalunek" "Æmkal" } # Thessaloniki, Æm Kalas/Aiyum Qalis

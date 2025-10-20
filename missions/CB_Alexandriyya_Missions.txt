@@ -406,14 +406,14 @@ alexandriyya_missions_3 = {
 					culture = al_misr_arabic
 					religion = ROOT
 				}
-				accepted_culture = almukhidi
+				accepted_culture = haladri
 			}
 		}
 		effect = {
 			if = {
 				limit = {
 					354 = {
-						culture = almukhidi
+						culture = haladri
 					}
 				}
 				country_event = {

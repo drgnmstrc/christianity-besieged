@@ -1,0 +1,104 @@
+country_decisions = {
+
+	arithmea_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_hellas_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = RTM }
+			religion = neopythagorean
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 318		# Samos/Ionia, Pythagoras' birthplace
+				province_id = 123		# Metapontum/Calabria, Site of Pythagoras' death
+				province_id = 2984		# Kroton/Cosenza, Site of first Neopythagorean community
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = RTM }
+			owns_core_province = 318		# Samos/Ionia, Pythagoras' birthplace
+			owns_core_province = 123		# Metapontum/Calabria, Site of Pythagoras' death
+			owns_core_province = 2984		# Kroton/Cosenza, Site of first Neopythagorean community
+		}
+		effect = {
+			change_tag = RTM
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { 
+						OR = {
+							owned_by = ROOT 
+							area = north_kurdistan_area
+						}
+					}
+				}
+				add_permanent_claim = RTM
+			}
+			italy_region = {
+				add_permanent_claim = RTM
+			}
+			morea_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = RTM
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = RTM
+			}
+			macedonia_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = RTM
+			}
+			thrace_area = {
+				limit = {
+					NOT = {	owned_by = ROOT }
+				}
+				add_permanent_claim = RTM
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_hellas_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

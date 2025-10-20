@@ -6,7 +6,6 @@ is_city = yes
 culture = juhoan
 capital = "Sesriem"
 religion = qanumi
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 4

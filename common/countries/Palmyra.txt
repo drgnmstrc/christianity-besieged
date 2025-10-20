@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 125  110  225 }
+color = { 96 46 32 }
 revolutionary_colors = { 10  0  1 }
 
 historical_idea_groups = {
@@ -31,79 +31,81 @@ historical_units = {
 }
 
 monarch_names = {
-	"al-Nasr #2" = 20
-	"al-Mu'azzam #2" = 20
-	"al-Salih #2" = 20
-	"al-'Adil #2" = 20
-	"al-Kamil #1" = 20
-	"al-Ashraf #1" = 20
-	"al-Afdal #1" = 15
-	"Tadj #2" = 10
-	"Mujir ud-Din #1" = 10
-	"Djamal ud-Din #1" = 10
-	"Shihab ud-Din #1" = 10
-	"Shams #1" = 10
-	"Saif #1" = 10
-	"'Abbas #0" = 0
-	"'Abd al-Rahman #0" = 0
-	"Anwar #0" = 0
-	"Atuf #0" = 0
-	"Bakr #0" = 0
-	"Fahd #0" = 0
-	"Hakim #0" = 0
-	"Harun #0" = 0
-	"Hikmat #0" = 0
-	"Hisham #0" = 0
-	"Husayn #0" = 0
-	"Isma'il #0" = 0
-	"Jafar #0" = 0
-	"Jamaal #0" = 0
-	"Karim #0" = 0
-	"Malîk #0" = 0
-	"Mirza #0" = 0
-	"Muhammad #0" = 0
-	"Rashîd #0" = 0
-	"Rusul #0" = 0
-	"Shimun #0" = 0
-	"Tarîq #0" = 0
-	"Usama #0" = 0
-	"Yasir #0" = 0
-	"Yusuf #0" = 0
-	"Zaid #0" = 0
-	"Zîyad #0" = 0
+	"Odaenathus #2" = 20
+	"Septimius Vaballathus #2" = 20
+	"Yarhai #2" = 20
+	"Hairan #2" = 20
+	"Odainat #1" = 20
+	"Worod #1" = 20
+	"Zabdibel #1" = 15
+	"Rabbil #2" = 10
+	"Malchos #1" = 10
+	"Barateh #1" = 10
+	"Yedibel #1" = 10
+	"Abgar #1" = 10
+	"Manu #1" = 10
+	"Abdgar #0" = 0
+	"Yedai #0" = 0
+	"Barnebu #0" = 0
+	"Barsemya #0" = 0
+	"Hanania #0" = 0
+	"Abselama #0" = 0
+	"Yarhibol #0" = 0
+	"Maliku #0" = 0
+	"Azizu #0" = 0
+	"Abd-Maliku #0" = 0
+	"Shalman #0" = 0
+	"Nathan #0" = 0
+	"Bar-Malku #0" = 0
+	"Abd-Allat #0" = 0
+	"Elagabal #0" = 0
+	"Bar-Hadad #0" = 0
+	"Abd-Bel #0" = 0
+	"Zabdai #0" = 0
+	"Bar-Shema #0" = 0
+	"Abgarid #0" = 0
+	"Rabbula #0" = 0
+	"Zabdibol #0" = 0
+	"Malchos-Barateh #0" = 0
+	"Abedazar #0" = 0
+	"Belshamin #0" = 0
+	"Yarhibol-Azzai #0" = 0
+	"Abed-Bel #0" = 0
+	"Zabdibel #0" = 0
+	"Manu-Barateh #0" = 0
 	
-	"Ihsan #0" = -1
-	"Marwa #0" = -1
-	"Fatima #0" = -1
-	"Aisha #0" = -1
+	"Zenobia #0" = -1
+	"Bat-Zabbai #0" = -1
+	"Halpe #0" = -1
+	"Shalmath #0" = -1
 }
 
 leader_names = {
-	Damad
-	Esad
-	Farhad
-	Hafiz
-	Fazil
-	Ismail
-	Mehmed
-	Murad
-	Nasuh
-	Osman
-	Salih
-	Sinan
+	Odaenathus
+	Vaballathus
+	Hairan
+	Barateh
+	Zabdibel
+	Worod
+	Abgar
+	Yarhai
+	Abdgar
+	Rabbil
+	Malchos
+	Manu
 }
 
 ship_names = {
-	Arif
-	Azmi
-	Dervish
-	Fuad
-	Haci
-	Haydar
-	Mulish
-	Nuri
-	Salih
-	Said
-	Sefveti
-	Shukri
+	Bel
+	Yarhibol
+	Aglibol
+	Allat
+	Shamash
+	Nabu
+	Malakbel
+	Ba'alshamin
+	Atargatis
+	Elagabal
+	Taimu
+	Azizu
 }

@@ -6,10 +6,8 @@ is_city = yes
 culture = ning
 capital = "Mathangwane"
 religion = qanumi
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 base_manpower = 1
-
 discovered_by = central_african
 discovered_by = south_african

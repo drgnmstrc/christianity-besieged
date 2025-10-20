@@ -1,0 +1,864 @@
+ARM_reform_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+	ARM_restoring_clerical_trust = {
+		icon = influence_the_church
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+		}
+
+		effect = { remove_estate_privilege = estate_church_disunited_clergy } 
+	}
+
+	ARM_religious_diplomacy = {
+		icon = a_center_of_religion
+		position = 2
+		required_missions = { ARM_restoring_clerical_trust } 
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = ARM
+				is_capital_of = PNT
+				is_capital_of = ERS
+			}
+		}
+
+		trigger = {
+			OR = {
+				reverse_has_opinion = {
+					who = ERS
+					value = 200
+				}
+				AND = {
+					NOT = { alliance_with = ERS } 
+					ERS = { has_been_insulted_by_root = yes } 
+				}
+				AND = {
+					NOT = { alliance_with = ERS } 
+					alliance_with = PNT
+				}
+			}
+		}
+
+		effect = {
+			custom_tooltip = enables_council_of_atropatene_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						reverse_has_opinion = {
+							who = ERS
+							value = 200
+						}
+					}
+					add_country_modifier = {
+						name = "liv_diplomatic_focus"
+						duration = 18250
+					}
+					set_country_flag = persarmenia_chosen
+				}
+				else_if = {
+					limit = {
+						NOT = { alliance_with = ERS } 
+						ERS = { has_been_insulted_by_root = yes } 
+					}
+					remove_historical_friend = ERS
+					add_historical_rival = ERS
+					set_country_flag = greater_armenia_chosen
+					add_country_modifier = {
+						name = "military_buildup"
+						duration = 18250
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = { alliance_with = ERS } 
+						alliance_with = PNT
+					}
+					add_country_modifier = {
+						name = "got_rise_of_a_new_dynasty"
+						duration = 18250
+					}
+					remove_historical_friend = ERS
+					add_historical_rival = ERS
+					add_historical_friend = ERS
+					set_country_flag = mithridatic_restoration_chosen
+				}
+			}
+			custom_tooltip = persarmenia_branch_tt
+			tooltip = {
+				add_country_modifier = {
+					name = "liv_diplomatic_focus"
+					duration = 18250
+				}
+			}
+			custom_tooltip = greater_armenia_branch_tt
+			tooltip = {
+				remove_historical_friend = ERS
+				add_historical_rival = ERS
+				add_country_modifier = {
+					name = "military_buildup"
+					duration = 18250
+				}
+			}
+			custom_tooltip = mithridatic_restoration_branch_tt
+			tooltip = {
+				remove_historical_friend = ERS
+				add_historical_rival = ERS
+				add_historical_friend = ERS
+				add_country_modifier = {
+					name = "got_rise_of_a_new_dynasty"
+					duration = 18250
+				}
+			}
+		}
+	}
+
+	ARM_faith_of_the_east = {
+		icon = mission_religious
+		position = 3
+		required_missions = { ARM_religious_diplomacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = { has_country_flag = atropatene_concluded } 
+
+		effect = {
+			add_country_modifier = {
+				name = loyalist_preacher
+				duration = 3650
+			}
+		} 
+	}
+
+	ARM_integrate_vaspurakan = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { ARM_reorganize_the_ashkharhen } 
+		provinces_to_highlight = { owned_by = VSP } 
+
+		trigger = { VSP = { exists = no }  } 
+
+		effect = {
+			every_province = {
+				limit = { is_core = VSP } 
+				remove_core = VSP
+				add_core = ARM
+			}
+		}
+	}
+}
+ARM_reform_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+	ARM_concentrated_investments = {
+		icon = invest_in_the_rich_trades
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+				calc_true_if = {
+					amount = 3
+					any_province = {
+					num_of_times_improved = 3
+					owner = {
+						is_subject_of_type_with_overlord = {
+							who = ARM
+							type = ashkharh
+						}
+					} 
+				}
+			}
+		}
+
+		effect = { every_subject_country = { add_liberty_desire = -20 }  } 
+	}
+
+	ARM_provincial_loyalty = {
+		icon = develop_provence
+		position = 2
+		required_missions = { ARM_concentrated_investments } 
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { num_of_times_improved = 4 }
+		} 
+
+		trigger = {
+			all_owned_province = {
+				num_of_times_improved = 4
+			}
+		} 
+
+		effect = {  } 
+	}
+
+	ARM_some_call_it_persuasion = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { ARM_religious_diplomacy } 
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = ARM
+				is_capital_of = PNT
+				is_capital_of = ERS
+			}
+		}
+
+		trigger = {
+			OR = {
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = persarmenia_branch_tt
+						has_country_flag = persarmenia_chosen
+					}
+					reverse_has_opinion_modifier = {
+						who = ERS
+						modifier = sent_gift
+					}
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = greater_armenia_branch_tt
+						has_country_flag = greater_armenia_chosen
+					}
+					army_size_percentage = 1.0
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = mithridatic_restoration_branch_tt
+						has_country_flag = mithridatic_restoration_chosen
+					}
+					reverse_has_opinion_modifier = {
+						who = PNT
+						modifier = sent_gift
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_flag = persarmenia_chosen } 
+				add_country_modifier = {
+					name = "fra_strong_familial_ties_modifier"
+					duration = -1
+				}
+				ERS = {
+					reverse_add_opinion = {
+						who = ARM
+						modifier = swe_supports_the_union
+					}
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = greater_armenia_chosen } 
+				add_country_modifier = {
+					name = "military_focus"
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = mithridatic_restoration_chosen } 
+				define_consort = {
+					name = "Erato"
+					dynasty = Mithridates
+					country_of_origin = PNT
+					culture = pondii
+					religion = hellenism
+				}
+				PNT = {
+					reverse_add_opinion = {
+						who = ARM
+						modifier = swe_supports_the_union
+					}
+				}
+			}
+			else = {
+				custom_tooltip = persarmenia_branch_tt
+				tooltip = {
+					add_country_modifier = {
+						name = "fra_strong_familial_ties_modifier"
+						duration = -1
+					}
+					ERS = {
+						reverse_add_opinion = {
+							who = ARM
+							modifier = swe_supports_the_union
+						}
+					}
+				}
+				custom_tooltip = greater_armenia_branch_tt
+				tooltip = {
+					add_country_modifier = {
+						name = "military_focus"
+						duration = -1
+					}
+				}
+				custom_tooltip = mithridatic_restoration_branch_tt
+				tooltip = {
+					define_consort = {
+						name = "Erato"
+						dynasty = Mithridates
+						country_of_origin = PNT
+						culture = pondii
+						religion = hellenism
+					}
+					PNT = {
+						reverse_add_opinion = {
+							who = ARM
+							modifier = swe_supports_the_union
+						}
+					}
+				}
+			}
+		}
+	}
+
+	ARM_preparing_for_future = {
+		icon = mission_alliances
+		position = 4
+		required_missions = { ARM_some_call_it_persuasion } 
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = ARM
+				is_capital_of = PNT
+				is_capital_of = ERS
+			}
+		}
+
+		trigger = {
+			OR = {
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = persarmenia_branch_tt
+						has_country_flag = persarmenia_chosen
+					}
+					diplomatic_reputation = 6
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = greater_armenia_branch_tt
+						has_country_flag = greater_armenia_chosen
+					}
+					all_owned_province = { has_fort_building_trigger = yes } 
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = mithridatic_restoration_branch_tt
+						has_country_flag = mithridatic_restoration_chosen
+					}
+					reverse_has_opinion = {
+						who = PNT
+						value = 200
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_flag = persarmenia_chosen } 
+				add_dip_power = 200
+			}
+			else_if = {
+				limit = { has_country_flag = greater_armenia_chosen } 
+				capital_scope = {
+					add_province_modifier = {
+						name = "sav_prosperous_homelands"
+						duration = -1
+					}
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = mithridatic_restoration_chosen } 
+				set_dynasty = Mithridates
+				PNT = { create_marriage = PNT } 
+			}
+			else = {
+				custom_tooltip = persarmenia_branch_tt
+				tooltip = {
+					add_dip_power = 200
+				}
+				custom_tooltip = greater_armenia_branch_tt
+				tooltip = {
+					capital_scope = {
+						add_province_modifier = {
+							name = "sav_prosperous_homelands"
+							duration = -1
+						}
+					}
+				}
+				custom_tooltip = mithridatic_restoration_branch_tt
+				tooltip = {
+					set_dynasty = "Mithridates"
+					PNT = { create_marriage = PNT } 
+				}
+			}
+		}
+	}
+
+	ARM_approaching_the_court = {
+		icon = mission_court_education
+		position = 5
+		required_missions = { ARM_preparing_for_future } 
+		provinces_to_highlight = {
+			OR = {
+				is_capital_of = ARM
+				is_capital_of = PNT
+				is_capital_of = ERS
+			}
+		}
+
+		trigger = {
+			OR = {
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = persarmenia_branch_tt
+						has_country_flag = persarmenia_chosen
+					}
+					ERS = {
+						trust = {
+							who = ARM
+							value = 75
+						}
+					}
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = greater_armenia_branch_tt
+						has_country_flag = greater_armenia_chosen
+					}
+					has_adm_advisor = yes
+					has_dip_advisor = yes
+					has_mil_advisor = yes
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = mithridatic_restoration_branch_tt
+						has_country_flag = mithridatic_restoration_chosen
+					}
+					PNT = {
+						trust = {
+							who = ARM
+							value = 75
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_flag = persarmenia_chosen } 
+				create_subject = {
+					subject_type = march
+					subject = SRV
+				}
+				2202 = { add_core = ROOT } 
+				420 = { add_core = ROOT }
+				declare_war_with_cb = {
+					casus_belli = cb_core
+					who = ALB
+					war_goal_province = 420
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = greater_armenia_chosen } 
+				add_country_modifier = {
+					name = "power_to_advisors"
+					duration = 3650
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = mithridatic_restoration_chosen } 
+				4303 = { add_core = ROOT } 
+				declare_war_with_cb = {
+					casus_belli = cb_core
+					who = KLC
+					war_goal_province = 4303
+				}
+			}
+			else = {
+				custom_tooltip = persarmenia_branch_tt
+				tooltip = {
+					create_subject = {
+						subject_type = march
+						subject = SRV
+					}
+					2202 = { add_core = ROOT } 
+					420 = { add_core = ROOT } 
+					declare_war_with_cb = {
+						casus_belli = cb_core
+						who = ALB
+						war_goal_province = 420
+					}
+				}
+				custom_tooltip = greater_armenia_branch_tt
+				tooltip = {
+					add_country_modifier = {
+						name = "power_to_advisors"
+						duration = 3650
+					}
+				}
+				custom_tooltip = mithridatic_restoration_branch_tt
+				tooltip = {
+					4303 = { add_core = ROOT } 
+					declare_war_with_cb = {
+						casus_belli = cb_core
+						who = KLC
+						war_goal_province = 4303
+					}
+				}
+			}
+		}
+	}
+
+	ARM_integrate_upper_armenia = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { ARM_reorganize_the_ashkharhen } 
+		provinces_to_highlight = { owned_by = UPR } 
+
+		trigger = { UPR = { exists = no }  } 
+
+		effect = {
+			every_province = {
+				limit = { is_core = UPR } 
+				remove_core = UPR
+				add_core = ARM
+			}
+		}
+	}
+}
+ARM_reform_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+	ARM_a_test_of_allegiance = {
+		icon = mission_reliable_allies
+		position = 3
+		required_missions = {
+			ARM_provincial_loyalty
+			ARM_assessing_noble_allies
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = recently_seized_land
+				has_country_flag = recent_land_seizure
+				NOT = {
+					had_country_flag = {
+						flag = recent_land_seizure
+						days = 5475
+					}
+				}
+			}
+		}
+
+		effect = {
+			2204 = {
+				spawn_rebels = {
+					type = noble_rebels
+					size = 3
+					win = yes
+				}
+			}
+			define_general = {
+				shock = 4
+				fire = 5
+				manuever = 6
+				name = "Ivane Zakarian"
+			}
+		}
+	}
+
+	ARM_disestablish_the_nobility = {
+		icon = mission_english_civil_war
+		position = 4
+		required_missions = { ARM_a_test_of_allegiance } 
+		provinces_to_highlight = {  } 
+
+		trigger = { NOT = { any_owned_province = { controlled_by = REB }  }  } 
+
+		effect = {
+			remove_estate_privilege = estate_nobles_outdated_provincial_system
+			mil_power_cost = 200
+		}
+	}
+
+	ARM_licking_our_wounds = {
+		icon = arm_restore_armenian_cilicia
+		position = 5
+		required_missions = { ARM_disestablish_the_nobility } 
+		provinces_to_highlight = {  } 
+
+		trigger = { NOT = { any_owned_province = { devastation = 1 }  }  } 
+
+		effect = {
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+
+	ARM_reorganize_the_ashkharhen = {
+		icon = mission_prepare_an_invasion_force
+		position = 6
+		required_missions = {
+			ARM_approaching_the_court
+			ARM_licking_our_wounds
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			all_subject_country = {
+				OR = {
+					NOT = { is_subject_of_type = ashkharh }
+					has_support_loyalists = yes
+				}
+				NOT = { liberty_desire = 50 } 
+			}
+		}
+
+		effect = {
+			every_subject_country = {
+				limit = { is_subject_of_type = ashkharh } 
+				ROOT = {
+					create_subject = {
+						who = PREV
+						subject_type = core_ashkharh
+					}
+				}
+			}
+		}
+	}
+
+	ARM_audience_with_the_monarch = {
+		icon = mission_book_of_royal_degrees
+		position = 8
+		required_missions = {
+			ARM_integrate_vaspurakan
+			ARM_integrate_upper_armenia
+			ARM_integrate_syunik
+			ARM_integrate_arzanene
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = { NOT = { any_subject_country = { is_subject_of_type = core_ashkharh }  }  } 
+
+		effect = { remove_estate_privilege = estate_nobles_disunited_nobility } 
+	}
+
+	ARM_the_road_forward = {
+		icon = spa_spanish_road
+		position = 9
+		required_missions = { ARM_audience_with_the_monarch } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			OR = {
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = persarmenia_branch_tt
+						has_country_flag = persarmenia_chosen
+					}
+					ERS = {
+						owes_favors = {
+							who = ROOT
+							value = 30
+						}
+					}
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = greater_armenia_branch_tt
+						has_country_flag = greater_armenia_chosen
+					}
+					num_of_allies = 3
+				}
+				AND = {
+					custom_trigger_tooltip = {
+						tooltip = mithridatic_restoration_branch_tt
+						has_country_flag = mithridatic_restoration_chosen
+					}
+					PNT = {
+						owes_favors = {
+							who = ROOT
+							value = 30
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = reforms_completed
+			if = {
+				limit = { has_country_flag = persarmenia_chosen } 
+				ERS = { country_event = { id = CBHayastanEvents.0 } }
+			}
+			else_if = {
+				limit = { has_country_flag = greater_armenia_chosen } 
+				declare_war_with_cb = {
+					casus_belli = cb_armenian_invasion
+					who = ERS
+					war_goal_province = 416
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = mithridatic_restoration_chosen }
+				PNT = { country_event = { id = CBHayastanEvents.0 } } 
+			}
+			else = {
+				custom_tooltip = persarmenia_branch_tt
+				tooltip = { ERS = { country_event = { id = CBHayastanEvents.0 } } }
+				custom_tooltip = greater_armenia_branch_tt
+				tooltip = {
+					declare_war_with_cb = {
+						casus_belli = cb_armenian_invasion
+						who = ERS
+						war_goal_province = 416
+					}
+				}
+				custom_tooltip = mithridatic_restoration_branch_tt
+				tooltip = {
+					PNT = { country_event = { id = CBHayastanEvents.0 } } 
+				}
+			}
+		}
+	}
+}
+ARM_reform_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+	ARM_managing_the_nobility = {
+		icon = rein_in_the_nobles
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			estate_influence = {
+				estate = estate_nobles
+				influence = 75
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				add_province_modifier = {
+					name = "local_popularity"
+					duration = 9125
+				}
+			}
+		}
+	}
+
+	ARM_assessing_noble_allies = {
+		icon = mission_noble_council
+		position = 2
+		required_missions = { ARM_managing_the_nobility } 
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "loyal_subjects"
+				duration = 9125
+			}
+		}
+	}
+
+	ARM_integrate_syunik = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { ARM_reorganize_the_ashkharhen } 
+		provinces_to_highlight = { owned_by = SYU } 
+
+		trigger = { SYU = { exists = no }  } 
+
+		effect = {
+			every_province = {
+				limit = { is_core = SYU } 
+				remove_core = SYU
+				add_core = ARM
+			}
+		}
+	}
+}
+ARM_blank_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+}
+ARM_reform_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = ARM
+		NOT = { has_country_flag = reforms_completed } 
+	}
+
+	ARM_integrate_arzanene = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { ARM_reorganize_the_ashkharhen } 
+		provinces_to_highlight = { owned_by = ARZ } 
+
+		trigger = { ARZ = { exists = no }  } 
+
+		effect = {
+			every_province = {
+				limit = { is_core = ARZ } 
+				remove_core = ARZ
+				add_core = ARM
+			}
+		}
+	}
+}

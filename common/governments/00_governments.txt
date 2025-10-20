@@ -152,7 +152,9 @@ monarchy = {
 				irish_iqta
 				italian_iqta
 				second_axarid_empire
+				zenobian_matriarchy_reform
 				japanese_empire_reform
+				ashkharh_government
 			}
 		}
 		hereditary_vs_nobility = {
@@ -1322,6 +1324,7 @@ theocracy = {
 
 				# Christianity Besieged Redux
 				syriac_church_reform
+				syriac_akhuta_reform
 				mudarian_utopia
 				kurudic_order_reform
 				qhaanue_reform

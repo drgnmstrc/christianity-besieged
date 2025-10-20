@@ -1,8 +1,8 @@
 make_locus_conventus = {
-    category = influence
-    require_acceptance = no
+	category = influence
+	require_acceptance = no
 
-    is_visible = {
+	is_visible = {
 		OR = {
 			AND = {	
 				ROOT = {
@@ -24,18 +24,18 @@ make_locus_conventus = {
 				}
 			}
 		}
-    }
-    
-    # Determines when the action can be taken
-    is_allowed = {
-        FROM = {
+	}
+	
+	# Determines when the action can be taken
+	is_allowed = {
+		FROM = {
 			is_subject_of_type = vassal
 			is_subject_of = ROOT
 		}
-    }
-    
-    # Which effects to execute on acceptance
-    on_accept = {
+	}
+	
+	# Which effects to execute on acceptance
+	on_accept = {
 		create_subject = {
 			subject_type = locus_conventus
 			subject = FROM
@@ -45,9 +45,9 @@ make_locus_conventus = {
 			add_government_reform = locus_conventus_reform
 		}
 		add_prestige = 10
-    }
-    # Controls the AI's usage of the action
-    ai_will_do = {
-        always = yes
-    }
+	}
+	# Controls the AI's usage of the action
+	ai_will_do = {
+		always = yes
+	}
 }

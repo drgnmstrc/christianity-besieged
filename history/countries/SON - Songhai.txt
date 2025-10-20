@@ -79,7 +79,7 @@ religious_school = maliki_school
 		adm = 4
 		dip = 0
 		mil = 6
-		leader = {	name = "'Alî Ber"              	type = general	fire = 4	shock = 3	manuever = 3	siege = 1}
+		leader = {	name = "'Alî Ber"			  	type = general	fire = 4	shock = 3	manuever = 3	siege = 1}
 	}
 }
 
@@ -90,7 +90,7 @@ religious_school = maliki_school
 		adm = 4
 		dip = 0
 		mil = 6
-		leader = {	name = "'Alî Ber"              	type = general	fire = 4	shock = 3	manuever = 3	siege = 1}
+		leader = {	name = "'Alî Ber"			  	type = general	fire = 4	shock = 3	manuever = 3	siege = 1}
 	}
 }
 
@@ -105,7 +105,7 @@ religious_school = maliki_school
 		adm = 0
 		dip = 2
 		mil = 0
-		leader = {	name = "Muhammad I"            	type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
+		leader = {	name = "Muhammad I"				type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
 	}
 }
 
@@ -130,7 +130,7 @@ religious_school = maliki_school
 		adm = 0
 		dip = 1
 		mil = 5
-		leader = {	name = "Muhammad I"            	type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
+		leader = {	name = "Muhammad I"				type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
 	}
 }
 
@@ -141,7 +141,7 @@ religious_school = maliki_school
 		adm = 0
 		dip = 1
 		mil = 5
-		leader = {	name = "Muhammad I"            	type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
+		leader = {	name = "Muhammad I"				type = general	fire = 2	shock = 3	manuever = 3	siege = 0}
 	}
 }
 
@@ -252,7 +252,7 @@ religious_school = maliki_school
 		adm = 5
 		dip = 3
 		mil = 4
-		leader = {	name = "Dâ'ûd"                 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
+		leader = {	name = "Dâ'ûd"				 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
 	}
 }		
 
@@ -263,7 +263,7 @@ religious_school = maliki_school
 		adm = 5
 		dip = 3
 		mil = 4
-		leader = {	name = "Dâ'ûd"                 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
+		leader = {	name = "Dâ'ûd"				 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
 	}
 }
 

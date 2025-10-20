@@ -6,7 +6,6 @@ culture = georgian
 religion = syriac
 capital = "Rhizos"
 trade_goods = fish
-hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 2

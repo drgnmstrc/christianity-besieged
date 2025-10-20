@@ -1206,3 +1206,237 @@ province_event = {
 		}
 	}
 }
+
+# Fonnic/Punic Migration
+province_event = {
+	id = cultureshift.29
+	title = cultureshift.29t
+	desc = cultureshift.29d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	is_triggered_only = yes
+
+	option = { # ...What?
+		name = cultureshift.29a
+		trigger = {
+			NOT = { is_capital_of = owner }
+		}
+		change_culture = punic
+		change_religion = canaanism
+		if = {
+			limit = { continent = europe }
+			add_core = FNQ
+		}
+		else_if = {
+			limit = { continent = africa }
+			add_core = HDS
+		}
+	}
+
+	option = { # What!?
+		name = cultureshift.29b
+		trigger = {
+			is_capital_of = owner
+		}
+		change_culture = punic
+		change_religion = canaanism
+		if = {
+			limit = { continent = europe }
+			add_core = FNQ
+		}
+		else_if = {
+			limit = { continent = africa }
+			add_core = HDS
+		}
+		if = {
+			limit = {
+				is_capital = yes
+				owner = { ai = yes }
+			}
+			owner = {
+				change_primary_culture = punic
+				change_religion = canaanism
+				if = {
+					limit = { ROOT = { continent = europe } }
+					change_tag = FNQ
+				}
+				else_if = {
+					limit = { ROOT = { continent = africa } }
+					change_tag = HDS
+				}
+				define_ruler = {
+					culture = punic
+					religion = canaanism
+				}
+			}
+		}
+
+	}
+}
+
+# Nabuthi to Nabathu
+province_event = {
+	id = cultureshift.30
+	title = cultureshift.30t
+	desc = cultureshift.30d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			culture = nabuthi
+		}
+		owner = {
+			culture_group = aramaic_group
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = aramaic_group
+							religion_group = hellenic
+							religion_group = iranian
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				culture = nabathu
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.30a
+		change_culture = nabathu
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = nabathu }
+			}
+		}
+	}
+}
+
+# Natolaye Divergence
+province_event = {
+	id = cultureshift.31
+	title = cultureshift.31t
+	desc = cultureshift.31d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			region = anatolia_region
+		}
+		owner = {
+			culture_group = aramaic_group
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = aramaic_group
+							religion_group = hellenic
+							religion_group = iranian
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				culture = natolaye
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.31a
+		change_culture = natolaye
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = natolaye }
+			}
+		}
+	}
+}
+
+# Misheroye Divergence
+province_event = {
+	id = cultureshift.32
+	title = cultureshift.32t
+	desc = cultureshift.32d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		OR = {
+			region = egypt_region
+		}
+		owner = {
+			culture_group = aramaic_group
+		}
+		religion = owner
+	}
+
+	mean_time_to_happen = {
+		years = 25
+		modifier = {
+			factor = 0.9
+			NOT = {
+				any_neighbor_province = {
+					owner = {
+						OR = {
+							culture_group = aramaic_group
+							religion_group = hellenic
+							religion_group = iranian
+						}
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_neighbor_province = {
+				culture = misheroye
+			}
+		}
+	}
+
+	option = {
+		name = cultureshift.32a
+		change_culture = misheroye
+		hidden_effect = {
+			if = {
+				limit = {
+					is_capital = yes
+					owner = { ai = yes }
+				}
+				owner = { change_primary_culture = misheroye }
+			}
+		}
+	}
+}

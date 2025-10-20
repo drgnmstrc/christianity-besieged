@@ -2,18 +2,14 @@
 owner = IJE
 controller = IJE
 add_core = IJE
-culture = ilaje 
-religion = itan #Fetishism
+culture = ilaje
+religion = itan#Fetishism
 capital = "Ijaiye"
 is_city = yes
 base_manpower = 1
 trade_goods = fish
-hre = no
 base_tax = 2
 base_production = 2
-
-
-
 discovered_by = sub_saharan
 discovered_by = central_african
 discovered_by = saharan

@@ -1,0 +1,231 @@
+﻿l_english:
+ ARM_restoring_clerical_trust_title: "Restoring Clerical Trust"
+ ARM_restoring_clerical_trust_desc: ""
+
+ ARM_religious_diplomacy_title: "Religious Diplomacy"
+ ARM_religious_diplomacy_desc: ""
+
+ ARM_faith_of_the_east_title: "A Faith of the East"
+ ARM_faith_of_the_east_desc: ""
+
+ ARM_integrate_vaspurakan_title: "Integrate Vaspurakan"
+ ARM_integrate_vaspurakan_desc: ""
+
+ ARM_concentrated_investments_title: "Concentrated Investments"
+ ARM_concentrated_investments_desc: ""
+
+ ARM_provincial_loyalty_title: "Provincial Loyalty"
+ ARM_provincial_loyalty_desc: ""
+
+ ARM_some_call_it_persuasion_title: "Some Call it 'Persuasion'"
+ ARM_some_call_it_persuasion_desc: ""
+
+ ARM_preparing_for_future_title: "Preparing for the Future"
+ ARM_preparing_for_future_desc: ""
+
+ ARM_approaching_the_court_title: "Approaching the Court"
+ ARM_approaching_the_court_desc: ""
+
+ ARM_integrate_upper_armenia_title: "Integrate Upper Armenia"
+ ARM_integrate_upper_armenia_desc: ""
+
+ ARM_a_test_of_allegiance_title: "A Test of Alliegance"
+ ARM_a_test_of_allegiance_desc: ""
+
+ ARM_disestablish_the_nobility_title: "Disestablish the Nobility"
+ ARM_disestablish_the_nobility_desc: ""
+
+ ARM_licking_our_wounds_title: "Licking Our Wounds"
+ ARM_licking_our_wounds_desc: ""
+
+ ARM_reorganize_the_ashkharhen_title: "Reorganize the Ashkharhner"
+ ARM_reorganize_the_ashkharhen_desc: ""
+
+ ARM_audience_with_the_monarch_title: "Audience with the [Root.Monarch.GetTitle]"
+ ARM_audience_with_the_monarch_desc: ""
+
+ ARM_the_road_forward_title: "The Road Forward"
+ ARM_the_road_forward_desc: ""
+
+ ARM_managing_the_nobility_title: "Managing the Nobility"
+ ARM_managing_the_nobility_desc: ""
+
+ ARM_assessing_noble_allies_title: "Assessing Noble Allies"
+ ARM_assessing_noble_allies_desc: ""
+
+ ARM_integrate_syunik_title: "Integrate Syunik"
+ ARM_integrate_syunik_desc: ""
+
+ ARM_integrate_arzanene_title: "Integrate Arzanene"
+ ARM_integrate_arzanene_desc: ""
+
+
+ recently_seized_land: "Has Recently Siezed Land"
+ enables_council_of_atropatene_tt: "Enables the §YCouncil of Atropatene§!"
+ persarmenia_branch_tt: "If we chose to align with [ERS.GetName]:"
+ greater_armenia_branch_tt: "§RWIP!§! If we chose not to align with anyone:"
+ mithridatic_restoration_branch_tt: "§RWIP!§! If we chose to align with [PNT.GetName]:"
+
+ # Persarmenia
+
+ # Unification
+ ARM_centers_of_culture_title: "Centers Of Culture"
+ ARM_centers_of_culture_desc: ""
+
+ ARM_loyal_magnates_title: "Loyal Magnates"
+ ARM_loyal_magnates_desc: ""
+
+ ARM_reconquer_the_coast_title: "Reconquer The Coast"
+ ARM_reconquer_the_coast_desc: ""
+
+ ARM_supplant_cappadocia_title: "Supplant Cappadocia"
+ ARM_supplant_cappadocia_desc: ""
+
+ ARM_the_best_defense_title: "The Best Defense"
+ ARM_the_best_defense_desc: ""
+
+ ARM_is_a_good_offense_title: "Is A Good Offense"
+ ARM_is_a_good_offense_desc: ""
+
+ ARM_anatolian_ambition_title: "Anatolian Ambition"
+ ARM_anatolian_ambition_desc: ""
+
+ ARM_sponsor_schools_of_theology_title: "Sponsor Schools Of Theology"
+ ARM_sponsor_schools_of_theology_desc: ""
+
+ ARM_sharing_the_faith_title: "Sharing The Faith"
+ ARM_sharing_the_faith_desc: ""
+
+ ARM_integrate_kakheti_title: "Integrate Kakheti"
+ ARM_integrate_kakheti_desc: ""
+
+ ARM_mountainfolk_faith_title: "Mountainfolk Faith"
+ ARM_mountainfolk_faith_desc: ""
+
+ ARM_second_capital_title: "Second Capital"
+ ARM_second_capital_desc: ""
+
+ ARM_northern_control_title: "Northern Control"
+ ARM_northern_control_desc: ""
+
+ ARM_persarmenia_title: "Persarmenia"
+ ARM_persarmenia_desc: ""
+
+ ARM_indomitable_azatani_title: "Indomitable Azatanai"
+ ARM_indomitable_azatani_desc: ""
+
+ ARM_claim_the_caspian_title: "Claim The Caspian"
+ ARM_claim_the_caspian_desc: ""
+
+ ARM_snake_the_rivers_title: "Snake The Rivers"
+ ARM_snake_the_rivers_desc: ""
+
+ ARM_restoration_of_ctesiphon_title: "Restoration Of Ctesiphon"
+ ARM_restoration_of_ctesiphon_desc: ""
+
+ ARM_hegemon_of_the_east_title: "Hegemon Of The East"
+ ARM_hegemon_of_the_east_desc: ""
+
+ ARM_command_restructuring_title: "Command Restructuring"
+ ARM_command_restructuring_desc: ""
+
+ ARM_southern_push_title: "Southern Push"
+ ARM_southern_push_desc: ""
+
+ ARM_home_of_the_phoenicians_title: "Home of the Phoenicians"
+ ARM_home_of_the_phoenicians_desc: ""
+
+ persarmenian_unification_tt: "§Y[Root.GetName]§! and §Y[ERS.GetName]§! will unify into §Y[PSR.GetName]§!!"
+
+ # Integration
+
+ ARM_central_fortifications_title: "Central Fortifications"
+ ARM_central_fortifications_desc: ""
+
+ ARM_yerevan_to_doros_title: "Yerevan to Doros"
+ ARM_yerevan_to_doros_desc: ""
+
+ ARM_sakastan_title: "Sakastan"
+ ARM_sakastan_desc: ""
+
+ ARM_royal_roads_title: "Royal Roads"
+ ARM_royal_roads_desc: ""
+
+ ARM_yerevan_to_ionia_title: "Yerevan to Ionia"
+ ARM_yerevan_to_ionia_desc: ""
+
+ ARM_skudra_title: "Skudra"
+ ARM_skudra_desc: ""
+
+ ARM_old_friends_united_title: "Old Friends United"
+ ARM_old_friends_united_desc: ""
+
+ ARM_yerevan_to_jerusalem_title: "Yerevan to Jerusalem"
+ ARM_yerevan_to_jerusalem_desc: ""
+
+ ARM_egiptos_title: "Egiptos"
+ ARM_egiptos_desc: ""
+
+ ARM_persian_representation_title: "Persian Representation"
+ ARM_persian_representation_desc: ""
+
+ ARM_persian_representation_title: "Persian Representation"
+ ARM_persian_representation_desc: ""
+
+ ARM_guarding_the_sea_title: "Guarding the Sea"
+ ARM_guarding_the_sea_desc: ""
+
+ ARM_enclose_the_caspian_title: "Enclose the Caspian"
+ ARM_enclose_the_caspian_desc: ""
+
+ armenian_culture_shift_tt: "§YArmenian§! will be subsumed into the §YIranian§! culture group"
+
+ # Conquest
+
+ ARM_indian_portage_title: "Indian Portage"
+ ARM_indian_portage_desc: ""
+
+ ARM_conquer_khorasan_title: "Conquer Khorasan"
+ ARM_conquer_khorasan_desc: ""
+
+ ARM_restore_old_borders_title: "Restore Old Borders"
+ ARM_restore_old_borders_desc: ""
+
+ ARM_deccan_domination_title: "Deccan Domination"
+ ARM_deccan_domination_desc: ""
+
+ ARM_home_of_the_hindi_title: "Home of the Hindi"
+ ARM_home_of_the_hindi_desc: ""
+
+ ARM_finishing_india_title: "Finishing India"
+ ARM_finishing_india_desc: ""
+
+ ARM_pontic_conquest_title: "Pontic Conquest"
+ ARM_pontic_conquest_desc: ""
+
+ ARM_open_settlements_title: "Open Settlements"
+ ARM_open_settlements_desc: ""
+
+ ARM_learning_from_the_past_title: "Learning from the Past"
+ ARM_learning_from_the_past_desc: ""
+
+ ARM_subdue_arabia_title: "Subdue Arabia"
+ ARM_subdue_arabia_desc: ""
+
+ ARM_carve_the_horn_title: "Carve the Horn"
+ ARM_carve_the_horn_desc: ""
+
+ ARM_imperial_integration_title: "Imperial Integration"
+ ARM_imperial_integration_desc: ""
+
+ ARM_african_incursion_title: "African Incursion"
+ ARM_african_incursion_desc: ""
+
+ ARM_city_of_black_title: "City of Black"
+ ARM_city_of_black_desc: ""
+
+ ARM_rounding_the_cape_title: "Rounding the Cape"
+ ARM_rounding_the_cape_desc: ""
+
+ every_region_iranic: "Every region completely owned by us should have one province of the §YIranian§! culture group"
+ every_region_5_iranic: "Every region completely owned by us should have five provinces of the §YIranian§! culture group"

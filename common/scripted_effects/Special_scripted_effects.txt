@@ -380,7 +380,7 @@ export_trade_goods_produced_amount_two = {
 		else = { 
 				change_variable = { which = amount_$GOODS$ value = 0.5 }
 		} 
-    }
+	}
 	else = {
 		if = {
 			limit = { trade_goods_produced_amount = { trade_goods = $GOODS$ amount = $GOODSVAR$.2 } }

@@ -3,7 +3,7 @@
 owner = CMG
 controller = CMG
 add_core = CMG
-add_core = ARM
+add_core = ARZ
 culture = kurdish
 religion = mandaeism
 capital = "Maras"

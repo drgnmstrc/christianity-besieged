@@ -2570,7 +2570,7 @@ guiTypes = {
 				position = { x = 15 y = 100 }
 				font = "vic_22"
 				scripted = yes
-		    }
+			}
 			
 			guiButtonType = {
 				name ="close_TGE"
@@ -2585,7 +2585,7 @@ guiTypes = {
 				position = { x = 17 y = 127 }
 				font = "vic_18"
 				scripted = yes
-		    }
+			}
 			
 			iconType =
 			{
@@ -2625,7 +2625,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}
 				scripted = yes
-		    }
+			}
 			
 			instantTextBoxType = {
 				name = "TGE_Infrastructure_terrain_pr"
@@ -2633,7 +2633,7 @@ guiTypes = {
 				font = "vic_18s"
 				borderSize = {x = 4 y = 4}
 				scripted = yes
-		    }
+			}
 			
 			instantTextBoxType = {
 				name = "TGE_Infrastructure_climate_pr"
@@ -2641,7 +2641,7 @@ guiTypes = {
 				font = "vic_18s"
 				borderSize = {x = 4 y = 4}
 				scripted = yes
-		    }
+			}
 			
 			instantTextBoxType = {
 				name = "TGE_Infrastructure_winter_pr"
@@ -2649,7 +2649,7 @@ guiTypes = {
 				font = "vic_18s"
 				borderSize = {x = 4 y = 4}
 				scripted = yes
-		    }
+			}
 			
 			instantTextBoxType = {
 				name = "TGE_Infrastructure_type_pr"
@@ -2657,7 +2657,7 @@ guiTypes = {
 				font = "vic_18s"
 				borderSize = {x = 4 y = 4}
 				scripted = yes
-		    }
+			}
 			
 			
 			
@@ -3180,7 +3180,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					Orientation = "UPPER_LEFT"
 				}
-                
+				
 				guiButtonType =
 				{
 					name ="reduce_infrastructure_button"
@@ -3193,7 +3193,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					Orientation = "UPPER_LEFT"
 				}
-                
+				
 				iconType =
 				{
 					name ="naval_forcelimit_icon"

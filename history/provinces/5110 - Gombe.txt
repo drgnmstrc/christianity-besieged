@@ -2,11 +2,10 @@
 owner = BAU
 controller = BAU
 add_core = BAU
-culture = hausa 
+culture = hausa
 religion = bori
 capital = "Bauchi"
 trade_goods = millet
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2

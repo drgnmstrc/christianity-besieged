@@ -1057,7 +1057,7 @@ country_event = {
 
 
 ########################################
-# Trade Goods Tariffs                  #
+# Trade Goods Tariffs				  #
 ########################################
 
 # Tariffs on Grain

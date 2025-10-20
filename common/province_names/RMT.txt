@@ -1,0 +1,6 @@
+# Format: ID = { "Province" "Capital" } # Origin
+
+## MASHRIQ
+
+# Osrhoene/Al-Jazira
+407 = { "Aaargh" "Aaargh" } # Ar-Raqqa, I love Monty Python X3

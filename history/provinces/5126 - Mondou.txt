@@ -2,7 +2,6 @@
 culture = gbaya
 religion = byeri
 capital = "Mondou"
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -13,3 +12,4 @@ native_hostileness = 9
 discovered_by = central_african
 discovered_by = sub_saharan
 discovered_by = saharan
+is_city = no

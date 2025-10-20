@@ -85,13 +85,13 @@ monarch_names = {
 }
 
 leader_names = {
-        "Arceally" Arfeuilarnoux "Aujaydulure"
-        "Barbançan" "Barbarin" "Basmaisen" "Bevenen" "Belenaven" "Bodinet" "Buisen" "Bunefunt"
-        "Faucompen" "Fontagen" "Fremen"
-        "Abenetux" "Grussuven" "Gu" 
-        "Trussebesen"
-        "Ussen"
-        "Villaines" "Villars"
+		"Arceally" Arfeuilarnoux "Aujaydulure"
+		"Barbançan" "Barbarin" "Basmaisen" "Bevenen" "Belenaven" "Bodinet" "Buisen" "Bunefunt"
+		"Faucompen" "Fontagen" "Fremen"
+		"Abenetux" "Grussuven" "Gu" 
+		"Trussebesen"
+		"Ussen"
+		"Villaines" "Villars"
 }
 
 ship_names = {

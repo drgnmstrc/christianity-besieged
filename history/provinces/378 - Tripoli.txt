@@ -2,8 +2,8 @@
 
 owner = PLM
 controller = PLM
-culture = phoenician
-religion = canaanism
+culture = aramean
+religion = manichaeism
 capital = "Trablos" #Tripoli in the East.
 trade_goods = olive_oil
 hre = no
@@ -11,7 +11,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 5
 is_city = yes
-add_core = LEB
 add_core = PLM
 discovered_by = near_east
 discovered_by = ottoman
@@ -24,3 +23,4 @@ discovered_by = scandinavian_tech
 discovered_by = eirun
 extra_cost = 8
 center_of_trade = 1
+add_devastation = 50

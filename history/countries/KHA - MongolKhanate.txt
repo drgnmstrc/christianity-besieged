@@ -358,7 +358,7 @@ add_accepted_culture = chihan
 	}
 }
 
-1479.1.1 = {leader = {	name = "Mandukhai Khatun"              	type = general	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1511.1.1 } }
+1479.1.1 = {leader = {	name = "Mandukhai Khatun"			  	type = general	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1511.1.1 } }
 
 1490.1.1 = {
 	heir = {

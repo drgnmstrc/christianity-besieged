@@ -13,7 +13,7 @@ country_event = {
 	option = {
 		set_ai_personality = {
    			personality = ai_colonialist
-    			locked = yes
+				locked = yes
 		}
 	}
 }

@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = armenian
+religion = manichaeism
+technology_group = near_east
+capital = 2307

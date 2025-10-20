@@ -13,7 +13,7 @@ LMR_1 = {
 		trigger = {
 			capital_scope = {
 				country_or_non_sovereign_subject_holds = ROOT
-			    num_of_times_improved = 7
+				num_of_times_improved = 7
 				num_of_buildings_in_province = 3
 			}
 		} 
@@ -243,15 +243,15 @@ LMR_2 = {
 		} 
 
 		trigger = {
-		    castille_area = {
+			castille_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    basque_country = {
+			basque_country = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-		    asturias_area = {
+			asturias_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -420,7 +420,7 @@ LMR_3 = {
 		} 
 
 		effect = {
-		    iberia_region = {
+			iberia_region = {
 				add_permanent_claim = ROOT
 			} 
 		} 
@@ -464,7 +464,7 @@ LMR_3 = {
 		provinces_to_highlight = { owned_by = MAM } 
 
 		trigger = {
-		    tag = LMR
+			tag = LMR
 			OR = {
 				MAM = {
 					is_subject_of = ROOT
@@ -491,7 +491,7 @@ LMR_3 = {
 		}
 		
 		effect = {
-		    france_region = {
+			france_region = {
 				add_permanent_claim = ROOT
 			}
 			liguria_area = {
@@ -545,7 +545,7 @@ LMR_3 = {
 		} 
 
 		effect = {
-		    italy_region = { add_permanent_claim = ROOT }
+			italy_region = { add_permanent_claim = ROOT }
 			carinthia_area = { add_permanent_claim = ROOT }
 			croatia_area = { add_permanent_claim = ROOT }
 			
@@ -563,7 +563,7 @@ LMR_3 = {
 		provinces_to_highlight = {  } 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
 				value = 40
 			}
@@ -590,7 +590,7 @@ LMR_3 = {
 		} 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = iberia_region
 				value = 40
 			}
@@ -613,7 +613,7 @@ LMR_3 = {
 		} 
 
 		trigger = {
-		    num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = italy_region
 				culture = italyan
 				value = 20
@@ -641,15 +641,15 @@ LMR_3 = {
 		} 
 
 		trigger = {
-		    france_region = {
+			france_region = {
 				type = all
 				owned_by = ROOT
 			}
-		    iberia_region = {
+			iberia_region = {
 				type = all
 				owned_by = ROOT
 			}
-		    italy_region = {
+			italy_region = {
 				type = all
 				owned_by = ROOT
 			}
@@ -728,7 +728,7 @@ LMR_4 = {
 		provinces_to_highlight = { area = northern_morocco_area NOT = { owned_by = ROOT } } 
 
 		trigger = {
-		    northern_morocco_area = {
+			northern_morocco_area = {
 				type = all
 				owned_by = ROOT
 			}

@@ -111,12 +111,12 @@ country_event = { #Rise of Manihozem
 				add_reform = autocracy_reform
 				define_ruler = {
 					name = "Hranidslav I"
-    				dynasty = "Torontid"
-    				adm = 2
-    				dip = 6
-    				mil = 6
-    				age = 38
-    				claim = 100
+					dynasty = "Torontid"
+					adm = 2
+					dip = 6
+					mil = 6
+					age = 38
+					claim = 100
 				}
 				define_consort = {
 					name = "Placeholder"
@@ -144,123 +144,123 @@ country_event = { #Rise of Manihozem
 					force_limit_percentage = 0.66
 				}
 			}
-            SBK = {
-                if = {
-                    limit = {
-                        num_of_free_diplomatic_relations = 1
-                        is_at_war = no
-                        was_player = no
-                    }      
-				    create_alliance = MHZ
-                }
-            }
-			if = {
-				limit = {
-                    UNU = { 
-                        num_of_free_diplomatic_relations = 1
-                        is_at_war = no
-                        was_player = no
-                    }
-                }
+			SBK = {
 				if = {
-                    limit = {
-                        SBK = { alliance_with = MHZ }
-                    }
-                    if = {
-                        limit = {
-                            UNU = {
-                                has_opinion = {
-                                    who = SBK
-                                    value = 1
-                                }
-                            }
-                        }
-                        UNU = { create_alliance = MHZ }
-                    }
-                }
-                else = {
-                    UNU = { create_alliance = MHZ }
-                }
+					limit = {
+						num_of_free_diplomatic_relations = 1
+						is_at_war = no
+						was_player = no
+					}	  
+					create_alliance = MHZ
+				}
 			}
 			if = {
 				limit = {
-                    CPC = { 
-                        num_of_free_diplomatic_relations = 1
-                        is_at_war = no
-                        was_player = no
-                    }
-                }
+					UNU = { 
+						num_of_free_diplomatic_relations = 1
+						is_at_war = no
+						was_player = no
+					}
+				}
 				if = {
-                    limit = {
-                        AND = {
-                            SBK = { alliance_with = MHZ }
-                            UNU = { alliance_with = MHZ }
-                        }
-                    }
-                    if = {
-                        limit = {
-                            CPC = {
-                                has_opinion = {
-                                    who = SBK
-                                    value = 1
-                                }
-                                has_opinion = {
-                                    who = UNU
-                                    value = 1
-                                }
-                            }
-                        }
-                        CPC = { create_alliance = MHZ }
-                    }
-                }
-                else_if = {
-                    limit = {
-                        SBK = { alliance_with = MHZ }
-                    }
-                    if = {
-                        limit = {
-                            CPC = {
-                                has_opinion = {
-                                    who = SBK
-                                    value = 1
-                                }
-                            }
-                        }
-                        CPC = { create_alliance = MHZ }
-                    }
-                }
-                else_if = {
-                    limit = {
-                        UNU = { alliance_with = MHZ }
-                    }
-                    if = {
-                        limit = {
-                            CPC = {
-                                has_opinion = {
-                                    who = UNU
-                                    value = 1
-                                }
-                            }
-                        }
-                        CPC = { create_alliance = MHZ }
-                    }
-                }
-                else = {
-                    CPC = { create_alliance = MHZ }
-                }
+					limit = {
+						SBK = { alliance_with = MHZ }
+					}
+					if = {
+						limit = {
+							UNU = {
+								has_opinion = {
+									who = SBK
+									value = 1
+								}
+							}
+						}
+						UNU = { create_alliance = MHZ }
+					}
+				}
+				else = {
+					UNU = { create_alliance = MHZ }
+				}
+			}
+			if = {
+				limit = {
+					CPC = { 
+						num_of_free_diplomatic_relations = 1
+						is_at_war = no
+						was_player = no
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							SBK = { alliance_with = MHZ }
+							UNU = { alliance_with = MHZ }
+						}
+					}
+					if = {
+						limit = {
+							CPC = {
+								has_opinion = {
+									who = SBK
+									value = 1
+								}
+								has_opinion = {
+									who = UNU
+									value = 1
+								}
+							}
+						}
+						CPC = { create_alliance = MHZ }
+					}
+				}
+				else_if = {
+					limit = {
+						SBK = { alliance_with = MHZ }
+					}
+					if = {
+						limit = {
+							CPC = {
+								has_opinion = {
+									who = SBK
+									value = 1
+								}
+							}
+						}
+						CPC = { create_alliance = MHZ }
+					}
+				}
+				else_if = {
+					limit = {
+						UNU = { alliance_with = MHZ }
+					}
+					if = {
+						limit = {
+							CPC = {
+								has_opinion = {
+									who = UNU
+									value = 1
+								}
+							}
+						}
+						CPC = { create_alliance = MHZ }
+					}
+				}
+				else = {
+					CPC = { create_alliance = MHZ }
+				}
 			}
 			MHZ = {
 				every_ally = {
 					every_ally = {
-                        limit = {
-						    religion = manichaeism
-						    was_player = no
-						    num_of_free_diplomatic_relations = 1
-						    NOT = { tag = MHZ }
-						    is_at_war = no
-                        }
-					    create_alliance = MHZ
-                    }
+						limit = {
+							religion = manichaeism
+							was_player = no
+							num_of_free_diplomatic_relations = 1
+							NOT = { tag = MHZ }
+							is_at_war = no
+						}
+						create_alliance = MHZ
+					}
 				}
 			}
 		}
@@ -270,14 +270,14 @@ country_event = { #Rise of Manihozem
 		trigger = { tag = MVA }
 		add_stability = -1
 		add_prestige = -15
-        hidden_effect = {
-            if = {
-                limit = { 
-                    SBK = { has_ruler = "Spah Burzafrah" }
-                }
-                SBK = { vassalize = MHZ }
-            }
-        }
+		hidden_effect = {
+			if = {
+				limit = { 
+					SBK = { has_ruler = "Spah Burzafrah" }
+				}
+				SBK = { vassalize = MHZ }
+			}
+		}
 		ai_will_do = {
 			factor = 100
 			modifier = {
@@ -304,11 +304,11 @@ country_event = { #Rise of Manihozem
 				factor = 0
 				ruler_has_personality = babbling_buffoon_personality
 			}
-            modifier = {
-                factor = 0.1
-                is_at_war = yes
-                NOT = { war_score = 0 }
-            }
+			modifier = {
+				factor = 0.1
+				is_at_war = yes
+				NOT = { war_score = 0 }
+			}
 			modifier = {
 				factor = 0.1
 				ruler_has_personality = careful_personality
@@ -318,14 +318,14 @@ country_event = { #Rise of Manihozem
 	option = { #Maybe they're onto something...
 		name = moravanEvents.c
 		trigger = {
-            tag = MVA
-            NOT = {
-                OR = {
-                    religion = ashabi
-                    religion = manichaeism
-                }
-            }
-        }
+			tag = MVA
+			NOT = {
+				OR = {
+					religion = ashabi
+					religion = manichaeism
+				}
+			}
+		}
 		add_stability = -6
 		change_religion = manichaeism
 		release_all_subjects = yes

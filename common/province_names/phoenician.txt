@@ -1,0 +1,72 @@
+# Format: ID = { "Province" "Capital" } # Origin
+
+## MASHRIQ
+
+# Palestine
+364 = { "Haza" "Haza" } # Ghazza
+379 = { "Yirušalim" "Yirušalim" } # Yerushalayim
+1854 = { "Yofa" "Yofa" } # Jaffa
+3021 = { "Fathal" "Fathal" } # Bethulia
+4268 = { "Ilat" "Ilat" } # Elath
+
+# Transjordan
+380 = { "Harka" "Harka" } # Kharkha/Karak
+381 = { "Qofir" "Qofir" } # Kafr + -iya
+2327 = { "Manyam" "Amin" } # Ma'in/Minaeans, Amman
+
+# Syria
+378 = { "Dribol" "Dribol" } # Tripolis
+382 = { "Thimašoq" "Thimašoq" } # Damašq
+1855 = { "Šidun" "Šidun" } # Saida
+3023 = { "Sur" "Sur" } # Tyre
+3024 = { "Tarud" "Tarud" } # Aradus
+4297 = { "Khomiš" "Khomiš" } # Gamath-zoba
+
+# Aleppo
+377 = { "Khalbo" "Khalbo" } # Aleppo
+1849 = { "Khom" "Khom" } # Hama
+2313 = { "Thiyuq" "Thiyuq" } # Antioch
+3025 = { "Faya" "Faya" } # Payas
+4298 = { "Anthob" "Anthob" } # Ayntab
+4962 = { "Sorayta" "Sorayta" } # Su'ria'ita
+
+## ANATOLIA
+
+# Cilician Coast/Cukurova
+321 = { "Qaprus" "Niquši" } # Cyprus, Nicosia 
+327 = { "Adan" "Adan" } # Adana
+2302 = { "Zafir" "Nagith" } # Zephyrion, Nagidos
+5040 = { "Šida" "Šida" } # Side
+5041 = { "Tholi" "Tholi" } # Attaleia
+
+## ITALY
+
+# Eastern Sicily
+2982 = { "Sur-Akoš" "Sur-Akoš" } # Syracuse
+124 = { "Masin" "Masin" } # Messina
+126 = { "Malath" "Malath" } # Malta
+
+# Western Sicily
+125 = { "Šiš" "Šiš" } # Palermo
+4736 = { "Thrapon" "Thrapon" } # Trapani
+4737 = { "Gargant" "Gargant" } # Girgenti
+
+# Tyrrhenian Isles
+2986 = { "Karali" "Karali" } # Cagliari
+4735 = { "Karma" "Karma" } # Tharros
+127 = { "Tathar" "Tathar" } # Tatari
+1247 = { "Kursi" "Kursi" } # Corsica
+
+## MAGHREB
+
+# Qirtaj/Tunis
+341 = { "Qart-Hadašt" "Qart-Hadašt" } # Carthage
+2455 = { "Ubon" "Ubon" } # Hippo Zarytus
+2473 = { "Adramito" "Adramito" } # Hadrumetum
+4566 = { "Qamun" "Qamun" } # Kamounia
+2454 = { "Qof" "Qof" } # Kef
+
+# Djerba
+2435 = { "Thiyanit" "Thiyanit" } # Thenae
+353 = { "Tatun" "Tatun" } # Tataouine
+2954 = { "Mainyaim" "Mainyaim" } # Mennaine :3

@@ -470,6 +470,7 @@ estate_church = {
 		estate_druids_legal_immunity
 		estate_druids_sacred_armies
 		estate_druids_supremacy_of_court
+		estate_church_disunited_clergy
 	}
 
 	agendas = {

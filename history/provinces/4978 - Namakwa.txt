@@ -6,7 +6,6 @@ is_city = yes
 culture = banu
 capital = "Mjimbali"
 religion = hanafis
-hre = no
 base_tax = 6
 base_production = 5
 base_manpower = 5

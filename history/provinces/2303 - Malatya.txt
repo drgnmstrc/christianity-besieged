@@ -3,7 +3,7 @@
 owner = SOP
 controller = SOP
 add_core = SOP
-add_core = ARM
+add_core = ARZ
 culture = kurdish
 religion = mandaeism
 capital = "Malatiya"

@@ -1,7 +1,7 @@
 airskhemerz = {
 	regiments_per_development = 0.04
 	cavalry_weight = 0.2
-    artillery_weight = 0.4
+	artillery_weight = 0.4
 	cavalry_cap = 4
 	home_province = 159
 	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
@@ -19,7 +19,7 @@ airskhemerz = {
 latins = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0
-    artillery_weight = 0
+	artillery_weight = 0
 	cavalry_cap = 0
 	home_province = 87
 	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
@@ -37,7 +37,7 @@ car_guard = {
 #Eventually a lazy Great Moravia player can make money turning his elite guard into a mercenary group. For now they just show up if he dies
 	regiments_per_development = 0.04
 	cavalry_weight = 0.2
-    artillery_weight = 0.4
+	artillery_weight = 0.4
 	cavalry_cap = 4
 	home_province = 265
 	sprites = { dlc061_boh_sprite_pack dlc028_boh_sprite_pack easterngfx_sprite_pack }
@@ -51,7 +51,7 @@ car_guard = {
 muta_alsiyadun = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.1
-    artillery_weight = 0.2
+	artillery_weight = 0.2
 	cavalry_cap = 4
 	home_province = 1247
 	sprites = { dlc098_sle_sprite_pack dlc048_tim_sprite_pack muslimgfx_sprite_pack }
@@ -66,8 +66,8 @@ muta_alsiyadun = {
 	}
 }
 free_saxons = {
-    regiments_per_development = 0.05
-    home_province = 4772
+	regiments_per_development = 0.05
+	home_province = 4772
 	artillery_weight = 0.3
 	sprites = { dlc061_sax_sprite_pack dlc028_sax_sprite_pack dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
 	trigger = {
@@ -80,8 +80,8 @@ free_saxons = {
 	}
 }
 tarkhafaris = {
-    regiments_per_development = 0.008
-    home_province = 148
+	regiments_per_development = 0.008
+	home_province = 148
 	cavalry_weight = 1
 	sprites = { dlc048_gol_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
@@ -98,8 +98,8 @@ tarkhafaris = {
 	}
 }
 legio_lalibaynja = {
-    regiments_per_development = 0.35
-    home_province = 2992
+	regiments_per_development = 0.35
+	home_province = 2992
 	cavalry_weight = 1
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
@@ -118,8 +118,8 @@ legio_lalibaynja = {
 	}
 }
 legio_mithra = {
-    regiments_per_development = 0.25
-    home_province = 137
+	regiments_per_development = 0.25
+	home_province = 137
 	cavalry_weight = 0.25
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
@@ -137,7 +137,7 @@ legio_mithra = {
 	}
 }
 restoration_legion = {
-    regiments_per_development = 0.25
+	regiments_per_development = 0.25
 	cavalry_weight = 0.3
 	sprites = { dlc100_rom_sprite_pack dlc006_byz_sprite_pack westerngfx_sprite_pack }
 	trigger = {
@@ -231,45 +231,45 @@ turkigs_of_habaspans = {
 	}
 }
 local_roman_legion = {
-    regiments_per_development = 0.07
-    cavalry_weight = 0.1
-    artillery_weight = 0.1
-    cavalry_cap = 2
-    cost_modifier = 0.5
-    trigger = {
-        tag = VEN
-    }
-    # No home province means local mercenary company
+	regiments_per_development = 0.07
+	cavalry_weight = 0.1
+	artillery_weight = 0.1
+	cavalry_cap = 2
+	cost_modifier = 0.5
+	trigger = {
+		tag = VEN
+	}
+	# No home province means local mercenary company
 }
 mamlukean_guard = {
-    regiments_per_development = 0.005
-    trigger = {
+	regiments_per_development = 0.005
+	trigger = {
 		religion_group = muslim
 		NOT = { has_reform = mamluk_government }
-    }
-    modifier = {
+	}
+	modifier = {
 	land_morale = 0.15
 	discipline = 0.05
-    }
-    cost_modifier = 1
-    # No home province means local mercenary company
+	}
+	cost_modifier = 1
+	# No home province means local mercenary company
 }
 mamlukean_home_guard = {
-    regiments_per_development = 0.006
-    trigger = {
+	regiments_per_development = 0.006
+	trigger = {
 		religion_group = muslim
 		has_reform = mamluk_government
-    }
-    modifier = {
+	}
+	modifier = {
 		land_morale = 0.15
 		discipline = 0.05
-    }
-    cost_modifier = 0.75
-    # No home province means local mercenary company
+	}
+	cost_modifier = 0.75
+	# No home province means local mercenary company
 }
 merc_kazakh_company = {
-    regiments_per_development = 0.05
-    home_province = 478 # Argyn
+	regiments_per_development = 0.05
+	home_province = 478 # Argyn
 	cavalry_weight = 0.4
 	cavalry_cap = 6
 	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
@@ -284,12 +284,12 @@ merc_kazakh_company = {
 			has_country_modifier = glut_of_mercs
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_yaka_free_warriors = {
-    regiments_per_development = 0.03
-    home_province = 4085
+	regiments_per_development = 0.03
+	home_province = 4085
 	sprites = { africangfx_sprite_pack }
 	trigger = {
 		any_owned_province = {
@@ -299,12 +299,12 @@ merc_yaka_free_warriors = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_great_lakes_free_warriors = {
-    regiments_per_development = 0.03
-    home_province = 4064
+	regiments_per_development = 0.03
+	home_province = 4064
 	sprites = { africangfx_sprite_pack }
 	trigger = {
 		OR = {
@@ -315,24 +315,24 @@ merc_great_lakes_free_warriors = {
 			has_country_modifier = glut_of_mercs
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_thai_company = {
-    regiments_per_development = 0.03
-    home_province = 600
+	regiments_per_development = 0.03
+	home_province = 600
 	sprites = { ayu_base_sprite_pack }
 	trigger = {
 		any_owned_province = {
 			region = indo_china_region
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_yucatan_company = {
-    regiments_per_development = 0.04
-    home_province = 2633 # Ceh Pech
+	regiments_per_development = 0.04
+	home_province = 2633 # Ceh Pech
 	sprites = { dlc035_may_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -340,12 +340,12 @@ merc_yucatan_company = {
 			country_or_non_sovereign_subject_holds = root
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_misquito_coast_company = {
-    regiments_per_development = 0.03
-    home_province = 838
+	regiments_per_development = 0.03
+	home_province = 838
 	sprites = { dlc034_tpa_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -353,12 +353,12 @@ merc_misquito_coast_company = {
 			country_or_non_sovereign_subject_holds = root
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_navajo_raiders = {
-    regiments_per_development = 0.04
-    home_province = 878 # Navajo
+	regiments_per_development = 0.04
+	home_province = 878 # Navajo
 	sprites = { dlc015_nah_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -374,12 +374,12 @@ merc_navajo_raiders = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_chonnonton_warriors = {
-    regiments_per_development = 0.025
-    home_province = 2586
+	regiments_per_development = 0.025
+	home_province = 2586
 	sprites = { dlc012_hur_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -398,12 +398,12 @@ merc_chonnonton_warriors = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_inuit_warriors = {
-    regiments_per_development = 0.03
-    home_province = 974
+	regiments_per_development = 0.03
+	home_province = 974
 	cost_modifier = 1.1
 	sprites = { inuitgfx_sprite_pack }
 	trigger = {
@@ -420,12 +420,12 @@ merc_inuit_warriors = {
 			}
 		}
 	}
-    modifier = { shock_damage = 0.1 }
+	modifier = { shock_damage = 0.1 }
 }
 
 merc_free_mohawks = {
-    regiments_per_development = 0.03
-    home_province = 964
+	regiments_per_development = 0.03
+	home_province = 964
 	cost_modifier = 1.1
 	sprites = { dlc012_iro_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
@@ -439,14 +439,14 @@ merc_free_mohawks = {
 			}
 		}
 	}
-    modifier = {
+	modifier = {
 		land_morale = 0.05
 	}
 }
 
 merc_muscogee_mercenaries = {
-    regiments_per_development = 0.04
-    home_province = 925
+	regiments_per_development = 0.04
+	home_province = 925
 	sprites = { dlc012_cre_sprite_pack northamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -462,12 +462,12 @@ merc_muscogee_mercenaries = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_quito_company = {
-    regiments_per_development = 0.04
-    home_province = 820
+	regiments_per_development = 0.04
+	home_province = 820
 	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -480,12 +480,12 @@ merc_quito_company = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_silver_company = {
-    regiments_per_development = 0.04
-    home_province = 795
+	regiments_per_development = 0.04
+	home_province = 795
 	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
 	trigger = {
 		is_random_new_world = no
@@ -501,15 +501,15 @@ merc_silver_company = {
 			}
 		}
 	}
-    modifier = { }
+	modifier = { }
 }
 
 merc_dahomey_amazons = {
-    regiments_per_development = 0.025
-    cavalry_weight = 0.1
-    artillery_weight = 0.2
+	regiments_per_development = 0.025
+	cavalry_weight = 0.1
+	artillery_weight = 0.2
 	cavalry_cap = 2
-    home_province = 1140
+	home_province = 1140
 	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
 	trigger = {
 		OR = {
@@ -527,25 +527,45 @@ merc_dahomey_amazons = {
 			}
 		}
 	}
-    modifier = {
-        may_recruit_female_generals = yes
-        female_advisor_chance = 1.0
-        shock_damage = 0.05
-        shock_damage_received = -0.05
-    }
+	modifier = {
+		may_recruit_female_generals = yes
+		female_advisor_chance = 1.0
+		shock_damage = 0.05
+		shock_damage_received = -0.05
+	}
 }
 merc_japanese_volunteers = {
-    regiments_per_development = 0.02
+	regiments_per_development = 0.02
 	cavalry_weight = 0.1
 	artillery_weight = 0.3
 	cavalry_cap = 2
-    home_province = 600
+	home_province = 600
 	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
-    trigger = {
+	trigger = {
 		mission_completed = mnd_siam_japan
 	}
 	modifier = {
 		infantry_power = 0.1
-        discipline = 0.025
+		discipline = 0.025
 	}
 }
+
+zealous_pilgrims = {
+	regiments_per_development = 0.32
+	cavalry_weight = 0.1
+	artillery_weight = 0.05
+	home_province = 4962
+	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = SRY
+		has_country_flag = holy_communion_completed
+	}
+	cost_modifier = 0.5
+	modifier = {
+		discipline = -0.05
+		land_morale = 0.1
+		shock_damage = 0.2
+	}
+	
+}
+

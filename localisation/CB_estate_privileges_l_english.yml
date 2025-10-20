@@ -1,9 +1,38 @@
 ﻿l_english:
- estate_nobles_moravian_strong_duchies:0 "Moravian Strong Voivodes"
- estate_nobles_moravian_strong_duchies_desc:0 "Great Moravia is a convoluted nation full of diverse voivodes whose origins mostly lie in ancient integrations of foreign chiefdoms who have maintained considerable independence from the [Root.Monarch.GetTitle]. This system has its benefits but makes maintaining the primacy of royal power a significant challenge."
- estate_gangans_ikenga_privileges:0 "Ikenga Privileges"
- estate_gangans_ikenga_privileges_desc:0 "While the eze Nri lives beyond the view of the public, he employs officials called ndi Nri. These ritual specialists travel with ritual staffs of peace to purify the earth from human crimes, exercising authority over the Igbo and choosing successors. The Odinani Nri is open to Ndi Nri traveling within them to perform rituals and ensure bountiful harvest or restore harmony in local affairs. Local men within the odinani Nri can represent the eze Nri and share his moral authority by purchasing a series of ranked titles called Ozo and Nze. Men with these titles, the mbùríchi, are an extension of the Nri's religio-political system. They control the means for agriculture and determine guilt or innocence in disputes. Both the Ndi Nri priests and mbùríchi nobility belonged to the Ikénga, the right hand, the organ through which the God Ìkénga grants us our ability to achieve and our power."
- estate_church_nri_odinani_privilege:0 "Ikenga Administration"
- desc_estate_church_nri_odinani_privilege:0 "The Ikenga nobility administer justice and maintain peace in this province, providing prosperity to all and maintaining the suzerainty of the Eze Nri."
- estate_church_nri_odinani_privilege_tooltip:0 "All Odinani provinces lose 3 unrest, religious unity contribution, and missionary strength, at the cost of 10 minimum autonomy."
- estate_church_nri_odinani_revoke_privilege_tooltip:0 "All provinces with the Odinani privileges will have this removed."
+ estate_nobles_moravian_strong_duchies: "Moravian Strong Voivodes"
+ estate_nobles_moravian_strong_duchies_desc: "Great Moravia is a convoluted nation full of diverse voivodes whose origins mostly lie in ancient integrations of foreign chiefdoms who have maintained considerable independence from the [Root.Monarch.GetTitle]. This system has its benefits but makes maintaining the primacy of royal power a significant challenge."
+
+ estate_gangans_ikenga_privileges: "Ikenga Privileges"
+ estate_gangans_ikenga_privileges_desc: "While the eze Nri lives beyond the view of the public, he employs officials called ndi Nri. These ritual specialists travel with ritual staffs of peace to purify the earth from human crimes, exercising authority over the Igbo and choosing successors. The Odinani Nri is open to Ndi Nri traveling within them to perform rituals and ensure bountiful harvest or restore harmony in local affairs. Local men within the odinani Nri can represent the eze Nri and share his moral authority by purchasing a series of ranked titles called Ozo and Nze. Men with these titles, the mbùríchi, are an extension of the Nri's religio-political system. They control the means for agriculture and determine guilt or innocence in disputes. Both the Ndi Nri priests and mbùríchi nobility belonged to the Ikénga, the right hand, the organ through which the God Ìkénga grants us our ability to achieve and our power."
+
+ estate_church_nri_odinani_privilege: "Ikenga Administration"
+ estate_church_nri_odinani_privilege_desc: "The Ikenga nobility administer justice and maintain peace in this province, providing prosperity to all and maintaining the suzerainty of the Eze Nri."
+ estate_church_nri_odinani_privilege_tooltip: "All Odinani provinces lose 3 unrest, religious unity contribution, and missionary strength, at the cost of 10 minimum autonomy."
+ estate_church_nri_odinani_revoke_privilege_tooltip: "All provinces with the Odinani privileges will have this removed."
+
+ estate_church_pax_deiorum: "Guarantee the Pax Deiroum"
+ estate_church_pax_deiorum_desc: "Under the latest official mandation of the Pax Deiorum, Romans may follow any faith that allows them to put the authority of Rome above it. This includes any interpretation of the traditional Roman pantheon or Sol Invictus."
+
+ estate_druids_land_consecration: "Land Consecration"
+ estate_druids_land_consecration_desc: "In order to protect the faith, the Druids have full control over the sacred groves of the state and their surrounding wilderness, which makes up a serious portion of our nation's territory."
+
+ estate_druids_leading_sacred_rituals: "Leading Sacred Rituals"
+ estate_druids_leading_sacred_rituals_desc: "All sacred rituals, including those regarding the coronation and succession of our rulers, are lead and curated by the Druids themselves. This gives us no control over our nation's succession."
+
+ estate_druids_supremacy_of_court: "Supremacy of Court"
+ estate_druids_supremacy_of_court_desc: "The druids have supreme authority in our nation's court. Over all over voices, the druid's voice rules supreme, even over our ruler."
+
+ estate_druids_legal_immunity: "Legal Immunity"
+ estate_druids_legal_immunity_desc: "The druids have mostly complete legal immunity from any sort of criminal actions. At least from our perspective - they're apparently regulated by their own religious laws, which frankly hold more precedence in our state than our own."
+
+ estate_druids_sacred_armies: "Sacred Armies"
+ estate_druids_sacred_armies_desc: "The druids have their own sacred armies, making them a great challenge to stand against. Additionally, these armies keep their personal land well defended from any efforts at seizing any of it."
+
+ estate_nobles_outdated_provincial_system: "Outdated Provincial System"
+ estate_nobles_outdated_provincial_system_desc: "The current system of provincial administration, the Ashkharhner, dates back to the ancient Kingdom of Hayastan under Tigranes. As such, it is in dire need of reform, as it has left us disunified and decentralized."
+
+ estate_nobles_disunited_nobility: "Disunited Nobility"
+ estate_nobles_disunited_nobility_desc: "Our nobility is heavily split both religiously and culturally. A solid mix of native Armenians and Persians makes up the majority."
+
+ estate_church_disunited_clergy: "Disunited Clergy"
+ estate_church_disunited_clergy_desc: "In 1071, King Arda attempted to reconcile the different faiths of the realm by allowing the Ashkharhner to govern themselves in matters of religion. As a result, every one of them is now angry at us for both being a different faith from them, and for allowing their rival faiths to flourish."

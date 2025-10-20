@@ -1,0 +1,73 @@
+graphical_culture = muslimgfx
+
+color = { 23 151 231 } 
+
+revolutionary_colors = { 5  0  1 }
+
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Kharitath #2" = 40
+	"Obodath #1" = 40
+	"Maliku #0" = 40
+	"Rakhem #0" = 40
+	"Rabel #0" = 20
+	"Abjar #1" = 20
+	"Abyan #0" = 20
+	"Abid #0" = 20
+	"Ban'il #0" = 20
+	"Awis #0" = 20
+	"Khash #0" = 20
+	"Alam #0" = 20
+	
+	"Khudru #0" = -1
+	"Qamilath #0" = -1
+	"Khaganu #0" = -1
+	"Šaqilat #0" = -1
+}
+
+leader_names = {
+	Kharitath
+	Obodath
+	Maliku
+	Rakhem
+	Rabel
+	Abjar
+	Abyan
+	Abid
+	Ban'il
+	Awis
+	Khash
+	Alam
+}
+
+ship_names = {
+	"Zaher Barqooq" "Farag Ben Barqooq"
+	"Ben Barqooq" "Muyaid Sheikh" "Ahmen Muyaid" 
+	"Zaher Tatar" "Nasser Muhamed" "Ashraf Barsbay"
+	"Aziz Gamal" "Nahr an-Nil" "Al-Farafirah"
+	"Ad-Däkhilah" "Al-Kharijah" "Al-Ali" "Al-Bahriyah"
+	Rahman Rahim Malik Quddus Salam Mu'min Muhaymin
+	Aziz Jabbar Mutakabbir Khaliq Bari Musawwir 
+	Ghaffar Qahhar Wahhab Razzaq Fattah Alim Qabid
+	Basit Khafid Rafi Mu'izz Mudhill Sami Basir Hakam Adl
+}

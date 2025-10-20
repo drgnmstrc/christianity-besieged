@@ -1,0 +1,28 @@
+dependency = {
+ 	subject_type = "ashkharh"
+ 	first = ARM
+ 	second = VSP
+ 	start_date = 1433.12.12
+ 	end_date = 1497.12.31
+}
+dependency = {
+ 	subject_type = "ashkharh"
+ 	first = ARM
+ 	second = ARZ
+ 	start_date = 1433.12.12
+ 	end_date = 1497.12.31
+}
+dependency = {
+ 	subject_type = "ashkharh"
+ 	first = ARM
+ 	second = UPR
+ 	start_date = 1433.12.12
+ 	end_date = 1497.12.31
+}
+dependency = {
+ 	subject_type = "ashkharh"
+ 	first = ARM
+ 	second = SYU
+ 	start_date = 1433.12.12
+ 	end_date = 1497.12.31
+}
