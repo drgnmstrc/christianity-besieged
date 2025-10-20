@@ -12,7 +12,6 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = JUD
-fort_15th = yes
 discovered_by = near_east
 discovered_by = ottoman
 discovered_by = eastern

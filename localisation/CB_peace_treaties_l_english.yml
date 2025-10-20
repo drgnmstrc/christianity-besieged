@@ -1,0 +1,5 @@
+﻿l_english:
+ PEACE_force_syriac_brotherhood: "Force Communion"
+ force_syriac_brotherhood_desc: "Forcibly bring [From.GetName] into communion with the Syciac church under [This.GetName]"
+ CB_ALLOWED_force_syriac_brotherhood: "Force Communion"
+ PEACE_PO_syriac_brotherhood: "Force Akhuta"

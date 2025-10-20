@@ -112,4 +112,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1242;4938;sea;1431;-1;-1;-1;-1;Vitu Levu-Vanua Levu
 1087;4869;sea;1414;-1;-1;-1;-1;Wurundjeri-Peerapper
 631;627;sea;1354;-1;-1;-1;-1;Bali-Blambangan
+3028;4272;sea;2334;-1;-1;-1;-1;Arar-Al-Jawf
+3028;3029;sea;3026;-1;-1;-1;-1;Arar-Maaniyah
+3028;3030;sea;3027;-1;-1;-1;-1;Arar-Rutba
+3029;2338;sea;3026;-1;-1;-1;-1;Maaniyah-Hafar
+3029;2311;sea;3027;-1;-1;-1;-1;Maaniyah-Samawat
+3029;3030;sea;3027;-1;-1;-1;-1;Maaniyah-Rutba
+3030;406;sea;3027;-1;-1;-1;-1;Rutba-Anbar
+3030;405;sea;3027;-1;-1;-1;-1;Rutba-Palmyra
 -1;-1;;-1;-1;-1;-1;-1;-1;

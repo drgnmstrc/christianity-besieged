@@ -27,7 +27,7 @@ capital = 4383 #Haag
 
 1568.5.23 = { leader = { name = "Lodewijk van Nassau"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1574.4.14 } }
 
-1572.1.1 = { leader = {	name = "Joos de Moor"          	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1618.2.18 } }
+1572.1.1 = { leader = {	name = "Joos de Moor"		  	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1618.2.18 } }
 
 1575.1.1 = { religion = reformed }
 
@@ -83,7 +83,7 @@ capital = 4383 #Haag
 
 1598.7.2 = { leader = {	name = "Olivier van Noort"	type = explorer	fire = 1	shock = 1	manuever = 6	siege = 0	death_date = 1627.2.22 } }
 
-1599.12.21 = { leader = { name = "Pieter Both"          type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 1	death_date = 1609.1.1 } }
+1599.12.21 = { leader = { name = "Pieter Both"		  type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 1	death_date = 1609.1.1 } }
 
 1601.1.1 = { leader = {	name = "Willem Corneliszoon Schouten"	type = explorer	fire = 0	shock = 0	manuever = 5	siege = 0	death_date = 1625.1.1 } }
 
@@ -99,9 +99,9 @@ capital = 4383 #Haag
 
 1622.1.1 = { leader = {	name = "Cornelis Reijersen"	type = conquistador	fire = 1	shock = 1	manuever = 2	siege = 0	death_date = 1622.12.31 } }
 
-1623.1.1 = { leader = {	name = "Witte de With"         	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1658.11.8 } }
+1623.1.1 = { leader = {	name = "Witte de With"		 	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1658.11.8 } }
 
-1623.11.2 = { leader = { name = "Piet Heyn"             type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1629.6.17 } }
+1623.11.2 = { leader = { name = "Piet Heyn"			 type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1629.6.17 } }
 
 1624.6.6 = { leader = {	name = "Maarten Harpertsz. Tromp"	type = admiral	fire = 4	shock = 6	manuever = 5	siege = 0	death_date = 1653.8.10 } }
 
@@ -149,7 +149,7 @@ capital = 4383 #Haag
 	}
 }
 
-1652.5.29 = { leader = { name = "Cornelis Tromp"        type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1691.5.26 } }
+1652.5.29 = { leader = { name = "Cornelis Tromp"		type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1691.5.26 } }
 
 1653.1.1 = { leader = {	name = "Jacob van Wassenaer Obdam"	type = admiral	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1665.6.13 } }
 
@@ -182,7 +182,7 @@ capital = 4383 #Haag
 
 1673.1.1 = { leader = {	name = "W. van Nassau-Usingen"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1	death_date = 1702.10.17 } }
 
-1678.1.1 = { leader = {	name = "Geleyn Evertsen"        type = admiral	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1721.7.25 } }
+1678.1.1 = { leader = {	name = "Geleyn Evertsen"		type = admiral	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1721.7.25 } }
 
 1679.1.1 = { leader = {	name = "Simon van der Stel"	type = conquistador	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1699.2.11 } }
 

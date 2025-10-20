@@ -1,0 +1,104 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 102 2 79 }
+revolutionary_colors = { 10  0  1 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Hannibal #2" = 20
+	"Himilco #2" = 20
+	"Hanno #2" = 20
+	"Adonibaal #2" = 20
+	"Ba'al-khanan #1" = 15
+	"Milqart-šaphat #1" = 15
+	"Azrubal #1" = 15
+	"Mattan #1" = 15
+	"Ešmunazar #1" = 10
+	"Bodaštart #1" = 10
+	"Abdmelqart #1" = 10
+	"Tabnit #1" = 10
+	"Gerbaal #1" = 10
+	"Abibaal #0" = 0
+	"Astartyaton #0" = 0
+	"Azarbaal #0" = 0
+	"Baalyaton #0" = 0
+	"Balhannibal #0" = 0
+	"Bomilcar #0" = 0
+	"Ethbaal #0" = 0
+	"Malchus #0" = 0
+	"Mattanbal #0" = 0
+	"Melqartbaal #0" = 0
+	"Metalon #0" = 0
+	"Moharbal #0" = 0
+	"Phanes #0" = 0
+	"Rabsun #0" = 0
+	"Samemrum #0" = 0
+	"Šillem #0" = 0
+	"Tennitbaal #0" = 0
+	"Ummaštart #0" = 0
+	"Yatonbaal #0" = 0
+	"Yedidbaal #0" = 0
+	"Zakarbaal #0" = 0
+	"Zimriba'al #0" = 0
+	
+	"Batno'am #0" = -1
+	"Elissa #0" = -1
+	"Tanit #0" = -1
+	"Astarta #0" = -1
+}
+
+leader_names = {
+	Hannibal
+	Himilco
+	Hanno
+	Mattan
+	Azrubal
+	Adonibaal
+	Abdmelqart
+	Bodaštart
+	Ešmunazar
+	Phanes
+	Moharbal
+	Malchus
+}
+
+ship_names = {
+	Melqart
+	Tanit
+	Ešmun
+	Ba'al
+	Astarte
+	Rešeph
+	Yam
+	Dagon
+	Kothar
+	Mot
+	Šadrapha
+	Elissa
+}

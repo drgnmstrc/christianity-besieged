@@ -16,25 +16,25 @@ var_modifier = { #var #mod
 }
 var_mod_h = {
   if = {
-    limit = {
-      check_variable = { which = $var$ value = $num$ }
-    }
-    subtract_variable = { which = $var$ value = $num$ }
-    add_permanent_province_modifier = {
-      name = $mod$_$num$
-      duration = -1
-      hidden = yes
-    }
+	limit = {
+	  check_variable = { which = $var$ value = $num$ }
+	}
+	subtract_variable = { which = $var$ value = $num$ }
+	add_permanent_province_modifier = {
+	  name = $mod$_$num$
+	  duration = -1
+	  hidden = yes
+	}
   }
   else = {
-    remove_province_modifier = $mod$_$num$
+	remove_province_modifier = $mod$_$num$
   }
 }
 
 Update_Goods_Production_cal = {
 	export_to_variable = {
-		variable_name = $GOODS_CAL$_TGE_Production      
-		value = modifier:trade_goods_size                         
+		variable_name = $GOODS_CAL$_TGE_Production	  
+		value = modifier:trade_goods_size						 
 	}	
 	
 	multiply_variable = {
@@ -43,17 +43,17 @@ Update_Goods_Production_cal = {
 	}
 		
 	export_to_variable = {
-		variable_name = tradegood_modifier     
-		value = modifier:trade_goods_size_modifier                        
+		variable_name = tradegood_modifier	 
+		value = modifier:trade_goods_size_modifier						
 	}
 		
 	export_to_variable = {
-		variable_name = tradegood_modifier_glob    
+		variable_name = tradegood_modifier_glob	
 		value = modifier:global_trade_goods_size_modifier 
 		who = owner 
 	}
 		
-	change_variable = {            
+	change_variable = {			
 		which = tradegood_modifier 
 		which = tradegood_modifier_glob  
 	}
@@ -63,8 +63,8 @@ Update_Goods_Production_cal = {
 		which = $GOODS_CAL$_TGE_Production 
 	}
 
-	change_variable = {            
-		which = $GOODS_CAL$_TGE_Production      
+	change_variable = {			
+		which = $GOODS_CAL$_TGE_Production	  
 		which = tradegood_modifier 
 	}
 
@@ -85,25 +85,25 @@ Update_Goods_Production_cal = {
 }
 
 Set_Goods_Production = {
-	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }          	
+	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }		  	
 
 	export_to_variable = {
-		variable_name = $GOODS$_TGE_Production      
-		value = modifier:trade_goods_size                         
+		variable_name = $GOODS$_TGE_Production	  
+		value = modifier:trade_goods_size						 
 	}	
 		
 	export_to_variable = {
-		variable_name = tradegood_modifier     
-		value = modifier:trade_goods_size_modifier                        
+		variable_name = tradegood_modifier	 
+		value = modifier:trade_goods_size_modifier						
 	}
 		
 	export_to_variable = {
-		variable_name = tradegood_modifier_glob    
+		variable_name = tradegood_modifier_glob	
 		value = modifier:global_trade_goods_size_modifier 
 		who = owner 
 	}
 		
-	change_variable = {            
+	change_variable = {			
 		which = tradegood_modifier 
 		which = tradegood_modifier_glob  
 	}
@@ -113,8 +113,8 @@ Set_Goods_Production = {
 		which = $GOODS$_TGE_Production 
 	}
 
-	change_variable = {            
-		which = $GOODS$_TGE_Production      
+	change_variable = {			
+		which = $GOODS$_TGE_Production	  
 		which = tradegood_modifier 
 	}
 
@@ -137,7 +137,7 @@ Set_Goods_Production = {
 Update_Goods_Production_up = {
 	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }  
 	Update_Goods_Production_cal = { GOODS_CAL = $GOODS$ }
-      	
+	  	
 	change_variable = { which = Slot_1_balance value = 1 }
 	subtract_variable = { which = Slot_2_balance value = 1 }
 
@@ -159,11 +159,11 @@ Update_Goods_Production_up = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -188,11 +188,11 @@ Update_Goods_Production_up = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -205,7 +205,7 @@ Update_Goods_Production_down = {
 	set_variable = { which = $GOODS$_TGE_Production value = 0.00 } 
 	set_variable = { which = amount_$GOODS$ value = 0.00 }	
 	Update_Goods_Production_cal = { GOODS_CAL = $GOODS$ }
-      	
+	  	
 	subtract_variable = { which = Slot_1_balance value = 1 }
 	change_variable = { which = Slot_2_balance value = 1 }
 
@@ -227,11 +227,11 @@ Update_Goods_Production_down = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -256,11 +256,11 @@ Update_Goods_Production_down = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -289,11 +289,11 @@ Update_Goods_Production_balance = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -318,11 +318,11 @@ Update_Goods_Production_balance = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_1_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -333,7 +333,7 @@ Update_Goods_Production_balance = {
 
 Update_Goods_Production_balance_2 = {
 	set_variable = { which = amount_$GOODS$ value = 0.00 }	
-	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }          	        	
+	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }		  				
 	
 	set_variable = { which = Slot_2_balance_check which = Slot_2_balance }
 	
@@ -353,11 +353,11 @@ Update_Goods_Production_balance_2 = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			change_variable = {            
+			change_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -382,11 +382,11 @@ Update_Goods_Production_balance_2 = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -396,8 +396,8 @@ Update_Goods_Production_balance_2 = {
 
 Update_Goods_Production_up_2 = {
 	set_variable = { which = amount_$GOODS$ value = 0.00 }	
-	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }          	
-      	
+	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }		  	
+	  	
 	change_variable = { which = Slot_2_balance value = 1 }
 	subtract_variable = { which = Slot_1_balance value = 1 }
 
@@ -419,11 +419,11 @@ Update_Goods_Production_up_2 = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			change_variable = {            
+			change_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -448,11 +448,11 @@ Update_Goods_Production_up_2 = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			change_variable = {            
+			change_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -462,8 +462,8 @@ Update_Goods_Production_up_2 = {
 
 Update_Goods_Production_down_2 = {
 	set_variable = { which = amount_$GOODS$ value = 0.00 } 
-	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }          	
-      	
+	set_variable = { which = $GOODS$_TGE_Production value = 0.00 }		  	
+	  	
 	subtract_variable = { which = Slot_2_balance value = 1 }
 	change_variable = { which = Slot_1_balance value = 1 }
 
@@ -485,11 +485,11 @@ Update_Goods_Production_down_2 = {
 					}
 				}
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			change_variable = {            
+			change_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -514,11 +514,11 @@ Update_Goods_Production_down_2 = {
 					}
 				}
 			}
-			change_variable = {            
+			change_variable = {			
 				which = Slot_2_balance_check
 				value = 1
 			}
-			subtract_variable = {            
+			subtract_variable = {			
 				which = $GOODS$_TGE_Production  
 				value = 0.2 
 			}
@@ -532,7 +532,7 @@ Update_Goods_Production_down_2 = {
 
 
 update_goods = {
-	set_variable = { which = $GOODS$ value = 0.00 }          	
+	set_variable = { which = $GOODS$ value = 0.00 }		  	
 	set_variable = { which = $GOODS$_total value = 0.00 }
 
 	every_owned_province = { 
@@ -540,27 +540,27 @@ update_goods = {
 			OR = {
 				trade_goods = $GOODS$
 				has_province_modifier = $GOODS$_mine_small
-			    has_province_modifier = $GOODS$_mine
+				has_province_modifier = $GOODS$_mine
 			}
 		}
 		
 		export_to_variable = {
-			variable_name = $GOODS$      
-			value = modifier:trade_goods_size                         
+			variable_name = $GOODS$	  
+			value = modifier:trade_goods_size						 
 		}	
 		
 		export_to_variable = {
-			variable_name = tradegood_modifier     
-			value = modifier:trade_goods_size_modifier                        
+			variable_name = tradegood_modifier	 
+			value = modifier:trade_goods_size_modifier						
 		}
 		
 		export_to_variable = {
-			variable_name = tradegood_modifier_glob    
+			variable_name = tradegood_modifier_glob	
 			value = modifier:global_trade_goods_size_modifier 
 			who = owner 
 		}
 		
-		change_variable = {            
+		change_variable = {			
 			which = tradegood_modifier 
 			which = tradegood_modifier_glob  
 		}
@@ -570,7 +570,7 @@ update_goods = {
 			which = $GOODS$ 
 		}
 
-		change_variable = {            
+		change_variable = {			
 			which = $GOODS$ 
 			which = tradegood_modifier 
 		}
@@ -578,7 +578,7 @@ update_goods = {
 		if = {
 			limit = { 	has_province_modifier = $GOODS$_mine_small }
 			
-			set_variable = {            
+			set_variable = {			
 				which = $GOODS$ 
 				value = 0.2
 			}
@@ -587,14 +587,14 @@ update_goods = {
 		if = {
 			limit = { has_province_modifier = $GOODS$_mine }
 			
-			set_variable = {            
+			set_variable = {			
 				which = $GOODS$ 
 				value = 0.4
 			}
 		}
 		
 		owner = {
-			change_variable = {            
+			change_variable = {			
 				which = $GOODS$ 
 				which = PREV  
 			}
@@ -604,30 +604,30 @@ update_goods = {
 	## NEW TEST STUFF
 	if = {
 		limit = { is_subject = no }
-		change_variable = {            
+		change_variable = {			
 			which = $GOODS$
 			which = from_subjects_$GOODS$  
 		}
 		
-		change_variable = {            
+		change_variable = {			
 			which = $GOODS$_total 
 			which = $GOODS$  
 		}
 	}
 	else = {
-		change_variable = {            
+		change_variable = {			
 			which = $GOODS$_total 
 			which = $GOODS$  
 		}
 		
-		subtract_variable = {            
+		subtract_variable = {			
 			which = $GOODS$
 			which = from_subjects_$GOODS$  
 		}	
 	}
 	##
 
-	subtract_variable = {            
+	subtract_variable = {			
 		which = $GOODS$
 		which = $GOODS$_used
 	}
@@ -646,20 +646,20 @@ update_goods_subjects = {
 						has_province_modifier = import_from_subjects_modifier
 					}	
 					owner = {
-						set_variable = {            
+						set_variable = {			
 							which = import_$GOODS$ 
 							value = 0
 						}
 					}
 					ROOT = {
 						export_to_variable = {
-							variable_name = $GOODS$      
-							value = modifier:trade_goods_size                         
+							variable_name = $GOODS$	  
+							value = modifier:trade_goods_size						 
 						}	
 						
 						export_to_variable = {
-							variable_name = tradegood_modifier     
-							value = modifier:trade_goods_size_modifier                        
+							variable_name = tradegood_modifier	 
+							value = modifier:trade_goods_size_modifier						
 						}
 
 						multiply_variable = {
@@ -667,12 +667,12 @@ update_goods_subjects = {
 							which = $GOODS$ 
 						}
 		
-						change_variable = {            
+						change_variable = {			
 							which = $GOODS$ 
 							which = tradegood_modifier 
 						}	
 						
-						set_variable = {            
+						set_variable = {			
 							which = import_$GOODS$
 							which = $GOODS$ 
 						}
@@ -680,7 +680,7 @@ update_goods_subjects = {
 						if = {
 							limit = { has_province_modifier = $GOODS$_mine_small }
 							
-							change_variable = {            
+							change_variable = {			
 								which = import_$GOODS$ 
 								value = 0.2
 							}
@@ -689,24 +689,24 @@ update_goods_subjects = {
 						if = {
 							limit = { has_province_modifier = $GOODS$_mine }
 							
-							change_variable = {            
+							change_variable = {			
 								which = import_$GOODS$ 
 								value = 0.4
 							}
 						}
 					}
 					owner = {
-						change_variable = {            
+						change_variable = {			
 							which = import_$GOODS$  
 							which = PREV
 						}
 						
-						change_variable = {            
+						change_variable = {			
 							which = from_subjects_$GOODS$ 
 							which = import_$GOODS$  
 						}		
 						overlord = {
-							change_variable = {            
+							change_variable = {			
 								which = from_subjects_$GOODS$ 
 								which = PREV  
 							}
@@ -729,20 +729,20 @@ update_goods_subjects_monthly = {
 					has_province_modifier = import_from_subjects_modifier
 				}	
 				owner = {
-					set_variable = {            
+					set_variable = {			
 						which = import_$GOODS$ 
 						value = 0
 					}
 				}
 				ROOT = {
 					export_to_variable = {
-						variable_name = $GOODS$      
-						value = modifier:trade_goods_size                         
+						variable_name = $GOODS$	  
+						value = modifier:trade_goods_size						 
 					}	
 					
 					export_to_variable = {
-						variable_name = tradegood_modifier     
-						value = modifier:trade_goods_size_modifier                        
+						variable_name = tradegood_modifier	 
+						value = modifier:trade_goods_size_modifier						
 					}
 					
 					multiply_variable = {
@@ -750,12 +750,12 @@ update_goods_subjects_monthly = {
 						which = $GOODS$ 
 					}
 		
-					change_variable = {            
+					change_variable = {			
 						which = $GOODS$ 
 						which = tradegood_modifier 
 					}	
 					
-					set_variable = {            
+					set_variable = {			
 						which = import_$GOODS$
 						which = $GOODS$ 
 					}
@@ -763,7 +763,7 @@ update_goods_subjects_monthly = {
 					if = {
 						limit = { has_province_modifier = $GOODS$_mine_small }
 							
-						change_variable = {            
+						change_variable = {			
 							which = import_$GOODS$ 
 							value = 0.2
 						}
@@ -772,24 +772,24 @@ update_goods_subjects_monthly = {
 					if = {
 						limit = { has_province_modifier = $GOODS$_mine }
 						
-						change_variable = {            
+						change_variable = {			
 							which = import_$GOODS$ 
 							value = 0.4
 						}
 					}
 				}
 				owner = {
-					change_variable = {            
+					change_variable = {			
 						which = import_$GOODS$  
 						which = PREV
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = from_subjects_$GOODS$ 
 						which = import_$GOODS$  
 					}		
 					overlord = {
-						change_variable = {            
+						change_variable = {			
 							which = from_subjects_$GOODS$ 
 							which = PREV  
 						}
@@ -803,7 +803,7 @@ update_goods_subjects_monthly = {
 
 
 update_goods_subjects_province = {	
-	set_variable = {            
+	set_variable = {			
 		which = import_$GOODS$ 
 		value = 0
 	}
@@ -813,21 +813,21 @@ update_goods_subjects_province = {
 			has_province_modifier = import_from_subjects_modifier
 		}
 		export_to_variable = {
-			variable_name = $GOODS$      
-			value = modifier:trade_goods_size                         
+			variable_name = $GOODS$	  
+			value = modifier:trade_goods_size						 
 		}	
 		
 		export_to_variable = {
-			variable_name = tradegood_modifier     
-			value = modifier:trade_goods_size_modifier                        
+			variable_name = tradegood_modifier	 
+			value = modifier:trade_goods_size_modifier						
 		}
 		
-		set_variable = {            
+		set_variable = {			
 			which = import_$GOODS$ 
 			value = 0
 		}
 		
-		set_variable = {            
+		set_variable = {			
 			which = $GOODS$_modifier 
 			which = $GOODS$
 		}
@@ -837,12 +837,12 @@ update_goods_subjects_province = {
 			which = tradegood_modifier
 		}
 		
-		change_variable = {            
+		change_variable = {			
 			which = $GOODS$ 
 			which = $GOODS$_modifier  
 		}	
 		
-		change_variable = {            
+		change_variable = {			
 			which = import_$GOODS$
 			which = $GOODS$ 
 		}
@@ -850,7 +850,7 @@ update_goods_subjects_province = {
 		if = {
 			limit = { has_province_modifier = $GOODS$_mine_small }
 				
-			change_variable = {            
+			change_variable = {			
 				which = import_$GOODS$ 
 				value = 0.2
 			}
@@ -859,19 +859,19 @@ update_goods_subjects_province = {
 		if = {
 			limit = { has_province_modifier = $GOODS$_mine }
 			
-			change_variable = {            
+			change_variable = {			
 				which = import_$GOODS$ 
 				value = 0.4
 			}
 		}
 	
 		owner = {
-			change_variable = {            
+			change_variable = {			
 				which = import_$GOODS$  
 				which = PREV
 			}
 			
-			subtract_variable = {            
+			subtract_variable = {			
 				which = from_subjects_$GOODS$ 
 				which = import_$GOODS$ 
 			}		

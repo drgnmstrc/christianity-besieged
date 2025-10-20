@@ -1,15 +1,13 @@
 # No previous file for Moshi
-
 owner = BAB
 controller = BAB
 add_core = BAB
 is_city = yes
-culture = bariba 
-religion = itan #Fetishism
+culture = bariba
+religion = itan#Fetishism
 capital = "Bajibo"
 trade_goods = palm_oil
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 native_size = 40
 native_ferocity = 4

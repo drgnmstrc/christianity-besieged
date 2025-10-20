@@ -1,0 +1,91 @@
+﻿l_english:
+ SRY_mesopotamian_mission_title: "Mesopotamian Mission"
+ SRY_mesopotamian_mission_desc: ""
+
+ SRY_dominate_the_gulf_title: "Dominate the Gulf"
+ SRY_dominate_the_gulf_desc: ""
+
+ SRY_incorporate_the_mafrian_title: "Incorporate the Mafrian"
+ SRY_incorporate_the_mafrian_desc: ""
+
+ SRY_rumours_of_the_east_title: "Rumours of the East"
+ SRY_rumours_of_the_east_desc: ""
+
+ SRY_yeshuwaita_title: "Yeshuwaita"
+ SRY_yeshuwaita_desc: ""
+
+ SRY_kingly_favors_title: "Kingly Favors"
+ SRY_kingly_favors_desc: ""
+
+ SRY_greasing_wheels_title: "Greasing the Wheels"
+ SRY_greasing_wheels_desc: ""
+
+ SRY_ceremonial_preparations_title: "Ceremonial Preparations"
+ SRY_ceremonial_preparations_desc: ""
+
+ SRY_eastern_interests_title: "Eastern Interests"
+ SRY_eastern_interests_desc: ""
+
+ SRY_mithridatic_coronation_title: "Mithridatic Coronation"
+ SRY_mithridatic_coronation_desc: ""
+
+ SRY_holy_fleet_title: "The Holy Fleet"
+ SRY_holy_fleet_desc: ""
+
+ SRY_strange_bedfellows_title: "Strange Bedfellows"
+ SRY_strange_bedfellows_desc: ""
+
+ SRY_holy_father_title: "Holy Father"
+ SRY_holy_father_desc: ""
+
+ SRY_a_final_choice_title: "A Final Choice"
+ SRY_a_final_choice_desc: ""
+
+ SRY_moving_forward_title: "Moving Forward"
+ SRY_moving_forward_desc: ""
+
+ SRY_aromri_title: "Aromri"
+ SRY_aromri_desc: ""
+
+ SRY_st_peters_church_title: "St. Peter's Church"
+ SRY_st_peters_church_desc: ""
+
+ SRY_ara_qaddista_title: "Ar'a Qaddišta"
+ SRY_ara_qaddista_desc: ""
+
+ SRY_untenable_situation_title: "An Untenable Situation"
+ SRY_untenable_situation_desc: ""
+
+ SRY_scoping_opponents_title: "Scoping Our Opponents"
+ SRY_scoping_opponents_desc: ""
+
+ SRY_holy_communion_title: "Holy Communion"
+ SRY_holy_communion_desc: ""
+
+ SRY_promises_made_promises_kept_title: "Promises Made, Promises Kept"
+ SRY_promises_made_promises_kept_desc: ""
+
+ SRY_syrian_subjugation_title: "Syrian Subjugation"
+ SRY_syrian_subjugation_desc: ""
+
+ SRY_holiest_of_cities_title: "The Holiest of Cities"
+ SRY_holiest_of_cities_desc: ""
+
+ SRY_poma_misri_title: "Poma Misri"
+ SRY_poma_misri_desc: ""
+
+ SRY_city_of_alexander_title: "The City of Alexandria"
+ SRY_city_of_alexander_desc: ""
+
+ SRY_arbiya_garbiya_title: "Arbiya Garbiya"
+ SRY_arbiya_garbiya_desc: ""
+
+ SRY_canal_of_the_pharaohs_title: "Canal of the Pharaohs"
+ SRY_canal_of_the_pharaohs_desc: ""
+
+
+ CLC_likely_accept_conversion_tt: "This mission will make §YCilicia§! more likely to accept a §Ywillful conversion§!"
+ CLC_likely_accept_ultimatum_tt: "This mission will make §YCilicia§! more likely to accept a §Yforceful conversion§!"
+ enable_zealous_pilgrims_tt: "Allows the hiring of a company of §YZealous Pilgrims§!"
+ final_choice_warning_tt: "§RThis mission will disable completing all previous missions if you haven't done so already!§!"
+ syriac_country_has_150_opinion_tt: "Any neighboring §YSyriac§! country must have §Y150§! opinion of us"

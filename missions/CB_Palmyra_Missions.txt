@@ -1,0 +1,1228 @@
+PLM_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PLM
+	}
+
+	PLM_rebuilding_army = {
+		icon = mission_mansure_army
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = { army_size_percentage = 1.0 }
+
+		effect = {
+			add_country_modifier = {
+				name = "military_buildup"
+				duration = 18250
+			}
+			aleppo_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_exact_revenge = {
+		icon = mission_impaled_soldies
+		position = 2
+		required_missions = { PLM_rebuilding_army }
+		provinces_to_highlight = { owned_by = NBT }
+
+		trigger = {
+			war_with = NBT
+			war_score_against = {
+				who = NBT
+				value = 75
+			}
+			controls = 2327
+			OR = {
+				NOT = { is_year = 1460 }
+				is_origin_of_consort = NBT
+			}
+		}
+
+		effect = {
+			white_peace = NBT
+			syrian_desert_area = {
+				cede_province = ROOT
+				remove_core = NBT
+			}
+			NBT = {
+				kill_ruler = yes
+				change_religion = nabataean
+				change_primary_culture = nabathu
+				override_country_name = nabathu
+			}
+			every_country = {
+				limit = {
+					is_subject_of_type_with_overlord = {
+						who = NBT
+						type = tributary_state
+					}
+				}
+				country_event = {
+					id = CBPalmyraEvents.1
+				}
+			}
+			create_subject = {
+				subject_type = personal_union
+				subject = NBT
+			}
+			arabia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_restoration_of_faith = {
+		icon = mission_land_of_churches
+		position = 3
+		provinces_to_highlight = { has_tax_building_trigger = no owned_by = ROOT}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_tax_building_trigger = yes
+			}
+		}
+
+		effect = {
+			define_advisor = {
+				type = theologian
+				skill = 3
+			}
+		}
+	}
+
+	PLM_spreading_the_faith = {
+		icon = mission_spread_the_reformation
+		position = 4
+		required_missions = { PLM_restoration_of_faith }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_owner_religion = no
+		}
+
+		trigger = {
+			num_of_converted_provinces = {
+				amount = 10
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = religious_harmony
+				duration = 3650
+			}
+		}
+	}
+
+	PLM_standardize_clerical_script = {
+		icon = mission_ahmadabad_paper
+		position = 5
+		required_missions = { PLM_spreading_the_faith }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_building = university }
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 3
+				has_building = university
+			}
+		}
+
+		effect = {
+			add_adm_power = 200
+			add_dip_power = 200
+			add_mil_power = 200
+		}
+	}
+
+	PLM_repair_damages = {
+		icon = mission_destroy_the_horde
+		position = 6
+		provinces_to_highlight = {
+			owned_by = ROOT
+			OR = {
+				NOT = { num_of_times_improved_by_owner = 3 }
+				devastation = 1
+			}
+		}
+
+		trigger = {
+			all_owned_province = {
+				num_of_times_improved_by_owner = 3
+				NOT = { devastation = 1 }
+			}
+		}
+
+		effect = {
+			382 = {
+				add_province_modifier = {
+					name = rebuilding_effort
+					duration = 18250
+				}
+				add_prosperity = 10
+			}
+
+			405 = {
+				add_province_modifier = {
+					name = rebuilding_effort
+					duration = 18250
+				}
+				add_prosperity = 10
+			}
+		}
+	}
+
+	PLM_cultural_renaissance = {
+		icon = take_the_bishoprics
+		position = 7
+		required_missions = { PLM_repair_damages }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_production_building_trigger = no
+			has_trade_building_trigger = no
+
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_production_building_trigger = yes
+				has_trade_building_trigger = yes
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					has_production_building_trigger = yes
+					has_trade_building_trigger = yes
+				}
+				add_province_modifier = {
+					name = production_innovation
+					duration = 5475
+				}
+			}
+		}
+	}
+
+	PLM_new_production_methods = {
+		icon = saxon_manufacturing
+		position = 8
+		required_missions = { PLM_cultural_renaissance }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			has_manufactory_trigger = no
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 5
+				has_manufactory_trigger = no
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = sax_production_prospering
+				duration = 18250
+			}
+		}
+	}
+
+	PLM_reverse_engineering = {
+		icon = mission_cannons_firing
+		position = 9
+		required_missions = { PLM_new_production_methods }
+		provinces_to_highlight = {  }
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 2
+				trade_goods = cannon
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = nor_copper_for_cannons
+				duration = -1
+			}
+		}
+	}
+}
+PLM_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PLM
+	}
+
+	PLM_false_faiths = {
+		icon = crush_heretic_strongholds
+		position = 2
+		required_missions = {
+			PLM_rebuilding_army
+			PLM_restoring_tadmori_guard
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			2313 = { change_religion = ROOT add_core = ROOT }
+			4962 = { change_religion = ROOT add_core = ROOT }
+			cukurova_area = {
+				add_permanent_claim = ROOT
+			}
+			karaman_area = {
+				add_permanent_claim = ROOT
+			}
+			dulkadir_area = {
+				add_permanent_claim = ROOT
+			}
+			al_jazira_area = {
+				add_permanent_claim = ROOT
+			}
+			north_kurdistan_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_eastern_push = {
+		icon = mission_sail_to_the_east_indies
+		position = 3
+		required_missions = { PLM_false_faiths }
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			OR = {
+				AND = {
+					al_jazira_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					north_kurdistan_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				AND = {
+					al_jazira_area = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					ANB = {
+						is_subject_of_type_with_overlord = {
+							who = PLM
+							type = tributary_state
+						}
+					}
+					north_kurdistan_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					ANB = {
+						is_subject_of_type_with_overlord = {
+							who = PLM
+							type = tributary_state
+						}
+					}
+				}
+				hidden_effect = { ANB = { grant_independence = yes } }
+				create_subject = {
+					subject_type = march
+					subject = ANB
+				}
+			}
+			if = {
+				limit = {
+					ASO = {
+						is_subject_of_type_with_overlord = {
+							who = PLM
+							type = tributary_state
+						}
+					}
+				}
+				hidden_effect = { ASO = { grant_independence = yes } }
+				create_subject = {
+					subject_type = march
+					subject = ASO
+				}
+			}
+			if = {
+				limit = {
+					QTN = {
+						is_subject_of_type_with_overlord = {
+							who = PLM
+							type = tributary_state
+						}
+					}
+				}
+				hidden_effect = { QTN = { grant_independence = yes } }
+				create_subject = {
+					subject_type = march
+					subject = QTN
+				}
+			}
+			mashriq_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_reestablishing_a_border = {
+		icon = anatolian_frontier
+		position = 4
+		required_missions = { PLM_eastern_push }
+		provinces_to_highlight = {
+			OR = {
+				area = cukurova_area
+				area = karaman_area
+				area = dulkadir_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			5040 = { add_or_upgrade_fort_building = yes add_core = ROOT change_culture = natolaye }
+			4310 = { add_or_upgrade_fort_building = yes add_core = ROOT change_culture = natolaye }
+			4307 = { add_or_upgrade_fort_building = yes add_core = ROOT change_culture = natolaye }
+			anatolia_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_palmyrosphere = {
+		icon = mission_plc_cultural_flowering
+		position = 5
+		required_missions = { PLM_spreading_the_faith }
+		provinces_to_highlight = {
+			NOT = { culture_group = aramaic_group }
+			owned_by = ROOT
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = natolaye
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = misheroye
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = eng_culture_mission
+				duration = 18250
+			}
+		}
+	}
+
+	PLM_mmf_kings_highway = {
+		icon = spa_spanish_road
+		position = 7
+		required_missions = { PLM_repair_damages }
+		provinces_to_highlight = {
+			NOT = { has_building = road_network }
+			province_group = mmf_kings_highway
+		}
+
+		trigger = {
+			mmf_kings_highway = {
+				type = all
+				has_building = road_network
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			mmf_kings_highway = {
+				add_permanent_province_modifier = {
+					name = kings_highway_modifier
+					duration = -1
+				}
+			}
+		}
+	}
+
+	PLM_kings_canals = {
+		icon = construct_the_kiel_canal
+		position = 8
+		required_missions = { PLM_mmf_kings_highway }
+		provinces_to_highlight = {
+			NOT = { has_building = road_network }
+			province_group = mmf_kings_canals
+		}
+
+		trigger = {
+			mmf_kings_canals = {
+				type = all
+				has_building = road_network
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			mmf_kings_canals = {
+				add_permanent_province_modifier = {
+					name = kings_canals_modifier
+					duration = -1
+				}
+			}
+		}
+	}
+}
+PLM_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PLM
+	}
+
+	PLM_restoring_tadmori_guard = {
+		icon = mission_arabian_fort
+		position = 1
+		provinces_to_highlight = { is_capital_of = ROOT }
+
+		trigger = {
+			capital_scope = {
+				infantry_in_province = 5
+			}
+			army_size_percentage = 1.0
+		}
+
+		effect = {
+			capital_scope = {
+				kill_units = {
+					who = owner
+					amount = 5
+				}
+				add_building = fort_16th
+			}
+			trans_jordan_area = {
+				add_permanent_claim = ROOT
+			}
+			palestine_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_unfinished_business = {
+		icon = mission_fire_of_london
+		position = 2
+		required_missions = { PLM_restoring_tadmori_guard }
+		provinces_to_highlight = {
+			OR = {
+				area = trans_jordan_area
+				area = palestine_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			OR = {
+				AND = {
+					trans_jordan_area = {
+						type = all
+				country_or_non_sovereign_subject_holds = ROOT
+					}
+					palestine_area = {
+						type = all
+				country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+				JUD = {
+					is_subject_of_type_with_overlord = {
+						who = PLM
+						type = tributary_state
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					JUD = {
+						is_subject_of_type_with_overlord = {
+							who = PLM
+							type = tributary_state
+						}
+					}
+				}
+				hidden_effect = { JUD = { grant_independence = yes } }
+				create_subject = {
+					subject_type = march
+					subject = JUD
+				}
+			}
+			else = {
+				379 = { change_religion = ROOT add_core = ROOT }
+			}
+			gulf_of_arabia_area = {
+				add_permanent_claim = ROOT
+			}
+			bahari_area = {
+				add_permanent_claim = ROOT
+			}
+			delta_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_heart_of_the_east = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 3
+		required_missions = { PLM_unfinished_business }
+		provinces_to_highlight = {
+			OR = {
+				area = gulf_of_arabia_area
+				area = bahari_area
+				area = delta_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			gulf_of_arabia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bahari_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			delta_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			358 = { change_religion = ROOT add_core = ROOT change_culture = misheroye }
+			egypt_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_echoes_of_an_empire = {
+		icon = mission_empire
+		position = 5
+		required_missions = {
+			PLM_heart_of_the_east
+			PLM_reestablishing_a_border
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = egypt_region
+				region = arabia_region
+				region = mashriq_region
+				region = anatolia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+
+		}
+
+		trigger = {
+			egypt_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			arabia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mashriq_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			anatolia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+		}
+
+		effect = {
+			set_government_rank = 3
+			override_country_name = KULANAY
+		}
+	}
+}
+PLM_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PLM
+	}
+
+	PLM_yawanan_domination = {
+		icon = byz_greek_fire
+		position = 4
+		required_missions = { PLM_follow_the_fonnim }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_greece_area
+				area = morea_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			144 = {
+				add_or_upgrade_fort_building = yes
+				add_base_production = 2
+			}
+			147 = {
+				add_or_upgrade_fort_building = yes
+				add_base_production = 2
+			}
+		}
+	}
+
+	PLM_carthaginian_conquest = {
+		icon = africa_proconsulare
+		position = 6
+		required_missions = { PLM_silphium_trade }
+		provinces_to_highlight = {
+			OR = {
+				area = tunisia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			tunisia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			tunisia_area = {
+				limit = { has_port = yes }
+				add_or_upgrade_dock_building = yes
+			}
+		}
+	}
+
+	PLM_cape_of_kerne = {
+		icon = mission_west_african_ports
+		position = 9
+		required_missions = { PLM_controls_the_world }
+		provinces_to_highlight = { region = guinea_region }
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				region = guinea_region
+			}
+		}
+
+		effect = {
+			every_province = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+					region = guinea_region
+				}
+				add_or_upgrade_production_building = yes
+				add_or_upgrade_tax_building = yes
+			}
+		}
+	}
+}
+PLM_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PLM
+	}
+
+	PLM_phoenician_problem = {
+		icon = mission_sailor_boat
+		position = 1
+		provinces_to_highlight = {
+			culture = phoenician
+		}
+
+		trigger = {
+			OR = {
+				FNQ = {
+					is_subject_of_type_with_overlord = {
+						who = PLM
+						type = vassal
+					}
+				}
+				AND = {
+					3023 = { infantry_in_province = 3 }
+					1855 = { infantry_in_province = 3 }
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { exists = FNQ }
+				create_subject = {
+					subject_type = march
+					subject = FNQ
+				}
+			}
+			else = {
+				3023 = {
+					kill_units = {
+						who = owner
+						amount = 1
+					}
+					change_culture = aramean
+					change_religion = manichaeism
+					add_province_modifier = {
+						name = religious_violence
+						duration = 18250
+					}
+				}
+				1855 = {
+					kill_units = {
+						who = owner
+						amount = 1
+					}
+					change_culture = aramean
+					change_religion = manichaeism
+					add_province_modifier = {
+						name = religious_violence
+						duration = 18250
+					}
+				}
+				hidden_effect = {
+					random_list = {
+						3 = {
+							2473 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						3 = {
+							1882 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							2455 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							2954 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							2473 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						1 = {
+							341 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+					}
+					random_list = {
+						3 = {
+							2982 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						3 = {
+							126 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							124 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							4737 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						2 = {
+							4736 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+						1 = {
+							125 = {
+								province_event = {
+									id = cultureshift.29
+								}
+							}
+						}
+					}
+					country_event = {
+						id = CBPalmyraEvents.3
+					}
+				}
+				set_country_flag = expelled_fonnim
+			}
+		}
+	}
+
+	PLM_new_designs = {
+		icon = mission_grand_bengali_shipyards
+		position = 2
+		required_missions = { PLM_phoenician_problem }
+		provinces_to_highlight = { has_port = yes }
+
+		trigger = {
+			navy_size_percentage = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = fonnic_raiders
+				duration = -1
+			}
+			add_permanent_claim = 321
+			aegean_archipelago_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_follow_the_fonnim = {
+		icon = kingdom_of_cyprus
+		position = 3
+		required_missions = { PLM_new_designs }
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				province_id = 321
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			aleppo_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			321 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			aegean_archipelago_area = {
+				random_list = {
+					50 = { add_or_upgrade_shipyard_building = yes }
+					50 = { add_or_upgrade_naval_defense_building = yes }
+				}
+			}
+			northern_greece_area = {
+				add_permanent_claim = ROOT
+			}
+			morea_area = {
+				add_permanent_claim = ROOT
+			}
+			cyrenaica_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_silphium_trade = {
+		icon = mam_harness_spice_trade
+		position = 5
+		required_missions = { PLM_follow_the_fonnim }
+		provinces_to_highlight = {
+			OR = {
+				area = cyrenaica_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			cyrenaica_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			cyrenaica_area = {
+				add_or_upgrade_production_building = yes
+				add_or_upgrade_tax_building = yes
+				change_trade_goods = silphium
+			}
+			sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_expedition_to_syracuse = {
+		icon = mission_break_sicily
+		position = 6
+		required_missions = { PLM_silphium_trade }
+		provinces_to_highlight = {
+			OR = {
+				area = western_sicily_area
+				area = sicily_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			western_sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			if = {
+				limit = { has_country_flag = expelled_fonnim }
+				every_province = {
+					limit = {
+						OR = {
+							culture = punic
+							religion = canaanism
+						}
+					}
+					change_culture = ifri
+					change_religion = ashabi
+					if = {
+						limit = { continent = europe }
+						remove_core = FNQ
+						add_core = IFR
+					}
+					else_if = {
+						limit = { continent = africa }
+						remove_core = HDS
+						add_core = IFR
+					}
+				}
+				hidden_effect = {
+					FNQ = {
+						change_technology_group = high_american
+					}
+					HDS = {
+						change_technology_group = high_american
+					}
+					502 = {
+						change_culture = punic
+						change_religion = canaanism
+						add_core = FNQ
+						cede_province = FNQ
+					}
+					953 = {
+						change_culture = punic
+						change_religion = canaanism
+						add_core = HDS
+						cede_province = HDS
+					}
+				}
+				country_event = {
+					id = CBPalmyraEvents.3
+				}
+			}
+			corsica_sardinia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_she_who_controls_the_sea = {
+		icon = mission_shipyards_of_gujarat
+		position = 7
+		required_missions = {
+			PLM_expedition_to_syracuse
+			PLM_carthaginian_conquest
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = corsica_sardinia_area
+				area = baleares_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			baleares_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			corsica_sardinia_area = {
+				man_of_war_heavy = ROOT
+			}
+			northern_morocco_area = {
+				add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	PLM_controls_the_world = {
+		icon = crusader_fleet
+		position = 8
+		required_missions = { PLM_she_who_controls_the_sea }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_morocco_area
+				area = upper_andalucia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			northern_morocco_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_andalucia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = dan_colonial_ambitions_mod
+				duration = 36500
+			}
+		}
+	}
+
+	PLM_khadtiya = {
+		icon = mission_ruler_of_north_america
+		position = 9
+		required_missions = { PLM_controls_the_world }
+		provinces_to_highlight = {  }
+
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 7
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = colonial
+				duration = 18250
+			}
+		}
+	}
+}

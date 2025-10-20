@@ -675,7 +675,7 @@
 378 = "Tarabulus al-Sham"
 379 = "al-Quds"
 380 = "Karak"
-381 = "Ajloun"    
+381 = "Ajloun"	
 382 = "Dimashq"
 383 = "Tabuk"
 384 = "Madinah"
@@ -686,9 +686,9 @@
 389 = "Kindah"
 396 = "Awal"
 400 = "Masqat"
-401 = "Zufar"    
+401 = "Zufar"	
 402 = "Mahrah"
-406 = "As Sahiliyah"    
+406 = "As Sahiliyah"	
 407 = "Ar-Raqqah"
 408 = "Basrah"
 409 = "Hillah"
@@ -705,8 +705,8 @@
 352 = "Qafsah"
 356 = "Bangazi"
 #Morocco
-334  = "Tanja"                     #Tangiers
-1751 = "Sabtah"                    #Ceuta
+334  = "Tanja"					 #Tangiers
+1751 = "Sabtah"					#Ceuta
 #Iberia
 206 = "Shant Yakub"
 207 = "Usturias"
@@ -870,7 +870,7 @@
 87 = "Kalih"
 88 = "Airtawaz"
 89 = "Bikardi"
-102 = "al-Nis"                                            #al-Nis instead of Nis to avoid same name conflict with Serbia
+102 = "al-Nis"											#al-Nis instead of Nis to avoid same name conflict with Serbia
 167 = "Rawan"
 168 = "al-Nurmandi"
 169 = "Armur"

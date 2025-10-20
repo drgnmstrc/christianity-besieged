@@ -1,28 +1,55 @@
-148 = "Skopye"								#Skopje						|			28.03.19
-329 = "Sebastia"							#Sivas						|			16.02.19
-330 = "Trapizon"							#Trebizond					|			16.02.19
-331 = "Karin"								#Erzurum					|			16.02.19
-332 = "Marash"								#Dulkadir					|			16.02.19
-377 = "Halep"								#Aleppo						|			16.02.19
-416 = "Tawrez"								#Tabriz						|			16.02.19
-418 = "Tigranakert"							#Diyarbakir					|			16.02.19
-419 = "Yerevan"								#Yerevan					|			16.02.19
-420 = "Gandzak"								#Ganja						|			16.02.19			
-424 = "Paytakaran"							#Ardabil
-1248 = "Maldivner"							#Maldives					|			13.04.19
-2148 = "Parskahayk"							#Urmia						|			16.02.19
-2152 = "Nakhijevan"							#Nakhchivan					|			16.02.19
-2267 = "Ani"								#Kars						|			16.02.19
-2268 = "Yerznka"							#Erzincan					|			16.02.19
-2269 = "Urha"								#Urfa						|			16.02.19
-2271 = "Tosp"								#Van						|			16.02.19
-2282 = "Gharabagh"							#Melikates					|			16.02.19	alternative?
-2364 = "Mazhak"								#Kayseri
-2367 = "Antakia"							#Antioch					|			16.02.19
-4417 = "Harsnkev"							#Hisn Kayfa					|			16.02.19
-4418 = "Baghesh"							#Bitlis						|			16.02.19
-4420 = "Ayntap"								#Ayntab						|			16.02.19
-4424 = "Daruynk"							#Bayazid					|			16.02.19
-4425 = "Ugtik"								#Oltu						|			16.02.19
-4437 = "Yevdokia"							#Tokat						|			16.02.19
-4669 = "Yash"								#Iasi						|			01.09.19
+# Format: ID = { "Province" "Capital" } # Origin
+
+## CAUCASUS
+
+# Armenia
+2205 = { "Nakhijevan" "Nakhijevan" } # Nakhchivan
+2282 = { "Gharabagh" "Vararakn" } # Melikates, Khankendi
+420 = { "Gandzak" "Gandzak" } # Ganja
+419 = { "Yerevan" "Yerevan" } # Yerevan
+4302 = { "Daruynk" "Gavar" } # Bayazid
+
+# Kartli-Kakheti
+4301 = { "K'art'li" "Gori" } # Kartli, Gori
+2203 = { "Kakhet'i" "T'elav" } # Kakheti, Telavi
+423 = { "T'bilisi" "T'bilisi" } # Tbilisi
+
+# Shirvan
+424 = { "P'aytakaran" "Ardabil" } # Paytakaran 
+4340 = { "Astarra" "Astarra" } # Astara 
+421 = { "Širvan" "Bak'ow" } # Shirvan, Baku 
+4299 = { "Šamakhi" "Šamakhi" } # Shamakhi 
+4305 = { "Šak'i" "Šak'i" } # Shaki 
+
+# Samtskhe
+2204 = { "Ani" "Ani" } # Kars
+4303 = { "Tao" "Olti" } # Tao, Oltu
+5043 = { "Bek'iri" "Rizow" } # Bekhyria, Rhizos
+2196 = { "Gowlia" "Òzowrget'" } # Guria, Ozurgeti
+
+# Imereti
+422 = { "Imeret'i" "K'owt'ays" } # Kars
+462 = { "Odiš" "Zowgdid" } # Odishi, Zugdidi
+1856 = { "Abkhazia" "Sowkhowmi" } # Abkhazia, Sukhumi
+
+148 = { "Skopye" "Skopye" } # Skopje
+329 = { "Sebastia" "Sebastia" } # Sivas
+330 = { "Trapizon" "Trapizon" } # Trebizond
+331 = { "Karin" "Karin" } # Erzurum
+332 = { "Marash" "Marash" } # Dulkadir
+377 = { "Halep" "Halep" } # Aleppo
+416 = { "Tawrez" "Tawrez" } # Tabriz
+418 = { "Tigranakert" "Tigranakert" } # Diyarbakir
+419 = { "Yerevan" "Yerevan" } # Yerevan
+1248 = { "Maldivner" "Maldivner" } # Maldives
+2148 = { "Parskahayk" "Parskahayk" } # Urmia
+2268 = { "Yerznka" "Yerznka" } # Erzincan
+2269 = { "Urha" "Urha" } # Urfa
+2271 = { "Tosp" "Tosp" } # Van
+2364 = { "Mazhak" "Mazhak" } # Kayseri
+2367 = { "Antakia" "Antakia" } # Antioch
+4417 = { "Harsnkev" "Harsnkev" } # Hisn Kayfa
+4418 = { "Baghesh" "Baghesh" } # Bitlis
+4420 = { "Ayntap" "Ayntap" } # Ayntab
+4437 = { "Yevdokia" "Yevdokia" } # Tokat
+4669 = { "Yash" "Yash" } # Iasi

@@ -6,10 +6,8 @@ is_city = yes
 culture = npkxaut
 capital = "Katutura"
 religion = qanumi
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
-
 discovered_by = central_african
 discovered_by = south_african

@@ -61,7 +61,7 @@
 2992 = { "Al-Binagh" "Al-Binagh" } # Albinganim
 102 = { "Niqay" "Niqay" } # Nicaea
 
-## BALKAN
+## BALKANS
 
 # Macedonia
 148 = { "Thasalun" "Al-Aymuqal" } # Thessaloniki, Aiyum Qalis/Aymuqa + la

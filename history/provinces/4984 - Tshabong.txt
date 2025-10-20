@@ -7,10 +7,8 @@ is_city = yes
 culture = tsiqaleha
 capital = "Tshabong"
 religion = qanumi
-hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 1
-
 discovered_by = central_african
 discovered_by = south_african

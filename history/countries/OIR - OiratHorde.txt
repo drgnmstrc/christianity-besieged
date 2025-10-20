@@ -51,7 +51,8 @@ add_accepted_culture = khalkha
 		birth_date = 1393.1.1
 		leader = {
 			name = "Esen Taishi"
-			type = general
+			type = general
+
 			fire = 2
 			shock = 5
 			manuever = 5
@@ -169,7 +170,7 @@ add_accepted_culture = khalkha
 }
 
 1623.1.1 = { capital = 714 }
-
+			
 1630.1.1 = {leader = {	name = "Güshi Khan"              	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1655.1.1 } }
 
 

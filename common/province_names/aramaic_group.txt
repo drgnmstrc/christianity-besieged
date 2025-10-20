@@ -6,6 +6,7 @@
 364 = { "Aza" "Aza" } # Ghazza
 379 = { "Orišlem" "Orišlem" } # Yerushalayim
 1854 = { "Yapo" "Yapo" } # Jaffa
+3021 = { "Beth Ghola" "Beth Ghola" } # Bethulia
 4268 = { "Alath" "Alath" } # Elath
 
 # Transjordan
@@ -17,6 +18,8 @@
 378 = { "Trabolis" "Trabolis" } # Tripolis
 382 = { "Damašq" "Damašq" } # Damašq
 1855 = { "Šidon" "Šidon" } # Saida
+3023 = { "Sor" "Sor" } # Tyre
+3024 = { "Tarodas" "Tarodas" } # Aradus
 4297 = { "Ghamath Šoba" "Ghamath Šoba" } # Gamath-zoba
 
 # Syrian Desert
@@ -28,6 +31,7 @@
 377 = { "Ghalba" "Ghalba" } # Aleppo
 1849 = { "Ghamath" "Ghamath" } # Hama
 2313 = { "Anthiyoka" "Anthiyoka" } # Antioch
+3025 = { "Pay" "Pay" } # Payas
 4298 = { "Ayindab" "Ayindab" } # Ayntab
 4962 = { "Sorayita" "Sorayita" } # Su'ria'ita
 
@@ -82,19 +86,19 @@
 4296 = { "Leš" "Leš" } # Lis
 
 # Commagene/Dulkadir
-332 = { "Ghorem" "Ghorem" } # Khorramabad
-2303 = { "Agmatan" "Agmatan" } # Ecbatana
-2308 = { "Ilam" "Ilam" } # Elam
-4310 = { "Malkharkh" "Malkharkh" } # "King's City"
+332 = { "Germanikaya" "Germanikaye" } # Germanicea
+2303 = { "Malithina" "Malithina" } # Malatya
+2308 = { "Orhay" "Orhay" } # Urfa
+4310 = { "Thepriki" "Thepriki" } # Tephrike
 
-# Shahrizor
+# Cilician Coast/Cukurova
 321 = { "Qipros" "Niqosiya" } # Cyprus, Nicosia 
 327 = { "Athana" "Athana" } # Adana
 2302 = { "Zepiriya" "Naghid" } # Zephyrion, Nagidos
 5040 = { "Sede" "Sede" } # Side
 5041 = { "Thaliya" "Thaliya" } # Attaleia
 
-# Lycaonia
+# Karaman/Lycaonia
 323 = { "Koni" "Koni" } # Ikonion
 324 = { "Larenda" "Larenda" } # Laranda
 2301 = { "Keysariya" "Keysariya" } # Caesarea

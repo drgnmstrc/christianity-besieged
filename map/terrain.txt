@@ -158,7 +158,7 @@ categories =  {
 			960 1109 
 			1026 4187 #Japan
 			312 #Eastern Europe
-		}                                      
+		}									  
 	}
 	
 	hills = {

@@ -1,13 +1,9 @@
 #2449 - Jufra
-
-owner = FZA
-controller = FZA 
 culture = tuareg
 religion = sunni
 capital = "Hun"
 trade_goods = camel
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
@@ -21,4 +17,3 @@ discovered_by = saharan
 discovered_by = east_african
 discovered_by = scandinavian_tech
 discovered_by = eirun
-

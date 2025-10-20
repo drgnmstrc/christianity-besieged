@@ -9,11 +9,11 @@ capital = 137	# Ragusa
 fixed_capital = 137 # Cannot move capital away from this province & no power cost to move to it
 
 1444.11.11 = {
-      monarch = {
-           name = "Vijece"
-           adm = 3
-           dip = 3
-           mil = 2
-           regent = yes
-      }
+	  monarch = {
+		   name = "Vijece"
+		   adm = 3
+		   dip = 3
+		   mil = 2
+		   regent = yes
+	  }
 } # Noble councils. 

@@ -1,7 +1,6 @@
-culture = urhobo 
+culture = urhobo
 religion = oghene
 capital = "Ughelli"
-hre = no
 is_city = yes
 trade_goods = ivory
 base_tax = 2
@@ -10,7 +9,6 @@ base_manpower = 2
 owner = UGH
 controller = UGH
 add_core = UGH
-
 discovered_by = central_african
 discovered_by = sub_saharan
 discovered_by = saharan

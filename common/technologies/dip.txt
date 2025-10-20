@@ -47,8 +47,8 @@ technology = { #Early Ships
 	
 
 	
-    armory = yes
-    
+	armory = yes
+	
 	steam_factory = yes	
 	mine = yes
 	

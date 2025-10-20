@@ -549,6 +549,8 @@ estate_nobles = {
 		
 		# Christianity Besieged Redux
 		estate_nobles_moravian_strong_duchies
+		estate_nobles_disunited_nobility
+		estate_nobles_outdated_provincial_system
 	}
 
 	agendas = {

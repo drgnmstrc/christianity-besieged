@@ -153,7 +153,7 @@ estate_church_build_temple_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -185,8 +185,8 @@ estate_church_build_temple_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_church
 		}
@@ -210,8 +210,8 @@ estate_church_build_temple_in_y = {
 				add_base_tax = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -229,7 +229,7 @@ estate_church_build_temple_in_y = {
 			loyalty = -5
 			duration = 7300
 		}
-    }
+	}
 }
 
 estate_brahmins_build_temple_in_y = {
@@ -427,7 +427,7 @@ estate_brahmins_build_temple_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -459,8 +459,8 @@ estate_brahmins_build_temple_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_brahmins
 		}
@@ -495,8 +495,8 @@ estate_brahmins_build_temple_in_y = {
 				}
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -514,7 +514,7 @@ estate_brahmins_build_temple_in_y = {
 			loyalty = -5
 			duration = 7300
 		}
-    }
+	}
 }
 
 estate_nobles_build_army_building_in_y = {
@@ -820,7 +820,7 @@ estate_nobles_build_army_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -877,8 +877,8 @@ estate_nobles_build_army_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nobles
 		}
@@ -902,8 +902,8 @@ estate_nobles_build_army_building_in_y = {
 				add_base_manpower = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -915,13 +915,13 @@ estate_nobles_build_army_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nobles
+		add_estate_loyalty_modifier = {
+			estate = estate_nobles
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_rajput_build_army_building_in_y = {
@@ -1226,7 +1226,7 @@ estate_rajput_build_army_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -1283,8 +1283,8 @@ estate_rajput_build_army_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_rajput
 		}
@@ -1308,8 +1308,8 @@ estate_rajput_build_army_building_in_y = {
 				add_base_manpower = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -1321,13 +1321,13 @@ estate_rajput_build_army_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_rajput
+		add_estate_loyalty_modifier = {
+			estate = estate_rajput
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_maratha_build_army_building_in_y = {
@@ -1632,7 +1632,7 @@ estate_maratha_build_army_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -1689,8 +1689,8 @@ estate_maratha_build_army_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_maratha
 		}
@@ -1714,8 +1714,8 @@ estate_maratha_build_army_building_in_y = {
 				add_base_manpower = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -1727,13 +1727,13 @@ estate_maratha_build_army_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_maratha
+		add_estate_loyalty_modifier = {
+			estate = estate_maratha
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_qizilbash_build_army_building_in_y = {
@@ -2049,7 +2049,7 @@ estate_qizilbash_build_army_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				check_variable = {
@@ -2094,8 +2094,8 @@ estate_qizilbash_build_army_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		add_estate_loyalty = {
 			estate = estate_qizilbash
 			loyalty = 10
@@ -2115,8 +2115,8 @@ estate_qizilbash_build_army_building_in_y = {
 				add_base_manpower = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		event_target:agenda_province = {
 			if = {
 				limit = { owned_by = root }
@@ -2126,13 +2126,13 @@ estate_qizilbash_build_army_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_qizilbash
+		add_estate_loyalty_modifier = {
+			estate = estate_qizilbash
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_ghulams_build_army_building_in_y = {
@@ -2448,7 +2448,7 @@ estate_ghulams_build_army_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				check_variable = {
@@ -2493,8 +2493,8 @@ estate_ghulams_build_army_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		add_estate_loyalty = {
 			estate = estate_ghulams
 			loyalty = 10
@@ -2514,8 +2514,8 @@ estate_ghulams_build_army_building_in_y = {
 				add_base_manpower = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		event_target:agenda_province = {
 			if = {
 				limit = { owned_by = root }
@@ -2525,13 +2525,13 @@ estate_ghulams_build_army_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_ghulams
+		add_estate_loyalty_modifier = {
+			estate = estate_ghulams
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_nobles_build_fort_building_in_y = {
@@ -3075,7 +3075,7 @@ estate_nobles_build_fort_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -3138,8 +3138,8 @@ estate_nobles_build_fort_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nobles
 		}
@@ -3150,8 +3150,8 @@ estate_nobles_build_fort_building_in_y = {
 		event_target:agenda_province = {
 			add_base_manpower = 1
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -3163,13 +3163,13 @@ estate_nobles_build_fort_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nobles
+		add_estate_loyalty_modifier = {
+			estate = estate_nobles
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_rajput_build_fort_building_in_y = {
@@ -3713,7 +3713,7 @@ estate_rajput_build_fort_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -3776,8 +3776,8 @@ estate_rajput_build_fort_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_rajput
 		}
@@ -3788,8 +3788,8 @@ estate_rajput_build_fort_building_in_y = {
 		event_target:agenda_province = {
 			add_base_manpower = 1
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -3801,13 +3801,13 @@ estate_rajput_build_fort_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_rajput
+		add_estate_loyalty_modifier = {
+			estate = estate_rajput
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_maratha_build_fort_building_in_y = {
@@ -4351,7 +4351,7 @@ estate_maratha_build_fort_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -4414,8 +4414,8 @@ estate_maratha_build_fort_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_maratha
 		}
@@ -4426,8 +4426,8 @@ estate_maratha_build_fort_building_in_y = {
 		event_target:agenda_province = {
 			add_base_manpower = 1
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -4439,13 +4439,13 @@ estate_maratha_build_fort_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_maratha
+		add_estate_loyalty_modifier = {
+			estate = estate_maratha
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_qizilbash_build_fort_building_in_y = {
@@ -4989,7 +4989,7 @@ estate_qizilbash_build_fort_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -5052,8 +5052,8 @@ estate_qizilbash_build_fort_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_qizilbash
 		}
@@ -5064,8 +5064,8 @@ estate_qizilbash_build_fort_building_in_y = {
 		event_target:agenda_province = {
 			add_base_manpower = 1
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -5077,13 +5077,13 @@ estate_qizilbash_build_fort_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_qizilbash
+		add_estate_loyalty_modifier = {
+			estate = estate_qizilbash
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_ghulams_build_fort_building_in_y = {
@@ -5627,7 +5627,7 @@ estate_ghulams_build_fort_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -5690,8 +5690,8 @@ estate_ghulams_build_fort_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_ghulams
 		}
@@ -5702,8 +5702,8 @@ estate_ghulams_build_fort_building_in_y = {
 		event_target:agenda_province = {
 			add_base_manpower = 1
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -5715,13 +5715,13 @@ estate_ghulams_build_fort_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_ghulams
+		add_estate_loyalty_modifier = {
+			estate = estate_ghulams
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_burghers_build_trade_building_in_y = {
@@ -5977,7 +5977,7 @@ estate_burghers_build_trade_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -6024,8 +6024,8 @@ estate_burghers_build_trade_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -6049,8 +6049,8 @@ estate_burghers_build_trade_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -6062,13 +6062,13 @@ estate_burghers_build_trade_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -6301,7 +6301,7 @@ estate_burghers_build_port_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -6358,8 +6358,8 @@ estate_burghers_build_port_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -6383,8 +6383,8 @@ estate_burghers_build_port_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -6396,13 +6396,13 @@ estate_burghers_build_port_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_burghers_build_production_building_in_y = {
@@ -6608,7 +6608,7 @@ estate_burghers_build_production_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -6640,8 +6640,8 @@ estate_burghers_build_production_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -6665,8 +6665,8 @@ estate_burghers_build_production_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -6678,13 +6678,13 @@ estate_burghers_build_production_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -6941,7 +6941,7 @@ estate_vaisyas_build_trade_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -6988,8 +6988,8 @@ estate_vaisyas_build_trade_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -7013,8 +7013,8 @@ estate_vaisyas_build_trade_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -7026,13 +7026,13 @@ estate_vaisyas_build_trade_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -7265,7 +7265,7 @@ estate_vaisyas_build_port_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -7322,8 +7322,8 @@ estate_vaisyas_build_port_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -7347,8 +7347,8 @@ estate_vaisyas_build_port_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -7360,13 +7360,13 @@ estate_vaisyas_build_port_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_vaisyas_build_production_building_in_y = {
@@ -7572,7 +7572,7 @@ estate_vaisyas_build_production_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -7604,8 +7604,8 @@ estate_vaisyas_build_production_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -7629,8 +7629,8 @@ estate_vaisyas_build_production_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -7642,13 +7642,13 @@ estate_vaisyas_build_production_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -7905,7 +7905,7 @@ estate_jains_build_trade_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -7952,8 +7952,8 @@ estate_jains_build_trade_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -7977,8 +7977,8 @@ estate_jains_build_trade_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -7990,13 +7990,13 @@ estate_jains_build_trade_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_jains_build_port_building_in_y = {
@@ -8228,7 +8228,7 @@ estate_jains_build_port_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -8285,8 +8285,8 @@ estate_jains_build_port_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -8310,8 +8310,8 @@ estate_jains_build_port_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -8323,13 +8323,13 @@ estate_jains_build_port_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_jains_build_production_building_in_y = {
@@ -8535,7 +8535,7 @@ estate_jains_build_production_building_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -8567,8 +8567,8 @@ estate_jains_build_production_building_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -8592,8 +8592,8 @@ estate_jains_build_production_building_in_y = {
 				add_base_production = 1
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -8605,13 +8605,13 @@ estate_jains_build_production_building_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -8683,7 +8683,7 @@ estate_nobles_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -8715,8 +8715,8 @@ estate_nobles_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nobles
 		}
@@ -8731,8 +8731,8 @@ estate_nobles_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -8744,13 +8744,13 @@ estate_nobles_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nobles
+		add_estate_loyalty_modifier = {
+			estate = estate_nobles
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_rajput_build_manufactory_in_y = {
@@ -8821,7 +8821,7 @@ estate_rajput_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -8853,8 +8853,8 @@ estate_rajput_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_rajput
 		}
@@ -8869,8 +8869,8 @@ estate_rajput_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -8882,13 +8882,13 @@ estate_rajput_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_rajput
+		add_estate_loyalty_modifier = {
+			estate = estate_rajput
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_maratha_build_manufactory_in_y = {
@@ -8959,7 +8959,7 @@ estate_maratha_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -8991,8 +8991,8 @@ estate_maratha_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_maratha
 		}
@@ -9007,8 +9007,8 @@ estate_maratha_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9020,13 +9020,13 @@ estate_maratha_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_maratha
+		add_estate_loyalty_modifier = {
+			estate = estate_maratha
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 #should be 2x as likely
@@ -9098,7 +9098,7 @@ estate_burghers_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9130,8 +9130,8 @@ estate_burghers_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -9146,8 +9146,8 @@ estate_burghers_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9159,13 +9159,13 @@ estate_burghers_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_vaisyas_build_manufactory_in_y = {
@@ -9236,7 +9236,7 @@ estate_vaisyas_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9268,8 +9268,8 @@ estate_vaisyas_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -9284,8 +9284,8 @@ estate_vaisyas_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9297,13 +9297,13 @@ estate_vaisyas_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_jains_build_manufactory_in_y = {
@@ -9374,7 +9374,7 @@ estate_jains_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9406,8 +9406,8 @@ estate_jains_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -9422,8 +9422,8 @@ estate_jains_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9435,13 +9435,13 @@ estate_jains_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_church_build_manufactory_in_y = {
@@ -9516,7 +9516,7 @@ estate_church_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9548,8 +9548,8 @@ estate_church_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_church
 		}
@@ -9564,8 +9564,8 @@ estate_church_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9577,13 +9577,13 @@ estate_church_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_church
+		add_estate_loyalty_modifier = {
+			estate = estate_church
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_brahmins_build_manufactory_in_y = {
@@ -9658,7 +9658,7 @@ estate_brahmins_build_manufactory_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9690,8 +9690,8 @@ estate_brahmins_build_manufactory_in_y = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_brahmins
 		}
@@ -9706,8 +9706,8 @@ estate_brahmins_build_manufactory_in_y = {
 				duration = 5475
 			}
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9719,13 +9719,13 @@ estate_brahmins_build_manufactory_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_brahmins
+		add_estate_loyalty_modifier = {
+			estate = estate_brahmins
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -9813,7 +9813,7 @@ estate_church_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9829,8 +9829,8 @@ estate_church_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_church
 		}
@@ -9841,8 +9841,8 @@ estate_church_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9854,13 +9854,13 @@ estate_church_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_church
+		add_estate_loyalty_modifier = {
+			estate = estate_church
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_brahmins_build_university_in_y = {
@@ -9944,7 +9944,7 @@ estate_brahmins_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -9960,8 +9960,8 @@ estate_brahmins_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_brahmins
 		}
@@ -9972,8 +9972,8 @@ estate_brahmins_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -9985,13 +9985,13 @@ estate_brahmins_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_brahmins
+		add_estate_loyalty_modifier = {
+			estate = estate_brahmins
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -10076,7 +10076,7 @@ estate_nobles_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10092,8 +10092,8 @@ estate_nobles_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nobles
 		}
@@ -10104,8 +10104,8 @@ estate_nobles_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10117,13 +10117,13 @@ estate_nobles_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nobles
+		add_estate_loyalty_modifier = {
+			estate = estate_nobles
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_maratha_build_university_in_y = {
@@ -10207,7 +10207,7 @@ estate_maratha_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10223,8 +10223,8 @@ estate_maratha_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_maratha
 		}
@@ -10235,8 +10235,8 @@ estate_maratha_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10248,13 +10248,13 @@ estate_maratha_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_maratha
+		add_estate_loyalty_modifier = {
+			estate = estate_maratha
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_rajput_build_university_in_y = {
@@ -10338,7 +10338,7 @@ estate_rajput_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10354,8 +10354,8 @@ estate_rajput_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_rajput
 		}
@@ -10366,8 +10366,8 @@ estate_rajput_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10379,13 +10379,13 @@ estate_rajput_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_rajput
+		add_estate_loyalty_modifier = {
+			estate = estate_rajput
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_burghers_build_university_in_y = {
@@ -10469,7 +10469,7 @@ estate_burghers_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10485,8 +10485,8 @@ estate_burghers_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -10497,8 +10497,8 @@ estate_burghers_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10510,13 +10510,13 @@ estate_burghers_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_vaisyas_build_university_in_y = {
@@ -10600,7 +10600,7 @@ estate_vaisyas_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10616,8 +10616,8 @@ estate_vaisyas_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -10628,8 +10628,8 @@ estate_vaisyas_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10641,13 +10641,13 @@ estate_vaisyas_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_jains_build_university_in_y = {
@@ -10731,7 +10731,7 @@ estate_jains_build_university_in_y = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10747,8 +10747,8 @@ estate_jains_build_university_in_y = {
 				has_building = university
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -10759,8 +10759,8 @@ estate_jains_build_university_in_y = {
 		add_adm_power = 35
 		add_dip_power = 35
 		add_mil_power = 35
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10772,13 +10772,13 @@ estate_jains_build_university_in_y = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 
@@ -10885,7 +10885,7 @@ estate_church_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -10901,8 +10901,8 @@ estate_church_develop_x = {
 				base_tax = "province_adm_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_church
 		}
@@ -10911,8 +10911,8 @@ estate_church_develop_x = {
 			loyalty = 10
 		}
 		add_prestige = 10
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -10924,13 +10924,13 @@ estate_church_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_church
+		add_estate_loyalty_modifier = {
+			estate = estate_church
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_brahmins_develop_x = {
@@ -11067,7 +11067,7 @@ estate_brahmins_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11083,8 +11083,8 @@ estate_brahmins_develop_x = {
 				base_tax = "province_adm_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_brahmins
 		}
@@ -11093,8 +11093,8 @@ estate_brahmins_develop_x = {
 			loyalty = 10
 		}
 		add_prestige = 10
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11106,13 +11106,13 @@ estate_brahmins_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_brahmins
+		add_estate_loyalty_modifier = {
+			estate = estate_brahmins
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_nobles_develop_x = {
@@ -11214,7 +11214,7 @@ estate_nobles_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11230,8 +11230,8 @@ estate_nobles_develop_x = {
 				base_manpower = "province_mil_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nobles
 		}
@@ -11240,8 +11240,8 @@ estate_nobles_develop_x = {
 			loyalty = 10
 		}
 		 add_yearly_manpower = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11253,13 +11253,13 @@ estate_nobles_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nobles
+		add_estate_loyalty_modifier = {
+			estate = estate_nobles
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_rajput_develop_x = {
@@ -11361,7 +11361,7 @@ estate_rajput_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11377,8 +11377,8 @@ estate_rajput_develop_x = {
 				base_manpower = "province_mil_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_rajput
 		}
@@ -11387,8 +11387,8 @@ estate_rajput_develop_x = {
 			loyalty = 10
 		}
 		 add_yearly_manpower = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11400,13 +11400,13 @@ estate_rajput_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_rajput
+		add_estate_loyalty_modifier = {
+			estate = estate_rajput
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_maratha_develop_x = {
@@ -11508,7 +11508,7 @@ estate_maratha_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11524,8 +11524,8 @@ estate_maratha_develop_x = {
 				base_manpower = "province_mil_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_maratha
 		}
@@ -11534,8 +11534,8 @@ estate_maratha_develop_x = {
 			loyalty = 10
 		}
 		 add_yearly_manpower = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11547,13 +11547,13 @@ estate_maratha_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_maratha
+		add_estate_loyalty_modifier = {
+			estate = estate_maratha
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_burghers_develop_x = {
@@ -11655,7 +11655,7 @@ estate_burghers_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11671,8 +11671,8 @@ estate_burghers_develop_x = {
 				base_production = "province_dip_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_burghers
 		}
@@ -11681,8 +11681,8 @@ estate_burghers_develop_x = {
 			loyalty = 10
 		}
 		add_years_of_income = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11694,13 +11694,13 @@ estate_burghers_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_burghers
+		add_estate_loyalty_modifier = {
+			estate = estate_burghers
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_vaisyas_develop_x = {
@@ -11802,7 +11802,7 @@ estate_vaisyas_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11818,8 +11818,8 @@ estate_vaisyas_develop_x = {
 				base_production = "province_dip_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_vaisyas
 		}
@@ -11828,8 +11828,8 @@ estate_vaisyas_develop_x = {
 			loyalty = 10
 		}
 		add_years_of_income = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11841,13 +11841,13 @@ estate_vaisyas_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_vaisyas
+		add_estate_loyalty_modifier = {
+			estate = estate_vaisyas
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_jains_develop_x = {
@@ -11949,7 +11949,7 @@ estate_jains_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -11965,8 +11965,8 @@ estate_jains_develop_x = {
 				base_production = "province_dip_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_jains
 		}
@@ -11975,8 +11975,8 @@ estate_jains_develop_x = {
 			loyalty = 10
 		}
 		add_years_of_income = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -11988,13 +11988,13 @@ estate_jains_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_jains
+		add_estate_loyalty_modifier = {
+			estate = estate_jains
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_nomadic_tribes_develop_x = {
@@ -12189,7 +12189,7 @@ estate_nomadic_tribes_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -12229,8 +12229,8 @@ estate_nomadic_tribes_develop_x = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_nomadic_tribes
 		}
@@ -12259,8 +12259,8 @@ estate_nomadic_tribes_develop_x = {
 		else = {
 			add_prestige = 10
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -12272,13 +12272,13 @@ estate_nomadic_tribes_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_nomadic_tribes
+		add_estate_loyalty_modifier = {
+			estate = estate_nomadic_tribes
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_qizilbash_develop_x = {
@@ -12402,7 +12402,7 @@ estate_qizilbash_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -12418,8 +12418,8 @@ estate_qizilbash_develop_x = {
 				base_manpower = "province_mil_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_qizilbash
 		}
@@ -12428,8 +12428,8 @@ estate_qizilbash_develop_x = {
 			loyalty = 10
 		}
 		 add_yearly_manpower = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -12441,13 +12441,13 @@ estate_qizilbash_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_qizilbash
+		add_estate_loyalty_modifier = {
+			estate = estate_qizilbash
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_ghulams_develop_x = {
@@ -12566,7 +12566,7 @@ estate_ghulams_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -12582,8 +12582,8 @@ estate_ghulams_develop_x = {
 				base_manpower = "province_mil_var"
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_ghulams
 		}
@@ -12592,8 +12592,8 @@ estate_ghulams_develop_x = {
 			loyalty = 10
 		}
 		 add_yearly_manpower = 0.3
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -12605,13 +12605,13 @@ estate_ghulams_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_ghulams
+		add_estate_loyalty_modifier = {
+			estate = estate_ghulams
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }
 
 estate_cossacks_develop_x = {
@@ -12775,7 +12775,7 @@ estate_cossacks_develop_x = {
 			NOT = { owned_by = root }
 		}
 	}
-    task_requirements = {
+	task_requirements = {
 		if = {
 			limit = {
 				has_estate_agenda_auto_completion = {
@@ -12815,8 +12815,8 @@ estate_cossacks_develop_x = {
 				}
 			}
 		}
-    }
-    task_completed_effect = {
+	}
+	task_completed_effect = {
 		on_completed_agenda_effect = {
 			estate = estate_cossacks
 		}
@@ -12845,8 +12845,8 @@ estate_cossacks_develop_x = {
 		else = {
 			add_prestige = 10
 		}
-    }
-    failing_effect = {
+	}
+	failing_effect = {
 		on_failed_agenda_effect = yes
 		clr_auto_complete_flag = yes
 		event_target:agenda_province = {
@@ -12858,11 +12858,11 @@ estate_cossacks_develop_x = {
 				}
 			}
 		}
-        add_estate_loyalty_modifier = {
-            estate = estate_cossacks
+		add_estate_loyalty_modifier = {
+			estate = estate_cossacks
 			desc = EST_VAL_AGENDA_DENIED
 			loyalty = -5
 			duration = 7300
-        }
-    }
+		}
+	}
 }

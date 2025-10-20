@@ -3,10 +3,10 @@
 owner = MRM
 controller = MRM
 add_core = MRM
-culture = almukhidi
+culture = haladri
 religion = sunni
 capital = "Marsa Matruh"
-trade_goods = dates
+trade_goods = silphium
 hre = no
 base_tax = 2
 base_production = 2

@@ -1,232 +1,232 @@
 wl_mag_mater =
 {
-        global_tax_modifier = 0.025
+	global_tax_modifier = 0.025
 
-        potential = {
+	potential = {
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_mag_mater_on_cd
-				has_country_modifier = wl_mother_on_cd
+			has_country_modifier = wl_mag_mater_on_cd
+			has_country_modifier = wl_mother_on_cd
 			}
 		}
 	}
-        sprite = 44
+	sprite = 44
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_mag_mater_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_mother_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_mag_mater_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_mother_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                factor = 1
-        }
+	ai_will_do = {
+		factor = 1
+	}
 }
 
 wl_venus =
 {
-        development_cost = -0.025
+	development_cost = -0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_venus_isis_on_cd
-				has_country_modifier = wl_mother_on_cd
+			has_country_modifier = wl_venus_isis_on_cd
+			has_country_modifier = wl_mother_on_cd
 			}
 		}
 	}
-        sprite = 48
+	sprite = 48
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_venus_isis_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_mother_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_venus_isis_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_mother_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                  factor = 1
-        }
+	ai_will_do = {
+		  factor = 1
+	}
 }
 
 wl_epona =
 {
-        cavalry_power = 0.025
+	cavalry_power = 0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_epona_on_cd
-				has_country_modifier = wl_mother_on_cd
+			has_country_modifier = wl_epona_on_cd
+			has_country_modifier = wl_mother_on_cd
 			}
 		}
 	}
-        sprite = 89
+	sprite = 89
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_epona_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_mother_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_epona_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_mother_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                  factor = 1
-        }
+	ai_will_do = {
+		  factor = 1
+	}
 }
 
 wl_jupiter =
 {
-        fire_damage = 0.025
+	fire_damage = 0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_jupiter_on_cd
-				has_country_modifier = wl_champion_on_cd
+			has_country_modifier = wl_jupiter_on_cd
+			has_country_modifier = wl_champion_on_cd
 			}
 		}
 	}
-        sprite = 43
+	sprite = 43
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_jupiter_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_champion_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_jupiter_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_champion_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                factor = 1
+	ai_will_do = {
+		factor = 1
 	}
 }
 
 wl_lenus_mars =
 {
-        reinforce_speed = 0.025
+	reinforce_speed = 0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_lenus_on_cd
-				has_country_modifier = wl_champion_on_cd
+			has_country_modifier = wl_lenus_on_cd
+			has_country_modifier = wl_champion_on_cd
 			}
 		}
 	}
-        sprite = 47
+	sprite = 47
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_lenus_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_champion_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_lenus_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_champion_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_capitalist
-                  }
-        }
+	ai_will_do = {
+		  factor = 1
+		  modifier = {
+			  factor = 3
+			  personality = ai_militarist
+		  }
+		  modifier = {
+			  factor = 0.5
+			  personality = ai_capitalist
+		  }
+	}
 }
 
 wl_camulus_mars =
 {
-        land_morale = 0.025
+	land_morale = 0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			OR = {
-				has_country_modifier = wl_camulus_on_cd
-				has_country_modifier = wl_champion_on_cd
+			has_country_modifier = wl_camulus_on_cd
+			has_country_modifier = wl_champion_on_cd
 			}
 		}
 	}
-        sprite = 118
+	sprite = 118
 	trigger = {}
 	effect = {}
 	removed_effect = {
-                add_country_modifier = {
-                        name = wl_camulus_on_cd
-                        duration = 1825
-                }
-                add_country_modifier = {
-                        name = wl_champion_on_cd
-                        duration = 730
-                }
-        }
+		add_country_modifier = {
+			name = wl_camulus_on_cd
+			duration = 1825
+		}
+		add_country_modifier = {
+			name = wl_champion_on_cd
+			duration = 730
+		}
+	}
 
-        ai_will_do = {
-                factor = 1
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 0.5
-                        personality = ai_diplomat
-                }
-        }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
 }
 
 wl_personal_cult =
 {
-        yearly_absolutism = 0.025
+	yearly_absolutism = 0.025
 
-        potential = { 
+	potential = { 
 		religion = walianitas
 		NOT = {
 			has_ruler_modifier = wl_personal_cult_on_cd
 		}
 	}
-        sprite = 118
+	sprite = 118
 	trigger = {}
 	effect = { country_event = walianitasEvents.20 }
 	removed_effect = {
-                add_ruler_modifier = {
-                        name = wl_personal_cult_on_cd
-                        duration = -1
-                }
-        }
+		add_ruler_modifier = {
+			name = wl_personal_cult_on_cd
+			duration = -1
+		}
+	}
 
-        ai_will_do = {
-                factor = 1
-        }
+	ai_will_do = {
+		factor = 1
+	}
 }

@@ -142,8 +142,9 @@ capital = 268 # Suceava
 		dip = 4
 		mil = 5
 		leader = {	
-			name = "Stefan III cel Mare"      	
-			type = general	
+			name = "Stefan III cel Mare"	  	
+			type = general	
+
 			fire = 1
 			shock = 4
 			manuever = 4

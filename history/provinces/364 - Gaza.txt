@@ -3,8 +3,8 @@
 owner = JUD
 controller = JUD
 add_core = JUD
-culture = palestinian
-religion = sunni
+culture = hebrew
+religion = rabbinic
 capital = "'Azzah"
 trade_goods = saffron
 hre = no

@@ -5,7 +5,7 @@ random_new_world_region = {
 }
 
 ########################################
-# EUROPE                               #
+# EUROPE							   #
 ########################################
 
 france_region = {
@@ -343,6 +343,7 @@ mashriq_region = {
 		trans_jordan_area
 		syrian_desert_area
 		aleppo_area
+		syrian_oases_area
 	}
 }
 
@@ -427,6 +428,7 @@ arabia_region = {
 		qasim_area
 		yamamah_area
 		nafud_area
+		nabatea_area
 	}
 }
 

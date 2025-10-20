@@ -10,7 +10,7 @@ vandal_ideas = {
 	}
 	trigger = {
 		OR = {
-			primary_culture = almukhidi
+			primary_culture = haladri
 			primary_culture = andalucian
 		}
 	}
@@ -222,7 +222,7 @@ mediterranean_ideas = {
 	}
 	trigger = {
 		culture_group = rumi
-		NOT = { primary_culture = almukhidi }
+		NOT = { primary_culture = haladri }
 		NOT = { primary_culture = andalucian }
 		NOT = { primary_culture = abindari }
 	}
@@ -853,5 +853,43 @@ iberian_ideas = {
 	iberian_global_innovation = {
 		global_institution_spread = 0.1
 		build_cost = -0.15
+	}
+}
+
+hayastani_ideas = {
+	start = {
+		recover_army_morale_speed = 0.05
+		war_exhaustion = -0.02
+	}
+	bonus = {
+		max_hostile_attrition = 1
+		hostile_attrition = 1
+	}
+	trigger = {
+		culture = armenian
+	}
+	free = yes
+	hayastan_renowed_mountain_riders = {
+		cavalry_power = 0.15
+	}
+	hayastan_legacy_of_queen_erato = {
+		development_cost = -0.1
+	}
+	hayastan_savior_of_the_fires = {
+		stability_cost_modifier = -0.1
+	}
+	hayastan_feeding_the_king_of_kings = {
+		diplomatic_reputation = 1
+	}
+	hayastan_taming_anatolia = {
+		harsh_treatment_cost = -0.1
+	}
+	hayastan_beyond_the_kings = {
+		embracement_cost = -0.05
+		range = 0.75
+	}
+	hayastan_center_of_confluence = {
+		build_cost = -0.1
+		merchants = 1
 	}
 }

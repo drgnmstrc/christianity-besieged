@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_subject_syriac_brotherhood"
+		texturefile = "gfx//interface//subject_icons//subject_brotherhood_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_leadbrotherhood"
+		texturefile = "gfx//interface//subject_icons//icon_diplomacy_leadbrotherhood.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_ambrotherhood"
+		texturefile = "gfx//interface//subject_icons//icon_diplomacy_ambrotherhood.dds"
+	}
+}

@@ -1,5 +1,4 @@
 #1181 - Natal
-
 owner = OKU
 controller = OKU
 add_core = OKU
@@ -8,7 +7,6 @@ is_city = yes
 culture = okung
 capital = "Na!a|"
 religion = qanumi
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2

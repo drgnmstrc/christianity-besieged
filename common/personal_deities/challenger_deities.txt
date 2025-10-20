@@ -2,50 +2,50 @@
 
 amaz_tanit =
 {
-    heir_chance = 0.50
-    manpower_recovery_speed = 0.25
+	heir_chance = 0.50
+	manpower_recovery_speed = 0.25
 
-    potential = { religion = amanaiism }
-    sprite = 93
+	potential = { religion = amanaiism }
+	sprite = 93
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 3
-            personality = ai_diplomat
-        }
-        modifier = {
-            factor = 0.5
-            personality = ai_militarist
-        }
-    }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}
+	}
 }
 
 amaz_baal =
 {
-    global_tax_modifier = 0.1
-    global_trade_goods_size_modifier = 0.20
+	global_tax_modifier = 0.1
+	global_trade_goods_size_modifier = 0.20
 
-    potential = { religion = amanaiism }
-    sprite = 94
+	potential = { religion = amanaiism }
+	sprite = 94
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 3
-            personality = ai_capitalist
-        }
-        modifier = {
-            factor = 2
-            personality = ai_diplomat
-        }
-    }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+	}
 }
 
 amaz_gurzil =
@@ -118,26 +118,26 @@ amaz_sufax =
 
 amaz_afrika =
 {
-    stability_cost_modifier = -0.10
-    global_unrest = -1
+	stability_cost_modifier = -0.10
+	global_unrest = -1
 
-    potential = { religion = amanaiism }
-    sprite = 98
+	potential = { religion = amanaiism }
+	sprite = 98
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 3
-            personality = ai_capitalist
-        }
-        modifier = {
-            factor = 2
-            personality = ai_diplomat
-        }
-    }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+	}
 }
 
 # Canaanite Religion: Baal, Ashtart, Melqart, Eshmun, Sydyk, Yam
@@ -168,176 +168,176 @@ can_baal =
 
 can_ashtart =
 {
-    global_tax_modifier = 0.1
-    global_trade_goods_size_modifier = 0.20
+	global_tax_modifier = 0.1
+	global_trade_goods_size_modifier = 0.20
 
-    potential = { religion = canaanism }
-    sprite = 100
+	potential = { religion = canaanism }
+	sprite = 100
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 3
-            personality = ai_capitalist
-        }
-        modifier = {
-            factor = 2
-            personality = ai_diplomat
-        }
-    }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_capitalist
+		}
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+	}
 }
 
 can_melqart =
 {
-        defensiveness = 0.2
-        core_creation = -0.10
+		defensiveness = 0.2
+		core_creation = -0.10
 
-        potential = { religion = canaanism }
-        sprite = 101
+		potential = { religion = canaanism }
+		sprite = 101
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 1
-                modifier = {
-                        factor = 2
-                        personality = ai_capitalist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 2
-                        personality = ai_diplomat
-                }
-        }
+		ai_will_do = {
+				factor = 1
+				modifier = {
+						factor = 2
+						personality = ai_capitalist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_militarist
+				}
+				modifier = {
+						factor = 2
+						personality = ai_diplomat
+				}
+		}
 }
 
 can_eshmun =
 {
-    heir_chance = 0.50
-    manpower_recovery_speed = 0.25
+	heir_chance = 0.50
+	manpower_recovery_speed = 0.25
 
-    potential = { religion = canaanism }
-    sprite = 102
+	potential = { religion = canaanism }
+	sprite = 102
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-    ai_will_do = {
-        factor = 1
-        modifier = {
-            factor = 3
-            personality = ai_diplomat
-        }
-        modifier = {
-            factor = 0.5
-            personality = ai_militarist
-        }
-    }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			personality = ai_diplomat
+		}
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}
+	}
 }
 
 can_sydyk =
 {
-        stability_cost_modifier = -0.10
-        global_unrest = -1
+		stability_cost_modifier = -0.10
+		global_unrest = -1
 
-        potential = { religion = canaanism }
-        sprite = 103
+		potential = { religion = canaanism }
+		sprite = 103
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_capitalist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_diplomat
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_capitalist
+				  }
+				  modifier = {
+						  factor = 2
+						  personality = ai_diplomat
+				  }
+		}
 }
 
 can_yam =
 {
-        naval_attrition = -0.10
-        naval_morale = 0.20
+		naval_attrition = -0.10
+		naval_morale = 0.20
 
-        potential = { religion = canaanism }
-        sprite = 104
+		potential = { religion = canaanism }
+		sprite = 104
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_colonialist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
-                  }
-       }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_colonialist
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_militarist
+				  }
+	   }
 }
 
 # Yoruba Religion: Olorun, Aje, Ogun, Odudua, Olokun, Kokou
 
 yor_olorun =
 {
-        land_morale = 0.1
-        global_unrest = -1
+		land_morale = 0.1
+		global_unrest = -1
 
-        potential = { religion = itan }
-        sprite = 105
+		potential = { religion = itan }
+		sprite = 105
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                factor = 1
-                modifier = {
-                        factor = 2
-                        personality = ai_militarist
-                }
-                modifier = {
-                        factor = 0.5
-                        personality = ai_capitalist
-                }
-        }
+		ai_will_do = {
+				factor = 1
+				modifier = {
+						factor = 2
+						personality = ai_militarist
+				}
+				modifier = {
+						factor = 0.5
+						personality = ai_capitalist
+				}
+		}
 }
 
 yor_aje =
 {
-         global_tax_modifier = 0.1
-         global_trade_goods_size_modifier = 0.20
+		 global_tax_modifier = 0.1
+		 global_trade_goods_size_modifier = 0.20
 
-         potential = { religion = itan }
-         sprite = 106
+		 potential = { religion = itan }
+		 sprite = 106
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-         ai_will_do = {
-                   factor = 1
-                   modifier = {
-                           factor = 3
-                           personality = ai_capitalist
-                   }
-                   modifier = {
-                           factor = 2
-                           personality = ai_diplomat
-                   }
-        }
+		 ai_will_do = {
+				   factor = 1
+				   modifier = {
+						   factor = 3
+						   personality = ai_capitalist
+				   }
+				   modifier = {
+						   factor = 2
+						   personality = ai_diplomat
+				   }
+		}
 }
 
 yor_ogun =
@@ -362,251 +362,251 @@ yor_ogun =
 
 yor_odudua =
 {
-        heir_chance = 0.50
-        land_attrition = -0.10
-        
-        potential = { religion = itan }
-        sprite = 108
+		heir_chance = 0.50
+		land_attrition = -0.10
+		
+		potential = { religion = itan }
+		sprite = 108
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_capitalist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 2
+						  personality = ai_militarist
+				  }
+				  modifier = {
+						  factor = 2
+						  personality = ai_capitalist
+				  }
+		}
 }
 
 yor_olokun =
 {
-        manpower_recovery_speed = 0.20
-        navy_tradition = 1
+		manpower_recovery_speed = 0.20
+		navy_tradition = 1
 
-        potential = { religion = itan }
-        sprite = 109
+		potential = { religion = itan }
+		sprite = 109
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_colonialist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_colonialist
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_militarist
+				  }
+		}
 }
 
 yor_kokou =
 {
-        land_morale = 0.1
-        discipline = 0.025
+		land_morale = 0.1
+		discipline = 0.025
 
-        potential = { religion = itan }
-        sprite = 110
+		potential = { religion = itan }
+		sprite = 110
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_capitalist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_militarist
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_capitalist
+				  }
+		}
 }
 
 #Egyptian
 amun =
 {
-         global_tax_modifier = 0.1
-         navy_tradition = 1
+		 global_tax_modifier = 0.1
+		 navy_tradition = 1
 
-         potential = { religion = egyptian }
-         sprite = 67
+		 potential = { religion = egyptian }
+		 sprite = 67
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-         ai_will_do = {
-                   factor = 1
-                   modifier = {
-                           factor = 2
-                           personality = ai_capitalist
-                   }
-                   modifier = {
-                           factor = 2
-                           personality = ai_militarist
-                   }
-        }
+		 ai_will_do = {
+				   factor = 1
+				   modifier = {
+						   factor = 2
+						   personality = ai_capitalist
+				   }
+				   modifier = {
+						   factor = 2
+						   personality = ai_militarist
+				   }
+		}
 }
 
 maat =
 {
-        stability_cost_modifier = -0.10
-        global_unrest = -1
+		stability_cost_modifier = -0.10
+		global_unrest = -1
 
-        potential = { religion = egyptian }
-        sprite = 68
+		potential = { religion = egyptian }
+		sprite = 68
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_capitalist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_diplomat
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_capitalist
+				  }
+				  modifier = {
+						  factor = 2
+						  personality = ai_diplomat
+				  }
+		}
 }
 
 ra =
 {
-        hostile_attrition = 1.0
-        recover_army_morale_speed = 0.05
+		hostile_attrition = 1.0
+		recover_army_morale_speed = 0.05
 
-        potential = { religion = egyptian }
-        sprite = 69
+		potential = { religion = egyptian }
+		sprite = 69
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_capitalist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 2
+						  personality = ai_militarist
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_capitalist
+				  }
+		}
 }
 
 seth =
 {
-         infantry_power = 0.1
-         global_manpower_modifier = 0.1
+		 infantry_power = 0.1
+		 global_manpower_modifier = 0.1
 
-         potential = { religion = egyptian }
-         sprite = 70
+		 potential = { religion = egyptian }
+		 sprite = 70
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-         ai_will_do = {
-                   factor = 1
-                   modifier = {
-                           factor = 3
-                           personality = ai_militarist
-                   }
-                   modifier = {
-                          factor = 0.5
-                          personality = ai_capitalist
-                   }
-        }
-}    
+		 ai_will_do = {
+				   factor = 1
+				   modifier = {
+						   factor = 3
+						   personality = ai_militarist
+				   }
+				   modifier = {
+						  factor = 0.5
+						  personality = ai_capitalist
+				   }
+		}
+}	
 
 isis =
 {
-        heir_chance = 0.50
-        manpower_recovery_speed = 0.25
+		heir_chance = 0.50
+		manpower_recovery_speed = 0.25
 
-        potential = { religion = egyptian }
-        sprite = 71
+		potential = { religion = egyptian }
+		sprite = 71
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 3
-                          personality = ai_diplomat
-                  }
-                  modifier = {
-                          factor = 0.5
-                          personality = ai_militarist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 3
+						  personality = ai_diplomat
+				  }
+				  modifier = {
+						  factor = 0.5
+						  personality = ai_militarist
+				  }
+		}
 }
 
 anubis =
 {
-        global_unrest = -1
-        discipline = 0.05
+		global_unrest = -1
+		discipline = 0.05
 
-        potential = { religion = egyptian }
-        sprite = 72
+		potential = { religion = egyptian }
+		sprite = 72
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
-                  factor = 1
-                  modifier = {
-                          factor = 2
-                          personality = ai_militarist
-                  }
-                  modifier = {
-                          factor = 2
-                          personality = ai_capitalist
-                  }
-        }
+		ai_will_do = {
+				  factor = 1
+				  modifier = {
+						  factor = 2
+						  personality = ai_militarist
+				  }
+				  modifier = {
+						  factor = 2
+						  personality = ai_capitalist
+				  }
+		}
 }
 
 sanamahi =
 {
-        global_missionary_strength = 0.02
+		global_missionary_strength = 0.02
 		religious_unity = 0.1
 
-        potential = { religion = sanamahism }
-        sprite = 123
+		potential = { religion = sanamahism }
+		sprite = 123
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }
 
 paakhangba =
 {
-        build_cost = -0.1
+		build_cost = -0.1
 		global_trade_goods_size_modifier = 0.1
 
-        potential = { religion = sanamahism }
-        sprite = 124
+		potential = { religion = sanamahism }
+		sprite = 124
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }
 
 atingkok =
@@ -614,15 +614,15 @@ atingkok =
 		prestige = 1
 		advisor_cost = -0.10
 
-        potential = { religion = sanamahism }
-        sprite = 125
+		potential = { religion = sanamahism }
+		sprite = 125
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }
 
 leimarel_sidabi =
@@ -630,45 +630,45 @@ leimarel_sidabi =
 		legitimacy = 1
 		heir_chance = 0.5
 
-        potential = { religion = sanamahism }
-        sprite = 126
+		potential = { religion = sanamahism }
+		sprite = 126
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }
 
 emoinu =
 {
-        production_efficiency = 0.1
+		production_efficiency = 0.1
 		trade_efficiency = 0.1
 
-        potential = { religion = sanamahism }
-        sprite = 127
+		potential = { religion = sanamahism }
+		sprite = 127
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }
 
 ema_panthoibi =
 {
-        discipline = 0.05
+		discipline = 0.05
 		defensiveness = 0.2
 
-        potential = { religion = sanamahism }
-        sprite = 128
+		potential = { religion = sanamahism }
+		sprite = 128
 	trigger = {}
 	effect = {}
 	removed_effect = {}
 
-        ai_will_do = {
+		ai_will_do = {
 			factor = 1
-        }
+		}
 }

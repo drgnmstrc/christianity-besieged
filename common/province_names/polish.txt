@@ -199,7 +199,7 @@
 3121 = "Strzalów"						#Stralsund					|incomplete
 3122 = "Marchia Wkrzanska"				#Uckermark					|			27.08.18
 4247 = "Odojew"							#Odayev						|			23.10.18
-4249 = "Baczka"      					#Bacs						|checked	10.08.18
+4249 = "Baczka"	  					#Bacs						|checked	10.08.18
 4285 = "Rostów"							#Rostov						|			27.05.18
 4359 = "Trenczyn"						#Trencin					|			30.09.18
 4360 = "Olomuniec"						#Olomouc					|			28.08.18

@@ -17,16 +17,16 @@ add_army_tradition = 30
 		mil = 4
 	}
 	queen = {
-        country_of_origin = LOT
-        name = "Maria"
-        dynasty = "Viridia"
-        birth_date = 1404.10.14
-        death_date = 1463.11.29
-        female = yes
-        adm = 4
-        dip = 4
-        mil = 4
-    }
+		country_of_origin = LOT
+		name = "Maria"
+		dynasty = "Viridia"
+		birth_date = 1404.10.14
+		death_date = 1463.11.29
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
 }
 
 1423.7.3 = {

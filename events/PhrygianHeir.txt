@@ -47,10 +47,10 @@ country_event = { #phrygian Election
 				value = 0
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 1
-    				}
+					check_variable = {
+						which = familyPower
+						value = 1
+					}
 			}
 			dynasty = "Wittios"
 		}
@@ -95,10 +95,10 @@ country_event = { #phrygian Election
 				value = 0
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 1
-    				}
+					check_variable = {
+						which = familyPower
+						value = 1
+					}
 			}
 			dynasty = "Mekalawia"
 		}
@@ -141,10 +141,10 @@ country_event = { #phrygian Election
 				value = 0
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 1
-    				}
+					check_variable = {
+						which = familyPower
+						value = 1
+					}
 			}
 			dynasty = "Wittios"
 		}
@@ -195,10 +195,10 @@ country_event = { #phrygian Election
 				value = 0
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 1
-    				}
+					check_variable = {
+						which = familyPower
+						value = 1
+					}
 			}
 			dynasty = "Mekalawia"
 		}
@@ -251,10 +251,10 @@ country_event = { #phrygian Election
 				value = 1
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 2
-    				}
+					check_variable = {
+						which = familyPower
+						value = 2
+					}
 			}
 		}
 		if = {
@@ -304,10 +304,10 @@ country_event = { #phrygian Election
 				value = -1
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 0
-    				}
+					check_variable = {
+						which = familyPower
+						value = 0
+					}
 			}
 		}
 		if = {
@@ -355,10 +355,10 @@ country_event = { #phrygian Election
 				value = 1
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 2
-    				}
+					check_variable = {
+						which = familyPower
+						value = 2
+					}
 			}
 		}
 		if = {
@@ -408,10 +408,10 @@ country_event = { #phrygian Election
 				value = -1
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 0
-    				}
+					check_variable = {
+						which = familyPower
+						value = 0
+					}
 			}
 		}
 		if = {
@@ -463,10 +463,10 @@ country_event = { #phrygian Election
 				value = 2
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 3
-    				}
+					check_variable = {
+						which = familyPower
+						value = 3
+					}
 			}
 		}
 		if = {
@@ -522,10 +522,10 @@ country_event = { #phrygian Election
 				value = -2
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = -1
-    				}
+					check_variable = {
+						which = familyPower
+						value = -1
+					}
 			}
 		}
 		if = {
@@ -579,10 +579,10 @@ country_event = { #phrygian Election
 				value = 2
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = 3
-    				}
+					check_variable = {
+						which = familyPower
+						value = 3
+					}
 			}
 		}
 		if = {
@@ -634,10 +634,10 @@ country_event = { #phrygian Election
 				value = -2
 			}
 			NOT = {
-    				check_variable = {
-        				which = familyPower
-        				value = -1
-    				}
+					check_variable = {
+						which = familyPower
+						value = -1
+					}
 			}
 		}
 		if = {
@@ -773,8 +773,8 @@ country_event = { #Hidden: Phrygian setup
 	}
 	immediate = {
 		set_variable = {
-    			which = familyPower
-    			value = 0
+				which = familyPower
+				value = 0
 		}
 	}
 	option = {

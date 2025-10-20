@@ -99,19 +99,19 @@ monarch_names = {
 }
 
 ship_names = {
-          Aethelfrith Alnwick
-          Bamburgh Bede Bernicia Berwick Blackadder Borderer Bowes
-          Carlisle Cheviot Cumberland
-          Derwent Durham
-          Eden
-          Hadrian Helvellyn
-          Jarrow
-          Lindisfarne
-          Morpeth
-          Newcastle Northumbria
-          Penrith Percy
-          Reiver Rheged
-          Scafell Shap Skiddaw Solway "St Cuthbert" "St Edwin" "St Oswald" Sunderland
-          Tees Tweed Tyne
-          Wear Westmorland Windermere
+		  Aethelfrith Alnwick
+		  Bamburgh Bede Bernicia Berwick Blackadder Borderer Bowes
+		  Carlisle Cheviot Cumberland
+		  Derwent Durham
+		  Eden
+		  Hadrian Helvellyn
+		  Jarrow
+		  Lindisfarne
+		  Morpeth
+		  Newcastle Northumbria
+		  Penrith Percy
+		  Reiver Rheged
+		  Scafell Shap Skiddaw Solway "St Cuthbert" "St Edwin" "St Oswald" Sunderland
+		  Tees Tweed Tyne
+		  Wear Westmorland Windermere
 }

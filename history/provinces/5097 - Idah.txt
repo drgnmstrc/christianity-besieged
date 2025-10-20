@@ -5,14 +5,11 @@ owner = AFE
 controller = AFE
 add_core = AFE
 capital = "Auchi"
-hre = no
 is_city = yes
 trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 2
-
-
 discovered_by = central_african
 discovered_by = sub_saharan
 discovered_by = saharan

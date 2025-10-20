@@ -40,3 +40,42 @@ increase_lowest_monarch_power = {
 		}
 	}
 }
+
+ashkharh_effect = {
+	ashkharh_dynamic_name_change_effect = yes
+	set_country_flag = has_ashkharh_country_name
+	set_country_flag = has_ashkharh_color
+	set_country_flag = has_overriden_name_flag
+	set_country_flag = has_overriden_color_flag
+	hidden_effect = {
+		if = {
+			limit = { religion = noreligion }
+			change_religion = ROOT
+		}
+		if = {
+			limit = { primary_culture = noculture }
+			change_primary_culture = ROOT
+		}
+	}
+	change_country_color = { color = { 73 67 102 } }
+}
+
+ashkharh_name_effect = {
+	set_country_flag = has_ashkharh_country_name
+	set_country_flag = has_overriden_name_flag
+	override_country_name = $tag$
+}
+
+ashkharh_dynamic_name_change_effect = {
+	if = { limit = { tag = CAP } ashkharh_name_effect = { tag = AS0 } }
+	if = { limit = { tag = PNT } ashkharh_name_effect = { tag = AS1 } }
+	if = { limit = { tag = ERS } ashkharh_name_effect = { tag = AS2 } }
+	if = { limit = { tag = CLC } ashkharh_name_effect = { tag = AS3 } }
+	if = { limit = { tag = ISA } ashkharh_name_effect = { tag = AS4 } }
+	if = { limit = { tag = RHO } ashkharh_name_effect = { tag = AS5 } }
+	if = { limit = { tag = BTH } ashkharh_name_effect = { tag = AS6 } }
+	if = { limit = { tag = BLK } ashkharh_name_effect = { tag = AS7 } }
+	if = { limit = { tag = BSP } ashkharh_name_effect = { tag = AS8 } }
+	if = { limit = { tag = BTA } ashkharh_name_effect = { tag = AS9 } }
+	if = { limit = { tag = ALX } ashkharh_name_effect = { tag = A10 } }
+}

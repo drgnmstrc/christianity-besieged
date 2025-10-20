@@ -14,6 +14,6 @@ historical_friend = NDM
 		adm = 1
 		dip = 3
 		mil = 1
-		leader = {	name = "Albrecht"              	type = general	fire = 1	shock = 2	manuever = 2	siege = 0 }
+		leader = {	name = "Albrecht"			  	type = general	fire = 1	shock = 2	manuever = 2	siege = 0 }
 	}
 }

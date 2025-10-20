@@ -589,7 +589,7 @@
 # 		} 
 
 # 		effect = {
-# 			LEB = {
+# 			FNQ = {
 # 				add_country_modifier = {
 # 					name = BYZ_eastern_flank_3
 # 					duration = 9125

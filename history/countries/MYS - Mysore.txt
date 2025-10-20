@@ -459,7 +459,7 @@ fixed_capital = 533 # Cannot move capital away from this province & no power cos
 		DIP = 3
 		MIL = 5
 		religion = sunni
-		leader = {	name = "Haydar 'Alî"          	type = general	fire = 4	shock = 4	manuever = 3	siege = 1 }
+		leader = {	name = "Haydar 'Alî"		  	type = general	fire = 4	shock = 4	manuever = 3	siege = 1 }
 	}
 	religion = sunni
 	government = monarchy
@@ -481,7 +481,7 @@ fixed_capital = 533 # Cannot move capital away from this province & no power cos
 	}
 }
 
-1780.1.1 = { leader = {	name = "Tippoo Sahib"          	type = general	fire = 5	shock = 5	manuever = 3	siege = 1	death_date = 1782.12.8 } }
+1780.1.1 = { leader = {	name = "Tippoo Sahib"		  	type = general	fire = 5	shock = 5	manuever = 3	siege = 1	death_date = 1782.12.8 } }
 
 1782.12.8 = {
 	monarch = {
@@ -490,7 +490,7 @@ fixed_capital = 533 # Cannot move capital away from this province & no power cos
 		ADM = 2
 		DIP = 5
 		MIL = 6
-		leader = {	name = "Tippoo Sahib"          	type = general	fire = 5	shock = 5	manuever = 3	siege = 1 }
+		leader = {	name = "Tippoo Sahib"		  	type = general	fire = 5	shock = 5	manuever = 3	siege = 1 }
 	}
 	add_army_professionalism = 0.3
 }

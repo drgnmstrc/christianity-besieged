@@ -6,7 +6,6 @@ culture = kongolese
 religion = mudarian
 capital = "Iguela"
 trade_goods = ivory
-hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 2

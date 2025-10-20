@@ -99,7 +99,7 @@ capital = 2408
 		adm = 4
 		dip = 5
 		mil = 6
-		leader = {	name = "Uzun Hasan"            	type = general	fire = 4	shock = 5	manuever = 5	siege = 0 }
+		leader = {	name = "Uzun Hasan"				type = general	fire = 4	shock = 5	manuever = 5	siege = 0 }
 	}
 	add_ruler_personality = bold_fighter_personality
 	clear_scripted_personalities = yes

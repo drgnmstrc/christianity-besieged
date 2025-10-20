@@ -1,0 +1,23 @@
+country_decisions = {
+
+	council_of_atropatene = {
+		major = yes
+		potential = {
+			mission_completed = ARM_religious_diplomacy
+			NOT = { has_country_flag = currently_in_council }
+		}
+		provinces_to_highlight = {
+		}
+		allow = {
+		}
+		effect = {
+			country_event = {
+				id = CBHayastanEvents.1
+			}
+			set_country_flag = currently_in_council
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

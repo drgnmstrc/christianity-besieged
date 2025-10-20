@@ -1,0 +1,132 @@
+
+# Fabricate Armenian Campaign of Conquest cb
+fabricate_armenian_invasion_cb = {
+	category = covert
+
+	require_acceptance = no
+
+	is_visible = {
+		ROOT = {
+			OR = {
+				tag = ARM
+				was_tag = ARM
+			}
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = { total_development = 150 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_HAS_NOT_150_TOTAL_DEV
+				FROM = { NOT = { total_development = 150 } }
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_spy_network_in = {
+						who = FROM
+						value = 30
+					}
+				}
+				NOT = { full_idea_group = spy_ideas }
+			}
+			custom_trigger_tooltip = {
+				tooltip = REQUIRES_30_SPY_NETWORK_TT
+				has_spy_network_in = {
+					who = FROM
+					value = 30
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_spy_network_in = {
+						who = FROM
+						value = 24
+					}
+				}
+				full_idea_group = spy_ideas
+			}
+			custom_trigger_tooltip = {
+				tooltip = REQUIRES_24_SPY_NETWORK_TT
+				has_spy_network_in = {
+					who = FROM
+					value = 24
+				}
+			}
+		}
+		if = {
+			limit = {
+				has_casus_belli = {
+					type = cb_armenian_subjugation_war
+					target = FROM
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = HAS_armenian_INVASION_CB_ALREADY_TT
+				NOT = {
+					has_casus_belli = {
+						type = cb_armenian_subjugation_war
+						target = FROM
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = { is_subject = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = CANNOT_DO_ACTION_TO_SUBJECTS_TT
+				FROM = { is_subject = no }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { is_neighbor_of = FROM }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_MUST_BE_NEIGHBOR_TT
+				is_neighbor_of = FROM
+			}
+		}
+	}
+	on_accept = {
+		if = {
+			limit = {
+				full_idea_group = spy_ideas
+			}
+			add_spy_network_in = {
+				who = FROM
+				value = -24
+			}
+		}
+		else = {
+			add_spy_network_in = {
+				who = FROM
+				value = -30
+			}
+		}
+		add_casus_belli = {
+			target = FROM
+			type = cb_armenian_subjugation_war
+			months = 60
+		}
+		FROM = {
+			set_country_flag = got_invasion_cb_fabricated_by_@ROOT
+		}
+	}
+	on_decline = {
+	}
+
+	ai_will_do = { # this is a trigger
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+	}
+}

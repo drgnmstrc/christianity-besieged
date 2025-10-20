@@ -1,12 +1,10 @@
 #319 - Mentese
-
 owner = RHO
 controller = RHO
 culture = kares
 religion = payidotheos
 capital = "Dorisia"
 trade_goods = salt
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 4

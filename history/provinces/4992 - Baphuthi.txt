@@ -6,11 +6,10 @@ add_core = BPH
 culture = khoemana
 capital = "Baphuthi"
 religion = qanumi
-hre = no
 base_tax = 3
 base_production = 4
 base_manpower = 2
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }

@@ -79,7 +79,7 @@ religious_school = hanafi_school
 		adm = 6
 		dip = 4
 		mil = 6
-		leader = { name = "Mehmet II"            type = general	fire = 6	shock = 4	manuever = 5	siege = 2}
+		leader = { name = "Mehmet II"			type = general	fire = 6	shock = 4	manuever = 5	siege = 2}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
@@ -106,7 +106,7 @@ religious_school = hanafi_school
 		hide_ambient_object = hagia_sophia
 } # Thrace
 
-1460.1.1 = { leader = {	name = "Gedik Ahmed"           	type = general	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1482.1.1 } }
+1460.1.1 = { leader = {	name = "Gedik Ahmed"		   	type = general	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1482.1.1 } }
 
 1481.5.4 = {
 	monarch = {
@@ -116,7 +116,7 @@ religious_school = hanafi_school
 		adm = 3
 		dip = 3
 		mil = 5
-		leader = { name = "Bayezid II"            type = general	fire = 3	shock = 2	manuever = 2	siege = 0}
+		leader = { name = "Bayezid II"			type = general	fire = 3	shock = 2	manuever = 2	siege = 0}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = zealot_personality	
@@ -137,15 +137,15 @@ religious_school = hanafi_school
 	}
 }
 
-1487.1.1 = { leader = {	name = "Kemal Reis"            	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1511.1.1 } }
+1487.1.1 = { leader = {	name = "Kemal Reis"				type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1511.1.1 } }
 
-1490.1.1 = { leader = {	name = "Hadim Sinan"           	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1517.1.1 } }
+1490.1.1 = { leader = {	name = "Hadim Sinan"		   	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1517.1.1 } }
 
 1492.1.1 = { add_accepted_culture = serbian }
 
-1492.1.1 = { leader = {	name = "Hadim Ali"             	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1511.1.1 } }
+1492.1.1 = { leader = {	name = "Hadim Ali"			 	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1511.1.1 } }
 
-1493.1.1 = { leader = {	name = "Kucuk Daoud"           	type = admiral	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1506.1.1 } }
+1493.1.1 = { leader = {	name = "Kucuk Daoud"		   	type = admiral	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1506.1.1 } }
 
 1512.5.2 = {
 	monarch = {
@@ -155,7 +155,7 @@ religious_school = hanafi_school
 		adm = 2
 		dip = 4
 		mil = 5
-		leader = { name = "Selîm I Yavuz"         type = general	fire = 5	shock = 4	manuever = 5	siege = 1}
+		leader = { name = "Selîm I Yavuz"		 type = general	fire = 5	shock = 4	manuever = 5	siege = 1}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strict_personality
@@ -176,13 +176,13 @@ religious_school = hanafi_school
 	add_piety = 0.3
 }
 		
-1513.1.1 = { leader = {	name = "Piri Reis"             	type = admiral	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1553.1.1 } }
+1513.1.1 = { leader = {	name = "Piri Reis"			 	type = admiral	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1553.1.1 } }
 
 1514.1.1 = { decision = the_khalifah }
 
-1518.1.1 = { leader = {	name = "Bali"                  	type = general	fire = 1	shock = 4	manuever = 4	siege = 0	death_date = 1541.1.1 } }
+1518.1.1 = { leader = {	name = "Bali"				  	type = general	fire = 1	shock = 4	manuever = 4	siege = 0	death_date = 1541.1.1 } }
 
-1520.1.1 = { leader = {	name = "Gazi Husrev"           	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1541.1.1 } }
+1520.1.1 = { leader = {	name = "Gazi Husrev"		   	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1541.1.1 } }
 
 1520.9.23 = {
 	monarch = {
@@ -192,7 +192,7 @@ religious_school = hanafi_school
 		adm = 6
 		dip = 5
 		mil = 6
-		leader = { name = "Süleyman I Kanuni"     type = general	fire = 5	shock = 3	manuever = 4	siege = 2}
+		leader = { name = "Süleyman I Kanuni"	 type = general	fire = 5	shock = 3	manuever = 4	siege = 2}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = lawgiver_personality
@@ -201,7 +201,7 @@ religious_school = hanafi_school
 
 
 
-1523.1.1 = { leader = {	name = "Pargali Ibrahim Pasha"               	type = general	fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 1536.1.1 } }
+1523.1.1 = { leader = {	name = "Pargali Ibrahim Pasha"			   	type = general	fire = 4	shock = 3	manuever = 4	siege = 0	death_date = 1536.1.1 } }
 
 1524.5.28 = {
 	heir = {
@@ -217,23 +217,23 @@ religious_school = hanafi_school
 	}
 }
 
-1525.1.1 = { leader = {	name = "Barbaros Hayreddin"              	type = admiral	fire = 6	shock = 6	manuever = 5	siege = 0	death_date = 1546.1.1 } }
+1525.1.1 = { leader = {	name = "Barbaros Hayreddin"			  	type = admiral	fire = 6	shock = 6	manuever = 5	siege = 0	death_date = 1546.1.1 } }
 
-1538.1.1 = { leader = {	name = "Özdemir"               	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1561.1.1 } }
+1538.1.1 = { leader = {	name = "Özdemir"			   	type = conquistador	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1561.1.1 } }
 
-1543.1.1 = { leader = {	name = "Salih Reis"            	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1566.1.1 } }
+1543.1.1 = { leader = {	name = "Salih Reis"				type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1566.1.1 } }
 
-1551.1.1 = { leader = {	name = "Uluç Ali"           	type = admiral	fire = 3	shock = 4	manuever = 5	siege = 0	death_date = 1587.1.1 } }
+1551.1.1 = { leader = {	name = "Uluç Ali"		   	type = admiral	fire = 3	shock = 4	manuever = 5	siege = 0	death_date = 1587.1.1 } }
 
 1551.1.1 = { leader = {	name = "Turgut Reis"		type = admiral	fire = 2	shock = 4	manuever = 5	siege = 0	death_date = 1565.6.23 } }
 
-1554.1.1 = { leader = {	name = "Piyale"                 type = admiral	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1590.1.1 } }
+1554.1.1 = { leader = {	name = "Piyale"				 type = admiral	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1590.1.1 } }
 
-1560.1.1 = { leader = {	name = "Lala Mustafa"         	type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1580.1.1 } }
+1560.1.1 = { leader = {	name = "Lala Mustafa"		 	type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1580.1.1 } }
 
-1560.1.1 = { leader = {	name = "Özdemiroglu Osman"     	type = general	fire = 4	shock = 3	manuever = 2	siege = 0	death_date = 1585.1.1 } }
+1560.1.1 = { leader = {	name = "Özdemiroglu Osman"	 	type = general	fire = 4	shock = 3	manuever = 2	siege = 0	death_date = 1585.1.1 } }
 
-1561.1.1 = { leader = {	name = "Sokullu Mehmed"        	type = general	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1579.1.1 } }
+1561.1.1 = { leader = {	name = "Sokullu Mehmed"			type = general	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1579.1.1 } }
 
 1566.9.8 = {
 	monarch = {
@@ -291,7 +291,7 @@ religious_school = hanafi_school
 	}
 }
 
-1594.1.1 = { leader = {	name = "Lala Mahmud"           	type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1606.1.1 } }
+1594.1.1 = { leader = {	name = "Lala Mahmud"		   	type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1606.1.1 } }
 
 1595.1.16 = {
 	monarch = {
@@ -387,7 +387,7 @@ religious_school = hanafi_school
 	}
 }
 
-1620.1.1 = { leader = {	name = "Sissaou"               	type = admiral	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1640.1.1 } }
+1620.1.1 = { leader = {	name = "Sissaou"			   	type = admiral	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1640.1.1 } }
 
 1622.5.20 = {
 	monarch = {
@@ -424,7 +424,7 @@ religious_school = hanafi_school
 		adm = 4
 		dip = 2
 		mil = 4
-		leader = { name = "Murat IV"              type = general	fire = 3	shock = 3	manuever = 3	siege = 1}
+		leader = { name = "Murat IV"			  type = general	fire = 3	shock = 3	manuever = 3	siege = 1}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = bold_fighter_personality
@@ -510,7 +510,7 @@ religious_school = hanafi_school
 
 1661.1.1 = { leader = {	name = "Köprülüzade Fazil Ahmed"   	type = general	fire = 4	shock = 4	manuever = 4	siege = 2	death_date = 1676.11.3 } }
 
-1676.1.1 = { leader = {	name = "Merzifonlu Kara Mustafa"         type = general	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1683.12.25 } }
+1676.1.1 = { leader = {	name = "Merzifonlu Kara Mustafa"		 type = general	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1683.12.25 } }
 
 1686.1.1 = { leader = {	name = "Mezzamorto Hüseyin"	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1701.1.1 } }
 
@@ -619,9 +619,9 @@ religious_school = hanafi_school
 	}
 }
 
-1704.1.1 = { leader = {	name = "Silahdar Ali"          	type = general	fire = 1	shock = 3	manuever = 2	siege = 0	death_date = 1716.1.1 } }
+1704.1.1 = { leader = {	name = "Silahdar Ali"		  	type = general	fire = 1	shock = 3	manuever = 2	siege = 0	death_date = 1716.1.1 } }
 
-1728.1.1 = { leader = {	name = "Hekimoglu Ali"         	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1758.1.1 } }
+1728.1.1 = { leader = {	name = "Hekimoglu Ali"		 	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1758.1.1 } }
 
 1730.10.2 = {
 	monarch = {
@@ -698,7 +698,7 @@ religious_school = hanafi_school
 	}
 }
 
-1766.1.1 = { leader = {	name = "Algerian Hassan"       	type = admiral	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1790.1.1 } }
+1766.1.1 = { leader = {	name = "Algerian Hassan"	   	type = admiral	fire = 2	shock = 1	manuever = 3	siege = 0	death_date = 1790.1.1 } }
 
 1774.1.22 = {
 	monarch = {
@@ -750,7 +750,7 @@ religious_school = hanafi_school
 	}
 }
 
-1792.1.1 = { leader = {	name = "Cezzar Pasha"         	type = general	fire = 4	shock = 2	manuever = 2	siege = 0	death_date = 1804.1.1 } }
+1792.1.1 = { leader = {	name = "Cezzar Pasha"		 	type = general	fire = 4	shock = 2	manuever = 2	siege = 0	death_date = 1804.1.1 } }
 
 1807.5.30 = {
 	monarch = {

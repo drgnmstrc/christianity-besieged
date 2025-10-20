@@ -161,7 +161,7 @@ national_focus = DIP
 
 1460.1.1 = { leader = { name = "Pedro de Sintra"	type = explorer	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1463.1.1 } }
 
-1469.1.1 = { leader = {	name = "Fernando Pó"          	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1481.1.1 } }
+1469.1.1 = { leader = {	name = "Fernando Pó"		  	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1481.1.1 } }
 
 1471.1.1 = { leader = { name = "Rui de Sequeira"	type = explorer	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1475.1.1 } }
 
@@ -179,7 +179,7 @@ national_focus = DIP
 	}
 }
 
-1480.1.1 = { leader = {	name = "Diogo Cão"             	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1486.1.1 } }
+1480.1.1 = { leader = {	name = "Diogo Cão"			 	type = explorer	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1486.1.1 } }
 
 1481.1.1 = { government = monarchy
 add_government_reform = autocracy_reform }
@@ -222,9 +222,9 @@ add_government_reform = autocracy_reform }
 
 1482.1.1 = { leader = { name = "Diogo de Azambuja"	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1486.1.1 } }
 
-1487.1.1 = { leader = {	name = "Bartolomeu Dias"       	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1500.5.29 } }
+1487.1.1 = { leader = {	name = "Bartolomeu Dias"	   	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1500.5.29 } }
 
-1487.5.7 = { leader = {	name = "Pêro da Covilhã"       	type = conquistador	fire = 3	shock = 3	manuever = 6	siege = 0	death_date = 1530.1.1 } }
+1487.5.7 = { leader = {	name = "Pêro da Covilhã"	   	type = conquistador	fire = 3	shock = 3	manuever = 6	siege = 0	death_date = 1530.1.1 } }
 
 1495.10.17 = {
 	monarch = {
@@ -237,7 +237,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1497.7.8 = { leader = {	name = "Vasco da Gama"         	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1510.1.1 } }
+1497.7.8 = { leader = {	name = "Vasco da Gama"		 	type = explorer	fire = 2	shock = 2	manuever = 6	siege = 0	death_date = 1510.1.1 } }
 
 1497.9.30 = {
 	queen = {
@@ -346,7 +346,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1530.1.1 = { leader = {	name = "Martim de Sousa"       	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1564.1.1 } }
+1530.1.1 = { leader = {	name = "Martim de Sousa"	   	type = conquistador	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1564.1.1 } }
 
 1534.8.15 = { decision = join_the_counter_reformation }
 
@@ -366,7 +366,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1556.1.1 = { leader = {	name = "Mem de Sá"             	type = conquistador	fire = 4	shock = 5	manuever = 5	siege = 2	death_date = 1560.1.1 } }
+1556.1.1 = { leader = {	name = "Mem de Sá"			 	type = conquistador	fire = 4	shock = 5	manuever = 5	siege = 2	death_date = 1560.1.1 } }
 
 1557.6.13 = {
 	monarch = {
@@ -404,7 +404,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 
-1578.1.1 = { leader = {	name = "António, Prior do Crato"     	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
+1578.1.1 = { leader = {	name = "António, Prior do Crato"	 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
 
 1578.8.6 = {
 	monarch = {
@@ -459,13 +459,13 @@ add_government_reform = autocracy_reform }
 
 1595.1.1 = { leader = {	name = "Pedro Fernandes Queiróz"	type = explorer	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1615.1.1 } }
 
-1602.1.1 = { leader = {	name = "António Fernandes"     	type = explorer	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1624.1.1 } }
+1602.1.1 = { leader = {	name = "António Fernandes"	 	type = explorer	fire = 1	shock = 1	manuever = 4	siege = 0	death_date = 1624.1.1 } }
 
 1606.1.1 = { leader = {	name = "D. Álvaro de Meneses"   type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1620.1.1 } }
 
 1624.1.1 = { leader = {	name = "Nuno Álvares Botelho"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1650.1.1 } }
 
-1637.1.1 = { leader = {	name = "Pedro Teixeira"        	type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1640.1.1 } }
+1637.1.1 = { leader = {	name = "Pedro Teixeira"			type = conquistador	fire = 2	shock = 2	manuever = 4	siege = 0	death_date = 1640.1.1 } }
 
 1640.12.1 = {
 	monarch = {
@@ -503,7 +503,7 @@ add_government_reform = autocracy_reform }
 	}
 }
 		
-1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
+1655.1.1 = { leader = {	name = "Álvares Botelho"	   	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
 
 1656.11.7 = { set_legacy_government = administrative_monarchy } 
 

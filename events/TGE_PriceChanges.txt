@@ -235,7 +235,7 @@ province_event = {
 	}
 	
 	immediate = {
-		set_variable = {    
+		set_variable = {	
 			which = Dev_Cost
 			value = 0
 		}
@@ -308,7 +308,7 @@ province_event = {
 	}
 	
 	immediate = {
-		set_variable = {    
+		set_variable = {	
 			which = Dev_Cost
 			value = 0
 		}
@@ -877,157 +877,157 @@ country_event = {
 
 ##ComradDoge
 country_event = {
-    id = prices_marcin.17
-    title = prices_marcin.17.t
-    desc = prices_marcin.17.d
-    picture = TRADEGOODS_eventPicture
+	id = prices_marcin.17
+	title = prices_marcin.17.t
+	desc = prices_marcin.17.d
+	picture = TRADEGOODS_eventPicture
 
-    fire_only_once = yes
-    
-    major = yes
+	fire_only_once = yes
+	
+	major = yes
 
-    trigger = {
-        adm_tech = 21
-    }
-    
-    mean_time_to_happen = {
-        months = 600
-    }
+	trigger = {
+		adm_tech = 21
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
 
-    option = {
-        name = prices_marcin.17.a
-        change_price = {
-            trade_goods = lumber
-            key = DEFORESTATION_HAPPEN
-            value = 0.5
-            duration = -1
-        }
-    }
+	option = {
+		name = prices_marcin.17.a
+		change_price = {
+			trade_goods = lumber
+			key = DEFORESTATION_HAPPEN
+			value = 0.5
+			duration = -1
+		}
+	}
 }
 ##
 
 ##Vince.bike
 country_event = {
-    id = prices_marcin.18
-    title = prices_marcin.18.t
-    desc = prices_marcin.18.d
-    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	id = prices_marcin.18
+	title = prices_marcin.18.t
+	desc = prices_marcin.18.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 
-    fire_only_once = yes
-    major = yes
+	fire_only_once = yes
+	major = yes
 
-    trigger = {
-        OR = {
-            AND = {
-                tag = MNG
+	trigger = {
+		OR = {
+			AND = {
+				tag = MNG
 				NOT = { num_of_cities = 40 }
 				has_disaster = ming_crisis
-            }
-            AND = {
-                is_emperor_of_china = yes
-                NOT = { num_of_cities = 30 }
-            }
-        }
-        NOT = { has_global_flag = collapse_of_the_silk_road_flag }
-    }
-    
-    mean_time_to_happen = {
-        months = 1
-    }
+			}
+			AND = {
+				is_emperor_of_china = yes
+				NOT = { num_of_cities = 30 }
+			}
+		}
+		NOT = { has_global_flag = collapse_of_the_silk_road_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 
-    option = {
-        name = prices_marcin.18.a    #Not the silk!
-        ai_chance = { factor = 100 }
-        change_price = {
-            trade_goods = silk
-            key = COLLAPSE_OF_THE_SILK_ROAD
-            value = 0.35
-            duration = -1
-        }
-        change_price = {
-            trade_goods = chinaware
-            key = COLLAPSE_OF_THE_SILK_ROAD
-            value = 0.35
-            duration = -1
-        }
-        change_price = {
-            trade_goods = jade
-            key = COLLAPSE_OF_THE_SILK_ROAD
-            value = 0.35
-            duration = -1
-        }
-        set_global_flag = collapse_of_the_silk_road_flag
-    }
+	option = {
+		name = prices_marcin.18.a	#Not the silk!
+		ai_chance = { factor = 100 }
+		change_price = {
+			trade_goods = silk
+			key = COLLAPSE_OF_THE_SILK_ROAD
+			value = 0.35
+			duration = -1
+		}
+		change_price = {
+			trade_goods = chinaware
+			key = COLLAPSE_OF_THE_SILK_ROAD
+			value = 0.35
+			duration = -1
+		}
+		change_price = {
+			trade_goods = jade
+			key = COLLAPSE_OF_THE_SILK_ROAD
+			value = 0.35
+			duration = -1
+		}
+		set_global_flag = collapse_of_the_silk_road_flag
+	}
 }
 ##
 
 
 country_event = {
-    id = prices_marcin.19
-    title = prices_marcin.19.t
-    desc = prices_marcin.19.d
-    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	id = prices_marcin.19
+	title = prices_marcin.19.t
+	desc = prices_marcin.19.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 
-    fire_only_once = yes
-    major = yes
+	fire_only_once = yes
+	major = yes
 
-    trigger = {
+	trigger = {
 		NOT = { has_global_flag = decline_of_cavalry_flag }
 		always = no
-    }
-    
-    mean_time_to_happen = {
-        months = 1
-    }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 
-    option = {
-        name = prices_marcin.19.a    
-        ai_chance = { factor = 100 }
-        change_price = {
-            trade_goods = horses
-            key = DECLINE_OF_CAVALRY
-            value = -0.35
-            duration = -1
-        }
+	option = {
+		name = prices_marcin.19.a	
+		ai_chance = { factor = 100 }
 		change_price = {
-            trade_goods = elephants
-            key = DECLINE_OF_CAVALRY
-            value = -0.35
-            duration = -1
-        }
-        set_global_flag = decline_of_cavalry_flag
-    }
+			trade_goods = horses
+			key = DECLINE_OF_CAVALRY
+			value = -0.35
+			duration = -1
+		}
+		change_price = {
+			trade_goods = elephants
+			key = DECLINE_OF_CAVALRY
+			value = -0.35
+			duration = -1
+		}
+		set_global_flag = decline_of_cavalry_flag
+	}
 }
 
 country_event = {
-    id = prices_marcin.20
-    title = prices_marcin.20.t
-    desc = prices_marcin.20.d
-    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	id = prices_marcin.20
+	title = prices_marcin.20.t
+	desc = prices_marcin.20.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
 
-    fire_only_once = yes
-    major = yes
+	fire_only_once = yes
+	major = yes
 
-    trigger = {
+	trigger = {
 		always = no
 		NOT = { has_global_flag = renaissance_architecture_boom_flag }
-    }
-    
-    mean_time_to_happen = {
-        months = 1
-    }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
 
-    option = {
-        name = prices_marcin.20.a    
-        ai_chance = { factor = 100 }
-        change_price = {
-            trade_goods = marble
-            key = RENAISSANCE_ARCHITECTURE_BOOM
-            value = -0.35
-            duration = -1
-        }
-        set_global_flag = renaissance_architecture_boom_flag
-    }
+	option = {
+		name = prices_marcin.20.a	
+		ai_chance = { factor = 100 }
+		change_price = {
+			trade_goods = marble
+			key = RENAISSANCE_ARCHITECTURE_BOOM
+			value = -0.35
+			duration = -1
+		}
+		set_global_flag = renaissance_architecture_boom_flag
+	}
 }
 
 

@@ -83,3 +83,7 @@
  cultureshift.28t: "Reromanization of the Avars"
  cultureshift.28d: "With the rise of the Eastern Romans, the local Avars have once again adopted their former Romance tongue."
  cultureshift.28a: "The Eastern Romans are truly back."
+ cultureshift.29t: "Fonnic refugees flee to [Root.GetName]"
+ cultureshift.29d: "The Fonnim of the east have found themselves once again the target of expulsion, causing them to flee to their old colonies, with a particular focus on [Root.GetName]."
+ cultureshift.29a: "...What?"
+ cultureshift.29b: "What!?"

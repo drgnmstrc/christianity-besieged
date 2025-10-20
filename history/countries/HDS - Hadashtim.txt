@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = phoenician
+religion = canaanism
+technology_group = near_east
+capital = 1855	# Sidon

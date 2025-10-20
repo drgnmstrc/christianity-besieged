@@ -1,6 +1,6 @@
 #Croatian Resettlement
 great_moravian_replacement = {
-    local_unrest = 5
+	local_unrest = 5
 }
 slavicreplacement_heavysiege = {
 local_monthly_devastation = 0.30	

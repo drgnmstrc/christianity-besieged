@@ -10,7 +10,8 @@ capital = 17 #Akershus
 1436.1.1 = { 
 	leader = { 
 		name = "Amund Bolt"
-		type = general  
+		type = general 
+ 
 		fire = 1 
 		shock = 2 
 		manuever = 2 
@@ -22,14 +23,15 @@ capital = 17 #Akershus
 1520.1.1 = { 
 	leader = { 
 		name = "Olav Galle" 
-		type = general  
+		type = general 
+ 
 		fire = 1 
 		shock = 2 
 		manuever = 2 
 		siege = 0 
 		death_date = 1530.1.1 
 	} 
-}
+}		
 
 1521.1.1 = { leader = { name = "Engelbriktsson"         type = general fire = 1 shock = 1 manuever = 3 siege = 0 death_date = 1538.2.7 } }
 

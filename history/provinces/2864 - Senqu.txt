@@ -5,13 +5,13 @@ culture = shwakhwe
 religion = qanumi
 capital = "Senqu"
 trade_goods = grain
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 discovered_by = central_african
 discovered_by = sub_saharan
-1444.1.1 = {
+1444.1.1 = { 
 	discovered_by = MJI
 	discovered_by = KHL
 }
+is_city = no

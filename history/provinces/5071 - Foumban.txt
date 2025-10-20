@@ -2,7 +2,6 @@
 culture = mbum
 religion = byeri
 capital = "Foumban"
-hre = no
 owner = BMN
 controller = BMN
 add_core = BMN
@@ -14,7 +13,5 @@ trade_goods = millet
 native_size = 80
 native_ferocity = 4
 native_hostileness = 9
-
-
 discovered_by = sub_saharan
 discovered_by = saharan

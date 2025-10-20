@@ -1394,12 +1394,12 @@ guiTypes = {
 			horizontalBorder = ""
 			Orientation = "UPPER_LEFT"
 			
-		    iconType ={
-			    name ="sikh_bg"
-			    spriteType = "GFX_sikh_bg"
-			    position = { x= 5 y = -28 }
-			    Orientation = "UPPER_LEFT"
-		    }
+			iconType ={
+				name ="sikh_bg"
+				spriteType = "GFX_sikh_bg"
+				position = { x= 5 y = -28 }
+				Orientation = "UPPER_LEFT"
+			}
 
 			windowType = {
 				name = "current_guru"
@@ -2249,14 +2249,14 @@ guiTypes = {
 		
 		###Defender of the Faith
 
-        iconType = {
+		iconType = {
 			name ="defender_of_the_faith_tier"
 			spriteType = "GFX_defender_of_the_faith_tier"
 			position = { x=355 y=260 }
 			Orientation = "UPPER_LEFT"
-        }
+		}
 
-        guiButtonType = 
+		guiButtonType = 
 		{
 			name ="become_Defender_of_the_Faith"
 			quadTextureSprite = "GFX_become_Defender_of_the_Faith"

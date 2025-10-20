@@ -1,51 +1,51 @@
 greek_tyranny = {
-    rank = {
-        1 = TYRANNY
+	rank = {
+		1 = TYRANNY
 	2 = TYRANT_KINGDOM
 	3 = EMPIRE
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = TURRANOS
 	2 = AUTOKRATOR
 	3 = BASILEUS
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = TYRANT
 	2 = AUTOKRATEIRA
 	3 = BASILISSA
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = DESPOT
 	2 = AUTOKRATOR
 	3 = BASILEUS
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = DESPOTISSA
 	2 = AUTOKRATEIRA
 	3 = BASILISSA
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = HEIR
 	2 = HEIR
 	3 = HEIR
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = HEIR_fem
 	2 = HEIR_fem
 	3 = HEIR_fem
-    }
-    
+	}
+	
 	trigger = {
 		OR = {
 			has_reform = phrygian_tyranny_reform
 			has_reform = greek_tyranny_reform
-    		}
+			}
 	}
 }
 
@@ -74,48 +74,48 @@ shura_iskandaria = {
 }
 
 isaurian_tyranny = {
-    rank = {
-        1 = GOUANI #City, Luwian transliterated into Greek back into Latin
+	rank = {
+	1 = GOUANI #City, Luwian transliterated into Greek back into Latin
 	2 = CHANTIGIA #Kingdom, Luwian transliterated into Greek back into Latin then simplified
 	3 = TARGANTSAVAT #Literally Rule King, Luwian transliterated into Greek back into Latin then simplified
-    }
-    
-    ruler_male = {
-        1 = SARL #Chief
+	}
+	
+	ruler_male = {
+		1 = SARL #Chief
 	2 = CHANTAT #King, Luwian transliterated into Greek back into Latin then simplified
 	3 = ISAURICUS #Isaurian title historically bestowed upon Roman emperor
-    }
-    
-    ruler_female = {
-        1 = SARL
+	}
+	
+	ruler_female = {
+		1 = SARL
 	2 = CHASSOUAR #Queen, Luwian transliterated into Greek back into Latin
 	3 = ISAURICUS
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = SARL
 	2 = CHANTAT
 	3 = CHANTAT
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = SARL
 	2 = CHASSOUAR
 	3 = CHASSOUAR
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = HEIR
 	2 = HEIR
 	3 = HEIR
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = HEIR_fem
 	2 = HEIR_fem
 	3 = HEIR_fem
-    }
-    
+	}
+	
 	trigger = {
 		has_reform = luwian_tyranny
 	}
@@ -128,14 +128,14 @@ syriac_church = {
 		3 = HOLY_KINGDOM
 	}
 	ruler_male = {
-		1 = ARCHBISHOP
-		2 = PATRIARCH
-		3 = APOSTLE
+		1 = EBONA
+		2 = EBONA
+		3 = EBONA
 	}
 	ruler_female = {
-		1 = BISHOP
-		2 = ARCHBISHOP
-		3 = MATRIARCH
+		1 = YIMMA
+		2 = YIMMA
+		3 = YIMMA
 	}
 	heir_male = {
 		1 = HEIR
@@ -384,50 +384,50 @@ almoravid_emirate = {
 }
 
 greek_democracy = {
-    rank = {
-        1 = POLIS
+	rank = {
+		1 = POLIS
 	2 = LEAGUE
 	3 = FEDERATION
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = ARCHON
 	2 = ARCHON
 	3 = HIGH_ARCHON
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = ARCHON
 	2 = ARCHON
 	3 = HIGH_ARCHON
-    }
-    trigger = {
+	}
+	trigger = {
 	has_reform = greek_democracy_reform
 	}
 }
 
 venetian_tyranny = {
-    rank = {
-        1 = PROVINCE
+	rank = {
+		1 = PROVINCE
 	2 = REPUBLIC
 	3 = EMPIRE
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = RECTOR
 	2 = DICTATOR
 	3 = EMPEROR
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = RECTOR
 	2 = DICTATOR
 	3 = EMPRESS
-    }
-    trigger = {
+	}
+	trigger = {
 	culture_group = occidental
 	has_roman_religion = yes
-    }
+	}
 }
 
 high_druid = {
@@ -448,7 +448,7 @@ high_druid = {
 
 ethiopian_caliphate = {
 	rank = {
-		3 = CALIPHATE
+		3 = ETHIOPIAN_CALIPHATE
 	}
 	ruler_male = {
 		3 = CALIPH
@@ -482,98 +482,98 @@ tribute_reform = {
 }
 
 indian_shahdom = {
-    rank = {
-        1 = SATRAPY
+	rank = {
+		1 = SATRAPY
 	2 = SHAHDOM
 	3 = SAHANSAHDOM
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = SATRAP
 	2 = SHAH
 	3 = SAHANSAH
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = SATRAPBANU
 	2 = SHAHBANU
 	3 = SAHBANUANSAH
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = SATRAP
 	2 = SHAH
 	3 = SAHANSAH
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = SATRAPMAM
 	2 = SHAHMAM
 	3 = SAHMAMANSAH
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = SATRAPPUR
 	2 = SHAHPUR
 	3 = SAHPURANSAH
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = SATRAPDOKHT
 	2 = SHAHDOKHT
 	3 = SAHDOKHTANSAH
-    }
-    
+	}
+	
 	trigger = {
 		OR = {
 			has_reform = indian_sultanate_reform
-    		}
+			}
 	}
 }
 
 aramaic_kingdom = {
-    rank = {
-        1 = ERKUS
+	rank = {
+		1 = ERKUS
 	2 = MALKUTHO
 	3 = IMPRATURUTA
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = MIR
 	2 = MALKA
 	3 = SAHINSA
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = SHALITA
 	2 = MALIKTA
 	3 = BABISNA
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = MIR
 	2 = MALKA
 	3 = SAHINSA
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = SHALITA
 	2 = MALIKTA
 	3 = BABISNA
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = SAHPIR
 	2 = SHAZADA
 	3 = WALIAD
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = AMIRTA
 	2 = BRATMALKA
 	3 = BABISNITHA
-    }
-    
+	}
+	
 	trigger = {
 		culture_group = aramaic_group
 		NOT = { primary_culture = hebrew }
@@ -582,48 +582,48 @@ aramaic_kingdom = {
 }
 
 hebrew_kingdom = {
-    rank = {
-        1 = NSIYKHUT
+	rank = {
+		1 = NSIYKHUT
 	2 = MALKHUT
 	3 = KEYSARUT
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = NASHI
 	2 = MELEKH
 	3 = SHALIYT
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = NSIYKHAH
 	2 = MALKA
 	3 = KEYSARIYT
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = NASHI
 	2 = MELEKH
 	3 = SHALIYT
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = NSIYKHAH
 	2 = MALKA
 	3 = KEYSARIYT
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = YORESH
 	2 = NASHI
 	3 = BET_HAMELEKH
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = YORESH
 	2 = BAT_MELEKH
 	3 = NSIYKHAH
-    }
-    
+	}
+	
 	trigger = {
 		primary_culture = hebrew
 		government = monarchy
@@ -631,48 +631,48 @@ hebrew_kingdom = {
 }
 
 taino_caciazgo = {
-    rank = {
-        1 = CACICAZGO
+	rank = {
+		1 = CACICAZGO
 	2 = MACUCACICAZGO
 	3 = KECACIAZGO
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = CACIQUE
 	2 = MACUCACIQUE
 	3 = BOCACIQUE
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = CACIA
 	2 = MACUCACIA
 	3 = BOCACIA
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = CACIQUE
 	2 = MACUCACIQUE
 	3 = BOCACIQUE
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = CACIA
 	2 = MACUCACIA
 	3 = BOCACIA
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = GUAILI
 	2 = MACUGUAILI
 	3 = KEGUAILI
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = RAHE
 	2 = MACURAHE
 	3 = KERAHE
-    }
-    
+	}
+	
 	trigger = {
 		primary_culture = arawak
 		NOT = {
@@ -682,48 +682,48 @@ taino_caciazgo = {
 }
 
 inuit_nunaat = {
-    rank = {
-        1 = INUIAAT
+	rank = {
+		1 = INUIAAT
 	2 = NUNAAT
 	3 = NUNANUNAAT
-    }
-    
-    ruler_male = {
+	}
+	
+	ruler_male = {
 	1 = BIILERTOQ
 	2 = KUNNGI
 	3 = KUNNGI
-    }
-    
-    ruler_female = {
+	}
+	
+	ruler_female = {
 	1 = BIILERTOQ
 	2 = KUNNGI
 	3 = KUNNGI
-    }
-    
-    consort_male = {
+	}
+	
+	consort_male = {
 	1 = ILIK
 	2 = ILIK
 	3 = ILIK
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 	1 = ILIK
 	2 = ILIK
 	3 = ILIK
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 	1 = ERNEQ
 	2 = ERNEQ
 	3 = ERNEQ
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 	1 = PANIK
 	2 = PANIK
 	3 = PANIK
-    }
-    
+	}
+	
 	trigger = {
 		religion = ikniksugritism
 	}

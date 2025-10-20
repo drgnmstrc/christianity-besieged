@@ -1,0 +1,217 @@
+namespace = CBHayastanEvents
+
+country_event = { # Hayastan Offers Provincial Integration
+	id = CBHayastanEvents.0
+	title = CBHayastanEvents.0t
+	desc = CBHayastanEvents.0d
+	picture = CONSORT_DOING_BADLY_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = { # Yes!
+		name = CBHayastanEvents.0a
+		ARM = {
+			create_subject = {
+				subject_type = core_ashkharh
+				subject = ROOT
+			}
+			swap_non_generic_missions = yes
+		}
+		ashkharh_effect = yes
+	}
+	option = { # No!
+		name = CBHayastanEvents.0b
+		SRY = {
+			add_casus_belli = {
+				type = cb_armenian_invasion
+				target = ROOT
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { # The Council of Atropatene
+	id = CBHayastanEvents.1
+	title = CBHayastanEvents.1t
+	desc = CBHayastanEvents.1d
+	picture = RELIGION_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = { # The teachings of Mani are enough.
+		name = CBHayastanEvents.1a
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = manichaeism } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = manichaeism } 
+		}
+		change_religion = manichaeism
+		set_country_flag = atropatene_concluded
+	}
+	option = { # Those mandaeans have some interesting points...
+		name = CBHayastanEvents.1b
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = mandaeism } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = mandaeism } 
+		}
+		change_religion = mandaeism
+		set_country_flag = atropatene_concluded
+	}
+	option = { # What about a return to the ways of Zarathustra?
+		name = CBHayastanEvents.1c
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = zoroastrian } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = zoroastrian } 
+		}
+		change_religion = zoroastrian
+		set_country_flag = atropatene_concluded
+	}
+	option = { # Perhaps a more pacifist approach?
+		name = CBHayastanEvents.1e
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = mazdaki } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = mazdaki } 
+		}
+		change_religion = mazdaki
+		set_country_flag = atropatene_concluded
+	}
+	option = { # The followers of the so-called 'living god' could be right
+		name = CBHayastanEvents.1f
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = syriac } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = syriac } 
+		}
+		change_religion = syriac
+		set_country_flag = atropatene_concluded
+	}
+	option = { # A return to the old ways is necessary.
+		name = CBHayastanEvents.1g
+		trigger = { has_country_flag = greater_armenia_chosen }
+		change_religion = armenian_pagan
+		set_country_flag = atropatene_concluded
+	}
+	option = { # Where's that carpet salesman who's always talking about 'Vishnu?'
+		name = CBHayastanEvents.1h
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = hinduism } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = hinduism } 
+		}
+		change_religion = hinduism
+		set_country_flag = atropatene_concluded
+	}
+	option = { # Maybe a return to our hellenized roots is best?
+		name = CBHayastanEvents.1i
+		if = {
+			limit = {
+				ERS = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			ERS = { change_religion = hellenism } 
+		}
+		if = {
+			limit = {
+				PNT = {
+					ai = yes
+					historical_friend_with = ROOT
+				}
+			}
+			PNT = { change_religion = hellenism } 
+		}
+		change_religion = hellenism
+		set_country_flag = atropatene_concluded
+	}
+	option = { # We need to think about this more.
+		name = CBHayastanEvents.1j
+		clr_country_flag = currently_in_council
+	}
+}

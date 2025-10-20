@@ -13,6 +13,7 @@
  PROV183: "Lutetia"
  PROV243: "Lindsey"
  PROV341: "Qirtaj"
+ PROV410: "Ctesiphon"
  PROV539: "Mylapore"
  PROV987: "Onguiaahra"
  PROV1020: "Uda"
@@ -64,3 +65,4 @@
  hokuriku_area: "Ota'poyna"
  thohoku_area: "Kim'upas'kitay"
  hokkaido_area: "Paru'Mosir"
+ wallachia_area: "Rumânea"
