@@ -6,7 +6,12 @@ fabricate_armenian_invasion_cb = {
 	require_acceptance = no
 
 	is_visible = {
-		ROOT = { tag = ARM }
+		ROOT = {
+			OR = {
+				tag = ARM
+				was_tag = ARM
+			}
+		}
 	}
 	is_allowed = {
 		if = {

@@ -2045,7 +2045,12 @@ on_create_vassal = {
 	}
 	if = {
 		limit = {
-			FROM = { tag = ARM }
+		ROOT = {
+			OR = {
+				tag = ARM
+				was_tag = ARM
+			}
+		}
 		}
 		ARM = {
 			create_subject = {

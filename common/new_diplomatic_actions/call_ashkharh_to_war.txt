@@ -5,7 +5,12 @@ call_ashkharh_into_wars = {
 	require_acceptance = no
 
 	is_visible = {
-		ROOT = { tag = ARM }
+		ROOT = {
+			OR = {
+				tag = ARM
+				was_tag = ARM
+			}
+		}
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = ashkharh

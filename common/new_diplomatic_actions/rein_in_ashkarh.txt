@@ -9,7 +9,12 @@ reign_in_ashkharh = {
 	require_acceptance = yes
 
 	is_visible = {
-		ROOT = { tag = ARM }
+		ROOT = {
+			OR = {
+				tag = ARM
+				was_tag = ARM
+			}
+		}
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = ashkharh
