@@ -130,6 +130,20 @@ on_religion_change = {
 	}
 	if = {
 		limit = {
+			has_darkness = no
+		}
+		###removes darkness modifiers
+		remove_country_modifier = darkness_extinguished
+		remove_country_modifier = darkness_low
+		remove_country_modifier = darkness_rising
+		remove_country_modifier = darkness_infiltrated
+		remove_country_modifier = darkness_present
+		remove_country_modifier = darkness_high
+		remove_country_modifier = darkness_dangerous
+		remove_country_modifier = darkness_in_power
+	}
+	if = {
+		limit = {
 			AND = {
 				has_roman_religion = yes
 				NOT = {
@@ -1606,6 +1620,22 @@ on_bi_yearly_pulse_3 = {
 		100 = CBFlavorEvents.6 #Christianity Besieged: Hellenic missionary
 
 		200 = 0
+	}
+}
+
+on_monthly_pulse = {
+	if = {
+		limit = {
+			has_darkness = yes
+			check_variable = {
+				which = darkness
+				value = 101
+			}
+		}
+		set_variable = {
+			which = darkness
+			value = 100
+		}
 	}
 }
 

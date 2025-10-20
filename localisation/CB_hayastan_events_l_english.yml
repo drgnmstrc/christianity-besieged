@@ -4,7 +4,7 @@
  CBHayastanEvents.0a: "Yes!"
  CBHayastanEvents.0b: "No!"
  CBHayastanEvents.1t: "The Council of Atropatene"
- CBHayastanEvents.1d: ""
+ CBHayastanEvents.1d: "The leaders and clergy of [Root.GetName], [ERS.GetName], and [PNT.GetName] have convened in Atropatene to discuss matters of faith, as our three nations lie on the crossroads of worlds."
  CBHayastanEvents.1a: "The teachings of Mani are enough."
  CBHayastanEvents.1b: "Those Mandaeans have some interesting points..."
  CBHayastanEvents.1c: "What about a return to the ways of Zarathustra?"

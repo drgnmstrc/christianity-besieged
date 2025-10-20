@@ -214,11 +214,15 @@ ARM_persarmenia_unification_3 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = { theologian = 2 } 
+		trigger = { inquisitor = 1 } 
 
 		effect = {
 			add_country_modifier = {
 				name = "tax_income_boost"
+				duration = 5475
+			}
+			add_country_modifier = {
+				name = "c_a_only_truth"
 				duration = 5475
 			}
 		}
@@ -372,12 +376,13 @@ ARM_persarmenia_unification_3 = {
 			custom_tooltip = persarmenian_unification_tt
 			hidden_effect = {
 				inherit = ERS
-				switch_tag = PSR
+				change_tag = PSR
 				add_country_modifier = {
 					name = "construction_wages"
 					duration = -1
 				}
 			}
+			swap_non_generic_missions = yes
 		}
 	}
 }
@@ -408,6 +413,8 @@ ARM_persarmenia_unification_4 = {
 			}
 			al_jazira_area = { add_permanent_claim = ROOT } 
 			shahrizor_area = { add_permanent_claim = ROOT } 
+			shirvan_area = { add_permanent_claim = ROOT } 
+			dagestan_area = { add_permanent_claim = ROOT } 
 		}
 	}
 
@@ -556,7 +563,7 @@ ARM_persarmenia_unification_5 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = { grand_captain = 3 } 
+		trigger = { grand_captain = 1 } 
 
 		effect = {
 			add_country_modifier = {
@@ -579,9 +586,8 @@ ARM_persarmenia_unification_5 = {
 		required_missions = { ARM_indomitable_azatani } 
 		provinces_to_highlight = {
 			OR = {
-				area = aleppo_area
-				area = syria_area
-				area = syrian_desert_area
+				area = shahrizor_area
+				area = al_jazira_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
