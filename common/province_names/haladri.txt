@@ -1,0 +1,30 @@
+# RULES
+# ay -> e
+# -ia/-eia -> -iy
+# beginning vowel -> h + vowel
+# -ion -> -en
+# -ium -> -em
+# -shire -> -skir
+# -polis -> -bulu
+# -burg -> -burz
+# b -> p
+# gh -> kh
+# sh -> sk
+# ch -> k
+# ph -> f
+# o -> u
+# Format: ID = { "Province" "Capital" } # Origin
+
+## EGYPT
+
+# Cyrenaica
+356 = { "al-Esparid" "Barka" } # Eusperides, Barca
+357 = { "Qirin" "Qirin" } # Cyrene
+2325 = { "Peritonem" "Peritonem" } # Paraetonium
+2326 = { "Petras" "Petras" } # Petra Maior
+
+# Tripolitania
+355 = { "Efranja" "Efranja" } # Macomedes-Euphranta
+354 = { "Trepolis" "Trepolis" } # Tripoli
+2452 = { "as-Sowar" "as-Sowar" } # Zuwarah
+2451 = { "Topaqtes" "Topaqtes" } # Petra Maior
