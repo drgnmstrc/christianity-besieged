@@ -413,7 +413,7 @@ daimyo_vassal = {
 shogun_vassal = {
 	copy_from = vassal
 	count = vassal
-    sprite = GFX_icon_shogun_vassal
+	sprite = GFX_icon_shogun_vassal
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_shogun
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_shogun
 	

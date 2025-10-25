@@ -799,6 +799,11 @@ adventures_of_ibn_kawash = {
 	colonists = 1
 	range = 0.25
 }
+mrs_religious_freedom = {
+	religious_unity = 0.20
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+}
 ##################################################
 # Harmonized Modifiers
 ##################################################

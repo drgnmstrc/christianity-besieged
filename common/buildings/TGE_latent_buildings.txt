@@ -47,22 +47,22 @@ off = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = copper
 						value = 0.4
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = copper_used
 						value = 0.4
 					}
 					
-					subtract_variable = {            
+					subtract_variable = {			
 						which = tin
 						value = 0.3
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = tin_used
 						value = 0.3
 					}
@@ -91,7 +91,7 @@ off = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_hostile_attrition = -1
 	}
 
@@ -118,12 +118,12 @@ off_2 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = iron
 						value = 1.0
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = iron_used
 						value = 1.0
 					}
@@ -152,7 +152,7 @@ off_2 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 	}
 
 	ai_will_do = {
@@ -179,12 +179,12 @@ off_3 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = lead
 						value = 1.0
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = lead_used
 						value = 1.0
 					}
@@ -213,7 +213,7 @@ off_3 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_regiment_cost = 0.25
 	}
 
@@ -245,22 +245,22 @@ off_4 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = zinc
 						value = 0.3
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = zinc_used
 						value = 0.3
 					}
 					
-					subtract_variable = {            
+					subtract_variable = {			
 						which = copper
 						value = 0.4
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = copper_used
 						value = 0.4
 					}
@@ -289,7 +289,7 @@ off_4 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_development_cost = 0.1
 	}
 
@@ -317,12 +317,12 @@ off_5 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = glass
 						value = 0.6
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = glass_used
 						value = 0.6
 					}
@@ -351,7 +351,7 @@ off_5 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_state_maintenance_modifier = 0.25
 	}
 
@@ -379,12 +379,12 @@ off_6 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = tobacco
 						value = 0.6
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = tobacco_used
 						value = 0.6
 					}
@@ -413,7 +413,7 @@ off_6 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_state_maintenance_modifier = 0.25
 	}
 
@@ -440,12 +440,12 @@ off_7 = {
 					}
 				}
 				FROM = {
-					subtract_variable = {            
+					subtract_variable = {			
 						which = cocoa
 						value = 0.6
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = cocoa_used
 						value = 0.6
 					}
@@ -474,7 +474,7 @@ off_7 = {
 	
 	modifier = { 
 		allowed_num_of_buildings = 1 
-	    trade_goods_size = -100
+		trade_goods_size = -100
 		local_state_maintenance_modifier = 0.25
 	}
 
@@ -702,27 +702,27 @@ cannon_foundry = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = copper
 					value = 0.4
 				}
 				
-				subtract_variable = {            
+				subtract_variable = {			
 					which = tin
 					value = 0.3
 				}
 				
-				change_variable = {            
+				change_variable = {			
 					which = copper_used
 					value = 0.4
 				}
 				
-				change_variable = {            
+				change_variable = {			
 					which = tin_used
 					value = 0.3
 				}
 				
-				change_variable = {            
+				change_variable = {			
 					which = cannon_foundry_amount
 					value = 1
 				}
@@ -753,22 +753,22 @@ cannon_foundry = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = copper
 						value = 0.4
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = copper_used
 						value = 0.4
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = tin
 						value = 0.3
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = tin_used
 						value = 0.3
 					}
@@ -781,7 +781,7 @@ cannon_foundry = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = cannon_foundry_amount
 					value = 1
 				}
@@ -849,17 +849,17 @@ metalworking_workshop = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = iron
 					value = 1.0
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = iron_used
 					value = 1.0
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = metalworking_workshop_amount
 					value = 1
 				}
@@ -891,12 +891,12 @@ metalworking_workshop = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = iron
 						value = 1.0
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = iron_used
 						value = 1.0
 					}
@@ -909,7 +909,7 @@ metalworking_workshop = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = metalworking_workshop_amount
 					value = 1
 				}
@@ -978,17 +978,17 @@ munition_factory = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = lead
 					value = 1.0
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = lead_used
 					value = 1.0
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = munition_factory_amount
 					value = 1
 				}
@@ -1020,12 +1020,12 @@ munition_factory = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = lead
 						value = 1.0
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = lead_used
 						value = 1.0
 					}
@@ -1038,7 +1038,7 @@ munition_factory = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = munition_factory_amount
 					value = 1
 				}
@@ -1608,27 +1608,27 @@ steam_engine_manu = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = zinc
 					value = 0.3
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = zinc_used
 					value = 0.3
 				}
 				
-				subtract_variable = {            
+				subtract_variable = {			
 					which = copper
 					value = 0.4
 				}
 				
-				change_variable = {            
+				change_variable = {			
 					which = copper_used
 					value = 0.4
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = steam_engine_manu_amount
 					value = 1
 				}
@@ -1660,22 +1660,22 @@ steam_engine_manu = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = zinc
 						value = 0.3
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = zinc_used
 						value = 0.3
 					}
 					
-					change_variable = {            
+					change_variable = {			
 						which = copper
 						value = 0.4
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = copper_used
 						value = 0.4
 					}
@@ -1688,7 +1688,7 @@ steam_engine_manu = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = steam_engine_manu_amount
 					value = 1
 				}
@@ -1808,17 +1808,17 @@ spectacle_factory = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = glass
 					value = 0.6
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = glass_used
 					value = 0.6
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = spectacle_factory_amount
 					value = 1
 				}
@@ -1850,12 +1850,12 @@ spectacle_factory = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = glass
 						value = 0.6
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = glass_used
 						value = 0.6
 					}
@@ -1868,7 +1868,7 @@ spectacle_factory = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = spectacle_factory_amount
 					value = 1
 				}
@@ -1932,17 +1932,17 @@ cigars_factory = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = tobacco
 					value = 0.6
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = tobacco_used
 					value = 0.6
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = cigars_factory_amount
 					value = 1
 				}
@@ -1974,12 +1974,12 @@ cigars_factory = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = tobacco
 						value = 0.6
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = tobacco_used
 						value = 0.6
 					}
@@ -1992,7 +1992,7 @@ cigars_factory = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = cigars_factory_amount
 					value = 1
 				}
@@ -2055,17 +2055,17 @@ chocolate_factory = {
 	on_built = {
 		hidden_effect = {
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = cocoa
 					value = 0.6
 				}
 						
-				change_variable = {            
+				change_variable = {			
 					which = cocoa_used
 					value = 0.6
 				}
 		
-				change_variable = {            
+				change_variable = {			
 					which = chocolate_factory_amount
 					value = 1
 				}
@@ -2097,12 +2097,12 @@ chocolate_factory = {
 					}
 				}
 				FROM = {
-					change_variable = {            
+					change_variable = {			
 						which = cocoa
 						value = 0.6
 					}
 				
-					subtract_variable = {            
+					subtract_variable = {			
 						which = cocoa_used
 						value = 0.6
 					}
@@ -2115,7 +2115,7 @@ chocolate_factory = {
 			}
 			
 			FROM = {
-				subtract_variable = {            
+				subtract_variable = {			
 					which = chocolate_factory_amount
 					value = 1
 				}
