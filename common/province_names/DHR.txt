@@ -33,3 +33,15 @@
 287 = { "Koba" "Koba" } # Kuban
 2414 = { "Assór" "Assór" } # Azaraba
 2413 = { "Týna" "Týna" } # Tyn
+
+# Thrace
+151 = { "Týrgarðr" "Týrgarðr" } # "Turks' City"
+149 = { "Kabelborg" "Kabelborg" } # Kavala
+1764 = { "Borgs" "Borgs" } # Burgas
+4779 = { "Galvøyl" "Galvøyl" } # Gallipoli / "The Peninsula"
+4705 = { "Kommentel" "Kommentel" } # Komotini
+
+# Propontic Coast/Hüdavendigar
+316 = { "Ankommendi" "Ankommendi" } # Nicomedia
+317 = { "Misja" "Misja" } # Mysia
+2296 = { "Trøja" "Trøja" } # Troas

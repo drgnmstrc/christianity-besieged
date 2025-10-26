@@ -1,0 +1,14 @@
+namespace = sound_player
+country_event = { # Baltic Holdings Sound
+	id = sound_player.0
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = norse_tribute_annexable.a
+		random_list = {
+			33 = { play_sound = invite_opportunists_01 }
+			33 = { play_sound = invite_opportunists_02 }
+			33 = { play_sound = invite_opportunists_03 }
+		}
+	}
+}

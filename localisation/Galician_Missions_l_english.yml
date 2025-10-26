@@ -95,8 +95,8 @@
  GAL_land_of_wine_title: "The Far Land of Wine"
  GAL_land_of_wine_desc: ""
 
- planting_vineyards_will_cost_tt: "Planting new vineyards in [Root.GetName] will cost §Y5§! ducats per level of §YBase Production§!."
- plant_new_fields_tt: "Plant new vineyards in [Root.GetName]"
+ inviting_opportunists_will_cost_tt: "Planting new vineyards in [Root.GetName] will cost §Y5§! ducats per level of §YBase Production§!."
+ invite_opportunists_tt: "Plant new vineyards in [Root.GetName]"
  purchased_in_last_ten_years_tt: "[Root.GetName] cannot have been purchased in the last 10 years."
  sold_in_last_ten_years_tt: "[Root.GetName] cannot have been sold in the last 10 years."
  buying_vineyards_will_cost_tt: "Purchasing the vineyards in [Root.GetName] will cost §Y11§! ducats per level of §YBase Production§!."

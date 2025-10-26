@@ -1797,6 +1797,15 @@ guiTypes = {
 			}
 
 
+			### CB: Invite Settlers
+			guiButtonType = {
+				name ="invite_opportunists"
+				scripted = yes
+				quadTextureSprite = "GFX_invite_opportunists"
+				# clicksound = invite_opportunists_01
+				position = { x = 194 y = 518 }
+			}
+
 			### CHANGE CULTURE VIEW
 			windowType = {
 				name = "change_culture_view"

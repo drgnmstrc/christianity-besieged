@@ -192,3 +192,18 @@ sound = {
 	name = religion_georgian_religion
 	file = "start_conversion_zoroastrian.wav"
 }
+sound = {
+	name = invite_opportunists_01
+	file = "invite_opportunists_01.wav"
+	always_load = yes
+}
+sound = {
+	name = invite_opportunists_02
+	file = "invite_opportunists_02.wav"
+	always_load = yes
+}
+sound = {
+	name = invite_opportunists_03
+	file = "invite_opportunists_03.wav"
+	always_load = yes
+}

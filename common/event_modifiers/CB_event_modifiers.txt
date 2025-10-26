@@ -804,6 +804,10 @@ mrs_religious_freedom = {
 	tolerance_heretic = 1
 	tolerance_heathen = 1
 }
+rodhaenger_community_established = {
+	local_development_cost = -0.15
+	local_unrest = -3
+}
 ##################################################
 # Harmonized Modifiers
 ##################################################

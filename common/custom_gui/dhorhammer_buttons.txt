@@ -1,0 +1,99 @@
+custom_button = {
+    name = invite_opportunists #Must match a scripted guiButtonType in a .gui file
+   	potential = {
+		FROM = { tag = DHR }
+		country_or_non_sovereign_subject_holds = FROM
+	}
+    trigger = {
+		OR = {
+			area_for_scope_province = {
+				type = all
+				OR = {
+					NOT = { culture = novgorodian }
+					NOT = { has_province_modifier = rodhaenger_community_established }
+				}
+			}
+			AND = {
+				NOT = { is_year = 1500 }
+				NOT = {
+					calc_true_if = {
+						amount = 2
+						area_for_scope_province = {
+							type = all
+							OR = {
+								culture = novgorodian
+								has_province_modifier = rodhaenger_community_established
+							}
+						}
+					}
+				}
+			}
+		}
+		NOT = { base_manpower = 6 }
+		custom_trigger_tooltip = {
+			tooltip = inviting_opportunists_will_cost_tt
+			variable_arithmetic_trigger = {
+				export_to_variable = {
+					which = settlement_cost_trigger
+					value = trigger_value:base_manpower
+				}
+				export_to_variable = {
+					which = settlement_cost_check
+					value = treasury
+					who = FROM
+				}
+				multiply_variable = {
+					which = settlement_cost_trigger
+					value = 20
+				}
+				check_variable = {
+					which = settlement_cost_check
+					which = settlement_cost_trigger
+				}
+			}
+		}
+	}
+    effect = {
+		hidden_effect = {
+			export_to_variable = {
+				which = settlement_cost_effect
+				value = trigger_value:base_production
+			}
+			while = {
+				limit = {
+					check_variable = {
+						which = settlement_cost_effect
+						value = 1
+					}
+				}
+				FROM = { add_treasury = -20 }
+				change_variable = {
+					which = settlement_cost_effect
+					value = -1
+				}
+			}
+			FROM = {
+				# country_event = {
+				# 	id = sound_player.0
+				# }
+				random_list = {
+					33 = { play_sound = invite_opportunists_01 }
+					33 = { play_sound = invite_opportunists_02 }
+					33 = { play_sound = invite_opportunists_03 }
+				}
+			}
+		}
+		if = {
+			limit = { has_province_modifier = rodhaenger_community_established }
+			change_culture = novgorodian
+		}
+		else = {
+			add_province_modifier = {
+				name = rodhaenger_community_established
+				duration = -1
+			}
+		}
+		add_base_production = 1
+	}
+    tooltip = "invite_opportunists_tt" #Can use customizable localisation
+}
