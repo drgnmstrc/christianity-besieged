@@ -29,6 +29,9 @@ custom_button = {
 				}
 			}
 		}
+		any_ally = {
+			religion = rodoptr
+		}
 		NOT = { base_manpower = 6 }
 		custom_trigger_tooltip = {
 			tooltip = inviting_opportunists_will_cost_tt

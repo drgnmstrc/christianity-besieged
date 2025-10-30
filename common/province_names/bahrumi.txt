@@ -1,0 +1,103 @@
+# RULES
+# -ia -> -ya/-iya/-iyah
+# -ium -> -iu
+# -ia -> -ya
+# ending m is dropped
+# p/v -> b
+# c -> k
+# e-/i- -> ge-/gi-
+# Format: ID = { "Province" "Capital" } # Origin
+
+## MAGHREB
+
+# North Morocco
+334 = { "Tingi" "Tingi" } # Tangiers
+335 = { "Flabya" "Flabya" } # Melilla
+1751 = { "Septu" "Septu" } # Sebta
+4563 = { "Salla" "Salla" } # Sale
+4561 = { "Teteu" "Teteu" } # Tamouda
+
+# Gharb
+342 = { "Barekata" "Barekata" } # Gharb
+345 = { "Abda" "Abda" } # Abda
+2469 = { "Hebrakopolis" "Hebrakopolis" } # Dukkala
+4564 = { "Ánfu" "Ánfu" } # Anfa
+
+# Marrekesh
+343 = { "Báss" "Báss" } # Fez
+344 = { "Marókiu" "Marókiu" } # Marrakech
+2467 = { "Bolubelu" "Bolubelu" } # Meknes
+2468 = { "Taulya" "Taulya" } # Tadla
+
+# Southern Morocco
+347 = { "Gefina" "Gefina" } # Ifni
+1110 = { "Kades Merídunalis" "Kades Merídunalis" } # Agadir
+2470 = { "Gifréniu" "Gifréniu" } # Haha
+5168 = { "Tarífa" "Tarífa" } # Tarfaya
+
+# Sus
+348 = { "Tera Sulyana" "Tera Sulyana" } # Sus
+2464 = { "Ursata" "Ursata" } # Ouarzazate
+2466 = { "Flumedaratu" "Flumedaratu" } # Draa
+4568 = { "Gitatya" "Gitatya" } # Demnate
+
+# Tafilalt
+346 = { "Rissana" "Rissana" } # Tafilalt
+349 = { "Uasana" "Uasana" } # Figuig
+2460 = { "Saurya" "Saurya" } # Saoura
+
+# North Sahara
+352 = { "Kepsa" "Kepsa" } # Gafsa
+2450 = { "Kidamu" "Kidamu" } # Ghadames
+2456 = { "Tokertu" "Tokertu" } # Touggourt
+2457 = { "Musabitu" "Musabitu" } # Mzab
+2472 = { "Arkella" "Arkella" } # Ouargla
+
+# Ouled Nail
+350 = { "Tessàgra" "Tessàgra" } # Laghouat
+351 = { "Debéskra" "Debéskra" } # Biskra
+2458 = { "Udana" "Udana" } # Hodna
+
+# Hautes Plaines
+2459 = { "Ter" "Ter" } # Titteri
+2462 = { "Ársani" "Ársani" } # Ouarsenis
+2463 = { "Kastru Afrikanu" "Kastru Afrikanu" } # Kasdir
+
+# Kabylia
+339 = { "Kabílya" "Kabílya" } # Kabylia
+340 = { "Kustantinu" "Kustantinu" } # Constantine
+1882 = { "Afrudesu" "Afrudesu" } # Annaba
+
+# Barbary Coast
+337 = { "Arányu" "Arányu" } # Oran
+2461 = { "Amedara" "Amedara" } # Dahra
+338 = { "Bakradu" "Bakradu" } # Mitidja
+
+# Algiers
+336 = { "Pomúriu" "Pomúriu" } # Tlemcen
+2465 = { "Austa" "Austa" } # Oudja
+4562 = { "Oppidu Nobu" "Oppidu Nobu" } # Mers el Kebir
+
+# Djerba
+353 = { "Tattu" "Tattu" } # Tataouine
+2453 = { "Tebàrura" "Tebàrura" } # Sfax
+2954 = { "Meniks" "Meniks" } # Djerba
+
+# Tunisia
+341 = { "Kartagu" "Kartagu" } # Carthage
+2454 = { "Sika Benére" "Sika Benére" } # Kef
+2455 = { "Gibu Sareta" "Gibu Sareta" } # Benzart
+2473 = { "Hadrumítu" "Hadrumítu" } # Sousse
+4566 = { "Kastru Kamúniu" "Kastru Kamúniu" } # Kairwan
+
+# Fezzan
+2448 = { "Fassànya" "Fassànya" } # Fezzan
+2449 = { "Iferu" "Iferu" } # Jufra
+2474 = { "Taga" "Taga" } # Tajarhi
+4567 = { "Sebba" "Sebba" } # Sabha
+
+# Tripolitania
+354 = { "Trebuli" "Trebuli" } # Tripolitania
+2451 = { "Tubákti" "Tubákti" } # Thubaqt
+2452 = { "Deiluta" "Deiluta" } # Zuwarah
+355 = { "Surti" "Surti" } # Sirt
