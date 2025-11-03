@@ -296,6 +296,7 @@ march = {
 	forcelimit_to_overlord = 0.2
 	is_march = yes
 	forms_trade_companies = no
+	takes_diplo_slot = no
 
 	# Subject Interactions:
 	scutage = no

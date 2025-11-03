@@ -5,12 +5,14 @@ custom_button = {
 		country_or_non_sovereign_subject_holds = FROM
 	}
     trigger = {
+		is_capital = no
 		OR = {
 			area_for_scope_province = {
 				type = all
 				OR = {
 					NOT = { culture = novgorodian }
 					NOT = { has_province_modifier = rodhaenger_community_established }
+					province_id = ROOT
 				}
 			}
 			AND = {
@@ -24,14 +26,21 @@ custom_button = {
 								culture = novgorodian
 								has_province_modifier = rodhaenger_community_established
 							}
+							NOT = { province_id = ROOT }
 						}
 					}
 				}
 			}
 		}
-		any_ally = {
-			religion = rodoptr
+		calc_true_if = {
+			owner = {
+				all_ally = {
+					religion = rodoptr
+				}
+				amount = 1
+			}
 		}
+		NOT = { culture = novgorodian }
 		NOT = { base_manpower = 6 }
 		custom_trigger_tooltip = {
 			tooltip = inviting_opportunists_will_cost_tt
@@ -89,6 +98,7 @@ custom_button = {
 		if = {
 			limit = { has_province_modifier = rodhaenger_community_established }
 			change_culture = novgorodian
+			change_religion = rodoptr
 		}
 		else = {
 			add_province_modifier = {

@@ -643,6 +643,43 @@ second_axarid_empire = { # I
 	}
 }
 
+skuthan_horde_reform = { # II
+	icon = "horde_riding"
+	potential = {
+		OR = {
+			tag = DHR
+			was_tag = DHR
+		}
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = steppe_horde_legacy
+	nomad = yes
+	raze_province = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		technology_group = nomad_group
+	}
+
+	lock_level_when_selected = yes
+
+
+	modifiers = {
+		loot_amount = 0.50
+		global_institution_spread = -0.15
+		cav_to_inf_ratio = 0.5
+		movement_speed = 0.2
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		years_of_nationalism = -5
+		reinforce_cost_modifier = -0.5
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
 reconvene_the_roman_senate_monarchy = { # III
 
 	icon = "parliament"
