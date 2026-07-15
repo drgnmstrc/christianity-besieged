@@ -543,7 +543,7 @@ ARM_persarmenia_unification_4 = {
 
 		effect = {
 			add_country_modifier = {
-				name = "adu_righteous_conquest"
+				name = "righteous_conquest"
 				duration = 36500
 			}
 		}

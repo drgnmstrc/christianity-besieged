@@ -46,7 +46,7 @@ ARM_persarmenia_integration_2 = {
 				province_id = 462
 				province_id = 1856
 				province_id = 2195
-				province_id = 2247
+				province_id = 2`447
 				province_id = 285
 				province_id = 2410
 			}
@@ -58,7 +58,7 @@ ARM_persarmenia_integration_2 = {
 			462 = { has_building = road_network } 
 			1856 = { has_building = road_network } 
 			2195 = { has_building = road_network } 
-			2247 = { has_building = road_network } 
+			2447 = { has_building = road_network } 
 			285 = { has_building = road_network } 
 			2410 = { has_building = road_network } 
 		}
@@ -72,7 +72,7 @@ ARM_persarmenia_integration_2 = {
 						province_id = 462
 						province_id = 1856
 						province_id = 2195
-						province_id = 2247
+						province_id = 2447
 						province_id = 285
 						province_id = 2410
 					}
@@ -379,7 +379,7 @@ ARM_persarmenia_integration_4 = {
 
 		trigger = { ALX = { is_subject_of = ROOT }  } 
 
-		effect = { egypt_region = { add_permanent_claim = SZK }  } 
+		effect = { egypt_region = { add_permanent_claim = ALX }  } 
 	}
 }
 ARM_persarmenia_integration_5 = {
