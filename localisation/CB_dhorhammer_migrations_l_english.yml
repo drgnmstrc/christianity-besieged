@@ -1,0 +1,7 @@
+﻿l_english:
+ invite_migration_short: "Office"
+ invite_migration_full: "Grand Coordinator Office"
+
+ inviting_opportunists_will_cost_tt: "Inviting opportunists from the homeland to [Root.GetName] will cost §Y20§! ducats per level of §YBase Production§!."
+ invite_opportunists_tt: "Invite opportunists to settle in [Root.GetName]"
+ centralized_royal_cellars_tt: "Has centralized the royal cellars"

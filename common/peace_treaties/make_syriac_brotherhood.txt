@@ -27,13 +27,14 @@ force_syriac_brotherhood = {
 	requires_is_allowed = yes # Whether it is required to be specifically allowed by a cb (such as restoration of union). If no, unjustified demands is applied.
 	
 	is_visible = { #when is this option viewable
-		THIS = {
-			tag = SRY
-			has_casus_belli = {
-				type = cb_force_communion
-				target = FROM
-			}
+		can_be_overlord = syriac_brotherhood
+		is_in_war = {
+			casus_belli = cb_force_communion
+			defenders = FROM
 		}
+		# THIS = {
+			
+		# }
 		
 	}
 	is_allowed = { #when is this option allowed/selectable
@@ -57,9 +58,11 @@ force_syriac_brotherhood = {
 			subject = FROM
 			subject_type = syriac_brotherhood
 		}
-		change_religion = syriac
-		change_government = theocracy
-		add_government_reform = syriac_akhuta_reform
+		FROM = {
+			change_religion = syriac
+			change_government = theocracy
+			add_government_reform = syriac_akhuta_reform
+		}
 	}
 	 ai_weight = { 
 		export_to_variable = {

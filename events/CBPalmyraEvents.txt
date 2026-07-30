@@ -23,8 +23,8 @@ country_event = { # Nabathu Demands Rabat ben Ghamath
 		hidden_effect = { complete_mission = PLM_exact_revenge }
 		ai_chance = {
 			factor = 20
-        }
-    }
+		}
+	}
 	option = { # You can go to hell! In fact, I'll send you there myself!
 		name = CBPalmyraEvents.0b
 		ROOT = {
@@ -38,8 +38,8 @@ country_event = { # Nabathu Demands Rabat ben Ghamath
 		}
 		ai_chance = {
 			factor = 20
-        }
-    }
+		}
+	}
 }
 
 country_event = { # Nabathu Usurped by Palmyra!
@@ -192,9 +192,9 @@ country_event = { # Fonnim Flee to the West
 				switch_tag = HDS
 			}
 		}
-    }
+	}
 
 	option = { # Whatever.
-		name = CBPalmyraEvents.3c
-    }
+		name = CBPalmyraEvents.3b
+	}
 }

@@ -11,3 +11,7 @@ restoration_of_ctesiphon = {
 	local_defensiveness = 0.25
 	local_fort_maintenance_modifier = -0.5
 }
+
+righteous_conquest = {
+	warscore_cost_vs_other_religion = -0.25
+}

@@ -1304,6 +1304,7 @@ country_event = { # The Adventures of Ibn Kawash
 		add_ruler_modifier = {
 			name = adventures_of_ibn_kawash
 		}
+		add_ruler_personality = expansionist_personality
 		sahel_region = {
 			discover_country = ROOT
 		}
@@ -1407,7 +1408,7 @@ province_event = { # Rex Britannicus?
 	}
 }
 
-country_event = { # Rex Britannicus?
+country_event = { # Eastern Wonders
 	id = CBFlavorEvents.22
 	title = CBFlavorEvents.22t
 	desc = CBFlavorEvents.22d
@@ -1427,5 +1428,83 @@ country_event = { # Rex Britannicus?
 			houfnice = ROOT
 		}
 		set_country_flag = nabuthia_startup
+	}
+}
+
+country_event = { # The Legend of Khashkhash Ibn Sa'id of [225.GetName]
+	id = CBFlavorEvents.23
+	title = CBFlavorEvents.23t
+	desc = CBFlavorEvents.23d
+	picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+
+	option = { # This rumor should be investigated!
+		name = CBFlavorEvents.23a
+		trigger = {
+			treasury = 150
+		}
+		add_treasury = -150
+		501 = {
+			add_core = ROOT
+			add_siberian_construction = 50
+		}
+	}
+
+	option = { # We can provide some funding.
+		name = CBFlavorEvents.23b
+		trigger = {
+			treasury = 100
+		}
+		add_treasury = -100
+		random_list = {
+			75 = {
+				501 = {
+					add_core = ROOT
+					add_siberian_construction = 50
+				}
+			}
+			25 = {
+				random_province = {
+					limit = {
+						light_ships_in_province = ROOT
+					}
+					kill_units = {
+						type = light_ship
+						amount = 1
+					}
+				}
+			}
+		}
+	}
+
+	option = { # We shall send a token force.
+		name = CBFlavorEvents.23c
+		trigger = {
+			treasury = 50
+		}
+		add_treasury = -50
+		random_list = {
+			50 = {
+				501 = {
+					add_core = ROOT
+					add_siberian_construction = 50
+				}
+			}
+			50 = {
+				random_province = {
+					limit = {
+						light_ships_in_province = ROOT
+					}
+					kill_units = {
+						type = light_ship
+						amount = 1
+					}
+				}
+			}
+		}
+	}
+
+	option = { # Unfortunately, we simply haven't the funds.
+		name = CBFlavorEvents.23e
 	}
 }

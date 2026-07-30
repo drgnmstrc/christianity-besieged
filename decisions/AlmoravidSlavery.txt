@@ -17,6 +17,10 @@ country_decisions = {
 						flag = naghali_enfranchisement
 						days = 9125
 					}
+					NOT = {
+						has_country_flag = naghali_repression
+						has_country_flag = naghali_enfranchisement
+					}
 				}
 			}
 		}

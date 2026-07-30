@@ -1,0 +1,47 @@
+# RULES
+# -ia -> -ja
+# -io -> -eo
+# -ion -> -jans
+# long o/u -> ø
+# th -> þ/f
+# d -> ð
+# b/u -> w
+# e -> ä
+# ph -> f
+# Format: ID = { "Province" "Capital" } # Origin
+
+## PONTIC STEPPE 
+
+# Crimea
+2410 = { "Ðórrhammr" "Ðórrhammr" }
+284 = { "Krím" "Kerskør" } # Crimea, Qiqr-yer
+285 = { "Fälðosja" "Fälðosja" } # Theodosia
+2447 = { "Fanagór" "Fanagór" } # Phanagoria
+
+# Yedisan
+1974 = { "Kerrassons" "Kerrassons" } # Cherson / "Chariot Sons"
+2406 = { "Angerja" "Angragarðr" } # Hungary, "Hungarian City" 
+282 = { "Jedsson" "Jedsson" } # Yedisan / "Jed's Son"
+
+# Zaporizhia
+2412 = { "Nýr Aleksborg" "Nýr Aleksborg" } # "Aleks's New Town"
+2411 = { "Mansórr" "Mansórr" } # Mansur 
+283 = { "Slawórra" "Slawórra" } # "Slavia"
+
+# Azov
+286 = { "Tanäs" "Tanäs" } # Tanais
+287 = { "Koba" "Koba" } # Kuban
+2414 = { "Assór" "Assór" } # Azaraba
+2413 = { "Týna" "Týna" } # Tyn
+
+# Thrace
+151 = { "Týrgarðr" "Týrgarðr" } # "Turks' City"
+149 = { "Kabelborg" "Kabelborg" } # Kavala
+1764 = { "Borgs" "Borgs" } # Burgas
+4779 = { "Galvøyl" "Galvøyl" } # Gallipoli / "The Peninsula"
+4705 = { "Kommentel" "Kommentel" } # Komotini
+
+# Propontic Coast/Hüdavendigar
+316 = { "Ankommendi" "Ankommendi" } # Nicomedia
+317 = { "Misja" "Misja" } # Mysia
+2296 = { "Trøja" "Trøja" } # Troas

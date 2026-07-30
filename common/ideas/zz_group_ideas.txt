@@ -448,18 +448,18 @@ bengali_ideas = {
 			TAG = KAC
 		}
 	}
-    free = yes       #will be added at load.
-    
-	hindu_sufi_syncretism = {            
+	free = yes	   #will be added at load.
+	
+	hindu_sufi_syncretism = {			
 		religious_unity = 0.5
 	}
-	ganges_brahmaputra_confluence = {                    
+	ganges_brahmaputra_confluence = {					
 		trade_efficiency = 0.1
 	}
-	rice_fields = {                
+	rice_fields = {				
 		global_manpower_modifier = 0.2
 	}
-	mustard_oil_ilish_mach = {                             
+	mustard_oil_ilish_mach = {							 
 		war_exhaustion_cost = -0.10
 	}
 	jute_production = {
@@ -868,20 +868,20 @@ german_ideas = {
 	
 	bonus = {
 		technology_cost = -0.05
-        idea_cost = -0.05
+		idea_cost = -0.05
 	}
 	
 	trigger = {
 		OR = {
-            culture_group = germanic_group
-            culture_group = cisalpin_romisch
-        }
+			culture_group = germanic_group
+			culture_group = cisalpin_romisch
+		}
 	}
-	free = yes        #will be added at load.
+	free = yes		#will be added at load.
 	
 	zunft = {
 		production_efficiency = 0.10
-        expand_infrastructure_cost_modifier = -0.1
+		expand_infrastructure_cost_modifier = -0.1
 	}
 	fruhlings_und_herbstmesse = {
 		global_own_trade_power = 0.10
@@ -889,23 +889,23 @@ german_ideas = {
 	}
 	reichskreis = {
 		diplomatic_reputation = 1
-        diplomatic_upkeep = 1
+		diplomatic_upkeep = 1
 	}
 	polizeiordnung = {
 		global_unrest = -1
-        global_prosperity_growth = 0.05
+		global_prosperity_growth = 0.05
 	}
 	cuius_regio_eius_religio = {
 		global_missionary_strength = 0.01
-        tolerance_own = 1
+		tolerance_own = 1
 	}
 	thurn_und_taxis = {
 		envoy_travel_time = -0.3
-        trade_range_modifier = 0.25
+		trade_range_modifier = 0.25
 	}
 	residenzstadt = {
 		prestige = 1
-        build_cost = -0.15
+		build_cost = -0.15
 	}
 }
 
@@ -1490,22 +1490,22 @@ TIB_ideas = {
 			}
 		}
 	}
-	free = yes       #will be added at load.
+	free = yes	   #will be added at load.
 	
-	vajrayana_buddhism  = {                    
+	vajrayana_buddhism  = {					
 		stability_cost_modifier = -0.10
 	}
-	bon_influence = {                
+	bon_influence = {				
 		leader_land_shock = 1
 	}
 	yaks = {
 		production_efficiency = 0.1
 	}
-	way_of_virtue= {            
+	way_of_virtue= {			
 		tolerance_heretic = 1
 		tolerance_heathen = 1
 	}
-	potala_palace = {                             
+	potala_palace = {							 
 		diplomatic_reputation = 1
 	}
 	way_of_ancients = {

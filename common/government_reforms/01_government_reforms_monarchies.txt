@@ -1199,7 +1199,7 @@ bulgarian_tsardom_reform = {
 		}
 	}
 	trigger = {
-		religion = orthodox
+		religion = rodoptr
 		if = {
 			limit = { has_updated_culture = { culture = slavic } }
 			primary_culture = bulgarian_new
@@ -1210,7 +1210,7 @@ bulgarian_tsardom_reform = {
 	}
 	nation_designer_trigger = {
 		has_dlc = "Domination"
-		religion = orthodox
+		religion = rodoptr
 		primary_culture = bulgarian
 	}
 	valid_for_nation_designer = yes
@@ -2461,10 +2461,11 @@ principality = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { has_reform = tsardom }
-		religion = orthodox
+		NOT = { have_had_reform = tsardom }
+		religion = rodoptr
 		OR = {
 			culture_group = east_slavic
-			culture_group = slavic
+			culture_group = eastern_slavic
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = principality
@@ -2472,50 +2473,33 @@ principality = {
 		}
 	}
 	fixed_rank = 1
+	allow_migration = yes
 	legacy_equivalent = principality_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5
 	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		religion = orthodox
+		culture_group = east_slavic
+		religion = norse_pagan_reformed
 	}
 	modifiers = {
-		global_unrest = -1
-		global_regiment_cost = -0.05
-		governing_capacity = 200
-		has_streltsy = yes
-		allowed_streltsy_fraction = 0.1
+		monarch_military_power = 1
+		global_tax_modifier = 0.05
+		governing_capacity = 150
 	}
+
 	conditional = {
-		allow = { 
-			OR = {
-				has_dlc = "Third Rome" 
-				has_dlc = "Domination"
-			}
-		}
+		allow = { has_dlc = "Third Rome" }
 		government_abilities = {
 			russian_mechanic
-		}
-		custom_attributes = {
-			weaker_russian_ability = yes
 		}
 	}
 }
 
 tsardom = {
-	icon = "tsardom"
+	icon = "king"
 	allow_normal_conversion = yes
 	potential = {
-		religion = orthodox
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		NOT = { primary_culture = ruthenian }
-		NOT = { primary_culture = byelorussian }
+		religion = rodoptr
 		OR = {
 			AND = {
 				tag = RUS
@@ -2537,43 +2521,23 @@ tsardom = {
 	nation_designer_cost = 40
 
 	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
-		NOT = { primary_culture = ruthenian }
-		NOT = { primary_culture = byelorussian }
-		religion = orthodox
+		culture_group = east_slavic
+		religion = norse_pagan_reformed
 	}
 
 	modifiers = {
 		global_manpower_modifier = 0.20
-		yearly_absolutism = 0.5
+		yearly_absolutism = 0.1
 		global_autonomy = -0.05
-		governing_capacity = 350
-		has_streltsy = yes
-		allowed_streltsy_fraction = 0.2
+		governing_capacity = 500
 	}
 
 	conditional = {
 		allow = { has_dlc = "Third Rome" }
+		government_abilities = {
+			russian_mechanic
+		}
 		claim_states = yes
-	}
-	conditional = {
-		allow = { 
-			has_dlc = "Third Rome" 
-			NOT = { has_dlc = "Domination" }
-		}
-		government_abilities = {
-			russian_mechanic
-		}
-	}
-	conditional = {
-		allow = { has_dlc = "Domination" }
-		government_abilities = {
-			russian_mechanic
-			russian_modernization_mechanic
-		}
 	}
 }
 
@@ -2581,7 +2545,7 @@ ruthenian_tsardom = {
 	icon = "ruthenia_tsardom"
 	allow_normal_conversion = yes
 	potential = {
-		religion = orthodox
+		religion = rodoptr
 		OR = {
 			primary_culture = ruthenian
 			primary_culture = byelorussian
@@ -2601,7 +2565,7 @@ ruthenian_tsardom = {
 	}
 	fixed_rank = 3
 	nation_designer_trigger = {
-		religion = orthodox
+		religion = rodoptr
 		OR = {
 			primary_culture = ruthenian
 			primary_culture = byelorussian
@@ -2619,7 +2583,7 @@ ruthenian_tsardom = {
 			primary_culture = ruthenian_new
 			primary_culture = byelorussian_new
 		}
-		religion = orthodox
+		religion = rodoptr
 	}
 
 	modifiers = {

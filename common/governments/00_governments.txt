@@ -211,6 +211,8 @@ monarchy = {
 				#1.37 Trebizond
 				crusader_nobility_reform
 				TIM_plunder_economy
+				# CB
+				skuthan_horde_reform
 			}
 		}
 		bureaucracy = {

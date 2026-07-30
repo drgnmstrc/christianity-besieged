@@ -1,0 +1,278 @@
+# Format: ID = { "Province" "Capital" } # Origin
+
+## MAGHREB
+
+# North Morocco
+334 = { "Tin Iggi" "Tin Iggi" } # Tangiers
+335 = { "Tittawan" "Tittawan" } # Melilla
+1751 = { "Sebta" "Sebta" } # Sebta
+4563 = { "Sla" "Sla" } # Sale
+4561 = { "Tamouda" "Tamouda" } # Tamouda
+
+# Gharb
+342 = { "Lukus" "Lukus" } # Gharb
+345 = { "Mugadur" "Mugadur" } # Abda
+2469 = { "Azemmur" "Azemmur" } # Dukkala
+4564 = { "Anfa" "Anfa" } # Anfa
+
+# Marrekesh
+343 = { "Walili" "Walili" } # Fez
+344 = { "Amurakuq" "Amurakuq" } # Marrakech
+2467 = { "Meknas" "Meknas" } # Meknes
+2468 = { "Mellal" "Mellal" } # Tadla
+
+# Southern Morocco
+347 = { "Ifni" "Ifni" } # Ifni
+1110 = { "Agadir" "Agadir" } # Agadir
+2470 = { "Ifniqa" "Ifniqa" } # Haha
+5168 = { "Tarfaya" "Tarfaya" } # Tarfaya
+
+# Sus
+348 = { "Ishelha" "Ishelha" } # Sus
+2464 = { "Warzazat" "Warzazat" } # Ouarzazate
+2466 = { "Dra" "Dra" } # Draa
+4568 = { "Demnat" "Demnat" } # Demnate
+
+# Tafilalt
+346 = { "Isgelmasen" "Isgelmasen" } # Tafilalt
+349 = { "Figig" "Figig" } # Figuig
+2460 = { "Wedrar" "Wedrar" } # Saoura
+
+# North Sahara
+352 = { "Kapsnen" "Kapsnen" } # Gafsa
+2450 = { "Eadimes" "Eadimes" } # Ghadames
+2456 = { "Tugurt" "Tugurt" } # Touggourt
+2457 = { "Mzab" "Mzab" } # Mzab
+2472 = { "Wergla" "Wergla" } # Ouargla
+
+# Ouled Nail
+350 = { "Tizgrarin" "Tizgrarin" } # Laghouat
+351 = { "Tibeskert" "Tibeskert" } # Biskra
+2458 = { "Mastigs" "Mastigs" } # Hodna
+
+# Hautes Plaines
+2459 = { "Tittri" "Tittri" } # Titteri
+2462 = { "Warsnis" "Warsnis" } # Ouarsenis
+2463 = { "Neama" "Neama" } # Kasdir
+
+# Kabylia
+339 = { "Iqbayliyen" "Iqbayliyen" } # Kabylia
+340 = { "Qsentina" "Qsentina" } # Constantine
+1882 = { "Eannaba" "Eannaba" } # Annaba
+
+# Barbary Coast
+337 = { "Wehran" "Wehran" } # Oran
+2461 = { "Ddehra" "Ddehra" } # Dahra
+338 = { "Mettijet" "Mettijet" } # Mitidja
+
+# Algiers
+336 = { "Tikfar" "Tikfar" } # Tlemcen
+2465 = { "Wejdet" "Wejdet" } # Oudja
+4562 = { "Difnes" "Difnes" } # Mers el Kebir
+
+# Djerba
+353 = { "Tittawin" "Tittawin" } # Tataouine
+2453 = { "Ksar" "Ksar" } # Sfax
+2954 = { "Jerba" "Jerba" } # Djerba
+
+# Tunisia
+341 = { "Qertaj" "Qertaj" } # Carthage
+2454 = { "Sikafnes" "Sikafnes" } # Kef
+2455 = { "Benzart" "Benzart" } # Benzart
+2473 = { "Wanrikabs" "Wanrikabs" } # Sousse
+4566 = { "Maskilnen" "Maskilnen" } # Kairwan
+
+# Fezzan
+2448 = { "Ifezzan" "Ifezzan" } # Fezzan
+2449 = { "Isuknen" "Isuknen" } # Jufra
+2474 = { "Germa" "Germa" } # Tajarhi
+4567 = { "Hakran" "Hakran" } # Sabha
+
+# Tripolitania
+354 = { "Trables" "Trables" } # Tripolitania
+2451 = { "Misrata" "Misrata" } # Thubaqt
+2452 = { "Zwara" "Zwara" } # Zuwarah
+355 = { "Surt" "Surt" } # Sirt
+
+## ITALY
+
+# Eastern Sicily
+126 = { "Mlat" "Mlat" } # Meliti
+2982 = { "Isarkes" "Isarkes" } # Syracusa
+124 = { "Msenen" "Msenen" } # Messana
+
+# Western Sicily
+4737 = { "Qerkant" "Qerkant" } # Jirjant
+4736 = { "Trapnen" "Trapnen" } # Drepanon
+125 = { "Ipalrem" "Ipalrem" } # Panormos
+
+# Calabria
+1934 = { "Ilukna" "Ilukna" } # Lucania, Potentia
+2984 = { "Iksens" "Iksens" } # Consentia
+123 = { "Lkabren" "Iregens" } # Calabria, Rhigion/Reggium
+
+# Apulia
+122 = { "Isalya" "Taransen" } # Sallentium, Tarantos
+1933 = { "Ibren" "Ibren" } # Barion
+2985 = { "Ikeptnasen" "Ikeptnasen" } # Phocaea/Focias
+4733 = { "Mulsen" "Mulsen" } # Molisium, Campobasum + Greek "kannabis"
+
+# Campania
+4734 = { "Aflinin" "Aflinin" } # Avellinum
+2983 = { "Isalren" "Isalren" } # Salernum
+121 = { "Napuli" "Napuli" } # Neapolis
+
+# Marche-Abruzzo
+119 = { "Eanknes" "Eanknes" } # Ankon
+120 = { "Ibrusa" "Miternsen" } # Aprutium, Amiternum + Greek "mythos"
+2977 = { "Ribnen" "Ribnen" } # Urbinum
+
+# Lazio-Umbria
+118 = { "Ruma" "Ruma" } # Roma
+2976 = { "Bergya" "Bergya" } # Perusia
+4732 = { "Trasnan" "Trasnan" } # Tarracina
+4731 = { "Ispletnes" "Ispletnes" } # Spoletium
+
+# Tuscany
+117 = { "Isnea" "Isnea" } # Saena
+116 = { "Afrenses" "Afrenses" } # Florentia
+115 = { "Bza" "Bza" } # Pisa
+2978 = { "Artusen" "Artusen" } # Arretium
+2980 = { "Ilka" "Ilka" } # Lucca
+
+# Tyrrhenian Isles
+127 = { "Ssaren" "Ssaren" } # Turris
+2986 = { "Kasddun" "Kasddun" } # Caralis
+4735 = { "Rbrea" "Rbrea" } # Tharros
+1247 = { "Kursika" "Lalli" } # Corsica, Alalia
+
+# Liguria
+101 = { "Ijnuyen" "Ijnuyen" } # Genua
+2992 = { "Albnens" "Albnens" } # Albinganim
+102 = { "Inz" "Inz" } # Nicaea
+
+# Emilia-Romagna
+105 = { "Parames" "Parames" } # Parma
+106 = { "Mudna" "Mudna" } # Modena
+113 = { "Afraren" "Afraren" } # Ferrara
+114 = { "Irafnas" "Irafnas" } # Ravenna
+4730 = { "Ablonyes" "Ablonyes" } # Bologna
+
+# Venetia
+108 = { "Afrnem" "Afrnem" } # Verona
+111 = { "Ifrilen" "Ifrilen" } # Friuli
+112 = { "Afnisa" "Afnisa" } # Venezia
+1774 = { "Trabsun" "Trabsun" } # Treviso
+4729 = { "Padfan" "Padfan" } # Padova
+
+# Po Valley
+109 = { "Imenten" "Imenten" } # Mantova
+107 = { "Breza" "Breza" } # Mantova
+4739 = { "Ibragmes" "Ibragmes" } # Bergamo
+
+# Lombardy
+4728 = { "Bafi" "Bafi" } # Pavia
+2979 = { "Inbar" "Inbar" } # Novara
+4740 = { "Akmu" "Akmu" } # Como
+104 = { "Mlanes" "Mlanes" } # Milano
+1862 = { "Akrmunes" "Akrmunes" } # Cremona
+
+# Piedmont
+103 = { "Tirnen" "Tirnen" } # Taurinium
+1875 = { "Akna" "Akna" } # Cuneo
+2981 = { "Imunsfran" "Imunsfran" } # Montferrat
+4727 = { "Isalzzen" "Isalzzen" } # Saluzzo
+
+## IBERIA
+
+# Aragon
+211 = { "Aska" "Aska" } # Huesca
+214 = { "Isaldens" "Isaldens" } # Caesaraugusta
+2990 = { "Itrelnes" "Itrelnes" } # Teruel
+4557 = { "Ablnenes" "Ablnenes" } # Calatayud
+
+# Catalonia
+197 = { "Arsensen" "Arsensen" } # Ruscino, Perpignan
+212 = { "Granen" "Granen" } # Ausetani, Girona
+213 = { "Ibarsen" "Ibarsen" } # Barcelona
+2987 = { "Lirdenen" "Lirdenen" } # Urgell, Tárrega
+2988 = { "Targen" "Targen" } # Tarragona
+
+# Valencia
+220 = { "Iblenzen" "Iblenzen" } # Valentia
+1750 = { "Ilaknet" "Ilaknet" } # Lucentum
+4549 = { "Aztaben" "Aztaben" } # Xativa
+4550 = { "Kraya" "Kraya" } # Al-qaria "Village"
+
+# Lower Andalucia
+224 = { "Seblen" "Seblen" } # Hispalis
+225 = { "Qurdben" "Qurdben" } # Corduba
+1748 = { "Ajnen" "Ajnen" } # Jaen
+1749 = { "Agadeznen" "Agadeznen" } # Gades
+4548 = { "Alban" "Alban" } # Huelva
+
+# Upper Andalucia
+222 = { "Ipken" "Ipken" } # Almería
+223 = { "Ilbren" "Ilbren" } # Granada
+226 = { "Amnskaben" "Amnskaben" } # Mons Calpe
+4546 = { "Imnaken" "Imnaken" } # Malaga
+
+# Toledo
+219 = { "Idolten" "Idolten" } # Toledo
+221 = { "Amraten" "Amraten" } # Murcia
+2751 = { "Iqunken" "Iqunken" } # Cuenca
+2754 = { "Arkablen" "Arkablen" } # La Mancha
+4547 = { "Ilnusen" "Ilnusen" } # Albacete
+
+# Baleares
+333 = { "Majreken" "Majreken" } # Mallorca
+4560 = { "Bisnen" "Bisnen" } # Ibiza/Ebusus
+4559 = { "Imnarken" "Imnarken" } # Minorca
+
+# Extredamura
+218 = { "Paqsna" "Paqsna" } # Badajóz
+4788 = { "Mapruzzen" "Mapruzzen" } # "Castle"
+1747 = { "Qsaren" "Qsaren" } # Ambracia
+
+# Alentejo
+227 = { "Lshpen" "Lshpen" } # Lisboa
+229 = { "Ipka" "Ipka" } # Beja
+230 = { "Libgrednen" "Libgrednen" } # Algarve
+4150 = { "Ibra" "Ibra" } # Évora
+4787 = { "Irbtajen" "Irbtajen" } # Ribatejo
+
+# Galicia
+206 = { "Akrunen" "Akrunen" } # A Coruña/"The Crown"
+4554 = { "Alkensen" "Alkensen" } # Lucus Augusti
+4555 = { "Iptabrten" "Iptabrten" } # Ponte Vetera
+4558 = { "Abstren" "Abstren" } # Burgas
+
+# Beieras
+231 = { "Ipurtes" "Ipurtes" } # Portus
+232 = { "Ibragen" "Ibragen" } # Bragança
+228 = { "Ibren" "Ibren" } # Bayïr
+4556 = { "Abren" "Abren" } # Aber, Vissaium
+1851 = { "Iqmenen" "Iqmenen" } # Conimbraga
+
+# León
+216 = { "Irmana" "Irmana" } # Helmantike
+4553 = { "Izmaren" "Izmaren" } # Semure
+208 = { "Ilgaten" "Ilgaten" } # Legion
+
+# North Castile
+4552 = { "Iplansen" "Iplansen" } # Palencia
+1746 = { "Klena" "Klena" } # Qíla — (no entry for this ID in your list)
+1745 = { "Iktabra" "Iktabra" } # Cantabria, Sanctus Rex
+207 = { "Astra" "Astra" } # Asturias, Uviéu
+
+# South Castile
+215 = { "Ibalden" "Ibalden" } # Valladolid
+217 = { "Magdrens" "Magdrens" } # Madrid
+4789 = { "Sagba" "Sagba" } # Segovia
+2755 = { "Isrensen" "Isrensen" } # Soria
+4551 = { "Abla" "Abla" } # Avíla
+
+# Navarra
+209 = { "Ibsken" "Ibsken" } # Vizcaya
+2989 = { "Abrjen" "Abrjen" } # La Rioja
+210 = { "Ipamplen" "Ipamplen" } # Pamplona

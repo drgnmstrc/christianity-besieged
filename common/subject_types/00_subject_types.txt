@@ -296,6 +296,7 @@ march = {
 	forcelimit_to_overlord = 0.2
 	is_march = yes
 	forms_trade_companies = no
+	takes_diplo_slot = no
 
 	# Subject Interactions:
 	scutage = no
@@ -413,7 +414,7 @@ daimyo_vassal = {
 shogun_vassal = {
 	copy_from = vassal
 	count = vassal
-    sprite = GFX_icon_shogun_vassal
+	sprite = GFX_icon_shogun_vassal
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_shogun
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_shogun
 	

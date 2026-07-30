@@ -1099,25 +1099,25 @@ japanese_empire_reform = {
 		1 = KOUSEI_consort
 		2 = KOUSEI_consort
 		3 = KOUSEI_consort
-    }
-    
-    consort_female = {
+	}
+	
+	consort_female = {
 		1 = KOGO_consort
 		2 = KOGO_consort
 		3 = KOGO_consort
-    }
-    
-    heir_male = {
+	}
+	
+	heir_male = {
 		1 = KOTAISHI
 		2 = KOTAISHI
 		3 = KOTAISHI
-    }
-    
-    heir_female = {
+	}
+	
+	heir_female = {
 		1 = KOTAISHI_HI
 		2 = KOTAISHI_HI
 		3 = KOTAISHI_HI
-    }
+	}
 	
 	trigger = {
 		has_reform = japanese_empire_reform
